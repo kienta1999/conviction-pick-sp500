@@ -30,6 +30,59 @@ for a different model, honor it and note the cost implication.
 
 ---
 
+## Dispatch policy — SEQUENTIAL, and every agent writes to disk
+
+The owner runs this system under a **monthly spend limit**. A parallel fan-out
+burns the remaining budget simultaneously and, when the limit trips, *every*
+in-flight agent dies at once and its work is lost — this has already cost two
+runs (2026-07-30 and 2026-08-03). Both rules below are mandatory in every
+phase that spawns subagents (Phase 2 research, Phase 3 panel, Phase 3.5
+verification).
+
+**1. Dispatch one agent at a time.** Never issue multiple `Agent` calls in one
+message. Spawn agent 1, wait for it to complete, persist its output, then spawn
+agent 2. Use `run_in_background: false` so the run blocks until the agent
+returns. This is slower in wall-clock terms and that is the accepted trade: a
+sequential run that hits the limit at agent 3 keeps agents 1–2, whereas a
+parallel run loses all of them. If the user explicitly asks for speed over
+safety, parallelize — but say what it risks.
+
+**2. Every subagent writes its own output to a designated file BEFORE
+returning.** Give each agent an explicit absolute `WRITE_TO` path in its prompt
+and require it to `Write` the full output there as its final action, then
+return only a short summary. The orchestrator reads the files at assembly time.
+An agent that returns prose but wrote nothing has produced work that dies with
+the context.
+
+Designated paths (`OUT = output/<MODE>/`, `RUN = today's date YYYY-MM-DD`):
+
+```
+OUT/parts/RUN/research_batch<N>.md      # Phase 2, one per batch
+OUT/parts/RUN/ballot_<lens><round>.md   # Phase 3, one per panelist (A1, B1, …)
+OUT/parts/RUN/verification.md           # Phase 3.5
+```
+
+Create `OUT/parts/<RUN>/` before dispatching. These are working artifacts, not
+deliverables — the consolidated `OUT/research_dossier.md` and the final
+`final_pick.md` / `final_ranking.md` are still what gets published, and the
+ledger still points at those.
+
+**3. Resume, don't restart.** At the start of any phase, check whether
+`OUT/parts/<RUN>/` already holds outputs from an interrupted run of the same
+day. Reuse every file that is already there and only dispatch the agents whose
+files are missing. Say which parts you reused. If a prior run left a partial
+dossier under a different name, read it and fold it in rather than
+re-researching those tickers — a fresh search on a name already covered days
+ago is budget spent for nothing.
+
+**4. If an agent dies on the spend limit,** persist whatever completed, tell the
+user plainly which names are missing, and offer the choice: wait for budget,
+proceed with the field you have (noting the gap in the writeup), or let the
+orchestrator fill the gap itself with a handful of direct `WebSearch` calls in
+its own context (cheaper than a subagent, but it consumes orchestrator context).
+
+---
+
 ## Mode — one final pick (default) or a ranked top-N
 
 The funnel is **identical** in both modes through Phases 0–2; only Phase 3's
@@ -100,10 +153,13 @@ a couple of high-composite names were dropped if they lack the doctrine angle.
 
 ## Phase 2 — Deep web research (parallel research subagents)
 
-Split the ~12-15 names into 3-4 batches and spawn one **research subagent per
-batch** in parallel (single message, multiple `Agent` calls; model per the
-subagent policy above). Give each subagent the **skill's research brief** with
-its batch of tickers filled in.
+Split the ~12-15 names into 3-4 batches and run one **research subagent per
+batch** — **sequentially, one at a time, per the dispatch policy above** (model
+per the subagent policy). Give each subagent the **skill's research brief** with
+its batch of tickers filled in, plus its `WRITE_TO` path
+`OUT/parts/<RUN>/research_batch<N>.md` and the instruction to write the full
+dossier there before returning. After each agent returns, confirm the file
+exists before dispatching the next one.
 
 **Earnings-quality flags:** for any batch ticker whose `shortlist.json` record
 has a non-empty `earnings_quality.flags` list, append this to its brief:
@@ -123,12 +179,21 @@ scores. Save it to `OUT/research_dossier.md`.
 
 ## Phase 3 — Independent nomination / ranking (the voting panel)
 
-Spawn **4 independent selection subagents** in parallel (one message, four
-`Agent` calls). Give all four the **same** consolidated dossier, but assign
-each one of the **skill's four lenses** so the panel isn't an echo chamber.
-**In ranked top-N mode with R > 1, spawn 4×R agents** (R independent rounds of
-the four lenses) — parallelize as far as is practical (batch the messages if
-4×R is large).
+Run **4 independent selection subagents** — **sequentially, one at a time, per
+the dispatch policy above**. Give all four the **same** consolidated dossier,
+but assign each one of the **skill's four lenses** so the panel isn't an echo
+chamber. Each panelist writes its ballot to
+`OUT/parts/<RUN>/ballot_<lens><round>.md` before returning.
+**In ranked top-N mode with R > 1, run 4×R agents** (R independent rounds of the
+four lenses), still one at a time. A panel that loses agents mid-fan-out
+produces a vote you cannot honestly tally — if the budget dies partway, report
+the ballots you have and say the panel was short, rather than silently
+adjudicating on a partial vote.
+
+**If the user asked for both a single pick and a ranked top-N in one run**, do
+not run the panel twice — have each of the four panelists return **both**
+ballots (its single-pick nomination *and* its ranked list) in one file, off the
+same dossier. Same lens, same evidence, half the spend.
 
 - **Single-pick variant** — each subagent returns the skill's single-pick
   ballot, in exactly that structure.
@@ -144,7 +209,8 @@ the four lenses) — parallelize as far as is practical (batch the messages if
 The four panelists all read the *same* dossier, so an error there propagates to
 every ballot — check it before publishing. After tentatively deciding the
 winner (Phase 4A) or the top 3 (Phase 4B), and **before writing the final
-file**, spawn **one verifier subagent** (same model policy) with this brief:
+file**, run **one verifier subagent** (same model policy; it writes its findings
+to `OUT/parts/<RUN>/verification.md` before returning) with this brief:
 
 > Independently verify these specific claims via web search, from primary
 > sources where possible (earnings calls, 10-Q/10-K, company PRs, reputable

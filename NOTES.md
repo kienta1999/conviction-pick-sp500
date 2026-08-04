@@ -11,3 +11,7 @@ Claude Code sessions behind each artifact (resume with `claude --resume <id>`):
 - Built the real-money guardrails — exit rules + realized scorecard (WS-6), sizing policy (WS-7), earnings-quality value-trap flags (WS-1), and bear/base/bull + EV-or-pass writeup discipline (WS-3): claude --resume bcc1bcb1-4d1d-492b-b195-3c3922350919
 - Buy dip run again after above: claude --resume c01c08be-d2fa-4aad-96f0-4613796cb4b1
 - Build UI: claude --resume 16f43385-f547-411b-9582-6f37c04e49ac
+- Buy dip TO BE CONTINUE: claude --resume 96d0345c-421b-4610-a4c7-c60362b86f82
+- Dip run 2026-08-03 (BR single pick + rank10) — also hardened the shared protocol to SEQUENTIAL
+  subagent dispatch with mandatory per-agent `WRITE_TO` files after two runs were killed mid-fan-out
+  by the monthly spend limit: claude --resume b10c4a22-aca2-4a03-9140-e1d3e59318c3

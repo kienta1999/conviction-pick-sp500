@@ -9,6 +9,10 @@ data/
 
 # output/<mode>/ artifacts (shortlists, funnel, dossiers, picks) are COMMITTED
 # deliberately — they're the audit trail next to each pick in picks/ledger.csv.
+# EXCEPT output/<mode>/parts/ — per-subagent crash-safety scratch (raw research
+# batches, individual panel ballots) that gets consolidated into the committed
+# research_dossier.md / final_*.md. Working files, not the audit trail.
+output/*/parts/
 
 # Playwright screenshot debris from UI sessions
 .playwright-mcp/
