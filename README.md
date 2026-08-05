@@ -281,9 +281,13 @@ Each mode writes to its own folder, `output/momentum/` or `output/dip/`:
   destroyed by the next run. Same-day supersessions keep both, the earlier suffixed
   `_<TICKER>_superseded.md`. Committed — this is audit trail, and `ledger.csv`'s
   `source` column points here for past picks.
-- `output/<mode>/parts/<run-date>/` — per-subagent crash-safety scratch (raw research
-  batches, individual panel ballots, the verification scorecard). **Gitignored**: working
-  files, consolidated into `research_dossier.md` and the final writeups.
+- `output/<mode>/parts/<run-date>/` — per-run working files: `triage.md` (the
+  50 → ~14 cut, every name scored with a keep/drop reason), the raw research
+  batches, each panel ballot, and the verification scorecard. **Gitignored**:
+  scratch, consolidated into `research_dossier.md` and the final writeups.
+  `triage.md` exists because that cut discards ~70% of the field, is made by a
+  single agent, and is the one step nothing downstream can catch — the panel can
+  only vote on what triage hands it.
 
 Plus the cross-mode scorecard:
 

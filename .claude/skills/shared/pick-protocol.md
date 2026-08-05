@@ -57,6 +57,7 @@ the context.
 Designated paths (`OUT = output/<MODE>/`, `RUN = today's date YYYY-MM-DD`):
 
 ```
+OUT/parts/RUN/triage.md                 # Phase 1, written by the ORCHESTRATOR
 OUT/parts/RUN/research_batch<N>.md      # Phase 2, one per batch
 OUT/parts/RUN/ballot_<lens><round>.md   # Phase 3, one per panelist (A1, B1, …)
 OUT/parts/RUN/verification.md           # Phase 3.5
@@ -171,6 +172,30 @@ already in the file (and a few quick `WebSearch` queries if unsure). Keep the
 **top ~12-15** with the strongest doctrine narrative. Tell the user the
 shortlist and a one-line rationale each. Drop the rest — and note honestly why
 a couple of high-composite names were dropped if they lack the doctrine angle.
+
+**Then write the whole triage to `OUT/parts/<RUN>/triage.md` — every candidate,
+kept and dropped — BEFORE dispatching Phase 2.** This step is the pipeline's
+biggest unaudited cut: it discards ~70% of the field, it is decided by a single
+agent (you), and unlike every other phase nothing downstream can catch its
+mistakes. The panel can only vote on what triage hands it, so a name wrongly
+dropped here is invisible forever — the writeup will say "the panel evaluated 14
+names" and read as rigorous while the real decision happened one step earlier.
+Writing it down costs nothing (you generate the reasoning anyway) and makes the
+bottleneck reviewable after the fact.
+
+Format — one row per candidate in the shortlist, ordered by composite:
+
+```markdown
+| # | ticker | composite | KEEP/DROP | doctrine score | one-line reason |
+```
+
+- **Score every name on the doctrine, including the drops.** "No shortage
+  thesis" is a finding, not an omission — and a name dropped despite a *high
+  composite* must say why explicitly.
+- Flag any name you found genuinely borderline. Those are where a bad triage
+  shows up first.
+- This file is written by the **orchestrator**, not a subagent — it is the one
+  `parts/` artifact that is not a `WRITE_TO` handoff.
 
 ---
 
