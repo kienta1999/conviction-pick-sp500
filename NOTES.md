@@ -19,6 +19,9 @@ Claude Code sessions behind each artifact (resume with `claude --resume <id>`):
   limit; the orchestrator began filling the missing lenses in its own context and the owner stopped it,
   so dispatch rule 4 was rewritten to **HALT instead of self-substitute** (no orchestrator-authored
   ballots / dossier sections / verification, never publish off a partial panel, resume with real agents
-  via rule 3). B/C/D + verifier were then re-run properly. Also found but **NOT yet fixed**: `screen.py`'s
-  `forwardPE` is two-years-forward and understates current-year multiples by ~20–45% on most names:
-  claude --resume 4b22a9e7-275d-487f-9c1d-f71b9c41da42
+  via rule 3). B/C/D + verifier were then re-run properly. Also chased the `forwardPE` oddity to its
+  actual cause: `screen.py` does no valuation arithmetic and never ranks on it (not in the composite);
+  Yahoo's value was (a) computed against a price up to 3 days staler than the funnel's — **fixed**, now
+  rescaled onto `price` — and (b) referenced to a fiscal year that varies by company (GE/HWM a year out,
+  CF *nearer* than the current year), which is **not fixable** from the info dict, so the field is
+  indicative only: claude --resume 4b22a9e7-275d-487f-9c1d-f71b9c41da42

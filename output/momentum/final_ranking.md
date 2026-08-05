@@ -21,9 +21,8 @@
 | **9** | **KLAC** | KLA Corporation | Semi Materials & Equip | $195.45 | $230.85 (+18.1%) | ~36x FY27 *(not 27.9x)* | 8 | **9** | **12** | 3/4 | 0 | 7.00 | 58% process-control share in a category no architecture can route around, 87% ROE, advanced packaging +70%. ⚠️ Slowest growth, most expensive growth-adjusted, and the last analyst action was a *cut*. |
 | **10** | **VRT** | Vertiv | Electrical Comp & Equip | $269.93 | $339.35 (+25.7%) | 29.0x | 8 | 6 | **10** | 2/4 | 0 | 6.00 | Sits on the hardest physical bottleneck in AI — power and heat — with pricing above inflation and chiller capacity doubling. 🚩 **FLAG: management stopped publishing backlog on 2026-02-11**, and Q2 missed revenue (−14/−17%). |
 
-*Fwd P/E "corrected" = the research's bottom-up figure. The screen's `forwardPE` field is on a
-two-years-forward basis for most of these names and materially understates what you pay today — a
-`screen.py` bug, logged below.*
+*Fwd P/E "corrected" = the research's bottom-up figure. The screen's `forwardPE` field is Yahoo's,
+indicative only, and is not what these names were ranked on — see the note under "What was verified".*
 
 ---
 
@@ -222,10 +221,15 @@ number was **reiterated, not raised**; (3) LRCX's $5.82 FY26 EPS is **non-GAAP**
 $140B WFE step dates to **2026-04-22**, not June; (4) MSFT's **+32% EPS growth is GAAP and
 OpenAI-inflated** versus +23% adjusted. Full detail: `parts/2026-08-04/verification.md`.
 
-**Also flagged:** the screen's `forwardPE` field is unreliable across most of this list — it is on a
-two-years-forward basis and understates the current-year multiple by roughly 20–45% for NVDA, AVGO,
-KLAC, GE, HWM, CF and FCX. Corrected figures are used in the table above. This is a `screen.py` bug to
-fix, not merely a research caveat.
+**Also flagged:** the screen's `forwardPE` field is indicative only and should not be read as the
+multiple you pay today. It is Yahoo's figure passed straight through; the screen does no valuation
+arithmetic of its own and **does not rank on it** (`forwardPE` is not in the composite), so nothing in
+this ranking was ordered by it. Two separate distortions sat in it: (1) Yahoo builds the multiple
+against a price up to three days staler than the funnel's own — **now fixed**, `screen.py` rescales
+onto the same price, which is why AVGO reads 21.5 rather than 20.1; and (2) which *fiscal year* the
+forward EPS refers to varies by company — GE and HWM point a year out, while CF points *nearer* than
+the current year — which is **not** correctable from that field. The bottom-up figures in the table
+above are the ones to use.
 
 ## Risk lens & leverage-safety note
 

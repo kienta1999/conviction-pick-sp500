@@ -155,6 +155,29 @@ def _add_derived(df: pd.DataFrame) -> pd.DataFrame:
         df["targetMeanPrice"] / df["price"] - 1,
         np.nan,
     )
+    # Forward P/E restated on the SAME price as every other signal. Yahoo builds
+    # forwardPE as currentPrice/forwardEps, and currentPrice comes from the info
+    # cache (~3-day TTL) while the funnel's price signals use `price` from the
+    # price cache (~1-day TTL) — so the multiple can sit on a quote days older
+    # than the momentum it is judged beside (the gap ran to ~8% on LRCX in the
+    # 2026-08-04 run). Rescaling by price/currentPrice is algebraically just
+    # price/forwardEps. Rows missing either price keep Yahoo's value unchanged
+    # rather than going NaN, since NaN is a drop at gate 7.
+    #
+    # This fixes the PRICE only. Which fiscal year Yahoo's forwardEps refers to
+    # still varies by company (GE/HWM point a year out, CF points nearer than
+    # the current year) and is NOT correctable from the info dict — treat
+    # forwardPE as indicative, and prefer a bottom-up multiple when it matters.
+    _fwd_ok = (
+        df["forwardPE"].notna()
+        & df["currentPrice"].notna() & (df["currentPrice"] > 0)
+        & df["price"].notna() & (df["price"] > 0)
+    )
+    df["forwardPE"] = np.where(
+        _fwd_ok,
+        df["forwardPE"] * df["price"] / df["currentPrice"],
+        df["forwardPE"],
+    )
     # Niche leadership, measured against the FULL universe (everything fetched),
     # before any gate: a name's sub-industry rank and its size relative to the
     # sub-industry's biggest member must not depend on which peers happen to

@@ -38,22 +38,22 @@
   {
     "stage": "7 0<fwdPE<60",
     "in": 84,
-    "out": 84,
-    "dropped": 0
+    "out": 83,
+    "dropped": 1
   },
   {
     "stage": "8 niche leaders (N=2,R=0.2)",
-    "in": 84,
-    "out": 67,
+    "in": 83,
+    "out": 66,
     "dropped": 17,
     "leaders_per_subindustry": 2,
     "coleader_ratio": 0.2
   },
   {
     "stage": "9 trim to target",
-    "in": 67,
+    "in": 66,
     "out": 50,
-    "dropped": 17,
+    "dropped": 16,
     "target": 50
   }
 ]

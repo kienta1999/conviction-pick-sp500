@@ -14,7 +14,7 @@
 | **Price (2026-08-04)** | **$418.16** |
 | **Market cap** | ~$1,866B |
 | **Analyst mean target** | $527.88 (**+26.2%**), 48 analysts. A second aggregator shows $500.78 (29 analysts); full range $216–$675 |
-| **Forward P/E** | **~24x FY27 / ~36x FY26** — *not* the screen's 20.1x (see valuation note) |
+| **Forward P/E** | **~24x FY27 / ~36x FY26** — *not* the screen's 21.5x (see valuation note) |
 | **Rev growth TTM / op margin / ROE** | 24% / 49% / 37% |
 | **Net debt / EBITDA** | 1.08 |
 | **vs 200d SMA / vs 52w high / 12m return** | +14% / −13% / +46% |
@@ -100,12 +100,20 @@ the same force is *additive* to Broadcom across its five other named programs. A
 that dissent more heavily than I did should own LRCX instead — see *If forced to ONE* in
 `final_ranking.md`.
 
-## Valuation note — the screen's number is wrong
+## Valuation note — don't use the screen's forward P/E
 
-`shortlist.json` reports forward P/E **20.1**. The research could not reproduce that from any
+`shortlist.json` reports forward P/E **21.5**. The research could not reproduce that from any
 near-term earnings basis. Consensus FY27 EPS is ~**$17.54** → **~23.8x**; on FY26 (~$11.6) it is
-**~36x**. The screen appears to be on a two-years-forward basis for several names. **Do not treat AVGO
-as a 20x stock.** This affects the whole shortlist and is logged as a bug to fix in `screen.py`.
+**~36x**. **Do not treat AVGO as a 21x stock — use ~24x FY27 / ~36x FY26.**
+
+*Provenance of that 21.5:* the field is Yahoo's `forwardPE`, passed through from the info cache — the
+screen performs no valuation arithmetic of its own, and `forwardPE` is **not** an input to the
+composite score, so nothing here was *ranked* on it. It was originally 20.1 in this run because Yahoo
+computes the multiple against its own `currentPrice`, which lags the price cache by up to three days;
+`screen.py` now rescales it onto the same price as every other signal, which is where 21.5 comes from.
+What remains unfixable from that field is *which fiscal year* Yahoo's forward EPS refers to — it
+varies by company (GE and HWM point a year out; CF points nearer than the current year) — so treat
+`forwardPE` as indicative only and prefer a bottom-up multiple, as this writeup does.
 
 ## Earnings-quality flags — both resolve benign
 
@@ -289,7 +297,7 @@ C's LRCX has the stronger moat and ranks #2 overall, but its EV is +12.0% — al
 
 `composite_score` 0.701 · `rev_growth` 0.239 · `operatingMargins` 0.490 · `returnOnEquity` 0.372 ·
 `net_debt_ebitda` 1.08 · `dist_sma200` +0.140 · `dist_52w_high` −0.130 · `ret_12m` +0.459 ·
-`analyst_upside` +0.262 · `forwardPE` 20.1 *(unreliable — see valuation note)* ·
+`analyst_upside` +0.262 · `forwardPE` 21.5 *(indicative only — see valuation note)* ·
 `recommendationKey` strong_buy · `earnings_quality.flags` RECEIVABLES_OUTRUN, INVENTORY_BUILD *(both
 resolved benign)*
 
