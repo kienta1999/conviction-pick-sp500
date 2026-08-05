@@ -42,18 +42,19 @@
     "dropped": 1
   },
   {
-    "stage": "8 niche leaders (N=2,R=0.2)",
+    "stage": "8 niche leaders (N=2,R=0.2,R2=0.5)",
     "in": 83,
-    "out": 66,
-    "dropped": 17,
+    "out": 68,
+    "dropped": 15,
     "leaders_per_subindustry": 2,
-    "coleader_ratio": 0.2
+    "coleader_ratio": 0.2,
+    "coleader_2nd_ratio": 0.5
   },
   {
     "stage": "9 trim to target",
-    "in": 66,
+    "in": 68,
     "out": 50,
-    "dropped": 16,
+    "dropped": 18,
     "target": 50
   }
 ]

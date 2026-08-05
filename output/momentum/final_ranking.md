@@ -269,6 +269,26 @@ position size or leverage multiple is recommended here for anyone.
 
 ---
 
+## ⚠️ Post-run screen change (added 2026-08-04, after this ranking was published)
+
+**MU is missing from this list because it never reached the panel**, not because any lens
+rejected it. It was eliminated at funnel gate 8 by 1.3 percentage points — the co-leader
+rule keeps names worth ≥20% of their sub-industry leader, and NVDA's growth to $5T pushed
+that bar to $1.0T against MU's $937B. It passed the same gate at 0.216 a month earlier,
+when it was the 2026-07-12 single pick.
+
+Gate 8 now has a third qualifying rule (≥50% of the bucket's *second*-biggest name), immune
+to a runaway #1. **On the corrected screen MU ranks composite #1 (0.918)**, ahead of LRCX
+(0.850), on +148% revenue growth, 80% operating margins, net cash and +70.5% to its analyst
+mean target.
+
+This ranking is left as the record of what the panel actually saw — a 14-name field without
+MU. Two caveats for anyone reading the list forward: MU's 5.7x forward P/E is peak-cycle
+memory optics rather than cheapness, and the system's last MU pick was **stopped out**
+(2026-07-02 @ $1,032.28, through its $775 stop on 2026-07-29).
+
+---
+
 ## Disclaimer
 
 **2026-08-04.** This is AI-generated research output for education and personal decision support. It is

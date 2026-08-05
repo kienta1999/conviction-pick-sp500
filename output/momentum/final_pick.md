@@ -303,6 +303,26 @@ resolved benign)*
 
 ---
 
+## ⚠️ Post-run screen change (added 2026-08-04, after this pick was published)
+
+Investigating why MU — the 2026-07-12 single pick and the doctrine's founding
+example — was absent, we found it was **not rejected by this panel; it never reached it.**
+It was eliminated at funnel gate 8 by 1.3 percentage points: the "co-leader" rule keeps
+names worth ≥20% of their sub-industry leader, and NVDA's growth to $5T pushed that bar
+to $1.0T, against MU's $937B. A month earlier MU passed the same gate at 0.216.
+
+Gate 8 has since been given a third qualifying rule (≥50% of the bucket's *second*-biggest
+name), which is immune to a runaway #1. **On the corrected screen MU ranks composite #1
+(0.918), ahead of LRCX at 0.850.**
+
+**This writeup is left as the record of what the panel actually evaluated** — a 14-name
+field that did not include MU. It is not a claim that AVGO beat MU; the panel was never
+asked. Anyone acting on this pick should know MU would now be in the field, and that the
+system's last MU pick was **stopped out** (2026-07-02 @ $1,032.28, through its $775 stop
+on 2026-07-29).
+
+---
+
 ## Disclaimer
 
 **2026-08-04.** This is AI-generated research output for education and personal decision support. It is

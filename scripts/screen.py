@@ -115,12 +115,21 @@ US_COUNTRY = "United States"
 
 # Category-leader stage (7). GICS sub-industries are coarse — "Semiconductors"
 # holds NVDA, AVGO, MU, AMD together — so a single #1-per-bucket rule throws away
-# genuine niche leaders. We keep the union of two rules: the top-N by market cap,
-# AND any "co-leader" whose market cap is at least COLEADER_RATIO of its
-# sub-industry's biggest name (proportional, so it scales across sectors and
-# keeps a giant like MU while still dropping small also-rans like SNDK).
+# genuine niche leaders. We keep the union of THREE rules: the top-N by market
+# cap; any "co-leader" whose market cap is at least COLEADER_RATIO of its
+# sub-industry's biggest name; and any name at least COLEADER_2ND_RATIO of its
+# sub-industry's SECOND-biggest name.
+#
+# The third rule exists because the second one quietly expires. It is measured
+# against the leader, so a runaway #1 raises the bar for everyone else: at
+# NVDA's $5T the 20% bar is $1.0T, which evicted MU ($937B, #3 semiconductor)
+# on 2026-08-04 — while the same 20% bar in Insurance Brokers is just $18B. The
+# rule was hardest to pass exactly where leadership means most. Measuring
+# against #2 is immune to that (MU is 0.50 of AVGO regardless of NVDA) and
+# never needs recalibrating as the market grows.
 DEFAULT_LEADERS_PER_SUBINDUSTRY = 2
 DEFAULT_COLEADER_RATIO = 0.20
+DEFAULT_COLEADER_2ND_RATIO = 0.50
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -186,6 +195,15 @@ def _add_derived(df: pd.DataFrame) -> pd.DataFrame:
     g = df.groupby("gics_sub_industry")["marketCap"]
     df["subind_rank"] = g.rank(method="first", ascending=False)
     df["mc_vs_subind_leader"] = df["marketCap"] / g.transform("max")
+    # Size relative to the bucket's RUNNER-UP, not its leader. The vs-leader
+    # ratio silently breaks when one name runs away with a bucket: NVDA at $5T
+    # pushed the 20%-of-leader bar to $1.0T, which evicted MU ($937B, the #3
+    # semiconductor and the doctrine's founding example) on 2026-08-04 — while
+    # a 20% bar in Insurance Brokers is only $18B. The rule was hardest to pass
+    # exactly where leadership means most. Measuring against #2 is immune to
+    # that: MU is 0.50 of AVGO whether NVDA is worth $5T or $10T.
+    second = g.apply(lambda s: s.nlargest(2).iloc[-1] if len(s) >= 2 else s.max())
+    df["mc_vs_2nd"] = df["marketCap"] / df["gics_sub_industry"].map(second)
     return df
 
 
@@ -279,6 +297,7 @@ def run_screen(
     max_forward_pe: float = DEFAULT_MAX_FORWARD_PE,
     leaders_per_subindustry: int = DEFAULT_LEADERS_PER_SUBINDUSTRY,
     coleader_ratio: float = DEFAULT_COLEADER_RATIO,
+    coleader_2nd_ratio: float = DEFAULT_COLEADER_2ND_RATIO,
     trim: bool = True,
     mode: str = "momentum",
     dip_drawdown_floor: float = DEFAULT_DIP_DRAWDOWN_FLOOR,
@@ -375,12 +394,23 @@ def run_screen(
     #    measured against the FULL universe, not the survivors — otherwise (esp.
     #    in dip mode, where the true leader is usually not dipping) a #4 name
     #    would inherit "leader" status just because its betters failed a gate.
-    keep = (df["subind_rank"] <= leaders_per_subindustry) | (df["mc_vs_subind_leader"] >= coleader_ratio)
-    label = f"8 niche leaders (N={leaders_per_subindustry},R={coleader_ratio:g})"
+    #      (c) any name ≥ coleader_2nd_ratio × the bucket's SECOND-biggest name.
+    #          (b) is measured against the leader, so a runaway #1 mechanically
+    #          evicts genuine leaders — see the note on mc_vs_2nd in
+    #          _add_derived. (c) is scale-free w.r.t. the leader and needs no
+    #          recalibration as the market grows.
+    keep = (
+        (df["subind_rank"] <= leaders_per_subindustry)
+        | (df["mc_vs_subind_leader"] >= coleader_ratio)
+        | (df["mc_vs_2nd"] >= coleader_2nd_ratio)
+    )
+    label = (f"8 niche leaders (N={leaders_per_subindustry},R={coleader_ratio:g},"
+             f"R2={coleader_2nd_ratio:g})")
     df = stage(label, keep.fillna(False), df)
     funnel[-1].update({
         "leaders_per_subindustry": leaders_per_subindustry,
         "coleader_ratio": coleader_ratio,
+        "coleader_2nd_ratio": coleader_2nd_ratio,
     })
 
     # 9. Composite score + optional trim to target.
@@ -499,9 +529,14 @@ def main() -> None:
                          "sub-industry (default 2).")
     ap.add_argument("--coleader-ratio", type=float, default=DEFAULT_COLEADER_RATIO,
                     help="Also keep any name whose market cap is ≥ this fraction "
-                         "of its sub-industry leader (default 0.20 → keeps MU at "
-                         "~25%% of NVDA, drops small also-rans). Set to 1.0 to "
-                         "disable and rely on top-N alone.")
+                         "of its sub-industry leader (default 0.20). Set to 1.0 "
+                         "to disable and rely on the other two rules.")
+    ap.add_argument("--coleader-2nd-ratio", type=float, default=DEFAULT_COLEADER_2ND_RATIO,
+                    help="Also keep any name whose market cap is ≥ this fraction "
+                         "of its sub-industry's SECOND-biggest name (default 0.50). "
+                         "Immune to a runaway #1 inflating the --coleader-ratio bar "
+                         "(this is what keeps MU in when NVDA is worth $5T). Set to "
+                         "1.0 to disable.")
     ap.add_argument("--no-trim", action="store_true", help="Keep all category leaders (skip the stage-9 trim).")
     ap.add_argument("--no-eq-gate", action="store_true",
                     help="Dip mode only: disable the stage-6b earnings-quality "
@@ -519,6 +554,7 @@ def main() -> None:
         max_forward_pe=max_forward_pe,
         leaders_per_subindustry=args.leaders_per_subindustry,
         coleader_ratio=args.coleader_ratio,
+        coleader_2nd_ratio=args.coleader_2nd_ratio,
         trim=not args.no_trim,
         mode=args.mode,
         dip_drawdown_floor=args.dip_drawdown_floor,

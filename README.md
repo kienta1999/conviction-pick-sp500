@@ -74,8 +74,10 @@ quality gate is shared. Real numbers from a 2026-07 run:
                                         capital-driven) — metrics stay visible
 7. Forward profit         69       41   0 < forward P/E < cap (60 momentum / 35 dip);
                                         tickers dropped for a MISSING estimate are printed
+                                        ⚠️ forwardPE is Yahoo's, INDICATIVE ONLY — see below
 8. Niche leaders          58       33   per GICS Sub-Industry: top-2 by market cap
-                                        UNION any co-leader ≥ 20% of the biggest name —
+                                        UNION co-leader ≥20% of the biggest UNION ≥50%
+                                        of the SECOND-biggest (see below) —
                                         measured against the FULL universe, not the
                                         survivors (see below)
 9. Trim to target         50       33   if >50 remain, keep top 50 by composite score
@@ -100,6 +102,23 @@ percentile points per red flag, capped at −6 (flags computed in `fetch.py`
 from quarterly statements; a missing statement is an explicit `null` + note,
 never a silent penalty). The weights are asserted to sum to 1.0 in code.
 
+### A caveat on `forwardPE` (stage 7)
+
+`forwardPE` is Yahoo's field, passed straight through — `screen.py` does no
+valuation arithmetic of its own, and it is **not** in either composite, so nothing
+is ever *ranked* on it. It gates at stage 7 and is otherwise for reading. Treat it
+as indicative, and prefer a bottom-up multiple in any writeup. Two distortions live
+in it:
+
+1. **Stale price — fixed.** Yahoo computes it as `currentPrice / forwardEps`, and
+   `currentPrice` comes from the info cache (~3-day TTL) while every price signal in
+   the funnel uses `price` from the price cache (~1-day TTL). The gap reached 7.9%
+   on LRCX. `_add_derived` now rescales onto `price`.
+2. **Which fiscal year — not fixable here.** Whichever year Yahoo's `forwardEps`
+   references varies by company: GE and HWM point a year out, while CF points
+   *nearer* than the current year. Correcting this needs a forward figure derived
+   from the quarterly statements `fetch.py` already pulls. **Open.**
+
 ### The "biggest in its niche" rule (stage 8)
 
 "Biggest in what it's doing" is the heart of the doctrine, but GICS sub-industries
@@ -108,12 +127,40 @@ the generic `Semiconductors` sub-industry**. A naive "keep only the #1 by market
 cap" rule would throw away MU — even though it's a genuine memory franchise that
 passes every quality gate — just because NVDA is bigger in the same bucket.
 
-So stage 8 keeps the **union of two rules** per sub-industry:
+So stage 8 keeps the **union of three rules** per sub-industry:
 
 1. **Top-N by market cap** (`--leaders-per-subindustry`, default **2**) — the
    clear leaders are always kept.
-2. **Co-leader by relative size** (`--coleader-ratio`, default **0.20**) — also
+2. **Co-leader vs the leader** (`--coleader-ratio`, default **0.20**) — also
    keep any name whose market cap is ≥ 20% of the bucket's biggest name.
+3. **Co-leader vs the runner-up** (`--coleader-2nd-ratio`, default **0.50**) —
+   also keep any name ≥ 50% of the bucket's **second**-biggest name.
+
+**Why rule 3 exists — rule 2 silently expires.** Rule 2 measures you against the
+`#1`, so a runaway leader raises the bar for everyone else. On 2026-08-04 NVDA hit
+$5T, which put the 20% bar at **$1.0T** and evicted **MU at $937B** — the #3
+semiconductor, and the very name rule 2 was written to protect. It had passed the
+same gate at 0.216 a month earlier. Meanwhile the same 20% bar in Insurance Brokers
+is only **$18B**, so the rule was *hardest to pass exactly where leadership means
+most*:
+
+| bucket | leader | 20%-of-leader bar |
+|---|---|---|
+| Insurance Brokers | $92B | $18B — trivial |
+| Semiconductors | $5,005B | $1,001B — brutal |
+
+Rule 3 fixes the asymmetry because it is scale-free with respect to the leader: MU
+is 0.50 of AVGO whether NVDA is worth $5T or $10T. The separation is clean rather
+than marginal — MU scores 0.502 against the runner-up while the next-best rejected
+semiconductor (TXN) scores 0.132, so nothing sits near the line. Today rules 1+2
+keep 66 of 83 survivors; rule 3 adds exactly **MU** and **WAB** (0.559, a genuine
+freight-rail leader buried in a coarse bucket).
+
+An absolute floor (e.g. "auto-qualify above $100B") was considered and rejected: at
+$100B it readmits TXN and ADI — the #6 and #7 semiconductors, at 4.9% and 3.5% of
+the leader — which is the exact also-ran profile the gate exists to drop. Any dollar
+threshold also drifts as the market grows, and $250B would have sat 1.6% above TXN's
+$246B, flipping names in and out on noise.
 
 Both measures are computed **against the full S&P 500 universe, not the funnel
 survivors**. This matters most in dip mode: the true #1 of a niche is usually
@@ -122,12 +169,14 @@ just because its betters failed a gate. Measured against the universe, a dip
 candidate must be a _genuine_ top-2/co-leader of its niche that happens to be
 dipping (e.g. MSFT, WMT), not a pretender.
 
-The ratio rule is _proportional_, so it adapts to every sector instead of forcing
-an arbitrary count — "between MU and SNDK, pick MU." Tune both knobs:
+The ratio rules are _proportional_, so they adapt to every sector instead of
+forcing an arbitrary count — "between MU and SNDK, pick MU." Tune all three knobs:
 
 ```bash
-python scripts/screen.py --coleader-ratio 0.15        # wider co-leader net
-python scripts/screen.py --leaders-per-subindustry 1 --coleader-ratio 1.0  # strict #1-only
+python scripts/screen.py --coleader-ratio 0.15         # wider co-leader net
+python scripts/screen.py --coleader-2nd-ratio 0.35     # wider runner-up net
+python scripts/screen.py --leaders-per-subindustry 1 \
+                         --coleader-ratio 1.0 --coleader-2nd-ratio 1.0   # strict #1-only
 ```
 
 ## Quick start
@@ -186,6 +235,18 @@ Mythos-class model — the panel fans out to 4×R agents and research batches, s
 model cost multiplies. This is stated in the protocol so it doesn't silently
 drift.
 
+Dispatch is **sequential**, one agent at a time, each writing its output to a
+designated file before returning — a parallel fan-out that trips the monthly
+spend limit loses every in-flight agent at once, which has cost whole runs. If an
+agent does die, the protocol requires the orchestrator to **halt the phase and
+hand back**, never to write the missing ballot, dossier section or verification
+itself. Those artifacts are independent samples by construction; an
+orchestrator-authored substitute shares the orchestrator's priors, cannot disagree
+with it, and turns a four-lens panel into one opinion wearing four hats — a short
+panel you can no longer detect. An incomplete run publishes nothing: no writeup,
+no ledger row. Resuming reuses every completed file and re-dispatches only what's
+missing.
+
 ### Useful flags
 
 ```bash
@@ -214,6 +275,15 @@ Each mode writes to its own folder, `output/momentum/` or `output/dip/`:
 - `output/<mode>/funnel.json` — stage-by-stage in/out/dropped counts (audit trail).
 - `output/<mode>/research_dossier.md` — written by the skill (web research).
 - `output/<mode>/final_pick.md` / `final_ranking.md` — written by the skill (the pick(s) + thesis).
+  These always hold the **current** run.
+- `output/<mode>/old/` — every **superseded** run, dated by its own run date
+  (`final_pick_2026-07-12.md`), so the writeup behind a recorded ledger row is never
+  destroyed by the next run. Same-day supersessions keep both, the earlier suffixed
+  `_<TICKER>_superseded.md`. Committed — this is audit trail, and `ledger.csv`'s
+  `source` column points here for past picks.
+- `output/<mode>/parts/<run-date>/` — per-subagent crash-safety scratch (raw research
+  batches, individual panel ballots, the verification scorecard). **Gitignored**: working
+  files, consolidated into `research_dossier.md` and the final writeups.
 
 Plus the cross-mode scorecard:
 
