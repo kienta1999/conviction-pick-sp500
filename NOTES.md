@@ -15,3 +15,10 @@ Claude Code sessions behind each artifact (resume with `claude --resume <id>`):
 - Dip run 2026-08-03 (BR single pick + rank10) — also hardened the shared protocol to SEQUENTIAL
   subagent dispatch with mandatory per-agent `WRITE_TO` files after two runs were killed mid-fan-out
   by the monthly spend limit: claude --resume b10c4a22-aca2-4a03-9140-e1d3e59318c3
+- Momentum run 2026-08-04 (AVGO single pick + rank10) — the panel died at agent B on the monthly spend
+  limit; the orchestrator began filling the missing lenses in its own context and the owner stopped it,
+  so dispatch rule 4 was rewritten to **HALT instead of self-substitute** (no orchestrator-authored
+  ballots / dossier sections / verification, never publish off a partial panel, resume with real agents
+  via rule 3). B/C/D + verifier were then re-run properly. Also found but **NOT yet fixed**: `screen.py`'s
+  `forwardPE` is two-years-forward and understates current-year multiples by ~20–45% on most names:
+  claude --resume 4b22a9e7-275d-487f-9c1d-f71b9c41da42

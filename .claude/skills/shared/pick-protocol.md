@@ -75,11 +75,34 @@ dossier under a different name, read it and fold it in rather than
 re-researching those tickers — a fresh search on a name already covered days
 ago is budget spent for nothing.
 
-**4. If an agent dies on the spend limit,** persist whatever completed, tell the
-user plainly which names are missing, and offer the choice: wait for budget,
-proceed with the field you have (noting the gap in the writeup), or let the
-orchestrator fill the gap itself with a handful of direct `WebSearch` calls in
-its own context (cheaper than a subagent, but it consumes orchestrator context).
+**4. If an agent dies on the spend limit, HALT the phase — do not substitute
+yourself for it.** The orchestrator must **never** cast a ballot, write a research
+dossier section, or perform the Phase 3.5 verification in its own context in place
+of a subagent that failed. Those artifacts are supposed to be *independent
+samples*; an orchestrator-written one shares the orchestrator's priors, cannot
+disagree with it, and silently converts a four-lens panel into a one-lens opinion
+wearing four hats. That is worse than a short panel, because it is a short panel
+you can no longer detect. The same applies to the verifier: a claim the
+orchestrator checks itself is not an independent check of a dossier the
+orchestrator already read.
+
+When an agent dies:
+
+- **Persist** everything that completed (the `WRITE_TO` files already on disk).
+- **Stop dispatching.** Do not start the next agent in the phase, and do not move
+  on to the next phase.
+- **Report plainly**: which phase, which agent(s) completed, which are missing,
+  and exactly what is on disk.
+- **Tell the user how to resume**: raise the limit, then re-invoke the skill —
+  rule 3 makes the resumed run reuse every completed file and dispatch only the
+  missing agents, so no spend is repeated.
+- **Never publish** `final_pick.md` or `final_ranking.md` off a partial panel.
+  No ledger row either. An incomplete run produces no deliverable.
+
+The single exception: if the **user explicitly instructs** you to proceed with a
+short panel, you may adjudicate on the ballots that exist — but you still may not
+manufacture the missing ones, and both the writeup and the ledger `thesis` must
+say the panel was short and name the missing lenses.
 
 ---
 
@@ -186,9 +209,9 @@ chamber. Each panelist writes its ballot to
 `OUT/parts/<RUN>/ballot_<lens><round>.md` before returning.
 **In ranked top-N mode with R > 1, run 4×R agents** (R independent rounds of the
 four lenses), still one at a time. A panel that loses agents mid-fan-out
-produces a vote you cannot honestly tally — if the budget dies partway, report
-the ballots you have and say the panel was short, rather than silently
-adjudicating on a partial vote.
+produces a vote you cannot honestly tally. If the budget dies partway, **halt and
+hand back per dispatch rule 4** — every lens must be an independently dispatched
+subagent, and the orchestrator never writes a ballot itself.
 
 **If the user asked for both a single pick and a ranked top-N in one run**, do
 not run the panel twice — have each of the four panelists return **both**
@@ -210,7 +233,9 @@ The four panelists all read the *same* dossier, so an error there propagates to
 every ballot — check it before publishing. After tentatively deciding the
 winner (Phase 4A) or the top 3 (Phase 4B), and **before writing the final
 file**, run **one verifier subagent** (same model policy; it writes its findings
-to `OUT/parts/<RUN>/verification.md` before returning) with this brief:
+to `OUT/parts/<RUN>/verification.md` before returning). It must be a *subagent* —
+the orchestrator has already read the dossier, so checks it runs itself are not
+independent verification and do not satisfy this phase (dispatch rule 4). Brief:
 
 > Independently verify these specific claims via web search, from primary
 > sources where possible (earnings calls, 10-Q/10-K, company PRs, reputable
@@ -430,6 +455,11 @@ existing rows — the ledger is append-only history.
   multiples, or quotes. Attribute and date every concrete claim; if research
   can't confirm something, say so. Phase 3.5 exists to enforce this — never
   skip it.
+- **Never author a subagent's artifact yourself.** Research dossier sections,
+  panel ballots and the Phase 3.5 verification are independent samples by
+  construction; an orchestrator-written substitute is not a cheaper version of
+  one, it is a fake one. If a subagent dies, halt (dispatch rule 4) — an
+  incomplete run is an acceptable outcome, a fabricated panel is not.
 - **Respect the chosen mode.** Single-pick mode → **exactly one** final pick
   (the point is forcing a decision; the trap filter can veto the vote). Ranked
   mode → **exactly N** names (default 10), ordered, with each name's trap
