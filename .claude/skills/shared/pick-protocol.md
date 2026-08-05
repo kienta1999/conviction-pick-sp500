@@ -255,6 +255,36 @@ that keeps the cost trivial while catching the errors that matter.
 
 ---
 
+## Archive before overwriting — applies to BOTH Phase 4A and 4B
+
+`OUT/final_pick.md` and `OUT/final_ranking.md` always hold the **current** run.
+Every prior run is preserved, dated, under `OUT/old/`. Do this **before** writing
+the new file — an overwrite that skips this step destroys the writeup a recorded
+ledger row points at.
+
+```
+OUT/old/final_pick_<RUNDATE>.md        # e.g. output/momentum/old/final_pick_2026-07-12.md
+OUT/old/final_ranking_<RUNDATE>.md
+```
+
+- `<RUNDATE>` is the **superseded run's own date** (the `date` on its ledger
+  rows — *not* today's, and not the file's mtime). Read it from the file's own
+  header if unsure.
+- If a run was superseded the same day by a later run, keep both and suffix the
+  earlier one `_<TICKER>_superseded.md` — same-day iterations are research
+  history, not noise.
+- `OUT/old/` is **committed**. Only `OUT/parts/` is gitignored (per-agent scratch);
+  the archived writeups are the audit trail behind `picks/ledger.csv` and must
+  survive.
+- Archive any dated partial or interrupted dossier here too, rather than leaving
+  it beside the current one.
+- **Then repoint the superseded ledger rows' `source`** to the new archived path.
+  This is the one edit the append-only rule permits, because it repairs a pointer
+  rather than restating a pick — the `date`/`mode`/`ticker`/target/probability
+  fields stay untouched.
+
+---
+
 ## Phase 4A — Aggregate and pick ONE (single-pick mode)
 
 You (the orchestrator) now decide. Do NOT just count votes mechanically:
@@ -445,7 +475,10 @@ date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by
   original row.
 
 Create the file with the header if it doesn't exist. Never rewrite or delete
-existing rows — the ledger is append-only history.
+existing rows — the ledger is append-only history. The **sole** exception is
+repointing a superseded row's `source` to its archived path when a run is filed
+into `OUT/old/` (see *Archive before overwriting*); that repairs a pointer to a
+file that moved, and touches no other field.
 
 ---
 
