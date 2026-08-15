@@ -256,16 +256,49 @@ share its reporting week. Here the median comes from the full universe, the same
 way stage 8 measures leadership.
 
 **Expect a small field, and sometimes none.** The window is a hard calendar
-constraint. The run above yielded **1** name at 7 days and **6** at 14; a
-mid-quarter week can yield zero, and the screen exits cleanly with empty outputs
-when it does. Peak season (late Jan/Apr/Jul/Oct) yields far more. The skill is
-required to report the field size and *not* widen gates to manufacture
-candidates — a 4-lens panel voting over 2 names is theater, and it says so.
+constraint. Measured on 2026-08-15, a between-seasons Saturday:
 
-One consequence worth knowing: the shared stage-6 margin gate means low-margin
-retail almost never qualifies in any mode. In the run above WMT, TGT, TJX, ROST
-and HD all cleared the calendar and the beat record, then died at the sector
-median. That is the doctrine working as designed, not an earnings-mode bug.
+| window | in-window | survivors | names |
+|---|---|---|---|
+| 7 days | 9 | **1** | ADI |
+| 14 days | 22 | **6** | + INTU ADSK VEEV WSM ULTA |
+| 30 days | 32 | **9** | + MDT ADBE NTAP |
+
+A mid-quarter week can yield zero, and the screen exits cleanly with empty
+outputs when it does. Peak season (late Jan/Apr/Jul/Oct) yields far more. The
+skill is required to report the field size and *not* widen gates to manufacture
+candidates — a 4-lens panel voting over 2 names is theater, and it says so.
+Note the cost of widening: at 30 days you hold up to a month of unrelated market
+risk before the catalyst you underwrote even arrives.
+
+Two consequences worth knowing:
+
+**Low-margin retail almost never qualifies**, in any mode, because of the shared
+stage-6 margin gate. In the 7-day run WMT, TGT, TJX, ROST and HD all cleared the
+calendar *and* the beat record, then died at the sector median — TJX and ROST by
+2.2pp and 0.6pp with clean 4/4 streaks. That is the doctrine working as designed,
+not an earnings-mode bug, but it means the off-price and big-box complex is
+structurally invisible to this screen.
+
+**The 6b earnings-quality gate keeps catching the AI-semi complex.** In the
+30-day run it dropped **NVDA** (HIGH_ACCRUALS + INVENTORY_BUILD) and **AVGO**
+(RECEIVABLES_OUTRUN + INVENTORY_BUILD) — two of the three largest prints in the
+window, both on inventory growing faster than revenue. NVDA's numbers: TTM net
+income $159.6B vs $125.6B operating cash flow, a $34.0B gap that is almost
+exactly its working-capital build (receivables +$18.6B, inventory +$14.5B), with
+inventory +128% against revenue +85%. Cash conversion (0.79) and receivables
+(−1.3pp) both pass cleanly, so it is the *inventory* half doing the work.
+
+That has a benign reading (stocking silicon ahead of a ramp) and a hostile one
+(a writedown forming), and a screen cannot tell them apart. Worth checking
+whether "hypergrowth mechanically trips accruals" — it does **not**: across
+non-financials the flag rate runs 0.4% at 0-10% growth to 14% above 50%
+(correlation 0.20), and the other hypergrowth names are clean — MU at +145%
+revenue has an accrual ratio of −0.009 and CFO/NI of 1.02. Only SMCI scores
+worse than NVDA. So the flag is picking up something specific, not a growth
+artifact. Use `--no-eq-gate` to readmit these names with the flags still visible
+and still penalizing the composite; the Phase 2 brief then forces a research
+agent to give a benign-or-not verdict on each flag before the panel votes.
 
 The beat record itself comes from Yahoo's earnings calendar (~24 quarters
 available, 12 cached per ticker) and lands in `shortlist.json` as an
@@ -274,6 +307,39 @@ available, 12 cached per ticker) and lands in `shortlist.json` as an
 shrinking beat is the classic fade tell), `eps_beats_8q`, `eps_yoy_q` and
 `eps_yoy_up_4q` from the *reported* EPS line (is it earning more, or just
 beating a lowered bar?), plus `rev_yoy_q`, `rev_accel` and `rev_up_years`.
+
+#### Should the earnings mode look outside the S&P 500?
+
+Tempting, and it is the *right* lever for a calendar-bound screen — more names
+in the same window, rather than a longer window with more pre-event risk.
+Measured on 2026-08-15 against the Nasdaq screener (7,138 US-listed stocks):
+
+```
+  491  >= $20B and US-domiciled
+   74  ...not already in the S&P 500  (after stripping preferreds, notes, dual classes)
+   73  had usable data -> ran through the funnel:
+   48  profitable        <- 25 die here
+   42  growing
+   27  sane debt         <- the pool the calendar draws from
+    1  reporting within  7 days   ->  UI
+    4  reporting within 14 days   ->  HEI, OKTA, UI, ZM
+```
+
+So roughly **+1 name at 7 days, +4 at 14** — meaningful against a field of 1,
+but smaller than it looks, and for a structural reason: **S&P 500 inclusion
+already requires profitability**, so the index committee applies gate 1 for us.
+What sits outside is mostly unprofitable growth (CRWV, CBRS, RKLB, RVMD, ASTS) —
+exactly what the gates exclude anyway.
+
+**Not implemented, and the blocker is specific:** stage 6 compares operating
+margin to the **GICS sector median**, and the Nasdaq screener returns its own
+taxonomy (`Technology`, `Finance`, `Health Care`), not GICS. Mixing them would
+corrupt the gate that already does the most cutting in this mode. A real GICS
+source for non-index names is a prerequisite. Secondary costs: fetch grows to
+~1,000 tickers (Yahoo already rate-limited us three times at 503 in one day),
+and the scorecard's per-mode comparison is confounded if earnings runs on a
+different universe than momentum/dip. If it is ever built, the clean shape is a
+*supplementary* roster with proper GICS tags applied to **all three** modes.
 
 ⚠️ **The cached report date is Yahoo's and is sometimes an estimate.** It has a
 1-day cache TTL — tighter than anything else here, because a stale date doesn't

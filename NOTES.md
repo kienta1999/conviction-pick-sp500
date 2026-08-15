@@ -25,3 +25,34 @@ Claude Code sessions behind each artifact (resume with `claude --resume <id>`):
   rescaled onto `price` — and (b) referenced to a fiscal year that varies by company (GE/HWM a year out,
   CF *nearer* than the current year), which is **not fixable** from the info dict, so the field is
   indicative only: claude --resume 4b22a9e7-275d-487f-9c1d-f71b9c41da42
+- **Built the third mode, `/stock-pick-earnings` (2026-08-15)** — an event trade into a scheduled
+  print, no research run yet. `claude --resume da63e60e-23e0-469d-840b-3610449ed682`
+
+  **What shipped.** `--mode earnings`: no SMA gate (the catalyst is the event, not the trend), no
+  stage-8 niche-leadership rule (replaced by a $20B market-cap floor at 5b), no US-domicile gate
+  (domicile shapes a multi-year hold, not a print — readmits LIN/STX/ETN/CB/MDT/ACN/TT/NXPI…), plus
+  a new track-record gate (5c: <2 consensus misses in 4 quarters) and a beat-streak composite.
+  `fetch.py` grew a fifth cache — Yahoo's earnings calendar + 12 quarters of estimate/reported/
+  surprise on a 1-day TTL. Stage 6's sector median is computed over the **full universe** in this
+  mode (its stage-5 pool is "whoever reports this week", so a survivor-relative median would be
+  built from 2-3 arbitrary names). Horizon per the owner: **ride the print and sell immediately** —
+  writeup leads with an event plan and a pre-written exit rule, 12-18mo scenarios demote to the
+  fallback, `kind=close` with `exit_reason=event_exit` mandatory within days. POLICY.md §1.5: 2%
+  cap, halved again, one open earnings position at a time.
+
+  **State to come back to.** `output/earnings/shortlist.json` currently holds the **30-day** run
+  (9 names), not the 7-day default — regenerate with `screen.py --mode earnings` for the default.
+  Field sizes on 2026-08-15: 1 name at 7d (ADI), 6 at 14d, 9 at 30d. Full findings, including the
+  measured case for/against expanding beyond the S&P 500 (+1 at 7d / +4 at 14d, blocked on the
+  GICS-taxonomy mismatch) are written up in the README's earnings section.
+
+  **Open, decided against for now.** (a) The 6b earnings-quality gate drops **NVDA and AVGO** —
+  two of the three biggest prints in the 30-day window, both on inventory outrunning revenue.
+  Verified this is *not* a hypergrowth artifact (MU at +145% revenue has an accrual ratio of
+  −0.009); the flag is picking up something specific. `--no-eq-gate` readmits them with the flags
+  still visible for the panel to adjudicate. (b) Universe expansion — see README. (c) Did **not**
+  retune any threshold, per the TODO's rule that gate tuning is unfalsifiable until the
+  point-in-time backtest exists.
+
+  **Never run.** No earnings pick has been made, no ledger row written. The first real run is the
+  next step.
