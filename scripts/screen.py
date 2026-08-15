@@ -31,7 +31,8 @@ Funnel (each stage prints how many names it drops):
 
   0. Universe          all current S&P 500 members
   1. Profitable        TTM net income > 0
-  2. US company        country == "United States"
+  2. US company        country == "United States". SKIPPED in earnings mode —
+                       domicile shapes a multi-year hold, not a single print.
   3. Revenue growth    TTM YoY revenue growth > 0 (also the anti-value-trap
                        gate). Uses rev_growth_ttm (smoothed, from annual
                        statements — see fetch.py) so one lumpy quarter doesn't
@@ -400,8 +401,22 @@ def run_screen(
     ) > 0
     df = stage("1 profitable", profitable, df)
 
-    # 2. US company.
-    df = stage("2 US company", df["country"] == US_COUNTRY, df)
+    # 2. US company — momentum and dip only. The US gate comes from the founding
+    #    momentum doctrine ("a profitable US company biggest in its niche") and
+    #    is about who you want to own for years: domestic reporting standards,
+    #    no FX translation on a multi-year thesis, no foreign policy risk on the
+    #    moat. None of that has any bearing on whether a company beats its
+    #    number next Tuesday, so earnings mode skips it. In practice this
+    #    readmits the ~22 S&P members domiciled in Ireland/UK/Switzerland etc.,
+    #    which are American businesses by operation and foreign only by charter.
+    if mode == "earnings":
+        funnel.append({"stage": "2 US company", "in": len(df), "out": len(df),
+                       "dropped": 0, "skipped": "not applicable in earnings mode "
+                                                "(domicile does not affect a print)"})
+        print(f"  {'2 US company':<22} {len(df):>4} -> {len(df):>4}  "
+              f"(skipped — domicile is irrelevant to an event trade)", flush=True)
+    else:
+        df = stage("2 US company", df["country"] == US_COUNTRY, df)
 
     # 3. Revenue growth YoY > 0, on the smoothed TTM measure (rev_growth falls
     #    back to Yahoo's single-quarter revenueGrowth where statements are
@@ -609,7 +624,8 @@ _DOCTRINE = {
            "sub-industry (leadership measured vs the full universe), trimmed by "
            "composite rebound score (analyst upside + drawdown room + quality + "
            "balance-sheet survival).",
-    "earnings": "profitable + US + TTM-revenue-growth + manageable-leverage + "
+    "earnings": "profitable + ANY DOMICILE (the US gate is skipped — domicile "
+                "does not affect a print) + TTM-revenue-growth + manageable-leverage + "
                 "REPORTING WITHIN THE WINDOW (no SMA/trend gate at all — the "
                 "catalyst is the scheduled print, so the name qualifies above "
                 "OR below its 200d average) + market cap above the size floor "

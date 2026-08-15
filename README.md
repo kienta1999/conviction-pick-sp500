@@ -201,7 +201,7 @@ python scripts/screen.py --leaders-per-subindustry 1 \
 ### The earnings mode (stages 5/5b/5c, and the missing stage 8)
 
 Earnings mode is the one place the funnel changes shape rather than just
-thresholds. Three things are different:
+thresholds. Four things are different:
 
 **1. There is no price gate.** Momentum requires price above the 200-day SMA and
 dip requires it below; earnings requires *nothing*. The catalyst is a scheduled
@@ -209,7 +209,17 @@ event, so trend direction is not evidence either way — a name qualifies from
 above or below its average, and `dist_sma200` rides into the shortlist as
 context for the "how much is priced in?" question instead of as a gate.
 
-**2. Stage 8 is skipped, replaced by a market-cap floor at 5b.** "Biggest in its
+**2. The US-domicile gate is skipped.** Stage 2 comes from the founding
+momentum doctrine ("a profitable US company biggest in its niche") and is about
+who you want to *own for years*: domestic reporting standards, no FX translation
+on a multi-year thesis, no foreign policy risk on the moat. None of it bears on
+whether a company beats its number next Tuesday. Skipping it readmits the 23 S&P
+members chartered in Ireland/UK/Switzerland/Singapore (LIN, STX, ETN, CB, MDT,
+ACN, TT, NXPI, GRMN…) — American businesses by operation, foreign only by
+domicile. They cluster in the late-October reporting wave, so the gate change is
+usually worth 0 names and occasionally worth several.
+
+**3. Stage 8 is skipped, replaced by a market-cap floor at 5b.** "Biggest in its
 niche" answers *can this company hold its pricing for years* — the right question
 for a multi-year shortage thesis, the wrong one for a print eight days out. A #3
 name with four straight beats is a better earnings candidate than a #1 that keeps
@@ -218,11 +228,11 @@ small caps — is done directly by `--min-market-cap` (default **$20B**), becaus
 bad print takes 10-20% off in a single session and you want that to happen in a
 name with the liquidity to exit into.
 
-**3. Two gates are new** — the calendar and the track record:
+**4. Two gates are new** — the calendar and the track record:
 
 ```
                         earnings   (2026-08-15 run, --earnings-within 7)
-0.-4. shared gates          259    identical to the other modes
+1,3,4 shared gates          277    profitable + growing + leverage (no US gate)
 5.  earnings window           9    next scheduled report within 7 days
                                    (--earnings-within; 250 dropped)
 5b. market-cap floor          7    ≥ $20B (--min-market-cap)

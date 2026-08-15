@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-15 16:02:19",
+  "generated": "2026-08-15 16:37:18",
   "mode": "earnings",
   "count": 1,
-  "doctrine": "profitable + US + TTM-revenue-growth + manageable-leverage + REPORTING WITHIN THE WINDOW (no SMA/trend gate at all \u2014 the catalyst is the scheduled print, so the name qualifies above OR below its 200d average) + market cap above the size floor (replaces the niche-leadership rule: a print is not a leadership question, and size is what makes a bad gap survivable) + a clean 4-quarter consensus record (fewer than MAX_MISSES misses, enough history to judge) + strong margins vs the FULL-universe sector median + earnings-quality soft gate + positive-forward-earnings, trimmed by composite beat-streak score (size of beats + streak + beat trend + revenue growth and acceleration + quality).",
+  "doctrine": "profitable + ANY DOMICILE (the US gate is skipped \u2014 domicile does not affect a print) + TTM-revenue-growth + manageable-leverage + REPORTING WITHIN THE WINDOW (no SMA/trend gate at all \u2014 the catalyst is the scheduled print, so the name qualifies above OR below its 200d average) + market cap above the size floor (replaces the niche-leadership rule: a print is not a leadership question, and size is what makes a bad gap survivable) + a clean 4-quarter consensus record (fewer than MAX_MISSES misses, enough history to judge) + strong margins vs the FULL-universe sector median + earnings-quality soft gate + positive-forward-earnings, trimmed by composite beat-streak score (size of beats + streak + beat trend + revenue growth and acceleration + quality).",
   "candidates": [
     {
       "rank": 1,

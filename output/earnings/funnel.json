@@ -8,26 +8,27 @@
   {
     "stage": "2 US company",
     "in": 440,
-    "out": 418,
-    "dropped": 22
+    "out": 440,
+    "dropped": 0,
+    "skipped": "not applicable in earnings mode (domicile does not affect a print)"
   },
   {
     "stage": "3 TTM rev growth>0",
-    "in": 418,
-    "out": 377,
-    "dropped": 41
+    "in": 440,
+    "out": 397,
+    "dropped": 43
   },
   {
     "stage": "4 leverage ok",
-    "in": 377,
-    "out": 259,
-    "dropped": 118
+    "in": 397,
+    "out": 277,
+    "dropped": 120
   },
   {
     "stage": "5 reports <=7d",
-    "in": 259,
+    "in": 277,
     "out": 9,
-    "dropped": 250
+    "dropped": 268
   },
   {
     "stage": "5b mktcap>=$20B",
