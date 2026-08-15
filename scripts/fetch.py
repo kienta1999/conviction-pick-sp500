@@ -19,8 +19,14 @@ screen, not the full point-in-time XBRL pipeline of ranker-21d-sp500):
                      detector): Sloan accrual ratio, cash-conversion (CFO/NI),
                      and receivables/inventory-vs-revenue divergence. Falls
                      back to annual statements when quarterly is sparse.
+  5. Earnings     -> data/earnings/{TICKER}.json (reported-vs-estimate history
+                     + scheduled future dates, from Yahoo's earnings calendar)
+                     Drives the `earnings` screen mode: when the company next
+                     reports, and whether it has been beating consensus with a
+                     rising EPS line. Yahoo returns ~24 past quarters; we keep
+                     EARN_HISTORY_KEEP of them.
 
-Both caches are age-gated (re-fetched when older than *_MAX_AGE_DAYS) so repeat
+Every cache is age-gated (re-fetched when older than *_MAX_AGE_DAYS) so repeat
 runs in the same week are instant. `--refresh` forces a full re-fetch.
 
 Public loader (used by screen.py):
@@ -60,12 +66,20 @@ PRICES_DIR = os.path.join(_ROOT, "data", "prices")
 INFO_DIR = os.path.join(_ROOT, "data", "info")
 FUND_DIR = os.path.join(_ROOT, "data", "fundamentals")
 QUART_DIR = os.path.join(_ROOT, "data", "quarterly")
+EARN_DIR = os.path.join(_ROOT, "data", "earnings")
 
 PRICE_PERIOD = "13mo"        # enough for 200d SMA + 252d (12m) lookback with buffer
 PRICE_MAX_AGE_DAYS = 1
 INFO_MAX_AGE_DAYS = 3
 FUND_MAX_AGE_DAYS = 7        # annual statements change quarterly at most
 QUART_MAX_AGE_DAYS = 7
+# Earnings dates get a 1-day TTL, tighter than the statements they sit beside:
+# the `earnings` screen mode gates on "reports within the next N days", so a
+# stale date doesn't degrade a score, it puts the wrong company in the funnel.
+# Companies also confirm/move dates at short notice. The skill still verifies
+# the winner's date against the company's IR page before publishing.
+EARN_MAX_AGE_DAYS = 1
+EARN_HISTORY_KEEP = 12       # past quarters retained (Yahoo serves ~24)
 
 # Earnings-quality red-flag thresholds (value-trap detector; flags, not gates —
 # except dip mode's soft 2-flag gate in screen.py). Sourced from the
@@ -421,6 +435,204 @@ def eq_from_cache(ticker: str) -> dict:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Earnings calendar + surprise history (the `earnings` screen mode)
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+def _earn_path(ticker: str) -> str:
+    return os.path.join(EARN_DIR, f"{ticker}.json")
+
+
+def _earn_cache_fresh(ticker: str) -> bool:
+    p = _earn_path(ticker)
+    if not os.path.exists(p) or os.path.getsize(p) == 0:
+        return False
+    return (time.time() - os.path.getmtime(p)) / 86400 < EARN_MAX_AGE_DAYS
+
+
+def _download_earnings(ticker: str) -> dict | None:
+    """Yahoo's earnings table -> reported history (newest first) + scheduled
+    future dates. A row with no Reported EPS is a scheduled future print; a row
+    with one is history. Dates are stored as plain YYYY-MM-DD (Yahoo's are
+    exchange-local timestamps; the time-of-day is not reliable enough to keep,
+    so BMO/AMC is a research question, not a cached field)."""
+    for attempt in range(1, RETRIES + 1):
+        try:
+            ed = yf.Ticker(ticker).get_earnings_dates(limit=EARN_HISTORY_KEEP + 8)
+            if ed is None or ed.empty:
+                if attempt == RETRIES:
+                    return None
+                time.sleep(RETRY_SLEEP * attempt)
+                continue
+            ed = ed.copy()
+            ed.index = pd.to_datetime(ed.index).tz_localize(None)
+            ed = ed.sort_index(ascending=False)
+
+            def _f(v):
+                return None if pd.isna(v) else float(v)
+
+            reported = ed[ed["Reported EPS"].notna()]
+            history = [
+                {
+                    "date": d.strftime("%Y-%m-%d"),
+                    "eps_estimate": _f(r.get("EPS Estimate")),
+                    "eps_reported": _f(r.get("Reported EPS")),
+                    "surprise_pct": _f(r.get("Surprise(%)")),
+                }
+                for d, r in reported.head(EARN_HISTORY_KEEP).iterrows()
+            ]
+            upcoming = sorted(
+                d.strftime("%Y-%m-%d") for d in ed[ed["Reported EPS"].isna()].index
+            )
+            return {
+                "history": history,
+                "upcoming": upcoming,
+                "_fetched": time.strftime("%Y-%m-%d %H:%M:%S"),
+            }
+        except Exception as e:
+            if attempt == RETRIES:
+                print(f"  [{ticker}] earnings fetch failed: {e}", flush=True)
+                return None
+            time.sleep(RETRY_SLEEP * attempt)
+    return None
+
+
+def fetch_earnings(ticker: str, refresh: bool = False) -> bool:
+    if not refresh and _earn_cache_fresh(ticker):
+        return True
+    e = _download_earnings(ticker)
+    if e is None:
+        return False
+    with open(_earn_path(ticker), "w") as f:
+        json.dump(e, f)
+    return True
+
+
+# Fields the earnings mode screens and scores on. All null-safe: a name with no
+# usable history gets Nones + an `earn_note`, and the screen drops it BY NAME
+# rather than letting a missing estimate silently cost a candidate.
+EARN_FIELDS = [
+    "next_earnings", "days_to_earnings", "n_reported",
+    "eps_beats_4q", "eps_misses_4q", "eps_surprise_avg_4q", "eps_surprise_trend",
+    "eps_beats_8q", "eps_yoy_q", "eps_yoy_up_4q",
+]
+
+
+def _mean(vals: list) -> float | None:
+    vals = [v for v in vals if v is not None]
+    return sum(vals) / len(vals) if vals else None
+
+
+def earnings_from_cache(ticker: str, today: pd.Timestamp | None = None) -> dict:
+    """Assemble the earnings-calendar + beat-streak metrics for one ticker.
+
+    The "did the last four all beat?" question the earnings doctrine asks is
+    three separate numbers, because they answer different things:
+      * eps_beats_4q / eps_misses_4q — the streak itself (how consistently
+        management clears the bar it guided the street to).
+      * eps_surprise_avg_4q — the SIZE of the beats. Four 0.3% beats is a
+        company managing the number; four 8% beats is a company outrunning it.
+      * eps_surprise_trend — recent 2 vs prior 2. A shrinking beat is the
+        classic tell that the operating tailwind is fading while the streak
+        still technically holds.
+    A beat is surprise_pct > 0; a miss is < 0; exactly 0 is in-line and counts
+    as neither."""
+    out: dict = {k: None for k in EARN_FIELDS} | {"earn_note": None}
+    p = _earn_path(ticker)
+    if not os.path.exists(p):
+        return out | {"earn_note": "no earnings calendar cached"}
+    try:
+        with open(p) as f:
+            e = json.load(f)
+    except Exception:
+        return out | {"earn_note": "earnings cache unreadable"}
+
+    today = pd.Timestamp.now().normalize() if today is None else today.normalize()
+
+    # Next scheduled print. Yahoo occasionally leaves a stale past date in the
+    # "upcoming" bucket (announced, never reconciled), so filter on the date.
+    future = [d for d in e.get("upcoming", []) if pd.Timestamp(d) >= today]
+    if future:
+        nxt = min(future)
+        out["next_earnings"] = nxt
+        out["days_to_earnings"] = int((pd.Timestamp(nxt) - today).days)
+    else:
+        out["earn_note"] = "no scheduled earnings date"
+
+    hist = e.get("history", [])
+    out["n_reported"] = len(hist)
+    if not hist:
+        note = "no reported-earnings history"
+        out["earn_note"] = f"{out['earn_note']}; {note}" if out["earn_note"] else note
+        return out
+
+    surprises = [h.get("surprise_pct") for h in hist]
+    s4 = [s for s in surprises[:4] if s is not None]
+    out["eps_beats_4q"] = sum(1 for s in s4 if s > 0)
+    out["eps_misses_4q"] = sum(1 for s in s4 if s < 0)
+    out["eps_surprise_avg_4q"] = _mean(s4)
+    out["eps_beats_8q"] = sum(1 for s in surprises[:8] if s is not None and s > 0)
+    recent, prior = _mean(surprises[:2]), _mean(surprises[2:4])
+    if recent is not None and prior is not None:
+        out["eps_surprise_trend"] = recent - prior
+
+    # EPS direction from the REPORTED line (not the surprise): is the business
+    # actually earning more than a year ago, or just beating a lowered bar?
+    eps = [h.get("eps_reported") for h in hist]
+
+    def _yoy_at(i: int) -> float | None:
+        if len(eps) > i + 4 and eps[i] is not None and eps[i + 4] not in (None, 0):
+            base = eps[i + 4]
+            if base > 0:                       # YoY off a loss quarter is meaningless
+                return eps[i] / base - 1
+        return None
+
+    out["eps_yoy_q"] = _yoy_at(0)
+    yoys = [_yoy_at(i) for i in range(4)]
+    known = [y for y in yoys if y is not None]
+    out["eps_yoy_up_4q"] = sum(1 for y in known if y > 0) if known else None
+
+    if len(s4) < 4:
+        note = f"only {len(s4)} of last 4 quarters have surprise data"
+        out["earn_note"] = f"{out['earn_note']}; {note}" if out["earn_note"] else note
+    return out
+
+
+def rev_trend_from_cache(ticker: str) -> dict:
+    """Revenue direction for the earnings doctrine, from the caches we already
+    keep. Yahoo only serves ~5 quarters of quarterly revenue, so there is
+    exactly ONE clean YoY reading — the multi-quarter revenue trend the doctrine
+    wants comes from the annual series plus the research agents, not from
+    fabricated quarterly history."""
+    out = {"rev_yoy_q": None, "rev_up_years": None}
+
+    p = _quart_path(ticker)
+    if os.path.exists(p):
+        try:
+            with open(p) as f:
+                out["rev_yoy_q"] = _yoy(json.load(f).get("q_rev", {}))
+        except Exception:
+            pass
+
+    fp = _fund_path(ticker)
+    if os.path.exists(fp):
+        try:
+            with open(fp) as f:
+                annual = json.load(f).get("annual_revenue") or {}
+            vals = [annual[d] for d in sorted(annual, reverse=True)]
+            streak = 0
+            for a, b in zip(vals, vals[1:]):       # newest-first consecutive ups
+                if a is not None and b is not None and b > 0 and a > b:
+                    streak += 1
+                else:
+                    break
+            out["rev_up_years"] = streak
+        except Exception:
+            pass
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Universe fetch (parallel)
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -430,26 +642,30 @@ def fetch_universe(tickers: list[str], refresh: bool = False, workers: int = WOR
     os.makedirs(INFO_DIR, exist_ok=True)
     os.makedirs(FUND_DIR, exist_ok=True)
     os.makedirs(QUART_DIR, exist_ok=True)
+    os.makedirs(EARN_DIR, exist_ok=True)
 
-    def _one(t: str) -> tuple[str, bool, bool, bool, bool]:
+    def _one(t: str) -> tuple[str, bool, bool, bool, bool, bool]:
         return (t, fetch_price(t, refresh), fetch_info(t, refresh),
-                fetch_fund(t, refresh), fetch_quarterly(t, refresh))
+                fetch_fund(t, refresh), fetch_quarterly(t, refresh),
+                fetch_earnings(t, refresh))
 
-    ok_price = ok_info = ok_fund = ok_quart = 0
+    ok_price = ok_info = ok_fund = ok_quart = ok_earn = 0
     failed: list[str] = []
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(_one, t): t for t in tickers}
         for fut in tqdm(as_completed(futures), total=len(futures), desc="Fetch"):
-            t, p, i, fu, qu = fut.result()
+            t, p, i, fu, qu, ea = fut.result()
             ok_price += p
             ok_info += i
             ok_fund += fu
             ok_quart += qu
+            ok_earn += ea
             if not (p and i):  # statements are optional (gates fall back / flag null)
                 failed.append(t)
 
     print(f"\nDone. prices ok={ok_price}/{len(tickers)}  info ok={ok_info}/{len(tickers)}"
-          f"  fundamentals ok={ok_fund}/{len(tickers)}  quarterly ok={ok_quart}/{len(tickers)}", flush=True)
+          f"  fundamentals ok={ok_fund}/{len(tickers)}  quarterly ok={ok_quart}/{len(tickers)}"
+          f"  earnings ok={ok_earn}/{len(tickers)}", flush=True)
     if failed:
         print(f"{len(failed)} tickers missing price and/or info: {', '.join(sorted(failed))}", flush=True)
 
@@ -564,6 +780,11 @@ def load_metrics(tickers: list[str] | None = None) -> pd.DataFrame:
         # Earnings-quality red flags (null-safe: missing statements -> None
         # metrics + a note, never a silent gate).
         row.update(eq_from_cache(t))
+
+        # Earnings calendar + beat-streak / revenue-direction metrics (the
+        # `earnings` mode's raw material; harmless columns in the other modes).
+        row.update(earnings_from_cache(t))
+        row.update(rev_trend_from_cache(t))
 
         # Keep only rows with at least a market cap (the minimum the funnel needs).
         if row.get("marketCap"):

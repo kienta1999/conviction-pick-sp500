@@ -30,6 +30,14 @@ return, SPY alpha over the holding window, hit rate, average win/loss, per
 mode. That table is the number that eventually answers "does the doctrine
 beat SPY".
 
+A note on horizons: momentum and dip picks are underwritten for 12-18 months,
+so their exit rules run for months before firing. `mode=earnings` picks are
+event trades — the skill mandates a close row within days of the print
+(exit_reason=event_exit), so in practice they never reach AT_TARGET/EXPIRED;
+their scenario targets are the fallback thesis, not the plan. Read the
+per-mode realized rows accordingly: earnings rows accumulate fast and mean
+something much sooner than the other two.
+
 CLI:
     python scripts/scorecard.py              # score everything in the ledger
     python scripts/scorecard.py --mode dip   # one strategy only
@@ -164,7 +172,8 @@ def _classify(r: pd.Series, px: pd.DataFrame | None, today: pd.Timestamp,
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    ap.add_argument("--mode", choices=["momentum", "dip"], help="Score one strategy only.")
+    ap.add_argument("--mode", choices=["momentum", "dip", "earnings"],
+                    help="Score one strategy only.")
     ap.add_argument("--ledger", default=LEDGER, help="Alternate ledger CSV (fixtures/tests).")
     ap.add_argument("--check", action="store_true",
                     help="Alert mode: print ALERTS and exit non-zero when any exit rule fires.")

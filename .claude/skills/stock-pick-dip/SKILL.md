@@ -1,6 +1,6 @@
 ---
 name: stock-pick-dip
-description: Pick ONE S&P 500 quality stock that has dipped and will rebound — or a ranked top-N — from the deterministic DIP screen (price below its 200-day SMA but not wrecked, moaty, profitable, still growing). Runs the Python funnel in --mode dip to get ~40 corrected category-leaders, web-researches each for whether the drop is temporary vs permanent, the moat / AI-irreplaceability, a rebound catalyst, balance-sheet survival, and margin of safety, fans the dossier out to multiple Opus 4.8 subagents that independently nominate (or rank), then aggregates into one final conviction pick or a ranked top-N with a written thesis. Use when the user asks to "buy the dip", "find a reboundable dip", "pick a quality dip", "rank N dips", or invokes /stock-pick-dip. For names already trending up on a structural shortage, use the sibling /stock-pick-momentum skill instead.
+description: Pick ONE S&P 500 quality stock that has dipped and will rebound — or a ranked top-N — from the deterministic DIP screen (price below its 200-day SMA but not wrecked, moaty, profitable, still growing). Runs the Python funnel in --mode dip to get ~40 corrected category-leaders, web-researches each for whether the drop is temporary vs permanent, the moat / AI-irreplaceability, a rebound catalyst, balance-sheet survival, and margin of safety, fans the dossier out to multiple Opus 4.8 subagents that independently nominate (or rank), then aggregates into one final conviction pick or a ranked top-N with a written thesis. Use when the user asks to "buy the dip", "find a reboundable dip", "pick a quality dip", "rank N dips", or invokes /stock-pick-dip. For names already trending up on a structural shortage, use the sibling /stock-pick-momentum skill; to trade a scheduled earnings print, use /stock-pick-earnings.
 ---
 
 # Stock Pick (Dip) — buy a reboundable quality dip (one pick, or a ranked top-N)
@@ -9,7 +9,9 @@ description: Pick ONE S&P 500 quality stock that has dipped and will rebound —
 > **below** its 200-day SMA, off its 52-week high but not wrecked) and looks for
 > a quality compounder dislocated *temporarily*. The mirror-image skill
 > **`stock-pick-momentum`** buys **strength** — names trending up on a
-> structural shortage. Same funnel, opposite price gate.
+> structural shortage. Same funnel, opposite price gate. A third sibling,
+> **`stock-pick-earnings`**, ignores the trend entirely and trades the
+> scheduled print.
 
 **First, read `.claude/skills/shared/pick-protocol.md`** — it defines the whole
 machinery (mode selection, Phase 0 shortlist build, triage, research fan-out,

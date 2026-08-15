@@ -1,6 +1,6 @@
 ---
 name: stock-pick-momentum
-description: Pick ONE S&P 500 momentum stock with explosive-return potential — or a ranked top-N — from the deterministic MOMENTUM screen (price above its 200-day SMA, riding a structural shortage). Runs the Python funnel in --mode momentum to get ~50 quality category-leaders, web-researches each for structural-shortage / order-book-backlog signals, fans the enriched dossier out to multiple Opus 4.8 subagents that independently nominate (or rank), then aggregates into either one final conviction pick or a ranked top-N with a written thesis. Use when the user asks to "pick a momentum stock", "run the momentum picker", "find the next MU", "rank the top N momentum stocks", or invokes /stock-pick-momentum. For beaten-down quality names that will rebound, use the sibling /stock-pick-dip skill instead.
+description: Pick ONE S&P 500 momentum stock with explosive-return potential — or a ranked top-N — from the deterministic MOMENTUM screen (price above its 200-day SMA, riding a structural shortage). Runs the Python funnel in --mode momentum to get ~50 quality category-leaders, web-researches each for structural-shortage / order-book-backlog signals, fans the enriched dossier out to multiple Opus 4.8 subagents that independently nominate (or rank), then aggregates into either one final conviction pick or a ranked top-N with a written thesis. Use when the user asks to "pick a momentum stock", "run the momentum picker", "find the next MU", "rank the top N momentum stocks", or invokes /stock-pick-momentum. For beaten-down quality names that will rebound, use the sibling /stock-pick-dip skill; to trade a scheduled earnings print, use /stock-pick-earnings.
 ---
 
 # Stock Pick (Momentum) — from S&P 500 to a conviction bet (one pick, or a ranked top-N)
@@ -8,7 +8,9 @@ description: Pick ONE S&P 500 momentum stock with explosive-return potential —
 > Buys **strength**: this skill rides the deterministic momentum screen (price
 > **above** its 200-day SMA) plus a structural-shortage thesis. The mirror-image
 > skill **`stock-pick-dip`** buys **weakness** — quality names that have
-> corrected and will rebound. Same funnel, opposite price gate.
+> corrected and will rebound. Same funnel, opposite price gate. A third sibling,
+> **`stock-pick-earnings`**, ignores the trend entirely and trades the
+> scheduled print.
 
 **First, read `.claude/skills/shared/pick-protocol.md`** — it defines the whole
 machinery (mode selection, Phase 0 shortlist build, triage, research fan-out,

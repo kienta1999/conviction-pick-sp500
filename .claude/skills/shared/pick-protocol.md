@@ -1,21 +1,29 @@
-# Shared pick protocol — the common machinery of both stock-pick skills
+# Shared pick protocol — the common machinery of the stock-pick skills
 
-`stock-pick-momentum` and `stock-pick-dip` run the **same** funnel machinery;
-only the doctrine differs. This file is that machinery — read it once at skill
-start, then execute it with the invoking skill's parameters. The skill's own
-SKILL.md supplies everything doctrine-specific:
+`stock-pick-momentum`, `stock-pick-dip` and `stock-pick-earnings` run the
+**same** funnel machinery; only the doctrine differs. This file is that
+machinery — read it once at skill start, then execute it with the invoking
+skill's parameters. The skill's own SKILL.md supplies everything
+doctrine-specific:
 
-- **MODE** (`momentum` | `dip`), and with it `OUT = output/<MODE>/` and the
-  screen command `uv run python scripts/fetch.py && uv run python scripts/screen.py --mode <MODE>`.
+- **MODE** (`momentum` | `dip` | `earnings`), and with it `OUT = output/<MODE>/`
+  and the screen command
+  `uv run python scripts/fetch.py && uv run python scripts/screen.py --mode <MODE>`.
 - The **doctrine** — what a great pick looks like.
 - The **trap** — the doctrine's fatal failure mode (momentum: disintermediation /
-  in-sourcing; dip: value trap / permanent impairment). The trap is the **veto**
-  in single-pick mode and the **flag** in ranked mode (see Phase 4).
+  in-sourcing; dip: value trap / permanent impairment; earnings: the priced-in
+  print). The trap is the **veto** in single-pick mode and the **flag** in
+  ranked mode (see Phase 4).
 - The **Phase 1 triage criteria**, the **Phase 2 research brief**, the four
   **Phase 3 lenses** and both **ballot formats**, and the **doctrine-specific
   sections** of the final writeup.
 
 Work through the phases in order. Keep the user updated between phases.
+
+**If MODE is `earnings`, also read the earnings-mode addendum at the bottom of
+this file before Phase 4** — that doctrine is an event trade on a days-long
+horizon, and it changes the EV guardrail, the writeup's centre of gravity, and
+what closing a pick means.
 
 ---
 
@@ -153,14 +161,25 @@ The screen output lives at `OUT/shortlist.json` (and `OUT/shortlist.csv`).
      is only the first run of the week. If `uv` isn't available, fall back to
      `python scripts/...`. Tell the user you're (re)building the screen and
      roughly how long it takes (~2 min warm, up to ~10 min cold).
-2. Read `OUT/shortlist.json` — ~30-50 candidates, each with ticker, security,
-   GICS sector & sub-industry, marketCap, growth (rev_growth_ttm /
-   revenueGrowth), operatingMargins, returnOnEquity, net_debt_ebitda, the price
-   signals (dist_sma200, dist_52w_high, ret_12m), analyst_upside, valuation
-   (trailingPE/forwardPE), and composite_score.
+2. Read `OUT/shortlist.json` — ~30-50 candidates (far fewer in earnings mode,
+   see below), each with ticker, security, GICS sector & sub-industry,
+   marketCap, growth (rev_growth_ttm / revenueGrowth), operatingMargins,
+   returnOnEquity, net_debt_ebitda, the price signals (dist_sma200,
+   dist_52w_high, ret_12m), analyst_upside, valuation (trailingPE/forwardPE),
+   an `earnings_quality` block, an `earnings_trend` block (next_earnings,
+   days_to_earnings, the 4-quarter beat record, revenue direction), and
+   composite_score.
 3. Briefly summarize to the user: how many candidates, the sector spread, and
    the top few by composite score (in dip mode, also the typical drawdown
-   depth).
+   depth; in earnings mode, the reporting calendar — which names report on
+   which day).
+
+**Field size is mode-dependent, and earnings mode is the exception.** Momentum
+and dip reliably produce 18-50 names. Earnings mode is bounded by the calendar:
+a peak-season week yields dozens, a mid-quarter week can yield **one or zero**,
+and that is the screen working correctly, not a bug. Never widen a gate to
+manufacture a field. The earnings skill's Phase 1 defines exactly what to do at
+each field size — read it before deciding to spend research budget.
 
 ---
 
@@ -474,7 +493,7 @@ guardrail blocked the pick). Columns:
 date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by,exit_price,thesis,source,bear_target,bear_by,p_bear,p_base,p_bull,ev_price,next_earnings,size_pct,exit_date,exit_reason
 ```
 
-- `date` — today, YYYY-MM-DD. `mode` — momentum|dip. `kind` —
+- `date` — today, YYYY-MM-DD. `mode` — momentum|dip|earnings. `kind` —
   single|rankN|pass|close. `rank` — 1 for single mode.
 - `price_at_pick` — the current price from `shortlist.json`.
 - `base_target`/`bull_target`/`bear_target` + `base_by`/`bull_by`/`bear_by`
@@ -495,9 +514,10 @@ date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by
   append-only: `date`+`mode`+`ticker` **copy the original pick row's values**
   (that's the reference key), `exit_price` = the realized fill,
   `exit_date` = the close date, `exit_reason` = target_hit|stopped|expired|
-  thesis_break|manual. Written by the owner (or on request) when an exit-rule
-  alert from `scorecard.py --check` is acted on — never by mutating the
-  original row.
+  thesis_break|manual|event_exit. Written by the owner (or on request) when an
+  exit-rule alert from `scorecard.py --check` is acted on — never by mutating
+  the original row. `event_exit` is the earnings mode's normal ending: the
+  planned post-print exit, neither a target nor a stop.
 
 Create the file with the header if it doesn't exist. Never rewrite or delete
 existing rows — the ledger is append-only history. The **sole** exception is
@@ -530,3 +550,64 @@ file that moved, and touches no other field.
   discussion with the drawdown reality.
 - This is research/education, not personalized investment advice. Always
   include the disclaimer.
+
+---
+
+## Earnings-mode addendum (MODE = `earnings` only)
+
+The earnings doctrine is an **event trade**: entered before a scheduled print,
+exited into the reaction, typically held for days. Everything above still
+applies except the five things below, which the 12–18 month horizon assumptions
+would otherwise get wrong.
+
+**1. The EV guardrail becomes two gates, not one.**
+
+The `+15% EV over 12-18 months` rule is a *horizon* rule, and applying it
+unchanged to a 3-day trade would reject every legitimate earnings play. Replace
+Phase 4A step 6 with:
+
+- **Gate A (actionable / not) — the event.** The probability-weighted expected
+  move across the beat / in-line / miss scenarios must be **positive and
+  materially better than a coin flip**, after honestly accounting for what is
+  already priced in (the run into the print and, where found, the
+  options-implied move). A thesis whose expected move is inside the implied
+  move is not an edge — it is the market's own base case, and the run publishes
+  as **"pass — no edge over what's priced"** with a `kind=pass` ledger row.
+- **Gate B (a warning, not a block) — the fallback.** Compute the 12–18 month
+  EV exactly as the other modes do. If it clears +15%, note it: the fallback is
+  sound. **If it does not**, the pick still publishes, but the writeup carries a
+  prominent **"NO SAFE FALLBACK"** warning at the top — this is a trade with no
+  acceptable place to land if the print goes wrong, which is the one situation
+  where a bad gap becomes a permanent loss rather than an inconvenience.
+
+Both gates go in the writeup with their numbers. A pass under Gate A is a
+first-class outcome here exactly as elsewhere — arguably more so, since the
+alternative is paying for someone else's expectations.
+
+**2. The bear_target is not the stop.** In the other modes the ledger's
+`bear_target` doubles as the stop that `scorecard.py` enforces. Here it is the
+*fallback* bear case 12–18 months out, and the real risk control is the event
+plan's exit rule, which no script can enforce. Record `bear_target` as usual so
+the scorecard stays consistent, and state clearly in the writeup that **the
+event exit rule, not the bear target, is what governs this position.**
+
+**3. Closing is mandatory and fast.** Every earnings pick must produce a
+`kind=close` row with `exit_reason=event_exit` within a few days of the print —
+that is the plan, not an exception. Say so in the summary you hand the user,
+with the specific date they should come back and record the exit. This mode is
+the only one that generates realized outcomes on a timescale that can actually
+teach the system anything; leaving its rows open forfeits the entire point.
+Before publishing a *new* earnings run, check the ledger for prior earnings
+picks whose print has already happened and which still have no close row, and
+name them to the user.
+
+**4. `next_earnings` is load-bearing, not decoration.** In the other modes it is
+a sizing footnote. Here it is the thesis: fill it from the *verified* date (the
+Phase 3.5 check against the company's IR page), not from the cached screen
+value, and if verification moved the date, correct the dossier and re-run the
+Phase 4 adjudication before publishing.
+
+**5. Sizing.** POLICY.md's earnings-halving rule applies to every pick in this
+mode by construction, on top of a lower per-pick cap — see POLICY.md §1.5. Echo
+the resulting number in the sizing note, and state that the halving is not a
+penalty for this doctrine but the reason it is survivable.

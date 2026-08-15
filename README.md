@@ -3,7 +3,7 @@
 Pick **one** S&P 500 stock with explosive-return potential (or a ranked top-N) —
 by funneling all 503 members through a **deterministic quality screen** (Python),
 then handing the survivors to a **multi-agent AI skill** that web-researches each
-and forces a conviction pick. Two complementary strategies share the same funnel
+and forces a conviction pick. Three complementary strategies share the same funnel
 and the same scripts, switched by `screen.py --mode`:
 
 - **Momentum** (`--mode momentum`, skill `/stock-pick-momentum`) — buy
@@ -17,12 +17,21 @@ and the same scripts, switched by `screen.py --mode`:
   and off its 52-week high (yet not wrecked), corrected on a **transitory** cause
   with an intact moat (especially **AI-irreplaceable**), a rebound catalyst, and
   a margin of safety. Buy the dislocation, not the decline.
+- **Earnings** (`--mode earnings`, skill `/stock-pick-earnings`) — buy the
+  **catalyst**. A ≥$20B company **reporting within the next 7 days** that has
+  beaten consensus four quarters running with the revenue line still rising
+  underneath the beats. **No SMA gate at all** — above or below the 200-day
+  average is irrelevant when the thing expected to move the stock is the print.
+  This is an **event trade**: entered before the report, exited into the
+  reaction, closed in the ledger within days. Its trap is the *priced-in print* —
+  the beat that was already in the price.
 
 ```
-503 S&P 500 names ──[ deterministic funnel (--mode momentum | dip) ]──> ~30-50 quality leaders
-                                                      │
+503 S&P 500 names ─[ deterministic funnel (--mode momentum|dip|earnings) ]─> quality candidates
+                                                      │     (~30-50; earnings mode is
+                                                      │      calendar-bound, often <10)
                                                       ▼
-           /stock-pick-momentum  OR  /stock-pick-dip : web research + Opus 4.8 voting panel
+  /stock-pick-momentum | /stock-pick-dip | /stock-pick-earnings : research + Opus 4.8 panel
                                                       │        (+ claim verification pass)
                                                       ▼
                 ONE conviction pick (or ranked top-N) + thesis → picks/ledger.csv
@@ -36,17 +45,19 @@ and the same scripts, switched by `screen.py --mode`:
 | Step | Script                                    | What it does                                                                                                                                                                                                                                                 |
 | ---- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1    | `scripts/universe.py`                     | Current S&P 500 roster + GICS Sector / Sub-Industry (Wikipedia scrape, cached weekly).                                                                                                                                                                       |
-| 2    | `scripts/fetch.py`                        | Per-ticker OHLCV (momentum + drawdown), yfinance fundamentals snapshot, and annual revenue series (for TTM growth). Threaded, retrying, age-cached.                                                                                                          |
-| 3    | `scripts/screen.py --mode {momentum,dip}` | The deterministic funnel → `output/<mode>/shortlist.json`.                                                                                                                                                                                                   |
+| 2    | `scripts/fetch.py`                        | Per-ticker OHLCV (momentum + drawdown), yfinance fundamentals snapshot, annual revenue series (for TTM growth), quarterly statements (earnings-quality flags), and the earnings calendar + 12-quarter consensus-surprise history. Threaded, retrying, age-cached. |
+| 3    | `scripts/screen.py --mode {momentum,dip,earnings}` | The deterministic funnel → `output/<mode>/shortlist.json`.                                                                                                                                                                                          |
 | 4a   | `.claude/skills/stock-pick-momentum/`     | Momentum AI skill: web research → Opus 4.8 panel → verification → one pick (or top-N) → `output/momentum/final_pick.md` + ledger row(s).                                                                                                                     |
 | 4b   | `.claude/skills/stock-pick-dip/`          | Dip AI skill: web research → Opus 4.8 panel → verification → one pick (or top-N) → `output/dip/final_pick.md` + ledger row(s).                                                                                                                               |
+| 4c   | `.claude/skills/stock-pick-earnings/`     | Earnings AI skill: same machinery, event horizon → `output/earnings/final_pick.md` + ledger row(s) + a mandatory `kind=close` row within days of the print.                                                                                                  |
 | 5    | `scripts/scorecard.py`                    | The feedback loop + **exit rules**: classifies every ledger row (AT_TARGET / STOPPED / EXPIRED / OPEN / CLOSED), benchmarks vs SPY, builds the realized track record from `kind=close` rows, and (`--check`) exits non-zero with an ALERTS section for cron. |
 
 ## The deterministic funnel (`screen.py`)
 
-Each stage is a hard, repeatable gate. **Only stage 5 (the price gate), the
-forward-PE default, and the composite score differ between modes** — every
-quality gate is shared. Real numbers from a 2026-07 run:
+Each stage is a hard, repeatable gate. Between **momentum and dip**, only stage 5
+(the price gate), the forward-PE default, and the composite score differ — every
+quality gate is shared. **Earnings mode** differs more (no price gate, no stage
+8; see its own section below). Real numbers from a 2026-07 run:
 
 ```
                        momentum   dip
@@ -63,7 +74,7 @@ quality gate is shared. Real numbers from a 2026-07 run:
 5b. Drawdown floor        —        89   dip only: ≤55% below the 52-week high
                                         (drops falling knives; --dip-drawdown-floor)
 6. Strong margins         69       42   operating margin > the GICS-sector median
-6b. Earnings quality      —        42   dip only, SOFT gate (--no-eq-gate disables):
+6b. Earnings quality      —        42   dip + earnings, SOFT gate (--no-eq-gate off):
                                         drop names with 2+ red flags — Sloan accruals
                                         > +5%, CFO/NI < 0.6, receivables (or inventory)
                                         outrunning revenue — the quantifiable value-trap
@@ -93,6 +104,14 @@ cross-sectional percentile ranks, and is mode-specific:
   more room, the floor gate caps the wrecks), operating margin (15%), ROE (15%),
   TTM revenue growth (15%), low leverage / survival (10%) — rebound room +
   quality + balance-sheet durability, deliberately **not** momentum.
+- **earnings:** average surprise size over the last 4 quarters (20%), beat count
+  (15%), surprise trend — recent 2 vs prior 2 (5%), TTM revenue growth (20%),
+  revenue acceleration (10%), operating margin (15%), ROE (10%), low leverage
+  (5%) — the track record of clearing the bar first, then the top line that has
+  to keep feeding it. Deliberately rewards **neither** momentum nor analyst
+  upside: neither says anything about what a company does with next week's
+  print, and rewarding either would smuggle the momentum doctrine into an event
+  screen.
 
 (Net-cash companies with no usable EBITDA rank as the _best_ balance sheets in
 the leverage term, not neutral.)
@@ -179,6 +198,79 @@ python scripts/screen.py --leaders-per-subindustry 1 \
                          --coleader-ratio 1.0 --coleader-2nd-ratio 1.0   # strict #1-only
 ```
 
+### The earnings mode (stages 5/5b/5c, and the missing stage 8)
+
+Earnings mode is the one place the funnel changes shape rather than just
+thresholds. Three things are different:
+
+**1. There is no price gate.** Momentum requires price above the 200-day SMA and
+dip requires it below; earnings requires *nothing*. The catalyst is a scheduled
+event, so trend direction is not evidence either way — a name qualifies from
+above or below its average, and `dist_sma200` rides into the shortlist as
+context for the "how much is priced in?" question instead of as a gate.
+
+**2. Stage 8 is skipped, replaced by a market-cap floor at 5b.** "Biggest in its
+niche" answers *can this company hold its pricing for years* — the right question
+for a multi-year shortage thesis, the wrong one for a print eight days out. A #3
+name with four straight beats is a better earnings candidate than a #1 that keeps
+missing. What the size rule was really doing for risk — keeping the system out of
+small caps — is done directly by `--min-market-cap` (default **$20B**), because a
+bad print takes 10-20% off in a single session and you want that to happen in a
+name with the liquidity to exit into.
+
+**3. Two gates are new** — the calendar and the track record:
+
+```
+                        earnings   (2026-08-15 run, --earnings-within 7)
+0.-4. shared gates          259    identical to the other modes
+5.  earnings window           9    next scheduled report within 7 days
+                                   (--earnings-within; 250 dropped)
+5b. market-cap floor          7    ≥ $20B (--min-market-cap)
+5c. enough history            7    ≥4 reported quarters with surprise data;
+                                   names dropped here are printed by ticker
+5c. consensus record          6    <2 EPS misses in the last 4 quarters
+                                   (--max-misses-4q; set to 1 to demand 4-for-4)
+6.  strong margins            1    op margin > sector median — computed over the
+                                   FULL universe here, not the survivors (see below)
+6b. earnings quality          1    same soft gate dip mode uses: 2+ red flags drops
+7.  forward profit            1    0 < forward P/E < 60
+8.  niche leaders             1    SKIPPED — 5b does this job
+```
+
+**The sector median is computed differently here, deliberately.** In momentum and
+dip, stage 6's median is taken over the survivors of stages 1-5 (a known leakage —
+see the TODO). Earnings mode *cannot* do that: its stage-5 survivor pool is
+"whoever happens to report this week", so a sector median over it would be built
+from two or three arbitrary names, and a company would pass or fail on which peers
+share its reporting week. Here the median comes from the full universe, the same
+way stage 8 measures leadership.
+
+**Expect a small field, and sometimes none.** The window is a hard calendar
+constraint. The run above yielded **1** name at 7 days and **6** at 14; a
+mid-quarter week can yield zero, and the screen exits cleanly with empty outputs
+when it does. Peak season (late Jan/Apr/Jul/Oct) yields far more. The skill is
+required to report the field size and *not* widen gates to manufacture
+candidates — a 4-lens panel voting over 2 names is theater, and it says so.
+
+One consequence worth knowing: the shared stage-6 margin gate means low-margin
+retail almost never qualifies in any mode. In the run above WMT, TGT, TJX, ROST
+and HD all cleared the calendar and the beat record, then died at the sector
+median. That is the doctrine working as designed, not an earnings-mode bug.
+
+The beat record itself comes from Yahoo's earnings calendar (~24 quarters
+available, 12 cached per ticker) and lands in `shortlist.json` as an
+`earnings_trend` block: `eps_beats_4q`, `eps_misses_4q`, `eps_surprise_avg_4q`
+(the *size* of the beats), `eps_surprise_trend` (recent 2 vs prior 2 — a
+shrinking beat is the classic fade tell), `eps_beats_8q`, `eps_yoy_q` and
+`eps_yoy_up_4q` from the *reported* EPS line (is it earning more, or just
+beating a lowered bar?), plus `rev_yoy_q`, `rev_accel` and `rev_up_years`.
+
+⚠️ **The cached report date is Yahoo's and is sometimes an estimate.** It has a
+1-day cache TTL — tighter than anything else here, because a stale date doesn't
+degrade a score, it puts the wrong company in the funnel. The skill still
+verifies the winner's date and BMO/AMC against the company's IR page before
+publishing; that check is the first item in its verification phase.
+
 ## Quick start
 
 ```bash
@@ -188,6 +280,7 @@ uv run python scripts/universe.py         # build the S&P 500 roster
 uv run python scripts/fetch.py            # fetch prices + fundamentals (~2 min, cached after)
 uv run python scripts/screen.py --mode momentum   # → output/momentum/shortlist.{json,csv}
 uv run python scripts/screen.py --mode dip        # → output/dip/shortlist.{json,csv}
+uv run python scripts/screen.py --mode earnings   # → output/earnings/shortlist.{json,csv}
 
 uv run python scripts/scorecard.py        # score all past picks vs targets and SPY
 uv run python scripts/scorecard.py --check  # exit-rules alert mode (non-zero exit
@@ -202,6 +295,8 @@ Then run the AI picker from Claude Code — one skill per strategy:
 /stock-pick-momentum          # buy strength: shortage + above-200d-SMA
 /stock-pick-dip               # buy weakness: reboundable quality dip
 /stock-pick-dip rank 10       # ranked top-10 instead of a single pick
+/stock-pick-earnings          # buy the catalyst: reports within 7 days, 4/4 beats
+/stock-pick-earnings 14 days  # widen the window when the week is empty
 ```
 
 Each will (re)build its shortlist if needed, triage to the ~12-15 strongest
@@ -216,9 +311,22 @@ table** — to `output/<mode>/final_pick.md` (or `final_ranking.md`), and
 doctrine accountable.
 The momentum panel runs supply-chain / growth / quality / contrarian lenses;
 the dip panel runs catalyst / compounder / moat-&-AI-irreplaceability /
-falling-knife-skeptic lenses.
+falling-knife-skeptic lenses; the earnings panel runs earnings-momentum /
+setup-&-positioning-skeptic / moat-&-irreplaceability / contrarian lenses.
 
-### How the two skills share one protocol
+**Earnings mode diverges after the panel**, because it is an event trade rather
+than a 12-18 month thesis (see the addendum at the foot of the protocol). Its
+writeup leads with an **event plan** — entry timing, beat/in-line/miss scenarios,
+and an exit rule written *before* the print — and the usual 12-18 month scenarios
+demote to the **fallback**: what you are left holding if the gap is too ugly to
+exit cleanly. The `+15% EV` guardrail splits in two: an *event* gate that must
+beat what is already priced in (fail → `kind=pass`, no edge), and a *fallback*
+gate that only warns (fail → the writeup carries a "NO SAFE FALLBACK" banner).
+Closing is mandatory within days of the print, as a `kind=close` row with
+`exit_reason=event_exit` — this is the only mode that produces realized outcomes
+fast enough to teach the system anything.
+
+### How the three skills share one protocol
 
 All the machinery both skills have in common — mode parsing (single vs ranked
 top-N vs multi-round), the Phase 0 shortlist build, research fan-out, panel
@@ -226,9 +334,9 @@ mechanics, the verification pass, Borda aggregation, the writeup template, the
 ledger append, and the guardrails — lives once in
 `.claude/skills/shared/pick-protocol.md`. Each SKILL.md contains only its
 doctrine: the philosophy, its trap (momentum: disintermediation/in-sourcing;
-dip: value-trap/permanent-impairment), triage criteria, research brief, the
-four panel lenses, and its writeup sections. Change the machinery in one place;
-it applies to both.
+dip: value-trap/permanent-impairment; earnings: the priced-in print), triage
+criteria, research brief, the four panel lenses, and its writeup sections.
+Change the machinery in one place; it applies to all three.
 
 Subagents deliberately run on **Opus 4.8** (`model: "opus"`), not a
 Mythos-class model — the panel fans out to 4×R agents and research batches, so
@@ -258,6 +366,10 @@ python scripts/screen.py --max-forward-pe 30          # override the forward-val
 python scripts/screen.py --leaders-per-subindustry 3  # keep top-3 per niche
 python scripts/screen.py --coleader-ratio 0.15        # wider co-leader net
 python scripts/screen.py --mode dip --no-eq-gate      # disable the stage-6b earnings-quality gate
+python scripts/screen.py --mode earnings                       # reports within 7 days
+python scripts/screen.py --mode earnings --earnings-within 14  # widen an empty week
+python scripts/screen.py --mode earnings --min-market-cap 50e9 # bigger names only
+python scripts/screen.py --mode earnings --max-misses-4q 1     # demand a clean 4-for-4 streak
 python scripts/screen.py --no-trim                    # skip the trim-to-target step
 python scripts/fetch.py --refresh                     # ignore caches, re-fetch
 python scripts/fetch.py --tickers MU,NVDA,META        # debug a subset
@@ -268,10 +380,12 @@ python scripts/scorecard.py --stop-pct 0.2 --grace-days 60  # tighter exit rules
 
 ## Outputs
 
-Each mode writes to its own folder, `output/momentum/` or `output/dip/`:
+Each mode writes to its own folder — `output/momentum/`, `output/dip/` or
+`output/earnings/`:
 
 - `output/<mode>/shortlist.json` — full records (~47 fields/candidate) for the skill.
-- `output/<mode>/shortlist.csv` — human-readable, ranked (dip CSV surfaces `dist_52w_high`).
+- `output/<mode>/shortlist.csv` — human-readable, ranked (dip CSV surfaces `dist_52w_high`;
+  every CSV now carries the earnings-calendar and beat-record columns).
 - `output/<mode>/funnel.json` — stage-by-stage in/out/dropped counts (audit trail).
 - `output/<mode>/research_dossier.md` — written by the skill (web research).
 - `output/<mode>/final_pick.md` / `final_ranking.md` — written by the skill (the pick(s) + thesis).
@@ -312,7 +426,14 @@ Plus the cross-mode scorecard:
 
 - **Roster + GICS:** Wikipedia "List of S&P 500 companies".
 - **Prices + fundamentals:** Yahoo Finance via `yfinance` (prices cached ~1 day,
-  info ~3 days, annual statements ~7 days under `data/`, all git-ignored).
+  info ~3 days, annual + quarterly statements ~7 days under `data/`, all
+  git-ignored).
+- **Earnings calendar + consensus-surprise history:** Yahoo Finance via
+  `yfinance` `get_earnings_dates()` — the next scheduled report date plus 12
+  quarters of estimate/reported/surprise, cached **~1 day** under
+  `data/earnings/`. The dates are Yahoo's and are sometimes estimates, which is
+  why the earnings skill verifies the winner's against the company's IR page
+  before publishing.
 
 This is a _current-snapshot_ screen, so unlike the sibling
 `ranker-21d-sp500` project it needs no point-in-time membership history

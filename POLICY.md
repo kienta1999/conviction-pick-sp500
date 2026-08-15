@@ -39,6 +39,25 @@ measurements — treat the formula as a *discipline* that forces downside math
 before money moves, and the caps as the real risk control. Never size up
 because the formula "says so"; only ever size down from it.
 
+### 1.5 Earnings mode — a tighter regime
+
+`mode=earnings` picks are event trades held into a scheduled print. Rule 1.1's
+earnings halving applies to **every** pick in this mode by construction — that
+is the point, not an edge case — and on top of it:
+
+- **Per-pick cap: 2%** of investable capital (not 5%), before the halving and
+  before the pilot halving of rule 1.4. A single session can take 10-20% off a
+  large, healthy company on a guide the market didn't like; the position has to
+  be small enough that the gap is an annoyance rather than an event.
+- **One earnings position at a time.** Two open prints in the same week is a
+  bet on earnings season, not on a company.
+- **The exit is part of the entry.** Do not open the position without the
+  writeup's exit rule in front of you. An event trade held past its rule
+  because "the thesis is still intact" has become an unplanned long position,
+  sized for an event that already passed.
+- Earnings positions count against the 15% system cap like any other while
+  they are open — which, per the protocol, should be days.
+
 ## 2. No leverage — hard rule
 
 Picks from this system are **cash-only**. No margin, no options as leverage
@@ -57,8 +76,15 @@ The system is portfolio-blind, so the overlap check is a **human step**:
 - [ ] Is total open exposure from this system after this entry ≤ 15%? (Run
       `uv run python scripts/scorecard.py` — it prints the recorded total.)
 - [ ] Earnings within 10 days? Halve (writeup should already flag it).
+- [ ] `mode=earnings`? Apply §1.5 (2% cap, then halve), confirm no other
+      earnings position is open, and have the exit rule written down before
+      the order goes in.
 - [ ] Record the actual deployed size in the pick's ledger row (`size_pct`)
       so the scorecard can police the cap. Unfunded picks leave it empty.
+- [ ] After an earnings print: append the `kind=close` row
+      (`exit_reason=event_exit`) the same week. This is not optional
+      bookkeeping — it is the only realized-outcome data this system gets
+      quickly.
 
 ## 4. The "pass" outcome is a first-class result
 
