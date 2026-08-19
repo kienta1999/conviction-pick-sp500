@@ -61,6 +61,38 @@ if _HERE not in sys.path:
 
 from universe import get_tickers  # noqa: E402
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HTTP backend guard
+# ─────────────────────────────────────────────────────────────────────────────
+# yfinance >= 1.4 defaults to curl_cffi with Chrome TLS impersonation. Behind a
+# TLS-terminating egress proxy (corporate MITM, the Claude Code web sandbox)
+# that handshake gets reset — every fetch dies with
+# "curl: (35) Recv failure: Connection reset by peer" — while plain requests
+# sails through the same proxy. Probe once at import; fall back only when the
+# impersonated handshake actually fails, so a normal machine keeps the
+# fingerprint Yahoo prefers.
+
+_BACKEND_PROBE_URL = "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1d"
+
+
+def _ensure_working_http_backend() -> None:
+    import requests
+    import yfinance._http as yf_http
+
+    if not getattr(yf_http, "HAS_CURL_CFFI", False):
+        return
+    try:
+        yf_http.new_session().get(_BACKEND_PROBE_URL, timeout=10)
+    except Exception:
+        yf_http.HAS_CURL_CFFI = False
+        yf_http._backend = requests
+        yf_http._warn_once_on_fallback = lambda *a, **k: None
+        print("curl_cffi blocked by the network path; using the requests backend.", flush=True)
+
+
+_ensure_working_http_backend()
+
 _ROOT = os.path.dirname(_HERE)
 PRICES_DIR = os.path.join(_ROOT, "data", "prices")
 INFO_DIR = os.path.join(_ROOT, "data", "info")
