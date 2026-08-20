@@ -25,58 +25,58 @@
     "dropped": 122
   },
   {
-    "stage": "5 reports <=14d",
+    "stage": "5 reports <=30d",
     "in": 290,
-    "out": 19,
-    "dropped": 271
+    "out": 23,
+    "dropped": 267
   },
   {
     "stage": "5b mktcap>=$20B",
-    "in": 19,
-    "out": 18,
-    "dropped": 1
+    "in": 23,
+    "out": 21,
+    "dropped": 2
   },
   {
     "stage": "5c has >=4q history",
-    "in": 18,
-    "out": 18,
+    "in": 21,
+    "out": 21,
     "dropped": 0
   },
   {
     "stage": "5c misses<2 of 4q",
-    "in": 18,
-    "out": 18,
+    "in": 21,
+    "out": 21,
     "dropped": 0
   },
   {
     "stage": "6 op margin>sector med",
-    "in": 18,
-    "out": 10,
-    "dropped": 8
+    "in": 21,
+    "out": 11,
+    "dropped": 10
   },
   {
     "stage": "6b earnings quality",
-    "in": 10,
-    "out": 8,
+    "in": 11,
+    "out": 9,
     "dropped": 2
   },
   {
     "stage": "7 0<fwdPE<60",
-    "in": 8,
-    "out": 8,
+    "in": 9,
+    "out": 9,
     "dropped": 0
   },
   {
     "stage": "8 niche leaders",
-    "in": 8,
-    "out": 8,
+    "in": 9,
+    "out": 9,
     "dropped": 0,
     "skipped": "not applicable in earnings mode (stage 5b market-cap floor instead)"
   },
   {
     "stage": "9 trim to target",
-    "in": 8,
-    "out": 8,
+    "in": 9,
+    "out": 9,
     "dropped": 0,
     "target": 50,
     "trimmed": false
