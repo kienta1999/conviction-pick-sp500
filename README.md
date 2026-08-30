@@ -228,24 +228,62 @@ small caps — is done directly by `--min-market-cap` (default **$20B**), becaus
 bad print takes 10-20% off in a single session and you want that to happen in a
 name with the liquidity to exit into.
 
-**4. Two gates are new** — the calendar and the track record:
+**4. Four gates are new** — the calendar, the track record, the *reaction*
+record, and a flag on the run into the print:
 
 ```
-                        earnings   (2026-08-15 run, --earnings-within 7)
+                        earnings   (2026-08-30 run, default --earnings-within 45)
 1,3,4 shared gates          277    profitable + growing + leverage (no US gate)
-5.  earnings window           9    next scheduled report within 7 days
-                                   (--earnings-within; 250 dropped)
-5b. market-cap floor          7    ≥ $20B (--min-market-cap)
-5c. enough history            7    ≥4 reported quarters with surprise data;
+5.  earnings window          23    next scheduled report within 45 days
+                                   (--earnings-within; narrow to 10 for one week)
+5b. market-cap floor         21    ≥ $20B (--min-market-cap)
+5c. enough history           21    ≥4 reported quarters with surprise data;
                                    names dropped here are printed by ticker
-5c. consensus record          6    <2 EPS misses in the last 4 quarters
+5c. consensus record         21    <2 EPS misses in the last 4 quarters
                                    (--max-misses-4q; set to 1 to demand 4-for-4)
-6.  strong margins            1    op margin > sector median — computed over the
+5d. reaction record          12    >50% of this name's own past BEATS produced an
+                                   up move (--min-beat-up-rate / --no-reaction-gate).
+                                   Dropped 9: AVGO, MU, COST, PANW, ACN, ADBE, NKE,
+                                   DAL, JBL — every one of them a clean beat streak
+                                   the market did not pay for. Never fires on a thin
+                                   sample; JPM and KR were kept as "not judgeable"
+5e. run-into-print FLAG      12    up >15% over the 21 sessions into the print —
+                                   flagged, never dropped (HPE +30%, NTAP +30%,
+                                   DELL +26%). THE TRAP as a number
+6.  strong margins            7    op margin > sector median — computed over the
                                    FULL universe here, not the survivors (see below)
-6b. earnings quality          1    same soft gate dip mode uses: 2+ red flags drops
-7.  forward profit            1    0 < forward P/E < 60
-8.  niche leaders             1    SKIPPED — 5b does this job
+6b. earnings quality          7    same soft gate dip mode uses: 2+ red flags drops
+7.  forward profit            7    0 < forward P/E < 60
+8.  niche leaders             7    SKIPPED — 5b does this job
 ```
+
+**Why stage 5d exists — the beat is not the tradeable variable.** The doctrine
+was built on the beat streak, and the composite put 40% of its weight there. But
+what pays is the *reaction*, and the two come apart. Joining the earnings cache
+to the price cache across the nine names in the 2026-08-15 shortlist: a 4/4 beat
+record converted into an up move **19 times out of 35 (54%)**, mean reaction
+**+0.1%**, mean absolute move **5.9%**. ADBE and VEEV each beat four of four and
+*fell* on three of those four prints — and the old screen ranked both top-tier,
+because it could not see reactions at all. Every candidate in that run had also
+run up into its print (median +12%) with nothing in the machinery flagging it.
+
+So `fetch.py` now measures what the stock did after each of the last ~8 prints
+(`beat_up_rate`, `reaction_avg_move`, `reaction_avg_abs_move`, `reaction_worst`,
+`reaction_last4`, `ret_21d`) and ships it in `shortlist.json` as a
+`print_reaction` block. BMO/AMC is not reliably knowable from Yahoo, so the
+reaction takes whichever of the report session and the next moved more in
+absolute terms — right nearly always, mildly biased upward in magnitude, and
+re-checked against the researched figure at Phase 3.5. Because this needs a
+price series spanning 12 quarters of prints, `PRICE_PERIOD` went from 13 months
+to 3 years; every momentum/dip signal is anchored to the tail of the series, so
+none of their values move (verified: dip and momentum shortlists are byte-
+identical across the change).
+
+**The window default went from 7 days to 45.** A one-week window meant choosing
+the best of whatever ~6 names happened to report that week — the calendar making
+the decision, not the doctrine. The skill now ranks a whole reporting wave once
+and splits it into "actionable now" (~10 days out) and a pre-vetted watchlist
+that names join as their dates arrive.
 
 **The sector median is computed differently here, deliberately.** In momentum and
 dip, stage 6's median is taken over the survivors of stages 1-5 (a known leakage —
@@ -307,6 +345,13 @@ available, 12 cached per ticker) and lands in `shortlist.json` as an
 shrinking beat is the classic fade tell), `eps_beats_8q`, `eps_yoy_q` and
 `eps_yoy_up_4q` from the *reported* EPS line (is it earning more, or just
 beating a lowered bar?), plus `rev_yoy_q`, `rev_accel` and `rev_up_years`.
+
+The **earnings composite was reweighted** to match: what the stock does with a
+beat now carries 35% (`beat_up_rate` 15%, `reaction_avg_move` 10%, and `ret_21d`
+10% scored *negatively* — the run into the print is the cost of admission, not a
+signal), against 25% for the beat streak itself (down from 40%), 22% revenue,
+18% quality. It still deliberately ignores analyst upside and 12-month momentum,
+which would smuggle the momentum doctrine into an event screen.
 
 #### Should the earnings mode look outside the S&P 500?
 
@@ -371,8 +416,8 @@ Then run the AI picker from Claude Code — one skill per strategy:
 /stock-pick-momentum          # buy strength: shortage + above-200d-SMA
 /stock-pick-dip               # buy weakness: reboundable quality dip
 /stock-pick-dip rank 10       # ranked top-10 instead of a single pick
-/stock-pick-earnings          # buy the catalyst: reports within 7 days, 4/4 beats
-/stock-pick-earnings 14 days  # widen the window when the week is empty
+/stock-pick-earnings          # buy the catalyst: a 45-day wave, 4/4 beats that got paid
+/stock-pick-earnings 10 days  # this week's actionable field only
 ```
 
 Each will (re)build its shortlist if needed, triage to the ~12-15 strongest
@@ -442,8 +487,9 @@ python scripts/screen.py --max-forward-pe 30          # override the forward-val
 python scripts/screen.py --leaders-per-subindustry 3  # keep top-3 per niche
 python scripts/screen.py --coleader-ratio 0.15        # wider co-leader net
 python scripts/screen.py --mode dip --no-eq-gate      # disable the stage-6b earnings-quality gate
-python scripts/screen.py --mode earnings                       # reports within 7 days
-python scripts/screen.py --mode earnings --earnings-within 14  # widen an empty week
+python scripts/screen.py --mode earnings                       # reports within 45 days
+python scripts/screen.py --mode earnings --earnings-within 10  # this week's field only
+python scripts/screen.py --mode earnings --no-reaction-gate    # keep names whose beats get sold
 python scripts/screen.py --mode earnings --min-market-cap 50e9 # bigger names only
 python scripts/screen.py --mode earnings --max-misses-4q 1     # demand a clean 4-for-4 streak
 python scripts/screen.py --no-trim                    # skip the trim-to-target step

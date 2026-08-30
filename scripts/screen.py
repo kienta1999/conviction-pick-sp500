@@ -48,6 +48,15 @@ Funnel (each stage prints how many names it drops):
                          5c earnings track record: fewer than
                             MAX_MISSES_4Q consensus misses in the last 4
                             quarters, and enough history to judge
+                         5d reaction record: of this name's own past BEATS,
+                            more than MIN_BEAT_UP_RATE produced an up move.
+                            A beat is not the tradeable variable — the
+                            next-session move is (see the constant's note).
+                            Skipped on a thin sample; --no-reaction-gate off.
+                         5e run-into-the-print FLAG (not a gate): names up
+                            more than RUN_INTO_PRINT_FLAG over the last 21
+                            sessions are kept and marked, so THE TRAP is
+                            visible to the panel as a number
   6. Strong margins    operating margin above the company's GICS-sector median
   6b. Earnings quality dip + earnings modes, soft gate (--no-eq-gate disables):
                        drop names with 2+ earnings-quality red flags (Sloan
@@ -84,8 +93,9 @@ CLI:
     python scripts/screen.py                       # momentum (default)
     python scripts/screen.py --mode dip            # buy-the-dip screen
     python scripts/screen.py --mode dip --dip-drawdown-floor 0.40
-    python scripts/screen.py --mode earnings       # reporting within 7 days
-    python scripts/screen.py --mode earnings --earnings-within 14
+    python scripts/screen.py --mode earnings       # reporting within 45 days
+    python scripts/screen.py --mode earnings --earnings-within 10
+    python scripts/screen.py --mode earnings --no-reaction-gate
     python scripts/screen.py --mode earnings --min-market-cap 50e9
     python scripts/screen.py --target 50 --max-net-debt-ebitda 3.0
     python scripts/screen.py --no-trim             # keep all category leaders
@@ -106,7 +116,11 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 if _HERE not in sys.path:
     sys.path.insert(0, _HERE)
 
-from fetch import load_metrics  # noqa: E402
+from fetch import (  # noqa: E402
+    MIN_REACTIONS_TO_JUDGE,
+    RUN_INTO_PRINT_SESSIONS,
+    load_metrics,
+)
 
 _ROOT = os.path.dirname(_HERE)
 # Per-mode output folder: output/momentum/, output/dip/ or output/earnings/.
@@ -143,7 +157,13 @@ US_COUNTRY = "United States"
 # catalyst have to be close enough together that nothing else moves the stock
 # first. Widen with --earnings-within when a week is empty (mid-quarter weeks
 # routinely have <5 S&P names reporting).
-DEFAULT_EARNINGS_WITHIN_DAYS = 7
+# 45 days, not 7. A 7-day window means picking the best of whatever ~6 names
+# happen to report this week — the field, not the doctrine, makes the decision.
+# Screening a full reporting wave lets the skill rank the quarter once and then
+# trade names as their dates arrive, from a pre-vetted queue. `days_to_earnings`
+# rides into the output so the skill can still split the ranked field into
+# "actionable now" vs "watchlist" (see the skill's Phase 1).
+DEFAULT_EARNINGS_WITHIN_DAYS = 45
 # Size floor, replacing the stage-8 niche-leadership rule. An earnings print is
 # a binary event with a fat left tail; on a $5B company a miss can take 30% off
 # in one session with no liquidity to exit into. $20B is not a quality proxy —
@@ -156,6 +176,29 @@ DEFAULT_MIN_MARKET_CAP = 20e9
 DEFAULT_MAX_MISSES_4Q = 2
 # Minimum reported quarters with surprise data before the record is judgeable.
 MIN_EARNINGS_HISTORY = 4
+# Reaction gate (stage 5d). The doctrine's founding assumption is that a beat
+# streak is an edge — but a beat is not the tradeable variable, the next-session
+# move is, and the two come apart badly. Across the 9 names in the 2026-08-15
+# shortlist, a 4/4 beat record converted to an up move only ~54% of the time
+# (mean reaction +0.1%, mean ABSOLUTE move 5.9%): a coin flip with 6% of
+# variance. ADBE and VEEV each beat 4 of 4 and fell on three of those four
+# prints, and the screen ranked both as top-tier candidates because it could not
+# see reactions at all.
+#
+# This gate drops names whose OWN history says the market does not pay them for
+# beating. It is deliberately set at the coin flip, not above it: the claim
+# being enforced is only "this name's beats have not historically been rewarded",
+# which is about as weak a claim as the data can carry. It never fires on a thin
+# sample (see MIN_REACTIONS_TO_JUDGE in fetch.py) and is disabled with
+# --no-reaction-gate.
+DEFAULT_MIN_BEAT_UP_RATE = 0.50
+# Run-into-the-print FLAG (not a gate). THE TRAP in the earnings doctrine is the
+# already-priced print, and a name that has run hard into its report has the
+# buy-side whisper, not the published estimate, as its real bar. Flagged rather
+# than gated: a run-up can be a re-rating the print will confirm, and that
+# judgement is the panel's job — but it must be visible before the panel forms
+# an opinion, which it previously was not.
+DEFAULT_RUN_INTO_PRINT_FLAG = 0.15
 
 # Category-leader stage (7). GICS sub-industries are coarse — "Semiconductors"
 # holds NVDA, AVGO, MU, AMD together — so a single #1-per-bucket rule throws away
@@ -306,21 +349,30 @@ COMPOSITE_WEIGHTS = {
         "rev_growth": (0.15, True),                 # still growing (not a trap)
         "net_debt_ebitda_rankable": (0.10, False),  # survival: less leverage better
     },
-    #   earnings: the track record of clearing the bar comes first (40% across
-    #             the three surprise factors), then the revenue line that has to
-    #             keep feeding it, then quality. Deliberately does NOT reward
-    #             analyst upside or momentum — neither says anything about what
-    #             a company does with next week's print, and rewarding either
-    #             would smuggle the momentum doctrine into an event screen.
+    #   earnings: what the STOCK does with a beat (35%) now outweighs the beat
+    #             record itself (25%), then the revenue line feeding it, then
+    #             quality. The beat block used to carry 40% and the reaction
+    #             block 0% — that is the version that ranked ADBE and VEEV,
+    #             both 1-of-4 beats-and-rises, into the top tier. 15 points
+    #             moved off the streak onto revealed reaction behaviour.
+    #             Deliberately does NOT reward analyst upside or 12-month
+    #             momentum — neither says anything about what a company does
+    #             with next week's print, and rewarding either would smuggle the
+    #             momentum doctrine into an event screen. ret_21d is the one
+    #             price term and it is scored NEGATIVELY: the run into the print
+    #             is the cost of admission, not a signal.
     "earnings": {
-        "eps_surprise_avg_4q": (0.20, True),        # SIZE of the beats
-        "eps_beats_4q": (0.15, True),               # the streak itself
+        "beat_up_rate": (0.15, True),               # do this name's beats get paid?
+        "reaction_avg_move": (0.10, True),          # and by how much, on average
+        "ret_21d": (0.10, False),                   # THE TRAP: less run-up is better
+        "eps_surprise_avg_4q": (0.12, True),        # SIZE of the beats
+        "eps_beats_4q": (0.08, True),               # the streak itself
         "eps_surprise_trend": (0.05, True),         # beats growing, not shrinking
-        "rev_growth": (0.20, True),                 # the top line still rising
-        "rev_accel": (0.10, True),                  # and rising faster than trend
-        "operatingMargins": (0.15, True),           # quality
-        "returnOnEquity": (0.10, True),             # quality
-        "net_debt_ebitda_rankable": (0.05, False),  # survives a bad print
+        "rev_growth": (0.15, True),                 # the top line still rising
+        "rev_accel": (0.07, True),                  # and rising faster than trend
+        "operatingMargins": (0.10, True),           # quality
+        "returnOnEquity": (0.05, True),             # quality
+        "net_debt_ebitda_rankable": (0.03, False),  # survives a bad print
     },
 }
 # Earnings-quality penalty on the composite (both modes): percentile points off
@@ -370,12 +422,17 @@ def run_screen(
     trim: bool = True,
     mode: str = "momentum",
     dip_drawdown_floor: float = DEFAULT_DIP_DRAWDOWN_FLOOR,
+    reaction_gate: bool = True,
+    min_beat_up_rate: float = DEFAULT_MIN_BEAT_UP_RATE,
+    run_into_print_flag: float = DEFAULT_RUN_INTO_PRINT_FLAG,
     eq_gate: bool = True,
     earnings_within_days: int = DEFAULT_EARNINGS_WITHIN_DAYS,
     min_market_cap: float = DEFAULT_MIN_MARKET_CAP,
     max_misses_4q: int = DEFAULT_MAX_MISSES_4Q,
 ) -> tuple[pd.DataFrame, list[dict]]:
-    df = load_metrics()
+    # Reaction metrics are earnings-only: asking for them in the other two modes
+    # would add columns to their shortlists without changing a single decision.
+    df = load_metrics(with_reactions=(mode == "earnings"))
     if df.empty:
         raise SystemExit("No metrics found. Run `python scripts/fetch.py` first.")
     df = _add_derived(df)
@@ -474,6 +531,46 @@ def run_screen(
             print(f"  (record gate: dropping {r['ticker']} — {int(r['eps_misses_4q'])} "
                   f"consensus miss(es) in the last 4 quarters)", flush=True)
         df = stage(f"5c misses<{max_misses_4q} of 4q", misses < max_misses_4q, df)
+
+        # 5d. REACTION record. 5c asks whether the company clears its bar; this
+        #     asks whether the market pays it for doing so, which is the only
+        #     one of the two you can trade. A name that beats and falls is not a
+        #     candidate whose thesis needs care — it is a name whose good news
+        #     is already in the price by revealed behaviour, every quarter.
+        #     Never fires on a thin sample: fewer than MIN_REACTIONS_TO_JUDGE
+        #     measured beats means "not judgeable", and not judgeable means
+        #     kept-and-named, not dropped.
+        if reaction_gate and not df.empty:
+            rate = df["beat_up_rate"]
+            n_beats = df["n_beats_measured"].fillna(0)
+            judgeable = n_beats >= MIN_REACTIONS_TO_JUDGE
+            thin = df.loc[~judgeable, "ticker"]
+            if len(thin):
+                print(f"  (reaction gate: {len(thin)} name(s) not judgeable on "
+                      f"<{MIN_REACTIONS_TO_JUDGE} measured beats, kept: "
+                      f"{', '.join(sorted(thin))})", flush=True)
+            bad = judgeable & (rate <= min_beat_up_rate)
+            for _, r in df[bad].iterrows():
+                print(f"  (reaction gate: dropping {r['ticker']} — beats rose only "
+                      f"{r['beat_up_rate']:.0%} of the time "
+                      f"({int(r['n_beats_measured'])} measured), last four: "
+                      f"{r['reaction_last4']})", flush=True)
+            df = stage(f"5d beat->up rate>{min_beat_up_rate:.0%}", ~bad, df)
+
+        # 5e. THE TRAP, as a visible number rather than a paragraph. Not a gate
+        #     — a run-up can be a re-rating the print confirms — but the panel
+        #     must see it before it forms a view, and previously nothing in the
+        #     machinery surfaced it at all.
+        if not df.empty:
+            df = df.copy()
+            df["run_into_print_flag"] = (df["ret_21d"] > run_into_print_flag).fillna(False)
+            flagged = df[df["run_into_print_flag"]]
+            if len(flagged):
+                print(f"  (trap flag: {len(flagged)} name(s) up >"
+                      f"{run_into_print_flag:.0%} in the {RUN_INTO_PRINT_SESSIONS} "
+                      f"sessions into the print — kept, flagged:)", flush=True)
+                for _, r in flagged.sort_values("ret_21d", ascending=False).iterrows():
+                    print(f"     {r['ticker']:<6} {r['ret_21d']:+.1%}", flush=True)
     else:
         df = stage("5 above 200d SMA", df["above_sma200"].fillna(False), df)
 
@@ -604,6 +701,9 @@ CSV_COLS = [
     "next_earnings", "days_to_earnings",
     "eps_beats_4q", "eps_misses_4q", "eps_surprise_avg_4q", "eps_surprise_trend",
     "eps_yoy_q", "rev_yoy_q", "rev_accel", "rev_up_years",
+    "beat_up_rate", "n_beats_measured", "reaction_avg_move",
+    "reaction_avg_abs_move", "reaction_worst", "reaction_last4",
+    "ret_21d", "run_into_print_flag",
     "rev_growth_ttm", "revenueGrowth", "operatingMargins", "profitMargins", "returnOnEquity",
     "net_debt_ebitda", "dist_sma200", "dist_52w_high", "ret_12m", "analyst_upside",
     "trailingPE", "forwardPE", "recommendationKey",
@@ -634,9 +734,14 @@ _DOCTRINE = {
                 "survivable) + a clean 4-quarter consensus record (fewer than "
                 "MAX_MISSES misses, enough history to judge) + strong margins "
                 "vs the FULL-universe sector median + earnings-quality soft "
-                "gate + positive-forward-earnings, trimmed by composite "
-                "beat-streak score (size of beats + streak + beat trend + "
-                "revenue growth and acceleration + quality).",
+                "gate + positive-forward-earnings + A REACTION RECORD (the "
+                "name's own beats must have been rewarded with an up move more "
+                "than half the time — beating consensus and falling anyway is "
+                "the priced-in print, measured rather than argued), trimmed by "
+                "a composite that weights what the STOCK does with a beat "
+                "(beat->up rate + average reaction, 25%) and the run INTO the "
+                "print (negatively, 10%) above the beat streak itself (25%), "
+                "then revenue growth/acceleration and quality.",
 }
 
 
@@ -652,7 +757,7 @@ def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum")
     records = json.loads(df.replace({np.nan: None}).to_json(orient="records"))
     # Nest the flat earnings-quality fields into one block per record; a
     # missing metric stays an explicit null with the reason in `note`.
-    from fetch import EQ_FIELDS, EARN_FIELDS
+    from fetch import EQ_FIELDS, EARN_FIELDS, REACT_FIELDS
     # The beat-streak block, same treatment. next_earnings/days_to_earnings stay
     # at the top level too — the ledger records the date for every mode, not
     # just this one.
@@ -671,6 +776,14 @@ def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum")
             **{k: rec.pop(k, None) for k in ("rev_yoy_q", "rev_accel", "rev_up_years")},
             "note": rec.pop("earn_note", None),
         }
+        # What the STOCK did with those beats (earnings mode only — the fields
+        # are absent in the other modes, and so is the block).
+        if any(k in rec for k in REACT_FIELDS):
+            rec["print_reaction"] = {
+                **{k: rec.pop(k, None) for k in REACT_FIELDS},
+                "run_into_print_flag": rec.pop("run_into_print_flag", None),
+                "note": rec.pop("react_note", None),
+            }
     payload = {
         "generated": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S"),
         "mode": mode,
@@ -717,8 +830,9 @@ def main() -> None:
                          "rejects falling knives).")
     ap.add_argument("--earnings-within", type=int, default=DEFAULT_EARNINGS_WITHIN_DAYS,
                     help="Earnings mode only: keep names whose next scheduled "
-                         "report is within this many days (default 7). Widen it "
-                         "when a mid-quarter week comes back nearly empty.")
+                         "report is within this many days (default 45 — a whole "
+                         "reporting wave, ranked once, traded as the dates "
+                         "arrive). Narrow it to ~10 for this week's field only.")
     ap.add_argument("--min-market-cap", type=float, default=DEFAULT_MIN_MARKET_CAP,
                     help="Earnings mode only: market-cap floor in dollars "
                          "(default 20e9). Replaces the stage-8 niche-leadership "
@@ -741,6 +855,19 @@ def main() -> None:
                          "Immune to a runaway #1 inflating the --coleader-ratio bar "
                          "(this is what keeps MU in when NVDA is worth $5T). Set to "
                          "1.0 to disable.")
+    ap.add_argument("--no-reaction-gate", action="store_true",
+                    help="Earnings mode only: disable the stage-5d gate that "
+                         "drops names whose own beats historically did NOT get "
+                         "an up move. The reaction metrics still appear in the "
+                         "shortlist and still feed the composite.")
+    ap.add_argument("--min-beat-up-rate", type=float, default=DEFAULT_MIN_BEAT_UP_RATE,
+                    help="Earnings mode only: stage-5d threshold (default 0.50 "
+                         "— a name must have been paid for more than half its "
+                         "beats). Raise it to demand a stronger reaction record.")
+    ap.add_argument("--run-into-print-flag", type=float, default=DEFAULT_RUN_INTO_PRINT_FLAG,
+                    help="Earnings mode only: flag (never drop) names up more "
+                         "than this over the 21 sessions into the print "
+                         "(default 0.15). THE TRAP, as a number.")
     ap.add_argument("--no-trim", action="store_true", help="Keep all category leaders (skip the stage-9 trim).")
     ap.add_argument("--no-eq-gate", action="store_true",
                     help="Dip and earnings modes: disable the stage-6b "
@@ -767,6 +894,9 @@ def main() -> None:
         earnings_within_days=args.earnings_within,
         min_market_cap=args.min_market_cap,
         max_misses_4q=args.max_misses_4q,
+        reaction_gate=not args.no_reaction_gate,
+        min_beat_up_rate=args.min_beat_up_rate,
+        run_into_print_flag=args.run_into_print_flag,
     )
     _write_outputs(df, funnel, mode=args.mode)
 
@@ -776,10 +906,11 @@ def main() -> None:
 
     print(f"\nTop 15 by composite score ({args.mode} mode):")
     if args.mode == "earnings":
-        show = ["rank", "ticker", "security", "gics_sub_industry", "marketCap",
+        show = ["rank", "ticker", "security", "marketCap",
                 "next_earnings", "days_to_earnings", "eps_beats_4q",
-                "eps_surprise_avg_4q", "rev_growth", "rev_accel",
-                "operatingMargins", "composite_score"]
+                "eps_surprise_avg_4q", "beat_up_rate", "reaction_avg_move",
+                "reaction_avg_abs_move", "ret_21d", "run_into_print_flag",
+                "composite_score"]
     else:
         perf_col = "dist_52w_high" if args.mode == "dip" else "ret_12m"
         show = ["rank", "ticker", "security", "gics_sub_industry", "marketCap",

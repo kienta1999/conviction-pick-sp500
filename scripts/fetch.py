@@ -26,12 +26,18 @@ screen, not the full point-in-time XBRL pipeline of ranker-21d-sp500):
                      rising EPS line. Yahoo returns ~24 past quarters; we keep
                      EARN_HISTORY_KEEP of them.
 
+The earnings mode additionally JOINS caches 1 and 5 (see reaction_from_cache):
+how the stock actually moved the session after each of the last ~8 prints. The
+beat record says what the company did; the reaction record says what the stock
+did about it, and only the second one is tradeable.
+
 Every cache is age-gated (re-fetched when older than *_MAX_AGE_DAYS) so repeat
 runs in the same week are instant. `--refresh` forces a full re-fetch.
 
 Public loader (used by screen.py):
-    load_metrics(tickers) -> DataFrame, one row per ticker, with every raw
-    field the funnel filters on. Tickers with no usable data are dropped.
+    load_metrics(tickers, with_reactions=False) -> DataFrame, one row per
+    ticker, with every raw field the funnel filters on. Tickers with no usable
+    data are dropped. `with_reactions` is opt-in (earnings mode only).
 
 CLI:
     python scripts/fetch.py                      # full S&P 500 universe
@@ -68,7 +74,15 @@ FUND_DIR = os.path.join(_ROOT, "data", "fundamentals")
 QUART_DIR = os.path.join(_ROOT, "data", "quarterly")
 EARN_DIR = os.path.join(_ROOT, "data", "earnings")
 
-PRICE_PERIOD = "13mo"        # enough for 200d SMA + 252d (12m) lookback with buffer
+# 3 years, not the 13 months the momentum signals need. The extra history is
+# there for ONE consumer: the earnings mode's print-reaction metrics, which need
+# a price series spanning the 12 quarters of earnings history in EARN_HISTORY_KEEP
+# (13 months only covers ~4 prints — too few to judge a reaction rate on). Every
+# momentum/dip signal is anchored to the tail of the series (200d SMA, trailing
+# 252 sessions, 126/252-day returns), so lengthening it changes none of them —
+# see _momentum_from_prices.
+PRICE_PERIOD = "3y"
+PRICE_MIN_SPAN_DAYS = 700    # a cache shorter than this is refreshed even if young
 PRICE_MAX_AGE_DAYS = 1
 INFO_MAX_AGE_DAYS = 3
 FUND_MAX_AGE_DAYS = 7        # annual statements change quarterly at most
@@ -123,7 +137,16 @@ def _price_cache_fresh(ticker: str) -> bool:
     p = _price_path(ticker)
     if not os.path.exists(p) or os.path.getsize(p) == 0:
         return False
-    return (time.time() - os.path.getmtime(p)) / 86400 < PRICE_MAX_AGE_DAYS
+    if (time.time() - os.path.getmtime(p)) / 86400 >= PRICE_MAX_AGE_DAYS:
+        return False
+    # Age is not enough: a cache written under an older, shorter PRICE_PERIOD is
+    # young but too short for the reaction metrics. Check the span too.
+    try:
+        idx = pd.read_parquet(p).index
+        span = (idx[-1] - idx[0]).days if len(idx) > 1 else 0
+    except Exception:
+        return False
+    return span >= PRICE_MIN_SPAN_DAYS
 
 
 def _download_prices(ticker: str) -> pd.DataFrame | None:
@@ -633,6 +656,135 @@ def rev_trend_from_cache(ticker: str) -> dict:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Print reactions — how the STOCK behaved after each print, not just the company
+# ─────────────────────────────────────────────────────────────────────────────
+
+# The earnings doctrine screens on the beat record, but a beat is not the
+# tradeable variable: the next-session move is. Measured over the 9 names in the
+# 2026-08-15 shortlist, a perfect 4/4 beat record converted to an up move only
+# ~54% of the time, with a mean reaction of +0.1% and a mean ABSOLUTE move of
+# 5.9% — i.e. selecting on beats alone bought a coin flip with 6% of variance.
+# ADBE and VEEV each beat 4/4 and FELL on three of those four prints. These
+# fields exist so the screen can see that before the research budget is spent.
+REACTION_LOOKBACK = 8        # prints measured (price cache spans ~12 quarters)
+MIN_REACTIONS_TO_JUDGE = 4   # below this the rate is noise; screen must not gate on it
+RUN_INTO_PRINT_SESSIONS = 21 # ~1 month of trading, the "already priced in" window
+
+REACT_FIELDS = [
+    "n_reactions", "beat_up_rate", "n_beats_measured",
+    "reaction_avg_move", "reaction_avg_abs_move", "reaction_worst",
+    "reaction_last4", "ret_21d",
+]
+
+
+def _reaction_at(close: pd.Series, when: pd.Timestamp) -> float | None:
+    """The single-session move attributable to a print dated `when`.
+
+    Yahoo gives the announcement DATE but not a reliable time-of-day, so BMO vs
+    AMC is unknown (see _download_earnings): a BMO print moves the stock that
+    session, an AMC print the next one. We take whichever of the two sessions
+    moved more in absolute terms — the earnings move dominates ordinary daily
+    noise, so this picks the right session nearly always. It does bias the
+    MAGNITUDE upward slightly (it selects a max of two), which is why
+    reaction_avg_abs_move is documented as an upper-ish bound on the typical
+    move rather than a measured implied move."""
+    i = close.index.searchsorted(when)
+    if i < 1 or i >= len(close):
+        return None
+    cands = []
+    for k in (0, 1):
+        j = i + k
+        if 1 <= j < len(close):
+            prev = float(close.iloc[j - 1])
+            if prev > 0:
+                cands.append(float(close.iloc[j]) / prev - 1)
+    if not cands:
+        return None
+    return max(cands, key=abs)
+
+
+def reaction_from_cache(ticker: str, price_df: pd.DataFrame | None) -> dict:
+    """Join the earnings history to the price history: what the stock actually
+    DID after each of the last REACTION_LOOKBACK prints.
+
+      * beat_up_rate — of the prints where the company BEAT consensus, the
+        fraction that produced an up move. This is the doctrine's real hit
+        rate. A name at 1/4 beats-and-rises is priced-in by revealed behaviour,
+        whatever its beat streak says.
+      * reaction_avg_move — mean signed reaction (the edge, if any).
+      * reaction_avg_abs_move — mean absolute reaction. The poor man's implied
+        move: the size of the bet being taken, and the denominator any honest
+        event EV needs.
+      * reaction_worst — the worst single reaction observed. Gap reality.
+      * ret_21d — the run INTO the coming print (THE TRAP, as a number).
+
+    Null-safe throughout: a name with no price cache or no earnings history gets
+    Nones plus a `react_note`, and the screen decides by name rather than
+    silently dropping it."""
+    out: dict = {k: None for k in REACT_FIELDS} | {"react_note": None}
+    if price_df is None or price_df.empty or "Close" not in price_df.columns:
+        return out | {"react_note": "no price history cached"}
+
+    close = price_df["Close"].dropna()
+    if len(close) < 2:
+        return out | {"react_note": "price history too short"}
+    if len(close) > RUN_INTO_PRINT_SESSIONS:
+        prev = float(close.iloc[-(RUN_INTO_PRINT_SESSIONS + 1)])
+        if prev > 0:
+            out["ret_21d"] = float(close.iloc[-1]) / prev - 1
+
+    p = _earn_path(ticker)
+    if not os.path.exists(p):
+        return out | {"react_note": "no earnings calendar cached"}
+    try:
+        with open(p) as f:
+            hist = json.load(f).get("history", [])
+    except Exception:
+        return out | {"react_note": "earnings cache unreadable"}
+    if not hist:
+        return out | {"react_note": "no reported-earnings history"}
+
+    first = close.index[0]
+    measured: list[tuple[float | None, float]] = []   # (surprise_pct, reaction)
+    off_cache = 0
+    for h in hist[:REACTION_LOOKBACK]:
+        try:
+            d = pd.Timestamp(h["date"])
+        except Exception:
+            continue
+        if d <= first:                 # print predates the cached price series
+            off_cache += 1
+            continue
+        r = _reaction_at(close, d)
+        if r is not None:
+            measured.append((h.get("surprise_pct"), r))
+
+    if not measured:
+        note = "no print falls inside the cached price history"
+        return out | {"react_note": note}
+
+    reactions = [r for _, r in measured]
+    out["n_reactions"] = len(measured)
+    out["reaction_avg_move"] = sum(reactions) / len(reactions)
+    out["reaction_avg_abs_move"] = sum(abs(r) for r in reactions) / len(reactions)
+    out["reaction_worst"] = min(reactions)
+    out["reaction_last4"] = ", ".join(f"{r * 100:+.0f}%" for _, r in measured[:4])
+
+    beats = [r for s, r in measured if s is not None and s > 0]
+    out["n_beats_measured"] = len(beats)
+    if beats:
+        out["beat_up_rate"] = sum(1 for r in beats if r > 0) / len(beats)
+
+    notes = []
+    if off_cache:
+        notes.append(f"{off_cache} print(s) predate the cached price series")
+    if len(beats) < MIN_REACTIONS_TO_JUDGE:
+        notes.append(f"only {len(beats)} measured beat(s) — rate is not judgeable")
+    out["react_note"] = "; ".join(notes) if notes else None
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Universe fetch (parallel)
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -722,10 +874,16 @@ def _rev_growth_ttm(ttm_revenue, annual_revenue: dict) -> float:
     return float(ttm_revenue) / prior_ttm - 1
 
 
-def load_metrics(tickers: list[str] | None = None) -> pd.DataFrame:
+def load_metrics(tickers: list[str] | None = None,
+                 with_reactions: bool = False) -> pd.DataFrame:
     """One row per ticker: GICS tags + momentum + fundamentals. Cached data only
     (run fetch_universe first). Tickers missing both price and info are dropped
-    (and reported, so silent data loss is visible)."""
+    (and reported, so silent data loss is visible).
+
+    `with_reactions` adds the print-reaction block (see reaction_from_cache).
+    It is OPT-IN and off by default so the momentum and dip screens produce
+    byte-identical output to before it existed — only the earnings screen asks
+    for these columns, and only the earnings composite scores on them."""
     from universe import get_universe
 
     uni = get_universe()
@@ -755,6 +913,7 @@ def load_metrics(tickers: list[str] | None = None) -> pd.DataFrame:
                 pass
 
         # Momentum from prices
+        pdf = None
         pp = _price_path(t)
         if os.path.exists(pp):
             try:
@@ -762,7 +921,7 @@ def load_metrics(tickers: list[str] | None = None) -> pd.DataFrame:
                 if not pdf.empty:
                     row.update(_momentum_from_prices(pdf))
             except Exception:
-                pass
+                pdf = None
 
         # Smoothed TTM revenue growth (NaN when statements unavailable — the
         # screen falls back to the quarterly `revenueGrowth`).
@@ -785,6 +944,11 @@ def load_metrics(tickers: list[str] | None = None) -> pd.DataFrame:
         # `earnings` mode's raw material; harmless columns in the other modes).
         row.update(earnings_from_cache(t))
         row.update(rev_trend_from_cache(t))
+
+        # How the STOCK reacted to those prints (earnings mode only — these
+        # columns must not exist in the other two modes' output).
+        if with_reactions:
+            row.update(reaction_from_cache(t, pdf))
 
         # Keep only rows with at least a market cap (the minimum the funnel needs).
         if row.get("marketCap"):

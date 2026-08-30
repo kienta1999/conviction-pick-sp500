@@ -490,7 +490,7 @@ single-pick mode; N rows in ranked mode; one `kind=pass` row when the EV
 guardrail blocked the pick). Columns:
 
 ```
-date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by,exit_price,thesis,source,bear_target,bear_by,p_bear,p_base,p_bull,ev_price,next_earnings,size_pct,exit_date,exit_reason
+date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by,exit_price,thesis,source,bear_target,bear_by,p_bear,p_base,p_bull,ev_price,next_earnings,size_pct,exit_date,exit_reason,event_pred_dir,event_pred_move,event_implied_move
 ```
 
 - `date` — today, YYYY-MM-DD. `mode` — momentum|dip|earnings. `kind` —
@@ -507,6 +507,10 @@ date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by
   POLICY.md halves size within 10 days of it.
 - `size_pct` — left EMPTY by the skill (the picker is portfolio-blind); the
   owner records the actually deployed % at execution time per POLICY.md.
+- `event_pred_dir` / `event_pred_move` / `event_implied_move` — **earnings mode
+  only**, and mandatory there (see the addendum). The pre-registered call:
+  direction, expected % move, and the move already in the price. Empty in the
+  other two modes.
 - `thesis` — one line, CSV-quoted. `source` — the writeup path.
 - **Pass rows** (`kind=pass`): ticker `NONE`, targets empty, thesis = one line
   on why the field was weak.
@@ -566,13 +570,30 @@ The `+15% EV over 12-18 months` rule is a *horizon* rule, and applying it
 unchanged to a 3-day trade would reject every legitimate earnings play. Replace
 Phase 4A step 6 with:
 
-- **Gate A (actionable / not) — the event.** The probability-weighted expected
-  move across the beat / in-line / miss scenarios must be **positive and
-  materially better than a coin flip**, after honestly accounting for what is
-  already priced in (the run into the print and, where found, the
-  options-implied move). A thesis whose expected move is inside the implied
+- **Gate A (actionable / not) — the event.** Two parts, in this order.
+
+  **A1, the disqualifier checklist** (defined in the earnings SKILL.md's event
+  plan): six pre-stated conditions, any one of which ends the Plan A case —
+  a >15% run into the print, either of the last two beats having been sold, a
+  guide already raised between quarters, an unconfirmed report date, an expected
+  move inside the name's own average absolute move, or a next-quarter consensus
+  implying an acceleration the business has not shown. Run it as a visible list
+  with numbers, before any prose. A ticked box does not get argued with: the
+  name drops to Plan B or the run passes.
+
+  **A2, the expected move.** The probability-weighted expected move across the
+  beat / in-line / miss scenarios must be **positive and materially better than
+  a coin flip**, after honestly accounting for what is already priced in (the
+  run into the print, the name's measured `reaction_avg_abs_move`, and where
+  found the options-implied move). A thesis whose expected move is inside that
   move is not an edge — it is the market's own base case, and the run publishes
   as **"pass — no edge over what's priced"** with a `kind=pass` ledger row.
+
+  Gate A applies to **Plan A** (holding through the print). A Plan B
+  recommendation — enter only after a confirmed beat-and-raise with a positive
+  first session — is not gambling on the reaction and is not blocked by A1; it
+  still needs A2 computed on the *drift*, and it still publishes the checklist
+  so the reader sees why the print itself was not traded.
 - **Gate B (a warning, not a block) — the fallback.** Compute the 12–18 month
   EV exactly as the other modes do. If it clears +15%, note it: the fallback is
   sound. **If it does not**, the pick still publishes, but the writeup carries a
@@ -592,8 +613,13 @@ the scorecard stays consistent, and state clearly in the writeup that **the
 event exit rule, not the bear target, is what governs this position.**
 
 **3. Closing is mandatory and fast.** Every earnings pick must produce a
-`kind=close` row with `exit_reason=event_exit` within a few days of the print —
-that is the plan, not an exception. Say so in the summary you hand the user,
+`kind=close` row with `exit_reason=event_exit` — within a few days of the print
+under Plan A, or at the end of the stated drift horizon (~20–40 sessions) under
+Plan B. That is the plan, not an exception. A Plan B pick that never triggered
+(the company missed, or guided soft, or the first session closed down) still
+gets a close row: `exit_reason=event_exit`, `exit_price` equal to
+`price_at_pick`, and a thesis line saying the trigger never fired. A trade not
+taken is an outcome, and it is the outcome this design exists to produce. Say so in the summary you hand the user,
 with the specific date they should come back and record the exit. This mode is
 the only one that generates realized outcomes on a timescale that can actually
 teach the system anything; leaving its rows open forfeits the entire point.
@@ -607,7 +633,15 @@ Phase 3.5 check against the company's IR page), not from the cached screen
 value, and if verification moved the date, correct the dossier and re-run the
 Phase 4 adjudication before publishing.
 
-**5. Sizing.** POLICY.md's earnings-halving rule applies to every pick in this
+**5. Pre-register the prediction.** Fill `event_pred_dir` (up|down),
+`event_pred_move` (the expected % move, signed) and `event_implied_move` (the
+name's `reaction_avg_abs_move`, or the options-implied move where research found
+one) on the pick row, at pick time. The close row then makes the panel's call
+falsifiable: without these, a closed earnings pick records what the stock did and
+never whether anyone predicted it, and the mode's entire claim on the research
+budget is that it can answer that question quickly.
+
+**6. Sizing.** POLICY.md's earnings-halving rule applies to every pick in this
 mode by construction, on top of a lower per-pick cap — see POLICY.md §1.5. Echo
 the resulting number in the sizing note, and state that the halving is not a
 penalty for this doctrine but the reason it is survivable.

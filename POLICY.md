@@ -55,6 +55,13 @@ is the point, not an edge case — and on top of it:
   writeup's exit rule in front of you. An event trade held past its rule
   because "the thesis is still intact" has become an unplanned long position,
   sized for an event that already passed.
+- **Plan B is the default entry.** The skill's default is to enter *after* the
+  print on a confirmed beat-and-raise with a positive first session, not to
+  hold through it. Holding through (Plan A) requires the writeup to have run
+  the disqualifier checklist clean and argued the case explicitly. Measured on
+  this repo's own shortlist, beats produced an up move only ~54% of the time
+  with a 5.9% average absolute move — the gap is a coin flip, and the 2% cap
+  below is what makes taking it survivable, not a reason to take it.
 - Earnings positions count against the 15% system cap like any other while
   they are open — which, per the protocol, should be days.
 
@@ -81,8 +88,13 @@ The system is portfolio-blind, so the overlap check is a **human step**:
       the order goes in.
 - [ ] Record the actual deployed size in the pick's ledger row (`size_pct`)
       so the scorecard can police the cap. Unfunded picks leave it empty.
+- [ ] `mode=earnings`? The pick row must carry the pre-registered call
+      (`event_pred_dir`, `event_pred_move`, `event_implied_move`) before the
+      order goes in — that is what makes the close row informative.
 - [ ] After an earnings print: append the `kind=close` row
-      (`exit_reason=event_exit`) the same week. This is not optional
+      (`exit_reason=event_exit`) the same week (Plan A), or at the end of the
+      stated drift horizon (Plan B). A Plan B trigger that never fired still
+      gets a close row. This is not optional
       bookkeeping — it is the only realized-outcome data this system gets
       quickly.
 

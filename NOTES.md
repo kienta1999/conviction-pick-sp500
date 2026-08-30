@@ -56,3 +56,32 @@ Claude Code sessions behind each artifact (resume with `claude --resume <id>`):
 
   **Never run.** No earnings pick has been made, no ledger row written. The first real run is the
   next step.
+
+- **Reworked the earnings mode around the REACTION, not the beat (2026-08-30)** — still no research
+  run. Joining the earnings cache to the price cache showed the doctrine was selecting on the wrong
+  variable: across the 9 names in the 2026-08-15 shortlist a 4/4 beat record converted to an up move
+  19/35 times (**54%**), mean reaction **+0.1%**, mean absolute move **5.9%** — a coin flip with 6%
+  of variance. ADBE and VEEV beat 4/4 and fell on 3 of those 4, and the composite ranked both
+  top-tier because it had no reaction data at all. Every candidate had also run up into its print
+  (median +12%) with nothing flagging it.
+
+  **What shipped.** `fetch.py`: `reaction_from_cache` (beat_up_rate, reaction_avg_move,
+  reaction_avg_abs_move, reaction_worst, reaction_last4, ret_21d), `PRICE_PERIOD` 13mo → 3y with a
+  span check on cache freshness, `load_metrics(with_reactions=)` opt-in. `screen.py`: stage 5d
+  reaction gate (>50% beat→up, never fires on a thin sample, `--no-reaction-gate`), stage 5e
+  run-into-print flag (>15% over 21 sessions, flag not gate), earnings composite reweighted
+  (reaction+setup 35%, beat streak 40% → 25%), default window 7d → 45d. Skill: **Plan B (enter AFTER
+  the print on a confirmed beat-and-raise) is now the default**, Plan A must be argued for — the
+  doctrine cited PEAD, which is a post-print effect, while taking the pre-print gap; a six-box
+  disqualifier checklist; the guide promoted to the #2 research item (next-quarter consensus vs
+  run-rate is where beat-and-dump lives); actionable-vs-watchlist triage split. Ledger: three new
+  columns (`event_pred_dir`, `event_pred_move`, `event_implied_move`) so the panel's call is
+  pre-registered and the close row can score it.
+
+  **Verified:** dip and momentum shortlists/CSVs/funnels are byte-identical across the change
+  (reaction columns are opt-in; every momentum signal is anchored to the tail of the price series,
+  so lengthening it moves nothing). On the 2026-08-30 run stage 5d dropped 9 of 21 — AVGO, MU, COST,
+  PANW, ACN, ADBE, NKE, DAL, JBL, all clean beat streaks the market does not pay for.
+
+  **Note.** The `print_reaction` note still reads "4 print(s) predate the cached price series" until
+  the next `fetch.py` run rebuilds the 3-year price caches; after that it measures 8.
