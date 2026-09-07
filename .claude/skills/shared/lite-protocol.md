@@ -88,7 +88,29 @@ three times in three wrappers.
 Then set **my rank** — start from `wtd` and reorder only where a fact justifies
 it, one sentence per deviation.
 
-## 5. Memo → `OUT/lite/<DATE>-lite.md`
+## 5. Write it — same file names as the full protocol, `_lite` suffixed
+
+Lite scores the whole field in one pass, so the ranking is free every run and
+the "one pick" is just its top `buy` row. Mirror the full protocol's mode split:
+
+| file | when |
+|---|---|
+| `OUT/final_ranking_lite.md` | **every run** — the scored field, the memo proper |
+| `OUT/final_pick_lite.md` | when the user wants one pick (the default mode) — short: the buy row's thesis, why the trap doesn't apply, the catalyst, the top risk, and a pointer to the ranking. Do not restate the table. |
+
+**Archive before overwriting**, exactly as the full protocol does:
+
+```
+OUT/old/final_pick_lite_<RUNDATE>.md
+OUT/old/final_ranking_lite_<RUNDATE>.md
+```
+
+`<RUNDATE>` is the **superseded** run's own date, read from its header — not
+today's, not the mtime. A same-day rerun suffixes the earlier one
+`_<TICKER>_superseded.md`. `OUT/old/` is committed; skipping the archive
+destroys the only record of the previous call.
+
+`final_ranking_lite.md`:
 
 ```markdown
 # stock-pick-<MODE> <DATE> — lite (one agent, N searches, no panel, no verifier)
@@ -103,20 +125,24 @@ Dropped at triage: tickers + one line.
 
 Caveat: the one thing that flips the whole list.
 
+## Sources
+Every search run, as `query — publisher, date`. Lite has no dossier and no
+verifier, so this list *is* the audit trail: a claim in a `why` line that
+isn't traceable to a row here is a claim you should not have made.
+
 Not done in lite: independent per-lens scoring (one head scored all five —
 contamination risk), deep per-name research, verification of load-bearing
 facts, bear/base/bull scenarios, the +15% EV guardrail, and the ledger row.
 Run the full /stock-pick-<MODE> before sizing real money if the buy survives.
 ```
 
-Create `OUT/lite/` if it doesn't exist. Nothing else is written: **no**
-`final_pick.md`, **no** `final_ranking.md`, **no** `research_dossier.md`, **no**
+Nothing else is written: **no** `research_dossier.md` (there are no subagent
+dossiers to consolidate — the evidence is the `why` lines plus Sources), **no**
 `parts/`, and **no row in `picks/ledger.csv`** — lite produces no scenario
-targets, so a ledger row would be a pick the scorecard cannot score. If the
-user wants the pick recorded, that is the full skill's job; say so in one line.
-
-Ranked-top-N requests need no separate mode here: the memo is already the whole
-ranked field. If the user asked for one pick, name the `buy` row and stop.
+targets, so a ledger row would be a pick the scorecard cannot score. Say that
+in the first two lines of `final_pick_lite.md`, where the file name most
+invites the opposite assumption. If the user wants the pick recorded, that is
+the full skill's job.
 
 ## Guardrails (unchanged from the full protocol)
 

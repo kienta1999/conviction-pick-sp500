@@ -1,6 +1,6 @@
 ---
 name: stock-pick-dip-lite
-description: Cheap single-agent version of stock-pick-dip — same DIP screen, same doctrine (is the drop temporary or a permanent impairment?), same value-trap veto, but ONE agent does everything in one pass with ≤14 web searches total (one per driver cluster, not per name or per lens) and writes only output/dip/lite/<DATE>-lite.md. No research subagents, no 4-lens panel, no verifier, no dossier, no scenarios, no ledger row. Use when the user says "lite", "quick", "cheap", "one pass", "no subagents", is near a usage limit, or wants a fast read on which beaten-down S&P 500 quality names are worth a look. For the full panel with an audit trail and a recorded pick, use stock-pick-dip.
+description: Cheap single-agent version of stock-pick-dip — same DIP screen, same doctrine (is the drop temporary or a permanent impairment?), same value-trap veto, but ONE agent does everything in one pass with ≤14 web searches total (one per driver cluster, not per name or per lens) and writes only output/dip/final_ranking_lite.md (+ final_pick_lite.md for a single pick), archiving the prior run to output/dip/old/. No research subagents, no 4-lens panel, no verifier, no dossier, no scenarios, no ledger row. Use when the user says "lite", "quick", "cheap", "one pass", "no subagents", is near a usage limit, or wants a fast read on which beaten-down S&P 500 quality names are worth a look. For the full panel with an audit trail and a recorded pick, use stock-pick-dip.
 ---
 
 # stock-pick-dip-lite — one agent, one pass, one memo

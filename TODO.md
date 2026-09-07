@@ -164,8 +164,9 @@ consolidated with an inline pandas snippet, memo only to `log/<DATE>-lite.md`, n
 
 Built as `.claude/skills/shared/lite-protocol.md` (the machinery: screen → in-head triage →
 one search per driver cluster → inline-pandas scoring with a sub-industry one-buy rule →
-memo) plus three thin doctrine files that supply lenses/weights/veto. Memo goes to
-`output/<mode>/lite/<DATE>-lite.md`; lite writes no ledger row (no scenarios = nothing the
+memo) plus three thin doctrine files that supply lenses/weights/veto. Output mirrors the full skill:
+`output/<mode>/final_ranking_lite.md` every run plus `final_pick_lite.md` in single-pick mode,
+prior runs archived to `output/<mode>/old/final_*_lite_<RUNDATE>.md`; lite writes no ledger row (no scenarios = nothing the
 scorecard can score) and no `parts/`. Not yet run end-to-end — first run will show whether
 the ≤14-search budget holds for ~15 single names as well as it did for 15 ETFs.
 Cadence: lite first; run the full panel only if the lite buy list changes vs the last full run.
