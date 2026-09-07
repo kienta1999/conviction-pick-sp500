@@ -1,88 +1,88 @@
 [
   {
     "stage": "1 profitable",
-    "in": 502,
-    "out": 439,
-    "dropped": 63
+    "in": 503,
+    "out": 451,
+    "dropped": 52
   },
   {
     "stage": "2 US company",
-    "in": 439,
-    "out": 439,
+    "in": 451,
+    "out": 451,
     "dropped": 0,
     "skipped": "not applicable in earnings mode (domicile does not affect a print)"
   },
   {
     "stage": "3 TTM rev growth>0",
-    "in": 439,
-    "out": 398,
-    "dropped": 41
+    "in": 451,
+    "out": 409,
+    "dropped": 42
   },
   {
     "stage": "4 leverage ok",
-    "in": 398,
-    "out": 280,
-    "dropped": 118
+    "in": 409,
+    "out": 292,
+    "dropped": 117
   },
   {
     "stage": "5 reports <=45d",
-    "in": 280,
-    "out": 23,
-    "dropped": 257
+    "in": 292,
+    "out": 58,
+    "dropped": 234
   },
   {
     "stage": "5b mktcap>=$20B",
-    "in": 23,
-    "out": 21,
-    "dropped": 2
+    "in": 58,
+    "out": 52,
+    "dropped": 6
   },
   {
     "stage": "5c has >=4q history",
-    "in": 21,
-    "out": 21,
+    "in": 52,
+    "out": 52,
     "dropped": 0
   },
   {
     "stage": "5c misses<2 of 4q",
-    "in": 21,
-    "out": 21,
-    "dropped": 0
-  },
-  {
-    "stage": "5d beat->up rate>50%",
-    "in": 21,
-    "out": 12,
-    "dropped": 9
-  },
-  {
-    "stage": "6 op margin>sector med",
-    "in": 12,
-    "out": 7,
+    "in": 52,
+    "out": 47,
     "dropped": 5
   },
   {
+    "stage": "5d beat->up rate>50%",
+    "in": 47,
+    "out": 31,
+    "dropped": 16
+  },
+  {
+    "stage": "6 op margin>sector med",
+    "in": 31,
+    "out": 14,
+    "dropped": 17
+  },
+  {
     "stage": "6b earnings quality",
-    "in": 7,
-    "out": 7,
-    "dropped": 0
+    "in": 14,
+    "out": 13,
+    "dropped": 1
   },
   {
     "stage": "7 0<fwdPE<60",
-    "in": 7,
-    "out": 7,
+    "in": 13,
+    "out": 13,
     "dropped": 0
   },
   {
     "stage": "8 niche leaders",
-    "in": 7,
-    "out": 7,
+    "in": 13,
+    "out": 13,
     "dropped": 0,
     "skipped": "not applicable in earnings mode (stage 5b market-cap floor instead)"
   },
   {
     "stage": "9 trim to target",
-    "in": 7,
-    "out": 7,
+    "in": 13,
+    "out": 13,
     "dropped": 0,
     "target": 50,
     "trimmed": false
