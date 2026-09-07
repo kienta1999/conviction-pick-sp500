@@ -148,3 +148,16 @@ unrealized mark, not a return. Fix that first; several items below dissolve when
 Investable capital is still undisclosed. Without it, `size_pct` is uninterpretable
 and the 15% cap cannot be checked. Everything in P1 stays theoretical until this
 number is written into `POLICY.md`.
+
+---
+
+## Memo 2026-09-06 — build `-lite` versions of the three skills
+
+Pattern proven in `etf-dipfinder/.claude/skills/etf-dip-pick-lite/SKILL.md` (same date): same scan, same
+lenses/weights/veto, but ONE agent, one search per theme (~10 total, snippets only, no fetches), scores
+consolidated with an inline pandas snippet, memo only to `log/<DATE>-lite.md`, nothing to `output/`, no verifier.
+~1/6 the tokens of the panel and it reached the same buy list. Do the same for:
+- `stock-pick-dip` → `stock-pick-dip-lite`
+- `stock-pick-momentum` → `stock-pick-momentum-lite`
+- `stock-pick-earnings` → `stock-pick-earnings-lite`
+Cadence: lite first; run the full panel only if the lite buy list changes vs the last full run.
