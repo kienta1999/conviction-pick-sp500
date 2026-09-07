@@ -93,12 +93,22 @@ it, one sentence per deviation.
 ## 5. Write it — same file names as the full protocol, `_lite` suffixed
 
 Lite scores the whole field in one pass, so the ranking is free every run and
-the "one pick" is just its top `buy` row. Mirror the full protocol's mode split:
+the "one pick" is just its top `buy` row. Both files, every run:
 
 | file | when |
 |---|---|
 | `OUT/final_ranking_lite.md` | **every run** — the scored field, the memo proper |
-| `OUT/final_pick_lite.md` | when the user wants one pick (the default mode) — short: the buy row's thesis, why the trap doesn't apply, the catalyst, the top risk, and a pointer to the ranking. Do not restate the table. |
+| `OUT/final_pick_lite.md` | **every run** — short: the top row's thesis, why the trap doesn't apply, the catalyst, the top risk, a runner-up, and a pointer to the ranking. Do not restate the table. |
+
+**Lite has no mode branch — always write both.** The full protocol splits
+single-pick from ranked because its panel casts a different ballot for each, so
+getting both costs four more agents. Lite scores the whole field in one pass
+regardless, which makes the ranking free and the pick file forty lines of prose
+about a row you have already reasoned about. Rank **10** by default, or the whole
+field when it is smaller — never pad a ranking with names the screen didn't
+produce, and never widen a gate to reach ten. `final_pick_lite.md` naming **no
+trade** is a legitimate outcome, not a failed run: say which names were closest
+and what would have to change.
 
 **Archive before overwriting**, exactly as the full protocol does:
 
