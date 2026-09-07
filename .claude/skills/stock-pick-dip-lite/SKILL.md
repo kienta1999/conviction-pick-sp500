@@ -24,12 +24,12 @@ One head scores all five, 1-10:
 |---|---|---|---|
 | `cause` | **is the drop transitory?** macro/rates, sentiment, rotation, a one-off miss, a cyclical trough — *not* a lost moat or secular decline | .30 | search |
 | `moat` | moat / AI-irreplaceability — switching costs, network effects, process-tech, certification lock-in, brand, capital intensity | .25 | knowledge + search |
-| `cat` | rebound catalyst — a concrete, dated path back up | .20 | search |
+| `trig` | rebound trigger (catalyst) — a concrete, dated path back up | .20 | search |
 | `surv` | balance-sheet survival — `net_debt_ebitda`, FCF, cash | .10 | CSV |
 | `mos` | margin of safety — `forwardPE` vs its own history, `analyst_upside`, `dist_52w_high` | .15 | CSV + knowledge |
 
 ```python
-W, LENS = (.30,.25,.20,.10,.15), ["cause","moat","cat","surv","mos"]
+W, LENS = (.30,.25,.20,.10,.15), ["cause","moat","trig","surv","mos"]
 VETO, KEY = "cause", "cause"      # cause <= 3 = permanent impairment = avoid
 ```
 
@@ -52,5 +52,5 @@ reason.
 ## Memo
 
 Per the lite protocol's template, with the lens columns
-`cause | moat | cat | surv | mos` and the CSV columns above. The `why` line must
+`cause | moat | trig | surv | mos` and the CSV columns above. The `why` line must
 say, in the same breath, why the drop is temporary and what re-rates it.

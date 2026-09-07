@@ -24,11 +24,11 @@ One head scores all five, 1-10:
 | `short` | **shortage** — is the product supply-constrained or in a demand surge supply can't meet? | .30 | search |
 | `irrep` | irreplaceability — can a hyperscaler/large customer in-source it, or a substitute route around it? (10 = nobody can) | .25 | knowledge + search |
 | `book` | backlog / order-book visibility — a quoted backlog, bookings, "sold out", take-or-pay | .20 | search |
-| `cat` | category dominance — clear #1 with pricing power (`subind_rank`, `mc_vs_2nd`) | .10 | JSON |
+| `lead` | category dominance — clear #1 with pricing power (`subind_rank`, `mc_vs_2nd`) | .10 | JSON |
 | `room` | headroom — how much is already priced (`ret_12m`, `forwardPE`, `analyst_upside`, `dist_52w_high`). High score = room left | .15 | CSV |
 
 ```python
-W, LENS = (.30,.25,.20,.10,.15), ["short","irrep","book","cat","room"]
+W, LENS = (.30,.25,.20,.10,.15), ["short","irrep","book","lead","room"]
 VETO, KEY = "irrep", "short"      # irrep <= 3 = the customer builds it = avoid
 ```
 
@@ -53,5 +53,5 @@ it low and say "not found" rather than inferring one.
 ## Memo
 
 Per the lite protocol's template, with the lens columns
-`short | irrep | book | cat | room` and the CSV columns above. The `why` line
+`short | irrep | book | lead | room` and the CSV columns above. The `why` line
 must name the shortage *and* the thing that stops the customer building it.

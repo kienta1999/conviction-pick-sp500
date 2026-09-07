@@ -60,6 +60,8 @@ this in the scratchpad:
 import pandas as pd
 S = {"TICK": (8,9,7,6,7), ...}          # scores, in the skill's lens order
 W, LENS, VETO, KEY = ...                # all four given by the skill
+# lens keys are column names: reach them as df["key"], never df.key —
+# `cat`, `str`, `min` and friends collide with pandas attributes
 scan = pd.read_csv("output/<MODE>/shortlist.csv", index_col="ticker")
 df = pd.DataFrame(S, index=LENS).T
 df["wtd"] = (df * W).sum(axis=1).round(2)
