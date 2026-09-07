@@ -18,6 +18,11 @@ description: Pick ONE S&P 500 stock to trade around its upcoming earnings print 
 > absolute move. Holding through the print is available as Plan A, but it must
 > be argued for.
 
+> **Cheap first:** `stock-pick-earnings-lite` runs this same screen and doctrine in
+> one agent, ~14 searches, and one memo (Plan B only — no verifier, so no confirmed
+> date, no panel, no ledger row). Run it first; run this full panel when the lite call
+> changes, when Plan A needs arguing, or before sizing real money.
+
 **First, read `.claude/skills/shared/pick-protocol.md`** — it defines the whole
 machinery (mode selection, Phase 0 shortlist build, triage, research fan-out,
 the voting panel, Phase 3.5 verification, Phase 4A/4B aggregation, the picks

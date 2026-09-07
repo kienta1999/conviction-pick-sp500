@@ -13,6 +13,10 @@ description: Pick ONE S&P 500 quality stock that has dipped and will rebound —
 > **`stock-pick-earnings`**, ignores the trend entirely and trades the
 > scheduled print.
 
+> **Cheap first:** `stock-pick-dip-lite` runs this same screen and doctrine in one
+> agent, ~14 searches, and one memo — no panel, no verifier, no ledger row. Run it
+> first; run this full panel when the lite buy changes or before sizing real money.
+
 **First, read `.claude/skills/shared/pick-protocol.md`** — it defines the whole
 machinery (mode selection, Phase 0 shortlist build, triage, research fan-out,
 the voting panel, Phase 3.5 verification, Phase 4A/4B aggregation, the picks

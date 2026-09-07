@@ -151,13 +151,21 @@ number is written into `POLICY.md`.
 
 ---
 
-## Memo 2026-09-06 — build `-lite` versions of the three skills
+## DONE 2026-09-06 — `-lite` versions of the three skills
 
 Pattern proven in `etf-dipfinder/.claude/skills/etf-dip-pick-lite/SKILL.md` (same date): same scan, same
 lenses/weights/veto, but ONE agent, one search per theme (~10 total, snippets only, no fetches), scores
 consolidated with an inline pandas snippet, memo only to `log/<DATE>-lite.md`, nothing to `output/`, no verifier.
 ~1/6 the tokens of the panel and it reached the same buy list. Do the same for:
-- `stock-pick-dip` → `stock-pick-dip-lite`
-- `stock-pick-momentum` → `stock-pick-momentum-lite`
-- `stock-pick-earnings` → `stock-pick-earnings-lite`
+- `stock-pick-dip` → `stock-pick-dip-lite` ✅
+- `stock-pick-momentum` → `stock-pick-momentum-lite` ✅
+- `stock-pick-earnings` → `stock-pick-earnings-lite` ✅ (Plan B only — no verifier, so the
+  IR-confirmed date box is ticked by construction)
+
+Built as `.claude/skills/shared/lite-protocol.md` (the machinery: screen → in-head triage →
+one search per driver cluster → inline-pandas scoring with a sub-industry one-buy rule →
+memo) plus three thin doctrine files that supply lenses/weights/veto. Memo goes to
+`output/<mode>/lite/<DATE>-lite.md`; lite writes no ledger row (no scenarios = nothing the
+scorecard can score) and no `parts/`. Not yet run end-to-end — first run will show whether
+the ≤14-search budget holds for ~15 single names as well as it did for 15 ETFs.
 Cadence: lite first; run the full panel only if the lite buy list changes vs the last full run.
