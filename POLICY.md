@@ -119,6 +119,34 @@ Until **both** are true, all sizes run at half (rule 1.4):
 The ledger only started 2026-06-21 — the system has no realized track record
 yet. Position sizes scale with evidence, not conviction.
 
+## 6. Dip basket — the executed portfolio (`/stock-pick-dip-execute`)
+
+The one thing this repo trades mechanically. Account **U27177562** (IBKR, the
+dip-basket account — never `U26645119`, that is `ranker-21d-sp500`'s). Rules
+are pre-registered here so a rebalance never re-argues them:
+
+- **Names: the top 3 of the latest dip `rank10` run**, equal weight. Ranks 1–3
+  are the only rows the panel underwrites with scenario targets and a bear
+  stop (`scorecard.py` shows them OPEN; 4–10 are TRACKED only). Sweep on
+  2026-09-17 (`scripts/basket_backtest.py`, 5 runs / 80 days, META out):
+  equal3 +22.5% / maxDD −3.7% vs equal10 +11.3% / −5.0%, equal5 +9.3% / −9.2%,
+  SPY +2.9%. equal5 < equal10 < equal3 is not a monotone edge — it is five
+  samples. The top-3 rule stands on the underwriting argument, not the sweep.
+- **Exclusion list: META** (owner's employer compliance). Dropped before
+  weighting; `scripts/basket_backtest.EXCLUDE` is the single source.
+- **Leverage 1.0, vol-target 0.20** — §2 (cash-only) still applies. The
+  overlay `min(1.0, 0.20 / spy_vol_20d)` can only *de-risk* in a stressed
+  tape; it never borrows. The sweep shows leverage merely scaling return and
+  drawdown together (Sharpe flat to lower) with nothing clever to buy.
+- **Rebalance = re-rank, on each new dip rank10 run** (target cadence: every
+  2 months). Sell what left the top 3, buy what entered, re-equal-weight the
+  rest only if drift exceeds the `--min-order` threshold. A name that hits
+  its bear stop between runs is sold (`scorecard.py --check` alerts) and its
+  slot stays in cash until the next run.
+- **Sizing is the account, not §1.** The basket account is funded at the
+  ALLOCATION.md conviction-pick sleeve; §1's per-pick formula is for
+  discretionary single picks and does not apply inside the basket.
+
 ---
 
 *Research/educational tooling. Not financial advice.*

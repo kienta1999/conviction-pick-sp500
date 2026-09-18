@@ -15,3 +15,6 @@ data/
 # Playwright screenshot debris from UI sessions
 .playwright-mcp/
 dash-top.png
+
+# IBKR web-trade session state (account snapshot / order file) — never commit
+reports/web_*.json

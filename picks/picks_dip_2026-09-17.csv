@@ -1,0 +1,4 @@
+ticker,predicted_return,gics_sector,weight
+ISRG,10,Health Care,0.3333333333333333
+SYK,9,Health Care,0.3333333333333333
+KLAC,8,Information Technology,0.3333333333333333
