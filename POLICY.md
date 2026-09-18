@@ -138,11 +138,19 @@ are pre-registered here so a rebalance never re-argues them:
   overlay `min(1.0, 0.20 / spy_vol_20d)` can only *de-risk* in a stressed
   tape; it never borrows. The sweep shows leverage merely scaling return and
   drawdown together (Sharpe flat to lower) with nothing clever to buy.
-- **Rebalance = re-rank, on each new dip rank10 run** (target cadence: every
-  2 months). Sell what left the top 3, buy what entered, re-equal-weight the
-  rest only if drift exceeds the `--min-order` threshold. A name that hits
-  its bear stop between runs is sold (`scorecard.py --check` alerts) and its
-  slot stays in cash until the next run.
+- **Three slots, rebalanced monthly.** Run the full `/stock-pick-dip` panel
+  once a month (it only writes the ledger; nothing trades until
+  `/stock-pick-dip-execute`). A slot frees only when its name:
+  (a) hits its bear stop, (b) reaches its base target, (c) expires past
+  `base_by`, or (d) is **outranked while still in the screen** — still a dip,
+  the panel just prefers others. A held name that left the screen by
+  *recovering above its 200d SMA* keeps its slot until (a)–(c): it is doing
+  what it was bought for, and the screen's own gate would otherwise sell a
+  −35% dip on a +3% bounce (ISRG sits 2.7% under its 200d on 2026-09-17).
+  Free slots fill from the new run's ranking, top down. Slots are equal
+  weight; re-weight survivors only past the `--min-order` threshold. A stop
+  between runs is a manual sell + `kind=close` row; the slot stays cash until
+  the next run.
 - **Sizing is the account, not §1.** The basket account is funded at the
   ALLOCATION.md conviction-pick sleeve; §1's per-pick formula is for
   discretionary single picks and does not apply inside the basket.
