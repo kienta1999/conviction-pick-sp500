@@ -16,6 +16,7 @@ picks: ticker, predicted_return (11 − rank), gics_sector, weight (equal).
 import argparse
 import json
 import os
+import re
 
 import pandas as pd
 
@@ -32,6 +33,10 @@ def build(ledger, shortlist, held, drop, mode="dip", slots=SLOTS):
     d = d[d["date"] == d["date"].max()].sort_values("rank")
     d = d[~d["ticker"].isin(EXCLUDE)]
     ranked = d["ticker"].tolist()
+    if shortlist is not None and "md_date" in shortlist.attrs and shortlist.attrs["md_date"] != d["date"].iloc[0]:
+        raise SystemExit(f"output/{mode}/final_ranking.md is dated {shortlist.attrs['md_date']} but the newest "
+                         f"{mode} rank10 ledger rows are {d['date'].iloc[0]} — the picker run did not write its "
+                         f"ledger rows. Not trading a stale basket.")
     in_screen = set(shortlist["ticker"]) if shortlist is not None else set()
 
     keep = [t for t in held if t not in drop and t not in EXCLUDE
@@ -61,6 +66,11 @@ def main():
         return selftest()
     sl_path = os.path.join(_ROOT, "output", a.mode, "shortlist.csv")
     sl = pd.read_csv(sl_path) if os.path.exists(sl_path) else None
+    md = os.path.join(_ROOT, "output", a.mode, "final_ranking.md")
+    if sl is not None and os.path.exists(md):
+        m = re.search(r"Generated (\d{4}-\d{2}-\d{2})", open(md).read())
+        if m:
+            sl.attrs["md_date"] = m.group(1)   # handoff guard: the .md and the ledger must be the same run
     held = []
     if a.held:
         held = [t for t, q in json.load(open(a.held))["positions"].items() if float(q) > 0]
