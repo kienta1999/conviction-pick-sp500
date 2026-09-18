@@ -1,300 +1,129 @@
 # Momentum — Ranked Top 10 (S&P 500)
-**Run date:** 2026-08-04 · **Mode:** momentum (above 200d SMA + structural shortage doctrine) · **N = 10, R = 1**
-**Screen:** `output/momentum/shortlist.json`, generated 2026-08-04 19:44:47 — 50 candidates from 503 S&P 500 members, triaged to 14 for deep research
-**Panel:** 4 independent Opus subagents (one per lens), dispatched sequentially, all reading the same dossier
+**Run date:** 2026-09-17 · **Mode:** momentum (above 200d SMA + structural shortage doctrine) · **N = 10, R = 1**
+**Screen:** `output/momentum/shortlist.json`, generated 2026-09-18 05:47:08 UTC — 50 candidates from 503 S&P 500 members, triaged to 13 for deep research
+**Panel:** 4 independent subagents (one per lens), dispatched sequentially, all reading the same dossier
 **Scoring:** Borda — rank 1 = 10 pts … rank 10 = 1 pt, unranked = 0, summed across 4 ballots (max 40)
+**Verification:** independent verifier subagent checked the top-3's load-bearing claims — all confirmed (see below)
 
 ---
 
 ## The ranking
 
-| # | Ticker | Company | Sub-industry | Price | Mean target (upside) | Fwd P/E *(corrected)* | Short. | Irrepl. | Borda | Appear. | #1s | Avg place | The case in one line |
+| # | Ticker | Company | Sub-industry | Price | Mean target (upside) | Fwd P/E | Short. | Irrepl. | Borda | Appear. | #1s | Avg place | The case in one line |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **1** | **AVGO** | Broadcom | Semiconductors | $418.16 | $527.88 (**+26.2%**) | ~24x FY27 / ~36x FY26 | 9 | 7 | **28** | 3/4 | **2** | 1.67 | Only computable forward ratio in the field — >$30B AI bookings vs $10.8B shipped — and it profits *from* the trap that threatens the rest. ⚠️ One lens excluded it outright on customer graduation. |
-| **2** | **LRCX** | Lam Research | Semi Materials & Equip | $317.74 | $368.13 (+15.9%) | ~25.6x *(the one the screen got right)* | 9 | 8 | **26** | 4/4 | 1 | 4.50 | Purest memory-shortage exposure: DRAM contract prices +90% q/q forcing WFE spend, +20% sequential guide, 52% gross margin at a 20-year high — and its five customers have never built an etcher. |
-| **3** | **MSFT** | Microsoft | Systems Software | $492.81 | $563.05 (+14.3%) | 20.8x | 8 | 7 | **25** | 4/4 | 1 | 4.75 | The uncrowded AI trade: −5% over 12 months while RPO hit $678B (+84%, **+25% ex-OpenAI**) and Azure beat its own guide at +43%. ⚠️ Headline EPS growth is OpenAI-inflated — see verification. |
-| **4** | **APH** | Amphenol | Electronic Components | $171.33 | $198.06 (+15.6%) | 25.3x | 8 | 7 | **22** | 4/4 | 0 | 5.50 | Record $10.7B orders, 1.23 book-to-bill, and a second 2026 price increase (+5–15%) effective 2026-07-01 — nobody in-sources connectors. ⚠️ ~25 of 55 growth points are acquired. |
-| **5** | **GOOGL** | Alphabet (A) | Interactive Media | $377.65 | $426.95 (+13.1%) | 25.3x | 9 | **9** | **21** | 3/4 | 0 | 4.00 | $514B cloud backlog (~5 years of run-rate, up from $106B a year ago), CFO admits "supply-constrained," and its two AI rivals rent its TPUs. ⚠️ $4.6T cap arithmetically caps the return. |
-| **6** | **NVDA** | Nvidia | Semiconductors | $211.94 | $302.83 (**+42.9%**) | ~23x *(not the screen's 16x)* | 9 | 7 | **21** | 4/4 | 0 | 5.75 | Widest consensus gap in the field at the cheapest mega-cap multiple after a year of compression, on $119B of audited supply commitments. 🚩 **TRAP FLAG: four customers ≈40% of revenue, all shipping rival silicon.** |
-| **7** | **GE** | GE Aerospace | Aerospace & Defense | $377.28 | $404.90 (+7.3%) | ~49x FY26 *(not 40.7x)* | 9 | **9** | **17** | 3/4 | 0 | 5.33 | Doctrine-perfect — $210B backlog (4.4x revenue), shop visits 40% oversubscribed, sole-source engine on every 737 MAX. ⚠️ And almost entirely priced: margins −130bps and only +7.3% to target. |
-| **8** | **LLY** | Lilly (Eli) | Pharmaceuticals | $1,115.68 | $1,276.96 (+14.5%) | ~31x FY26 *(not 24.9x)* | **4** | 7 | **15** | 3/4 | 0 | 6.00 | Best business here — 60% US incretin share, patents to 2036, retatrutide — and the cheapest quality. 🚩 **DOCTRINE FLAG: the FDA formally ended the GLP-1 shortage; prices are falling by policy.** Q2 lands 2026-08-05. |
-| **9** | **KLAC** | KLA Corporation | Semi Materials & Equip | $195.45 | $230.85 (+18.1%) | ~36x FY27 *(not 27.9x)* | 8 | **9** | **12** | 3/4 | 0 | 7.00 | 58% process-control share in a category no architecture can route around, 87% ROE, advanced packaging +70%. ⚠️ Slowest growth, most expensive growth-adjusted, and the last analyst action was a *cut*. |
-| **10** | **VRT** | Vertiv | Electrical Comp & Equip | $269.93 | $339.35 (+25.7%) | 29.0x | 8 | 6 | **10** | 2/4 | 0 | 6.00 | Sits on the hardest physical bottleneck in AI — power and heat — with pricing above inflation and chiller capacity doubling. 🚩 **FLAG: management stopped publishing backlog on 2026-02-11**, and Q2 missed revenue (−14/−17%). |
+| 1 | LRCX | Lam Research | Semi Materials & Equipment | $269.31 | $373 (+39%) | 23.1 | 9 | 9 | 32 | 4/4 | 1 | 3.0 | "Fundamentally sold out" etch monopolist, un-in-sourceable, barely above its 200d |
+| 2 | AMAT | Applied Materials | Semi Materials & Equipment | $417.40 | $641 (+54%) | 22.6 | 8 | 8 | 30 | 4/4 | 0 | 3.5 | Broadest WFE vendor, record $9.12B quarter, doubling output by 2028 |
+| 3 | SNDK | Sandisk | Tech Hardware, Storage | $1,614.39 | $2,125 (+32%) | 6.1 | 9 | 6 | 25 | 4/4 | 1 | 4.8 | $91B contracted RPO at >80% margins — purest NAND shortage vehicle |
+| 4 | MU | Micron Technology | Semiconductors | $977.50 | $1,513 (+55%) | 6.3 | 10 | 6 | 24 | 3/4 | 1 | 3.0 | Entire 2026 HBM book sold out, fills half of demand; max shortage, max cyclicality |
+| 5 | NVDA | Nvidia | Semiconductors | $219.34 | $328 (+50%) | 14.0 | 8 | 7 | 24 | 4/4 | 0 | 5.0 | #1 AI franchise, constrained thru FY28 — **TRAP FLAG:** hyperscaler ASIC bypass is live |
+| 6 | CAT | Caterpillar | Construction Machinery | $798.57 | $976 (+22%) | 24.7 | 8 | 6 | 21 | 4/4 | 1 | 5.8 | $72B backlog +92% YoY; can't ship gensets fast enough — the un-crowded shortage |
+| 7 | LLY | Eli Lilly | Pharmaceuticals | $1,152.44 | $1,325 (+15%) | 24.3 | 8 | 6 | 15 | 3/4 | 0 | 6.0 | GLP-1 machine intact — **FLAG:** FDA formally ended the shortage; morphing into price war |
+| 8 | CF | CF Industries | Fertilizers & Ag Chem | $133.82 | $125 (−6%) | 12.5 | 7 | 4 | 12 | 3/4 | 0 | 7.0 | Quantified nitrogen deficit, low-cost lever — **FLAG:** trades ABOVE mean target; commodity |
+| 9 | APH | Amphenol | Electronic Components | $78.37 | $99 (+27%) | 23.9 | 6 | 5 | 10 | 4/4 | 0 | 8.5 | Record $10.7B orders, 1.23x book-to-bill — **FLAG:** most substitutable AI-chain link |
+| 10 | VRTX | Vertex Pharma | Biotechnology | $516.34 | $569 (+10%) | 25.6 | 3 | 9 | 10 | 2/4 | 0 | 6.0 | Virtual CF monopoly, 9/10 moat — **FLAG:** no shortage; momentum is the Journavx ramp |
 
-*Fwd P/E "corrected" = the research's bottom-up figure. The screen's `forwardPE` field is Yahoo's,
-indicative only, and is not what these names were ranked on — see the note under "What was verified".*
+Tie-breaks: MU over NVDA at 24 (a #1 vote + avg place 3.0 vs 5.0 — stronger, fresher shortage evidence). APH/VRTX/EW tied at 10: APH takes #9 on 4/4 appearances and the freshest demand evidence; VRTX takes #10 over EW on the 9/10 moat (C ranked VRTX #3, EW #4).
 
 ---
 
-## Per-name thesis — the top 5
+## Per-name thesis
 
-### 1. AVGO — Broadcom · Borda 28 · 2 of 4 #1 votes
-The single hardest forward number in the field: **over $30B of AI semiconductor bookings against
-$10.8B shipped** in Q2 FY26 (verified verbatim from the 2026-06-03 call). Unlike every other forward
-claim in this dossier, *both halves* of that ratio are company-disclosed for the identical period, so
-the ~3x book-to-bill is computable rather than asserted. Behind it: an implied $200B+ 18-month backlog,
-FY26 AI revenue of ~$56B guided to **$100B+ from FY2027**, a Q3 guide of ~$29.4B (+84% y/y) with AI at
-$16.0B (+200%), and a **$35B Apollo/Blackstone vehicle** (2026-06-09) purpose-built to finance 20GW of
-the demand — an order book that arrives with its buyers pre-funded. **Why it's the leader:** #1 custom
-XPU design partner with Marvell the only credible #2; the "70%+ share" figure is an analyst estimate
-(60–80% range), not a company number. **The honest caveat:** there is no CUDA here — only IP and
-program inertia — and Google, the anchor customer, has progressively internalized TPU design. Program
-losses are binary. Agent C excluded the name entirely on exactly this.
+**1. LRCX — the shortage you can't route around.** The WFE industry is "fundamentally sold out" (CFO, Sept 10, 2026 — verified), the WFE forecast has been raised three times this year to the low-$150B range, and Lam is #1 in etch (~39% share) where intensity rises ~15–20% with every GAA node. Qualification lock-in of 15+ years means no customer — hyperscaler or otherwise — can in-source an etcher. The stock sits barely above its 200-day SMA (+1%) despite the supercycle: the shortage is priced into estimates, not the multiple. This is the rare name that scores 9/10 on both shortage and irreplaceability.
 
-### 2. LRCX — Lam Research · Borda 26 · 1 #1 vote
-The cleanest structural shortage in the field, and the only name whose screen multiple survived
-verification. DRAM contract prices rose **+90–95% q/q** and NAND +55–60%, with HBM sold out for 2026 —
-and memory makers convert that windfall straight into wafer-fab-equipment capex, where Lam has the
-highest beta. It raised its CY2026 WFE forecast twice, to the **"low $150B range"** on the 2026-07-29
-call, and guided the September quarter to **$8.1B ±$400M against $6.72B just delivered** — a >20%
-sequential step off a fourth consecutive record, at a **52% gross margin, its highest in 20 years**.
-**Why it's the leader:** #1 in etch, co-#1 in deposition, mid-30s% share of its served market.
-**Why irreplaceable:** its customers are five memory and foundry firms — not hyperscalers — and none
-has ever built its own etcher; recipes are co-developed and qualified per node, so switching risks
-yield on a multi-billion-dollar fab. **The caveat:** this is a cyclical at peak margins that already
-fell 27% from its June high *while printing records* — the market is arguing about durability, not
-about the quarter.
+**2. AMAT — the broadest way to own the same shortage.** Record $9.12B quarter (Aug 13, 2026 — verified), the CFO guiding to roughly double quarterly system output by 2028 with value-based price increases, and the largest/broadest WFE portfolio per Morningstar. Consensus across all four lenses (4/4 appearances, avg place 3.5) with zero #1 votes: the panel's most agreed-upon name that nobody found explosive — the steadier compounder to LRCX's torque.
 
-### 3. MSFT — Microsoft · Borda 25 · 1 #1 vote
-The un-crowded way to own the compute shortage: a **−5% twelve-month return** while the business
-compounded. Commercial RPO reached **$678B, +84% y/y — and critically +25% excluding OpenAI**, with
-nearly 90% of Microsoft Cloud revenue coming from outside the frontier labs, which rebuts the
-"Microsoft is an OpenAI SPV" bear case directly. Azure grew **+43% against its own 39–40% guide**, and
-CFO Amy Hood said plainly that **"demand continues to exceed available supply."** **Why irreplaceable:**
-the moat is not compute — an enterprise can move a GPU workload but cannot move its identity graph and
-400M Office seats. **The caveats, and they are real:** verification showed the headline **+32% EPS
-growth is GAAP and inflated by OpenAI investment accounting — the adjusted figure is +23%, and
-operating income grew only 18%**. Management has *guided FY27 margins down*. The de-rate from
-asset-light software compounder to capital-intensive infrastructure was rational, so the return has to
-come from earnings, not from re-rating.
+**3. SNDK — contracted shortage, commodity wrapper.** The NBM program is the single most contracted demand book in the field: ≥$93.9B expected revenue at floor pricing, $91.1B RPO including post-quarter signings, $16.5B in cash guarantees (Aug 5, 2026 call — verified verbatim), covering >half of FY27 bits at >80% gross margins. NAND prices up ~3x since January (TrendForce via Zacks, Sept 17 — verified). The discount: Sandisk is #5 in NAND (~11–13% share), a replaceable supplier in a commodity — irreplaceability 6/10, and the quality lens ranked it 10th for exactly that reason. A purer shortage vehicle than MU with a weaker moat.
 
-### 4. APH — Amphenol · Borda 22 · ranked by all four lenses
-The most consistently ranked name on the board — every lens had it, none had it first. Record **$10.7B
-orders with a 1.23 book-to-bill**, Q2 revenue +55% (**+30% organic**), and a second 2026 price increase
-of **+5–15% effective 2026-07-01** while upstream inputs ran +70% to +300% — pricing power evidenced by
-action, not narrative. IT datacom is 43% of sales growing 89%. Hyperscalers cannot in-source
-connectors: it is a high-mix precision stamping and plating business where 224G-per-lane signal
-integrity is designed *into* the board stack-up. **The caveat:** ~25 of the 55 growth points are
-acquired (CommScope, now raised to $4.6B), and essentially all organic growth is one AI datacom bet —
-more concentrated than its diversified-industrial reputation implies.
+**4. MU — maximum shortage intensity, maximum cyclicality.** Entire 2026 HBM supply sold out under multi-year contracts, $22B in customer prepayments, the CEO able to fill only half to two-thirds of demand, DRAM prices up ~3.5x in nine months. The growth lens's #1 (fastest compounder: TTM revenue +142% at 6.3x forward P/E). The bear case is the industry's history: memory turns are violent, Micron is #3 in both DRAM and HBM, and CXMT/YMTC are state-backed share-takers. Earnings September 30 (12 days) — just outside the 10-day halving window, but event risk is live.
 
-### 5. GOOGL — Alphabet · Borda 21 · best average placement of any non-winner (4.00)
-The highest-quality expression of the shortage, and the only 9/9 name that isn't priced like GE.
-**$514B of contracted Google Cloud backlog** — verified, and up from $460B in Q1 and just **$106B a
-year ago** — with more than half converting inside 24 months, about 5 years of current cloud run-rate.
-The CFO admits Alphabet is **supply-constrained** and is renting third-party capacity as a bridge, and
-cloud grew +82% while cloud operating margin expanded from 20.7% to 35.6% — you do not expand margin
-15 points into a discounting environment. **Why irreplaceable:** it owns TPU, Gemini, GCP and the
-Search/YouTube demand sink end-to-end, and its two most capable AI rivals — Anthropic and Meta — now
-pay it rent for TPU capacity, won on price-performance in an open bake-off. **The cap is arithmetic:**
-at $4.6T, doubling requires adding $4.6T. Superb compounder, structurally not an explosive-return bet.
+**5. NVDA — the #1 franchise with a visible ceiling.** Supply constrained through FY28, $119B in supply commitments, preliminary FY28 revenue growth guide ~70% vs Street ~42%. But the tape prices perfection (beat margins compressing: 22.8% → 4.6%), and the disintermediation trap is not theoretical here — >50% of hyperscaler internal inference already runs on custom ASICs with 40–65% TCO advantage. **This is the doctrine's textbook trap case, kept in the ranking with the flag visible per ranked-mode rules.**
 
-### 6–10, one line each
+**6. CAT — the shortage nobody is crowding.** $72B backlog, +92% YoY (Aug 4, 2026), buyers asking for more gensets than CAT can ship as datacenter power demand explodes. The contrarian lens's #1: real, quantified shortage with the tape unextended. The discount: it's cyclical heavy machinery, and power-gen is a slice of the business — shortage 8/10 on the genset line, far less on the whole company.
 
-- **NVDA** — the biggest consensus gap in the field (+42.9%) at ~23x after a year of multiple
-  compression, on $119B of *audited* supply commitments; but it is the doctrine's trap in its purest
-  form, and custom-ASIC shipments are growing 44.6% y/y against 16.1% for merchant GPUs.
-- **GE** — the best business and the worst entry price: a $210B contracted backlog and a 737 MAX
-  engine monopoly, against ~49x current-year earnings, margins down 130bps, and only +7.3% to the
-  mean target *(one aggregator puts consensus at $365.61 — below the current price)*.
-- **LLY** — ranked on business quality alone; it fails this screen's doctrine outright now that the
-  FDA has declared the GLP-1 shortage resolved and Lilly guides to a low-to-mid-teens % price drag.
-  Q2 reports 2026-08-05, unreported at ranking time.
-- **KLAC** — the field's most dominant franchise (58% share, sustained for decades) attached to its
-  weakest momentum setup: −35% from its high, slowest growth, ~36x, and a post-print target cut.
-- **VRT** — a genuine bottleneck thesis whose evidence went dark: backlog and orders disclosure was
-  switched off on 2026-02-11, and the last hard number ($15.0B, +109%) is now eight months stale.
+**7. LLY — best business, fading shortage premise.** 78% U.S. obesity Rx growth, ~70% of injectable scripts, $9B Lebanon API site starting production now. But the FDA formally ended the GLP-1 shortage, and the field is morphing into a price/share war (the prior run's flag, still valid). Priced on perfection at 24x forward.
 
-## Just-missed names
+**8. CF — quantified deficit, commodity wrapper.** ~4–4.5Mt of urea plus ~1Mt of ammonia removed from the market; Q2 net income +88% YoY; the low-cost nitrogen pure-play. **Trades 6% above the analyst mean target** — the market already paid for the deficit. Thesis dies the day geopolitics normalize.
 
-- **FCX** (Borda 8, 3/4 ballots) — the contrarian's favourite structure: copper +51.6% y/y while
-  Grasberg runs with one engine out, and 2027 guided +>20% copper and +>50% gold onto that price. It
-  missed the cut because two lenses saw ~1% TTM revenue growth and only +6.6% to target, and because
-  the whole case rests on one binary ramp that has already slipped once (H2 2026 cut from ~85% to ~65%
-  of nameplate).
-- **HWM** (Borda 8, 3/4) — owns the aerospace chokepoint with 20–50 week lead times and prohibitive
-  re-qualification, and growth is *accelerating* 9%→19% with EBITDA margin +320bps. At ~58x
-  current-year with only +8.6% to target and Q2 unreported (2026-08-06), no lens would put it high.
-- **ANET** (Borda 7, **1/4** — the most polarizing name) — the best single print of the day (first $3B
-  quarter, EPS beat 15%, Q3 guided 12% above consensus, +11% after hours), ranked 4th by the momentum
-  lens and *refused entirely* by the other three. It has lost the #1 datacenter Ethernet share
-  position to NVIDIA (21.5% vs 20.7%), two customers who build their own switches are ~42% of revenue,
-  and post-pop it trades at or above freshly raised $200–210 targets.
-- **CF** (Borda 0, **0/4** — unanimously unranked) — cheapest name in the field at ~7.4x FY26
-  consensus, but no order book, a fungible commodity, new Gulf Coast supply it is itself building, and
-  urea already cooling on affordability. No lens found a shortage.
+**9. APH — consensus depth, substitutable link.** Record $10.7B orders, 1.23x book-to-bill, IT datacom +89%, estimates revised up 11.7% in 30 days — ranked by all four lenses, first by none. Connectors are the most multi-sourced, price-competed link in the AI chain (TE competition), which caps the moat at 5/10.
+
+**10. VRTX — monopoly without a shortage.** A virtual CF monopoly (last challenger's Phase 2 flopped), funding five new pillars; the momentum case is the Journavx launch ramp ($50M Q2) plus the $8.8B Crinetics close. Irreplaceability 9/10, shortage 3/10 — the quality lens's #3 on moat alone.
+
+---
+
+## Just-missed
+
+- **EW (#11, Borda 10):** TAVR #1 (60%+ global share) with a fresh CMS tailwind (Sept 2026 asymptomatic coverage) — but a high-single-digit compounder at ~48x earnings with no explosive lever. Lost the #10 tie-break to VRTX on moat depth.
+- **ANET (#12, Borda 7):** genuine demand surge ($12.6B FY guide +40%, $9.7B purchase commitments) but NVDA overtook it in datacenter Ethernet and white-box in-sourcing is the live threat — the trap flag kept it out.
+
+---
 
 ## What the panel revealed
 
-**Where they agreed.** Only **APH, MSFT, NVDA and LRCX** appeared on all four ballots — the consensus
-core, though none was anyone's runaway favourite. Nobody ranked **CF** at all.
-
-**Where they split — and it was sharp.** The four lenses produced four *different* top picks
-(AVGO, AVGO, LRCX, MSFT), and the two most interesting disagreements are structural:
-
-- **AVGO scored 28 Borda points while being excluded entirely by one lens.** Agent C (quality/moat)
-  would not rank it: "a business whose product is teaching hyperscalers to build their own silicon
-  eventually watches them graduate — Google already largely has." Every other lens had it top-3. That
-  is conviction and controversy in the same name.
-- **The valuation lens inverted the doctrine.** Agent D observed that five names (ANET, CF, FCX, GE,
-  HWM) have **under 10% consensus headroom** after the sell side already raised targets, and argued
-  those trades are over regardless of story quality. That is why GE — a 9/9 doctrine-perfect business —
-  finished 7th rather than 1st.
-
-**Conviction vs consensus.** AVGO is the **conviction** name: 2 first-place votes and the best average
-placement (1.67), but only 3 of 4 ballots. NVDA and APH are the **consensus** names: on every ballot,
-first on none. MSFT is the only name to combine a #1 vote with a 4/4 appearance.
-
-**Strict doctrine would reorder the bottom half.** The Borda order puts **LLY (#8)** and **VRT (#10)**
-above **FCX** and **HWM**, which are just outside. On the doctrine's own scores that is backwards:
-FCX (8/8) and HWM (8/8) both beat LLY (**4**/7) and VRT (8/**6**). LLY rides on business quality that
-the doctrine does not reward, and VRT's shortage evidence is unauditable since disclosure stopped. A
-strict-doctrine top 10 would swap FCX and HWM in for LLY and VRT.
+- **Lens tops:** A (supply-chain): SNDK · B (growth): MU · C (quality/moat): LRCX · D (contrarian): CAT. Four lenses, four different #1s — the panel genuinely disagreed, which is the point.
+- **Conviction vs consensus:** LRCX is the consensus winner (4/4 ballots, Borda 32) with one #1; AMAT is pure consensus (4/4, zero #1s, avg 3.5) — everybody's second-favorite; SNDK/MU/CAT are conviction names (one #1 each) that one lens loved and another discounted.
+- **The big disagreement:** the quality lens ranked SNDK 10th ("replaceable supplier") while the supply-chain lens ranked it 1st — the commodity-vs-contracted-book debate in one spread. The contrarian lens called memory "already crowded" and picked CAT instead.
+- **Agreement:** all four lenses ranked LRCX, AMAT, SNDK, NVDA, CAT, APH — the AI-datacenter capex chain is the undisputed center of this field.
 
 ## If forced to ONE
 
-**AVGO**, and it is also the Borda #1 — the vote and the doctrine agree here, which is not always the
-case. It was the **only one of the panel's four nominees whose expected value cleared the +15%
-guardrail** (+17.7%, vs +12.0% for LRCX and +12.6% for MSFT).
+**LRCX** — the strict trap-veto lands on the same name as the Borda count: #1 etch in a sold-out industry that no customer can in-source, with the shortage verified and the multiple unextended. SNDK would be the shortage purist's pick; MU the momentum purist's; the veto prefers the moat.
 
-The trap filter is what could have overturned it, and it was applied rather than waved through: Agent
-C's veto was tested directly and judged **medium risk, not high** — a hyperscaler graduating from
-Broadcom must first replicate SerDes, advanced packaging and IP at scale, the contracted programs run
-through the entire holding period, and the same in-sourcing wave is *additive* to Broadcom across five
-other named programs. That is a different risk class from Nvidia, whose four largest customers ship
-direct substitutes today.
+---
 
-**The honest alternative:** if you weight C's dissent more heavily than I did, the answer is **LRCX** —
-a name whose customers are five fabs that *cannot* in-source it, where the trap simply does not exist
-as a risk class. You would be trading the trap for full cycle risk, and accepting an EV below the
-guardrail. Full reasoning in `final_pick.md`.
+## Return scenarios — top 3
 
-## Return scenarios — the top 3
+Built on the shortage math (WFE × etch share × pricing), not bare multiples. All numbers are research scenarios, not guarantees. Current prices from the 2026-09-17 screen.
 
-All numbers are research scenarios, not guarantees. Built on driver-level math, not bare multiples.
+**LRCX @ $269.31** (analyst mean $373, +39%)
+- **Bear $175 (−35%) by 2027-H2:** the memory/WFE cycle turns — WFE cut ~20%, Lam revenue −15%, multiple compresses to ~16x. Quantified off the 2022–23 WFE downturn (names drew down 40–50%). *This is the stop.*
+- **Base $365 (+36%) by 2027-Q3:** WFE holds the low-$150B range, Lam grows 25–30% on etch intensity (FQ1 FY27 guide $8.1B lands), pricing holds. Lands near the analyst mean.
+- **Bull $460 (+71%) by 2027-Q4:** shortage extends into 2028, WFE overshoots toward $170B, Lam exercises pricing power on constrained tools.
+- **Probabilities:** bear 30 / base 45 / bull 25. Bear gets real weight — these are cyclicals and the turn is always the risk — but the shortage evidence is fresh (Sept 10 "sold out") and quarters are accelerating, so base > bear.
+- **EV = 0.30×175 + 0.45×365 + 0.25×460 = $331.75 → +23.2% over 12–18mo. Clears the +15% guardrail.**
+- **Market-implied:** $269 sits between bear and base, closer to bear — the market is not pricing the bull case.
 
-### AVGO — $418.16 · mean target $527.88
-| Scenario | Target | By | Prob | Reasoning |
-|---|---|---|---|---|
-| **Bear (stop)** | **$285** (−31.8%) | 2027-06 | **25%** | FY27 AI lands ~$75–80B not $100B+ — the hole one lost XPU program makes. EPS ~$13.5 at ~21x. Full 25% despite great evidence, because concentration is sharpest here and losses are binary. |
-| **Base** | **$505** (+20.8%) | 2027-11 | **45%** | The 18-month book converts on schedule; FY27 AI ≈$100B, EPS ≈$17.50 at ~29x. |
-| **Bull** | **$645** (+54.2%) | 2027-12 | **30%** | AI clears ~$110B as XPV's 20GW converts and Anthropic scales 1GW→3GW. EPS ~$19.5 at ~33x. Above-default weight: bookings at 3x shipments have historically preceded upward revisions. |
+**AMAT @ $417.40** (analyst mean $641, +54%)
+- **Bear $290 (−31%) by 2027-H2:** WFE turns, broadest portfolio means broadest exposure.
+- **Base $560 (+34%) by 2027-Q3:** capacity-doubling plan stays on track, value-based pricing sticks.
+- **Bull $720 (+72%) by 2027-Q4:** captures the full supercycle across deposition, etch, and metrology.
+- **Probabilities:** 30 / 45 / 25 (same cyclical reasoning as LRCX).
+- **EV = 0.30×290 + 0.45×560 + 0.25×720 = $519 → +24.3%. Clears the guardrail.**
 
-**EV = $492.00 → +17.7%. Clears the +15% guardrail.** Price sits ~60% of the way from bear to base —
-closest to base — and below the mean target. No red flag.
+**SNDK @ $1,614.39** (analyst mean $2,125, +32%)
+- **Bear $970 (−40%) by 2027-H1:** memory cycle turns — NAND prices roll over, NBM floor pricing gets tested. Memory turns are violent; sized off prior NAND downturns.
+- **Base $2,100 (+30%) by 2027-Q2:** NBM contracts convert at floor pricing, NAND stays tight through 2027.
+- **Bull $2,900 (+80%) by 2027-Q4:** deficit bleeds into 2028, HBF ramps as an HBM-adjacent alternative.
+- **Probabilities:** 35 / 40 / 25 — bear highest here: commodity memory, #5 share, YMTC/CXMT share-taking, and a massive run off the lows already.
+- **EV = 0.35×970 + 0.40×2100 + 0.25×2900 = $1,904.50 → +18.0%. Clears the guardrail but thin — flagged.**
+- **Market-implied:** between base and bear.
 
-### LRCX — $317.74 · mean target $368.13
-| Scenario | Target | By | Prob | Reasoning |
-|---|---|---|---|---|
-| **Bear (stop)** | **$200** (−37.0%) | 2027-06 | **30%** | The memory cycle turns. The 2022–23 downturn cut Lam's revenue by roughly a third; 52% gross margin is a 20-year high with only one direction to mean-revert. EPS ~$8 at ~25x. Weighted above default because this is a late-cycle cyclical at peak margins. |
-| **Base** | **$380** (+19.6%) | 2027-11 | **45%** | FY27 EPS ~$12.4 (the WFE cycle runs through 2027 as guided) at ~31x. |
-| **Bull** | **$500** (+57.4%) | 2027-12 | **25%** | WFE sustains $150B+, NAND conversion spend lands, EPS ~$14 at ~36x — Cantor's street-high target. |
-
-**EV = $356.00 → +12.0%. ⚠️ BELOW the +15% guardrail** — it stays in the ranking (the guardrail only
-blocks actionable *single* picks) but a reader should see that the modeled edge does not clear the bar.
-Price sits closest to base. *Verification correction: FY26 EPS of $5.82 is **non-GAAP**; filed GAAP is
-$5.76. Consensus target $368.13 is visibly stale post-print — a second aggregator shows $327.15.*
-
-### MSFT — $492.81 · mean target $563.05
-| Scenario | Target | By | Prob | Reasoning |
-|---|---|---|---|---|
-| **Bear (stop)** | **$380** (−22.9%) | 2027-06 | **25%** | The depreciation wave lands, FY27 margins decline as guided, AI capex digests. ~18x on ~$21. Within recent experience — the stock traded ~$356 in April 2026. |
-| **Base** | **$580** (+17.7%) | 2027-11 | **50%** | RPO converts, Azure holds 35–40%, FY27 EPS ~$21.5 at ~27x. |
-| **Bull** | **$680** (+38.0%) | 2027-12 | **25%** | Copilot proves AI *software* margins and the multiple re-expands to ~30x on ~$22.5. |
-
-**EV = $555.00 → +12.6%. ⚠️ BELOW the +15% guardrail.** Price sits between bear and base, below the
-mean target. *Verification correction: the +32% FY26 EPS growth is GAAP and OpenAI-inflated — adjusted
-is **+23%** and operating income grew **18%**, so this is not evidence of operating leverage.*
+---
 
 ## What was verified (Phase 3.5)
 
-An independent verifier subagent that had **not** read the dossier checked 14 claims across the top 3
-against primary sources: **12 CONFIRMED, 1 UNVERIFIED, 0 CONTRADICTED.** Confirmed: AVGO's $30B
-bookings vs $10.8B shipped (verbatim), $22.2B/+48% and 67.3% record margin, the Q3 $29.4B/$16.0B
-guide, the $100B+ FY27 target, the $35B/20GW XPV platform (dated 2026-06-09), and next earnings
-2026-09-02; LRCX's Q4 figures and $8.1B guide and the low-$150B WFE raise; MSFT's $678B RPO (+84%,
-+25% ex-OpenAI), Azure +43%, and Hood's "demand continues to exceed available supply."
+Independent verifier subagent, primary sources, 2026-09-17:
+- **LRCX — ALL CONFIRMED:** CFO "fundamentally sold out" (Goldman conference, Sept 10, 2026); #1 etch (~39% share) with documented qualification lock-in; FQ1 FY27 guide $8.10B ±$400M; WFE forecast raised $135B → $140B → low-$150B across 2026.
+- **AMAT — ALL CONFIRMED:** record $9.12B quarter (company PR, Aug 13, 2026); CFO's plan to roughly double quarterly system output by 2028 with value-based price increases (earnings call); largest/broadest WFE vendor (Morningstar).
+- **SNDK — ALL CONFIRMED (one caveat):** NBM figures match the Aug 5, 2026 call transcript verbatim ($93.9B floor, $59.8B on-balance-sheet RPO / $91.1B incl. post-quarter signings, $16.5B guarantees); NAND up ~3x since Jan 2026 (TrendForce via Zacks, Sept 17, 2026); #5 NAND maker (~11–13% share). Caveat: "only pure-play NAND" holds for US-listed names — Kioxia is also a standalone NAND pure-play globally. Doesn't change the thesis.
 
-**Four corrections logged and carried into this document:** (1) AVGO's "70%+ XPU design-services
-share" is an **analyst estimate, not a company figure** — ranges are 60–80%; (2) AVGO's $56B FY26 AI
-number was **reiterated, not raised**; (3) LRCX's $5.82 FY26 EPS is **non-GAAP** (GAAP $5.76), and the
-$140B WFE step dates to **2026-04-22**, not June; (4) MSFT's **+32% EPS growth is GAAP and
-OpenAI-inflated** versus +23% adjusted. Full detail: `parts/2026-08-04/verification.md`.
-
-**Also flagged:** the screen's `forwardPE` field is indicative only and should not be read as the
-multiple you pay today. It is Yahoo's figure passed straight through; the screen does no valuation
-arithmetic of its own and **does not rank on it** (`forwardPE` is not in the composite), so nothing in
-this ranking was ordered by it. Two separate distortions sat in it: (1) Yahoo builds the multiple
-against a price up to three days staler than the funnel's own — **now fixed**, `screen.py` rescales
-onto the same price, which is why AVGO reads 21.5 rather than 20.1; and (2) which *fiscal year* the
-forward EPS refers to varies by company — GE and HWM point a year out, while CF points *nearer* than
-the current year — which is **not** correctable from that field. The bottom-up figures in the table
-above are the ones to use.
+---
 
 ## Risk lens & leverage-safety note
 
-**Sector concentration is extreme and should be read as a single bet.** Eight of the ten names are
-levered to one variable: AI datacenter capital expenditure. AVGO, LRCX, NVDA, KLAC and APH are the
-supply chain; MSFT and GOOGL are the spenders; VRT is the physical plant. If hyperscaler capex pauses,
-**this list falls together** — the diversification implied by ten tickers is largely illusory. Only
-LLY (pharma) and GE (aerospace) are driven by something else.
+- **Concentration:** 6 of the top 10 ride the same AI-datacenter capex chain (LRCX, AMAT, SNDK, MU, NVDA, APH) — this ranking is a sector bet wearing a stock-picker's clothes. A capex pause impairs the whole top half at once.
+- **Highest-risk:** MU and SNDK — commodity memory with violent turns; the bear cases are −35 to −40% and prior cycles delivered worse.
+- **Steadier compounders:** AMAT, VRTX, EW, LLY — moat-first names with lower beta to the thesis.
+- **Leverage education (not advice):** memory names (MU/SNDK) have drawn down 50%+ peak-to-trough in past cycles — that kind of move against a margined position is an account event, not a dip to buy. Cyclical shortage names should be sized as cyclicals, whatever the backlog says. Never a specific leverage multiple or position size — this is risk framing, not a recommendation.
 
-**Highest-risk:** VRT (order book undisclosed, revenue already missed once), NVDA (the trap, named and
-active), AVGO (binary program concentration), LRCX and KLAC (violent capex cyclicals — LRCX fell 27%
-in five weeks *while printing records*).
-**Steadier compounders:** MSFT, GOOGL, GE, LLY — lower ceilings, and GE and LLY carry their own
-distinct flags.
+## Thesis-break / trap triggers to watch
 
-**Leverage-safety (risk education, never a recommendation).** These are high-beta cyclicals. LRCX gave
-back 27% in five weeks with fundamentals accelerating; KLAC is −35% from its high; VRT fell 14–17% in a
-day on a 3% revenue miss. Drawdowns of that speed are brutal on borrowed money, because a position can
-be liquidated at the bottom before the thesis has been disproven. `POLICY.md` makes this system's picks
-**cash-only — no margin, no options as leverage substitutes, no borrowing against the position.** No
-position size or leverage multiple is recommended here for anyone.
-
-## Thesis-break / trap triggers to watch across the list
-
-- **The order book rolling over** — AVGO book-to-bill under ~1.5x; APH book-to-bill under 1.0; GE
-  backlog shrinking; VRT resuming disclosure at a *lower* number.
-- **A named in-sourcing announcement** — any hyperscaler taking an XPU program in-house (AVGO), or a
-  top-2 customer standardizing on whitebox/SONiC (ANET, already the reason it missed the cut).
-- **Pricing rolling over** — DRAM/NAND contract prices turning (LRCX, KLAC); connector price increases
-  failing to stick (APH); copper reversing (FCX).
-- **Margins peaking sequentially** — AVGO off 67%, LRCX off 52% gross, APH off ~30% operating. In this
-  doctrine the margin peak usually precedes the revenue peak.
-- **AI capex guidance cuts** from Microsoft, Alphabet, Meta or Amazon — the single event that would hit
-  eight of these ten names at once.
-- **Financing stress** — AI-infrastructure credit spreads widening, or the XPV/vendor-financing
-  structures failing to fund (AVGO, and by read-through NVDA).
+- LRCX/AMAT: WFE forecast cut, clean-room/tool lead times normalizing, etch pricing rolling over.
+- SNDK/MU: NAND/DRAM spot prices falling below contract, NBM customers renegotiating, YMTC/CXMT share jumps.
+- NVDA/ANET: hyperscaler ASIC mix crossing higher (watch Meta/Google disclosures), CUDA-bridging software (Triton/OpenXLA) gaining inference share.
+- CAT: genset lead times normalizing, backlog growth stalling.
+- CF: urea/ammonia export curbs lifting, nitrogen prices rolling.
+- LLY: GLP-1 net pricing declining faster than volume growth.
 
 ---
 
-## ⚠️ Post-run screen change (added 2026-08-04, after this ranking was published)
-
-**MU is missing from this list because it never reached the panel**, not because any lens
-rejected it. It was eliminated at funnel gate 8 by 1.3 percentage points — the co-leader
-rule keeps names worth ≥20% of their sub-industry leader, and NVDA's growth to $5T pushed
-that bar to $1.0T against MU's $937B. It passed the same gate at 0.216 a month earlier,
-when it was the 2026-07-12 single pick.
-
-Gate 8 now has a third qualifying rule (≥50% of the bucket's *second*-biggest name), immune
-to a runaway #1. **On the corrected screen MU ranks composite #1 (0.918)**, ahead of LRCX
-(0.850), on +148% revenue growth, 80% operating margins, net cash and +70.5% to its analyst
-mean target.
-
-This ranking is left as the record of what the panel actually saw — a 14-name field without
-MU. Two caveats for anyone reading the list forward: MU's 5.7x forward P/E is peak-cycle
-memory optics rather than cheapness, and the system's last MU pick was **stopped out**
-(2026-07-02 @ $1,032.28, through its $775 stop on 2026-07-29).
-
----
-
-## Disclaimer
-
-**2026-08-04.** This is AI-generated research output for education and personal decision support. It is
-**not financial advice**, not a recommendation to buy or sell any security, and not personalized to
-anyone's circumstances. Every price target, probability and expected value above is a modeled research
-scenario, not a forecast or a guarantee. Figures were verified against primary sources where stated,
-but errors are possible and several claims are explicitly marked unverified or corrected. Three names
-in this list (LLY, HWM, CF) had unreported quarters at ranking time. Do your own research and consider
-consulting a licensed financial adviser.
+*This is research output, not financial advice. Research scenarios are estimates, not guarantees. Dated 2026-09-17.*
