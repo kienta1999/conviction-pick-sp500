@@ -1,28 +1,40 @@
-# Ballot — Lens A: Supply-chain / shortage & backlog (2026-09-21)
+# Momentum Panel — Phase 3 Ballot
+Lens: **Agent A — Supply-chain analyst** (weight shortage/backlog evidence and multi-year revenue visibility above all)
+Run date: 2026-09-21 (LIVE intraday screen) | Universe: 11 kept names
 
-Judge: how structurally supply-constrained the core product is, backlog/bookings visibility (multi-year contracted demand), lead-time/pricing power, and whether the shortage survives a demand pause.
+---
 
-## Ranked ballot (top 10)
+**Single-pick ballot:**
+- **Top pick:** KLAC
+- **Runner-up:** MU
+- **Thesis (3-5 sentences):** KLAC is the only name in the universe where the shortage, the backlog, and the trap resistance all point the same way. It is "virtually sold out" through 1H 2026 — shipping decisions for the first half were made in mid-2025 — with a $12.57B backlog up 60% YoY, and the bottleneck is structural: process-control intensity rises with every node shrink, and its #1 position in process control (~56–58% share, ~7× the nearest rival) is defended by decades of defect-classification data and fab-qualification lock-in. Its customers are foundries, not hyperscalers, so the disintermediation trap that hangs over NVDA and ANET simply cannot reach it — nobody in-sources metrology. The explosive upside is that this is not a one-cycle spot-shortage story (unlike memory); it is a rising intensity-of-use story on top of the $140B+ 2026 WFE outlook, and the backlog is still growing into 2027.
+- **Key shortage/backlog evidence:** Backlog $12.57B at June 30, 2026, +60% YoY (FY2026 10-K), with management stating the company was "virtually sold out" across most products in 1H 2026 and CEO Rick Wallace: "the constraints are real — fab construction, ecosystem capacity. You can't just turn a dial" (Q3 FY2026 call, April 2026).
+- **Irreplaceability / disintermediation risk:** low — undisputed #1 in semiconductor process control (~56–58% share, 7× the nearest rival; reticle inspection 80%+, optical inspection ~90%), protected by an algorithmic/defect-data moat plus fab-qualification lock-in, and the customers are chipmakers/foundries, not hyperscalers, so there is no credible in-sourcing threat.
+- **12-18 month return scenario:** base +35–50% as the record backlog converts and the guided 2H-2026 acceleration materializes (analyst upside +32% on top of continued growth); bull +80–100% if WFE is revised up further and the market re-rates the stock from a cyclical equipment name to a structural-metrology toll booth.
+- **Top risk:** Classic semicap cyclicality — the longest order books and firmest multi-year forecasts historically arrive at cycle peaks; China export controls and the already-full multiple (TTM P/E ~52–53x) mean a demand-air-pocket would hit it hard.
+- **Conviction (1-10):** 8
 
-| 1 | MU | 10 | 2026 HBM fully contracted, meets only 50–66% of bit demand; $22B prepayments + $22B floor-priced multi-year agreements through 2030; physical wafer-area constraint (HBM ≈3x DRAM wafer area) — the shortage is physics, not sentiment. |
-| 2 | SNDK | 9 | Fabs at full capacity, 2026 NAND capacity sold out, shortage projected through 2027; 8 multiyear NBM deals lock >50% of FY27 and ~2/3 of FY28 bits at floor pricing ($93.9B minimum); docked one for 5-way supplier substitutability and a stock already priced for perfection (+1,653% 1-yr). |
-| 3 | FCX | 8 | The one real structural commodity deficit: 600kt gap (MS), mine supply's first annual decline since 2017, grades below 0.6%, new mines take 10+ years; persists through any demand pause; docked for fungible product and the Grasberg restart execution risk. |
-| 4 | NVDA | 7 | $279B in future supply-chain commitments, 70% FY2028 growth explicitly supply-capped, "demand materially higher"; docked three because the lens's fatal trap — hyperscaler custom-ASIC in-sourcing — is already in progress against Nvidia, eroding pricing power at the margin. |
-| 5 | AMAT | 6 | Eight-quarter visibility backlog, record $9.115B quarter accelerating to a +51% FQ4 guide; the constraint is industry delivery capacity, not customer demand; docked for WFE's history of cyclical digestion and FCF missing on working-capital strain. |
-| 6 | KLAC | 5 | Near-monopoly process control with record $12.57B backlog (+60% YoY) and WFE gated by industry capacity; docked because it is a scarce supplier, not a scarce consumable — backlog admits pushouts if the capex cycle pauses. |
-| 7 | ANET | 4 | Genuine demand > supply: purchase commitments tripled to $9.7B, three guidance raises, supply pressures guided into 2028; docked hard because Nvidia has already seized the #1 datacenter-Ethernet slot while selling the GPUs — disintermediation is in motion, not hypothetical. |
-| 8 | APH | 3 | Record $10.7B orders (+94% YoY), 1.23x book-to-bill in AI interconnect; docked because it is #2 in a commoditizable connector market where hyperscalers buy through ODMs and squeeze on cost — thin pricing power. |
-| 9 | EMR | 2 | $8.2B backlog and $12.4B project funnel in power/semiconductor automation; docked because book-to-bill is 1.0 — orders no longer outpacing sales — and this is a demand surge, not a supply constraint. |
-| 10 | AME | 1 | Record $2.3B orders and $4.11B backlog are real demand, but it is a demand-surge story with switchable vendors and no structural scarcity — the weakest lens fit that still merits a row; VRTX (monopoly, no shortage) fails the lens outright and is excluded. |
+---
 
-## Single pick
+**Ranked ballot:**
 
-MY SINGLE PICK: MU
+1. KLAC — Virtually sold out; nobody in-sources metrology
+2. MU — Sold-out 2026 HBM; $22B customer prepayments
+3. AMAT — #1 WFE; customer roadmaps stretching to 2030
+4. GOOGL — $514B cloud backlog; renting capacity itself
+5. SNDK — $42B guaranteed backlog; commodity timing risk
+6. APH — Demand exceeds supply; AI run rate $10.5–11B
+7. NVDA — $500B booked; hyperscaler-ASIC trap is real
+8. ANET — $9.7B commitments; top customers could route around it
+9. CSCO — $9.3B AI orders; margin compressing
+10. FCX — Acute copper shortage; zero pricing power
 
-Thesis: the explosive case is physical, not narrative — HBM requires ~3x the wafer area of standard DRAM, so the shortage cannot be engineered or in-sourced away, and Micron can meet only 50–66% of customer bit demand with its entire 2026 HBM supply already contracted. Backlog visibility is contractual and price-floored: $22B in customer prepayments collected plus ~$22B in multiyear agreements through 2030 with guaranteed floor prices — a demand pause would have to destroy the contracts themselves, and prepayments say customers are paying to hold their place. At a 6–12x forward P/E the market still prices the memory cycle, leaving the explosive re-rating as the booked model proves out.
+**Top 3 in detail:**
 
-TRAP VETO: none — the pick passes the disintermediation test because only three firms on earth (Samsung, SK Hynix, Micron) manufacture HBM commercially; no hyperscaler can fabricate DRAM/HBM itself given the >$25B/yr capital intensity, EUV process know-how, and Nvidia qualification lock-in. The substitute risk is technology mix (inference shifting toward different memory), not customer in-sourcing of Micron's product. Docked for HBM #3 status behind SK Hynix, but that is share-squeeze risk, not disintermediation.
+**KLAC:** The single most compelling data point is the backlog geometry — $12.57B, up 60% YoY, against "virtually sold out" 1H-2026 capacity with shipping slots decided six months early — because it means demand is being *rationed*, not chased, at the #1 process-control vendor whose moat (7× share lead, fab-qualification lock-in) the disintermediation trap cannot touch. Base +35–50% / bull +80–100% over 12–18 months as the backlog converts at intact pricing and the 2027 delivery book builds.
 
-## Shortage scores assigned (0–10)
+**MU:** The most compelling data point is $22B in customer prepayments against all of 2026 HBM sold out on 3–5-year contracts while Micron can fill only 50–67% of demand — customers are paying cash upfront to reserve capacity, the purest multi-year visibility in memory, with Gartner/TrendForce/SK Hynix agreeing the shortage runs to at least 2028 and possibly past 2030. Base +30–50% as contracted volumes grow; bull +100–150% if the market re-rates it off peak-cycle 6.5x forward into a structural-HBM earnings power multiple — the caveat being those contracts carry price ceilings, so the upside is a multiple story, not unbounded ASP gains.
 
-SNDK 9 | MU 10 | NVDA 7 | ANET 4 | KLAC 5 | AMAT 6 | APH 3 | FCX 8 | VRTX 2 | AME 3 | EMR 4
+**AMAT:** The most compelling data point is not a headline backlog figure (Applied does not report one) but the visibility mechanism — its largest customers are handing it rolling 8-quarter forecasts, 5-year roadmaps, and "discussions reaching into 2030," while Applied had to open a $500M Singapore campus to double its advanced cleanroom capacity because it cannot build fast enough today. Base +30–45% / bull +80–120% on the >20% calendar-2026 equipment growth guide carrying into 2027, tempered by the honest risk that China domestic substitution (~$3.5B addressable market by 2030) eats the mature-node leg.
+
+**Deliberately left out of the top 10:** NEM — the gold "shortage" accrues to the metal, not to Newmont; there is no order backlog, zero pricing power, and it is a pure commodity-beta play (irreplaceability 2/10) that the supply-chain lens cannot rank above contracted-backlog names.

@@ -1,38 +1,96 @@
-# Ballot D1 — Contrarian / Risk / Valuation lens (2026-09-21)
+# Agent D — Contrarian/Risk Skeptic ballot — momentum panel — 2026-09-21
 
-## Ranked ballot (top 10)
-
-| 1 | MU | 10 | Priced as a commodity cyclical at 6.5x fwd, but $22B prepayments + floor-price multiyear contracts through 2030 de-commoditize it; demand >2x supply |
-| 2 | NVDA | 9 | 14.2x fwd for a supply-capped 70% grower; ASIC disintermediation is the one real crack and caps it below #1 |
-| 3 | FCX | 8 | Structural copper deficit (UBS ~407kt, MS ~600kt) at 17.3x fwd while Grasberg restart de-risks H2; market prices commodity beta, not the deficit |
-| 4 | SNDK | 7 | 6.8x fwd looks cheap but it's peak-cycle earnings on a +1,650% 12m run, -35% from the high, NAND price gains already decelerating |
-| 5 | KLAC | 6 | Best moat in the panel (near-monopoly process control) but 26.4x fwd / ~48x trailing already pays for the 2027 ramp executing |
-| 6 | EMR | 5 | Sane 20.7x fwd for automation levered to power/AI, but 1.0 book-to-bill + Europe/China softness say momentum is maturing |
-| 7 | AMAT | 4 | Eight-quarter backlog and +51% guide are real, yet stock falls on double beats; market has priced the extension — FCF collapsed to $210M |
-| 8 | VRTX | 3 | Monopoly priced as such at 25.2x with 96% of revenue in CF and a patent cliff in the late 2030s; the readouts are crowded, not mispriced |
-| 9 | APH | 2 | 23.7x fwd for #2 in a commoditizable market with 43% AI-exposed sales; Q2 margin flattered by one-time $80M tariff recovery |
-| 10 | ANET | 1 | 38.6x fwd while Nvidia holds the #1 datacenter-Ethernet slot and bundles networking with the GPUs; sharpest disintermediation risk in the field |
+Lens: hunt for the thesis that is real but still underappreciated by the market;
+reject what's already fully priced; weigh valuation, downside, and
+disintermediation risk explicitly.
 
 ## Single-pick ballot
 
-MY SINGLE PICK: MU
+- **Top pick:** MU
+- **Runner-up:** KLAC
+- **Thesis (3-5 sentences):** The market prices MU as if this is the peak of the
+  DRAM cycle — 6.5x forward P/E at a $1.1T market cap — and that is itself the
+  mispricing. All of Micron's 2026 HBM supply is sold out under 3–5 year
+  binding contracts backed by $22 billion in customer prepayments, management
+  says it can fill only 50–67% of medium-term demand, and the shortage is
+  confirmed by independent analysts to at least 2028. Customers paying cash
+  years ahead to reserve capacity is not peak-cycle behavior; it is
+  contracted, visible revenue. The explosive case is a multiple re-rate: if
+  HBM/DRAM earnings prove even partially durable, a 6.5x forward multiple has
+  nowhere to go but up.
+- **Key shortage/backlog evidence:** $22B in customer prepayments plus 100% of
+  2026 HBM output sold under multi-year (3–5yr) contracts, while Micron can
+  fill only 50–67% of customer demand — demand is being rationed, not chased.
+- **Irreplaceability / disintermediation risk:** low — and why: hyperscalers
+  cannot in-source DRAM (only 3 firms on earth make it; HBM needs a 12–18 month
+  Nvidia qualification cycle). The honest risk here is not disintermediation
+  but cyclicality: Micron is the #3 HBM supplier (~20%), its contracts carry
+  price ceilings, and much of the current margin firepower comes from
+  reversible conventional-DRAM spot pricing.
+- **12-18 month return scenario:** base ~+40–50% if earnings hold near current
+  run-rate on contracted backlog (in line with +49% analyst upside);
+  bull ~+110–150% if the market re-rates from 6.5x to 11–12x forward on
+  HBM earnings durability through 2028.
+- **Top risk:** the classic memory-cycle turn — DDR5 spot pricing reverses as
+  server restocking ends, the 2027–28 capacity wave (Micron's own $25B+ capex
+  plus Samsung/SK Hynix builds) arrives early, and the 6.5x P/E proves to be a
+  value trap at cycle peak. A memory cyclical can draw down 50%+ fast; this is
+  the downside the market is currently pricing.
+- **Conviction (1-10):** 7
 
-Thesis: The market prices Micron as a legacy DRAM cyclical at 6.5x forward earnings — peak multiple compression — while $22B in customer prepayments and multiyear floor-price contracts covering memory supply through 2030 turn the model into a contracted, de-commoditized cash machine serving only half of current demand. HBM requires ~3x wafer area and only three firms on earth make it, so the supply constraint is structural, not sentimental; the cycle-turn risk is fully in the price, the floor-priced order book is not.
+## Ranked ballot
 
-TRAP VETO: none — the pick passes the disintermediation test because hyperscalers cannot in-source HBM/DRAM (only Samsung, SK Hynix and Micron manufacture it at scale; Nvidia qualification locks it in), and the substitute threat is technology mix-shift, not customer disintermediation.
+1. MU — priced as peak-cycle; mispricing IS case
+2. KLAC — sold out; un-in-sourceable metrology monopoly
+3. GOOGL — capex fears mask $514B cloud backlog
+4. AMAT — 44% upside; China worries already priced
+5. APH — sane multiple; demand>supply plumbing
+6. CSCO — margin pullback priced; AI orders +65%
+7. ANET — great thesis; highest disintermediation risk
+8. NVDA — fully priced; ASIC erosion underway
+9. NEM — price-taker; gold correction risk live
+10. SNDK — perfection priced in after +1,650%
 
-## Risk/valuation scores assigned (0-10)
+### Top 3 detail
 
-| Ticker | Risk/valuation score |
-|--------|---------------------:|
-| SNDK | 5 |
-| MU | 9 |
-| NVDA | 7 |
-| ANET | 3 |
-| KLAC | 5 |
-| AMAT | 4 |
-| APH | 4 |
-| FCX | 7 |
-| VRTX | 4 |
-| AME | 3 |
-| EMR | 5 |
+**MU.** The single most compelling data point is the $22B in customer
+prepayments alongside binding 3–5 year contracts covering all 2026 HBM output:
+money arriving ahead of revenue from counterparties that can fill only
+50–67% of their own demand. That is the opposite of channel stuffing and the
+opposite of what a peak cycle looks like at the buyer level. 12–18mo scenario:
+base +40–50% as contracted earnings materialize; bull +110–150% on a multiple
+re-rate toward 11–12x forward if HBM earnings durability is accepted. Downside
+is the classic 50%+ memory-cycle drawdown if DDR5 spot pricing rolls.
+
+**KLAC.** The single most compelling data point is the $12.57B backlog at
+June 30, 2026 — +60% YoY — with management stating the company was "virtually
+sold out" in 1H 2026, i.e., demand is being rationed, not chased, and shipping
+decisions for the first half were made in mid-2025. The moat is what the market
+still treats like a normal equipment cycle: #1 in process control at 56–58%
+(~7x the nearest rival), and no foundry or hyperscaler will ever build its own
+metrology. 12–18mo scenario: base +30% as backlog converts (analyst upside
++32.1%); bull +60–80% if the equipment super-cycle extends into 2028 with
+pricing power. Crowdedness caveat: Agent C also picked KLAC — expectations are
+higher here than at MU, hence runner-up.
+
+**GOOGL.** The single most compelling data point is the $514B Google Cloud
+backlog at end of Q2 2026 (~23 quarters of current cloud revenue, ~5x YoY),
+with management admitting "demand is not the problem, capacity is" and
+literally renting third-party compute in Q3 — the cleanest demand-exceeds-supply
+print in the field. The market instead prices the capex bill: first-ever
+negative FCF (-$5.9B) and $195–205B 2026 capex. That fear is the
+underappreciated part — cloud revenue grew +82% YoY at 35.6% operating margin,
+and TPU revenue monetization starting 2027 is not in anyone's model.
+12–18mo scenario: base +20–25% as backlog converts at today's pricing;
+bull +50–70% if capex fears fade and TPU system sales re-rate the cloud story.
+Disintermediation risk is effectively nil here — Google IS the in-sourcer.
+
+### Left out of the top 10
+
+FCX — analyst upside only +1.5% says the market has already priced the copper
+bullishness, and FCX's own production is impaired by the Grasberg incident
+that tightens the market; the thesis is a commodity price, not a company, and
+the equity has nothing left underappreciated. (NEM and SNDK were kept in the
+bottom of the list rather than excluded: NEM as a genuine gold-supply vehicle
+with record FCF despite zero pricing power; SNDK dead last as the textbook
+example of a real shortage priced for perfection after a 1,650% run.)

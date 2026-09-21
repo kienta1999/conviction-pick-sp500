@@ -1,90 +1,208 @@
-# Final pick — stock-pick-earnings 2026-09-21 (full panel)
+# STOCK-PICK-EARNINGS — FINAL PICK — 2026-09-21 (LIVE intraday screen)
 
-- **Pick:** GS (Goldman Sachs)
-- **Plan:** **B (queued)** — no position into the print; enter only after the number on the trigger below
-- **Price at pick:** $942.00 (screen cache 2026-09-21)
-- **Report date:** **2026-10-13, CONFIRMED BMO** (verifier: Goldman IR press release — results ~7:30 am ET, call 9:30 am ET)
+**HONESTY NOTE:** this pick reflects the LIVE 2026-09-21 intraday screen — NOT
+the morning run's 2026-09-18-close screen. The morning run's screen inputs are
+unrecoverable per `output/gaps.md`; its conclusions (winner: GS) are archived
+in `output/earnings/old/` and SUPERSEDED — the archived conclusion played no
+part in this adjudication. Screen-record prices below are the 9/18 closes.
 
-## Why this one
+**NO SAFE FALLBACK.** The 12–18 month EV on this name is +12.6% — below the
++15% fallback bar. This is an event trade with no acceptable place to land if
+the print goes wrong; a bad gap becomes a permanent loss, not an inconvenience.
+The event exit rule (below), not the bear target, governs this position.
 
-The panel's Borda tally: **GS 28 pts** (4/4 appearances, avg placement 4.00) vs BLK 26, HWM 25, INCY 24 — the only name every lens kept in its top 6 (placements 2, 6, 6, 2). It is the field's most complete reaction record: four straight beats averaging **+20.5% EPS surprises** (trend +11.4), and — after the verifier's correction — **6 of 8 beats paid** (0.75) at +3.0% average on the day. The trap veto then ran over the rest of the top 5: BLK's date is unconfirmed (10/13 vs 10/14), HWM's date is unconfirmed (cached 11/05 stale, est. ~10/29), INCY's date is unconfirmed and it has twice sold off on guide-vs-Street gaps, REGN's date is conflicted (10/27 vs 10/28). GS is the only top-5 name with a **company-IR-confirmed date** — the load-bearing fact — plus the cheapest forward multiple in the batch (12.7×), −7.3% derisking into the print, and the #1 M&A franchise (verifier-confirmed) as downside architecture. Nothing in the field qualified for Plan A (see checklist); GS is the highest-conviction name to queue behind.
+**Plan: B (queued — wait for the number).** First two lines per the skill:
+this writeup recommends **Plan B**: no position before the 9/23 print. Enter
+only after the number, and only if all three confirm (beat on EPS and revenue,
+guide raised-or-reaffirmed-above-consensus, positive first session).
 
-## Gate A1 — the disqualifier checklist (visible, run first)
+## THE PICK: **PAYX — Paychex, Inc. — $116.14 (screen-record price)**
+
+### Adjudication record (transparent)
+
+- Only two names were actionable this week (PAYX, CTAS, both reporting
+  2026-09-23). Per the earnings skill's 1–3 candidate rule, **no panel vote was
+  held** — a 4-lens vote over 2 names is theater, and the skill says so
+  explicitly. The screen made the decision; both names got full research and
+  independent verification; this is a single-agent adjudication between them.
+- Beat-likelihood: **PAYX 8 = CTAS 8** (both 4/4 beats).
+- **Guide-risk: PAYX 4/10 vs CTAS 6/10.** PAYX's forward consensus
+  ($5.96 EPS / $6.85B revenue) sits comfortably *inside* a 3-month-old June
+  guide ($5.90–6.01 / $6.84–6.90B); CTAS's $5.49 sits at the very top of its
+  $5.36–5.50 range — a flat reaffirm reads as a trim at 37x.
+- **Priced-in: PAYX 3/10 vs CTAS 6/10.** PAYX: −7.6% over 1 month, ~13% below
+  the 52-week high, forward P/E ~19.5x vs its own 25–30x history, consensus
+  Hold. CTAS: +15.7% over 3 months on the July beat, 36.9x forward, consensus
+  already at the guide top, documented habit of falling on good news
+  (−4.5% on the Q3 beat-and-raise).
+- Reaction record: PAYX 0.714 paid (5/7), avg abs 3.65%; CTAS 0.750 (6/8),
+  avg abs 4.40%. CTAS's is marginally better — not enough to outweigh the
+  guide-risk and pricing gap.
+- Verdict: **PAYX is the highest-conviction name to queue behind.** (PAYX's own
+  researcher argued Plan A; the skill's Gate A1 checklist overrules — a ticked
+  box is not a debate, it is the answer.)
+
+### Gate A1 — the disqualifier checklist (visible, run first)
 
 Any single box ticked means **no Plan A trade**.
 
-1. [ ] Stock up **more than 15%** over the 21 sessions into the print — **CLEAR**: ret_21d = −7.34%, run flag false.
-2. [x] **Either of the last two prints** was a beat that the stock fell on — **TICKED**: Q1'26 beat EPS by +6.6% ($17.55 vs $16.47) and fell **−1.87%** on the FICC miss (verifier-corrected; the screen's +2% was the next-day rebound).
-3. [ ] Guidance was **raised between quarters** — **CLEAR**: Goldman does not guide (non-guider by model).
-4. [ ] The report **date is not confirmed** on the company's own IR page — **CLEAR**: confirmed 2026-10-13 BMO by the verifier against Goldman IR.
-5. [x] The expected move is **inside the options-implied move** — **TICKED**: options imply **7.48%** vs 3.51% realized average — the market prices more than double the historical move. A pre-print entry would be paying the market's price, not an edge.
-6. [ ] Next-quarter consensus implies an **acceleration the last 2–3 quarters have not shown** — **CLEAR**: Q4'26 consensus $15.43 EPS sits *below* the Q3'26 $15.62 bar — no acceleration implied.
+1. [ ] Stock up **more than 15%** over the 21 sessions into the print —
+   **CLEAR**: ret_21d = −5.2%.
+2. [x] **Either of the last two prints** was a beat that the stock fell on —
+   **TICKED**: Q4 FY26 (Jun 24, 2026) beat EPS $1.32 vs $1.31 and closed
+   **−1.72%** on the day (verifier-confirmed from Finnhub candles; intraday
+   slid ~−4–5%).
+3. [ ] Guidance was **raised between quarters** — **CLEAR**: no
+   pre-announcement or interim raise since the June guide.
+4. [ ] The report **date is not confirmed** on the company's own IR page —
+   **CLEAR**: **CONFIRMED BMO 2026-09-23** — Paychex's own GlobeNewswire
+   release (Sept 9, 2026): "release financial results ... on Wednesday,
+   September 23, 2026, **before the financial markets open**"; call 9:30am ET.
+   (Verifier: aggregator pages showing a stale "09/29/26" date are superseded
+   by the company release.)
+5. [x] The expected move is **inside the name's own `reaction_avg_abs_move`**
+   — **TICKED**: pre-registered expectation ≈ +3.5% sits within the name's own
+   3.65% average absolute move and within the ~5.2% options-implied figure
+   (optionslam, unverified). The market's base case already contains the move.
+6. [ ] Next-quarter consensus implies an **acceleration the last 2–3 quarters
+   have not shown** — **CLEAR**: Q1 consensus (+5.9% rev / +8.2% EPS) sits
+   squarely inside FY27's 5–6% / 7–9% guide; Q2 consensus $1.37/$1.65B matches
+   the cadence.
 
-**Two boxes ticked → no Plan A.** The entry is queued: wait for the number, then buy the confirmed beat with a constructive forward posture plus a positive first session.
+**Two boxes ticked (2, 5) → no Plan A.** The entry is queued: wait for the
+number, then buy the confirmed beat with a constructive forward posture plus
+a positive first session.
 
-## Gate A2 — expected event/drift move
+### Gate A2 — expected move on the drift
 
-Pre-registered print expectation: **up ~+3.5%** (≈ the name's own 3.51% average absolute move), direction **up**. This is positive, and the trade is **conditional on the trigger** (beat vs $15.62 + revenue vs $17.04B + positive first session) — the trigger replaces the ~54% unconditional coin flip with prints the market has already validated (6/8 paid beats, +3.0% average day-one). The drift leg (20–40 sessions) rides confirmed strength, not hope.
+Plan B is not gambling on the reaction: entry requires a confirmed beat AND
+guide AND positive first session — prints the market has already validated.
+PAYX's paid-beat rate is **0.714 (5/7)**; conditional on the trigger, the
+expected drift is positive and materially better than the ~54% unconditional
+coin flip the repo measured. **Gate A2 passes on the drift.**
 
-## Event plan
+### The print
 
-**Trigger (all three required, evaluated on the 10/13 print):**
-1. Q3 EPS beat vs **$15.62** consensus AND revenue vs **$17.04B**, with **no FICC-driven mix disappointment** (the Q1'26 sell trigger: headline beat, FICC −10% YoY, −1.87%)
-2. Forward posture constructive: IB backlog commentary firm (was "highest in four years" in Q1), no escalation of macro caution
-3. Positive first session (no gap-down on the headline)
+- **Confirmed date: Wednesday 2026-09-23, BMO** (Paychex IR via GlobeNewswire,
+  Sept 9, 2026). Call 9:30am ET. Verification status: **CONFIRMED by the
+  verifier against the company's own release.**
+- Quarter: fiscal Q1 2027 (quarter ended Aug 31, 2026).
+- Consensus (AlphaStreet, ~Sept 18, 2026; verifier-confirmed): **EPS $1.32**
+  (18 analysts, range $1.29–$1.34; Zacks/Barchart show $1.33 on 6 analysts —
+  the bar is $1.32–$1.33, immaterial), **revenue $1.63B** ($1.62–$1.63B range).
+  EPS consensus unchanged over the last 30 days. No whisper found.
 
-**If triggered:** enter post-print; hold through the drift horizon (~30 trading sessions, ~late November 2026); record `event_exit` then. The drift thesis is dead the moment the stock closes back below its reaction-day close — that is an exit, not a dip to add to. No stop on the event itself.
+### The record (the doctrine's core evidence)
 
-**Gap-down treatment:** if it gaps down >5% on the print *without* a structural revelation, review as a Plan B entry only if triggers 1–2 still hold on the facts (not the price); if FICC is structurally impaired or the IB backlog cracks, pass — the thesis is broken.
+| quarter | reported EPS | consensus | surprise | revenue | reaction (next session) |
+|---|---|---|---|---|---|
+| Q1 FY26 (Sep 30, 2025) | $1.22 | $1.20–1.21 | +1–2% | $1.54B, in-line | −1.4% |
+| Q2 FY26 (Dec 19, 2025) | $1.26 | $1.23 | +2.5% | $1.5576B, in-line | −1.7% (raised guide but flagged "low end") |
+| Q3 FY26 (Mar 25, 2026) | $1.71 | $1.67–1.68 | +2% | ~$1.81B, beat ~1.4% | +3% |
+| Q4 FY26 (Jun 24, 2026) | $1.32 | $1.31 | +0.8–1.1% | $1.6055B, in-line | −1.72% report-day (intraday −4–5%) |
 
-**No-trigger Plan B:** if the print doesn't clear the trigger, no trade; record a `kind=close`, `exit_reason=event_exit` row marking the no-trade close.
+Four straight EPS beats averaging ~+1.7%, yet the stock **fell after 3 of 4
+prints**. Paychex trades on the guide, not the beat — and this print's guide
+is only 3 months old with consensus inside it.
 
-## Event scenarios (single-session sketches)
+### Why the beats are real
 
-- **Beat + firm forward posture:** +4 to +6% (history: +9.00% on the +45% Q2'26 blowout, +4.63% on Q4'25)
-- **In-line / mixed:** −2 to +1% (the Q1'26 template: +6.6% EPS beat, −1.87% on FICC mix)
-- **Miss or weak mix:** −4 to −8%
+Revenue accelerated through FY26 on the Paycor acquisition (closed Apr 2025);
+organic growth nearly doubled from ~3% a year ago (CFO, Q4 call). Adjusted
+operating margin 40.7% → ~44% guided FY27; earnings quality clean (screen:
+cfo_ni 1.45, no flags). EPS line is cash-backed, not manufactured.
 
-## Gate B — 12–18-month fallback
+### What's priced in (THE TRAP)
 
-> ⚠️ **NO SAFE FALLBACK.** The fallback EV below is **−3.4%**, under the +15% guardrail. This does not block the earnings pick (the trade is the event, exited in ~30 sessions), but be explicit: if the exit goes wrong and you are stuck holding GS for 18 months, the math does not protect you. Size for the event, not the fallback.
+NOT crowded: −7.6% over 1 month, −11.5% over 1 year, ~13% below the $132.87
+52-week high, forward P/E ~19.5x vs its own 25–30x range, consensus Hold (with
+September PT raises — Citi to $150). The trap here is not the price; it is the
+guide — the stock shoots beats on soft forward language, and any "low end"
+utterance on the call reprices it down.
 
-Scenario sketches (coordinator-built, bottoms-up on the dossier's trailing baseline: fwd EPS ≈ $74 at 12.7×; book value $361.19; ROTCE target 15–17%):
+### The reaction record
 
-- **Bear $550 (~−42%), p=0.25:** the print misses AND reveals something structural — FICC drag deepens, the IB backlog fails to convert, deal drought; EPS falls to ~$55, multiple compresses to 10× cyclical.
-- **Base $950 (~+1%), p=0.50:** the business compounds roughly as the last four quarters did; EPS ~$74, 12.7× holds.
-- **Bull $1,190 (~+26%), p=0.25:** One Goldman 2.0 delivers the 15–17% ROTCE target and ~$1.3B pre-tax savings into a capital-markets boom; EPS ~$85 at 14×.
-- **EV = $910** (−3.4% vs $942.00).
+beat_up_rate **0.714** (5/7 measured), reaction_avg_move +0.3%,
+reaction_avg_abs_move **3.65%**, reaction_worst −9.4%, last-4 reactions
+−2%, +3%, +2%, −2%. The stock has historically done little with its own good
+news — which is precisely why the trade waits for the number instead of the
+print.
 
-## Fallback if the print disappoints
+### The guide
 
-Would I hold it 12–18 months? Reluctantly, not happily. The #1 M&A franchise, balance-sheet risk capacity, and $6.4B quarterly capital returns mean a bad print doesn't break the business — but cyclicality means a bad print can coincide with a derating that lasts quarters. The disaster case is structural FICC impairment or a dead IB backlog; either breaks the thesis and the position is an exit, not a hold.
+Full-year growth-rate guide with segment detail. FY27 (issued Jun 2026):
+revenue growth 5–6%, adj EPS growth 7–9% ($5.90–6.01), adj op margin ~44%.
+Forward consensus: Q2 FY27 $1.37/$1.65B; full FY27 $5.96/$6.85B — **mid-guide
+on EPS, low end on revenue** (verifier: FY27 revenue consensus $6.85B is
+dossier-sourced, June sources agree it sits inside the $6.84–6.90B range).
+8-quarter history: raised/maintained at every FY26 print; this stock punishes
+deceleration narratives — the guide is the single highest-leverage variable,
+and it was set 3 months ago with no interim raise.
 
-## Sizing
+### Event plan (headline section)
 
-**0.5%** of investable capital (2% cap → earnings halving → 1% → pilot halving per POLICY §5, gates unmet). Cash only. One earnings position at a time. The exit rule above is part of the entry.
+**Trigger (all three required, evaluated on the 9/23 BMO print):**
+1. Q1 FY27 EPS beat vs **$1.32–$1.33** AND revenue beat vs **$1.63B**.
+2. FY27 guide **raised, or reaffirmed with consensus ($5.96 / $6.85B)
+   comfortably inside** — no "low end" language on the call (the Dec 2025 and
+   Mar 2025 sell triggers).
+3. Positive first session — the report-day close is **up**.
 
-## Verification (independent, 2026-09-21)
+**If triggered:** enter on the session after the reaction session
+(Sept 24, 2026, assuming the print reacts Sept 23). Hold the drift **~30
+trading sessions** (~early November 2026). Record `event_exit` then. **The
+drift thesis is dead the moment the stock closes back below its
+reaction-day close** — that is an exit, not a dip to add to.
 
-- Date/BMO-AMC **CONFIRMED** (Goldman IR). Q3'26 consensus **$15.62 EPS confirmed**, **$17.04B revenue found**. Q2'26 **+45%** surprise ($20.98 vs $14.47) confirmed. Q4'26 consensus **$15.43 / $16.71B** (new). Moat (#1 M&A) **confirmed**.
-- Reaction record **corrected**: Q2'26 +9.00%, Q1'26 **−1.87%** (screen showed +2% — wrong sign), Q4'25 +4.63%, Q3'25 −2.04% → beat_up_rate **0.75 (6/8)**. This correction is what ticked Gate A1 box 2.
-- Full report: `output/earnings/parts/2026-09-21/verification.md`.
+**Gap-down treatment:** no trade. If the print misses, guides soft, or the
+first session closes down, the trigger never fired — record a `kind=close`
+row with `exit_reason=event_exit` and `exit_price` equal to the pick price.
+A trade not taken is an outcome, and this mode exists to produce exactly that.
 
-## Top risk
+**No-trigger Plan B:** no trade; `kind=close`, `exit_reason=event_exit`,
+`exit_price` = $116.14.
 
-A FICC/trading miss inside a headline EPS beat — the Q1'26 template, now verified at −1.87% — or a macro risk-off that compresses the 12.7× multiple regardless of what Goldman reports.
+**Pre-registered prediction (recorded in the ledger at pick time):**
+`event_pred_dir` = **up**; `event_pred_move` = **+3.5%** (≈ the name's own
+3.65% average absolute move); `event_implied_move` = **5.22%**
+(optionslam event table, **UNVERIFIED**).
 
-## Dissent
+**What converts the trade into a hold:** nothing pre-stated. The fallback is
+insurance only — "the long-term thesis is intact" is not a reason to stay in.
 
-- **A nominated INCY (Plan B):** largest accelerating surprise record (+27.8%), conservative implied H2 guide — but the date is unconfirmed and the stock has twice punished beats on guide-vs-Street gaps; the guide-down case is the base case there.
-- **B nominated HWM (Plan B):** the most derisked setup (−19% into the print) — but the date is unconfirmed (cached 11/05 stale) and consensus sits at the top of the guide with a raise-and-fall precedent.
-- **C nominated BNY (Plan B):** the best 18-month fallback moat in the field (custody oligopoly) — but the date is unconfirmed and management raised the bar itself in July.
-- **D nominated NO TRADE** (7/10 conviction): every name carries a guide-down or priced-in signature — agreed on holding through any print, which is exactly why the pick is queued Plan B and nothing is held into 9/23 or 10/13.
+### The fallback (Gate B — insurance, 12–18 months)
 
-**Return date:** come back **2026-10-14** (day after the 10/13 print) to score the trigger and record the entry or the no-trigger close. If entered, return **~2026-11-25** (~30 trading sessions later) to record `event_exit`.
+Bottoms-up on the business's drivers, not the print:
 
-Conviction: 6/10.
+| case | prob | target | narrative |
+|------|-----:|-------:|-----------|
+| bear | 0.20 | $90 | The print misses AND reveals something structural — Paycor integration stumbles, organic growth stalls, the mid-market squeeze bites; multiple drifts to ~16x (−22.5%) |
+| base | 0.55 | $130 | Business compounds roughly as the last four quarters did; growth bottoms at 5–6% and re-accelerates gently; ~19x on mid-cycle EPS (+11.9%) |
+| bull | 0.25 | $165 | Beat-and-raise cadence resumes; Paycor synergies ($100M) flow through; multiple re-rates toward the 25–30x history (+42%) |
+| **EV** | | **$130.75** | **+12.6% — does NOT clear the +15% fallback bar (see NO SAFE FALLBACK above)** |
 
-## Dated disclaimer
+### Thesis-break / cancel conditions
 
-Research date 2026-09-21. Price is screen-cache; consensus as of ~2026-09-15/21. Earnings dates move — re-verify against company IR before acting. This is a research artifact, not investment advice.
+The report date moving (a delayed filing is a red flag in itself), a negative
+pre-announcement, an estimate revision wave downward in the final two weeks,
+or a CFO departure before the print. Any of these is a reason to **cancel the
+trade**, not to size down.
+
+### Sizing and leverage honesty
+
+This mode's measured edge is thin: ~54% beat→up rate repo-wide, 5.9% average
+absolute move. POLICY §1.5's 2% cap → halved → halved again is the risk
+control. A single-session gap of 10–20% is a normal outcome here, not a tail —
+**this is the mode where leverage is most obviously destructive.** `size_pct`
+left empty in the ledger per policy.
+
+### Why not CTAS (the runner-up)
+
+CTAS is the higher-quality business (moat 8/10 vs 7/10, better reaction
+record) but the worse trade: guide-risk 6 (consensus at the very top of the
+$5.36–5.50 range), priced-in 6 (+15.7% 3-month run, 36.9x forward), and a
+documented habit of falling on merely good news. It is ranked #2 and stays on
+the board as the backup if PAYX's trigger never fires.
+
+---
+*Research/education, not personalized investment advice.*

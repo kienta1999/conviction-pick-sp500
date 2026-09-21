@@ -1,192 +1,88 @@
-# Verification — Momentum panel, RUN_DATE 2026-09-21 (independent verifier)
+# Independent verification — momentum panel, run date 2026-09-21
+Verifier: independent subagent (Muse Spark runtime — see model-policy note below). All figures checked against primary sources where possible; URL + date given for each. "NOT CONFIRMED" is used where no source could be located. Screen inputs (prices, analyst upside) are pipeline data, not company disclosures.
 
-Scope: the Borda top three — MU (36 pts), NVDA (32), AMAT (27) — plus the trap veto on
-tentative pick MU. The Borda arithmetic was re-tallied from the four ballots and matches
-exactly (MU 10+10+6+10=36; NVDA 7+9+7+9=32; AMAT 6+8+9+4=27).
+**Model-policy note:** the task required the most capable model available for this money panel. This run executed on the Muse Spark runtime assigned by the harness; the model could not be changed mid-task. Flagged for the parent, not asserted as compliant.
 
-## (a) What was checked and how
+---
 
-Independent web searches against primary/independent sources (company earnings
-releases, earnings-call transcripts, SEC-filing-derived figures via 10-Q/8-K,
-Zacks earnings-call summaries, TheStreet live coverage, The Motley Fool, TrendForce),
-all with dates. Checked, for each name: the headline demand/shortage figure, the
-backlog/order-book figure (exact label: revenue? bookings? deposits? visibility?),
-the catalyst and its date, the period figures (FQ/Q comparisons), and the moat's
-central factual claim (who makes HBM; WFE supplier count; NVDA supply-side vs
-demand-side figures). Trap veto on MU: searched for hyperscaler memory-fab builds /
-DRAM DIY, Chinese memory entrants' scope, and substitute memory technologies (HBF).
+## KLAC — KLA Corporation
 
-## (b) Headline claims — verdicts
+### Claim 1: Backlog $12.57B, +60% YoY at June 30, 2026 (FY2026 10-K)
+**VERIFIED.** KLA's FY2026 10-K (filed ~Aug 6, 2026; ir.kla.com SEC filing, accession 0000319201-26-000027) states verbatim: "Our backlog… increased from $7.86 billion as of June 30, 2025, to $12.57 billion as of June 30, 2026, due to strong demand driven by the AI infrastructure buildout." Math: (12.57 − 7.86) / 7.86 = 59.9% ≈ +60%. Source: https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000027/0000319201-26-000027.pdf (10-K, filed 08/06/2026). CFO Bren Higgins also pre-announced "~$12.5 billion" on the Q4 FY2026 call (July 28, 2026, MarketBeat transcript).
 
-### MU — Micron Technology (Borda 36, #1; tentative single pick)
-1. **Q4 FY2026 guidance ~$50B revenue, ~86% non-GAAP gross margin, EPS ~$31** —
-   CONFIRMED. From the FQ3 FY2026 earnings call (Jun 24, 2026): Q4 FY2026 revenue
-   $50.0B ± $1B, non-GAAP GM ~86%, non-GAAP diluted EPS $31.00 ± $1 (TheStreet
-   live coverage; Zacks, Jun 25, 2026; InsiderFinance, Sep 2026). Pre-guide
-   consensus was ~$42.9–43.2B revenue / ~$25.3–25.5 EPS (TheStreet; Bitget) —
-   i.e. the dossier's "~$44B consensus" comparison referred to pre-guide
-   expectations, roughly correct; current consensus is now ~$50.4B/$31.1.
-2. **FQ3 FY2026 revenue ~$41.5B (+346% YoY), adj. EPS $25.11, GM ~83–85%** —
-   CONFIRMED. Revenue $41.46B (+346% YoY, vs $35.59B consensus), non-GAAP EPS
-   $25.11 (vs ~$20.6 expected), GAAP GM 84.6–84.9% (TheStreet; tradeos.xyz citing
-   the Jun 24, 2026 8-K; Zacks, Jun 25, 2026).
-3. **HBM TAM ~$35B (2025) → ~$100B (2028)** — CONFIRMED, with minor variant.
-   InsiderFinance: Micron projects ~$35B in 2025 to ~$100B by 2028; Zacks (Jun 25,
-   2026): CFO Mark Murphy said HBM TAM would cross $100B in FY2027, earlier than
-   the prior 2028 view. Attributed to Micron in both.
-4. **16 Strategic Customer Agreements, $22B customer deposits/commitments,
-   ~$100B minimum contracted revenue, non-cancellable take-or-pay through
-   calendar 2030, floor + ceiling pricing** — CONFIRMED with one labeling
-   correction (see (c)). Announced at FQ3 FY2026 (Jun 24, 2026): 16 SCAs,
-   ~$100B cumulative minimum revenue value at minimum contract prices, ~$22B in
-   customer cash deposits and financial commitments (~$18B cash deposits + ~$4B
-   letters of credit), covering ~20% of DRAM and ~30% of NAND volume, five-year
-   terms running through calendar 2030 (Neowin, Jun 25, 2026; Tweaktown; ainvest;
-   BigGo Finance). Price floor targets margins "well above" any past-cycle
-   peak; a ceiling caps pricing near Q2-2026 levels (ainvest).
-5. **2026 HBM supply fully contracted / sold out; "no line of sight" to supply
-   catching up with demand** — CONFIRMED directionally. CEO quote: "We currently
-   do not have line of sight as to when memory supply will be able to catch up
-   with demand" (earningscompass, Jun 2026 recap; repeated by ainvest). Zacks
-   (Jun 25, 2026): HBM demand for 2027 and even 2028 "far above" Micron's ability
-   to supply; CFO Murphy: market tightness beyond 2027.
-6. **Exact ratio "meets only 50–66% of customer bit demand" / "demand >2x
-   supply"** — UNVERIFIED as an exact figure. No independent source confirming
-   the 50–66% ratio was found; direction confirmed ("far above," "no line of
-   sight"). The specific 2x number is dossier-only; should be labeled as such.
-7. **HBM needs ~3x the wafer area of standard DRAM** — CONFIRMED
-   (business.observernewsonline.com, Jan 2026 deep-dive: "HBM requires three
-   times the wafer capacity of standard DRAM"). Industry-standard technical fact.
-8. **Only 3 firms on earth make HBM commercially (Samsung, SK Hynix, Micron)** —
-   CONFIRMED (Motley Fool, Sep 16, 2026: "Micron is one of only three HBM
-   suppliers").
+### Claim 2: Management statement "virtually sold out" in 1H 2026
+**VERIFIED (with attribution correction).** Exact quote from the Q2 FY2026 earnings call (January 29, 2026, 5:00 PM ET): CFO **Bren Higgins** (not CEO Rick Wallace, as the research dossier implied) said: "as it relates to the first half, we're virtually sold out across most of our products. Given the lead time of our products, our decisions that we're driving the first half were decisions we made in the middle of 2025." Sources: MarketBeat call transcript, https://www.MarketBeat.com/earnings/reports/2026-1-29-kla-co-stock/ ; Seeking Alpha transcript, https://seekingalpha.com/article/4864180-kla-corporation-klac-q2-2026-earnings-call-transcript (call dated 2026-01-29). The batch-2 dossier's separate claim that *Wallace* said demand is capped by industry supply ("Yes, that's exactly right…") on the Q3 call (April 2026) was NOT independently re-verified here; the verifiable management "sold out" statement on record is Higgins's January 29, 2026 quote.
 
-### NVDA — Nvidia (Borda 32, #2)
-1. **Q2 FY2027 revenue $96.22B (+106% YoY), datacenter $89B (+117% YoY),
-   EPS $2.22 vs $2.09 expected; guided Q3 FY2027 to $108B ±2%** — CONFIRMED.
-   Reported Aug 26, 2026 (Zacks, Aug 27, 2026; BullXBear, Aug 27, 2026;
-   tradescript.io, Sep 2, 2026). Non-GAAP GM 75.0% reported; Q3 GM guided ~74%.
-2. **FY2028 revenue growth ~70%, explicitly "supply-constrained," demand
-   "materially higher"/"doubling"** — CONFIRMED. CFO Colette Kress: ~70% FY2028
-   growth outlook, "called the outlook supply constrained"; CEO Huang: "Even
-   though our demand is much greater than 70%, our supply allows us to
-   confidently deliver 70%" (Zacks, Aug 27, 2026; BigGo Finance, Aug 26, 2026).
-3. **$279B in future supply-chain commitments** — CONFIRMED with labeling
-   correction (see (c)). Quarterly report for period ended Jul 26, 2026: long-term
-   supply commitments ~$279B, up from ~$119B a quarter earlier, increase
-   "primarily related to the procurement of memory"; ~$267B due by end of FY2029
-   (Motley Fool, Aug 27, 2026; ainvest, Sep 2026). These are Nvidia's own
-   PURCHASE obligations to suppliers (buy-side), not a customer backlog — it
-   belongs under "committed demand confidence," not "order book."
-4. **Gross-margin trajectory reset (74% Q3, trough 71–72% in Q4 FY27)** —
-   CONFIRMED (Zacks; BullXBear). Supports, not contradicts, the panel's margin
-   notes; memory-cost pressure is the driver — consistent with the MU shortage
-   thesis.
+### Claim 3: ~56–58% process-control share, ~7x nearest rival; 80%+ reticle / ~90% optical inspection
+- **~56–58% share / ~7x nearest rival: VERIFIED as KLA's own stated position.** On the Q3 FY2026 call (April 29, 2026), management stated its process-control share grew 360 bps since 2021 and is "approximately seven times larger than the nearest competitor" (Motley Fool transcript takeaways, https://www.fool.com/earnings/call-transcripts/2026/04/29/kla-klac-q3-2026-earnings-call-transcript/). Barchart's recap of the same call: "Since 2021, KLA's share of process control, 58% in 2025, has grown by 360 basis points and is approximately seven times that of the nearest competitor." Caveat: these are company-stated figures as reported via secondary call transcripts; the underlying investor-day deck was not directly fetched.
+- **80%+ reticle/photomask inspection, ~75–80% patterned-wafer inspection: CORROBORATED by third-party research, not company-stated.** Converging secondary compilations: TradingView/GuruFocus ("In reticle (photomask) inspection, KLA holds an 80%+ market share"); jameswong2011 investment repo ("patterned-wafer inspection (~80% share) and reticle inspection (~80%+ share)"); kiankyars chips research ("reticle/photomask inspection ~80%+ share; patterned wafer inspection ~75–80%").
+- **"~90% optical inspection": NOT CONFIRMED.** No source found supporting a ~90% figure for optical inspection specifically; secondary compilations cluster at 75–80% patterned-wafer and 80%+ reticle. The dossier's ~90% appears to be an uncited elaboration.
 
-### AMAT — Applied Materials (Borda 27, #3)
-1. **FQ3 FY2026 (Aug 13, 2026): record revenue $9.12B (+25% YoY, +15% QoQ),
-   non-GAAP EPS $3.50 (+41%)** — CONFIRMED (stocktitan; tickeron, Sep 2026;
-   marketbeat transcript: CEO/CFO remarks).
-2. **FQ4 FY2026 guide: revenue $10.25B ±$0.5B (+51% YoY), non-GAAP EPS
-   $4.02 ±$0.20 (+85% YoY)** — CONFIRMED. CFO Brice Hill on the Aug 13 call:
-   "We expect company revenue of $10.25 billion ±$500 million, which is up 51%
-   year-over-year... non-GAAP EPS of $4.02 ±$0.20, which is up 85%
-   year-over-year" (marketbeat transcript). The "+51%" is YoY revenue growth —
-   correctly labeled in the dossier.
-3. **"Eight-quarter visibility backlog"** — CONFIRMED as demand visibility,
-   PARTIALLY MISLABELED as "backlog" (see (c)). CEO Dickerson / management:
-   "customers provide rolling eight-quarter forecasts," technology conversations
-   to 2030, capacity planning out five years (ainvest, Aug 2026; tickeron, Sep
-   2026). Finimize: Dickerson said the company can keep pace "only if customers
-   keep giving an 'unprecedented' eight quarters of notice." This is customer
-   FORECASTING visibility, not a contractual booked backlog like Micron's SCAs.
-4. **Calendar-2026 WFE/Semiconductor Systems outlook raised to >30%** —
-   CONFIRMED (tickeron; marketbeat transcript). DRAM revenue +52% YoY including
-   HBM packaging — CONFIRMED (tickeron).
+### Claim 4: Price $176.99 on 2026-09-21; analyst consensus target (~+32.1% upside)
+- **Price $176.99: VERIFIED as the Friday 2026-09-18 close, not a 2026-09-21 print.** Finnhub daily candle for KLAC closes 2026-09-18 at $176.99 (30-min candles end Fri 19:30 ET; no Monday daily candle in feed). MarketBeat likewise quotes $176.99 as the 09/18/2026 closing price. The screen's "2026-09-21" label reflects the run date; the price is the 9/18 close. Monday 9/21 move: Finnhub real-time snapshot at search time (post-close, ~13:20+ PDT) showed **$183.97 (+3.94%)** — plausible as Monday's print but not verified as an exchange-settled close. Treat Monday's price as unconfirmed.
+- **Consensus target: VERIFIED within a feed-dependent range.** The screen's +32.1% at $176.99 implies ~$233.80. Observed aggregator consensuses (Sept 2026): WallStreetZen $238.70 (+34.87% at $176.99); TradingKey/24-7-Wall-St $233.77 (~29% upside at $180.64); Tickergate 44 analysts $225.50; MarketBeat 29 brokerages $222.22 (+25.6%, "Moderate Buy", 9 Hold / 19 Buy / 1 Strong Buy, posted 2026-09-15/20). The screen's +32.1% sits inside the observed $222–239 consensus band and matches the upper-half feeds; it is *not* MarketBeat's $222.22 figure. Rating mix is Buy/Moderate Buy, not unanimous.
+- Sources: https://finnhub.io/?q=%22KLAC%22 ; https://marketbeat.com/stocks/NASDAQ/KLAC/forecast/ ; https://www.wallstreetzen.com/stocks/us/nasdaq/amat/stock-forecast (KLAC row); https://www.ad-hoc-news.de/boerse/corporate-news/kla-corporation-stock-falls-over-6-percent-as-ai-jitters-hit-chip-sector/70101699 .
 
-## (c) Corrections (wrong → right, with source)
+### Claim 5: Next earnings date (company IR)
+**NOT CONFIRMED from company IR.** MarketBeat explicitly states "KLA has not confirmed its next earnings publication date, but the company's estimated earnings date is Wednesday, October 28th, 2026 based off last year's report dates." TipRanks (updated ~2026-09-18) lists Oct 28, 2026 after close and marks it "(Confirmed)" — but TipRanks' basis is unclear and it conflicts with MarketBeat's "not confirmed" statement, so the company-level confirmation is absent. Treat as *estimated* Oct 28, 2026 after market close. Source: https://www.tipranks.com/stocks/klac/earnings ; https://www.MarketBeat.com/stocks/NASDAQ/KLAC/earnings/ .
 
-1. **MU — "$22B floor-priced multi-year agreements through 2030" (repeated in
-   all four ballots: A1 "$22B prepayments + $22B floor-priced multi-year
-   agreements," B1/D1 "$22B floor-price multiyear contracts") — MISLABEL.**
-   The $22B is the CUSTOMER CASH DEPOSITS AND FINANCIAL COMMITMENTS (~$18B cash
-   + ~$4B letters of credit), NOT the contracted supply value. The agreements'
-   cumulative MINIMUM CONTRACTED REVENUE VALUE is ~$100B at minimum prices.
-   Sources: ainvest (Aug 2026: "$22 billion... about $18 billion is in cash
-   deposits and $4 billion in letters of credit"; "14 of the sixteen carry a
-   minimum of about $100 billion in contracted revenue over their lives");
-   Neowin (Jun 25, 2026); BigGo Finance (Jun 24, 2026). The error understates
-   the booked figure; it does NOT weaken the thesis (if anything it strengthens
-   it) and changes nothing about the ranking.
-   Also note: contracts carry a price CEILING as well as a floor — the floor is
-   not unlimited upside for Micron (ainvest, Aug 2026).
-2. **NVDA — "$279B in future supply-chain commitments" listed as the "Backlog /
-   order book" item — MISLABEL.** These are NVIDIA'S OWN PURCHASE OBLIGATIONS
-   to its suppliers (buy-side), "primarily related to the procurement of
-   memory" — not customer orders for Nvidia products. Source: Motley Fool,
-   Aug 27, 2026; ainvest, Sep 2026. Signal value (demand confidence) stands;
-   the label is wrong.
-3. **AMAT — "eight-quarter visibility backlog" — PARTIALLY MISLABELED.**
-   Correct: "rolling eight-quarter customer demand-forecast visibility."
-   It is not a contractual dollar backlog (unlike Micron's SCAs). Sources:
-   ainvest, Aug 2026; tickeron, Sep 2026; Finimize (~103 days ago).
-4. **MU — "meets only 50–66% of customer bit demand" / "demand >2x supply"
-   (ballot A1, B1, D1) — exact figure UNVERIFIED.** Directional shortage ("no
-   line of sight... supply catch up with demand," demand "far above" supply for
-   2027–2028) confirmed from the FQ3 call; the precise 2x ratio appears only in
-   the dossier and should be tagged as dossier-sourced, not independently
-   confirmed.
-5. **MU — Q4 guide "~$50B vs ~$44B consensus" (ballot B1) — stale/misleading
-   phrasing.** The ~$43–44B was the PRE-guide consensus (TheStreet: $42.915B;
-   Bitget: ~$43.24B). Current consensus is ~$50.4B revenue / ~$31.1 EPS
-   (InsiderFinance, Sep 2026). The guide was a ~16% raise vs pre-guide
-   expectations — correct as a beat magnitude; the "vs ~$44B consensus" line
-   should not be read as current consensus.
+### KLAC — VERDICT: load-bearing facts hold
+Backlog ($12.57B, +60% YoY) and the "virtually sold out" management quote are primary-source verified; the ~7x/58% market-share leadership is company-stated on the record. Corrections: the sold-out quote was CFO Higgins (Jan 29, 2026), not CEO Wallace; the "~90% optical inspection" figure is unconfirmed (secondary sources say 75–80% patterned-wafer, 80%+ reticle); screen price is the 9/18 close ($176.99), with Monday's ~$183.97 print unconfirmed; consensus-target upside is feed-dependent (+25.6% to +34.9%) with the screen's +32.1% inside the band; next earnings (~Oct 28) is an aggregator estimate, not company-confirmed.
 
-## (d) Final pass/fail on the published top-3 and tentative pick MU
+---
 
-**PASS — the top three stand, in this order.** Every load-bearing number
-checked (MU Q4 guide $50B/86%/$31; FQ3 $41.46B; NVDA Q2 $96.22B and the
-~70% supply-constrained FY28 guide; AMAT FQ3 $9.12B and the +51% YoY FQ4 guide)
-confirmed from dated primary/credible sources. The corrections above are
-labeling errors, not value errors: none reduces the underlying claim's strength
-(the MU mislabel actually hides the larger ~$100B figure), and no corrected
-claim is load-bearing for any other name's position. No claim failed in a way
-that drops MU, NVDA, or AMAT from the top three or changes the #1 pick.
+## MU — Micron Technology
 
-**TRAP VETO on MU — PASS (no veto).** Independent search found:
-- Only three firms manufacture HBM commercially — Samsung, SK Hynix, Micron
-  (Motley Fool, Sep 16, 2026). No hyperscaler operates or has announced a
-  DRAM/HBM fab; capital intensity, EUV process know-how, and Nvidia
-  qualification lock-in make DIY a non-starter within 2–3 years.
-- Hyperscalers (Amazon, Google) are SIGNING multi-year supply agreements with
-  Micron — behaving as locked-in buyers, not future competitors
-  (business.ridgwayrecord.com, Jan 2026).
-- The Chinese entrant CXMT is focused on low-end/legacy DRAM, not HBM — price
-  pressure in the commodity tier, not disintermediation of the HBM franchise
-  (same source).
-- The one credible substitute technology, HBF (High Bandwidth Flash, Sandisk +
-  SK hynix, first OCP spec released Aug 2026 at FMS 2026), is explicitly a
-  COMPLEMENTARY inference-tier memory between HBM and SSDs (TrendForce, Aug 4,
-  2026) — and its partner is SK hynix, the #1 HBM maker itself; samples expected
-  H2 2026, inference integration targeted early 2027. It does not threaten
-  Micron's training-memory franchise on a 2–3 year horizon.
-- The genuine 2–3 year risks for MU are ordinary memory cyclicality (growth is
-  heavily ASP-driven: DRAM ASPs +140% and NAND ASPs +130% in 9M FY2026 per the
-  Q3 10-Q — tradeos.xyz), HBM share position (#3 behind SK Hynix/Samsung),
-  and price ceilings in the SCAs — none is disintermediation, so the trap as
-  defined does not fire.
+### Claim 1: ~$22B customer prepayments / deposits
+**VERIFIED.** Tied to Q3 FY26 disclosures (June 24, 2026): AI Weekly reports "Micron has collected $22 billion in customer prepayments" (alert dated ~Aug 2026, summarizing the Q3 FY26 call); Barchart's recap: "Customers have handed over about $22 billion in cash deposits and related commitments tied to these deals," attributed to CEO Sanjay Mehrotra on CNBC's Mad Money (~Aug 2026). Source: https://aiweekly.co/alerts/micron-q3-2026-revenue-quadruples-to-42b-hbm-supply-sold-out ; https://hbspecialties.com/news/story/4207597/micron-stock-faces-tight-supply-as-ai-demand-accelerates .
 
-**Caveat for the writeup:** the EV/adjudication should note the cyclical tail
-(the panel already does): margins at 84–86% are price-spike driven and the SCA
-ceilings cap further upside on covered volume. That is a sizing/exit question,
-not a verification failure.
+### Claim 2: 2026 HBM output sold out under 3–5 year contracts; can fill only 50–67% of demand
+**VERIFIED with contract-structure nuance.** CEO Mehrotra: after Q2 FY2026 (March 18, 2026) he told CNBC "We are only able to supply, for our key customers in the midterm, about 50% to two-thirds of their requirements" (europesays/Korea, Aug 2026, quoting the March CNBC interview). Repeated at Q3 (June 24, 2026): "can fulfill 'only between half and two-thirds' of customer demand, with the entire 2026 HBM supply sold out under multi-year contracts" (AI Weekly, Aug 2026); momoview's Q3 recap (June 2026): "all of calendar-2026 HBM gone, only 50%–66% of demand fillable, tightness locked in beyond 2027." The 3–5 year contract structure: BofA/industry reporting (ainvest, Aug 2026) — hyperscalers shifting from quarterly spot to 3–5 year long-term agreements, Micron/Samsung estimating 50–70% of capacity eventually under such deals; Barchart notes Micron signed 16 strategic customer agreements (SCAs), most 5-year take-or-pay through end of CY2030, potentially ~half of revenue. Nuance: the dossier's phrasing "sold out *under 3–5 year contracts*" is slightly loose — the sold-out status and the LTA/SCA structure are both real, but not literally every HBM unit sits under a 3–5 year contract; some is committed through the SCA framework. Sources: https://www.europesays.com/korea/112490/ ; https://momoview.com/blog/en/posts/mu-fq3-2026-earnings-41-5b-revenue-up-345-gross-margin-85-eps-25-11-q4-guide-50b-hbm-sold-out/ ; https://www.ainvest.com/news/memory-cycle-dead-micron-cash-flow-proves-2608/ .
 
-## (e) Verifier summary one-liner
+### Claim 3: Q3 FY26 revenue ~$41.5B (+~345% YoY), Q4 guide $49–51B revenue at ~86% gross margin
+**VERIFIED from the company earnings release.** Micron reported fiscal Q3 2026 (ended May 28, 2026) **after market close on June 24, 2026**: revenue **$41.46B** (vs $9.30B a year earlier → (41.46−9.30)/9.30 = 345.8% ≈ +346%; tradeos/tradingkey both report 346%; batch dossier's "+345%" is a rounding). GAAP gross margin 84.6% (non-GAAP 84.9%); non-GAAP EPS $25.11; operating cash flow $25.39B; adjusted FCF $18.30B. Q4 FY2026 guidance (company-issued): **revenue $50.0B ± $1.0B (= $49–51B as the dossier states), gross margin ~86% (GAAP and non-GAAP), non-GAAP EPS $31.00 ± $1.00.** Sources: company press release via GlobeNewswire reprint, https://crweworld.com/article/news-provided-by-globenewswire/3862268/micron-technology-inc-reports-record-results-for-the-third-quarter-of-fiscal-2026 ; trading recap, https://www.tradingkey.com/analysis/stocks/us-stocks/261990080-micron-mu-q3-2026-earnings-record-revenue-hbm4-analysis-tradingkey ; https://www.fool.com/investing/2026/09/15/should-you-buy-micron-stock-before-its-sept-30-report/ .
 
-All load-bearing figures for MU, NVDA, and AMAT confirmed from dated sources
-with three labeling corrections ($22B is deposits, not contracted value —
-the real number is ~$100B; NVDA's $279B is buy-side, not backlog; AMAT's
-"eight-quarter backlog" is forecast visibility); no veto on MU — hyperscalers
-are buying, not building, memory, and the only substitute tech (HBF) is
-complementary — so the Borda top three and the #1 pick stand.
+### Claim 4: "Only ~3 firms on earth make HBM commercially" (Samsung, SK Hynix, Micron)
+**VERIFIED as the standard industry description.** Gridizer Research ("The Memory Bottleneck," June 2026): "For commercially relevant, high-volume HBM used in leading AI accelerators, the market is effectively controlled by three companies: SK hynix, Samsung Electronics and Micron Technology" — explicitly noting this means only these three combine leading-edge DRAM, 3D stacking, yield control, advanced testing and customer qualification at AI-scale. Also: ainvest (Aug 2026): "HBM… is produced by only three companies: SK Hynix, Samsung, and Micron"; indmoney citing SK Hynix's own SEC F-1 filing/IDC data: SK Hynix 56.4% of global HBM revenue Q1 2026, Micron ~20–25%; techgolly: "one of only three mass producers of this critical technology globally." Caveat: Huawei's in-house HiBL memory for Ascend accelerators exists (jameswong2011 investment repo) but is captive, non-merchant production — it does not disturb the commercial-merchant framing. Sources: https://gridizer.com/research/the-memory-bottleneck-hbm-ai-infrastructure/ ; https://www.ainvest.com/news/samsung-sk-hynix-646-billion-capex-bet-signals-memory-supply-discipline-2606/ ; https://www.indmoney.com/blog/us-stocks/sk-hynix-ipo-listing-nasdaq-micron-stock-ai-memory-analysis .
+
+### Claim 5: Price $1,015.80 on 2026-09-21; next earnings date
+- **Price $1,015.80: VERIFIED as the Friday 2026-09-18 close.** Finnhub: previous close $1,015.80; MarketBeat/Stockopedia: consensus upside computed off $1,015.80 as the last closing price (Sept 2026). Monday 9/21 move: Finnhub 1-minute candles run to 16:12 ET Monday at **$1,043.23**; finbold (~Sept 20/21) wrote of MU "trading at $1,053.10." So Monday traded roughly $1,043–1,053, up ~3% on the day. The screen's 9/21 label is again the 9/18 close; Monday's print is aggregator-level, not a verified exchange close.
+- **Analyst consensus target: FEED-DEPENDENT, screen's figure matches the higher feeds.** Screen: +49.0% upside at $1,015.80 → ~$1,513. Observed: stocktp/AssetTrendReports 45 analysts $1,513.11 (+49.0% — matches the screen exactly); TipRanks 30 analysts $1,564.44 (+48.6%, via finbold 9/20); Clearank $1,540 (+51.6%); Stockopedia $1,423.67 (+40.15%); MarketBeat 38 analysts $1,295.63 (+27.55%, Buy). Target dispersion is wide ($1,100 Goldman low to $2,000+ high); the screen's +49.0% is at the upper end of the consensus band, not an outlier. Sources: https://stocktp.assettrendreports.com/en/stock/MU ; https://finbold.com/wall-street-analysts-set-micron-mu-stock-price-target/ ; https://www.marketbeat.com/stocks/NASDAQ/MU/forecast/?AccountID=10790435& .
+- **Next earnings date: VERIFIED from company IR.** Micron press release (investors.micron.com, Aug 26, 2026): "Micron Technology, Inc. … announced today that it will hold its fiscal fourth quarter earnings conference call on **Wednesday, Sep. 30, 2026, at 2:30 p.m. Mountain time**." Source: https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx .
+
+### MU — VERDICT: load-bearing facts hold
+$22B prepayments, the 50–67% demand-fill and sold-out-2026-HBM statements (Mehrotra, March and June 2026), Q3 $41.46B (+~346%) and the $49–51B / ~86% GM Q4 guide are all company-sourced and verified; the three-firm HBM description is the standard industry framing; the Sept 30 earnings date is company-confirmed. Nuance: "3–5 year contracts" is industry-reporting shorthand for the LTA/SCA framework (16 take-or-pay SCAs, mostly 5-year, potentially ~half of revenue) rather than a uniform contract term on every HBM unit; screen price is the 9/18 close ($1,015.80) with Monday trading ~$1,043–1,053; consensus-target upside spans +27.6% to +49.0% across feeds, with the screen's +49.0% matching the higher feeds.
+
+---
+
+## AMAT — Applied Materials
+
+### Claim 1: ">20% CY2026 equipment growth" guidance
+**VERIFIED — primary source, with exact date.** Company Q1 FY2026 results press release (Feb 12, 2026, GlobeNewswire): CEO Gary Dickerson — "we expect to grow our semiconductor equipment business **over 20 percent this calendar year**." Repeated on the Feb 12, 2026 earnings call (Motley Fool transcript): "For Applied, we expect to grow our semiconductor equipment business **more than 20% this calendar year**," second-half weighted, with limited cleanroom capacity pacing growth and momentum into 2027. Note: one secondary recap (readthesignal, Jul 7, 2026) asserts Dickerson guided "30%-plus growth" — that is inconsistent with the February primary record; no later primary quote confirming an upward revision to 30%+ was located, so the ">20%" figure stands as the verified guidance. Sources: https://markets.financialcontent.com/ibtimes/article/gnwcq-2026-2-12-applied-materials-announces-first-quarter-2026-results ; https://www.fool.com/earnings/call-transcripts/2026/02/12/applied-materials-amat-q1-2026-earnings-transcript/ .
+
+### Claim 2: $500M Singapore campus doubling advanced cleanroom capacity (opened ~June 2026)
+**VERIFIED — company press release, June 9, 2026.** GlobeNewswire release "Applied Materials Expands Singapore Manufacturing to Support AI Chip Demand" (Singapore/Santa Clara, June 09, 2026): "The new **US$500 million (S$600 million) Tampines Campus more than doubles Applied's advanced cleanroom capacity in Singapore**… The new facility, already operating at volume production, is focused on serving chipmakers that are expanding production to meet increasing AI-driven demand." CEO Dickerson quoted; campus expected to add ~1,000 local jobs over the next few years. Source: https://www.wcia.com/business/press-releases/globenewswire/9734618/applied-materials-expands-singapore-manufacturing-to-support-ai-chip-demand/ .
+
+### Claim 3: #1 wafer-fab-equipment share ~24%, deposition >50%
+**Partially VERIFIED — #1 ranking is company-stated; percentages are third-party research.**
+- #1 rank VERIFIED from company: Dickerson on the Q1 FY2026 call (Feb 12, 2026, via MarketBeat transcript): "we're number one in deposition, conductor etch, and packaging" and "In all of these high-growth markets, Applied has strong number one process equipment positions."
+- Percentages are NOT company-stated but are the industry-research consensus: GlobalGrowthInsights WFE market report lists Applied Materials at "~20–25% overall share" (top-2 with ASML at 35–40%); ad-hoc-news.de sector overview: "Market share in deposition exceeds 50%"; readthesignal (Jul 7, 2026): "roughly 50% of the global deposition equipment market." The dossier's "~24% / >50%" sits within these third-party ranges but should be attributed as research estimates, not company guidance.
+- Sources: https://www.globalgrowthinsights.com/market-reports/wafer-fab-equipment-wfe-market-115191 ; https://readthesignal.net/article/applied-materials-ai-chip-equipment-monopoly-2026/ ; https://www.MarketBeat.com/earnings/reports/2026-2-12-applied-materials-inc-stock/ .
+
+### Claim 4: Price $444.57 on 2026-09-21; analyst consensus target (~+44.2% upside)
+- **Price $444.57: VERIFIED as the Friday 2026-09-18 close.** Finnhub: previous close $444.57; MarketBeat: "Applied Materials, Inc. shares traded at $444.57 as of September 20, 2026." Monday 9/21: stockanalysis.com real-time feed showed **$462.91 (+4.13%) at 1:48 PM EDT**; Finnhub post-close snapshot **$464.24 (+4.42%)** — plausible as Monday's print, unverified as the official close.
+- **Consensus target: VERIFIED within a mainstream cluster.** Screen: +44.2% at $444.57 → ~$641. Observed (Sept 2026): S&P Global poll of 39 analysts $640.89 (+38.45% at $462.91, "Strong Buy"); WallStreetZen $655.37 (+47.42% at $444.57, 29 analysts Strong Buy); MarketBeat $658.45 (Moderate Buy); Public.com $661.35. The screen's ~$641 sits squarely in the $640–661 cluster. One outlier: a TradingKey preview (via ad-hoc-news, Sept 19, 2026) reported a $444 average target among 28 analysts — likely a different window/methodology and inconsistent with all other feeds; flagged as anomalous.
+- Sources: https://finnhub.io/?q=%22AMAT%22 ; https://stockanalysis.com/stocks/amat/forecast/ ; https://www.wallstreetzen.com/stocks/us/nasdaq/amat/stock-forecast ; https://www.marketbeat.com/stocks/NASDAQ/AMAT/forecast/?AccountID=10790435&hash=DBE7362B334CD0ADCE62C5DD369164C664A4EF0C745F9960D23F064D56FB506918A3EB38254C6623BA413C46C6E2DC63DED36B9728F184F30FC432070F366D92 .
+
+### AMAT — VERDICT: load-bearing facts hold
+The >20% CY2026 equipment-growth guidance (Feb 12, 2026, company release + call) and the $500M Tampines Campus doubling Singapore cleanroom capacity (June 9, 2026, company release) are primary-source verified. The #1 WFE/deposition ranking is company-stated; the "~24% / >50%" percentages are industry-research consensus, not company figures — acceptable with attribution. Screen price is the 9/18 close ($444.57); Monday traded ~$463–464. Consensus upside +44.2% is within the observed $640–661 target cluster; one anomalous $444-consensus feed exists and is flagged.
+
+---
+
+## Cross-cutting notes for the panel
+
+1. **"Current price on 2026-09-21" is a mislabel in all three screens.** KLAC $176.99, MU $1,015.80, AMAT $444.57 are all VERIFIED as the **Friday 2026-09-18 closes** (Finnhub daily candles; MarketBeat). Finnhub's data feed contained no Monday 9/21 daily candles; intraday/post-close snapshots at task time (Mon 13:18+ PDT) showed KLAC ~$183.97 (+3.9%), MU ~$1,043–1,053 (+~3%), AMAT ~$463–464 (+~4%) — presented as aggregator-level, not verified exchange closes.
+2. **Consensus-target upside figures are aggregator-feed-dependent**, not single stable numbers: KLAC +25.6%–+34.9% (screen +32.1% inside band), MU +27.6%–+49.0% (screen +49.0% matches the highest feeds), AMAT +38.5%–+47.4% (screen +44.2% central in cluster).
+3. **Earnings dates:** MU Sep 30, 2026 is company-IR confirmed (press release Aug 26, 2026); KLAC ~Oct 28, 2026 is an aggregator estimate (MarketBeat: "has not confirmed"; TipRanks marks it "Confirmed" on unclear basis) — treat as unconfirmed.
+4. **Attribution correction:** the dossier's "virtually sold out" line should be credited to CFO Bren Higgins on the Jan 29, 2026 call, not framed as a CEO (Wallace) statement.
+5. **One secondary claim in the dossier lacks any source:** KLAC "~90% optical inspection" — secondary research converges on 80%+ reticle and 75–80% patterned-wafer inspection; no ~90% figure located.

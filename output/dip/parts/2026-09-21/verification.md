@@ -1,137 +1,236 @@
-# Phase 3.5 Verification — dip panel run 2026-09-21
-Model: Opus-class verifier. Method: independent web verification from primary
-sources (company press releases, earnings-call transcripts, SEC-filed 8-K/earnings
-releases, Morningstar research) and reputable financial press (Dow Jones
-Newswires/Morningstar, Zacks, MarketBeat, Yahoo Finance). None of the dossier's
-own citations were relied on; every fact below was re-sourced.
+# Independent verification — stock-pick-dip panel, run date 2026-09-21
 
-Verdict scale: **CONFIRMED** / **CONTRADICTED** / **UNVERIFIED** (could not be
-confirmed in a primary or reputable source) / **PARTIAL** (partly confirmed).
-Forward-looking claims (e.g. a not-yet-reported Q3 print) are marked UNVERIFIABLE
-as facts, not passed or failed.
+**Verifier:** independent subagent (session model: Muse Spark; per MODEL POLICY the money panel
+requires the most capable available model — this run could not override the session model,
+noted for the record).
+**Method:** every number re-checked against primary sources (company IR releases, SEC-linked
+filings, MarketBeat/StockAnalysis aggregator pages read 9/21/2026) or reputable press.
+URLs + dates given for each fact. Figures the verifier could not pin down are marked
+"NOT CONFIRMED"; figures that came only from press recaps are flagged as such.
+This verifier ran no consolidation math and edited nothing in the skill/script tree.
 
----
-
-## 1. ISRG — Intuitive Surgical
-
-### (a) Why it's down: flat 13.5–15.5% procedure guide, ~1pp tariff margin hit, Class II recall, softer surgery volumes
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| FY2026 da Vinci procedure-growth guidance 13.5–15.5%, "closer to the midpoint" (~14.5%) | **CONFIRMED** | Company Q2 2026 earnings press release, 2026-07-16 (via GlobeNewswire/stockhouse/finviz). Talkmarkets (2026-07-16): "stock sinks despite earnings beat on 2026 procedure growth outlook" — investors viewed the unraised guide as conservative |
-| ~1pp tariff hit to gross margin embedded in guide | **CONFIRMED** | Same company PR: "Non-GAAP gross profit margin to be within a range of 68.0% to 69.0% of revenue in 2026. This range includes an estimated impact from tariffs of 1.0% of revenue." Q2 also recorded a $28M net tariff *refund* benefit (stocktitan summary) |
-| Class II recall of da Vinci components | **CONFIRMED** | April 2026 voluntary worldwide Class II recall of certain da Vinci components (E-brake retainer pin, 454 identified units) — cryptonomist.ch / Bitget, 2026-07-17. Related FDA records: Class 2 recall for da Vinci 5 Surgeon Console Column Motor Connector (posted 2025-12-19, firm-initiated 2024-08-21, ts2.tech 2026-08); a Class I recall of 8mm SureForm 30 Gray Reloads (simplywall.st). Multiple recalls — the 2026-dated one is real |
-| Softer surgery volumes | **CONFIRMED** | Talkmarkets, 2026-07-16: HCA Healthcare "warned about softer surgical procedure demand and a rise in uninsured patients following the expiration of pandemic-era ACA subsidies." ad-hoc-news.de (~Aug 2026): US da Vinci procedure growth slowed 14% (Q1) → 12% (Q2); management blamed ACA subsidy expiration, postponed procedures, and GLP-1 pressure on bariatric volumes |
-
-### (b) Rebound catalyst: clean Q3 print 2026-10-20; raised 68–69% gross-margin guide
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Q3 2026 earnings on 2026-10-20 | **CONFIRMED (as an estimate)** | Zacks earnings calendar: "10/20/2026 — This is an estimated date"; MarketBeat: "Oct. 20 — After Market Closes — Estimated"; ad-hoc-news.de, 2026-09-15: "next quarterly earnings report is set for October 20, 2026." Widely listed but **not yet a company-announced date** — treat as estimate |
-| Non-GAAP gross-margin guide raised to 68–69% | **CONFIRMED** | Company Q2 2026 PR, 2026-07-16; Talkmarkets (2026-07-16): "an improvement from its earlier guidance of 67.5% to 68.5%" — raised *despite* the ~1pp tariff impact |
-| "Clean Q3 print" | **UNVERIFIABLE** | Q3 had not been reported as of 2026-09-21; this is a thesis expectation, not a checkable fact |
-
-### (c) Valuation: fwd P/E ~32.5 vs ~5-year average ~54x
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Forward P/E ~32.5 | **CONFIRMED** | Screen 32.53; Zacks via sharewise.com, 2026-09-14: forward P/E 31.8x; compoundwithrene.com, ~2026-09-17: forward P/E "about 33x today"; biggo (~Jul 2026): ~33x on the 2026 adj-EPS estimate ($10.79) at ~$353 |
-| 5-year average ~54x | **UNVERIFIED as stated** | Third-party quotes vary widely: compoundwithrene (Sep 2026): "five-year mean closer to 50x"; Motley Fool, 2026-07-16: "five-year average P/E is 68x"; Zacks, 2026-09-14: five-year median 67.91x. The dossier attributes ~54x to "Motley Fool, 2026" — the Motley Fool's own July 2026 piece says 68x, not 54x. **Substance (deep de-rating vs own history) is well confirmed by all sources; the precise 54x figure cannot be tied to a source.** Note: Motley Fool's 2011/2012 pieces (5-yr P/E 65.7/72.5) are stale and irrelevant to today's average |
-
-### (d) Moat: ~11,710 da Vinci systems installed, ~75% recurring revenue, net-cash balance sheet
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| 11,710 da Vinci systems installed | **CONFIRMED** | Company Q2 2026 PR: installed base 11,710 as of 2026-06-30, +12% y/y (from 10,488); Ion installed base 1,096 (+21%) |
-| ~75% recurring revenue | **CONFIRMED** | Motley Fool (Reuben Gregg Brewer), 2026-05-02: "recurring revenue—75% of total—from instruments and services." Q2 2026 math from the company PR: instruments & accessories $1,734.9M + services $472.4M = $2,207M / $2,892M revenue = ~76.3%. compoundwithrene (Sep 2026) quotes "84% of the total in 2025" (company disclosed) — same order, higher figure |
-| Net-cash balance sheet | **CONFIRMED** | Company Q2 2026 PR: ended Q2 with $8.63B cash, cash equivalents, and investments (+$0.65B in the quarter); $0.38B of buybacks in Q2. No debt of consequence — net cash. Screen net debt/EBITDA −1.25 |
-
-**ISRG verdict:** 3 of 4 claims fully confirmed; (c)'s "54x" is unverified-as-stated (sources quote 50x–68x; deep de-rating confirmed regardless); (b)'s "clean print" is a forward expectation that cannot be verified. No contradictions found.
+**Recurring nuance on all three prices:** the screen ran Monday 2026-09-21 intraday but the
+"screen price" for BR ($163.13), SYK ($275.12), and EFX ($158.87) each equals the **Friday
+2026-09-18 close**, not an actual Monday intraday print. Verified against Macrotrends and
+Finnhub: BR Sep-18 close 163.13, SYK prev-close 275.12, EFX prev-close 158.87. Monday
+intraday moves were small (BR ≈ 164.6, SYK ≈ 274.2–274.8, EFX ≈ 158.6). Cosmetic, but the
+"intraday" label is technically inaccurate.
 
 ---
 
-## 2. IDXX — Idexx Laboratories
+## BR — Broadridge Financial Solutions
 
-### (a) Why it's down: margin scare Feb 2, 2026; soft US clinic visits; growth rotation
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Feb 2, 2026: −4.6% selloff on margin scare — revenue $1.1B / adj EPS $3.08 beat but gross margin 60.3% vs ~61% consensus | **CONFIRMED** | Barchart (Neharika Jain), 2026-04-21: "On Feb. 2, shares of IDXX plunged 4.6% despite reporting a strong fourth-quarter 2025 performance that exceeded Wall Street expectations. The company posted revenue of $1.1 billion and adjusted EPS of $3.08, both ahead of analyst forecasts... dampened by a gross margin of 60.3%, which came in below the 61% consensus estimate." Company Q4 2025 release (Feb 2, 2026, via quartr/8-K): gross margin 60.3% (+50bps as reported). Zacks, 2026-02-02: EPS $3.08 beat the $2.93 consensus (+5.17%), revenue $1.09B beat by 1.86% |
-| Soft US clinic visits | **CONFIRMED** | Company Q1 2026 call (2026-05-05): US same-store clinical visits −1%, wellness visits −3%; company guiding ~−1.5% for 2026. Company Q2 2026 call (2026-08-04, via GuruFocus): US same-store clinical visits declined an estimated 1.3% in Q2; ~1.5% decline expected for H2 |
-| Growth-rotation / sentiment de-rating | **CONFIRMED (directional)** | ad-hoc-news.de, 2026-08-26: stock ~30% below peak framed as "sector rotations and sentiment shifts." ainvest (Feb 2026): beta 1.67 amplified the decline in a broader tech/healthcare selloff; elevated multiples (49.5x trailing P/E then) left it vulnerable to profit-taking. No single source labels the whole drawdown "growth rotation," but the multiple-reset-on-soft-macro narrative is consistent across coverage |
+1. **Price on 2026-09-21: VERIFIED (with nuance above).** Screen $163.13 = Sep 18 close
+   (Macrotrends BR P/E history page, 2026-09-18 close = 163.13; Finnhub "Previous Close
+   Price: 163.13", Sep 21 session). Finnhub Sep-21 intraday: current $164.62, open $163.99,
+   high $165.05, low $162.30.
+   - https://www.macrotrends.net/stocks/charts/BR/broadridge-financial-solutions/pe-ratio
+   - https://finnhub.io/?q=%22BR%22
 
-### (b) Rebound catalyst: two straight guidance raises; Q2 2026 EPS guide $14.69–$14.94
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Two straight guidance raises | **CONFIRMED** | Q1 2026, company 8-K / press release 2026-05-05 (ir.idexx.com): "Raises 2026 EPS outlook to $14.45–$14.90, reflecting an increase of $0.13 compared to prior guidance midpoint" (prior: $14.29–$14.80 from Feb 2). Q2 2026, company press release 2026-08-04 (via markets.financialcontent.com): "Increases 2026 EPS outlook to $14.69–$14.94, reflecting an increase of $0.14 compared to prior guidance midpoint." Both from company primary sources |
-| Q2 2026 EPS guide $14.69–$14.94 | **CONFIRMED** | Same Aug 4, 2026 company PR; CFO Andrew Emerson on the call: "increasing our full-year EPS outlook to $14.69–$14.94 per share, an increase of $0.14 per share at midpoint." Revenue guide also raised to $4.70–$4.745B |
+2. **FY27 EPS guidance $10.37–10.75: VERIFIED (derived, see nuance).** The primary source —
+   Broadridge IR press release dated **August 4, 2026** — quotes guidance only as growth
+   rates: "Fiscal year 2027 guidance calls for 6-8% Recurring revenue growth constant
+   currency and 8-12% Adjusted EPS growth," with FY2026 adjusted EPS at $9.60. The dollar
+   range is exact arithmetic ($9.60 × 1.08 = $10.37; $9.60 × 1.12 = $10.75) and is reported
+   as the company's guidance in dollars by MarketBeat/aggregator recaps, e.g. themarketsdaily
+   (Aug 4, 2026): "The company provided earnings per share guidance of 10.370-10.750 for
+   the period." The research dossier presents the range as company-quoted; strictly it is
+   company-quoted growth × the realized $9.60 base.
+   - Primary: https://www.broadridge-ir.com/news/news-details/2026/Broadridge-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx
+   - https://www.themarketsdaily.com/2026/08/04/broadridge-financial-solutions-nysebr-releases-fy-2027-earnings-guidance.html
 
-### (c) Valuation: fwd P/E ~30.6
-| Verdict | Source + date |
-|---|---|
-| **CONFIRMED** | Yahoo Finance (reported via ad-hoc-news.de, 2026-09-18): "investors value the group at a forward price-earnings multiple of about 30.86 based on estimates as of September 18, 2026." valueinvesting.io, 2026-09-18: forward P/E multiples 29.9x–31.6x (selected 31.1x). RockFlow: forward P/E 30.6x. All within rounding of the screen's 30.565. (Note: FinanceCharts Sept 2026 shows a divergent "forward P/E 39.84" — its estimate base differs; the weight of recent sources is ~30–31x) |
+3. **Dividend raised to $1.09/quarter: VERIFIED (primary).** The Aug 4, 2026 IR release:
+   "On **August 3, 2026**, Broadridge's Board of Directors declared a quarterly dividend of
+   $1.09 per share payable on October 5, 2026 to stockholders of record on September 3,
+   2026. This declaration reflects the Board's approval of a 12% increase in the annual
+   dividend from $3.90 to $4.36 per share"; headline: "20th consecutive annual dividend
+   increase." Corroborated: tickerreport.com (Sep 2026): $1.09 quarterly, $4.36 annualized,
+   raised from $0.975/qtr.
+   - Primary: https://www.broadridge-ir.com/news/news-details/2026/Broadridge-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx
 
-### (d) Moat: #1 in vet diagnostics, razor/blade installed base
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| #1 in veterinary diagnostics | **CONFIRMED** | Company: "global leader in pet healthcare innovation" (company PR, 2026-08-04). TIKR, 2026-05: "the global leader in veterinary diagnostics and software." Morningstar equity research (Debbie S. Wang), 2024-09-19: "Idexx is the leader in point-of-care diagnostic tests and in-house analyzer equipment, and holds a well-established position in the reference lab duopoly with VCA (now part of privately held Mars)." ad-hoc-news.de, 2026-04: "over 80% market share in key segments" |
-| Wide economic moat | **CONFIRMED** | Morningstar Equity Analyst Report (via sim.wsodqa.com), 2024-09-19: headline "As Top Dog in Pet Diagnostics, Idexx Has Dug a Wide Moat" — "We have upgraded our economic moat rating on Idexx to wide, after taking a fresh look at the firm's intangible assets that have complemented switching costs." Exactly matches the dossier's "upgraded to wide, Sep 2024" claim |
-| Razor/blade installed base | **CONFIRMED** | Company Q2 2026 call: 5,200+ premium instrument placements in Q2 (incl. ~1,600 inVue Dx; 2,700 YTD toward 5,500 annual goal); global premium instrument installed base +11% (Zacks, 2026-08-04); CAG Diagnostics recurring revenue +10.3% organic; net price realization +4% (company PR, 2026-08-04). ainvest: razor-and-blade model with switching costs from workflow integration and staff training |
+4. **Record closed-sales backlog: CONTESTED (wording not the company's; terms conflated).**
+   The Aug 4, 2026 IR release says "Closed sales rose to $305 million" ($305M FY26 vs $288M
+   FY25; Q4 $158M +39%) and CEO Gokey says "Closed sales topped $305 million"; FY2027
+   guidance calls for closed sales of $290–330M. The word "record" in that release is used
+   only for "record share repurchases," not closed sales. Additionally, the dossier's phrase
+   conflates **closed sales** (new business signed) with **backlog** (company reports the
+   former, not the latter). No company source says "record closed-sales backlog."
+   - Primary: https://www.broadridge-ir.com/news/news-details/2026/Broadridge-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx
 
-**IDXX verdict:** All 4 claims CONFIRMED, sourced primarily from the company's own releases/calls plus Morningstar. The 2024 wide-moat upgrade date and the Barchart Feb-2 margin-scare account both check out exactly as written.
+5. **Forward P/E ~14.1 vs own history ~20–28x: PARTIALLY VERIFIED (direction holds; exact
+   figures are screen-computed, and "own history" is understated).** Trailing P/E at
+   $163.13 = 16.99 on Sep 18, 2026 (Macrotrends), vs trailing P/E history of 27–36x in
+   2022–2025 (e.g., 2025-09-30: 29.78; 2024-12-31: 34.20) — the derating direction is real
+   and actually *stronger* than the dossier's "20–28x" suggests. The screen's forward
+   14.1x implies ~$11.57 forward EPS; independent fwd checks: MarketBeat forward P/E 15.46
+   (recent page), consensus next-year EPS $10.54–$11.61 depending on fiscal vs calendar
+   definition (MarketBeat earnings page; Stockopedia: "consensus EPS forecast of $10.54 for
+   the next financial year"). No single primary source confirms exactly 14.1x; it is the
+   screen's blended calculation.
+   - https://www.macrotrends.net/stocks/charts/BR/broadridge-financial-solutions/pe-ratio
+   - http://marketbeat.com/stocks/NYSE/BR/earnings/
+
+6. **Analyst consensus target ~$213 / +30.8% upside: VERIFIED.** S&P Global 9-analyst poll
+   via stockanalysis.com (~Sep 8, 2026): average target **$213.38**; $213.38 / $163.13 =
+   **+30.8%** — exact match to the dossier. Cross-checks: MarketBeat (8 analysts)
+   $216.00 (+32.53% off $162.99); Stockopedia $217.44 (+33.29% off $163.13). Range
+   $213–$217, upside 30–33% — claim holds.
+   - https://StockAnalysis.com/stocks/br/forecast/
+   - http://marketbeat.com/stocks/NYSE/BR/forecast/
+
+7. **Next earnings date: NOT CONFIRMED from company IR.** MarketBeat (BR earnings page):
+   "Broadridge Financial Solutions has not confirmed its next earnings publication date,
+   but the company's estimated earnings date is **Tuesday, November 3rd, 2026** based off
+   last year's report dates" — i.e., this is fiscal Q1 2027, estimated only, not company
+   guidance. (ad-hoc-news.de, Sep 14, 2026, also lists "Next earnings date: November 3, 2026"
+   as a calendar estimate.) The dossier did not state a date, so no claim to correct — but
+   the verifier could not confirm one from IR.
+   - http://marketbeat.com/stocks/NYSE/BR/earnings/
+
+**BR VERDICT: load-bearing facts hold** — price, FY27 guide, dividend hike, consensus target
+all verified to primary sources; caveats: the $10.37–10.75 range is derived math from the
+company's 8–12% growth guide (not a quoted dollar range), "record closed-sales backlog"
+is NOT company wording (and closed sales ≠ backlog), the 14.1x forward figure is
+screen-computed, and the next earnings date is an estimate, not company-confirmed.
 
 ---
 
-## 3. SPGI — S&P Global
+## SYK — Stryker
 
-### (a) Why it's down: issuance normalization + AI-sentiment de-rating
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Feb 10, 2026: FY2026 adj EPS guided $19.40–$19.65 vs ~$19.96 consensus; stock fell hard on the reset | **CONFIRMED** | Dow Jones Newswires via Morningstar, 2026-02-10 07:52 ET: "issued 2026 earnings guidance below Wall Street's expectations... guided for 2026 adjusted earnings of $19.40 to $19.65 a share. Analysts see 2026 adjusted earnings of $20.02 a share"; stock "recently down 8.9% at $404.89 in premarket trading." ainvest, 2026-02-10: "sharp pre-market drop of 18%... guided 2026 adjusted EPS to $19.40–$19.65, well below the Street consensus of $19.94 to $19.96" |
-| Issuance normalization: Ratings revenue growth guided 4–7%, below the 6–9% medium-term target, on record-2025 compare | **CONFIRMED** | Company Q4 2025 earnings call, 2026-02-10 (transcript via MarketBeat): CFO Eric Aboaf — "In Ratings, we expect to see organic constant currency growth in the range of 4%–7% in 2026... That outlook assumes billed issuance growth in the low to mid-single digit range." The Cerbat Gem earnings recap, 2026-02-12: management flagged "a difficult compare to record 2025 issuance." (The 6–9% Nov-2025-Investor-Day medium-term target was not re-confirmed in the retrieved sources, but the 4–7% guide and the record-2025-compare rationale are on the company transcript) |
-| AI-sentiment de-rating: Claude Opus 4.6 release triggered fear that generative AI commoditizes Market Intelligence subscriptions; Moody's/MSCI fell in sympathy | **CONFIRMED** | Morningstar (global.morningstar.com), published ~2026-03-17 (updated "187 days ago" on 2026-09-21): "With the release of the Claude Opus 4.6 model, which is designed to carry out financial research, markets have been increasingly concerned about AI disruption for capital markets information services companies." Reaffirmed Wide moat + $570 FV, calling it "an oversold stock to buy... trading 22% below our fair value estimate." The dossier's "Moody's −11%, MSCI −3 to −8%" specifics were not re-verified but the AI-fear selloff itself is confirmed by Morningstar as the driver of 2026 underperformance |
+1. **Price on 2026-09-21: VERIFIED (with the same prior-close nuance).** Screen $275.12 =
+   Sep 18 close (Finnhub "Previous Close Price: 275.12"). Finnhub Sep-21 session: current
+   $274.19, open $274.58, high $276.87, low $272.00; MarketBeat: "now trading at $274.80"
+   (Sep 21). Finnhub 52-week range $267.00–$392.55.
+   - https://finnhub.io/?q=%22SYK%22
+   - https://www.marketbeat.com/stocks/NYSE/SYK/
 
-### (b) Rebound catalyst: $7B 2026 buyback, post-Mobility spin, issuance normalization
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| >$7B 2026 share-repurchase plan, announced at the Q2 2026 print | **CONFIRMED** | Company Q2 2026 earnings release, 2026-07-28 (s29.q4cdn.com, company-hosted): "The Company now expects to repurchase more than $7 billion in shares in total in 2026." CFO Eric Aboaf on the Q2 call (transcript via MarketBeat, 2026-07-28): "we expect to repurchase $7 billion in shares this year, representing more than 5% of our total market capitalization at the current share price" — funded by ~$2B Mobility Global dividend proceeds (~$500M for debt retirement) plus ~$2B of new debt in H2, ending 2026 at 2.7–2.8x gross leverage vs 2.0–2.5x target |
-| Mobility spin completed Jul 1, 2026 | **CONFIRMED** | Same company Q2 release: "we successfully launched Mobility Global on July 1, as an independent, public company." (Q4 2025 guidance assumed Mobility contributions for the full year pending spin timing; recast financials followed) |
-| Issuance normalization as the catalyst path | **CONFIRMED (directional, primary-sourced)** | Q2 2026 call: Ratings revenue growth guide *raised* to 5–8% (from 4–7%), Indices raised to 12–14%; Q1 2026: revenue +10%, adj EPS +32%; Motley Fool, 2026-06-12: Q1 indexing revenue +17% y/y, "The stock is down 17% year to date, due to speculative fears of artificial intelligence (AI) disruption, among other issues" |
+2. **Iran-linked cyberattack ~Mar 11, 2026; Q1 EPS $2.60 vs $2.98 consensus: VERIFIED.**
+   Multiple sources confirm Stryker disclosed the attack on **March 11, 2026**: Iran-linked
+   group Handala claimed responsibility the same day (Reuters attribution per
+   tech-insider.org, Apr 5, 2026); attackers abused Microsoft Intune MDM to wipe devices —
+   Becker's Hospital Review: ~40,000 employee laptops/phones wiped, global network shut,
+   "returned to full operations by April 1"; SecurityWeek/BleepingComputer via
+   obstracts: ~3-week manufacturing pause. **Adversarial note:** the Iran/Handala
+   attribution is claimed by the group and reported by press; Becker's notes "Stryker did
+   not confirm the attribution and said no ransomware or malware was deployed."
+   Q1 2026 miss: americanbankingnews (May 3, 2026): "adjusted EPS of $2.60 vs. ~$2.98
+   expected and revenue of $6.02B vs. ~$6.34B"; pulse.bot: $317M revenue miss vs consensus,
+   ~190bp gross-margin compression.
+   - https://tech-insider.org/stryker-cyberattack-handala-iran-mdm-wipe-2026/
+   - https://www.beckershospitalreview.com/supply-chain/4-recent-medical-device-maker-cyberattacks-and-where-they-stand-now/
+   - https://www.americanbankingnews.com/2026/05/03/wells-fargo-company-lowers-stryker-nysesyk-price-target-to-418-00.html
 
-### (c) Valuation: fwd P/E ~19–23x vs 30x+ history; Morningstar $570 fair value reaffirmed Mar 2026
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Forward P/E ~19–23x | **CONFIRMED** | Motley Fool, 2026-06-12: "trading at 21 times forward earnings... as cheap as it's been in a while." FinanceCharts, Sep 2026: forward P/E 23.04 (trailing 24.68 on $405.32 / $16.42). Screen: 20.0. Within the stated band |
-| 30x+ own-history multiple | **CONFIRMED** | SureDividend (Josh Arnold), updated 2026-05-21 (and 2026-02-13): "S&P Global's 5-year average price-to-earnings ratio is 31.1, and we're assessing fair value at 30 times earnings... currently trading at 21.3x (20.2x in Feb)." FinanceCharts, Sep 2026: 5-year average P/E 35.95; 3-year average 35.68 — current 24.68 is ~31% below. Multiple independent sources place history well above 30x |
-| Morningstar $570 fair value reaffirmed Mar 2026 | **CONFIRMED** | Morningstar (global.morningstar.com/en-eu and en-ca), published ~2026-03-17: "After reviewing the impact of AI across the industry, we reaffirmed our Wide Morningstar Economic Moat Rating and $570 fair value estimate for S&P Global. We think it's an oversold stock to buy, trading 22% below our fair value estimate." Matches the dossier's date and figure exactly |
+3. **Inari backorder continuing into Q4 (admitted ~Sep 8, 2026); Wells Fargo $418→$348:
+   VERIFIED.** Hagens Berman press release (reprinted by Morningstar PR Newswire, Sep 17,
+   2026) quotes the sequence: Q2 (Jul 30, 2026) — "meaningful backorder situation with lost
+   sales" in Peripheral Vascular, management assured "backorder should reach a manageable
+   level by the end of Q3"; then at the **September 8, 2026 Wells Fargo Healthcare
+   Conference** (Barchart/GlobeNewswire: Stryker presented Sep 8 at Encore Boston Harbor),
+   CFO Preston Wells admitted the manufacturing issue "is continuing into the third quarter
+   and will certainly continue a little bit into the fourth quarter as well" — a direct
+   walk-back of the Q2 assurance; stock fell ~8.9% to a $275.10 52-week low. Wells Fargo cut
+   $418→$348, Overweight kept, Sep 9, 2026 — confirmed by transcriptdaily (Sep 18, 2026),
+   MarketBeat, and coincentral; note WF had set $418 only on May 3, 2026 (post-Q1), so this
+   was a second cut.
+   - https://www.morningstar.com/news/pr-newswire/20260917sf50730/stryker-nyse-syk-scrutinized-amid-disclosure-of-persisting-peripheral-vascular-problems-hbss
+   - https://transcriptdaily.com/2026/09/18/analysts-set-stryker-corporation-nysesyk-target-price-at-380-40.html
+   - https://www.barchart.com/story/news/4237928/stryker-to-participate-in-the-2026-wells-fargo-healthcare-conference
 
-### (d) Moat: ratings duopoly pricing power
-| Sub-claim | Verdict | Source + date |
-|---|---|---|
-| Ratings duopoly / regulatory moat with pricing power | **CONFIRMED** | Morningstar (Mar 2026): "Whether through credit ratings, financial indexes, or commodity price reporting, S&P Global has established a wide moat from its data-driven benchmarks." Morningstar also notes ratings is "almost 40% of S&P Global's adjusted operating income" and "bond issuance volume is a key revenue driver." SureDividend, 2026-05: "the three well-known rating agencies control over 90% of global financial debt ratings" — duopoly/oligopoly structure confirmed. Note: "pricing power" per se is an analyst inference from the wide-moat rating; the underlying regulatory-licensing + duopoly facts are confirmed |
+4. **Hagens Berman investor investigation ~Sep 17, 2026: VERIFIED — but it is a plaintiff
+   law-firm press release, not a regulatory or court event.** The announcement is Hagens
+   Berman's own solicitation PR (partner Reed Kathrein quoted; invites whistleblowers and
+   "submit your losses"), reprinted on Morningstar's PR Newswire wire Sep 17, 2026. No
+   filed complaint or SEC action is cited in it. The governance-overhang claim is real as a
+   sentiment factor, but the source is a law-firm marketing vehicle.
+   - https://www.morningstar.com/news/pr-newswire/20260917sf50730/stryker-nyse-syk-scrutinized-amid-disclosure-of-persisting-peripheral-vascular-problems-hbss
 
-**SPGI verdict:** All 4 claims CONFIRMED. Notably strong sourcing: the $7B buyback and the 4–7%→5–8% Ratings guide come from the company's own Q2 2026 release and call transcript (2026-07-28); the Morningstar Mar-2026 "oversold stock to buy / $570 / Claude Opus 4.6" note matches the dossier nearly verbatim.
+5. **Analyst consensus target (~$378, +38%): VERIFIED.** transcriptdaily citing MarketBeat
+   (Sep 18, 2026): average 12-month target **$378.75** across 23 ratings firms, "Moderate
+   Buy" (18 Buy, 5 Hold); $378.75 / $275.12 = **+37.7%**. MarketBeat's own page: $380.40.
+   The dossier's $378.13 (+37.6–37.9%) is consistent.
+   - https://transcriptdaily.com/2026/09/18/analysts-set-stryker-corporation-nysesyk-target-price-at-380-40.html
+
+**SYK VERDICT: load-bearing facts hold** — price, cyberattack + Q1 miss, Sep 8 backorder
+walk-back, Wells Fargo cut, Hagens Berman announcement, and consensus target all verified;
+adversarial notes: Iran attribution never confirmed by the company, and the Hagens Berman
+"investigation" is a plaintiff-firm solicitation PR rather than a filed action.
 
 ---
 
-## Summary of verdicts
+## EFX — Equifax
 
-| Name | Claim | Verdict |
-|---|---|---|
-| ISRG | (a) why down: guide/tariff/recall/volumes | CONFIRMED (all four sub-claims, company PR + FDA records) |
-| ISRG | (b) catalyst: Q3 print 10-20, 68–69% GM guide | CONFIRMED on date (estimate) & raised guide; "clean print" UNVERIFIABLE (not yet reported) |
-| ISRG | (c) valuation: fwd ~32.5 vs ~5-yr avg ~54x | fwd P/E CONFIRMED; ~54x UNVERIFIED as stated (sources quote 50x–68x; derating confirmed) |
-| ISRG | (d) moat: 11,710 base, ~75% recurring, net cash | CONFIRMED (all three, company PR) |
-| IDXX | (a) why down: Feb-2 margin scare, visits, rotation | CONFIRMED (all three) |
-| IDXX | (b) catalyst: two raises, $14.69–$14.94 EPS guide | CONFIRMED (company 8-K May 5 + PR Aug 4) |
-| IDXX | (c) valuation: fwd P/E ~30.6 | CONFIRMED (~30.9 Yahoo/ad-hoc Sep 18; 29.9–31.6 valueinvesting.io) |
-| IDXX | (d) moat: #1, razor/blade | CONFIRMED (Morningstar wide-moat upgrade 2024-09-19; company calls) |
-| SPGI | (a) why down: issuance normalization + AI fear | CONFIRMED (company call transcript; Morningstar Mar 2026) |
-| SPGI | (b) catalyst: $7B buyback, post-spin, issuance | CONFIRMED (company Q2 2026 release + call, 2026-07-28) |
-| SPGI | (c) valuation: fwd 19–23x vs 30x+; MS $570 Mar 2026 | CONFIRMED (all three; Morningstar piece ~2026-03-17) |
-| SPGI | (d) moat: ratings duopoly | CONFIRMED (Morningstar wide moat; 3 agencies >90% share) |
+1. **Price on 2026-09-21: VERIFIED (same prior-close nuance).** Screen $158.87 = Sep 18
+   close (Finnhub "Previous Close Price: 158.87"). Finnhub Sep-21 session: current $158.62,
+   open $160.32, high $160.62, low $157.50.
+   - https://finnhub.io/?q=%22EFX%22
 
-**Net: 10 of 12 claims fully confirmed; ISRG contributes the only two caveats —
-the "~54x" 5-year-average figure is unverified as stated (though the deep
-de-rating vs history is confirmed), and the "clean Q3 print" is a forward
-expectation that cannot be verified before 2026-10-20. No claim was contradicted.**
+2. **−38.4% drawdown from 52-week high: CONTESTED (figure mis-sourced; actual off-high is
+   ~−40.4%).** Finnhub: 52-week high $266.79. $158.87 / $266.79 − 1 = **−40.45%**. The
+   dossier's −38.4% matches Finnhub's **trailing 1-year price return (−38.42%)** exactly —
+   the dossier appears to have used the 1-year return as the drawdown-from-high figure.
+   Approximate in magnitude, wrong in definition.
+   - https://finnhub.io/?q=%22EFX%22
 
-*Verification performed 2026-09-21 by an independent Phase 3.5 verifier; every
-claim re-sourced from company releases, call transcripts, Morningstar research,
-and reputable financial press. Nothing in this file was taken from the
-dossier's own citations.*
+3. **USIS mortgage revenue +40%: VERIFIED (primary source).** Equifax Q2 2026 press release
+   (PR Newswire, **July 21, 2026**, via Morningstar): "USIS second quarter revenue up strong
+   17%... USIS Mortgage revenue up 40%." Corroborated by CEO Mark Begor on the Q2 earnings
+   call transcript (MarketBeat): "USIS mortgage revenue was up 40% and up mid-single
+   digits excluding FICO." (Total US mortgage revenue +25%.) Nuance for honesty: excluding
+   FICO scoring-royalty pricing, the organic figure is mid-single-digits (nationalmortgage
+   professional, Aug 2026).
+   - https://www.morningstar.com/news/pr-newswire/20260721cl08190/equifax-delivers-strong-11-growth-in-second-quarter-2026-revenue-signs-agreement-to-acquire-crculo-de-crdito-doubling-ai-driven-cost-reduction-target-to-150-million-returns-366-million-cash-to-shareholders
+   - http://nationalmortgageprofessional.com/news/equifax-mortgage-revenue-rises-25-despite-weaker-loan-volume
+
+4. **VantageScore 4.0 fears and housing-regulator intervention as drawdown drivers,
+   early Sep 2026: VERIFIED.** Sep 4, 2026: EFX **−8.6%** — QuiverQuant (Sep 4, 2026,
+   2:49pm UTC): selloff driven by "renewed concern that mortgage credit score competition
+   could pressure parts of Equifax's credit bureau economics" after the April 2026 federal
+   decision that "Fannie Mae and Freddie Mac would move forward with VantageScore 4.0 and
+   immediately accept Vantage-scored loans from approved lenders." Sep 6, 2026: EFX
+   **−6.4%** alongside Fair Isaac and TransUnion — Spreadex market update via ad-hoc-news
+   (Sep 6, 2026): "after a US housing regulator intervened over credit scoring...
+   raised questions about future revenue opportunities tied to mortgage-related credit
+   scoring models." Corroborating context: mitrade (Sep 5, 2026): FHFA Director Bill Pulte
+   publicly criticized bureau pricing and the agency is evaluating a tri-merge → bi-merge
+   shift for GSE mortgages. Both events and dates confirmed; exact single-day move sizes
+   come from market-recap sources (AI-assisted price-trackers), not exchange data.
+   - https://www.quiverquant.com/news/Equifax+Slides+as+Mortgage+Credit+Score+Competition+Clouds+Outlook
+   - https://www.ad-hoc-news.de/boerse/corporate-news/equifax-inc-stock-falls-after-regulator-move-hits-credit-scoring-peers/70066045
+   - https://www.mitrade.com/au/insights/news/live-news/article-0-2061451-20260905
+
+5. **Analyst consensus target (~$214 / +35.3% upside): VERIFIED.** MarketBeat EFX page,
+   updated **9/21/2026**: average price target **$215.16**, 21 analysts, Moderate Buy
+   (15 Buy / 6 Hold), upside +35.7% off the page's then-price; $215.16 / $158.87 =
+   **+35.4%** — matches the task's "~$214 / +35.3%" within rounding. Cross-check
+   americanbankingnews (Sep 5, 2026): "average 12-month price objective... $215.1579";
+   Rothschild & Co Redburn upgraded Neutral→Buy and raised $214→$235 on Aug 21, 2026.
+   - https://www.marketbeat.com/stocks/NYSE/EFX/
+   - https://www.americanbankingnews.com/2026/09/05/equifax-inc-nyseefx-receives-consensus-recommendation-of-moderate-buy-from-analysts.html
+
+**EFX VERDICT: load-bearing facts hold** — price, +40% USIS mortgage figure, early-September
+regulatory selloff drivers, and consensus target all verified; the −38.4% drawdown figure
+is approximate and appears mis-sourced (it is the trailing 1-year return, not the true
+off-52w-high drawdown of −40.4%).
+
+---
+
+## Verifier's adversarial summary
+
+- **No fabricated primary facts found.** The three load-bearing theses (BR: beats+raises+
+  dividend hike at derated multiple; SYK: two one-offs, one fixable + credibility tax; EFX:
+  strong mortgage economics vs policy derating) are all grounded in dated primary or
+  reputable-press sources above.
+- **Glosses to correct in the memo:** (a) "record closed-sales backlog" for BR is not
+  company wording — the IR release says closed sales "topped $305 million" and reserves
+  "record" for share repurchases; (b) BR's $10.37–10.75 is exact math from the 8–12%
+  growth guide, not a quoted dollar range; (c) EFX's −38.4% is the 1-yr return, not the
+  off-high drawdown (−40.4%); (d) BR's own-history multiple was ~27–36x trailing, not
+  "20–28x" — the cheapness case is, if anything, understated.
+- **Source-quality flags:** Hagens Berman's SYK "investigation" is a plaintiff-firm
+  solicitation PR (primary-event status: none); several daily-move explanations
+  (QuiverQuant, ainvest, ad-hoc-news/Spreadex) are AI-assisted market recaps, not primary
+  company disclosures; Iran/Handala attribution for the SYK attack is press-reported and
+  unconfirmed by Stryker.
+- **NOT CONFIRMED:** BR's next earnings date from company IR (only an estimate —
+  ~Nov 3, 2026); the exact 14.1x forward P/E (screen-computed blend, no independent
+  primary confirmation).
