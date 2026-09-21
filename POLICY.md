@@ -157,4 +157,34 @@ are pre-registered here so a rebalance never re-argues them:
 
 ---
 
+## Scheduled runs — and the commit that finishes them
+
+Cadence: the full `/stock-pick-dip` panel **monthly** (§ Three slots), with weekly runs in
+practice on Mondays. Whatever the cadence, a run is not finished when the memo is written. It is
+finished when every file it generated is committed.
+
+**A run's deliverable is the whole of `output/`, not just the memo.** On 2026-09-21 all three
+modes committed the memos and the new `parts/<DATE>/` folders, and silently dropped the four
+files that had to be overwritten in place. Those picks now have no recoverable inputs (see
+`output/gaps.md`). The conclusions were kept and the evidence was thrown away.
+
+Finish every scheduled run with:
+
+```
+git status --porcelain output/     # must print NOTHING
+```
+
+If it prints anything, commit it. There is no artifact in `output/` that is too minor to commit:
+shortlists, funnels, dossiers, ballots, triage, verification and memos are the audit trail that
+each `picks/ledger.csv` row points at.
+
+Two mechanisms back this up so it does not rest on remembering:
+
+- Every artifact is written as `<stem>_<RUNDATE>.<ext>` (`scripts/artifacts.py`), so a run's files
+  are new paths and appear as untracked rather than as unchanged.
+- `scripts/ranking_to_picks.py` exits non-zero when the newest shortlist and the newest
+  `final_ranking` carry different dates, which is what an uncommitted screen looks like.
+
+---
+
 *Research/educational tooling. Not financial advice.*
