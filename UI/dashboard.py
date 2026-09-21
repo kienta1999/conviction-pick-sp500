@@ -17,6 +17,9 @@ Stdlib only. Run:  python UI/dashboard.py  [--port 8765]
 import argparse
 import csv
 import json
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts'))
+import artifacts
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -46,16 +49,20 @@ def read_state():
     modes = {}
     for mode in ("momentum", "dip"):
         d = OUTPUT / mode
-        funnel = []
-        if (d / "funnel.json").exists():
-            funnel = json.loads((d / "funnel.json").read_text())
+        f_json = artifacts.latest(mode, "funnel", ".json")
+        funnel = json.loads(f_json.read_text()) if f_json else []
+        sl = artifacts.latest(mode, "shortlist", ".csv")
+        fp = artifacts.latest(mode, "final_pick", ".md")
+        fr = artifacts.latest(mode, "final_ranking", ".md")
         modes[mode] = {
-            "shortlist": _read_csv(d / "shortlist.csv"),
+            "shortlist": _read_csv(sl) if sl else None,
             "funnel": funnel,
-            "final_pick_md": _read_text(d / "final_pick.md"),
-            "final_ranking_md": _read_text(d / "final_ranking.md"),
-            "screen_at": _mtime(d / "shortlist.csv"),
-            "pick_at": _mtime(d / "final_pick.md"),
+            "final_pick_md": _read_text(fp) if fp else "",
+            "final_ranking_md": _read_text(fr) if fr else "",
+            "screen_at": _mtime(sl) if sl else None,
+            "pick_at": _mtime(fp) if fp else None,
+            "screen_date": artifacts.latest_date(mode, "shortlist", ".csv"),
+            "pick_date": artifacts.latest_date(mode, "final_ranking", ".md"),
         }
     return {"modes": modes, "ledger": _read_csv(LEDGER)}
 

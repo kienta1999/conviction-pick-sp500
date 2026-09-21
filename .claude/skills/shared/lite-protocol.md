@@ -20,7 +20,7 @@ exactly what lite skips.
 ## 1. Screen
 
 Same Phase 0 cache rule as the full protocol: read `generated` in
-`OUT/shortlist.json`; if it is <24h old and the user didn't ask to refresh,
+`artifacts.latest(MODE, "shortlist", ".json")`; if it is <24h old and the user didn't ask to refresh,
 reuse it. Otherwise:
 
 ```bash
@@ -62,7 +62,8 @@ S = {"TICK": (8,9,7,6,7), ...}          # scores, in the skill's lens order
 W, LENS, VETO, KEY = ...                # all four given by the skill
 # lens keys are column names: reach them as df["key"], never df.key —
 # `cat`, `str`, `min` and friends collide with pandas attributes
-scan = pd.read_csv("output/<MODE>/shortlist.csv", index_col="ticker")
+import sys; sys.path.insert(0, "scripts"); import artifacts
+scan = pd.read_csv(artifacts.latest("<MODE>", "shortlist", ".csv"), index_col="ticker")
 df = pd.DataFrame(S, index=LENS).T
 df["wtd"] = (df * W).sum(axis=1).round(2)
 df["veto"] = df[VETO] <= 3

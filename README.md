@@ -502,6 +502,19 @@ python scripts/scorecard.py --stop-pct 0.2 --grace-days 60  # tighter exit rules
 
 ## Outputs
 
+**Every artifact is dated.** Files are written as `<stem>_<RUNDATE>.<ext>` —
+`shortlist_2026-09-21.csv`, `funnel_2026-09-21.json`, `final_ranking_2026-09-21.md`. Paths below
+are written without the date for readability; resolve one with
+`artifacts.latest(mode, "shortlist", ".csv")`, and `artifacts.archive_superseded(mode)` moves
+older sets into `old/`.
+
+This is not cosmetic. On 2026-09-21 all three modes committed only the files whose path was new
+that day; `shortlist.*`, `funnel.json` and `research_dossier.md` had to be overwritten in place,
+so `git add` skipped them and the repo kept 2026-09-17's screen. The 29-name shortlist that run
+ranked from only ever existed on disk, so those picks have no recoverable inputs. A dated name is
+untracked every run and cannot be missed the same way. `scripts/ranking_to_picks.py` now also
+refuses to run when the newest shortlist and the newest ranking carry different dates.
+
 Each mode writes to its own folder — `output/momentum/`, `output/dip/` or
 `output/earnings/`:
 

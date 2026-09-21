@@ -141,6 +141,26 @@ running before Phase 3.
 
 ---
 
+## Every artifact carries its run date
+
+Every file a run writes is named `<stem>_<RUNDATE>.<ext>` — `shortlist_2026-09-21.csv`,
+`funnel_2026-09-21.json`, `research_dossier_2026-09-21.md`, `final_ranking_2026-09-21.md`.
+Elsewhere in this file a bare `OUT/shortlist.json` means *the dated one for this run*; read an
+existing one with `artifacts.latest(MODE, "shortlist", ".json")`.
+
+Why: on 2026-09-21 all three modes committed only the files whose path was new that day. The four
+that had to be overwritten in place — `shortlist.csv`, `shortlist.json`, `funnel.json`,
+`research_dossier.md` — were skipped by `git add`, so the repo kept 2026-09-17's screen. The
+29-name shortlist that run actually ranked from is gone, and those picks have no recoverable
+inputs. A dated filename is untracked every run, so the same mistake cannot repeat.
+
+`scripts/screen.py` already writes dated names and archives superseded ones. Panel outputs are
+yours to name: write `OUT/final_pick_<RUNDATE>.md` and `OUT/final_ranking_<RUNDATE>.md`, never the
+bare name. **Before you finish, run `git status --porcelain output/` and commit everything it
+lists** — a dated file that is never committed is still a lost audit trail.
+
+---
+
 ## Phase 0 — Ensure the shortlist exists
 
 The screen output lives at `OUT/shortlist.json` (and `OUT/shortlist.csv`).
@@ -301,15 +321,20 @@ that keeps the cost trivial while catching the errors that matter.
 
 ## Archive before overwriting — applies to BOTH Phase 4A and 4B
 
-`OUT/final_pick.md` and `OUT/final_ranking.md` always hold the **current** run.
-Every prior run is preserved, dated, under `OUT/old/`. Do this **before** writing
-the new file — an overwrite that skips this step destroys the writeup a recorded
-ledger row points at.
+Nothing is overwritten any more: this run writes `OUT/final_pick_<TODAY>.md` and
+`OUT/final_ranking_<TODAY>.md`, which are new paths, so the previous run's files are still on
+disk untouched. Archiving is now a tidy-up, not a rescue — the superseded writeup a ledger row
+points at survives even if you forget.
+
+After writing this run's files, move every older dated artifact into `OUT/old/`:
 
 ```
-OUT/old/final_pick_<RUNDATE>.md        # e.g. output/momentum/old/final_pick_2026-07-12.md
-OUT/old/final_ranking_<RUNDATE>.md
+uv run python -c "import sys; sys.path.insert(0,'scripts'); import artifacts; \
+  print(artifacts.archive_superseded('<MODE>'))"
 ```
+
+It keeps the newest of each stem at the top level and moves the rest, so `OUT/` always shows one
+current set. It is idempotent and never touches the newest run.
 
 - `<RUNDATE>` is the **superseded run's own date** (the `date` on its ledger
   rows — *not* today's, and not the file's mtime). Read it from the file's own

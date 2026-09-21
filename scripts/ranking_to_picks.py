@@ -20,6 +20,8 @@ import re
 
 import pandas as pd
 
+import artifacts
+
 from basket_backtest import EXCLUDE, LEDGER, _ROOT
 
 SLOTS = 3
@@ -64,10 +66,16 @@ def main():
     a = ap.parse_args()
     if a.selftest:
         return selftest()
-    sl_path = os.path.join(_ROOT, "output", a.mode, "shortlist.csv")
-    sl = pd.read_csv(sl_path) if os.path.exists(sl_path) else None
-    md = os.path.join(_ROOT, "output", a.mode, "final_ranking.md")
-    if sl is not None and os.path.exists(md):
+    sl_path = artifacts.latest(a.mode, "shortlist", ".csv")
+    sl = pd.read_csv(sl_path) if sl_path else None
+    md = artifacts.latest(a.mode, "final_ranking", ".md")
+    # The screen and the ranking must be the same run, or the picks cite inputs that never saw them.
+    sl_date = artifacts.latest_date(a.mode, "shortlist", ".csv")
+    md_date = artifacts.latest_date(a.mode, "final_ranking", ".md")
+    if sl_date and md_date and sl_date != md_date:
+        raise SystemExit(f"shortlist is dated {sl_date} but final_ranking is dated {md_date} — "
+                         f"re-run the screen for {md_date}, or the picks have no matching inputs")
+    if sl is not None and md:
         m = re.search(r"Generated (\d{4}-\d{2}-\d{2})", open(md).read())
         if m:
             sl.attrs["md_date"] = m.group(1)   # handoff guard: the .md and the ledger must be the same run

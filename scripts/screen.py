@@ -112,6 +112,8 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
 
+import artifacts
+
 _HERE = os.path.dirname(os.path.abspath(__file__))
 if _HERE not in sys.path:
     sys.path.insert(0, _HERE)
@@ -748,12 +750,15 @@ _DOCTRINE = {
 def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum") -> None:
     output_dir = _output_dir(mode)
     os.makedirs(output_dir, exist_ok=True)
+    # Every artifact carries its run date, so each run writes NEW paths that `git add` cannot
+    # skip as "unchanged" — the 2026-09-21 failure. See scripts/artifacts.py.
+    run_date = pd.Timestamp.now().strftime("%Y-%m-%d")
 
     csv_cols = [c for c in CSV_COLS if c in df.columns]
-    csv_path = os.path.join(output_dir, "shortlist.csv")
+    csv_path = str(artifacts.dated(mode, "shortlist", ".csv", run_date))
     df[csv_cols].to_csv(csv_path, index=False)
 
-    json_path = os.path.join(output_dir, "shortlist.json")
+    json_path = str(artifacts.dated(mode, "shortlist", ".json", run_date))
     records = json.loads(df.replace({np.nan: None}).to_json(orient="records"))
     # Nest the flat earnings-quality fields into one block per record; a
     # missing metric stays an explicit null with the reason in `note`.
@@ -794,8 +799,12 @@ def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum")
     with open(json_path, "w") as f:
         json.dump(payload, f, indent=2)
 
-    with open(os.path.join(output_dir, "funnel.json"), "w") as f:
+    with open(artifacts.dated(mode, "funnel", ".json", run_date), "w") as f:
         json.dump(funnel, f, indent=2)
+
+    moved = artifacts.archive_superseded(mode)
+    if moved:
+        print(f"archived superseded into output/{mode}/old/: {', '.join(sorted(moved))}")
 
     print(f"\nWrote {len(df)} candidates ({mode} mode) to:")
     print(f"  {csv_path}")
