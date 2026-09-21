@@ -1,128 +1,91 @@
-# Final ranking — stock-pick-earnings 2026-09-17 (full panel)
+# Final ranking — stock-pick-earnings 2026-09-21 (full panel)
 
-Run 2026-09-17. 15 names researched, 4-lens panel (A earnings-momentum, B setup-skeptic, C quality/moat, D contrarian), Borda tally 10-for-#1. Verifier checked top-3 load-bearing claims 2026-09-17/18. Scores below are agent judgment (higher guide-risk / priced-in = worse). Screen field: 48-candidate fresh screen 2026-09-18 05:45 UTC.
+- **Mode:** earnings (event trade; Plan B default = enter after the print)
+- **Screen:** 502 → 46 candidates, generated 2026-09-21 08:33 UTC
+- **Actionable now (≤10d):** PAYX, CTAS — both report 2026-09-23
+- **Researched:** 15 names (3 batches, independent subagents)
+- **Panel:** 4 lenses, sequential — A earnings-momentum, B setup/positioning skeptic, C quality/moat, D contrarian/guide-down
+- **Aggregation:** Borda (10 pts rank 1 → 1 pt rank 10)
+- **Verifier:** independent, report at `output/earnings/parts/2026-09-21/verification.md`
 
-Headline: **every name is Plan B.** No panelist found a pre-print edge worth holding through; the one Plan A nomination (B on FSLR) was demoted by Gate A1 box 4 (report date vendor-estimated, no company IR confirmation). The conviction pick is a queued post-print entry.
+## Ballot summary
 
-Verification headlines (parts/2026-09-17/verification.md): no date contradictions vs dossier. MS 10/14 BMO company-confirmed. REGN date split confirmed (10/27 Zacks/Barchart vs 10/28 MarketBeat/Yahoo), no IR announcement. FSLR ~10/29 vendor-estimated, no IR announcement. Sanofi catalyst confirmed verbatim from Regeneron's Q2 release/call. Corrections: FSLR Q1 reaction +4.9% (screen said +6%); MS's record Q2 beat was sold −4.5% the day after (screen's −4% misread as flat report day).
+| Lens | Top pick | Runner-up | Conviction | Plan |
+|---|---|---|---|---|
+| A (momentum) | INCY | GS | 6/10 | B |
+| B (setup skeptic) | HWM | INCY | 6/10 | B |
+| C (quality/moat) | BNY | CTAS | 7/10 | B |
+| D (contrarian) | **NO TRADE** | REGN | 7/10 | — |
 
----
+No lens nominated a Plan A (hold-through-print) for any name. Every researcher (15/15) also returned Plan B.
 
-## 1. REGN — 33 Borda (A1 B3 C4 D3, 4/4, 1×#1)
+## Borda aggregation
 
-- Report date: ~2026-10-28, vendor split 10/27 vs 10/28, **not company-confirmed** | ~40–41 days to print
-- Plan: **B** — buy only on the number
-- Beat likelihood 6/10 · guide risk 5/10 · priced-in 5/10
-- Beat→up rate 0.714 · reaction avg |move| 6.1% · last4: +6, −6, +2, +12
-- Run into print: ~8% off high; Q2 reaction +6.2% (verified, was "not found" in dossier)
-- Why here: cleanest company-stated catalyst in the field — Sanofi development balance fully repaid (~$3.1B), "meaningful step-up in collaboration profits beginning in Q3" (CFO, Q2 call, verified). Accelerating beat streak (Q2 EPS +~43%), +17% revenue growth.
-- The trap: Q1'26 beat sold −6.5% — tone can trump numbers. Date split alone blocks Plan A.
-- Event: beat-and-raise → +5–8%; in-line → −2–4%; miss/soft guide → −8–12%.
+| Rank | Ticker | Borda pts | Appearances | #1 votes | Avg place | Placements (A,B,C,D) |
+|---|---|---|---|---|---|---|
+| 1 | GS | 28 | 4 | 0 | 4.00 | 2, 6, 6, 2 |
+| 2 | BLK | 26 | 4 | 0 | 4.50 | 3, 7, 5, 3 |
+| 3 | HWM | 25 | 4 | 1 | 4.75 | 7, 1, 3, 8 |
+| 4 | INCY | 24 | 3 | 1 | 3.00 | 1, 2, —, 6 |
+| 5 | REGN | 22 | 4 | 1 | 5.50 | 6, 5, 10, 1 |
+| 6 | BNY | 19 | 4 | 1 | 6.25 | 5, 10, 1, 9 |
+| 7 | BAC | 17 | 3 | 0 | 5.33 | 8, 4, —, 4 |
+| 8 | APH | 15 | 3 | 0 | 6.00 | 4, —, 4, 10 |
+| 9 | PEP | 12 | 2 | 0 | 5.00 | —, 3, —, 7 |
+| 10 | CTAS | 11 | 2 | 0 | 5.50 | —, 9, 2, — |
 
-## 2. MS — 30 Borda (A2 B2 C5 D5, 4/4, 0×#1)
+## Ranked top 10 (with event-prediction fields)
 
-- Report date: **2026-10-14 BMO, company-confirmed** (MS press release) | 27 days to print
-- Plan: **B** — verifier surfaced a red flag: the record Q2 beat was sold −4.5% the day after (7/16), i.e. beat-fatigue even on strength
-- Beat likelihood 7/10 · guide risk 5/10 · priced-in 4/10
-- Beat→up rate 0.75 · reaction avg |move| 4.1% · last4: −4, +5, +6, +5
-- Run into print: not elevated; GS prints 10/13 as a day-earlier read-through
-- Why here: best reaction record in the field (screen), Q4'26 consensus ~$2.86–2.87 (verifier-filled gap), wealth flywheel moat.
-- The trap: the Q2 sell-the-record-beat precedent — a beat no longer guarantees a pop.
-- Event: beat-and-raise → +4–6%; in-line → −1–3%; miss → −6–9%.
+Scores are beat-likelihood / guide-risk (HIGH IS BAD) / priced-in (HIGH IS BAD), 0–10, from the research dossiers (batch-1 0–100 scores normalized). Report dates are the verified company-IR date where the verifier confirmed one, otherwise the best available estimate (marked).
 
-## 3. FSLR — 29 Borda (A7 B1 C6 D1, 4/4, 2×#1) — SINGLE PICK (Plan B queued)
+| # | Ticker | Price* | Beat↑ | Guide | Priced | beat_up_rate | avg_abs_move | run>15% | Plan | Report date | d | Event pred |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | GS | 942.00 | 8.5 | 5.0 | 5.8 | **0.75**† | 3.51% | no | B | **2026-10-13 BMO** (IR-confirmed) | 22 | up +3.5 / impl 7.48 |
+| 2 | BLK | 1069.78 | 7.4 | 5.0 | 6.0 | 0.875 | 4.50% | no | B | 2026-10-13 BMO (est., unconfirmed) | 22 | up +4.5 / impl 6.56 |
+| 3 | HWM | 229.67 | 7.0 | 6.0 | 5.0 | 0.75 | 5.86% | no | B | ~2026-10-29 BMO (est.; cached 11/05 stale) | 38 | up +5.9 / impl n/f |
+| 4 | INCY | 125.31 | 7.0 | 5.0 | 4.0 | 0.80 | 6.90% | no | B | 2026-10-27 BMO (est.) | 36 | up +6.9 / impl n/f |
+| 5 | REGN | 784.85 | 8.0 | 3.0 | 5.0 | 0.714 | 6.10% | no | B | 2026-10-27/28 (conflicted) | 36 | up +6.1 / impl n/f |
+| 6 | BNY | 153.79 | 7.0 | 7.0 | 7.0 | 0.875 | 3.00% | no | B | ~2026-10-15 BMO (est.) | 24 | up +3.0 / impl n/f |
+| 7 | BAC | 57.73 | 7.0 | 5.0 | 5.0 | 0.75 | 2.52% | no | B | **2026-10-14 BMO** (IR-confirmed) | 23 | up +2.5 / impl n/f |
+| 8 | APH | 77.55 | 7.0 | 6.0 | 8.0 | 0.875 | 6.00% | no | B | 2026-10-28 BMO (est.) | 37 | up +6.0 / impl n/f |
+| 9 | PEP | 129.75 | 5.0 | 8.0 | 4.0 | 0.833 | 4.20% | no | B | **2026-10-08 BMO** (IR-confirmed) | 17 | up +4.2 / impl n/f |
+| 10 | CTAS | 197.64 | 6.4 | 7.2 | 5.0 | 0.75 | 4.41% | no | B | **2026-09-23 BMO** (IR-confirmed) | 2 | up +4.4 / impl 4.76 |
 
-- Report date: ~2026-10-29, **vendor-estimated, no IR announcement** | ~42 days to print
-- Plan: **B queued** — Gate A1 box 4 ticked (unconfirmed date) → the one Plan A nomination (B) demoted to Plan B
-- Beat likelihood 6/10 · guide risk 5/10 · priced-in 4/10
-- Beat→up rate **1.00 (perfect, best in 48-name field)** · reaction avg |move| 7.5% · last4: +3, +4.9 (verified), −14, +14
-- Run into print: **−8.6% over 21 sessions**, −37% off high; forward P/E 8.7, PEG 0.45
-- Why here: the field's one genuine "bar too low" mis-model (D) — Q3 consensus cut $5.29→$4.56 after analysts overshot Q2, FY guidance reaffirmed (shipments bar ~3.9 GW, EBITDA $625–775M, backlog ≥45 GW). Highest single-pick tally (3), two #1 votes.
-- The trap: policy/subsidy headline risk; the −14% print in the last4 shows the gap-down is real.
-- Event: beat-and-raise → +6–10%; in-line → −2–5%; guide cut → −12–18% (automatic pass).
-- Full event plan: final_pick.md.
+\* Screen-cache price 2026-09-21. † Verifier-corrected: the screen's 0.875 was wrong-signed on Q1'26 (+2% shown, −1.87% actual); true record is 6/8 = 0.75. "impl n/f" = options-implied move not found; screen avg-abs-move used as proxy.
 
-## 4. BLK — 28 Borda (A3 B4 C2 D7, 4/4, 0×#1)
+## Top-3 theses
 
-- Report date: **10/13 vs 10/14 conflict, no company confirmation found** | ~26–27 days
-- Plan: **B** — the date conflict alone rules out Plan A
-- Beat likelihood 7/10 · guide risk 5/10 · priced-in 3/10
-- Beat→up rate 0.875 · reaction avg |move| 4.5%
-- Run into print: **−10.2% in a month** — derating into an accelerating beat streak
-- Why here: $15T AUM nobody can dislodge (C's #2); closest to Plan A on evidence in batch 1, derated into the print.
-- The trap: you cannot structure a trade around an unconfirmed date.
-- Event: beat-and-raise → +4–6%; in-line → −1–3%; miss → −5–8%.
+**1. GS — the panel's most complete reaction record, Plan B (queued).** Four straight beats averaging +20.5% EPS surprises (trend +11.4), and — after the verifier's correction — 6 of 8 beats paid with an up move (0.75), avg +3.0% on the day. Revenue direction is fine (Q2'26 record GBM quarter), the priced-in verdict is mixed: −7.3% into the print and 12.7× forward say no euphoria, but options imply 7.48% vs 3.51% realized — the market prices double the historical move. Guide risk is structural, not numerical: Goldman doesn't guide, so the "guide" is read through IB backlog (highest in four years in Q1) and FICC mix — and Q1'26 proved a headline beat with a FICC miss gets sold (−1.87%). Fallback: premier #1 M&A franchise (verifier-confirmed), 15–17% ROTCE target, $6.4B quarterly capital returns — a bad print doesn't break the franchise, but cyclicality means the 12–18-month fallback carries a NO SAFE FALLBACK warning (see pick writeup). Date is the one fully IR-confirmed fact in the top 3: **2026-10-13 BMO**.
 
-## 5. CTAS — 19 Borda (A– B– C1 D2, 2/4, 1×#1)
+**2. BLK — rewarded beats on a compounding inflow machine, Plan B (watchlist).** 4/4 beats all paid (0.875), +7.3% avg surprises, record AUM with 33 straight quarters of fee inflows, Aladdin/iShares scale that AI augments rather than replaces. Priced-in: medium — ret_21d −7.2%, but implied 6.56% vs 4.50% realized. The disqualifier is load-bearing and binary: **the date is unconfirmed** (10/13 vs 10/14 conflict; verifier: weight favors 10/13 BMO but no BlackRock IR announcement). No confirmed date = no trigger = no pick. Revisit if IR confirms.
 
-- Report date: **2026-09-23, confirmed; BMO corroborated third-party** | 6 days — ACTIONABLE NOW
-- Plan: **B — buy the post-print dislocation, not the print** (C's pick, Plan B)
-- Beat likelihood 7/10 · guide risk 7/10 · priced-in 7/10 (worst setup score in top 10)
-- Beat→up rate 0.75 · reaction avg |move| 4.4% · March-2026 beat sold **−4.52%** (verified); July reaction +7.22%
-- Run into print: +16% in 3 months, only −9.7% off high, 40x P/E, positive IV skew, expected move ±2.1–2.4%
-- Why here: most irreplaceable business in the field (moat 9 — route-density economics, contractual recurring revenue, AI-proof physical services); best 18-month fallback of all 15.
-- The trap: consensus $5.49 FY EPS sits at the **top of the $5.36–5.50 guide** — the archetypal good-company/bad-print-setup. Pre-registered event prediction: **down on a beat** (sell-the-news).
-- Event: beat → −3–5% likely (fade); raise → +3–5%; soft KPI → −6–9% (buy that).
+**3. HWM — the most de-risked setup in the field, Plan B (watchlist).** −19% over 21 sessions into the print is genuine derisking; serial beat-and-raise record (0.75, +7.5% surprises), revenue accelerating (+0.10), clean EQ, FAA-certified sole-source aerospace positions. But: **date unconfirmed** (researcher ~10/29 BMO vs cached 11/05 — verifier: 11/05 is stale), and consensus EPS sits at the top of the company's own guide ($1.36 vs $1.34–1.36) with the last raise sold −3% — the raise-and-fall template. Lens B's top pick on setup; the calendar keeps it queued.
 
-## 6. BNY — 15 Borda (A– B6 C3 D9, 3/4, 0×#1)
+## Watchlist — researched names beyond the top 10
 
-- Report date: **2026-10-15 BMO, confirmed** | 28 days
-- Plan: **B** — crowded long
-- Beat likelihood 7/10 · guide risk 4/10 · priced-in 6/10
-- Beat→up rate 0.875 · reaction avg |move| 3.0%
-- Run into print: **+31.8% YTD** — four straight double-beats already rewarded
-- Why here: regulated plumbing, 31% ROTCE, raised guide; consistent double-beat record.
-- The trap: fading beat rewards on a crowded long — the market has paid for this story already.
-- Event: beat-and-raise → +2–4%; in-line → −1–3%; miss → −5–8%.
+| Ticker | Report date | Status | Why it's queued, not ranked |
+|---|---|---|---|
+| MS | **2026-10-14 BMO** (confirmed) | watchlist | Latest +19% EPS beat fell ~3% — the beat-but-fell signature blocks any pre-print case; Borda 5 pts |
+| AME | 2026-10-29 BMO (est.) | watchlist | Consensus $2.11 *above* the $2.08–2.10 guide; shrinking beats at 24.8× — the bar is the problem |
+| BIIB | 2026-10-28/29 (est., possibly moved) | watchlist | Pre-announced ~$1.75–1.95/share IPR&D charge with unresolved consensus basis — can't trade a number the Street can't define |
+| PAYX | **2026-09-23 BMO** (confirmed) | **actionable** | Thin +1.8% mechanical beats, 2 of last 4 fell; low-bar FY27 reset — no edge, no pick |
+| FOXA | 2026-10-28/29 (est., conflicted) | watchlist | FQ2'26 +60–75% EPS beat fell 4% — even blowouts get sold; non-guider, event-lumpy |
 
-## 7. BIIB — 14 Borda (A4 B9 C– D6, 3/4, 0×#1)
+## Verifier findings (independent, 2026-09-21)
 
-- Report date: ~2026-10-28, vendor-estimated | ~41 days
-- Plan: **B**
-- Beat likelihood 5/10 · guide risk 6/10 · priced-in 5/10
-- Beat→up rate 0.75 · reaction avg |move| 4.1%
-- Run into print: near highs; cheap 13.2x multiple
-- Why here: raised guide, cheap, beatable bar; trade underlying EPS + revenue + Leqembi, not the headline.
-- The trap: messy accounting print — algos sell the headline first; expect dislocation before signal.
-- Event: beat-and-raise → +4–6%; in-line → −2–4%; miss → −6–10%.
+1. **GS date/BMO-AMC: CONFIRMED** — Goldman IR: Tuesday 2026-10-13, results ~7:30 am ET (BMO). Load-bearing fact holds.
+2. **GS reaction record: CORRECTED (load-bearing).** Screen showed Q1'26 +2%; actual print-day move was **−1.87%** (the screen's BMO/AMC-ambiguous heuristic captured the next-day +2.11% rebound). Verified last four: Q2'26 **+9.00%**, Q1'26 **−1.87%**, Q4'25 **+4.63%**, Q3'25 **−2.04%** → beat_up_rate is **0.75 (6/8)**, not 0.875. Plan-A disqualifier box 2 ("either of the last two prints was a beat that the stock fell on") is ticked. Pick stays Plan B; the writeup reflects the corrected record.
+3. **GS consensus: EPS $15.62 CONFIRMED** (Zacks/Barchart); **revenue $17.04B found** (researcher had written "not found"). Q2'26 surprise **+45%** ($20.98 vs $14.47) confirmed. **Q4'26 consensus $15.43 EPS / $16.71B revenue** (new).
+4. **GS moat: CONFIRMED** — #1 M&A advisor H1 2026 (LSEG + GlobalData league tables; ~$1.2T advised).
+5. **BLK date conflict: resolved toward 2026-10-13 BMO** (weight of estimates), but **still unconfirmed** — no BlackRock IR announcement; 10/14 looks like a stale rollover.
+6. **HWM date: ~2026-10-29 BMO estimated**; cached 2026-11-05 is stale; no Howmet IR announcement.
+7. **AME beat_up_rate: screen's 0.875 CONFIRMED** from actual prints (7/8 rewarded; the one down-beat was Q2'24). The batch-2 researcher's 0.333 is **contradicted** — disregard it.
+8. Not found / unresolved: options-implied moves for HWM, INCY, REGN, BNY, BAC, APH, PEP; CTAS forward revenue consensus.
 
-## 8. PAYX — 11 Borda (A10 B8 C– D4, 3/4, 0×#1)
+## Sizing (POLICY §1.5, earnings regime)
 
-- Report date: **2026-09-23 BMO, CONFIRMED** | 6 days — ACTIONABLE NOW
-- Plan: **B** — nothing clearly unpriced
-- Beat likelihood 6/10 · guide risk 6/10 · priced-in 4/10
-- Beat→up rate 0.714 · reaction avg |move| 3.7% · 4 straight beats averaging only +1.3%
-- Run into print: −14% off high, weak month; Q1'27 consensus $1.33/$1.62B
-- Why here: serial beater (4 straight), derated into the print.
-- The trap: the beats are **mechanical** (+1.3% avg) and consensus already sits **above the guide** — the "surprise" is capped by construction. Pre-registered event prediction: **down/flat on a beat** (faded).
-- Event: beat → −1–3% likely (fade); raise → +2–4%; cut → −5–8%.
+2% per-pick cap → **earnings halving → 1%** → **pilot halving (§5 gates unmet) → 0.5%** of investable capital. Cash only. One earnings position at a time. The exit rule is part of the entry.
 
-## 9. GS — 9 Borda (A– B5 C– D8, 2/4, 0×#1; tie-break over CAT on doctrine: beat_up 0.875 vs 0.80, avg placement 6.5 vs 8)
+## Dated disclaimer
 
-- Report date: **2026-10-13 BMO, confirmed** | 26 days
-- Plan: **B** — coin-flip on reaction even conditional on a beat
-- Beat likelihood 6/10 · guide risk 6/10 · priced-in 5/10
-- Beat→up rate 0.875 · reaction avg |move| 3.5% · last4: −2, +1.6e, −4e, +0.7 — **3 of 4 recent beats faded**
-- Run into print: 17.6% off high; Q3 consensus $15.59/$17.01B
-- Why here: derated into the print; trading/divestiture optionality.
-- The trap: the record says good numbers get sold here.
-- Event: beat → −1–2% likely (fade); in-line → −2–4%; miss → −5–8%.
-
-## 10. CAT — 9 Borda (A6 B10 C8 D–, 3/4, 0×#1)
-
-- Report date: ~2026-10-29, vendor-estimated | ~42 days
-- Plan: **B** — the bar reset higher
-- Beat likelihood 7/10 · guide risk 4/10 · priced-in 5/10
-- Beat→up rate 0.80 · reaction avg |move| 5.0%
-- Run into print: 26% off high gives some cushion, but Q2's blowout (+24% revenue) reset expectations; consensus $6.93 vs Q2 run-rate leaves little room for a second consecutive 30% surprise
-- Why here: two straight big beats, raised sales guide, dealer-network moat depth.
-- The trap: the market already saw one blowout — the second has to be perfect.
-- Event: beat-and-raise → +4–6%; in-line → −3–5%; miss → −8–12%.
-
----
-
-Deliberately left out: AME (Borda 8 — quiet compounder but revenue consensus not found, bar unquotable), APH (7 — highest beat odds in field, worst asymmetry: consensus lifted to top of guide at 40x trailing), LLY (4 — revenue consensus above company guide at 32x), INCY (2 — accounting-distorted consensus, unreadable headline near highs), GRMN (2 — report date unresolved across 10/27, 10/28, 11/4; no trade structurable).
-
-Panel vote log: single-pick tally (top=2, runner-up=1) — FSLR 3 (B pick + D runner-up), REGN 2 (A pick), MS 2 (A+B runners-up), CTAS 2 (C pick), BLK 1 (C runner-up). D nominated NO TRADE on the two actionable names (conviction 7/10 that holding either through the print is negative-EV).
-
-Sources: output/earnings/research_dossier.md · parts/2026-09-17/triage.md · parts/2026-09-17/research_batch{1,2,3}.md · parts/2026-09-17/ballot_{A1,B1,C1,D1}.md · parts/2026-09-17/verification.md · output/earnings/shortlist.json.
+Research date 2026-09-21. Prices are screen-cache (2026-09-21); consensus figures as of ~2026-09-15/21. Earnings dates move — re-verify against company IR before acting. This is a research artifact, not investment advice.

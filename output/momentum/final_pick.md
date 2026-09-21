@@ -1,122 +1,41 @@
 # Momentum — Final Pick (single-pick mode)
-**Run date:** 2026-09-17 · **Mode:** momentum (above 200d SMA + structural shortage doctrine)
-**Screen:** `output/momentum/shortlist.json`, generated 2026-09-18 05:47:08 UTC — 50 candidates from 503 S&P 500 members, triaged to 13 for deep research
-**Funnel:** 503 → profitable 439 → US 418 → growing 377 → leverage ok 264 → above SMA200 162 → margin leader 80 → fwd-PE gate 79 → niche leaders → top 50 by composite
-**Panel:** 4 independent subagents, one per lens, dispatched sequentially · **Verification:** independent verifier subagent — all LRCX claims confirmed
+**Run date:** 2026-09-21 · **Mode:** momentum (above 200d SMA + structural shortage doctrine)
+**Screen:** `output/momentum/shortlist.json`, generated 2026-09-21 08:33:32 UTC — 50 candidates from 503 S&P 500 members, triaged to 11 for deep research (prices through 9/18 close)
+**Panel:** 4 independent subagents, one per lens, dispatched sequentially · **Verification:** independent verifier subagent — all load-bearing figures confirmed, 3 labeling corrections applied, no trap veto on MU
 
 ---
 
-## THE PICK: **LRCX — Lam Research Corporation**
+## THE PICK: **MU — Micron Technology — $1,015.80 (9/18 close)**
 
-| | |
-|---|---|
-| Sector / sub-industry | Information Technology / Semiconductor Materials & Equipment |
-| Business | Wafer fabrication equipment — #1 in etch (dry/plasma), major in deposition; tools that carve the transistors |
-| Market cap | ~$337B |
-| Price at pick | **$269.31** (2026-09-17 screen) |
-| Forward P/E | 23.1 · Analyst mean target $373 (+39%) |
-| Next earnings | 2026-10-21 (34 days — no POLICY halving) |
+**Tally:** single-pick weighted vote MU 6 (Lenses A, B, D) vs KLAC 2 (Lens C); each lens's ranked #1 matched its single pick, so no runner-up points. Borda #1 at 36/40. Doctrine adjudication: MU's explosive-return case is the strongest in the field — the shortage is physical (HBM needs ~3x the wafer area of standard DRAM), the booked demand is contractual, and the market still prices it as a legacy cyclical at 6.5x forward. No veto conflicts: all four lenses passed the disintermediation test, and the independent verifier independently passed the trap veto.
 
-## One-paragraph thesis
+### Explosive-return thesis
+Micron is the doctrine's canonical name: 2026–27 HBM supply is fully contracted, demand "far above" supply into 2028, and 16 strategic customer agreements carry **~$100B of minimum contracted revenue at floor prices through calendar 2030**, backed by ~$18B in customer cash deposits and ~$4B in letters of credit (~$22B total financial commitments). FQ3 FY2026 (Jun 24, 2026): revenue $41.46B (+346% YoY), non-GAAP EPS $25.11, GM ~84.6–84.9%; Q4 guide $50.0B ± $1B revenue, ~86% GM, $31.00 ± $1 EPS — a ~16% raise vs pre-guide consensus. HBM TAM: ~$35B (2025) → ~$100B (2028), possibly crossing $100B in FY2027. The re-rate engine: the market pays 6.5x forward for what it thinks is peak-cycle DRAM; the contracts turn it into a quasi-annuity with price FLOORS (margins targeted "well above" any past-cycle peak). Catalyst: earnings ~Sep 30 (9 days out) — see sizing halving below.
 
-The wafer-fab-equipment industry is "fundamentally sold out" — the CFO's own words on September 10, 2026 — with the WFE forecast raised three times this year to the low-$150B range, and Lam is the #1 etch vendor (~39% share) in the one process step whose intensity rises ~15–20% with every GAA node shrink. Etch tools take 15+ years of process know-how to qualify and no customer on earth — hyperscaler or otherwise — can in-source one, which makes this the rare shortage bet the doctrine's disintermediation trap cannot touch. The stock sits barely 1% above its 200-day moving average: the shortage is priced into estimates, not the multiple.
+**Verifier corrections incorporated** (they strengthen the case): the "$22B floor-priced agreements" shorthand mislabeled the deposits — the real booked figure is ~$100B minimum contracted revenue; the contracts also carry a price CEILING (near Q2-2026 levels), so upside on covered volume is capped — the explosive case is a multiple re-rate, not unbounded ASP gains. "Demand >2x supply" is dossier-sourced, not independently confirmed; direction confirmed ("no line of sight" to supply catching demand).
 
-## The shortage + backlog evidence
+**Trap veto: PASS.** Only three firms on earth make HBM commercially (Samsung, SK Hynix, Micron). No hyperscaler operates or has announced a DRAM/HBM fab — Amazon and Google are SIGNING multi-year supply agreements with Micron as locked-in buyers. The only substitute tech (HBF, Sandisk + SK hynix, spec released Aug 2026) is complementary inference-tier memory; samples H2 2026, integration targeted early 2027 — no threat to the training-memory franchise in 2–3 years. Genuine risks are ordinary cyclicality: margins at 84–86% are ASP-spike driven (DRAM ASPs +140% in 9M FY2026), HBM share is #3, and the SCA ceilings cap further ASP upside — all sizing/exit considerations, not vetoes.
 
-- **"Fundamentally sold out"** — CFO statement at the Goldman conference, Sept 10, 2026 (verified). Clean-room availability, not customer appetite, is the binding constraint.
-- **WFE raised 3× in 2026:** $135B → $140B → low-$150B — the industry keeps underestimating its own demand.
-- **Etch intensity compounds:** every GAA/HBM4 node needs ~15–20% more etch steps; HBM4 and GAA tool revenue growing >50% YoY per the dossier.
-- **FQ1 FY27 guide $8.10B ±$400M** (verified) — the guide itself keeps stepping up.
-- Delivery planning extending into 2028 on constrained tools.
+### Scenario table (panel-research estimates; price = 9/18 close $1,015.80)
+| case | prob | target | by | narrative |
+|------|-----:|-------:|----|-----------|
+| bear | 0.30 | $660 | 2027-H1 | Cycle turns: ASPs collapse from the +140% spike, HBM share stuck #3, price ceilings cap covered volume. |
+| base | 0.50 | $1,422 | 2027-Q3 | Shortage persists through 2027; SCAs execute at floor prices; market partially re-rates from cyclical to contracted-revenue compounder. |
+| bull | 0.20 | $1,828 | 2027-Q4 | HBM TAM hits ~$100B, ASPs hold, qualification wins shift share; 11–12x on forward earnings. |
+| **EV** | | **$1,274.60** | | **+25.5% vs 9/18 close — clears the +15% actionable single-pick guardrail.** |
 
-## Why it's the category leader
+Market-implied case: 6.5x forward prices MU as peak-cycle DRAM — it prices the floor, not the contracts. The pick bets the market reprices the contracted floor over the next 12 months.
 
-#1 in dry/plasma etch (~39% share), one of only three credible WFE vendors on earth (with AMAT and Tokyo Electron), 37% operating margins, 65% ROE, net cash (net debt/EBITDA −0.17). Five of its top fab customers have never built an etcher — and never will.
+### Sizing (POLICY.md §1.1, adjustments in order)
+- raw = (1,274.60 / 1,015.80 − 1) / (1 − 660 / 1,015.80) = 0.2548 / 0.3503 = **0.727**
+- size = min(5%, 2.5 × 0.727) = **1.82%**
+- **Earnings halving: next earnings ~2026-09-30, 9 days out → 0.91%** (independently confirmed by research; deterministic earnings cache was stale from the 9/18 endpoint timeout)
+- Pilot halving (pilot regime) → **0.45%** of investable capital
+- Per-pick cap 5% never binds; system cap 15% across all open system picks observed
+- `size_pct` intentionally left empty in the ledger per policy
 
-## Why it's irreplaceable
-
-The moat is **qualification lock-in + capital intensity + process-tech lead**, not a patent that expires: a new etch tool must be qualified fab-by-fab over years, at 300+ layer precision no new entrant has demonstrated. Contrast with the trap cases in this same field — NVDA faces live hyperscaler ASIC in-sourcing, ANET faces white-box substitution, SNDK/MU are replaceable commodity suppliers. Nobody in-sources an etcher. Irreplaceability 9/10 — the highest in the researched set.
-
----
-
-## Scenarios & expected value
-
-Built on the shortage math (WFE market × etch share × pricing/margin), anchored to the FQ1 FY27 $8.1B guide and the 2022–23 WFE downturn as the bear template. All numbers are research scenarios, not guarantees.
-
-- **Bear $175 (−35%) by 2027-H2:** the memory/WFE cycle turns — WFE cut ~20%, Lam revenue −15%, multiple compresses to ~16x. Quantified off the 2022–23 downturn, when WFE names drew down 40–50%. **This doubles as the stop** — a close breaching it means the shortage thesis broke.
-- **Base $365 (+36%) by 2027-Q3:** WFE holds the low-$150B range, Lam grows 25–30% on etch intensity, pricing holds. Lands near the $373 analyst mean.
-- **Bull $460 (+71%) by 2027-Q4:** the shortage extends into 2028, WFE overshoots toward $170B, Lam exercises pricing power on allocation-constrained tools.
-- **Probabilities — bear 30 / base 45 / bull 25.** Not a default split: bear gets real weight because these are cyclicals and the turn is the known killer; base gets the plurality because the shortage evidence is weeks fresh, the WFE forecast keeps rising, and quarters are accelerating; bull is real but requires the deficit to persist a full extra year.
-- **Expected value: EV = 0.30×175 + 0.45×365 + 0.25×460 = $331.75 → +23.2% over 12–18 months. Clears the +15% guardrail.**
-- **Market-implied scenario:** $269 sits between bear and base, closer to bear — the market is pricing caution, not the bull case. The stock is *below* the analyst mean target ($373), not above it.
-
-## Key swing factors (the monitoring checklist)
-
-1. WFE forecast direction (the industry's own number — a cut is the first crack).
-2. Etch tool lead times and pricing (shortage health, read directly).
-3. Memory capex plans (Samsung/SK Hynix/Micron fab timelines — the demand source).
-4. Gross margin trajectory (pricing power made visible; a roll = the turn starting).
-5. China WFE demand (mature-node exposure is the demand swing factor).
-
-## EPIC driver table
-
-| Driver | E: moves value | P: evidence-based view formable | I: market mis-weights it | C: consensus gap (falsifiable) |
-|---|---|---|---|---|
-| WFE supercycle + etch intensity growth | ✓ | ✓ | ✓ | Consensus sees cyclical WFE; we see structural intensity growth — falsifiable: Lam etch revenue outgrowing WFE |
-| Un-in-sourceable qualification moat | ✓ | ✓ | ✓ | Market prices it as a semi-cyclical; we price it as a toll road — falsifiable: gross margin durability through the next soft patch |
-| Pricing power on constrained tools | ✓ | — | ✓ | Visible only in guide raises so far; not yet in estimates — falsifiable: FQ2–FQ3 guide trajectory |
-
-Why these beat the deprioritized ones: buybacks ($15B+ authorization) and a China mature-node recovery are real but second-order — they don't decide bear vs bull. The three above do. A thesis with no consensus gap is just buying beta; here the gap is *cyclical vs structural* — the market still models the old memory cycle while the tool intensity curve has changed underneath it.
-
-## Sizing note (from POLICY.md — the owner's pre-committed policy, not personalized advice)
-
-```
-raw      = (EV/price − 1) / (1 − bear/price)
-         = (331.75/269.31 − 1) / (1 − 175/269.31)
-         = 0.232 / 0.350 = 0.66
-size     = min(5%, 2.5 × 0.66) = min(5%, 1.66%) = 1.66% of investable capital
-```
-
-Adjustments: next earnings 2026-10-21 is 34 days out — **no** 10-day halving. Per-pick cap 5% not binding. **Pilot regime (POLICY §1.4): halve again → ~0.83%** until §5 is satisfied. System cap 15% across all open picks — `scorecard.py` tracks it. Cash-only. The scenario numbers are AI-panel research estimates, not measurements — treat the formula as downside discipline, and size only down from it, never up.
-
-## Holding period & exit plan
-
-**Horizon: 12–18 months**, tied to the WFE shortage timeline (constrained into 2028 per the dossier) — this is a shortage-duration hold, not a buy-and-forget compounder slot.
-- Base target **$365 by ~2027-Q3**; bull target **$460 by ~2027-Q4** if the deficit extends into 2028.
-- **Exit on:** a close breaching the **$175** downside trigger, or any thesis-break trigger firing:
-  - WFE forecast cut by the industry analysts;
-  - etch tool lead times normalizing / pricing rolling over;
-  - gross margin peaking and declining QoQ for two quarters;
-  - a top-5 fab customer pausing/cancelling a greenfield fab.
-- **Leverage-safety note (education, not a recommendation):** WFE names drew down 40–50% in 2022–23. A cyclical shortage name can halve faster than the backlog can save it — any use of leverage against this position must survive a −50% mark first. Never a specific leverage ratio or position size.
-
-## Key risks & what invalidates the thesis (the trap case)
-
-1. **The cycle turns** — the #1 risk, quantified in the bear case. Memory capex pauses have historically cut WFE 20–30% in a year.
-2. **China mature-node digestion** — a large swing buyer going quiet.
-3. **Share loss to AMAT/Tokyo Electron in etch** — the moat is qualification, not monopoly; watch etch share prints.
-4. **The trap, assessed:** disintermediation/in-sourcing risk is **low** — no customer builds etch tools, and no substitute technology routes around the etch step. This is precisely why the trap filter confirms rather than vetoes this pick.
-5. **Earnings-quality flags** (HIGH_ACCRUALS, RECEIVABLES_OUTRUN): the dossier's verdict is benign — a cycle artifact (receivables timing on a revenue explosion, inventory shrinking vs revenue), not cash running behind earnings. Watch item, not a red flag.
-
-## What was verified
-
-Independent verifier subagent (2026-09-17), primary sources: CFO "fundamentally sold out" (Goldman, Sept 10, 2026) **confirmed**; #1 etch ~39% share with documented qualification lock-in **confirmed**; FQ1 FY27 guide $8.10B ±$400M **confirmed**; WFE forecast raised $135B→$140B→low-$150B in 2026 **confirmed**.
-
-## The panel
-
-| Lens | Pick (conviction) | Runner-up |
-|---|---|---|
-| A — Supply-chain | SNDK (8/10) | LRCX |
-| B — Growth/momentum | MU (8/10) | SNDK |
-| C — Quality/moat | **LRCX (8/10)** | AMAT |
-| D — Contrarian | CAT | LRCX |
-
-Weighted tally (top pick 2, runner-up 1): **LRCX 4**, SNDK 3, MU 2, CAT 2, AMAT 1. **Adjudication:** LRCX wins the vote outright, and the merits agree — it is the only name scoring 9/10 on *both* shortage and irreplaceability; SNDK has the purer contracted book but is a replaceable commodity supplier (the quality lens ranked it 10th); MU is maximum shortage but maximum cyclicality with #3 share and earnings in 12 days; CAT is the contrarian's un-crowded pick but a machinery cyclical. The trap filter is the tiebreaker that isn't close: LRCX is the one leader the in-sourcing trap cannot touch.
-
-## Screen metrics (from shortlist.json)
-
-Composite 0.750 (#6 of 50) · +1% above 200d SMA · +125% 12m return · TTM revenue growth +19% · operating margin 37% · ROE 65% · net debt/EBITDA −0.17 (net cash) · forward P/E 23.1 · analyst upside +39% · earnings-quality flags HIGH_ACCRUALS + RECEIVABLES_OUTRUN (dossier verdict: benign cycle artifact).
-
----
-
-*This is research output, not financial advice. Research scenarios are estimates, not guarantees. Dated 2026-09-17.*
+### Why not the runners-up
+- **KLAC (Lens C's pick, Borda #2… actually Borda 4th at 26/40):** the best moat in the field (near-monopoly process control, $12.57B backlog +60% YoY), but at ~48x trailing the 2027 ramp is already paid for; the explosive-return math is weaker (EV ~+17%).
+- **NVDA (Borda #2):** FY28 +70% supply-capped growth is real, but the doctrine's fatal trap — hyperscaler custom-ASIC in-sourcing of inference — is already in progress against Nvidia itself; two lenses docked it hard for exactly this.
+- **SNDK (Borda #5):** the purest shortage vehicle ($93.9B floor-priced NBM book at >80% margins) at the worst entry timing — +1,650% in 12 months, −35% from the high, peak-cycle earnings.
+- **FCX (Borda #6):** the only real structural commodity deficit, but fungible copper gives zero pricing power and the Grasberg restart is execution risk.
