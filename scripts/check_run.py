@@ -25,6 +25,22 @@ REQUIRED = [("shortlist", ".csv"), ("shortlist", ".json"), ("funnel", ".json"),
 GAPS = ROOT / "output" / "gaps.md"
 
 
+def _last_commit(pathspec):
+    r = subprocess.run(["git", "log", "-1", "--format=%ct", "--", pathspec],
+                       cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    return int(r) if r else 0
+
+
+def gap_is_stale(mode):
+    """True once output/<mode>/ has been committed more recently than gaps.md was written.
+
+    A gaps.md row describes one historical run. Dates repeat: a rerun on the SAME date inherited
+    the suppression and hid a fresh miss (the 2026-09-21 earnings rerun published a pick off
+    research batches it never consolidated into a dossier, and this check passed it). Once a mode
+    has moved on, the recorded gap no longer describes its current state, so stop forgiving it."""
+    return _last_commit(f"output/{mode}") > _last_commit("output/gaps.md")
+
+
 def known_gaps():
     """Runs already recorded as unrecoverable in output/gaps.md: (mode, date) pairs.
 
@@ -60,8 +76,11 @@ def check_mode(mode, gaps=frozenset()):
         elif d < pub:
             msg = (f"{mode}: {stem}{ext} is dated {d} but the published run is {pub} — "
                    f"the screen behind those picks was never committed")
-            (warns if (mode, pub) in gaps else errs).append(msg + " [recorded in output/gaps.md]"
-                                                            if (mode, pub) in gaps else msg)
+            forgiven = (mode, pub) in gaps and not gap_is_stale(mode)
+            (warns if forgiven else errs).append(
+                msg + (" [recorded in output/gaps.md]" if forgiven else
+                       " — output/gaps.md records this date, but this mode has been committed "
+                       "since, so the record no longer describes it"))
     return errs, warns
 
 
