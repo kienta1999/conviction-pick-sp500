@@ -513,10 +513,11 @@ end; on 2026-09-21 all three modes published picks and left their screen uncommi
 picks lost their inputs permanently (`output/gaps.md`).
 
 ```
-uv run python scripts/check_run.py <MODE>
+uv run python scripts/check_run.py <MODE>      # one mode: scoped to output/<MODE>
+uv run python scripts/check_run.py             # no args: every mode, plus output/ itself
 ```
 
-It fails when the newest `final_ranking` / `final_pick` is dated later than the newest
+Running a single mode is normal and does **not** require the other two to be current. It fails when the newest `final_ranking` / `final_pick` is dated later than the newest
 `shortlist` / `funnel` / `research_dossier` — i.e. the screen behind the published picks was never
 committed — and when anything under `output/` is uncommitted or untracked.
 

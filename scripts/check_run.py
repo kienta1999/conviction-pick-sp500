@@ -65,7 +65,7 @@ def check_mode(mode, gaps=frozenset()):
     return errs, warns
 
 
-def main(modes):
+def main(modes, explicit=False):
     gaps = known_gaps()
     errs, warns = [], []
     for m in modes:
@@ -73,7 +73,11 @@ def main(modes):
         errs += e
         warns += w
 
-    dirty = subprocess.run(["git", "status", "--porcelain", "output/"], cwd=ROOT,
+    # Scope the commit check to the modes being checked. Running one mode is normal, and a stray
+    # file under another mode is that mode's problem, not a reason to block this run. With no
+    # args every mode is checked, and so is output/ itself (gaps.md and anything else top-level).
+    paths = [f"output/{m}" for m in modes] if explicit else ["output/"]
+    dirty = subprocess.run(["git", "status", "--porcelain", *paths], cwd=ROOT,
                            capture_output=True, text=True).stdout.strip()
     if dirty:
         errs.append("uncommitted files under output/ — a run is not finished until this is empty:\n"
@@ -94,4 +98,8 @@ def main(modes):
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:] or list(MODES)))
+    args = sys.argv[1:]
+    bad = [a for a in args if a not in MODES]
+    if bad:
+        sys.exit(f"unknown mode(s): {', '.join(bad)} — pick from {', '.join(MODES)}")
+    sys.exit(main(args or list(MODES), explicit=bool(args)))
