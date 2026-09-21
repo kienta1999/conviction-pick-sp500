@@ -156,8 +156,8 @@ inputs. A dated filename is untracked every run, so the same mistake cannot repe
 
 `scripts/screen.py` already writes dated names and archives superseded ones. Panel outputs are
 yours to name: write `OUT/final_pick_<RUNDATE>.md` and `OUT/final_ranking_<RUNDATE>.md`, never the
-bare name. **Before you finish, run `git status --porcelain output/` and commit everything it
-lists** — a dated file that is never committed is still a lost audit trail.
+bare name. **Phase 5 makes finishing a checked step — `scripts/check_run.py` must exit 0 before a run
+is done** — a dated file that is never committed is still a lost audit trail.
 
 ---
 
@@ -503,6 +503,30 @@ Write `OUT/final_ranking.md` with:
 Then **record the top N in the ledger** (see Ledger below), and present a tight
 summary: the ranked table, the panel split (and what multi-round averaging
 changed, if R > 1), and point the user to the writeup.
+
+---
+
+## Phase 5 — finish the run (NOT optional, and not "write the memo")
+
+A run is finished when everything it generated is **committed**. Publishing the memo is not the
+end; on 2026-09-21 all three modes published picks and left their screen uncommitted, and those
+picks lost their inputs permanently (`output/gaps.md`).
+
+```
+uv run python scripts/check_run.py <MODE>
+```
+
+It fails when the newest `final_ranking` / `final_pick` is dated later than the newest
+`shortlist` / `funnel` / `research_dossier` — i.e. the screen behind the published picks was never
+committed — and when anything under `output/` is uncommitted or untracked.
+
+**Commit what it lists, then run it again. Repeat until it exits 0.** Do not report the run as
+done, and do not write the ledger row, while it is non-zero. A gap already recorded in
+`output/gaps.md` warns instead of failing, so the check stays meaningful.
+
+There is no artifact in `output/` too minor to commit. Shortlists, funnels, dossiers, ballots,
+triage, verification and memos are together the audit trail that a `picks/ledger.csv` row points
+at. Half of it is worth nothing.
 
 ---
 

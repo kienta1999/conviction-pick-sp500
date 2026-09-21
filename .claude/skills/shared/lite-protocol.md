@@ -157,6 +157,18 @@ in the first two lines of `final_pick_lite.md`, where the file name most
 invites the opposite assumption. If the user wants the pick recorded, that is
 the full skill's job.
 
+## Finish the run — same bar as the full protocol
+
+```
+uv run python scripts/check_run.py <MODE>
+```
+
+Commit everything it lists and re-run until it exits 0. Lite writes fewer files, not less of an
+audit trail: the shortlist and funnel behind a lite memo are exactly as required as they are for
+a full panel, and lite skipping the dossier is not a licence to skip the screen.
+
+---
+
 ## Guardrails (unchanged from the full protocol)
 
 - Never fabricate figures, backlogs, drawdowns, multiples, consensus numbers or
