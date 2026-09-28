@@ -8,50 +8,50 @@
   {
     "stage": "2 US company",
     "in": 428,
-    "out": 409,
-    "dropped": 19
+    "out": 408,
+    "dropped": 20
   },
   {
     "stage": "3 TTM rev growth>0",
-    "in": 409,
-    "out": 371,
+    "in": 408,
+    "out": 370,
     "dropped": 38
   },
   {
     "stage": "4 leverage ok",
-    "in": 371,
+    "in": 370,
     "out": 261,
-    "dropped": 110
+    "dropped": 109
   },
   {
     "stage": "5 below 200d SMA",
     "in": 261,
-    "out": 113,
-    "dropped": 148
+    "out": 110,
+    "dropped": 151
   },
   {
     "stage": "5b drawdown >=-0.55",
-    "in": 113,
-    "out": 109,
+    "in": 110,
+    "out": 106,
     "dropped": 4
   },
   {
     "stage": "6 op margin>sector med",
-    "in": 109,
-    "out": 54,
-    "dropped": 55
+    "in": 106,
+    "out": 52,
+    "dropped": 54
   },
   {
     "stage": "6b earnings quality",
-    "in": 54,
-    "out": 52,
-    "dropped": 2
+    "in": 52,
+    "out": 51,
+    "dropped": 1
   },
   {
     "stage": "7 0<fwdPE<35",
-    "in": 52,
+    "in": 51,
     "out": 50,
-    "dropped": 2
+    "dropped": 1
   },
   {
     "stage": "8 niche leaders (N=2,R=0.2,R2=0.5)",
