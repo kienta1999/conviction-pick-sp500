@@ -441,7 +441,10 @@ skill's doctrine-specific sections where its SKILL.md says:
 
 Then **record the pick in the ledger** (see Ledger below), and present a tight
 summary to the user: the pick, the one-line thesis, the panel vote, and the
-headline return scenario. Point them to the full writeup.
+headline return scenario. Point them to the full writeup. In dip and momentum,
+also report the cross-run consensus (Phase 4B's last step) and say whether
+today's single pick is in its top 3 — a pick outside it is today's view, not
+the system's.
 
 ---
 
@@ -503,6 +506,14 @@ Write `OUT/final_ranking.md` with:
 Then **record the top N in the ledger** (see Ledger below), and present a tight
 summary: the ranked table, the panel split (and what multi-round averaging
 changed, if R > 1), and point the user to the writeup.
+
+**Then the consensus — the pick the user acts on (dip and momentum).** With today's rank10 rows
+in the ledger, run `uv run python scripts/consensus.py --mode <MODE> --write`. It re-scores the
+last 5 rank10 runs (Borda) and writes `OUT/consensus_<RUNDATE>.md`: the **consensus top 3**
+(names in the top 10 in ≥ 4 of 5 runs, by points) and the screen-only top 3 as a baseline. Put the
+consensus top 3 at the top of `final_ranking` as the official pick, above today's Borda #1, and
+say in one line where they differ. Today's #1 moves on near-ties (BR 30 vs IDXX 29 on 2026-09-24);
+the consensus only moves when several panels agree. Commit the file with the run (Phase 5).
 
 ---
 

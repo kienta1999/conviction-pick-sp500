@@ -51,6 +51,7 @@ and the same scripts, switched by `screen.py --mode`:
 | 4b   | `.claude/skills/stock-pick-dip/`          | Dip AI skill: web research → Opus 4.8 panel → verification → one pick (or top-N) → `output/dip/final_pick.md` + ledger row(s).                                                                                                                               |
 | 4c   | `.claude/skills/stock-pick-earnings/`     | Earnings AI skill: same machinery, event horizon → `output/earnings/final_pick.md` + ledger row(s) + a mandatory `kind=close` row within days of the print.                                                                                                  |
 | 5    | `scripts/scorecard.py`                    | The feedback loop + **exit rules**: classifies every ledger row (AT_TARGET / STOPPED / EXPIRED / OPEN / CLOSED), benchmarks vs SPY, builds the realized track record from `kind=close` rows, and (`--check`) exits non-zero with an ALERTS section for cron. |
+| 5a   | `scripts/consensus.py`                    | **The official pick.** Borda over the last 5 rank10 runs in the ledger; a name qualifies only if it made the top 10 in ≥ 4 of 5, and the consensus top 3 is the three highest qualifiers. Also prints the screen-only top 3 (composite rank, no AI) as a baseline. `--write` → `output/<mode>/consensus_<date>.md`. |
 
 ## The deterministic funnel (`screen.py`)
 
