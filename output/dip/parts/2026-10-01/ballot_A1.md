@@ -1,40 +1,30 @@
-# Ballot A1 — Panelist A (Mean-reversion / catalyst analyst) — RUN_DATE 2026-10-01
+### Ballot — Panelist A · single-pick (mode-wide)
+**Top pick:** VRT
+**Runner-up:** BKNG
+**Thesis:** Vertiv is the field's cleanest washed-out quality name: -34.6% off the high after a 17.2% one-day fall on a ~3% Q2 revenue timing miss, while full-year guidance was raised to adjusted EPS $6.65–$6.75 on sales of $13.8–$14.2 billion. At 27.0x forward for ~60% guided 2026 EPS growth and a 20–22% revenue CAGR framework to 2030, the multiple now sits below the growth rate. A ~$15 billion backlog and customer advance payments mean the rebound needs shipments, not new demand. Sentiment was washed further by the opaque UIG deal in September, giving good news room to move the stock again.
+**Why the dip is temporary:** The Q2 shortfall was attributed to temporary supply-chain congestion and multi-phased project execution, and the inventory build to $2.523 billion was a pre-build for the guided H2 ramp — deferred revenue reached $3.634 billion on customer advance payments, CFO/net income is 1.94 with a negative accrual ratio, and Q2 adjusted FCF rose 234% to $925 million. That is paid-for backlog converting late, not demand destruction.
+**Moat / AI-irreplaceability risk:** 7.5/10 in the dossier — scale as the only pure-play with an integrated power-plus-thermal stack, design-in switching costs at hyperscalers, a recurring service tail, and the NVIDIA 800 VDC reference-design partnership for the 2027 Rubin Ultra cycle. Megawatts and heat do not move to the cloud; the real risks are liquid-cooling commoditisation, hyperscaler in-sourcing, and customer concentration (top four >40% of orders), not AI substituting the product.
+**Rebound catalyst & timing:** 2026-10-21 Q3 print, with an explicit bar: ~$3.75 billion sales (+40% YoY at the guide midpoint) and adjusted EPS $1.77–$1.83. Hitting it proves the Q2 "timing shifts" story, shows inventory converting to shipments, and any UIG financial disclosure on the call removes the September overhang. This is a dated, falsifiable catalyst within three weeks — exactly what this lens requires.
+**12–18mo scenario (base–bull):** entry $246.12 → base $338 (Oct 2027) → bull $416 (Apr 2028), with the reasoning in a sentence: $338 is the screen-implied analyst mean (+37.4%) and is reachable on backlog conversion alone, while $416 is Bernstein's target and requires the 800 VDC cycle and sustained orders growth to re-rate the stock fully.
+**Top risk:** The cycle itself — if hyperscaler capex merely stops accelerating, or Q3 slips again on "timing," earnings and multiple compress together and the timing story becomes an execution discount.
+**Conviction (1–10):** 8
 
-Lens: rebound-catalyst strength/timing and evidence the dip is temporary. Figures from the 2026-10-01 dip dossier; where a number is not in the dossier I write "not found" rather than guessing.
+### Ballot — Panelist A · ranked top 10
+1. VRT — Oct 21 shipment print proves timing
+2. BKNG — AI fear washed, buyback floor set
+3. SYK — Growth intact, multiple compressed hardest
+4. SPGI — Record prints contradict AI de-rating
+5. LVS — Hold luck mean-reverts, buyback massive
+6. TPR — Coach beat punished, November proof
+7. EFX — Rate torque on triopoly trough
+8. IDXX — Raised guidance, multiple de-rated sharply
+9. CPRT — Half historical multiple, comps ease
+10. AZO — LIFO halving mechanically lifts EPS
 
----
+**VRT (1):** The only name where estimates rose while the multiple collapsed below the growth rate, with net cash (screen net debt/EBITDA 0.08x) removing solvency from the debate. The Oct 21 print is binary and near, so capital is not dead money waiting for a narrative to change. If inventory does not fall as Q3 shipments land, the thesis is wrong quickly and visibly — a feature, not a bug.
 
-## BALLOT 1 — SINGLE PICK
+**BKNG (2):** Down -26.5% to 13.0x forward after an -18.5% 30-day slide on a blocked eTraveli deal, oil, and AI-agent fears, despite a Q2 beat on every guided line and reaffirmed full-year guidance. The floor is mechanical: $3.7 billion of buybacks in Q2 alone, $14.5 billion still authorised, and ~$9.5 billion TTM FCF, with the seasonally biggest quarter printing 2026-10-27 against guidance that already embeds Middle East drag. Its 7/10 irreplaceability — 68.8% of European OTA bookings and a merchant/payments stack AI agents currently partner with rather than replace — is the main reason it is runner-up, not top pick.
 
-- **Top pick:** LVS
-- **Runner-up:** SYK
-- **Thesis (3-5 sentences):** Hold variance is mathematically mean-reverting — a single normal rolling-play quarter reverses the ~$87M adjusted property EBITDA drag that caused the Q2 miss. Volumes already grew across all Macau segments in Q2 (the miss was yield, not demand), and H1 2026 printed +11.6% revenue and +20% EPS. At a −44.6% drawdown and ~10.8× forward P/E (PEG ~0.53) with a $6.0B buyback authorization through July 2029 as mechanical demand, the market priced a one-off hold miss plus World Cup spending diversion as if it were permanent. Q3 earnings on 10/21 — days away — is the fastest clean re-rating trigger in the batch.
-- **Why the dip is temporary (not permanent):** The Q2 miss was luck, not the business — casino hold is statistical variance that reverts quarter to quarter, and every one-off driver (World Cup betting diversion, crypto-weakness VIP pressure, tight capital flows, a single low-hold rolling quarter) is transient by construction; Q1 was a strong beat (adj EPS $0.91 vs $0.78 est) and gaming volumes grew across all Macau segments in Q2.
-- **Moat / AI-irreplaceability:** Low risk. One of six Macau concessionaires (government-capped supply is a license moat) plus Marina Bay Sands, the best asset in Singapore; capital intensity + regulatory barriers. AI cannot substitute a casino floor. The real threats are regulatory (Beijing) and demand cyclicality — not technology or substitution.
-- **Rebound catalyst & timing:** Q3 2026 earnings on 2026-10-21 — normalized rolling-play hold + continued Macau volume growth + Singapore strength (MBS mass gaming +5% in Q2 to $886M) prints a clean beat; Golden Week/Q4 Macau visitation data and any capital-flow easing are sector tailwinds.
-- **12-18 month return scenario:** Base ~$55–60 (+45–60% from ~$38, toward the analyst mean target of $59.84) on normalized hold and steady Macau volume recovery; bull ~$70+ (back toward the $70.45 52w high) if Beijing eases capital controls or adds stimulus and hold runs hot.
-- **Top risk (value-trap case):** The bear case is Beijing, not Vegas — a renewed anti-gambling campaign, tighter capital controls, or a China slowdown that stalls Macau's recovery at a lower plateau would strand the 10–11× multiple. The tell: AR up ~17% YoY to $622M against −0.7% revenue — watch-item per the dossier, not fatal (rolling-play credit markers rising with volumes while low hold reduced cash collected), but receivables outrunning revenue is exactly the value-trap signature, so confirm collection trends on the 10/21 call. If volumes — not just hold — roll over, this is a 10× P/E on a shrinking number.
-- **Conviction (1-10):** 7
+**SYK (3):** A cyber wiper attack and one Inari vascular supply failure de-rated intact 9% volume growth from ~25x forward to 16.3x, even as Q2 adj. EPS rose 17.9% and guidance was narrowed up to 8.3–9.3% organic growth. The catalyst is dated and linguistic: 2026-10-29 language shifting vascular backorders from "persists" to "normalising," plus buyback resumption at a depressed price. Mako's installed base (>3,000 systems, record Q2 installs) gives it a 9/10 irreplaceability score, so this is multiple compression on a moat, not share loss.
 
----
-
-## BALLOT 2 — RANKED (top 10)
-
-1. LVS — hold mean-reverts quarterly; −44.6% on one-off miss
-2. SYK — cyber/supply one-offs resolved by 10/29; 9% organic demand
-3. CBOE — record-breaking exchange at perps-headline discount
-4. TPR — Coach at peak momentum derated on conservative guide
-5. ISRG — best medtech franchise; cheapest earnings yield since 2016
-6. HSY — cocoa-collapse earnings recovery already printed (+33% Q2 beat)
-7. EFX — trough-cycle credit tollbooth; needs Fed/FHFA clarity
-8. IDXX — intact beat-and-raise compounder; 30s multiple caps torque
-9. AZO — derated 33% on tariff/SSS noise; catalyst is 12/08, too far
-10. BKNG — highest quality at trough multiple; AI-fear unwind is slow
-
-**Top-3 expanded (most compelling temporary-dip + intact-moat datapoint, plus 12–18mo scenario):**
-
-1. **LVS** — The drop is provably about price, not the business: Q2 gaming *volumes* grew across every Macau segment while the miss came entirely from "unusually low hold in rolling play" (−$87M EBITDA) — hold is statistical noise that reverts quarterly, and the other drivers (FIFA World Cup spending diversion, crypto weakness, one-off low hold) are transient by construction. Moat is intact: scale leader in Macau, one of six government-capped concessionaires, Marina Bay Sands the dominant Singapore property, and no share is being lost. 12–18mo: base ~$55–60 (+45–60%, analyst mean $59.84) on normalized hold; bull ~$70+ on capital-flow easing plus hot hold.
-2. **SYK** — The most clearly transitory cocktail in the medtech pair: a January 2026 cybersecurity incident plus peripheral-vascular supply backorders knocked a company growing 9% organically, and Wells Fargo's September PT cut ($418→$348) models 2026 EPS at $14.95 — the *low end* of the $14.95–$15.10 guide, an unusually low bar for the 10/29 Q3 print. Moat is intact and AI-proof: #1 orthopaedic robotics (Mako, 3,000+ systems, 2.5M+ procedures), surgeon-switching-cost lock-in, and AI is Stryker's tailwind, not threat. 12–18mo: base ~$365–385 (+33–40%, in line with the $367–386 consensus target band) on a clean Q3 and vascular resolution; bull ~$420+ if margin leverage and Mako Shoulder/Shoulder RPS launches re-earn the 25–30× premium multiple.
-3. **CBOE** — The #1 U.S. index-options franchise (proprietary VIX/SPX products, liquidity network effects) fell >9% on a single 2026-06-16 perps-approval headline and never recovered, while the business printed record Q2 2026 net revenue of $731.6M (+25%), adj EPS $3.56 (+45%, a beat), raised FY2026 organic net-revenue guidance to mid-to-high teens, and hiked the dividend 19% (16th straight annual increase). The scare is already being walked back by BofA (bullish on Cboe/CME/ICE "despite perps threat," Sep 2026). 12–18mo: base ~$318 (+20% toward the $318.01 consensus target) on fading perps noise and any volatility spike; bull ~$335+ (UBS's $335 target) if Q3 (10/30) confirms the record run and exchanges re-rate toward 20–24×.
-
-**Deliberately left out of my top 10 and why:** ADBE — catalyst is 12/09, furthest out, and the net-new-ARR −38% deceleration is a real execution question, making it the batch's sharpest AI value-trap candidate. VRSK — moat intact and AI-proof, but 5.8–6.3% organic growth may never re-earn a 30× multiple; a slow grind, not a fast re-rate. BRO — the rebound requires the insurance rate cycle to turn, which has no near-term trigger, and the Accession debt load (~$6.8B net debt) makes it the batch's heaviest balance-sheet value-trap risk. CPRT — rebound needs insurance-volume recovery plus digestion of the largest-ever ($1.9B) ACV deal; the swing factor makes the timing fuzzy. (Names 11–14 by composite: ADBE, VRSK, BRO, CPRT — excluded strictly on this lens's speed-of-re-rate criterion, not on moat quality.)
+Deliberately out / traps: VRSK (solid 8/10 data moat, but the H2 re-acceleration catalyst is vague and distant to Dec 8 for a ~6% grower), ADBE (statistically cheapest at 8.7x, but net new ARR fell ~38% and the catalyst waits until Dec 10 — cheap with a terminal seat question and no near timetable), ISRG (superb quality, but 33.6x and only +17.1% analyst upside is not washed-out enough for this lens), and HSY (cocoa deflation is real, but volume fell 8–10 points with Q2 share loss — the field's most plausible genuine value trap until the Oct 30 volume print proves otherwise).

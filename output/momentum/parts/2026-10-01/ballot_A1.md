@@ -1,41 +1,33 @@
-# Panelist A (Supply-chain analyst) Ballot — Momentum run 2026-10-01
-
-**Lens:** shortage + backlog evidence and multi-year revenue visibility weighted above all. Peak-cycle risk flagged where the dossier supports it.
-
----
+# Panelist A — Supply-Chain Analyst — Momentum Ballot — 2026-10-01
 
 ## Single-pick ballot
-
 - **Top pick:** MU
-- **Runner-up:** APH
-- **Thesis (3-5 sentences):** Micron is the only name with a genuine multi-year structural shortage *and* contract walls converting it into locked revenue: ~$150B in remaining performance obligations under take-or-pay agreements with floor/ceiling pricing, covering >35% of revenue through 2030, with management guiding supply-demand "much tighter in 2027 and 2028 than 2026" and no line-of-sight to rebalancing. 75% of calendar-2027 output is already committed and customer discussions are now on 2028. Despite a +277% YTD run, it still trades at ~6.6x forward earnings with 42.8% analyst upside — the cheapest vehicle for the tightest shortage in the dossier, which is the explosive combination this lens rewards.
-- **Key shortage/backlog evidence:** $32B in customer financial commitments, overwhelmingly cash deposits ($12.3B in Q4 FY26 alone) — customers prepaying to secure supply under take-or-pay contracts is the hardest possible evidence the shortage is real and demand is locked, not hoped for.
-- **Irreplaceability / disintermediation risk:** **Low** — no hyperscaler can realistically in-source DRAM/NAND fabrication (tens of billions per fab; top-3 vendors control 90–95% of DRAM), and the take-or-pay contract walls mean allocation goes to committed buyers regardless of spot fungibility. The watch item is China's CXMT (DRAM share 7–10% and rising) — a medium-term oversupply threat, not a disintermediation one.
-- **12-18 month return scenario:** Base ~+25–40% as 2027–28 tightness is repriced on the back of the contract book; bull ~+60–100% if the 2027 shortage matches management's "much tighter than 2026" framing and margins expand toward the 87%+ Q4 level with price increases holding.
-- **Top risk:** Peak-cycle memory dynamics — the eighth straight beat drew only a ~1.5–2% after-hours pop and a 15bp gross-margin guide miss stalled the rally; $25B H1 FY27 capex reinvests peak-cycle cash, and a price-deceleration signal (management already guiding "more moderate rate of price increases") would compress the multiple hard.
-- **Conviction (1-10):** 8
+- **Runner-up:** CAT
+- **Thesis (3-5 sentences):** MU is the only name where the shortage is already converted into contracted, cash-backed revenue: HBM is sold out through calendar 2027, customers are locking 2028 supply, and management has no line of sight to supply-demand balance. That visibility is not guidance — it is ~$150B of RPO under 26 take-or-pay Strategic Customer Agreements covering >35% of revenue through 2030, with even floor prices producing margins above any prior cycle peak. At a 6.6x forward P/E with +42.8% analyst upside, the market is still pricing memory cyclicality while the contracts have structurally de-cyclicalised the next 4-5 years. No other name on the list pairs a 9/10 shortage with this scale of multi-year, deposit-backed backlog.
+- **Key shortage/backlog evidence:** ~$150B RPO (30 Sep 2026) backed by $32B of customer financial commitments — $12.3B of cash deposits arriving in Q4 alone — with >75% of FY27 output already committed and HBM sold out through 2027.
+- **Irreplaceability / disintermediation risk:** low — Only three firms on earth (Samsung, SK hynix, Micron) make leading-edge DRAM/HBM at scale; a new fab costs ~$10-20B and takes 2-3+ years plus Nvidia qualification per generation (Micron is qualified on Vera Rubin HBM4 and co-developing custom HBM4E). Hyperscalers cannot in-source DRAM and are instead prepaying $32B to secure it; the only real risk is intra-oligopoly share shift, not bypass.
+- **12-18 month return scenario:** Base +35-45% (toward ~$1,450-1,550 consensus area as FY27 SCA revenue converts at floor-plus pricing); bull +85-95% (toward the ~$2,000-2,100 Street high if 2028 agreements reprice up and the deficit — Goldman: 4.9% DRAM / 5.1% HBM, most severe in 15 years — persists past 2027).
+- **Top risk:** Memory cyclicality reasserting — today's 87.0% non-GAAP gross margin is a shortage price, SCA ceilings cap upside, and the stock barely rose on a historic beat-and-raise (Q1 GM guide 86.3% vs 86.7% expected), so any guide slip is punished; HBM share also slipped 21% → 18% in Q2 as Samsung resurged.
+- **Conviction (1-10):** 9
 
----
+## Ranked ballot (top 10 of the 14, best first)
+1. MU — $150B take-or-pay RPO, sold out
+2. CAT — Record $72B backlog, orders to 2030
+3. SNDK — $91B RPO with $16.5B guarantees
+4. LLY — Capacity-gated GLP-1 leader, $55B buildout
+5. CDNS — Record $8.1B backlog, duopoly chokepoint
+6. KEYS — Record orders, supply caps conversion
+7. FCX — Structural copper deficit, no contracted backlog
+8. APH — Record orders, 1.23 book-to-bill
+9. ANET — $6.9B deferred, capture contestable
+10. CSCO — $46.7B RPO, AI orders $9.3B
 
-## Ranked ballot
+### Top 3 — shortage/backlog deep dive
 
-1. MU — $150B RPO, 75% of CY27 sold
-2. APH — 50-week lead times, 1.23 book-to-bill
-3. SNDK — $42B NBM deals, capacity sold out
-4. KEYS — record backlog, supply can't convert orders
-5. FCX — record copper, 407k-ton 2026 deficit
-6. AMAT — fabs full, eight-quarter customer visibility
-7. LRCX — owns etch chokepoint, pricing power
-8. ANET — $9.6B purchase commitments, 40% growth
-9. CAT — record $72B backlog, orders to 2030
-10. LLY — capacity tight but shortage phase over
+**1. MU:** The single most compelling data point is the step-change in one quarter: RPO ~$100B → ~$150B, SCA count 16 → 26, and customer deposits $22B → $32B, alongside industry reports that all three DRAM makers have allocated entire 2027 production at only 60-70% of requested volumes. Customers do not post $12.3B of deposits in a single quarter for a commodity they can bypass. 12-18mo scenario: base +35-45%, bull +85-95% if tightness extends into 2028 pricing.
 
-**Top 3 detail:**
+**2. CAT:** The backlog is the thesis: a record $72B at end-Q2 2026, +92% YoY and +$9B in one quarter, with large-engine backlog up >3.5x since January 2024, large engines sold out through 2027 and well into 2028, some Power & Energy orders placed as far out as 2030, and power-generation sales to users +72% in Q2. CAT is tripling large-recip capacity by 2030 and still cannot meet demand (~60% of 2026 demand met) — a supplier expanding that aggressively while remaining sold forward is verified shortage, not a forecast. 12-18mo scenario: base +20-25% (toward ~$995-1,010 consensus as ~59% of backlog converts within 12 months); bull +45-55% if datacenter prime-power orders keep compounding and the 2030-dated book firms up.
 
-1. **MU** — The single most compelling data point: $32B in customer financial commitments, $12.3B of cash deposits in Q4 alone under take-or-pay agreements — prepayment-backed demand through 2030 on a commodity the buyer literally cannot make. Base ~+25–40% / bull ~+60–100% over 12–18 months as 2027–28 tightness is confirmed on the call's "much tighter than 2026" framing.
+**3. SNDK:** The NBM contract web is the second-largest hard backlog on the list: minimum $93.9B of expected revenue at floor pricing across 10 deals / 8 customers, $91.1B RPO including post-quarter deals, and $16.5B of cash deposits and financial guarantees, covering >50% of bits in FY27 and ~2/3 of bits in FY28 over a >4-year weighted duration — built on bits "on allocation well beyond calendar 2027" and 2027 NAND capacity forecast ~40% below its 2022 peak. It ranks below MU and CAT only because irreplaceability is 5/10: NAND is multi-sourced over standard NVMe interfaces and YMTC already ties its ~13% share. 12-18mo scenario: base +20-30% (floor-priced NBM conversion at ~80% expected GM); bull +65-70% (toward Bernstein's $3,000) if spot NAND pricing stays near record levels instead of decelerating as TrendForce's Q3 +10-15% suggests.
 
-2. **APH** — The single most compelling data point: fiber lead times stretched to ~50 weeks with hyperscalers securing capacity *years ahead* via long-term agreements, on top of a record $10.7B quarterly order book at a 1.23 book-to-bill. Base ~+15–25% if 2027 visibility converts; bull ~+40–60% if the AI interconnect shortage intensifies — tempered by the dossier's 55× forward multiple and deliberate dual-sourcing.
-
-3. **SNDK** — The single most compelling data point: ~$93.9B cited across 10 New Business Model long-term agreements with $11B+ in financial guarantees tied to minimum purchase commitments, and over one-third of fiscal 2027 production pre-sold/locked — a pure-play NAND vehicle with sold-out 2026 capacity. Base ~+20–35% if 2027 pricing holds +30% (Gartner); bull ~+60%+ on continued contract-price strength — tempered by being the 5th–6th NAND vendor in a fungible market with YMTC/Samsung capacity surges as the peak-cycle threat.
-
-**Left out of top 10:** CSCO — it's the *buyer* stockpiling (inventory +80%, obsolescence risk), not the scarce supplier; margins compressing (66.3% from 68.4%) and white-box bypass is real in its AI growth segment. AME — quality compounder with a record $4.11B backlog, but the dossier finds no literal shortage; demand-cycle momentum at ~35× trailing earnings doesn't clear this lens.
+Left out of top 10: LRCX and AMAT — irreplaceable toll-takers (9/10 and 8/10) but neither discloses a hard backlog (LRCX deferred revenue only $2.43B; AMAT backlog not disclosed), so visibility rests on revocable customer forecasts, and EW and AME — shortage scores of just 4/10 each, with no sold-out capacity (EW's constraint is patient referral/hospital throughput; AME's record $4.11B backlog is ~80% short-cycle within 12 months on a demand upcycle, not scarcity).

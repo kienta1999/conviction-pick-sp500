@@ -1,48 +1,33 @@
-# Momentum ballot — Panelist B (Growth/momentum investor)
-RUN_DATE: 2026-10-01
+# Panelist B — Growth / Momentum Investor — Momentum mode, 2026-10-01
 
-Lens: revenue acceleration, earnings revisions, price momentum. The fastest compounder, not the most balanced story.
+## Single-pick ballot
+- **Top pick:** MU
+- **Runner-up:** SNDK
+- **Thesis (3-5 sentences):** MU is the fastest large-cap compounder in the set with the revisions to prove it: Q4 FY26 revenue $54.23B, +379% YoY after +31% sequentially, and FQ1 FY27 guided to $61.5B vs $56.6B consensus — growth is still accelerating, not rolling over. The screen confirms it: revenue YoY +346%, revenue acceleration +204pp, 6-month return +215%, yet forward P/E is only 6.6x with +42.8% analyst upside, the highest in the 14. Unlike pure price-momentum names, that speed is contracted: HBM is sold out through 2027 and customers are prepaying to secure 2028 supply. SNDK's raw growth is even hotter, but its momentum already broke once (-35% from its June peak) and NAND price gains are decelerating, so MU offers the better acceleration-to-moat trade-off.
+- **Key shortage/backlog evidence:** ~$150B RPO across 26 Strategic Customer Agreements covering >35% of revenue through 2030, backed by $32B of customer financial commitments ($12.3B of cash deposits in Q4 alone), with HBM sold out through calendar 2027.
+- **Irreplaceability / disintermediation risk:** low — Only three firms on earth (Samsung, SK hynix, Micron) make leading-edge DRAM/HBM at scale; a new fab costs ~$10-20B and takes 2-3+ years, hyperscalers cannot in-source memory and are instead prepaying Micron, and Micron is qualified/co-developing HBM4/HBM4E with Nvidia. Residual risk is intra-oligopoly share shift (HBM share 21% → 18%), not bypass.
+- **12-18 month return scenario:** Base +40-50% (toward the ~$1,521 analyst mean as FQ1/FY27 contracted revenue converts at floor-protected margins); bull +90-100% (toward the $2,100 Street high if HBM/DRAM tightness extends through 2028 and estimates keep revising up).
+- **Top risk:** Memory cyclicality at peak pricing — 87.0% gross margin is a shortage price, the stock barely rose on a historic beat-and-raise (Q1 GM guide 86.3% vs 86.7% expected), so any guide or margin slip is punished hard.
+- **Conviction (1-10):** 9
 
----
+## Ranked ballot (top 10 of the 14, best first)
+1. MU — accelerating +346% revenue, contracted HBM supercycle
+2. SNDK — fastest revenue/EPS growth, extreme price momentum
+3. KEYS — orders +56%, EPS revisions surging upward
+4. APH — AI datacom +89%, revenue accelerating hard
+5. LLY — +48% revenue, durable GLP-1 capacity compounder
+6. ANET — FY26 guide raised to +40% growth
+7. LRCX — guided +21% sequential revenue step-up
+8. AMAT — DRAM/packaging growth, +51% guided quarter
+9. CAT — EPS momentum surging, backlog +92% YoY
+10. CSCO — AI orders 4.5x, re-rating momentum building
 
-**Single-pick ballot:**
+### Top 3 — shortage/backlog detail and scenarios
 
-- **Top pick:** SNDK
-- **Runner-up:** MU
+**1. MU** — The single most compelling data point is the contracted book: ~$150B RPO, 26 take-or-pay SCAs, $32B of customer commitments and HBM sold out through 2027, with >75% of FY27 output already committed — growth visibility no other name here matches at this speed. 12-18mo scenario: base +40-50%; bull +90-100% if supply stays tight past 2027 and the SCA book keeps expanding.
 
-- **Thesis (3-5 sentences):** SNDK has the most violent revenue acceleration in this batch — fiscal Q4 revenue +372% YoY with two-thirds of the sequential growth from pricing, not volume — yet it trades at the cheapest forward multiple of the twelve names (~6.6x forward PE) and sits 35% below its late-June peak, so price momentum has room to re-accelerate rather than needing to hold an apex. Earnings revisions are going one way: Barclays took its target $1,200→$2,300 after the Q4 blowout, the company bought back ~$4.5B in a single quarter, and it carries a $42B floor-priced contract book with >1/3 of FY27 output pre-sold, so this is not spot-price speculation. The enterprise-SSD mix shift (48% of NAND shipments vs 26% a year ago, the highest-margin segment) is the structural tailwind behind margin expansion to a record 84.6% gross margin. If pricing holds anywhere near current levels through 2027 — Gartner models another +30% — the multiple re-rates off a number that is currently pricing a cycle top, not the continuation.
+**2. SNDK** — The shortage is equally severe: bits on allocation well beyond calendar 2027, 2026 capacity sold out, and $93.9B of minimum floor-priced NBM revenue / $91.1B RPO backed by $16.5B of guarantees, covering ~2/3 of FY28 bits; Q4 revenue was +372% YoY with ~2/3 of sequential growth from pricing. 12-18mo scenario: base +20-25% (toward the ~$2,137 analyst mean, as NBM price-depreciation caps spot upside); bull +65-70% (toward Bernstein's $3,000 if NAND pricing re-accelerates).
 
-- **Key shortage/backlog evidence:** ~$93.9B of floor-priced NBM long-term agreements (10 hyperscaler deals, some to 2031) backed by $11B+ financial guarantees on minimum purchase commitments — hyperscalers pre-paying and guaranteeing minimums is the strongest shortage signature in the dossier.
+**3. KEYS** — Keysight is the test bottleneck for every 800G/1.6T ramp: record Q3 orders of $2.091B, +56% YoY for a second straight >$2B quarter, backlog at a record $2.8B, wireline overtaking wireless for the first time, and management now says component supply — not demand — caps revenue conversion; Q3 EPS +79% YoY drove +27.7% estimate revisions in a month, the strongest revision momentum in the set. 12-18mo scenario: base +25-35%; bull +50-55% if 1.6T production test scales and the supply cap lifts into a 3.2T cycle.
 
-- **Irreplaceability / disintermediation risk:** MEDIUM — NAND is fungible across 5–6 suppliers and SanDisk is #5–6 by share, so there is no product moat; but the shortage itself plus the NBM contract architecture is the temporary moat, and hyperscalers cannot fabricate NAND in-house (fabs cost tens of billions). Risk rises as capacity expansions land (YMTC +150% capacity, Samsung ~+50% for 2026) — but that is a 2027–28 problem, not a 12-month one.
-
-- **12-18 month return scenario:** Base: ~+40–60% as NAND pricing flattens at elevated levels, NBM contracts convert to high-margin revenue, and the forward multiple re-rates from ~6.6x toward low-double-digits on peak-cycle earnings. Bull: ~+100–150% if Gartner's +30% 2027 NAND pricing materializes, earnings print a second leg of revisions, and the stock re-tests and breaks the June peak.
-
-- **Top risk:** Classic peak-cycle commodity — TrendForce contract prices are already decelerating (+70–75% QoQ in spring → +10–15% in Q3), Kioxia declared prices "have risen enough," and 23x trailing PE is the value-trap signature of memory at peak earnings; if pricing rolls, the forward multiple is a fiction.
-
-- **Conviction (1-10):** 8
-
----
-
-**Ranked ballot (top 10 of 12, growth/momentum lens):**
-
-1. SNDK — +372% rev, 6.6x fwd, off peak
-2. MU — +379% rev, $150B RPO, heavy expectations
-3. APH — 1.23 book-to-bill, 50-week lead times
-4. KEYS — orders +56%, supply-constrained AI test
-5. LRCX — etch chokepoint, +30% rev, raised WFE
-6. AMAT — 13 straight GM expansions, record rev
-7. LLY — #1 GLP-1, guide raised, low squeeze
-8. FCX — record copper, commodity momentum only
-9. CAT — $72B backlog, diluted machinery vehicle
-10. ANET — +40% growth, lost Ethernet crown
-
-**Top-3 deep dives:**
-
-1. **SNDK.** The single most compelling data point is the contract architecture: ~$93.9B in floor-priced long-term agreements with $11B+ in customer financial guarantees and >1/3 of FY27 production pre-sold — hyperscalers paying to lock supply years out is priced-volume certainty at record 84.6% gross margins, which de-risks the commodity story more than any spot-price move. Base ~+40–60% on contract conversion and a partial re-rate off 6.6x forward earnings; bull ~+100–150% if Gartner's +30% 2027 NAND price move lands and revisions get a second leg.
-
-2. **MU.** The moat data point is scale: $150B in remaining performance obligations covering >35% of revenue through 2030 with 75% of calendar-2027 output already committed and $32B in customer cash commitments ($12.3B deposited in Q4 alone) — no other name in the batch has multi-year take-or-pay walls this deep. Base ~+25–40% as Q1 FY27 guides through and HBM4 repricing closes the margin gap; bull ~+60–80% if memory tightens into 2027–28 as management forecasts. The anchor on it: after +277% YTD, even a 15bp margin-guide miss stalled the stock — revision momentum is the risk, not demand.
-
-3. **APH.** The shortage signal is the purest demand-side one outside memory: record $10.7B quarterly orders, 1.23 book-to-bill (orders running 23% faster than shipments), fiber lead times at ~50 weeks, and hyperscalers securing capacity years ahead — plus per-TPU connector content jumping to >$750 vs $300–350 in TPU7/8, with Amphenol as lead designer. Base ~+20–35% as the book-to-bill converts to ~50%+ YoY revenue growth into CY27 visibility; bull ~+50–70% if the AI capex wave sustains double-digit growth into 2027. The anchor: ~55x forward earnings already assumes the shortage lasts through 2027, and hyperscalers deliberately keep TE/Molex alive as second sources.
-
-**Left out of my top 10:** CSCO — weak price momentum (-8.6% in 3 months, ~14% off 52wk high), margins compressing (66.3% from 68.4%), and it is the follower in hyperscale AI with demonstrable white-box bypass risk; AME — a quality compounder (record orders, $5B Indicor deal) but no structural shortage and a 35x trailing multiple with 2.3x leverage, the weakest fit for a growth/momentum lens.
+Left out of top 10: CDNS, EW, AME, FCX — CDNS has quality growth (+24% revenue, record $8.1B backlog) but dead price momentum (12-month return ~0%, negative surprise trend) at 36.7x forward; EW (+13.6% revenue, +4.8% 6-month return) and AME (+15% revenue, partly acquired, shortage score 4/10) are steady compounders, not accelerators; FCX has negative revenue momentum (latest quarter -7.3% YoY, negative acceleration, only +5.0% analyst upside) — its growth is copper price, not volume or revisions.

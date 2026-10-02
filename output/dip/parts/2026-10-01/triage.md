@@ -1,44 +1,58 @@
-# Triage — dip mode — 2026-10-01
+# Dip triage — 2026-10-01 RERUN (updated protocol, evening)
 
-Screen: `shortlist_2026-10-01.json`, generated 2026-10-01 08:22:42 UTC (fresh, 9/30-close data). 33 candidates.
-Kept 14 for research; dropped 19. Doctrine = profitable category-leader in a *temporary* dip,
-AI-proof moat, rebound catalyst, balance-sheet survival, margin of safety.
-Prior-day reference: 9/30 dip Borda top 10 was ISRG 35, CPRT 26, IDXX 25, SYK 24, TPR 21, LVS 19, VRSK 19, AZO 15, CBOE 12, ADBE 11; conviction pick ISRG @ 414.79. DECK (9/30 triage keep) fell out of the screen entirely.
+Screen: fresh, generated 2026-10-01 22:13 PT (TZ=America/Los_Angeles), 38 candidates,
+built on the 2026-10-01 close (fetch cache refreshed after the close; the morning run
+screened the 9/30 close and found 33). drops_2026-10-01.csv: 465 dropped with stage+reason.
+Doctrine scores are the orchestrator's 0-10 read on the dip doctrine (temporary cause,
+moat/AI-irreplaceability, catalyst, balance-sheet survival, margin of safety).
 
 | # | ticker | composite | KEEP/DROP | doctrine score | one-line reason |
 |---|--------|-----------|-----------|----------------|-----------------|
-| 1 | IDXX | 0.72 | KEEP | 9 | 9/29 dip pick: beat-and-raise while falling; vet-diagnostics switching costs; dip still intact at -31.9%. |
-| 2 | LVS | 0.70 | KEEP | 8 | Deepest drawdown (-44.6%); Macau integrated-resort licenses are AI-proof; catalyst = Macau GGR/China stimulus. RECEIVABLES_OUTRUN flag to explain. |
-| 3 | VRT | 0.69 | DROP | 5 | High composite but thin moat: data-center cooling faces AI-capex digestion and real competition; borderline — the one genuine maybe, same call as 9/30. |
-| 4 | TPR | 0.69 | KEEP | 7 | Coach brand strength; accessible luxury on sale at 12.8x fwd; sentiment dip. |
-| 5 | BKNG | 0.67 | KEEP | 8 | Travel network effects; geopolitical guide cut is sentiment, not moat erosion. |
-| 6 | ADBE | 0.65 | KEEP | 7 | Creative-suite switching costs at 8.4x fwd vs the central question: is AI commoditizing it? Panel must weigh. |
-| 7 | VRSK | 0.64 | KEEP | 7 | Insurance data/analytics duopoly; sticky data moat; -33.4% dip. |
-| 8 | BRO | 0.62 | KEEP | 7 | Insurance brokerage rollup; deep -36.2% dip. RECEIVABLES_OUTRUN flag to explain. |
-| 9 | MS | 0.61 | DROP | 4 | Shallow dip (-17.3%/-2.2%) for this doctrine; LOW_CASH_CONVERSION + RECEIVABLES_OUTRUN flags. |
-| 10 | CPRT | 0.61 | KEEP | 8 | Salvage-auction network, land moat; -40.7% dip. RECEIVABLES_OUTRUN flag to explain. |
-| 11 | GS | 0.58 | DROP | 4 | Shallow dip (-20.1%/-3.7%); weak dip shape, same as MS. |
-| 12 | CBOE | 0.58 | KEEP | 8 | Exchange moat, vol-driven earnings; -28.3% dip. |
-| 13 | EFX | 0.57 | KEEP | 8 | Credit-data oligopoly; -44.5% dip on cyclical mortgage fears. |
-| 14 | BR | 0.56 | DROP | 5 | Duplicative fintech-infra; BRO's dip is deeper with the same rollup story; shallower dip shape. |
-| 15 | ISRG | 0.56 | KEEP | 9 | 9/30 conviction pick: da Vinci surgical-robotics moat; AI cannot touch it; -31.4% dip. |
-| 16 | SPGI | 0.54 | DROP | 4 | Ratings duopoly but shallower dip; VRSK/CBOE/EFX cover the data-infra angle. |
-| 17 | MCO | 0.54 | DROP | 3 | Shallow (-15.3%/-3.4%); not a real dip. |
-| 18 | HSY | 0.52 | KEEP | 7 | Cocoa commodity trough with operating margin already recovering; 16.0x fwd. |
-| 19 | MNST | 0.51 | DROP | 3 | Very shallow (-16.7%/-1.7%) at 31.8x fwd; not a dip. |
-| 20 | PAYX | 0.50 | DROP | 4 | HR services; no clear rebound catalyst vs the kept names. |
-| 21 | ODFL | 0.50 | DROP | 5 | Cyclical LTL freight trough — a macro call, not a moat dip. |
-| 22 | CMG | 0.49 | DROP | 4 | Same-store slowdown plus management-transition noise; turnaround-in-progress. |
-| 23 | SYK | 0.49 | KEEP | 8 | Med-device leader; elective-procedure recovery catalyst; -27.7% dip. |
-| 24 | HAS | 0.48 | DROP | 3 | Shallow (-15.4%/-1.7%); not a dip. |
-| 25 | AZO | 0.47 | KEEP | 7 | DIY auto-parts leader, pricing power; -33.0% dip. RECEIVABLES_OUTRUN flag to explain. |
-| 26 | CME | 0.36 | DROP | 3 | Shallow dip; exchange moat but limited downside capture. |
-| 27 | DOV | 0.36 | DROP | 3 | Diversified industrials; no doctrine angle. |
-| 28 | PEP | 0.32 | DROP | 5 | Already the earnings-mode pick; its dip case is weaker than the kept names. |
-| 29 | ITW | 0.32 | DROP | 3 | Shallow (-12.9%/-3.0%); not a dip. |
-| 30 | CL | 0.32 | DROP | 3 | Shallow (-11.7%/-1.4%); not a dip. |
-| 31 | COO | 0.29 | DROP | 5 | Deep (-32.8%) but borderline: contact-lens competition, margin-of-safety weaker on growth. |
-| 32 | CTVA | 0.28 | DROP | 3 | Very shallow (-13.8%/-0.6%); not a dip. |
-| 33 | CHD | 0.15 | DROP | 3 | Not a dip (-9.2%/-0.5%). |
+| 1 | IDXX | 0.736 | KEEP | 9 | Textbook quality dip: -32% off high, 35% op margin, 74% ROE, low debt, +34% analyst upside |
+| 2 | VRT | 0.701 | KEEP | 7 | AI power/cooling leader, -35% off high, rev +19%; borderline — ran +63% in 12m first, INVENTORY_BUILD flag to explain |
+| 3 | LVS | 0.697 | KEEP | 6 | Deepest drawdown (-45%), fwdPE 10.8, +56% upside; borderline/trap-suspect — nd/eb 2.57, RECEIVABLES_OUTRUN, Beijing/Macau overhang |
+| 4 | BKNG | 0.688 | KEEP | 8 | Asset-light travel leader, -27% off high, fwdPE 13.0, +49% upside, 34% margins |
+| 5 | TPR | 0.667 | KEEP | 7 | Coach turnaround working, -27% off high, fwdPE 13.4, +40% upside |
+| 6 | CPRT | 0.619 | KEEP | 7 | Salvage-auction near-monopoly, net cash, -40% off high; borderline — rev growth stalled at 0.4%, RECEIVABLES_OUTRUN flag to explain |
+| 7 | VRSK | 0.617 | KEEP | 7 | Insurance-data moat, 45% op margin, -32% off high, +39% upside; slow growth, nd/eb 2.68 |
+| 8 | ADBE | 0.616 | KEEP | 7 | The AI-disruption test case: fwdPE 8.7 vs ~30 historically, -33% off high; borderline — street upside only +14%, trap risk is the whole question |
+| 9 | GS | 0.611 | DROP | 4 | High composite but barely a dip: -5.8% vs SMA200, +15% over 12m; LOW_CASH_CONVERSION flag |
+| 10 | MS | 0.600 | DROP | 3 | Not a dip: -2.2% vs SMA200, +19% over 12m; two EQ flags |
+| 11 | BR | 0.573 | DROP | 5 | Shallow dislocation (-4.9% vs SMA); decent franchise, cut on field depth — borderline drop |
+| 12 | EFX | 0.571 | KEEP | 6 | -44% off high at a mortgage-cycle trough, +53% upside; nd/eb 2.75 and 17% margins keep the score mid |
+| 13 | ISRG | 0.569 | KEEP | 8 | Net-cash medtech leader, -31% off high, rev +14.5%; still rich at fwdPE 33.6 — margin of safety is the debate |
+| 14 | BRO | 0.568 | DROP | 5 | Insurance rollup, RECEIVABLES_OUTRUN, nd/eb 2.47; cut on field depth |
+| 15 | SPGI | 0.564 | KEEP | 8 | Ratings/index duopoly, 45% margins, -24% off high, +34% upside |
+| 16 | SYK | 0.546 | KEEP | 8 | Medtech leader with the deepest SMA dislocation of the quality set (-17%), -29% off high, +35% upside |
+| 17 | HSY | 0.543 | KEEP | 7 | Cocoa-cost trough story, -32% off high, +30% upside, US chocolate category leader |
+| 18 | GOOGL | 0.538 | DROP | 2 | Not a dip — a gate artifact: -0.04% vs SMA200, +39% over 12m; HIGH_ACCRUALS flag |
+| 19 | GOOG | 0.537 | DROP | 2 | Same company, same artifact: -0.6% vs SMA200, +38% over 12m; HIGH_ACCRUALS flag |
+| 20 | GE | 0.530 | DROP | 3 | -3.4% vs SMA and fwdPE 34.4: neither dipped nor cheap |
+| 21 | MCO | 0.518 | DROP | 4 | Great moat, minimal dislocation (-3.4% vs SMA, -15% off high) — no margin of safety at fwdPE 24 |
+| 22 | ODFL | 0.504 | DROP | 4 | Freight trough but rev growth 0.5% and fwdPE 26.7 — no margin of safety if the trough lengthens |
+| 23 | AZO | 0.494 | KEEP | 6 | -34% off high, +32% upside, buyback machine; borderline — nd/eb 2.89 (buyback leverage), RECEIVABLES_OUTRUN flag to explain |
+| 24 | PAYX | 0.492 | DROP | 3 | -1.4% vs SMA, analyst upside only +13%: no dislocation, no margin of safety |
+| 25 | CMG | 0.490 | DROP | 5 | -24% off high but still fwdPE 23.6 and traffic softness may not be transitory — borderline drop |
+| 26 | MNST | 0.489 | DROP | 3 | Not a dip: -1.7% vs SMA, +24% over 12m, fwdPE 31.8 |
+| 27 | GNRC | 0.461 | DROP | 3 | Not a dip: -2.1% vs SMA, +24% over 12m, trailing PE 47 |
+| 28 | HAS | 0.457 | DROP | 3 | Not a dip: -1.7% vs SMA, +18% over 12m |
+| 29 | BAC | 0.433 | DROP | 3 | Bank a hair under its SMA (-2.0%); RECEIVABLES_OUTRUN flag |
+| 30 | VMC | 0.410 | DROP | 4 | -26% off high but slow growth and nd/eb 2.0; cut on field depth |
+| 31 | DOV | 0.388 | DROP | 3 | Conglomerate, no sharp dip thesis; cut on field depth |
+| 32 | CME | 0.373 | DROP | 3 | -3.4% vs SMA and analyst upside only +7%: no margin of safety |
+| 33 | CL | 0.349 | DROP | 2 | Staple barely dipped: -3.7% vs SMA, -14% off high |
+| 34 | PEP | 0.345 | DROP | 4 | -24% off high but secular volume decline + nd/eb 2.25 — classic trap profile as a dip (it is this week's earnings-mode name instead) |
+| 35 | ITW | 0.338 | DROP | 2 | Minimal dislocation: -3.0% vs SMA, -13% off high |
+| 36 | COO | 0.297 | DROP | 3 | Deep drawdown but ROE 6.8% and nd/eb 2.84 — weak business, not a dislocated compounder |
+| 37 | PG | 0.238 | DROP | 2 | Not a dip: -1.5% vs SMA, -13% off high |
+| 38 | CHD | 0.154 | DROP | 1 | Not a dip: -1.5% vs SMA, -10% off high, lowest composite in the field |
 
-Borderline flags: VRT (high composite, thin moat — dropped); COO (deep dip, competitive pressure — dropped).
+## Kept (14) for Phase 2 research
+IDXX, VRT, LVS, BKNG, TPR, CPRT, VRSK, ADBE, EFX, ISRG, SPGI, SYK, HSY, AZO
+
+Batches: B1 = IDXX, VRT, LVS, BKNG · B2 = TPR, CPRT, VRSK, ADBE · B3 = EFX, ISRG, SPGI · B4 = SYK, HSY, AZO
+
+Borderline flags: VRT (how much dip is left after a +63% 12m run), LVS (trap-suspect),
+CPRT (growth stall + receivables flag), ADBE (AI trap question), AZO (leverage + receivables flag).
+High-composite drops explained above: GS/MS (not actually dips), GOOGL/GOOG (gate artifact).
+EQ flags carried into research briefs: VRT INVENTORY_BUILD; LVS, CPRT, AZO RECEIVABLES_OUTRUN.

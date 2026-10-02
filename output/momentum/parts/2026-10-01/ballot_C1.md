@@ -1,33 +1,33 @@
-# Ballot — Panelist C (Quality / moat & irreplaceability) — RUN_DATE 2026-10-01
+# Panelist C — Quality / Moat & Irreplaceability — Momentum — 2026-10-01
 
 ## Single-pick ballot
-
 - **Top pick:** MU
-- **Runner-up:** LRCX
-- **Thesis (3-5 sentences):** Micron sits behind a ~$150B take-or-pay contract wall: 75% of calendar-2027 output already committed, 26 strategic customer agreements with floor/ceiling pricing, and $32B in customer financial commitments (vast majority cash deposits — customers prepaying because no fab alternative exists). DRAM/HBM is a three-vendor oligopoly (90–95% share) where a fab costs tens of billions, so in-sourcing is physically impossible and management says 2027–28 will be tighter than 2026 with "no line-of-sight to when supply and demand will return to balance." The contract wall, not spot pricing, is the moat — and at 6.6× forward earnings with 87% gross and 82.3% operating margins, the market still prices it as a peak-cycle commodity while the take-or-pay floors de-risk the cycle. That pricing gap is the explosive upside.
-- **Key shortage/backlog evidence:** ~$150B remaining performance obligations covering >35% of revenue through 2030, with 75% of CY27 output already committed and $12.3B in customer cash deposits in Q4 FY26 alone.
-- **Irreplaceability / disintermediation risk:** **Low** for in-sourcing/bypass — no hyperscaler can build a DRAM fab and there is no substitute technology for DRAM/HBM; Micron is the sole U.S.-based HBM manufacturer. The honest risk is horizontal, not vertical: product is fungible across Samsung/SK Hynix, and CXMT/YMTC supply growth is a margin threat — but take-or-pay floors with pricing collars are the contract wall against exactly that.
-- **12-18 month return scenario:** Base — FY27 sequential revenue growth materializes, margins hold near the guided floor, forward multiple normalizes from 6.6× toward mid-cycle memory norms: roughly +30–50% (consistent with the ~43% analyst-upside anchor in the screen). Bull — 2027–28 tightness forces a re-rating off "peak-cycle" pricing and HBM4 margin-gap closure: roughly +80–130%. (Rough scenarios, not forecasts; anchored to dossier figures.)
-- **Top risk:** Capex escalation ($25B in H1 FY27, higher in H2 — reinvesting peak-cycle cash) plus Chinese supply (CXMT 7–10% DRAM share and rising) repricing the cycle; eighth straight beat already faded on a 15bp gross-margin guide miss — expectations, not fundamentals, are the enemy.
-- **Conviction (1-10):** 8
+- **Runner-up:** LLY
+- **Thesis (3-5 sentences):** MU is the only name that passes every gate of this lens at once: a 9/10 structural shortage (HBM sold out through 2027, customers locking 2028), the hardest backlog in the field, and an 8/10 irreplaceability score rooted in a three-firm global oligopoly that hyperscalers demonstrably cannot in-source — they are prepaying it instead. Quality is currently extreme and cash-backed: Q4 FY26 revenue $54.23B (+379% YoY) at 87.0% non-GAAP gross margin, CFO/NI 1.02, net cash on the screen, and a forward P/E of just 6.6 at $1,065.11 despite the run. SCA floor pricing ("meaningfully above any prior cycle peak" even at floors) converts a historically cyclical commodity into contracted, multi-year earnings — the shortage rent is locked in, not just spot. No other candidate combines this shortage, this backlog hardness, and this valuation gap.
+- **Key shortage/backlog evidence:** ~$150B of remaining performance obligations under 26 take-or-pay Strategic Customer Agreements (>35% of revenue through 2030), backed by $32B of customer financial commitments — $12.3B in cash deposits received in Q4 alone — with HBM sold out through calendar 2027 and >75% of FY27 output already committed.
+- **Irreplaceability / disintermediation risk:** low — only Samsung, SK hynix and Micron can make leading-edge DRAM/HBM at scale; a fab costs ~$10–20B and takes 2–3+ years plus yield learning, hyperscalers have no memory process IP and are instead depositing $32B to secure supply, and Micron is qualification-locked into Nvidia's Vera Rubin (HBM4 shipping, custom HBM4E co-development). The residual risk is share shift *within* the oligopoly (HBM share 21% → 18% as Samsung gained) and China's CXMT in conventional DRAM — substitution between three irreplaceable suppliers, not disintermediation.
+- **12-18 month return scenario:** base +40–50% (toward the ~$1,521 analyst mean as SCA volumes and FQ1's $61.5B guide deliver); bull +90–100% (toward the $2,000–2,100 Davidson Street-high zone if the deficit — Goldman's "most severe in 15 years" — persists through 2028 and pricing holds).
+- **Top risk:** Cycle-peak earnings: today's 87% gross margin is a shortage price, not a through-cycle margin, and the stock barely rose on a historic beat-and-raise — any guide or gross-margin slip (FQ1 GM guided 86.3% vs 86.7% expected) is punished, and Morningstar already dissents with a $700 fair value on a cycle-peak view.
+- **Conviction (1-10):** 9
 
-## Ranked ballot
+## Ranked ballot (top 10 of the 14, best first)
+1. MU — Three-firm oligopoly, $150B contracted, cannot in-source
+2. LLY — Patent-protected GLP-1 leader, capacity-gated, 84% margins
+3. CDNS — EDA duopoly chokepoint, foundry-certified, 86% gross margin
+4. LRCX — Etch near-monopoly, >70% NAND HAR share
+5. KEYS — Test monopoly niche, self-certification not credible
+6. FCX — Geology irreplaceable, but unhedged commodity price beta
+7. AMAT — Broadest equipment franchise, contestable step-by-step
+8. CAT — Dealer/service moat, $72B backlog, low margins
+9. APH — Qualification lock-in, diversified, re-contested each design-in
+10. SNDK — Severe shortage, weakest seat: commoditised, multi-sourced NAND
 
-1. MU — contract-walled oligopoly, priced as peak
-2. LRCX — etch chokepoint, recipe-locked pricing power
-3. KEYS — AI metrology chokepoint, record backlog
-4. AMAT — #1 WFE, eight-quarter customer visibility
-5. LLY — patented #1 franchise, compounding moat
-6. FCX — unreplicable copper assets, structural deficit
-7. AME — niche instruments, no in-source threat
-8. APH — 50-week lead times, but dual-sourced moat
-9. ANET — EOS moat, Nvidia crown lost
-10. SNDK — purest shortage, 6th-vendor commodity peak
+### Top 3 — detail
 
-**MU (top 3 expansion):** The ~$150B RPO is the most compelling datapoint in the dossier: take-or-pay volumes with floor/ceiling pricing, 26 agreements up from 16 in June, and $12.3B in cash deposits in a single quarter — customers funding Micron's balance sheet to secure supply. Base case ~+30–50% on multiple normalization off 6.6× forward; bull case ~+80–130% if 2027–28 tightness as guided forces memory multiples to price the contracted earnings stream rather than a spot cycle.
+**1. MU.** The single most compelling data point is the $150B RPO / $32B customer-deposit combination: customers with the deepest pockets in technology are handing Micron cash years ahead rather than attempting to build memory themselves — the market's own verdict on irreplaceability. Base case +40–50% over 12–18 months on contracted delivery at floor-protected margins; bull case +90–100% if HBM/DRAM tightness extends through 2028 as management's "no line of sight to balance" implies.
 
-**LRCX (top 3 expansion):** Lam's moat is process-of-record lock-in: each etch tool is qualified into fab recipes over 12–18+ months, making switching near-prohibitive, and the CFO is extracting price ("pricing actions") while deferred revenue rises on customer down payments — customers paying upfront to secure tools. Base case ~+20–35% on WFE growth to $164B (2026) → $205B (2027, Berenberg); bull case ~+50–80% if AI-memory capex outruns estimates. The 56× trailing P/E and two-year receivables-outpacing-revenue trend cap conviction vs. MU.
+**2. LLY.** Lilly owns ~61% US incretin share against a #2 (Novo) guiding sales *down* 4–12%, sells every dose it can manufacture (revenue is capacity-gated, with >$55B of plants committed since 2020), and holds the successor molecule too — retatrutide at 28.3% Phase 3 weight loss — behind a patent estate running into the late 2030s; patients and payers cannot synthesize a patented peptide, so disintermediation risk is low. Base case +20–25% as the capacity ramp converts the managed shortage into share; bull case +45–50% if Foundayo uptake, the Medicare Bridge cohort (~700k new seniors, ~70% captured), and a clean Q1 2027 retatrutide filing outrun the −13% realized-price drag.
 
-**KEYS (top 3 expansion):** The cleanest demand-exceeds-supply name: record backlog after orders grew +56% YoY in Q3 FY26 (orders exceeded revenue by $245M), and NIST-traceable calibration plus embedded PathWave test workflows mean no chip designer or hyperscaler ships 800G/1.6T optics without validating through Keysight — the in-sourcing threat is near zero. Base case ~+20–35% on backlog conversion; bull case ~+50–70% if AI test intensity keeps doubling. The 48.6× trailing P/E and the unexplained receivables-outrun amber flag cap conviction.
+**3. CDNS.** The moat data point: every leading-edge tapeout must use foundry-certified tools, Cadence is certified on TSMC N2P and A14 + 3DFabric, a respin costs $50–100M and 6–12 months, and hyperscalers — now ~45% of its business — in-source only the agent layer *above* engines they cannot rebuild, with agentic AI multiplying engine calls rather than bypassing them; the record $8.1B backlog ($4.2B due within 12 months, ~80% recurring revenue) underwrites it. Base case +20% on backlog conversion at ~45% non-GAAP operating margins; bull case +40–45% if agentic usage-based monetization and Palladium/Protium hardware demand compound the +24% growth rate.
 
-**Deliberately left out of top 10:** CAT — cyclical giant where AI power-gen is only ~15% of sales, moat is a dealer network not physics, and customers freely multi-source gensets (plus NY data-center moratorium regulatory risk); CSCO — customers demonstrably white-box/SONiC around it in AI fabric (the growth segment), margins are compressing, and 31.8× trailing is a premium multiple for a historically mid-teens one.
+**Deliberately left out of the top 10:** ANET and CSCO (irreplaceability 5/10 — merchant-silicon boxes and AI networking that hyperscalers already white-box via SONiC at 30–40% of ports and that Nvidia's Spectrum-X bundle is actively routing around; Nvidia has already taken the #1 DC spot from both) and EW and AME (shortage 4/10 — no sold-out supply, no scarcity rent: EW's constraint is patient referral/hospital throughput, AME's is a fine compounder's order upcycle, and neither offers explosive shortage-driven upside at ~25–26x forward earnings).

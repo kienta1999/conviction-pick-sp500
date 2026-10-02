@@ -1,38 +1,33 @@
-# Panelist D (Contrarian / Risk Skeptic) — Momentum Ballot — RUN_DATE 2026-10-01
+# Panelist D — Contrarian / Risk Skeptic — Momentum — 2026-10-01
 
 ## Single-pick ballot
-
-- **Top pick:** KEYS
-- **Runner-up:** SNDK
-- **Thesis (3-5 sentences):** Keysight is the one name here where the market still doubts the very thing that makes it special: it is literally supply-constrained, with demand for its AI test products exceeding its supply capability (Zacks, Sept 16, 2026). Wireline orders more than doubled YoY and surpassed wireless for the first time in company history, and AI-specific customers doubled — every 800G/1.6T optic and GPU cluster must be validated, making test the silent AI chokepoint. Yet the stock fell 11.1% in three months before rebounding on conversion-timing skepticism — the market worries the supply constraint starves its own shipments, when the real read is that demand is so strong they cannot ship fast enough. At ~26x forward earnings against 48x trailing, it is the cheapest AI-shortage exposure in the list, and the 800G/1.6T cycle still has years to run. This is a genuine shortage the market is pricing as a peak, not a moat.
-- **Key shortage/backlog evidence:** Record $2.8B backlog after Q1 FY26; Q3 FY26 orders of $2.091B (+56% YoY) exceeded revenue ($1.846B) by $245M — "finished the quarter with record backlog" (Zacks, Sept 16, 2026), with shipment timing explicitly vulnerable to manufacturing constraints.
-- **Irreplaceability / disintermediation risk:** LOW. Precision metrology IP plus NIST-traceable calibration chains and decades-embedded PathWave test workflows; hyperscalers and chip designers buy this, they don't build it — no one ships 800G/1.6T optics or GPU clusters without validating them first. Competitors (R&S, Tektronix, Viavi) exist, but switching costs in regulated lab workflows are high. Customers cannot realistically in-source; a substitute would mean skipping validation, which the AI failure rate won't allow.
-- **12-18 month return scenario:** Base ~+35–45% as backlog converts while AI test intensity holds; Bull ~+70–90% if capacity unlocks and the 1.6T upgrade cycle accelerates order growth into the backlog.
-- **Top risk:** The shortage works against the stock — supply constraints cap order-to-revenue conversion and the business is cyclical; if hyperscaler AI capex pauses, test orders fall first. Receivables growing faster than sales (+54% vs +36% revenue, unexplained) is a mild amber flag on earnings quality.
+- **Top pick:** CDNS
+- **Runner-up:** CAT
+- **Thesis (3-5 sentences):** Cadence is the one real chokepoint on this list the market has *not* paid up for: the stock is flat over 12 months (-0.2%) while revenue grew +24.2%, backlog hit a record, and guidance was raised twice in 2026. The consensus fear — that agentic AI bypasses EDA — is backwards on the dossier's evidence: agents invoke Cadence's engines hundreds of times in parallel, so AI multiplies tool consumption rather than replacing seats. As the ~30%-share half of a duopoly with foundry-certified flows at N2P/A14, Cadence collects a royalty on every AI chip designed, whoever wins the chip war. The asymmetry is a mispriced disintermediation discount on a 9/10-moat business, not a peak-cycle earnings print.
+- **Key shortage/backlog evidence:** Record backlog of $8.1B at 30 June 2026 ($4.2B to be recognised within 12 months), beating the $7.68B consensus, with IP +>40% and a record Palladium/Protium hardware quarter (12 new emulation customers in Q2 alone).
+- **Irreplaceability / disintermediation risk:** low — four decades of solver/PDK know-how and TSMC-certified flows cannot be rebuilt in-house on any useful timeline, and a leading-edge respin costs $50–100M+, so no team experiments mid-program; the only real caveat is hyperscalers in-housing the *agent layer above* the engines (plus China forced substitution), which dents pricing power at the margin rather than bypassing the core.
+- **12-18 month return scenario:** base +20–30% (high-teens revenue compounding at ~45% non-GAAP operating margins, multiple roughly held); bull +50–65% if agentic usage-based monetisation lands and the bypass discount unwinds into a re-rating.
+- **Top risk:** Valuation and cyclicality — at 36.7x forward earnings any backlog/bookings stall or hyperscaler design-start pause re-rates the stock violently, and guidance explicitly assumes export-control rules stay unchanged (China ~13% of revenue, probation to 2028).
 - **Conviction (1-10):** 7
 
-## Ranked ballot
+## Ranked ballot (top 10 of the 14, best first)
+1. CDNS — flat year; AI-bypass fear is inverted
+2. CAT — power shortage discounted after 22% pullback
+3. KEYS — overlooked test chokepoint, punished on beats
+4. MU — cheapest multiple, biggest street upside; peak-cycle capped
+5. LRCX — near-monopoly etch, 24% off highs
+6. FCX — purest geology moat, but street upside only 5%
+7. CSCO — cheapest forward multiple, contestable AI seat
+8. AMAT — deepest pullback, broad toll-taker, no backlog
+9. LLY — quality leader, $1T prices in flawless execution
+10. APH — clean content bet, near highs, no sold-out shortage
 
-1. KEYS — supply-starved test chokepoint, cheapest AI shortage
-2. SNDK — peak-cycle fear discounts sold-out NAND
-3. MU — $150B take-or-pay book at 6.6x forward
-4. FCX — record copper, equity lags the metal
-5. LRCX — etch chokepoint but late-cycle price
-6. AMAT — full fabs, but China overhang
-7. APH — purest lead-time shortage, fully priced
-8. CAT — real power-gen shortage, diluted vehicle
-9. ANET — lost crown to Nvidia at 39x
-10. LLY — shortage over, compounder not squeeze
+### Top 3 — detail
 
-### Top-3 detail
+**1. CDNS:** The single most compelling data point is the record $8.1B backlog alongside system companies (hyperscalers designing their own silicon) now making up ~45% of the business — an entirely new buyer class stacking on top of traditional semi firms, with ~80% recurring revenue underpinning its quality. Foundry certification on TSMC N2P and A14 (Sept 2026) locks the flow in for the AI node roadmap. Scenario: base +20–30% over 12–18 months; bull +50–65% if agent-driven usage monetisation re-rates the name.
 
-**KEYS:** The most compelling data point is the collision of two facts: wireline orders more than doubled YoY and passed wireless for the first time in Keysight's history, while Zacks (Sept 16, 2026) reports demand for differentiated AI products is "exceeding Keysight's supply capability." Nobody in the AI supply chain gets to skip validation — Nvidia and Marvell use Keysight to validate GPU clusters, and the #1 T&M position (~22% share) plus NIST-traceable calibration gives a genuine moat in the optics upgrade cycle. 12–18mo: base +35–45% on backlog conversion; bull +70–90% on the 1.6T wave.
+**2. CAT:** Caterpillar owns the datacenter prime-power bottleneck: a record $72B backlog (+92% YoY, +$9B in one quarter), large engines sold out through 2027 and into 2028 with some Power & Energy orders placed out to 2030, and power-generation sales to users +72% in Q2 2026 — yet the stock sits ~22% below its 52-week high after moratoria headlines, so the shortage is better documented than it is priced. The dealer/service annuity (services targeted at $30B by 2030) cushions downside versus a pure equipment cycle. Scenario: base +20–30%; bull +45–55% if backlog converts on schedule and the capacity ramp (toward ~3x large-recip capacity by 2030) is absorbed by still-short supply.
 
-**SNDK:** $42B in minimum contractual revenue under NBM long-term agreements, backed by $11B+ financial guarantees on minimum purchase commitments, with over one-third of FY27 production pre-sold — while 2026 capacity is sold out across makers and 2027 is being pre-booked (Samsung, SK Hynix, Micron reported sold out of 2027 supply as of Aug 2026). The stock is 35% off its late-June peak at 6.6x forward earnings: the market prices a classic memory peak, but the take-or-pay contract walls say the earnings don't roll over the way past cycles did. 12–18mo: base +30–40% on multiple re-rating against contracted floors; bull +80%+ if 2027 pre-booking extends the cycle.
+**3. KEYS:** Keysight is the bottleneck nobody headlines: regulators feared its Spirent combination could exceed 85% share of high-speed Ethernet testing, wireline orders have overtaken wireless for the first time on 800G/1.6T demand, and orders hit a record $2.091B in Q3 FY26 (+56% YoY) — yet the stock fell ~7% on that beat and ~11% over three months into mid-September on component-supply conversion caps, i.e. it is being discounted for a supply problem that confirms the shortage. Customers cannot credibly in-source or self-certify a substitute. Scenario: base +18–25%; bull +40–50% if supply constraints clear and 1.6T production test (the recurring kind) scales as customers move to 3.2T engagements.
 
-**MU:** ~$150B in remaining performance obligations under take-or-pay agreements (called "inherently conservative" by the CFO), covering >35% of revenue through 2030 with some into 2031, plus $32B in customer financial commitments — $12.3B in cash deposits in Q4 alone — and 75% of calendar-2027 output already committed with 2028 discussions underway. Management on the 9/30 call said supply-demand will be "much tighter" in 2027–28 than 2026 with "no line-of-sight" to balance; the stock faded ~1.5–2% after-hours on a 15bp gross-margin guide miss, which is an expectations pause, not a thesis break. 12–18mo: base +40–50% as CY27 tightening validates the book; bull +100%+ if HBM4 repricing closes the margin gap.
-
-### Deliberately left out of top 10
-
-- **CSCO:** follower in hyperscale AI with real white-box/merchant-silicon disintermediation, margin compression (66.3% from 68.4% YoY), and a strategic inventory stockpile that reverses hard if orders slip — not a shortage owner.
-- **AME:** no literal shortage found in the research — a quality compounder with record orders and a $5B Indicor deal, but the momentum is cycle-driven, not supply-scarcity, so it fails this lens at its core.
+Deliberately left out of the top 10: SNDK, ANET, EW, AME — SNDK is the fully-priced trap (up ~1,493% in 12 months, weakest moat of the shortage names at 5/10 in commoditised NAND, NAND price growth already decelerating and its NBM contracts embedding price depreciation); ANET pairs the richest forward multiple (39.3x) with a 5/10 moat, a #1 DC share already lost to Nvidia, and 42% two-customer concentration; EW and AME have no supply shortage at all (both shortage 4/10 — an access backlog and a compounder upcycle, respectively) at premium multiples, so there is no scarcity asymmetry to underwrite.

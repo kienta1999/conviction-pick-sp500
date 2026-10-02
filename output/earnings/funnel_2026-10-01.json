@@ -27,63 +27,63 @@
   {
     "stage": "5 reports <=45d",
     "in": 274,
-    "out": 233,
-    "dropped": 41
+    "out": 232,
+    "dropped": 42
   },
   {
     "stage": "5b mktcap>=$20B",
-    "in": 233,
-    "out": 193,
+    "in": 232,
+    "out": 192,
     "dropped": 40
   },
   {
     "stage": "5c has >=4q history",
-    "in": 193,
-    "out": 193,
+    "in": 192,
+    "out": 192,
     "dropped": 0
   },
   {
     "stage": "5c misses<2 of 4q",
-    "in": 193,
-    "out": 176,
+    "in": 192,
+    "out": 175,
     "dropped": 17
   },
   {
     "stage": "5d beat->up rate>50%",
-    "in": 176,
+    "in": 175,
     "out": 98,
-    "dropped": 78
+    "dropped": 77
   },
   {
     "stage": "6 op margin>sector med",
     "in": 98,
-    "out": 66,
-    "dropped": 32
+    "out": 65,
+    "dropped": 33
   },
   {
     "stage": "6b earnings quality",
-    "in": 66,
-    "out": 64,
+    "in": 65,
+    "out": 63,
     "dropped": 2
   },
   {
     "stage": "7 0<fwdPE<60",
-    "in": 64,
-    "out": 63,
+    "in": 63,
+    "out": 62,
     "dropped": 1
   },
   {
     "stage": "8 niche leaders",
-    "in": 63,
-    "out": 63,
+    "in": 62,
+    "out": 62,
     "dropped": 0,
     "skipped": "not applicable in earnings mode (stage 5b market-cap floor instead)"
   },
   {
     "stage": "9 trim to target",
-    "in": 63,
+    "in": 62,
     "out": 50,
-    "dropped": 13,
+    "dropped": 12,
     "target": 50
   }
 ]
