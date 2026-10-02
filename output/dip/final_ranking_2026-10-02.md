@@ -1,89 +1,165 @@
-# Final ranking — dip mode — 2026-10-02
+# Dip ranked top-10 — 2026-10-02
 
-## Consensus top 3 (official pick — from scripts/consensus.py, last 5 runs)
+## Consensus top 3 (official pick — scripts/consensus.py, last 5 rank10 runs)
 
-**IDXX, SYK, ISRG** — names in the top 10 in ≥ 4 of 5 runs, ordered by Borda points.
+**IDXX (41 pts), CPRT (37), SYK (36)** — names in the top 10 in ≥ 4 of 5 runs
+(09-28, 09-29, 09-30, 10-01, 10-02), ordered by Borda points. Screen-only top 3
+(composite, no AI): IDXX, NFLX, VRT.
 
-One line on where they differ from today: today's Borda #1 is **BR**, a pure-consensus name (ranked by all four lenses, zero #1 votes), while the consensus top-3 rewards names that survive run after run (IDXX 5/5, SYK 5/5, ISRG 4/5); today's single-pick vote and two #1 votes went to **BKNG**, which sits 5th in the 5-run consensus.
+Today's Borda #1 is **CPRT** (30 pts) and today's single pick is **BKNG** —
+BKNG sits #4 in the consensus (25 pts, top-10 in 4/5 runs) but outside the
+consensus top 3: it is today's panel view, not yet the system's. The consensus
+only moves when several panels agree.
 
-## The ranking table (today's Borda, 4 ballots)
+## The ranking (Borda across 4 lenses, R=1)
 
-| Rank | Ticker | Company | Sub-industry | Price | Analyst target (upside) | Fwd P/E | Dip depth | RB/IRR | Borda (app/#1/avg) | One-line case |
+| Rank | Ticker | Company | Sector | Price | Analyst tgt (upside) | Fwd P/E | Dip depth | Rebound | Irreplace. | One-line case |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | BR | Broadridge | Data Processing | 161.10 | 213.38 (+32%) | 13.9 | -30.4% | 7.5/8 | 33 (4/0/2.75) | Mandated proxy utility; AI/tokenization fear vs intact cash flows |
-| 2 | BKNG | Booking | Hotels/OTA | 162.91 | 238.08 (+49%) | 13.0 | -26.5% | 7/6 | 29 (3/2/1.33) | Decade-low multiple on intact #1 OTA; AI fear unproven in cash flows |
-| 3 | VRSK | Verisk | Research & Consulting | 167.77 | 234.76 (+39%) | 19.4 | -31.8% | 6.5/9 | 28 (4/1/4.00) | Misapplied AI derating on a 9/10 data moat; Q3 on 11/5 is the catalyst |
-| 4 | IDXX | IDEXX Labs | Health Care Equipment | 529.06 | 701.33 (+34%) | 31.2 | -31.9% | 7/8 | 27 (4/0/4.25) | Vet-diagnostics compounder at its cheapest own multiple; visit softness is the dip |
-| 5 | SPGI | S&P Global | Financial Exchanges & Data | 395.92 | ~530 (+34%) | 19.2 | -24.4% | 7/9 | 27 (4/0/4.25) | Ratings duopoly + S&P 500 licence de-rated on the rates/spin-off narrative |
-| 6 | TPR | Tapestry | Apparel/Luxury | 113.45 | ~159 (+40%) | 13.4 | -27.4% | 7.5/8 | 26 (4/1/4.50) | Coach pricing power derated on guidance, not earnings; fastest re-rate candidate |
-| 7 | ISRG | Intuitive Surgical | Health Care Equipment | 414.79 | ~485 (+17%) | 33.6 | -31.4% | 6.5/9 | 18 (4/0/6.50) | da Vinci standard-of-care; growth scare at a rich but reratable 33.6x |
-| 8 | SYK | Stryker | Health Care Equipment | 275.31 | ~372 (+35%) | 16.3 | -28.9% | 6/9 | 15 (4/0/7.25) | Ortho leader at a multi-year-low multiple; cyber recovery still proving |
-| 9 | VRT | Vertiv | Electrical Components | 244.04 | ~334 (+37%) | 27.0 | -34.6% | 6/8 | 8 (4/0/9.00) | DC power/cooling leader; binary Oct 21 show-me on the timing-shift thesis |
-| 10 | ADBE | Adobe | Application Software | 239.94 | ~274 (+14%) | 8.7 | -33.0% | 6.5/6 | 3 (2/0/9.50) | 10x deep value with a real AI-cannibalization question; Dec 9 print decides |
+| 1 | CPRT | Copart | Industrials | $27.29 | ~$37.5 (+37%) | 15.6x | −40.4% | 8 | 9 | Zero-debt salvage duopoly at a cyclical volume trough; ACV close by end-2026 |
+| 2 | BKNG | Booking Holdings | Cons. Disc. | $160.28 | ~$236 (+47%) | 13.0x | −26.5% | 8 | 7 | −18.5% Sep narrative selloff on AI fear vs <1% LLM referrals; Oct 27 print breaks it |
+| 3 | IDXX | Idexx Laboratories | Health Care | $517.75 | $747 (+44%) | 30.9x | −32.5% | 8 | 9 | Vet-dx razor-blade at 52wk low on soft visits; beats keep coming, guide raised |
+| 4 | ORLY | O'Reilly Automotive | Cons. Disc. | $85.03 | ~$107 (+26%) | 23.3x | −19.5% | 7.5 | 8 | Intact compounder at cheapest multiple in years; raised guidance |
+| 5 | TPR | Tapestry | Cons. Disc. | $119.24 | n/a in dossier | 13.4x | −27.4% | 8 | 9 | Post-Capri luxury turnaround; Coach +15%; beat-and-guide derating |
+| 6 | WM | Waste Management | Industrials | $201.90 | ~$259 (+28%) | 22.1x | −17.0% | 7 | 10 | Landfill moat derated on one soft print; pricing power intact |
+| 7 | LVS | Las Vegas Sands | Cons. Disc. | $36.69 | n/a in dossier | 10.5x | −46.3% | 7 | 9 | Variance-driven Macau dip; hold luck stole EBITDA while volumes grew |
+| 8 | SYK | Stryker | Health Care | $272.96 | n/a in dossier | 16.3x | −28.9% | 7 | 8 | Ortho execution stumble, not demand; Oct 29 credibility test |
+| 9 | RL | Ralph Lauren | Cons. Disc. | $362.66 | n/a in dossier | 17.3x | −12.0% | 7 | 7 | Luxury brand elevation on a fortress balance sheet; macro-gated |
+| 10 | ADBE | Adobe | Info. Tech. | $241.28 | n/a in dossier | 8.7x | −33.0% | 7 | 7 | Absurdly cheap; AI-substitution is the live debate the panel split on |
 
-Borda: rank 1 = 10 pts … rank 10 = 1. Tie-breaks by doctrine, not mechanically: IDXX over SPGI on the stronger temporary-dip evidence (compounding through the drawdown); ADBE over CPRT (2 appearances vs 1, better average placement).
+Borda points: CPRT 30, BKNG 29, IDXX 25, ORLY 23, TPR 22, WM 20, LVS 18,
+SYK 15, RL 14, ADBE 10. Prices are the 2026-10-01 close (fresh screen).
+Dip depth = dist_52w_high. Rebound/irreplaceability = research scores (/10).
+Analyst targets from the research dossier where stated; "n/a in dossier"
+where the panel didn't pin one — not fabricated.
 
-## Per-name thesis (top 5)
+## Per-name thesis
 
-**1. BR — Broadridge Financial Solutions.** The mandated shareholder-communications utility (proxy/tabulation) de-rated ~30% on AI/tokenization narratives that cannot touch a regulatory-mandate business — the cash flows are annuity-like and the company is shipping the counter-narrative (DLX launched Sep 9, FY27 guide solid). Irreplaceability 8/10, rebound 7.5/10, no earnings-quality flags. The risk is dullness: nothing here re-rates fast, which is exactly why no lens made it #1 but every lens ranked it.
+**#1 CPRT — the cash-compounding trough.** The single most compelling data
+point: zero debt, ~$6.4B liquidity, and FY26 operating cash flow ($1.604B)
+*exceeding* net income ($1.480B) — the network is still a cash compounder
+straight through the volume trough — plus record US insurance ASPs, proving
+the damage is units, not price. The $1.9B ACV Auctions acquisition (closing by
+end-2026) adds a ~$10B GMV digital channel. Moat: 250+ permitted salvage
+yards "nearly impossible to replicate" plus insurer relationships;
+irreplaceability 9/10 — no AI/substitution threat exists to tow yards.
+Caveat (verification): the −7.5% domestic insurance drop partly reflects a
+lost customer, not pure cycle — watch the volume mix, not just the multiple.
 
-**2. BKNG — Booking Holdings.** See final_pick_2026-10-02.md for the full writeup: the #1 OTA at ~13x forward on an intact two-sided network moat, ~93% gross margins, USD 9.1B+ TTM FCF (verifier-confirmed), and a ~10%/year float-retirement program. The AI-agent fear is the credible bear thesis (irreplaceability 6/10 — the lowest in the top 10), but it remains unproven in any operating data. Q3 on 2026-10-27 is the trigger; EV +27.8% clears the guardrail.
+**#2 BKNG — the narrative dislocation.** The gap between the fear (−18.5%
+September on AI headlines) and the flow (<1% of room nights LLM-referred, Q2
+beats on revenue, bookings, room nights, EBITDA, FCF). ~13x forward on a
+36%-margin compounder with $17.2B cash and a $7.4B H1 buyback. The Oct 27
+(estimated) Q3 print is the falsifiable moment. Full thesis in
+final_pick_2026-10-02.md — this name is also the single pick.
 
-**3. VRSK — Verisk Analytics.** Swept into the 2026 AI-derating of information services (-31.8%) despite a Q2 beat (adj EPS USD 1.98 vs 1.94, revenue +4.3%, subscription +8%) and a 9/10 contributory-data moat (ISO heritage since 1971, deeply embedded underwriting workflows). Forward P/E 19.4x vs a ~30x historical premium; the verifier confirmed the beat and the reaffirmed FY2026 guide (USD 3.19–3.24B revenue, adj EPS USD 7.45–7.75), with the caveat that ~19x is on FY2027 consensus. The risk: growth is mid-single digits and slowing — if H2 does not reaccelerate to Investor Day targets, 20x is fair, not cheap.
+**#3 IDXX — the compounder on sale.** Q2 EPS +18% (beat by 8%), recurring CAG
+revenue +10.3% organic on volume *and* pricing, FY26 EPS guidance raised —
+yet ~33% off its high at ~31x forward vs a richer history, 72% ROE, zero net
+debt. The only wobble is US vet visits (guided −1.5–2% H2), judged cyclical.
+Nov 2 Q3 is the prove-it date. Caveat: the 40–50x historical P/E band cited in
+research could not be fully verified — treat the "cheap vs history" claim as
+approximate.
 
-**4. IDXX — IDEXX Laboratories.** Razor-and-blade vet diagnostics (80,000+ installed analyzers, high clinic switching costs) compounding through the drawdown: Q2 beat with raised FY2026 guidance (EPS USD 14.69–14.94) into a -1.3% vet-visit headwind it monetizes at an ~1,100bp premium. The -31.9% dip is premium-multiple compression meeting a traffic narrative — the cleanest temporary-dip story in the field. Irreplaceability 8/10; AI is an augmenter here.
+**#4 ORLY** — compounding while compressing: Q2 revenue +8%, comps +6%,
+guidance *raised*; the dip is a competitor's-miss read-through plus multiple
+compression. Cheapest entry in years at ~23x vs ~30x history.
 
-**5. SPGI — S&P Global.** Ratings duopoly plus the S&P 500 licence, de-rated -24.4% on rates/spin-off narrative while Q2 printed records; no earnings-quality flags, no volume decline, no share loss in any 2026 print. Yesterday's single pick; today it falls to #5 on Borda because three lenses found faster re-rate candidates, but the veto lens still ranks it 4th — it remains the least-trappy name in the field.
+**#5 TPR** — the Capri deal collapse forced a real turnaround; Coach is
+compounding (+15%) and the beat-and-guide derating left 13.4x forward.
 
-**6–10 in one line each:** TPR — Coach brand pricing power derated on a guide cut, not earnings; the panel's fastest re-rate (A's top pick). ISRG — best business in the field at the richest price; Oct 20 earnings is the swing date. SYK — cyber-wiper shock fading on intact +9% organic volume growth; needs Q4 proof. VRT — superb cash flow and backlog, but the silent order book makes Oct 21 a show-me, not a layup (flagged by D). ADBE — cheapest software name in the S&P at 8.7x, but net-new ARR -38% YoY and a CEO change make the AI question real, not narrative (flagged by C and D as trap-adjacent).
+**#6 WM** — the #1 North American hauler derated on one soft revenue print
+while core price rose 5.7%; landfill volumes ex-wildfire-comp were +1.7%.
+
+**#7 LVS** — low hold variance stole ~$87M of Macau EBITDA while gaming
+volumes grew; restored mechanically at the Oct 21 print. Trap flag stays
+visible: Beijing policy leverage is real.
+
+**#8 SYK** — cyberattack + Inari backorder dented credibility, not demand;
+Oct 29 is the test.
+
+**#9 RL** — net-cash fortress executing brand elevation; the dip is shallow
+(−12%) and macro-gated.
+
+**#10 ADBE** — ~9x forward with $10B FCF firepower, but the panel split:
+two lenses rank it top-10 on price, the moat lens excludes it outright on
+AI-substitution. The cheapest name with the loudest debate.
 
 ## Just-missed names
 
-- **CPRT** (Borda 3, ranked only by C at #8): salvage-auction duopoly with margin rot and a RECEIVABLES_OUTRUN flag (explained as benign timing, but beats are 2/4) — three lenses saw a value trap.
-- **EFX** (Borda 2, ranked only by C at #9): the biggest analyst upside (+53%) prices a mortgage-cycle recovery, but the live FHFA margin attack on mortgage scoring is a genuine structural threat — B and D vetoed it.
-- **AZO** (Borda 1, ranked only by D at #10, flagged): DIY auto-parts moat intact, but comps need proof and the Q4 beat was tariff-refund/LIFO-flattered.
+**VRSK** (Borda 7) — quality derating on cyclical weather softness plus a
+genuine genAI-moat question; still priced at a premium. **RSG** (3) — safest
+business, shallowest dip payoff. **NFLX** (2) — the batch's real falling
+knife per the skeptic: secular YouTube attention-share loss that management
+itself conceded; only the catalyst lens ranked it. **VRT** (1) — 37x forward
+on an opaque acquisition; the skeptic's exclusion. **ISRG** (1) — best
+company, worst price at ~31x; the compounder lens passed on perfection
+pricing. **KVUE** — vetoed outright: Kimberly-Clark's pending $48.7B
+acquisition makes it merger arb, not a dip bet.
 
 ## What the panel revealed
 
-- **Convergence:** B (compounder) and D (veto) both made BKNG their top pick — the quality lens and the skeptic lens agreeing is the strongest signal in the run.
-- **Conviction vs consensus:** BR is pure consensus (4/4 appearances, 0 #1 votes, avg 2.75); BKNG is conviction (2 #1 votes, best avg placement 1.33); VRSK is C's moat-purity pick; TPR is A's lone-wolf speed pick.
-- **The disagreement that matters:** ADBE — A and B kept it in their top 10 (10x deep value), C and D excluded it as a value trap (AI cannibalization). The panel split honestly on the doctrine's central question.
-- **vs yesterday (2026-10-01):** yesterday's Borda order was SPGI, SYK, ISRG, IDXX, BKNG; today it is BR, BKNG, VRSK, IDXX, SPGI — on byte-identical data, the top-5 overlap is 4/5 names but the order reshuffled substantially, and the single-pick vote flipped from SPGI to BKNG. The consistency dataset captures this.
+- **Agreement:** all four lenses ranked CPRT, BKNG, IDXX, ORLY, TPR, SYK —
+  the top of the board is a genuine consensus, not an artifact.
+- **Disagreement:** the AI question. Lens C (moat) excluded BKNG and ADBE
+  entirely on AI-disintermediation/substitution; lens D (skeptic) examined
+  the same theses and nominated BKNG its top pick. The <1% LLM-referral
+  datum is what separates the two judgments.
+- **Conviction vs consensus:** CPRT is consensus (top-3 in 3 of 4 ballots,
+  Borda #1) more than conviction (one #1 vote, from C). BKNG is conviction
+  (two #1 votes, single-pick winner) with near-consensus (Borda #2, 1 point
+  behind). IDXX is the compounder lens's conviction pick with broad
+  second-place support.
 
 ## If forced to ONE
 
-**BKNG** — the same name as the single-pick run. The strict trap-veto lands there because the veto lens itself made BKNG its top pick, while Borda #1 BR has zero #1 votes (consensus without conviction) and TPR is a single-lens speed bet. The ranking and the single-pick process converge.
+The strict trap-veto lands on **BKNG** — the single-pick vote winner (5 pts)
+that the veto lens itself nominated top. It differs from Borda #1 (CPRT, 30
+vs 29) by a single point: the ranking rewards CPRT's across-the-board
+second-place support, while the single-pick vote rewards BKNG's two
+first-place nominations. Both are defensible; the vote, not the near-tie,
+decides the pick.
 
-## Return scenarios — top 3 (12–18 months)
+## Return scenarios (top 3)
 
-| Name | Bear | Base | Bull | Probs (b/base/bu) | EV vs price |
+| Name | Bear | Base | Bull | Probabilities | EV vs entry |
 |---|---|---|---|---|---|
-| BR | 120 (-25%) by 2027-Q3 | 209 (+30%) by 2027-Q3 | 242 (+50%) by 2027-Q4 | 0.25 / 0.50 / 0.25 | 195.0 (+21.1%) |
-| BKNG | 125 (-23%) by 2027-Q3 | 220 (+35%) by 2027-Q3 | 280 (+72%) by 2027-Q4 | 0.25 / 0.55 / 0.20 | 208.25 (+27.8%) |
-| VRSK | 130 (-22%) by 2027-Q3 | 220 (+31%) by 2027-Q3 | 260 (+55%) by 2027-Q4 | 0.20 / 0.55 / 0.25 | 212.0 (+26.4%) |
+| CPRT @ $27.29 | $19 (−30%) by 2027-Q2 — trough proves structural, multiple de-rates | $37 (+36%) by 2027-Q2 — volumes stabilize, ACV accretes | $43 (+58%) by 2027-Q4 — volume snapback, ASPs hold | 0.25 / 0.50 / 0.25 | $34.00 (+24.6%) |
+| BKNG @ $160.28 | $120 (−25%) by 2027-Q4 — AI fear proves real, the stop | $210 (+31%) by 2027-Q3 — Oct 27 kills the narrative | $250 (+56%) by 2027-Q4 — AI flips to tailwind | 0.20 / 0.55 / 0.25 | $202.00 (+26.0%) |
+| IDXX @ $517.75 | $390 (−25%) by 2027-Q2 — visit decline proves structural | $640 (+24%) by 2027-Q3 — visits stabilize, partial re-rate | $745 (+44%) by 2027-Q4 — reacceleration toward consensus | 0.25 / 0.50 / 0.25 | $603.75 (+16.6%) |
 
-Probability reasoning (never a default 25/50/25): BKNG's base gets 0.55 because every operating fact supports the intact-business thesis; VRSK's bear is discounted to 0.20 because the AI fear is demonstrably misapplied to a contributory-data moat; BR's bull is 0.25 because a mandated utility re-rates on patience, not on events. Market-implied: all three trade well below their analyst mean targets (BR USD 213.38, BKNG USD 238.08, VRSK USD 234.76) — the market sits near the bear case on each. All numbers are research scenarios, not guarantees. Note: the +15% EV guardrail applies only to actionable single picks; names below it would stay in the ranking with a flag — none of the top 3 are below it.
+All three clear the +15% EV guardrail (the guardrail only blocks actionable
+single picks; IDXX at +16.6% is noted as the thinnest). Market-implied:
+BKNG and CPRT sit closest to bear; IDXX near base. Every number a research
+scenario, not a guarantee.
 
 ## What was verified
 
-Phase 3.5 verifier (independent subagent, primary sources) — verdict **PROCEED**, zero contradictions:
-- BKNG: down-cause, catalyst/timing (Q3 2026-10-27), buyback scale, ~93% gross margins, USD 9.1B+ TTM FCF — all CONFIRMED ("decade-low" as a literal 10-year claim marked UNVERIFIED, directionally supported).
-- BR: AI/tokenization narrative vs intact mandated business, ~11/3 earnings, ~13.9x fwd (verifier found 15–17x on independent sources — still cheap vs history; direction CONFIRMED).
-- VRSK: Q2 beat, -33% AI-derating, reaffirmed FY2026 guide, Q3 11/5 catalyst — all CONFIRMED (~19x on FY2027 consensus EPS; ~92% retention traces to third-party narrative, not a company filing).
-
-Full report: output/dip/parts/2026-10-02/verification.md.
+Phase 3.5 (parts/2026-10-02/verification.md): BKNG 4/4 CONFIRMED, CPRT 4/4
+CONFIRMED, IDXX 3 CONFIRMED + 1 partial (historical P/E band unverified —
+qualified above). Corrections applied: BKNG net leverage restated ~0.3x
+EBITDA; oil added as a September driver; Q2 beat qualified; Oct 27 kept as
+estimated. CPRT's insurance-volume drop partly a lost customer, not pure
+cycle.
 
 ## Risk lens & leverage-safety note
 
-Sector concentration: healthcare (IDXX, ISRG, SYK) is 3 of the top 10; financial-data (BR, VRSK, SPGI) another 3. The deepest drawdowns (VRT -34.6%, ADBE -33.0%, IDXX -31.9%) are also the most likely to keep falling — the knife-catchers. The steadier compounders (BKNG, BR, SPGI, IDXX) carry the lower drawdown risk. Education, not advice: never a specific leverage multiple or position size — and a beaten-down name on margin is how a -23% bear case becomes a personal crisis.
+Sector concentration: 4 of the top 10 are Consumer Discretionary (BKNG, ORLY,
+TPR, LVS, RL — five, counting RL) — a consumer-spending shock hits the
+board's core. Highest-risk: LVS (policy leverage), ADBE (the AI debate),
+NFLX (excluded — secular). Steadiest: WM, RSG, CPRT (contracted/mission-
+critical cash flows). Drawdown reality: these names fell 12–46%; a beaten-down
+name can keep falling into its catalyst — size for the dip deepening before
+it turns. Education, not advice: no leverage multiple or position size is
+recommended.
 
 ## Thesis-break / trap triggers to watch
 
-- BKNG: AI agent demonstrably takes room-night share; marketing ROAS degrades; two negative room-night quarters; buyback paused.
-- BR: regulatory change to proxy-distribution mandates; a tokenization platform actually displacing tabulation volume.
-- VRSK: H2 2026 growth does not reaccelerate; transactional revenue keeps shrinking; organic CC growth decelerates again.
-- Across the list: any rebound catalyst that slips or cancels (Oct 20 ISRG, Oct 21 VRT, Nov 5 TPR/VRSK, Dec 9 ADBE), a moat breach, or the next leg down breaking the drawdown floor.
+- BKNG: LLM-referred share inflects up; Oct 27 confirms deceleration; $120 stop.
+- CPRT: volume trough deepens into 2027; ACV close slips past year-end.
+- IDXX: vet visits decline accelerates beyond −2%; guidance cut.
+- LVS: Beijing tightens junket/visa policy; receivables balloon.
+- ADBE: ARR plateaus — the "cheap" becomes permanent.
+- ORLY/TPR/WM/SYK/RL: catalyst dates slip (prints Oct 27 – Nov 5) or comps roll.
 
----
-
-*Research output, not financial advice. Dated 2026-10-02.*
+*This is research output, not financial advice. Dated 2026-10-02; figures are
+scenarios, not guarantees.*

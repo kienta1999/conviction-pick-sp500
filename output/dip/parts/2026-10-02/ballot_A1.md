@@ -1,52 +1,40 @@
-# Panelist A ballot — mean-reversion / catalyst lens — RUN 2026-10-02
+# Panelist A ballot (Mean-reversion / catalyst) — RUN_DATE 2026-10-02
 
-Lens: weight catalyst strength/timing and evidence the drop is TEMPORARY above all; reward the fastest re-rate. Value-trap veto applied to the single pick.
+Lens: weight the strength and timing of the rebound catalyst and the evidence that the drop is *temporary* — the name most likely to re-rate fastest. All figures from `research_dossier_2026-10-02.md` (10/01 close screen).
 
 ---
 
-## PART 1 — SINGLE-PICK BALLOT
+## 1) Single-pick ballot
 
-- **Top pick:** TPR
-- **Runner-up:** BKNG
-- **Thesis (3-5 sentences):** Tapestry printed the best year in its modern history — FY2026 revenue $8.0B (+14%), adjusted EPS $7.05 (+38%), operating margin 23.4% (+340 bps) — and the market sold it −16.9% in one session because the FY2027 guide collapsed the *growth cadence* (+14% → ~+5.8% revenue, +38% → ~+11% EPS), not the earnings. The move was pure multiple derating: 19.6x → ~16.4x on an unchanged forward EPS estimate ($7.84 → $7.85 guide midpoint). Coach still has textbook pricing power (mid-teens handbag price increases, Q4 gross margin 78.1%, record results across NA/China/Europe), and the Nov 5 Q1 FY27 print already carries a beat-and-hold setup — guided ~$1.55 vs $1.48 consensus. A beat re-opens the multiple debate, and the derated 14.3x forward P/E has the most room to snap.
-- **Why the dip is temporary (not permanent):** The drawdown was a repricing of the narrative, not a cut to earnings — FY2027 revenue guide midpoint landed ~$20M below consensus and the EPS estimate barely moved; you are being paid the same forward earnings at a ~27% lower multiple than July. The fundamentals driving FY2026's record year (Coach pricing power, share gains with younger shoppers, China +30% / Europe +25% in Q4) were not reversed by the guide — they were merely projected forward at a slower pace. Kate Spade is shrinking, but it was already written down ($855M FY2025 impairment) and is not the growth engine anyone is buying.
-- **Moat / AI-irreplaceability:** Low risk. Coach is the dominant American accessible-luxury handbag brand — brand-driven, design-led demand with zero AI displacement exposure; AI cannot hand-craft desirability. Pricing power is the moat evidence: mid-teens price increases did not dent demand. Dossier scores it 8/10.
-- **Rebound catalyst & timing:** Q1 FY2027 earnings on 2026-11-05 — a beat-and-hold (guided ~$1.55 vs $1.48 consensus) re-opens the multiple debate; then the holiday quarter print (fiscal Q2 report ~Feb 2027) refutes the "one-quarter wonder" fear if Coach sell-through holds. Capital-return floor in the meantime: 16%-raised $1.85 dividend + $1.7B FY2027 dividends/buybacks.
-- **12-18 month return scenario:** Base: multiple drifts from ~14x back toward ~17–18x on sustained high-single-digit Coach growth → roughly +35–45% including the dividend. Bull: back toward the pre-derating ~19.6x with Q3-style growth re-acceleration → roughly +55–65%, near the $175 consensus target (+47%).
-- **Top risk (value-trap case):** The bull depends on Coach repeating +15–25% growth — if Q3 FY2026's +31% Coach spike was the Tabby-bag cycle top, the FY2027 guide itself proves optimistic, North America (already decelerating to +7%) softens further under tariff/macro pressure on discretionary spend, and 14x P/E is expensive for a mid-single-digit grower with a shrinking second brand. That is the honest value-trap path; the Nov 5 print is the make-or-break data point.
+- **Top pick:** BKNG
+- **Runner-up:** LVS
+- **Thesis (3-5 sentences):** BKNG's ~18% September plunge was a pure narrative repricing — Meta's Muse AI-agent headlines plus a closed EU eTraveli block and a macro travel selloff — against a business that just beat on every line (Q2: revenue $7.35B +8.1%, adj EPS +15%, gross bookings $51.0B, room nights 325M +5%, 36% adj EBITDA margin). The AI-disruption thesis is directly falsifiable by management's own disclosed data: <1% of Booking.com room nights touch an LLM, and only 8% of consumers would let AI complete a booking. With a Q3 print on Oct 27 — just 25 days out — one more beat breaks the narrative, and at ~13x forward earnings for a 35%-margin compounder with a $4.1B quarterly capital return, the rerating math is explosive.
+- **Why the dip is temporary (not permanent):** The dip's cause is sentiment about a *future* threat, not a single deteriorating operating metric — the last reported quarter beat revenue, EPS, bookings, room nights, and margins, and take rates and margins expanded, proving the business itself is intact.
+- **Moat / AI-irreplaceability:** MEDIUM risk. The OTA moat (global supply scale, merchant payments infrastructure, multi-supplier cancellation/service operations) is exactly the hard commercial plumbing AI can plan around but not perform; Booking is already embedded in Google's agentic booking protocol and ChatGPT travel apps. Residual risk is real — agentic AI is the first structurally new acquisition-threat — but the current fear is priced as if disintermediation happened, while the data says it hasn't.
+- **Rebound catalyst & timing:** Q3 2026 earnings **Oct 27, 2026** — a beat punctures the "AI is killing bookings" narrative; Transformation Program run-rate savings raised to ~$650M by end-2027 as a secondary leg.
+- **12-18 month return scenario:** Base: multiple rerates from ~13x toward a ~18–20x compounder multiple on intact mid-teens EPS growth → roughly +35–45%. Bull: narrative fully breaks and the stock reclaims its $236 mean target (~+45–48%) then overshoots toward the prior $225 area as sentiment normalizes → +60%+.
+- **Top risk (value-trap case):** The AI fear turns out to be early rather than wrong — agentic booking genuinely disintermediates search-driven acquisition, marketing spend (~$2.37B/quarter) loses efficiency, take rates compress, and the Q3 guide's 4–6% growth deceleration proves to be the start of structural slowdown, not just a tough comp.
 - **Conviction (1-10):** 8
 
 ---
 
-## PART 2 — RANKED TOP-10 BALLOT
+## 2) Ranked ballot
 
-1. TPR — derated 19.6x→16.4x on guide, not earnings
-2. BKNG — AI-narrative mispricing at decade-low multiple
-3. BR — AI fear overstated vs mandated utility cash flows
-4. SPGI — rates/spin-off derating, low Q3 bar
-5. VRSK — misclassified AI casualty, strongest data moat
-6. IDXX — compounder multiple compression, cash compounding
-7. VRT — binary Oct 21, highest octane, red flag
-8. ISRG — best business, 45x, growth-scare normalization
-9. SYK — multi-year-low multiple, Q4 recovery proof needed
-10. ADBE — 10x deep value, real AI question, Dec 9
+1. BKNG — 18% Sep narrative plunge; Q3 Oct 27 breaks AI fear.
+2. LVS — Hold variance is mean-reverting; volumes growing; Oct 21 print.
+3. CPRT — Cyclical volume trough + ACV close by end-2026.
+4. TPR — Beat-and-guide derating; Coach +15%; Nov 5 + holiday.
+5. IDXX — Beats keep coming; visits the only wobble; Nov 2.
+6. SYK — Backorder clears by Q4; Oct 29 credibility test.
+7. ADBE — 8.7x fwd; CEO resolves Dec 1; ARR stabilization needed.
+8. ORLY — Intact compounder; cheapest multiple in years; Q3 late Oct.
+9. NFLX — Deepest dip, 40%+ upside if Q3 Oct 20 stabilizes engagement.
+10. VRT — 45% implied upside; Q3 timing-shift confirmation needed.
 
-### Top 3 detail
+**Top-3 detail:**
 
-**1. TPR.** The most compelling temporary-dip evidence in the dossier: the −16.9% single-session selloff followed a *beat* (Q4 revenue +9%, adjusted EPS $1.32 vs $1.28), and the forward EPS estimate did not move — the entire drop is a 19.6x→16.4x multiple derating on a decelerating growth narrative while Coach posted its best year ever with 78.1% Q4 gross margins after mid-teens price hikes. Base case over 12–18 months: multiple re-rates toward ~17–18x on the Nov 5 beat-and-hold and holiday Coach sell-through → +35–45%; bull case: growth re-acceleration back toward pre-derating multiples → +55–65%.
+- **1. BKNG.** The single cleanest temporary-dip data point in the dossier: the stock fell ~18.5% in the 30 days to 9/29 while every Q2 metric beat, because investors repriced *narrative* (Meta Muse headlines, a closed EU deal block) — yet Fogel disclosed LLM referrals are <1% of 325M room nights. Moat intact at 73% merchant-platform bookings and 35%+ margins. Base 12–18mo: +35–45% as the multiple rerates off ~13x forward on mid-teens EPS growth; bull: +60%+ reclaiming the $236 mean target (~+45–48% implied) once the AI-overhang breaks.
+- **2. LVS.** The most textbook mean-reversion setup: the Q2 profit miss was low rolling-play hold (a variance event that cost Macau EBITDA $87M) while gaming volumes *grew* YoY across every Macau segment and MBS mass gaming rose 5% — the dip is literally about price, not demand. At ~10.5x forward earnings with a $6B buyback authorization, a hold-normalization quarter restores the stolen ~$87M mechanically at the Oct 21 print. Base: +30–45% toward the $59.84 mean target (+53–61% implied); bull: +65%+ if Macau volumes hold and hold normalizes simultaneously.
+- **3. CPRT.** Cleanest dip-to-moat ratio: a zero-debt, near-unreplicable 250-yard salvage network derated −40% off highs on a cyclical US insurance-volume trough (global units −5.5% in FY26), while record US insurance ASPs prove pricing power is intact and OCF ($1.60B) still exceeds net income — the RECEIVABLES_OUTRUN flag was ruled benign. Catalyst: the $1.9B ACV Auctions close by end-2026 adds a ~$10B GMV digital dealer channel on top of volume mean-reversion. Base: +25–35% toward the ~$37.5 consensus target (+36% implied); bull: +45%+ if volumes reaccelerate and ACV proves accretive into FY28.
 
-**2. BKNG.** The temporary-dip signal is that Q2 2026 was an actual beat (EPS $2.54 +15% YoY, room nights 325M +5%, gross bookings +9%) while the drawdown (−26.5%) was driven by conservatism on Middle East/Hormuz disruption, the eTraveli block, and an AI-agent narrative the operating data hasn't validated — room-night growth is 5–8% with no share loss. The intact moat: world's largest OTA, two-sided network effects, 87% gross margins, ~35% op margins, and a $14B annualized buyback pace retiring ~10% of the float per year as the margin of safety. Base case: AI fear settles and multiple drifts from ~15x forward toward ~20x on Connected Trip attach growth → +40–50%; bull: narrative fully reverses toward the $237 consensus → +55%+.
-
-**3. BR.** The drop was never a fundamentals break: Q4 FY2026 beat on revenue and adjusted EPS, recurring revenue +8%, closed sales +39% — the −30% is a narrative repricing on AI/tokenization disintermediation fears aimed at a near-monopoly in legally mandated proxy-vote tabulation, where clients can't leave (dossier moat 8/10). Management is shipping the counter-narrative (DLX digital-asset platform, launched Sep 9), FY2027 guide is intact (recurring +6–8%, EPS +8–12%), the dividend was raised 12%, and the stock already rallied +16.7% in 3 months vs SPX +1.4% — the bottom may be in. Base case: narrative normalizes toward the $216 consensus → +30–35%; bull: mandate moat + tokenization offense re-earn the historic premium → +45%+.
-
-### Deliberately left out of the top 10
-
-- **EFX** — live political margin attack (FHFA bi-merge campaign + VantageScore price war); partly structural, not a sentiment dip; value-trap risk if policy lands.
-- **CPRT** — value-trap candidate: operating expense per car +12.7% YoY with revenue near-zero growth; the compounder era is over and the $1.9B ACV deal spent the cash cushion.
-- **LVS** — strongest bear case of the screen: receivables +78% YoY with credit-loss provisions exploding $19M→$85M (value-trap signature), Beijing capital-flow overhang, $8B expansion commitment on a leveraged balance sheet.
-- **AZO** — value-trap candidate: 7 of 8 negative earnings reactions, comps +1.5% on tariff-inflated prices, EPS beats increasingly manufactured (tariff refund, LIFO); market may be right on the lower multiple.
-- **BRO** — closest to a genuine value trap: dead organic growth (−0.7% Q2), $17.3B Accession debt load with interest +96.1% YoY, bought at peak multiples; the derating was earned.
-
----
-
-*Ballot written off the complete research_dossier_2026-10-02.md (all 15 names), 2026-10-02.*
+**Left out of top 10 and why:** RL (11 — only −12% off high, fortress but macro-wait, weakest dip); WM (derating is shallow at −17%, ~27x fwd — defensive, not explosive); RSG (shallowest dip, 30x trailing on ~4% growth — a quality hold, not a dip bet); VRSK (mixed transitory/structural — the genAI data-moat discount may be semi-permanent; needs Nov-5 proof); ISRG (best company of the group, worst price — 35.5x forward needs procedure reacceleration, classic growth-value-trap candidate if deceleration is structural); KVUE (not a rebound at all — pending Kimberly-Clark merger arb at a thin 3–6% spread, with deal-break/litigation tail risk; suspected value trap as a standalone). Flagged value traps from this lens: KVUE, ISRG, NFLX (if engagement decay is secular, 19x never rerates), RSG.

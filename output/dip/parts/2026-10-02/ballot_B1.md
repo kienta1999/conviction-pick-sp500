@@ -1,44 +1,56 @@
-# Ballot B1 — Growth/Quality Compounder Investor (RUN 2026-10-02)
+# Ballot B1 — Panelist B (Growth/quality compounder investor) — RUN_DATE 2026-10-02
 
-Voter: Panelist B (growth/quality compounder lens). Evidence: `output/dip/research_dossier_2026-10-02.md` (all 15 names, completed including the repaired VRSK/ADBE sections). This ballot overwrites an earlier vote written off an incomplete dossier.
+Lens: revenue durability, margins, returns on capital, and that the dip hasn't broken the growth story — a great business bought on sale.
 
 ---
 
-## PART 1 — SINGLE-PICK BALLOT
+## 1) SINGLE-PICK BALLOT
 
-- **Top pick:** BKNG
-- **Runner-up:** BR
-- **Thesis (3-5 sentences):** Booking is the world's largest OTA with two-sided network effects, 87% gross margins, ~35% operating margins, and merchant-model free cash flow above 1.5x net income — the archetypal compounder business model. The −26.5% drawdown is a multiple derating driven by geopolitics (Hormuz headwinds, FY26 guide cut to high-single digits) and an unproven AI-disintermediation narrative, while operating data keeps beating (Q2 EPS +15%, room nights +5%, gross bookings +9%). At ~15.4x forward P/E and ~7.4% FCF yield — a described decade-low valuation versus a 20–25x own history — you are buying a wide-moat compounder at a narrow-moat price. Meanwhile the $14B annualized buyback pace retires ~10% of the float per year, a margin of safety that compounds while the AI debate settles.
-- **Why the dip is temporary (not permanent):** The operating data has never validated the narrative: Q2 2026 was a beat across the board, room-night growth held at 5–8% with an improving direct mix, and Connected Trip attach is growing 30%+ YoY in 95%-incremental-margin verticals — there is zero evidence of share loss or agent-led disintermediation in the P&L. The selloff's triggers (Middle East disruption, the EU blocking eTraveli) are one-off and external, not competitive.
-- **Moat / AI-irreplaceability:** Medium risk. This is the one name in the batch where AI is a credible bear thesis — travel planning is exactly what agents do well, and Google can tax discovery. The offset: BKNG owns the inventory, payments, and review data that feed agents, and is shipping its own agentic products (Priceline's Penny, OpenTable AI Concierge). Regulatory blocks like eTraveli, however, prevent it from buying its way out of growth problems in Europe.
-- **Rebound catalyst & timing:** Q3 2026 earnings on **2026-10-27** — containment of the Hormuz headwind assumption and continued Connected Trip attach growth re-confirm the thesis. Any Middle East de-escalation is a sentiment kicker; the buyback steamroller ($3.6B in Q1 alone) sets a rising floor underneath. Timing: Q4 2026.
-- **12-18 month return scenario:** Base ~+30–40% (analyst mean target $236.98 implies +48%; a partial multiple re-rating to ~20x on sustained buybacks gets there even with high-single-digit growth). Bull ~+60%+ (AI narrative fully settles, Connected Trip drives margin expansion, float shrinks another ~10%).
-- **Top risk (value-trap case):** If the AI-agent thesis proves right rather than early, intermediation margins compress structurally — Google captures discovery economics, ROAS degrades on the $8.19B marketing spend, and the depressed multiple becomes permanent. This is the one risk that could convert a derating into an impairment.
+- **Top pick:** IDXX
+- **Runner-up:** BKNG
+
+- **Thesis (3-5 sentences):** IDEXX is the textbook growth compounder on this screen — a razor-and-blades franchise (VetLab/inVue instruments → high-margin consumables, reference-lab network, PIMS workflow lock-in) posting 25% net margin, 72% ROE, 33.6% ROA, and 35% operating margins (+140 bps YoY in Q2) with essentially zero net debt. The numbers keep beating — Q2 EPS $4.27 (+18%, +8.1% beat), CAG recurring revenue +10.3% organically on volume *and* pricing, FY26 EPS guidance raised to $14.69–14.94 — yet the stock trades near its 52-week low (~$517.75 vs. $769.98 high, -33%) at ~34.7x forward earnings versus its own 40–50x history. Demand softness is cyclical (US vet visits guided down 1.5–2.0% in H2, a post-COVID pet-wallet normalization), not structural, and the company is absorbing AI as a complement (CoVetAI acquisition, Sept 2026), not fighting it as a disruptor.
+
+- **Why the dip is temporary (not permanent):** The single most compelling evidence: every quarter the business beats and *raises* — Q2 beat on EPS (+18%) and revenue (+10%) with FY26 EPS guided up — while the stock sells off anyway on the visit-count wobble. When a company grows recurring revenue double-digits organically with 35% operating margins and the market still cuts the multiple, that's price action, not business breakage. The 52-week-low area on a premium installed-base compounder is the definition of "great business on sale."
+
+- **Moat / AI-irreplaceability:** LOW disruption risk. Diagnostics are physical, regulated, and workflow-embedded; AI extends the moat (software attach, ambient-listening clinical workflow via CoVetAI) rather than replacing it. Dossier irreplaceability 9/10. Competitors (Zoetis, Mars/Antech) exist but IDEXX still shows volume-plus-pricing power and international CAG +11.5% organic.
+
+- **Rebound catalyst & timing:** Q3 earnings **Nov 2, 2026** — stabilization or re-acceleration in US vet visits, continued +11% premium installed-base growth, and international CAG strength would confirm the H2 visit softness was cyclical. Mean analyst target $747 (+44% implied) gives the Street's own rerate path.
+
+- **12-18 month return scenario:** Base — multiple drifts back toward the low end of its 40–50x history on growing EPS (FY26 guide $14.69–14.94, still compounding): ~$620–680, roughly +20–30%. Bull — visits re-accelerate, Q3/Q4 confirm pricing power, and the Street's $747 mean target materializes: roughly +40–45%.
+
+- **Top risk (value-trap case):** If the pet-spending boom was a one-time COVID pull-forward and US visits decline structurally rather than cyclically, the multiple never re-rates and 34.7x becomes the new ceiling instead of a discount — the classic fallen-compounder trap, amplified if Zoetis/Mars pressure reference-lab pricing.
+
 - **Conviction (1-10):** 8
 
 ---
 
-## PART 2 — RANKED TOP-10 BALLOT
+## 2) RANKED BALLOT (top 10, this lens)
 
-1. BKNG — decade-low multiple on intact network moat
-2. BR — mandated utility, narrative fear vs cash facts
-3. IDXX — cheapest own multiple, compounding through drawdown
-4. TPR — Coach pricing power derated on guide, not earnings
-5. VRSK — 9/10 data moat mispriced as AI casualty
-6. SPGI — ratings oligopoly at rare below-history multiple
-7. SYK — best-in-class ortho at multi-year-low forward P/E
-8. ISRG — monopoly-quality business, rich but reratable
-9. ADBE — 10x software, AI fear vs 27.5B ARR reality
-10. VRT — fortress cash flow, binary Oct 21 show-me
+1. **IDXX — compounder at 52-wk-low**
+2. **BKNG — 36%-margin machine at 13x**
+3. **ORLY — intact compounder, cheapest in years**
+4. **VRSK — recurring cash at historic discount**
+5. **WM — landfill moat derated on one print**
+6. **TPR — Coach compounding at 13.4x**
+7. **RL — fortress brand at reset multiple**
+8. **CPRT — zero-debt yard moat on sale**
+9. **SYK — execution stumble, testable catalyst**
+10. **ADBE — absurdly cheap, AI-risk overhang**
 
-### Top 3 deep dives
+### Top 3 detail
 
-**1. BKNG.** The single most compelling data point for this lens: the business is doing $51B in quarterly gross bookings (+9% YoY) with 87% gross margins and FCF above 1.5x net income while trading at a decade-low ~15.4x forward P/E — the quality/durability line is intact, only the multiple moved. The AI-disintermediation fear is a narrative with no P&L evidence (room nights +5%, direct mix improving), and the $14B annualized buyback pace plus a first-ever dividend mean shareholders get paid handsomely to wait. Base 12–18mo: +30–40% on partial re-rating toward a 20x multiple; bull: +60%+ if Connected Trip re-accelerates growth and the AI debate collapses.
+**#1 IDXX —** The most compelling datapoint: Q2 EPS +18% (beat by 8.1%), recurring CAG revenue +10.3% organic on volume AND pricing, FY26 EPS guidance *raised* to $14.69–14.94 — yet the stock sits ~33% off its high at its cheapest forward multiple (34.7x) in years, with ROE 72% and zero net debt behind it. The growth story is provably unbroken; the dip is a multiple derating on soft visit counts. Base +20–30% on partial rerate; bull ~+40–45% toward the $747 consensus target.
 
-**2. BR.** The dip is a narrative repricing — AI disintermediation and tokenization fears — against fundamentals that never broke: Q4 FY2026 beat on revenue and EPS, recurring revenue +8%, closed sales +39%, and free cash flow at 110% conversion of adjusted earnings. The moat is as durable as they come: legally mandated proxy tabulation and shareholder communications, constantly audited, mission-critical, with near-monopoly retention — and management is playing offense with the DLX digital-asset platform (launched Sep 9, 2026). Base 12–18mo: +25–35% (consensus target $216 implies ~+34%); bull: +45–50% if the DLX narrative reversal reprices it back toward its historical ~17x premium.
+**#2 BKNG —** The most compelling datapoint: adj EBITDA margin 36% expanding ~40 bps, $3.6B/quarter FCF, net debt ~$1B (0.36x net debt/EBITDA), fortress cash $17.2B — derated 26.5% off its high to ~13x forward on AI-middleman headlines while CEO-confirmed data shows <1% of Booking.com room nights come via LLM referrals and only 8% of consumers would let AI complete a booking. The "AI kills OTAs" thesis is priced in against fundamentals that just beat across the board. Base +25–35% on narrative normalization into Oct 27 Q3; bull +45–50% to the $236 mean target if the print kills the fear.
 
-**3. IDXX.** The highest-quality dip in the batch on the numbers: Q2 2026 beat (revenue +10%, EPS +18%), gross margin 64.0%, operating margin 35.0%, FCF conversion 110% of net income, and guidance raised — the business is compounding while the stock fell −32% on a vet-visit narrative (−1.3% same-store visits) and a CEO transition. The installed base (~80,000 Catalyst analyzers), reference-lab network, and workflow switching costs give it an 8/10 irreplaceability score with ~4% net price realization — pricing power intact. Base 12–18mo: +25–35% (analyst mean $701 implies +35.5%) as Q3 (Nov 2) confirms the recurring-revenue engine; bull: +50%+ if vet-visit trends stabilize and the multiple climbs back toward its historical 45–60x range from ~34.7x forward.
+**#3 ORLY —** The most compelling datapoint: professional (DIFM) sales +12.5% for four straight quarters, Q2 revenue +8% / comps +6% / EPS +10% YoY with full-year guidance *raised* (EPS $3.20–3.30), gaining share as Advance Auto Parts stumbles — trading at ~23.4x forward, its cheapest multiple vs. a ~30x three-year average, with the $31.75B cumulative buyback machine compounding EPS. The dip is peer read-through plus multiple compression on an untouched execution story; fleet age 12.6+ years is a structural tailwind. Base +20–25% to the $107 average target; bull +35–45% if DIY recovers into 2027.
 
-### Left out of the top 10
+### Deliberately left out of the top 10
 
-EFX, AZO, CPRT, BRO, LVS. **Suspected value traps: CPRT** (cheaper multiple on falling earnings — cost-per-car +12.7% with near-zero revenue growth, and the $1.9B ACV deal consumed the cash pile exactly when the core is weakening); **BRO** (dead organic growth at −0.7% with $17.3B of debt from buying Accession at peak cycle — cheap on EV/EBITDA because the premium growth story is gone); **LVS** (Beijing capital-flow tightening could permanently impair the Macau earnings engine while the company funds $8B of capex on deteriorating credit quality); **AZO** (stalling 1.5% comps with increasingly accounting-flavored EPS beats — tariff refunds and LIFO — over 7 of 8 revenue misses). EFX is left out on this lens because the FHFA margin attack is policy, not sentiment — a live structural threat to the mortgage-scoring margin that a quality-compounder ballot cannot underwrite.
+- **NFLX** — real structural risk: Nielsen shows Netflix's US TV share sliding (7.8% vs. YouTube's record 14.2%) and management itself admitted weak engagement growth; this lens needs an intact growth story, and the attention-share loss is a secular, not cyclical, threat.
+- **KVUE** — not a rebound at all: pending Kimberly-Clark acquisition ($3.50 + 0.14625 KMB/share, close expected Q4 2026) makes it merger arb with a thin spread, wrong asset class for this panel.
+- **LVS** — not a compounder: earnings driven by gaming-hold variance (Q2 EPS miss −23%), thin book equity (D/E 15.3x), 2.57x leverage, and Macau policy exposure — great business, wrong lens.
+- **VRT** — execution risk at 37x forward with hyperscaler order concentration (>40%) and a commoditizing cooling loop; quality compounder it is not yet, and the multiple demands perfection the Q2 miss disproved.
+- **ISRG** — the best company on the screen but the worst price: 35.5x forward while procedure growth decelerates (19% → 13.5–15.5% guide) — a great business NOT on sale, so this lens passes.
+- **RSG** — highest irreplaceability (9/10) but the shallowest dip (−10.4% off high) at 30x P/E on ~4% revenue growth: quality, but the dip bet pays for a cycle turn, not a repricing.

@@ -1,51 +1,75 @@
-# Phase 1 triage — dip mode, RUN 2026-10-02
+# Dip triage — RUN_DATE 2026-10-02 (fresh screen, 43 candidates)
 
-Shortlist: output/dip/shortlist_2026-10-01.json (generated 2026-10-01 22:13:38, <24h old — reused per protocol). 38 candidates. Field is byte-identical to the 2026-10-01 run (duplicate-data consistency day).
+Screen: `shortlist_2026-10-02.json`, generated 2026-10-02 01:48:11 (America/Los_Angeles),
+on the 2026-10-01 close. Funnel: 43 candidates.
 
-Scored on the dip doctrine: temporary-vs-permanent dip, moat/AI-irreplaceability, rebound catalyst, balance-sheet survival, margin of safety. Ordered by composite score.
+**Screen delta vs 2026-10-01 (38 candidates):** NEW names on the screen — KVUE, NFLX,
+ORLY, RL, RSG, WM. Dropped off the screen — HAS (drops_2026-10-02.csv: stage 5
+"below 200d SMA", dist_sma200=+0.87% — Hasbro has rallied back ABOVE its 200-day
+SMA, so it no longer qualifies as "in a dip"; not a thesis change, a gate artifact).
 
-| # | ticker | composite | KEEP/DROP | doctrine score | one-line reason |
-|---|---|---|---|---|---|
-| 1 | IDXX | 0.736 | KEEP | 8 | Vet-diagnostics razor/blade, -31.9% dip on visit-volume fears; yesterday's single pick, still the cleanest temporary-dip story |
-| 2 | VRT | 0.701 | KEEP | 6.5 | -34.6% deep dip, +37% analyst upside; INVENTORY_BUILD flag to explain (borderline) |
-| 3 | LVS | 0.697 | KEEP | 5 | -44.6% deepest field dip, Macau leverage is the knife; kept as the value-trap live specimen for lens D (borderline) |
-| 4 | BKNG | 0.688 | KEEP | 8 | #1 OTA at 13.0x fwd, -26.5% on AI-agent fear; cash-flow machine, buyback floor |
-| 5 | TPR | 0.667 | KEEP | 6 | Tapestry/Coach luxury, -27.4% on consumer fears; 4/4 beats, brand moat (borderline) |
-| 6 | CPRT | 0.619 | KEEP | 8 | Copart salvage-auction duopoly, -40.4%; RECEIVABLES_OUTRUN flag needs explanation; network-effects moat |
-| 7 | VRSK | 0.617 | KEEP | 7.5 | Verisk data-analytics moat, -31.8% on growth-decel fears; sticky insurance data |
-| 8 | ADBE | 0.616 | KEEP | 6 | Adobe -33%: the doctrine's central AI-disruption debate; kept so the panel adjudicates it honestly (borderline, D-excluded 10-01) |
-| 9 | GS | 0.611 | DROP | 3 | Bank; -21.8% is rate/macro-driven with no company-specific rebound catalyst — weak doctrine narrative |
-| 10 | MS | 0.600 | DROP | 3 | Same as GS: macro-driven bank dip, LOW_CASH_CONVERSION flag is model noise for banks |
-| 11 | BR | 0.573 | KEEP | 7 | Broadridge financial plumbing, -30.4%; switching-cost moat, sticky proxy/voting infra |
-| 12 | EFX | 0.571 | KEEP | 7 | Equifax -44.3% on mortgage-cycle trough; credit-bureau oligopoly is the rebound lever |
-| 13 | ISRG | 0.569 | KEEP | 8.5 | Intuitive Surgical -31.4% on guidance caution; da Vinci standard-of-care, procedures +16% |
-| 14 | BRO | 0.568 | KEEP | 6 | Brown & Brown insurance broker -35%; roll-up compounder, RECEIVABLES_OUTRUN flag (borderline) |
-| 15 | SPGI | 0.564 | KEEP | 8.5 | S&P Global -24.4%: ratings duopoly + S&P 500 licence; yesterday's pick, no flags, record Q2 prints |
-| 16 | SYK | 0.546 | KEEP | 8 | Stryker -28.9% on cyber-wiper shock; +9% organic volume growth intact, deepest quality dip |
-| 17 | HSY | 0.543 | DROP | 5 | Hershey -32.3% on cocoa costs; pricing-power erosion risk, D flagged as trap 10-01 — dropping the flagged trap cleanly this time |
-| 18 | GOOGL | 0.538 | DROP | 4 | -15.9% shallow dip; capex/AI story is momentum-doctrine, not dip-doctrine; HIGH_ACCRUALS flag |
-| 19 | GOOG | 0.537 | DROP | 4 | Same as GOOGL (dual class, same story) |
-| 20 | GE | 0.530 | DROP | 4 | -18.1% shallow; aerospace cycle is strong — dip lacks a dislocation thesis |
-| 21 | MCO | 0.518 | DROP | 5 | Moody's -15.3%: shallow dip, and SPGI/VRSK already carry the data-moat slot better |
-| 22 | ODFL | 0.504 | DROP | 4.5 | LTL carrier -28.3% in freight recession; trough timing has no visible catalyst — weak doctrine fit |
-| 23 | AZO | 0.494 | KEEP | 7 | AutoZone -33.7%: DIY auto-parts retail moat (store density, commercial program); RECEIVABLES_OUTRUN flag |
-| 24 | PAYX | 0.492 | DROP | 4 | -20.8% shallow; SMB payroll has no visible rebound trigger |
-| 25 | CMG | 0.490 | DROP | 5 | Chipotle -23.7% on traffic slowdown; quality but dip is shallow vs its own history, +36% upside not dip-cheap |
-| 26 | MNST | 0.489 | DROP | 4 | -16.7% shallow; no dislocation narrative |
-| 27 | GNRC | 0.461 | DROP | 4 | Generac -29.7%, beats 2/4; generator cyclicality with weak beat record — trap-adjacent |
-| 28 | HAS | 0.457 | DROP | 3.5 | -15.4% shallow; no dip thesis |
-| 29 | BAC | 0.433 | DROP | 3 | Bank, macro-driven; same reason as GS/MS |
-| 30 | VMC | 0.410 | DROP | 3.5 | Aggregates cyclical; no catalyst visibility |
-| 31 | DOV | 0.388 | DROP | 3.5 | -18.8% shallow; conglomerate discount, no trigger |
-| 32 | CME | 0.373 | DROP | 3 | -16.0% dip with only +7% analyst upside — no margin of safety, no dip depth |
-| 33 | CL | 0.349 | DROP | 3 | -13.7% shallow staple; no dislocation |
-| 34 | PEP | 0.345 | DROP | 4 | -24.1% is the deepest staple dip but the catalyst (volume recovery) is invisible; weak doctrine fit |
-| 35 | ITW | 0.338 | DROP | 3 | -12.9% shallowest industrial dip; no thesis |
-| 36 | COO | 0.298 | DROP | 4 | Cooper -31.9% deep but +15% upside is the thinnest in the kept set; vision-care moat weaker than kept peers |
-| 37 | PG | 0.238 | DROP | 3 | -12.6% shallow; no dip |
-| 38 | CHD | 0.154 | DROP | 3 | -10.0% shallow; no dip |
+Note: dip depths are real and varied across the field (dist_52w_high −10% to −46%,
+dist_sma200 −0% to −29%; deepest: LVS −46%, NFLX −45%, CPRT −40%). The doctrine
+cut below weights moat durability and rebound catalyst alongside drawdown depth.
 
-KEPT (15): IDXX, VRT, LVS, BKNG, TPR, CPRT, VRSK, ADBE, BR, EFX, ISRG, BRO, SPGI, SYK, AZO
-Borderline keeps: VRT (inventory flag), LVS (trap specimen), TPR, ADBE (AI-disruption debate), BRO, HSY dropped (was D-flagged trap 10-01 — this time dropped at triage so the panel's D lens works on LVS/ADBE/EFX instead)
-Notable high-composite drops: GS (0.611), MS (0.600) — banks dropped because rate-driven dips carry no company-specific rebound catalyst and no margin-of-safety-vs-history story; this is doctrine, not the screen, disagreeing. HSY (0.543) — dropped despite deep dip because the cocoa-cost shock may be pricing-power erosion, i.e. the trap the skill weights heaviest.
-Yesterday's top-10 (SPGI SYK ISRG IDXX BKNG CPRT VRT VRSK LVS AZO) all survive triage except none — all 10 are in the kept 15.
+Doctrine scoring: 0-10 on dip-shape × moat/AI-irreplaceability × catalyst ×
+margin-of-safety. Borderline flags marked (*).
+
+| # | ticker | composite | KEEP/DROP | doctrine | one-line reason |
+|---|--------|-----------|-----------|----------|-----------------|
+| 1 | IDXX | 0.769 | KEEP | 8 | Animal-dx duopoly; sentiment dip, moat intact; 10/01 top-10 (#4) |
+| 2 | NFLX | 0.763 | KEEP | 8 | NEW name; streaming scale moat, pullback on valuation not business; needs research |
+| 3 | VRT | 0.723 | KEEP | 8 | Data-center power/cooling; AI-capex beneficiary, sentiment dip; 10/01 top-10 (#7) |
+| 4 | LVS | 0.715 | KEEP | 6* | Macau/Beijing overhang + receivables — 10/01 veto lens flagged value-trap; panel must re-judge |
+| 5 | BKNG | 0.708 | KEEP | 8 | Travel platform compounder; stale run's pick — re-earn it, don't inherit it |
+| 6 | TPR | 0.692 | KEEP | 7 | Post-Capri luxury turnaround; brand moat rebuilding; 10/01 top-10 |
+| 7 | VRSK | 0.637 | KEEP | 8 | Insurance data/analytics; switching-cost moat, AI-resilient; 10/01 top-10 (#8) |
+| 8 | ADBE | 0.636 | KEEP | 7* | Canonical AI-disruption debate: creative-cloud moat vs gen-AI commoditization; panel decides |
+| 9 | CPRT | 0.622 | KEEP | 9 | Salvage-auction duopoly; land/network moat AI can't touch; 10/01 top-10 (#6) |
+| 10 | GS | 0.615 | DROP | 4 | Barely dipped (−0.2%); no dip thesis — banks at highs, not a dislocation |
+| 11 | MS | 0.601 | DROP | 4 | Same as GS; wealth-management compounder but no drawdown to buy |
+| 12 | BR | 0.599 | DROP | 5 | Proxy-voting utility moat, but flat price — no dip, no catalyst |
+| 13 | ISRG | 0.598 | KEEP | 9 | da Vinci installed-base moat; 10/01 single pick; dip is sentiment, business accelerating |
+| 14 | SPGI | 0.579 | DROP | 5 | Ratings duopoly, quality — but −0.2% is not a dip; keep one ratings name only → dropped for field size |
+| 15 | MCO | 0.579 | DROP | 5 | Same as SPGI; duplicate exposure, no drawdown |
+| 16 | BRO | 0.572 | DROP | 4 | Insurance broker rollup; no dip narrative, rich vs history |
+| 17 | EFX | 0.569 | DROP | 5 | Credit-bureau oligopoly, but housing-lock keeps volumes soft — dip may be the business, not price |
+| 18 | GOOGL | 0.562 | DROP | 5 | Mega-cap at highs; −0.2% is noise, not a dip thesis |
+| 19 | GE | 0.558 | DROP | 5 | Aerospace upcycle already priced; no dislocation |
+| 20 | GOOG | 0.555 | DROP | 5 | Duplicate of GOOGL; no dip |
+| 21 | SYK | 0.554 | KEEP | 8 | Ortho/medtech compounder; procedure-volume recovery catalyst; 10/01 #1/#2 across runs |
+| 22 | HSY | 0.536 | DROP | 6* | Cocoa-cost + GLP-1 overhang is a real dip thesis, but borderline: keep field at 16, HSY was 10/01 #5 — honest cut, panel loses a live name |
+| 23 | ODFL | 0.527 | DROP | 5 | Best-in-class LTL carrier; freight recession is the dip — but no clear turn catalyst yet |
+| 24 | AZO | 0.516 | DROP | 6* | DIY auto-parts compounder; was 10/01 top-10 (#10); cut for field size — ORLY (new name) covers the same sub-industry with fresher research value |
+| 25 | CMG | 0.516 | DROP | 5 | Traffic-choppiness dip; valuation still full — margin of safety thin |
+| 26 | PAYX | 0.512 | DROP | 5 | HR/payroll compounder; no dip depth, no catalyst |
+| 27 | MNST | 0.487 | DROP | 5 | Energy-drink share leader; GLP-1/sugar-headwind narrative, dip shallow |
+| 28 | GNRC | 0.458 | DROP | 5 | Generator cyclicality; residential softness may be the business not the price |
+| 29 | BAC | 0.447 | DROP | 4 | Money-center bank at highs; no dip |
+| 30 | VMC | 0.432 | DROP | 5 | Aggregates pricing power, but construction cycle — no clear dislocation |
+| 31 | ORLY | 0.417 | KEEP | 7 | NEW name; DIY/pro auto-parts duopoly with AZO; needs research on why it screened now |
+| 32 | DOV | 0.396 | DROP | 5 | Diversified industrial; no crisp dip narrative |
+| 33 | RL | 0.390 | KEEP | 6* | NEW name; luxury brand turnaround (A&L reset); borderline — brand moat real, dip shallow |
+| 34 | CME | 0.383 | DROP | 4 | Exchange monopoly; no dip, rate-cut cycle already priced |
+| 35 | CL | 0.383 | DROP | 4 | Staples compounder; −0.1% is not a dip |
+| 36 | WM | 0.376 | KEEP | 7 | NEW name; waste-collection local monopolies, pricing power; needs research |
+| 37 | PEP | 0.361 | DROP | 4 | Earnings-mode name; dip narrative is volume/mix — not this mode's doctrine |
+| 38 | ITW | 0.341 | DROP | 5 | Decentralized industrial; no dip depth |
+| 39 | COO | 0.315 | DROP | 5 | Contact-lens/medtech; myopia/franchise fine but no dip catalyst |
+| 40 | PG | 0.269 | DROP | 3 | −0.1% off high; not a dip by any definition |
+| 41 | RSG | 0.227 | KEEP | 6* | NEW name; #2 waste hauler behind WM; low composite but pair-trade with WM gives the panel a clean read |
+| 42 | KVUE | 0.149 | KEEP | 5* | NEW name; lowest composite on screen; JNJ-spin consumer health (Tylenol/Neutrogena); talc-litigation overhang is the dip — trap-or-not is exactly this panel's question |
+| 43 | CHD | 0.148 | DROP | 4 | Same staples-spin profile as KVUE but no litigation catalyst and lower upside; KVUE covers the slot |
+
+**Kept: 16** — IDXX, NFLX, VRT, LVS, BKNG, TPR, VRSK, ADBE, CPRT, ISRG, SYK,
+ORLY, RL, WM, RSG, KVUE.
+**Dropped: 27** — all with one-line doctrine reasons above.
+
+Borderline calls (*): LVS (keep — veto lens must re-examine the trap case),
+ADBE (keep — AI-disruption is the panel's central question), HSY/AZO (dropped
+for field size despite real dip theses — the two most likely triage errors;
+noted honestly), RL/RSG/KVUE (kept on new-name research value despite low
+composite — the parent's explicit instruction).
+
+HAS note: dropped by the *screen* (rallied above 200d SMA), not by triage.
+If the user holds HAS, the gate artifact explanation is above.
