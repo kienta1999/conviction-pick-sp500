@@ -86,6 +86,8 @@ Outputs (under output/<mode>/):
     shortlist.csv    human-readable, ranked
     shortlist.json   full records for the stock-pick skill to consume
     funnel.json      the stage-by-stage drop counts (audit trail)
+    drops.csv        one row per DROPPED ticker: the stage that dropped it and
+                     the values that failed the gate (`scripts/why.py TICKER`)
 
 Run scripts/fetch.py first (it populates the caches this reads).
 
@@ -431,7 +433,7 @@ def run_screen(
     earnings_within_days: int = DEFAULT_EARNINGS_WITHIN_DAYS,
     min_market_cap: float = DEFAULT_MIN_MARKET_CAP,
     max_misses_4q: int = DEFAULT_MAX_MISSES_4Q,
-) -> tuple[pd.DataFrame, list[dict]]:
+) -> tuple[pd.DataFrame, list[dict], list[dict]]:
     # Reaction metrics are earnings-only: asking for them in the other two modes
     # would add columns to their shortlists without changing a single decision.
     df = load_metrics(with_reactions=(mode == "earnings"))
@@ -445,12 +447,38 @@ def run_screen(
     full_universe = df.copy()
 
     funnel: list[dict] = []
+    # One row per dropped ticker (-> drops_<date>.csv): which stage dropped it
+    # and the values the gate saw, so "why isn't GOOGL in the shortlist?" has
+    # an answer on disk instead of a guess. Bookkeeping only — it never changes
+    # which names survive.
+    drops: list[dict] = []
 
-    def stage(name: str, mask: pd.Series, frame: pd.DataFrame) -> pd.DataFrame:
+    def log_drops(name: str, gone: pd.DataFrame, show=(), extra=None) -> None:
+        for idx, r in gone.iterrows():
+            vals = {c: r.get(c) for c in show if c in gone.columns}
+            vals.update({k: v.get(idx) for k, v in (extra or {}).items()})
+            drops.append({"ticker": r["ticker"], "security": r.get("security"),
+                          "gics_sector": r.get("gics_sector"),
+                          "gics_sub_industry": r.get("gics_sub_industry"),
+                          "stage": name, "reason": _fmt_vals(vals)})
+
+    def stage(name: str, mask: pd.Series, frame: pd.DataFrame, show=(), extra=None) -> pd.DataFrame:
         kept = frame[mask].copy()
+        log_drops(name, frame[~mask.astype(bool)], show, extra)
         funnel.append({"stage": name, "in": len(frame), "out": len(kept), "dropped": len(frame) - len(kept)})
         print(f"  {name:<22} {len(frame):>4} -> {len(kept):>4}  (dropped {len(frame) - len(kept)})", flush=True)
         return kept
+
+    # Stage 0: universe members load_metrics excluded for lack of cached data —
+    # otherwise they vanish without a row anywhere.
+    from universe import get_universe
+    have = set(df["ticker"])
+    for _, u in get_universe().iterrows():
+        if u["Ticker"] not in have:
+            drops.append({"ticker": u["Ticker"], "security": u.get("Security"),
+                          "gics_sector": u.get("GICS Sector"),
+                          "gics_sub_industry": u.get("GICS Sub-Industry"),
+                          "stage": "0 no cached data", "reason": "missing price and info cache"})
 
     print(f"\nFunnel (start: {len(df)} S&P 500 members with data):", flush=True)
 
@@ -458,7 +486,7 @@ def run_screen(
     profitable = df["netIncomeToCommon"].fillna(
         df["profitMargins"].apply(lambda m: 1.0 if pd.notna(m) and m > 0 else (-1.0 if pd.notna(m) else np.nan))
     ) > 0
-    df = stage("1 profitable", profitable, df)
+    df = stage("1 profitable", profitable, df, show=("netIncomeToCommon", "profitMargins"))
 
     # 2. US company — momentum and dip only. The US gate comes from the founding
     #    momentum doctrine ("a profitable US company biggest in its niche") and
@@ -475,7 +503,7 @@ def run_screen(
         print(f"  {'2 US company':<22} {len(df):>4} -> {len(df):>4}  "
               f"(skipped — domicile is irrelevant to an event trade)", flush=True)
     else:
-        df = stage("2 US company", df["country"] == US_COUNTRY, df)
+        df = stage("2 US company", df["country"] == US_COUNTRY, df, show=("country",))
 
     # 3. Revenue growth YoY > 0, on the smoothed TTM measure (rev_growth falls
     #    back to Yahoo's single-quarter revenueGrowth where statements are
@@ -484,10 +512,12 @@ def run_screen(
         if "rev_growth_ttm" in df.columns else len(df)
     if n_fallback:
         print(f"  (growth gate: {n_fallback} names lack TTM statements, using quarterly YoY fallback)", flush=True)
-    df = stage("3 TTM rev growth>0", df["rev_growth"].fillna(-1) > 0, df)
+    df = stage("3 TTM rev growth>0", df["rev_growth"].fillna(-1) > 0, df,
+               show=("rev_growth", "rev_growth_ttm", "revenueGrowth"))
 
     # 4. Manageable leverage.
-    df = stage("4 leverage ok", df.apply(lambda r: _leverage_ok(r, max_net_debt_ebitda), axis=1), df)
+    df = stage("4 leverage ok", df.apply(lambda r: _leverage_ok(r, max_net_debt_ebitda), axis=1), df,
+               show=("net_debt_ebitda", "net_debt", "ebitda"))
 
     # 5. Price/event gate. momentum buys strength (above 200d SMA); dip buys
     #    weakness (below 200d SMA) but drops falling knives via a drawdown
@@ -495,9 +525,10 @@ def run_screen(
     #    print, so trend direction is deliberately not a criterion — and gates
     #    on the calendar, a size floor, and the beat record instead.
     if mode == "dip":
-        df = stage("5 below 200d SMA", (df["dist_sma200"] < 0).fillna(False), df)
+        df = stage("5 below 200d SMA", (df["dist_sma200"] < 0).fillna(False), df, show=("dist_sma200",))
         within_floor = df["dist_52w_high"] >= -dip_drawdown_floor
-        df = stage(f"5b drawdown >=-{dip_drawdown_floor:g}", within_floor.fillna(False), df)
+        df = stage(f"5b drawdown >=-{dip_drawdown_floor:g}", within_floor.fillna(False), df,
+                   show=("dist_52w_high",))
     elif mode == "earnings":
         dte = df["days_to_earnings"]
         no_date = sorted(df.loc[dte.isna(), "ticker"])
@@ -505,7 +536,8 @@ def run_screen(
             print(f"  (earnings gate: {len(no_date)} names have NO scheduled earnings "
                   f"date cached and cannot be windowed)", flush=True)
         in_window = (dte >= 0) & (dte <= earnings_within_days)
-        df = stage(f"5 reports <={earnings_within_days}d", in_window.fillna(False), df)
+        df = stage(f"5 reports <={earnings_within_days}d", in_window.fillna(False), df,
+                   show=("next_earnings", "days_to_earnings"))
         if df.empty:
             print(f"\n  NOTE: no S&P 500 name that passed gates 1-4 reports within "
                   f"{earnings_within_days} days. Mid-quarter weeks are routinely "
@@ -517,7 +549,7 @@ def run_screen(
                 print(f"     {d}  {names}", flush=True)
 
         df = stage(f"5b mktcap>=${min_market_cap/1e9:g}B",
-                   (df["marketCap"] >= min_market_cap).fillna(False), df)
+                   (df["marketCap"] >= min_market_cap).fillna(False), df, show=("marketCap",))
 
         # 5c. Earnings track record. Two separate drops, reported separately so
         #     "we have no data on it" is never confused with "its record is bad".
@@ -526,13 +558,13 @@ def run_screen(
         for t in sorted(df.loc[thin, "ticker"]):
             print(f"  (record gate: dropping {t} — under {MIN_EARNINGS_HISTORY} "
                   f"reported quarters cached)", flush=True)
-        df = stage(f"5c has >={MIN_EARNINGS_HISTORY}q history", ~thin, df)
+        df = stage(f"5c has >={MIN_EARNINGS_HISTORY}q history", ~thin, df, show=("n_reported",))
 
         misses = df["eps_misses_4q"].fillna(99)
         for _, r in df[misses >= max_misses_4q].iterrows():
             print(f"  (record gate: dropping {r['ticker']} — {int(r['eps_misses_4q'])} "
                   f"consensus miss(es) in the last 4 quarters)", flush=True)
-        df = stage(f"5c misses<{max_misses_4q} of 4q", misses < max_misses_4q, df)
+        df = stage(f"5c misses<{max_misses_4q} of 4q", misses < max_misses_4q, df, show=("eps_misses_4q",))
 
         # 5d. REACTION record. 5c asks whether the company clears its bar; this
         #     asks whether the market pays it for doing so, which is the only
@@ -557,7 +589,8 @@ def run_screen(
                       f"{r['beat_up_rate']:.0%} of the time "
                       f"({int(r['n_beats_measured'])} measured), last four: "
                       f"{r['reaction_last4']})", flush=True)
-            df = stage(f"5d beat->up rate>{min_beat_up_rate:.0%}", ~bad, df)
+            df = stage(f"5d beat->up rate>{min_beat_up_rate:.0%}", ~bad, df,
+                       show=("beat_up_rate", "n_beats_measured", "reaction_last4"))
 
         # 5e. THE TRAP, as a visible number rather than a paragraph. Not a gate
         #     — a run-up can be a re-rating the print confirms — but the panel
@@ -574,7 +607,7 @@ def run_screen(
                 for _, r in flagged.sort_values("ret_21d", ascending=False).iterrows():
                     print(f"     {r['ticker']:<6} {r['ret_21d']:+.1%}", flush=True)
     else:
-        df = stage("5 above 200d SMA", df["above_sma200"].fillna(False), df)
+        df = stage("5 above 200d SMA", df["above_sma200"].fillna(False), df, show=("dist_sma200",))
 
     # 6. Operating margin above the company's GICS-sector median.
     #    In momentum/dip the median is computed over the survivors of 1-5 (see
@@ -591,7 +624,11 @@ def run_screen(
     else:
         sector_median = df.groupby("gics_sector")["operatingMargins"].transform("median")
     strong_margin = df["operatingMargins"] > sector_median
-    df = stage("6 op margin>sector med", strong_margin.fillna(False), df)
+    df = stage("6 op margin>sector med", strong_margin.fillna(False), df,
+               show=("operatingMargins",),
+               # the bar differs by mode (see above) — name it so the reason says which median it was
+               extra={("sector_median_full_universe" if mode == "earnings"
+                       else "sector_median_of_stage5_survivors"): sector_median})
 
     # 6b. Earnings quality (dip + earnings modes, soft gate): a name triggering
     #     2+ of the red flags (high accruals / low cash conversion / receivables
@@ -606,7 +643,7 @@ def run_screen(
         n_flags = _n_eq_flags(df)
         for _, r in df[n_flags >= 2].iterrows():
             print(f"  (eq gate: dropping {r['ticker']} — flags: {r['eq_flags']})", flush=True)
-        df = stage("6b earnings quality", n_flags < 2, df)
+        df = stage("6b earnings quality", n_flags < 2, df, show=("eq_flags",))
 
     # 7. Forward profitability + valuation sanity. 0 < forwardPE enforces
     #    positive forward earnings ("makes money next year"); the high ceiling is
@@ -621,7 +658,7 @@ def run_screen(
         print(f"  (fwdPE gate: dropping {len(no_estimate)} with NO forward-PE estimate: "
               f"{', '.join(no_estimate)})", flush=True)
     forward_ok = (fwd > 0) & (fwd < max_forward_pe)
-    df = stage(f"7 0<fwdPE<{max_forward_pe:g}", forward_ok.fillna(False), df)
+    df = stage(f"7 0<fwdPE<{max_forward_pe:g}", forward_ok.fillna(False), df, show=("forwardPE",))
 
     # 8. Category leader — keep the niche's genuine leaders, drop the also-rans.
     #    GICS sub-industries are coarse (NVDA, AVGO, MU, AMD all = "Semiconductors")
@@ -660,7 +697,8 @@ def run_screen(
         )
         label = (f"8 niche leaders (N={leaders_per_subindustry},R={coleader_ratio:g},"
                  f"R2={coleader_2nd_ratio:g})")
-        df = stage(label, keep.fillna(False), df)
+        df = stage(label, keep.fillna(False), df,
+                   show=("subind_rank", "mc_vs_subind_leader", "mc_vs_2nd", "marketCap"))
         funnel[-1].update({
             "leaders_per_subindustry": leaders_per_subindustry,
             "coleader_ratio": coleader_ratio,
@@ -678,6 +716,9 @@ def run_screen(
     df = df.sort_values("composite_score", ascending=False).reset_index(drop=True)
     n_in = len(df)
     if trim and len(df) > target:
+        cut = df.iloc[target:]
+        log_drops("9 trim to target", cut, show=("composite_score",),
+                  extra={"composite_rank": pd.Series(range(target + 1, n_in + 1), index=cut.index)})
         df = df.head(target).copy()
         funnel.append({"stage": "9 trim to target", "in": n_in, "out": len(df),
                        "dropped": n_in - len(df), "target": target})
@@ -687,7 +728,19 @@ def run_screen(
                        "dropped": 0, "target": target, "trimmed": False})
 
     df.insert(0, "rank", range(1, len(df) + 1))
-    return df, funnel
+    return df, funnel, drops
+
+
+def _fmt_vals(vals: dict) -> str:
+    """'operatingMargins=0.137; sector_median=0.182' — compact, grep-able."""
+    out = []
+    for k, v in vals.items():
+        if v is None or (isinstance(v, float) and np.isnan(v)):
+            v = "NaN"
+        elif isinstance(v, (float, np.floating)):
+            v = f"{v:.4g}"
+        out.append(f"{k}={v}")
+    return "; ".join(out)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -747,7 +800,11 @@ _DOCTRINE = {
 }
 
 
-def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum") -> None:
+DROPS_COLS = ["ticker", "security", "gics_sector", "gics_sub_industry", "stage", "reason"]
+
+
+def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum",
+                   drops: list[dict] | None = None) -> None:
     output_dir = _output_dir(mode)
     os.makedirs(output_dir, exist_ok=True)
     # Every artifact carries its run date, so each run writes NEW paths that `git add` cannot
@@ -802,6 +859,9 @@ def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum")
     with open(artifacts.dated(mode, "funnel", ".json", run_date), "w") as f:
         json.dump(funnel, f, indent=2)
 
+    drops_path = str(artifacts.dated(mode, "drops", ".csv", run_date))
+    pd.DataFrame(drops or [], columns=DROPS_COLS).to_csv(drops_path, index=False)
+
     moved = artifacts.archive_superseded(mode)
     if moved:
         print(f"archived superseded into output/{mode}/old/: {', '.join(sorted(moved))}")
@@ -809,6 +869,7 @@ def _write_outputs(df: pd.DataFrame, funnel: list[dict], mode: str = "momentum")
     print(f"\nWrote {len(df)} candidates ({mode} mode) to:")
     print(f"  {csv_path}")
     print(f"  {json_path}")
+    print(f"  {drops_path}  ({len(drops or [])} dropped, reason per row)")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -889,7 +950,7 @@ def main() -> None:
     if max_forward_pe is None:
         max_forward_pe = DEFAULT_MAX_FORWARD_PE_DIP if args.mode == "dip" else DEFAULT_MAX_FORWARD_PE
 
-    df, funnel = run_screen(
+    df, funnel, drops = run_screen(
         target=args.target,
         max_net_debt_ebitda=args.max_net_debt_ebitda,
         max_forward_pe=max_forward_pe,
@@ -907,7 +968,7 @@ def main() -> None:
         min_beat_up_rate=args.min_beat_up_rate,
         run_into_print_flag=args.run_into_print_flag,
     )
-    _write_outputs(df, funnel, mode=args.mode)
+    _write_outputs(df, funnel, mode=args.mode, drops=drops)
 
     if df.empty:
         print(f"\nNo candidates survived the {args.mode} funnel.")

@@ -144,7 +144,7 @@ running before Phase 3.
 ## Every artifact carries its run date
 
 Every file a run writes is named `<stem>_<RUNDATE>.<ext>` — `shortlist_2026-09-21.csv`,
-`funnel_2026-09-21.json`, `research_dossier_2026-09-21.md`, `final_ranking_2026-09-21.md`.
+`funnel_2026-09-21.json`, `drops_2026-09-21.csv`, `research_dossier_2026-09-21.md`, `final_ranking_2026-09-21.md`.
 Elsewhere in this file a bare `OUT/shortlist.json` means *the dated one for this run*; read an
 existing one with `artifacts.latest(MODE, "shortlist", ".json")`.
 
@@ -193,6 +193,14 @@ The screen output lives at `OUT/shortlist.json` (and `OUT/shortlist.csv`).
    the top few by composite score (in dip mode, also the typical drawdown
    depth; in earnings mode, the reporting calendar — which names report on
    which day).
+4. **Missing names are looked up, never guessed.** The screen also writes
+   `OUT/drops_<RUNDATE>.csv` — every S&P 500 member that did not make the
+   shortlist, with the stage that dropped it and the values that failed (stage
+   `0 no cached data` = no usable cache). When a name the user holds or asks
+   about, or a name from yesterday's ranking, is absent, run
+   `uv run python scripts/why.py TICKER --mode <MODE>` and quote its stage and
+   reason. A gate artifact (e.g. operating margin exactly at the sector median,
+   price a hair under the 200d SMA) is not a thesis change — say which it is.
 
 **Field size is mode-dependent, and earnings mode is the exception.** Momentum
 and dip reliably produce 18-50 names. Earnings mode is bounded by the calendar:

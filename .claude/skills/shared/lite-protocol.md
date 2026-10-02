@@ -28,6 +28,8 @@ uv run python scripts/fetch.py && uv run python scripts/screen.py --mode <MODE>
 ```
 
 Tell the user the field size, the sector spread and the top few by composite.
+If a name the user holds or asks about is absent, look it up — `uv run python scripts/why.py TICKER
+--mode <MODE>` reads `drops_<RUNDATE>.csv` (stage + failing values per dropped ticker) — never guess.
 
 ## 2. Triage — in your head, not to disk
 
