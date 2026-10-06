@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — momentum mode, 2026-09-29 (orchestrator)
 
 Screen: 50 candidates, all above 200d SMA, profitable, low-debt, niche leaders.

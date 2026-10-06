@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens D (Contrarian / risk skeptic) — ballot for 2026-10-03
 RUN_DATE: 2026-10-03 (Saturday; last close Friday 2026-10-02)
 

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Dip Batch 3 (RUN_DATE 2026-10-03; prices as of Fri 2026-10-02 close)
 
 Sources are web search results crawled 2026-09-29 – 2026-10-02; figures cited with source + date. Anything not found is marked "not found".

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel — Phase 3 Ballot
 Lens: **Agent A — Supply-chain analyst** (weight shortage/backlog evidence and multi-year revenue visibility above all)
 Run date: 2026-09-21 (LIVE intraday screen) | Universe: 11 kept names

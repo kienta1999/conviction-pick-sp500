@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Dossier — Batch 2: LVS, NFLX, ISRG, ADBE
 **Research date: 2026-09-17** | Panel metrics as of ~2026-09-17. Prices: NFLX ~$75.31, ISRG ~$383.54 (Finnhub, Sep 17, 2026).
 

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — momentum panel, run date 2026-09-21
 Verifier: independent subagent (Muse Spark runtime — see model-policy note below). All figures checked against primary sources where possible; URL + date given for each. "NOT CONFIRMED" is used where no source could be located. Screen inputs (prices, analyst upside) are pipeline data, not company disclosures.
 

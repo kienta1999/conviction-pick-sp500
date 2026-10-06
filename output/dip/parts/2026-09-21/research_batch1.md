@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-panel research dossier — Batch 1 (healthcare) — run date 2026-09-21
 Screen basis: LIVE 2026-09-21 intraday session. S&P 500 universe fixed by screen.
 MODEL POLICY note: this agent could not change models; the work was run on the session's native model (Muse Spark). No model override was applied.

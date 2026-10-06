@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot A1 — Agent A, supply-chain analyst
 **Date:** 2026-08-04 · **Universe:** 14 momentum-screen survivors · **Source:** `output/momentum/research_dossier.md` only
 

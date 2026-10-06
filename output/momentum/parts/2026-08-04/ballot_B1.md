@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B1 — Agent B, growth/momentum investor
 **Date:** 2026-08-04 · **Dossier:** `output/momentum/research_dossier.md` · **Lens:** revenue acceleration, earnings revisions, guidance raises, price confirmation. Second derivative over absolute size.
 

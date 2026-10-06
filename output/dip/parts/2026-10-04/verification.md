@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — Dip Panel, run date 2026-10-04
 
 Independent verification of the panel's key claims via web search, 2026-10-04.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Panelist A (Earnings-momentum analyst), 2026-09-17
 
 Lens: beat/raise record, size and trend of surprises, estimate revisions, revenue acceleration into the print. Highest-probability beat-and-raise wins. All figures from the 2026-09-17 dossier; "not found" where the dossier has gaps. Context: only PAYX and CTAS report within 10 days (both 2026-09-23); the other 13 report 2026-10-13 → 2026-10-29 and are watchlist/queued. Default posture: Plan B.

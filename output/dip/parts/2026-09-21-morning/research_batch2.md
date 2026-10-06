@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Batch 2 — S&P 500 Buy-the-Dip Dossier (run date 2026-09-21)
 Covers: LVS (Las Vegas Sands), NFLX (Netflix), BKNG (Booking Holdings)
 Screen context (shortlist.json, 2026-09-21): LVS −41.5% off 52w high / −24.0% below 200d SMA, fwdPE 11.4, analyst upside +47.7%, op margin 19.7%, net debt/EBITDA 2.57, next earnings 2026-10-21 | NFLX −42.2% / −16.0%, fwdPE 18.8, upside +30.1%, op margin 33.4%, net debt/EBITDA 0.51, next earnings 2026-10-20 | BKNG −24.0% / −8.8%, fwdPE 13.6, upside +42.2%, op margin 34.4%, net debt/EBITDA 0.36, next earnings 2026-10-27.

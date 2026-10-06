@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C — Quality / Moat & Irreplaceability — 2026-09-30
 
 Panelist lens: category dominance, margins, returns on capital, balance-sheet durability, and above all irreplaceability — customers (especially hyperscalers) must not be able to build or in-source the product, and no substitute technology should be able to route around it.

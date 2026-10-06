@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — momentum batch 3 of 3 (2026-09-24)
 Run date: 2026-09-24. Tickers researched: FANG, AAPL, V, BNY, MSFT.
 Deterministic screen values are quoted verbatim under "Screen data" per ticker.

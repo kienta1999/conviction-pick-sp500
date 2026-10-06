@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — momentum run 2026-10-05
 
 **Role:** independent verifier. Checked each claim below against sources located independently (not just the dossier's own citations). Run date context: 2026-10-05; sources dated accordingly.

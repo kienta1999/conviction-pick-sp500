@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research — Batch 2: VRT, APH, ANET
 Research date: 2026-08-04. Prices/screen metrics as supplied (2026-08-04 close).
 All figures sourced; "not found" where a figure could not be verified.

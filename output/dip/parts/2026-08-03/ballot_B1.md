@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B1 — Agent B: Growth / quality compounder lens
 Dip run 2026-08-03. Prices are the 2026-08-03 close.
 

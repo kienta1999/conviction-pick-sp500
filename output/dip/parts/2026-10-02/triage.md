@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip triage — RUN_DATE 2026-10-02 (fresh screen, 43 candidates)
 
 Screen: `shortlist_2026-10-02.json`, generated 2026-10-02 01:48:11 (America/Los_Angeles),

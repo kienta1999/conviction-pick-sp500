@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-DIP — FINAL PICK — 2026-09-25
 
 **Run 4/30 of the daily consistency experiment.** Screen: `output/dip/shortlist_2026-09-25.json`

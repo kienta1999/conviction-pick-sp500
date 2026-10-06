@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 4 (FANG, FCX)
 Research date: 2026-09-22. Compiled by research subagent from web search (primary sources where available). Numbers are quoted as reported by cited sources; where sources conflict, both are noted. Not investment advice.
 

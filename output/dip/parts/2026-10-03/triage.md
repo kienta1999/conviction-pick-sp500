@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip triage — 2026-10-03 (39 screened candidates, ordered by composite)
 
 Doctrine: quality compounder below 200d SMA / off 52w high; drop is transitory

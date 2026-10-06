@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — momentum — 2026-10-03
 
 Consolidated from Phase 1 triage + Phase 2 research batches. Kept: SNDK, MU, LLY, ANET, NEM, LRCX, APH, CF, AMAT, KLAC, CAT, FCX, EOG, CSCO, FANG.

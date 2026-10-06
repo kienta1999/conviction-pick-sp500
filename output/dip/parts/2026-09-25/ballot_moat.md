@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens C: Moat & AI-irreplaceability (run 2026-09-25, run 4/30)
 
 Panelist: Agent C (moat / AI-irreplaceability investor). Read the consolidated dossier, screen metrics (shortlist_2026-09-25.json), and triage.md. Voted from this lens only.

@@ -161,6 +161,15 @@ is done** — a dated file that is never committed is still a lost audit trail.
 
 ---
 
+## Provenance — every md names the model that wrote it
+
+The first line of every markdown file a run writes — triage, research batches, ballots, verification under
+`OUT/parts/<RUNDATE>/`, the dossier, `final_ranking_<RUNDATE>.md`, `final_pick_<RUNDATE>.md`, consensus — is
+`> Run by: <model name> (<model id>) — full panel`, using the model id this session states it runs on (`unknown`
+if it does not know). Subagent files name the subagent's model (the panel's Opus agents report their own id). Then a
+blank line, then the file's usual content. `scripts/check_run.py` fails a run from 2026-10-06 on whose files lack it.
+Runs before that were annotated afterwards from the owner's record (all Muse AI).
+
 ## Phase 0 — Ensure the shortlist exists
 
 The screen output lives at `OUT/shortlist.json` (and `OUT/shortlist.csv`).

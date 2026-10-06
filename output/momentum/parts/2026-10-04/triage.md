@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — momentum, RUN 2026-10-04
 Screen: `shortlist_2026-10-03.json` (generated 2026-10-03 08:22, <24h → reused), 50 candidates.
 Triage doctrine scores are the skill's: shortage potential / backlog visibility / category dominance / irreplaceability.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — Earnings Run 2026-09-21 (PAYX, CTAS)
 
 **Verifier model:** Muse Spark (Meta) — used for this money-related verification as instructed.

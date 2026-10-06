@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B — GROWTH/MOMENTUM INVESTOR — momentum panel 2026-09-29
 *(Prices as of Fri 2026-09-26 close. Research dossier: output/momentum/research_dossier_2026-09-29.md)*
 

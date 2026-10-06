@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-MOMENTUM — FINAL RANKING — 2026-09-22
 
 **Aggregation: Borda scoring** over the four lens ballots (rank #1 = 10 pts, rank #10 = 1 pt, unranked = 0).

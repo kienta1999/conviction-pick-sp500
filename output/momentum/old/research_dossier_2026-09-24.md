@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — momentum mode — 2026-09-24
 
 Source batches: output/momentum/parts/2026-09-24/research_batch{1,2,3}.md (each written by an independent research agent on 2026-09-24). Tickers kept from triage: SNDK, MU, NVDA, ANET, NEM, MS, GOOGL, AMAT, APH, CF, FANG, AAPL, V, BNY, MSFT.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B1 — GROWTH/MOMENTUM INVESTOR — 2026-09-26
 
 Lens: revenue acceleration, earnings-revision freshness, and price momentum. Explosive YoY growth + accelerating momentum wins; multiple expansion ahead of numbers loses.

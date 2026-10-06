@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D1 — Lens D (Contrarian / risk skeptic) — RUN_DATE 2026-10-05
 
 Panelist: D — the contrarian/risk skeptic. I hunt the print the market is mis-modelling and I own the guide-down case. My job is to stress-test the names everyone else loves hardest, because a beat that the market has already decided is worth nothing is the most expensive trade in this batch.

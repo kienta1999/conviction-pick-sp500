@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification Report — Dip Panel, 2026-09-29
 
 Independent verification subagent. All claims checked fresh via web search on 2026-09-29. Verdicts: CONFIRMED / CONTRADICTED / UNVERIFIED.

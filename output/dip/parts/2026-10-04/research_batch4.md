@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Research Dossier — Run 2026-10-04 (Batch 4)
 
 Research subagent dossier for: Equifax (EFX), Hershey (HSY), S&P Global (SPGI).

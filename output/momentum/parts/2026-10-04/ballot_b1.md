@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel Ballot — RUN 2026-10-04
 ## Agent B — Growth/momentum investor
 *Lens: revenue acceleration, earnings revisions, and price momentum above all else. Voting for the fastest compounder.*

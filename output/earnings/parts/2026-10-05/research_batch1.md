@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings Research Dossier — batch1 — RUN_DATE 2026-10-05
 Tickers: GS, MS, BLK, BNY, BAC, PEP, FAST. Research as of Sunday 2026-10-05; last session Fri 2026-10-02.
 Sources: company IR/PRs (Business Wire, PRNewswire, company releases), earnings calls via press, WSJ, Reuters, Zacks, Barchart, MarketBeat, TipRanks, Seeking Alpha, TradingView, Finnhub, Motley Fool transcripts.

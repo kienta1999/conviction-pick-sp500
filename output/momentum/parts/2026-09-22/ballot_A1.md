@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # BALLOT A1 — PANELIST A (SUPPLY-CHAIN ANALYST) — stock-pick-momentum — 2026-09-22
 
 Lens: shortage/backlog evidence and multi-year contracted revenue visibility above all.

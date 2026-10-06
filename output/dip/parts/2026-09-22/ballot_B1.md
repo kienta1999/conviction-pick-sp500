@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # BALLOT — PANELIST B (Growth/quality compounder investor) — 2026-09-22
 
 ## 1. SINGLE-PICK BALLOT

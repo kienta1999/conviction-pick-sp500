@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — earnings mode — RUN 2026-10-05
 
 Screen: shortlist_2026-10-05.json (generated 2026-10-05 08:22:01). Actionable field: 7 names (days_to_earnings <= 10). The 4-lens panel votes on these 7 only; the 43 watchlist names are parked in parts/2026-10-05/triage.md.

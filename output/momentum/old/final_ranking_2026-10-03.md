@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum ranked top 10 — 2026-10-03
 
 **Official pick (cross-run consensus, 5 runs 2026-09-29 → 2026-10-03): MU, LRCX, SNDK** — daily #1s over the window: MU × 5. Today's Borda #1 is MU — no difference from the consensus; the system holds MU for the fifth straight day.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C1 — Agent C: Quality / moat & irreplaceability investor
 **Date:** 2026-09-17 · **Field:** 15 names, research dossier 2026-09-17 + triage 2026-09-17
 **Lens rule:** fallback first — which names would I be *happy* to be stuck holding 18 months after a bad print? A great print setup on a fragile business loses to a good setup on an irreplaceable one. Reject any name whose customers could realistically in-source it or that a substitute (including AI-native competition) could route around. No figures invented — "not found" where the dossier is silent.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Panel — Research Batch 3 (2026-09-21)
 ## Consumer S&P 500: TPR, LVS, NFLX, BKNG
 *(model: most capable available; screen data: live 2026-09-21 intraday session)*

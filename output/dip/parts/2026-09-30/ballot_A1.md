@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — PANELIST A (Mean-reversion / catalyst analyst) — DIP 2026-09-30
 
 Lens: weight above all the strength and timing of the rebound catalyst and the evidence the drop is TEMPORARY — the name most likely to re-rate fastest, off the 2026-09-30 research dossier (screen prices 2026-09-29 close).

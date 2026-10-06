@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D1 — Contrarian / Risk Skeptic (run 2026-10-05)
 
 ## (a) Single-pick ballot

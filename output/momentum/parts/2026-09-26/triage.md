@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum triage — 2026-09-26
 
 Screen: `output/momentum/shortlist_2026-09-26.json` (generated 2026-09-26 08:22:27 UTC, fresh rebuild — yesterday's file was stale, archived to `old/` by screen.py). 50 candidates. Triage by the orchestrator per the momentum triage criteria (shortage potential, backlog/order-book visibility, category dominance, irreplaceability / disintermediation risk).

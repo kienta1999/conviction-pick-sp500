@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum panel ballot — Agent B (Growth / momentum investor) — 2026-09-30
 
 Lens: revenue acceleration, earnings revisions, and price momentum; the fastest compounder wins. Disintermediation trap filter applied: penalize names whose customers can in-source or route around them. Timing note: MU reports Q4 FY26 TODAY (2026-09-30); its pre-earnings position is part of the evidence. All figures from the 2026-09-30 dossier; nothing fabricated.

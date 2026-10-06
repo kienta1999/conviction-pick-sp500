@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Fact Verification — DIP writeup claims
 **Verification date:** 2026-08-03
 **Method:** primary sources only — SEC EDGAR filings/exhibits (curl), SEC.gov statements, FDA De Novo database, PJM Inside Lines, stockanalysis.com. No WebSearch used.

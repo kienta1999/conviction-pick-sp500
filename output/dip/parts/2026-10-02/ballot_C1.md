@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C1 — Dip Panel, RUN_DATE 2026-10-02
 # Panelist C: Moat & AI-irreplaceability investor
 # Lens: category dominance, balance-sheet durability, and above all irreplaceability — reject any name AI or a substitute technology could realistically disrupt/commoditize, or whose dip reveals an eroding moat.

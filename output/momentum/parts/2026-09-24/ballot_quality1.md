@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — quality/moat & irreplaceability panelist — 2026-09-24
 
 Lens: durable moats, pricing power, and irreplaceability first; distrust commodity cycles; penalize fungible-commodity exposure.

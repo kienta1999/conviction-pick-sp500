@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist C1 ballot — quality / moat & irreplaceability — earnings mode, RUN_DATE 2026-10-04
 
 Lens: the fallback. Which of these would I be *happy* to be stuck holding for 18 months if the print goes badly?

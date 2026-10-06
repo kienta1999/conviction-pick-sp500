@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # BALLOT A1 — 2026-09-22 (Panelist A: Mean-reversion / catalyst analyst)
 
 ## 1. Single-pick ballot

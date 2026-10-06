@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist D — Falling-knife / value-trap skeptic ballot — 2026-09-24
 
 Role: the veto lens. The job is to find permanent impairment hiding as a cheap dip: is the *business* (not just the price) broken? Any debt/survival risk? Is the cheapness a trap? Names that pass the skeptic get ranked on survivability; names that fail get flagged. All 14 names in scope considered; triage-dropped names never touched.

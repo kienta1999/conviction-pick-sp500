@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — PEP (Q3 FY2026) — RUN_DATE 2026-10-02
 
 Verifier run: Friday 2026-10-02 (pre-open PDT). Independent re-check of the

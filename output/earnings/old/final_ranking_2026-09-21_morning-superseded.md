@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranking — stock-pick-earnings 2026-09-21 (full panel)
 
 - **Mode:** earnings (event trade; Plan B default = enter after the print)

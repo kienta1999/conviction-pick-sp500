@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens C (Quality / moat & irreplaceability) — earnings ballot, 2026-10-03
 
 *RUN_DATE 2026-10-03 (last close Fri 2026-10-02). Field of three: PEP (10/08 BMO), GS (10/13 BMO), JPM (10/13 BMO). This lens weights the fallback — margins, returns on capital, balance sheet, and above all irreplaceability. Beat records are secondary to the question: which name would I be happy to be stuck holding after a bad print?*

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Batch 1 — 2026-10-01
 ## MU, SNDK, LRCX, AMAT — Shortage / Backlog / Irreplaceability Dossiers
 

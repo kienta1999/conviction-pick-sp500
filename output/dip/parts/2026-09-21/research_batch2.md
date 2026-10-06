@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase-2 Research Dossier — Batch 2 (run date 2026-09-21, LIVE intraday session)
 
 **Universe:** infrastructure / data-services S&P 500 dip names. Screen snapshot: VRT $249.39 (−33.7% off 52w high, −4.4% vs 200d), EFX $158.87 (−38.4%, −14.0% vs 200d), BR $163.13 (−31.2%, −5.3% vs 200d), VRSK $175.41 (−29.6%, −8.4% vs 200d). Research via web search 2026-09-21; sources are dated. No numbers invented — gaps marked "not found".

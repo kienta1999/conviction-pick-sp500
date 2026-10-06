@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — momentum mode — 2026-09-21 (LIVE intraday screen)
 
 Screen: 50 candidates, generated 2026-09-21 (live intraday session). Composite

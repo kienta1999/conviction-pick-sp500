@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # EARNINGS-mode research — batch 1/3
 **Run date:** 2026-09-21 (PDT). **Tickers:** PAYX, CTAS, GS, MS, BLK.
 **Skill:** `.claude/skills/stock-pick-earnings/SKILL.md` (read 2026-09-21, obeyed).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Stock-Pick-Dip Research Dossier — Batch 3 (2026-09-22)
 
 Tickers: CASY, BR, VRSK, SYK. Research date: 2026-09-22. Sources dated as cited.

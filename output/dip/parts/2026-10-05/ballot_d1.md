@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Panelist D: FALLING-KNIFE / VALUE-TRAP SKEPTIC (RUN 2026-10-05)
 
 Lens: hunt for permanent impairment hiding as a cheap dip. "Best" = least trap-like: balance-sheet survival first, permanent-impairment risk last. Ballots based solely on `research_dossier_2026-10-05.md` (prices as of 10/02/2026 close).

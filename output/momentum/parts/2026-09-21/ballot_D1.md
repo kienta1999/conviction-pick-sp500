@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent D — Contrarian/Risk Skeptic ballot — momentum panel — 2026-09-21
 
 Lens: hunt for the thesis that is real but still underappreciated by the market;

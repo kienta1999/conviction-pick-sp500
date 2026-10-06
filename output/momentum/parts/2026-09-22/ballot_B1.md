@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST B (Growth/Momentum) — Ballot 2026-09-22
 Voted off `research_dossier_2026-09-22.md` only. Lens: revenue acceleration, earnings revisions, price momentum — the fastest compounder wins, even if the moat is thinner.
 

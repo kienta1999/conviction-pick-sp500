@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST B1 ballot — setup / positioning skeptic — earnings mode, RUN_DATE 2026-10-04
 All prices = Fri 2026-10-02 closes. Prints: PEP 10/08 BMO ($125.89); GS 10/13 BMO ($902.56); JPM 10/13 BMO ($333.18); MS 10/14 BMO ($188.01); BLK 10/14 BMO ($1,059.63); BAC 10/14 BMO ($53.75); STT 10/14 BMO ($175.96). No name carries a run-into-print flag (all ret_21d negative); implied moves were not found — proxies used: PEP 4.18%, GS 3.51%, JPM 2.68%, MS 4.09%, BLK 4.50%, BAC 2.52%, STT 3.49%.
 

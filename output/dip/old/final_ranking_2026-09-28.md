@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranked top-10 — stock-pick-dip, 2026-09-28
 
 Single round (R=1), four lenses. Borda points across 4 ballots (rank 1 = 10 pts … rank 10 = 1 pt).

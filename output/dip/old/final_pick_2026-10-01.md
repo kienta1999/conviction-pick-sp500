@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final Pick — dip mode — 2026-10-01
 
 - **Run date:** 2026-10-01 (rerun under the updated protocol; fresh screen, 38 candidates, generated 2026-10-01 22:13 PT on the 2026-10-01 close; screen now also logs drop reasons — `output/dip/drops_2026-10-01.csv`)

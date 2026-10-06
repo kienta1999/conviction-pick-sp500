@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens B (Setup / positioning skeptic) — ballot — RUN_DATE 2026-10-05
 
 Panelist B lens: weight what is already priced — ret_21d, implied move vs each name's own

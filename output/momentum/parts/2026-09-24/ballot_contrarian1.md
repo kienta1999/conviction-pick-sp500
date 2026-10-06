@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Contrarian / Risk-Skeptic Ballot — momentum — 2026-09-24
 
 Lens: what's already priced in, cyclical fragility, under-appreciation. The AI-trade crowd is piled into the memory complex and the GPU consensus; my money goes where the crowd is looking away — flat stocks with booked demand they can't yet deliver, the upstream bottleneck nobody can print, and the cheap non-correlated commodity play.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Batch 2 — 2026-10-01
 ## ANET / APH / KEYS / CSCO — Shortage, Backlog, Category, Irreplaceability
 

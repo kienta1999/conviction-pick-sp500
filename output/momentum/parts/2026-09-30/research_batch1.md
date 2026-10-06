@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 1 — 2026-09-30
 **Tickers:** SNDK, MU, LLY, ANET. Research date 2026-09-30. All figures are quoted from cited sources; where sources conflict on small details I note it rather than fabricate.
 

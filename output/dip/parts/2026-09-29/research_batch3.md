@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-mode research — Batch 3 (2026-09-29)
 
 Batch: BRO, CPRT, VRSK, EFX. As of ~Sep 29, 2026. All four trade below their 200-day SMA and off 52-week highs. Prices are point-in-time from search results; dated with source crawl dates.

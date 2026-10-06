@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip research dossier — run of 2026-07-30 (⚠️ PARTIAL — 3 of 14 names)
 
 > **INCOMPLETE RUN.** Research batches 2, 3 and 4 were killed by a monthly spend

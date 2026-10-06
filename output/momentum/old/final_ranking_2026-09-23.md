@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum ranking — run 2026-09-23 (ranked top 10)
 
 Screen: `output/momentum/shortlist_2026-09-22.json` (generated 2026-09-22 08:21:23 UTC, <24h — reused). 50 candidates → 20 triaged → 4 sequential research batches → consolidated `output/momentum/research_dossier_2026-09-23.md` → 4 sequential panelists (supply-chain, growth/momentum, quality-moat/irreplaceability, contrarian-risk skeptic), each casting a single-pick + ranked ballot in one file → Borda aggregation below.

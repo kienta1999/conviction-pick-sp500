@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens C — Quality/Moat & Irreplaceability investor — Single-pick + Ranked ballots
 **Run date:** 2026-10-02 | **Mode:** momentum | **Panelist:** Lens C1 (quality/moat & irreplaceability)
 

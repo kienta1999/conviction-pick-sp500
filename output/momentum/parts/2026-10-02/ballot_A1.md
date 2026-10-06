@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens A (Supply-Chain Analyst) — Momentum 2026-10-02
 
 Run date: 2026-10-02 | Mode: momentum | Lens: supply-chain analyst (shortage/backlog evidence + multi-year revenue visibility weighted above all else; disintermediation trap is veto-level for the single pick).

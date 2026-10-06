@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Verifier Report — stock-pick-dip panel, RUN 2026-10-05
 ## Tentative top 3: ISRG, SPGI, SYK
 Verification date: 2026-10-05. Method: independent web search, primary sources where available (company press releases / SEC-derived PRs, earnings calls via press coverage). Verdicts: CONFIRMED / CONTRADICTED / UNVERIFIED. No re-adjudication of the ranking.

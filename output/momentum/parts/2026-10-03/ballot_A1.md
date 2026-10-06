@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens A (Supply-chain analyst) — momentum — RUN_DATE 2026-10-03
 
 ## Single-pick ballot

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # THE PICK — earnings mode — 2026-09-30
 
 **Plan B — wait for the number.** No position before the print. Enter the post-earnings drift on

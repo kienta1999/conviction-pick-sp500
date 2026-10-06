@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final Ranking — dip mode — 2026-10-01
 
 ## Cross-run consensus top 3 (5 runs: 2026-09-26 → 2026-10-01)

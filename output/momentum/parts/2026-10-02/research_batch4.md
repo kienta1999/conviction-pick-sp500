@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research — Batch 4 (run date 2026-10-02)
 Tickers: PH (Parker Hannifin), FCX (Freeport-McMoRan), EMR (Emerson Electric)
 

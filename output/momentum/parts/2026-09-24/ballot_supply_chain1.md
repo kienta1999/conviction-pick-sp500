@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Supply-Chain Analyst Ballot — Momentum — 2026-09-24
 
 Lens: shortage strength first, then backlog size/visibility, then demand durability. Explosive upside = price can't clear the market yet, and someone has already paid to lock supply in.

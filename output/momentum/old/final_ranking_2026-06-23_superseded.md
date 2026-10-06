@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final Ranking — Top 10 Explosive-Return Candidates (S&P 500)
 *Generated 2026-06-23. Screen: output/shortlist.json (2026-06-23 19:01). Funnel: 50 screened → 14 shortage-shortlist → 4 parallel Opus research subagents → 4-lens Opus voting panel → orchestrator adjudication. Prices are last close from the screen. **This is research/education, not financial advice.***
 

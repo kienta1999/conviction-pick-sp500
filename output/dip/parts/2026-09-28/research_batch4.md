@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-batch research — 2026-09-28 (batch 4: SYK, EFX, AZO)
 
 Research date: 2026-09-28. Prices: SYK ~$272.36, EFX ~$148.11, AZO ~$2,872.16 (Finnhub, ~1h old).

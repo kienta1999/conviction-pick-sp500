@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Batch 2 — RUN_DATE 2026-10-03
 
 Research subagent dossier. Prices/fundamentals quoted from `output/momentum/shortlist_2026-10-03.json` (snapshot 2026-10-03 08:22 PDT, i.e. after the 10-02 close unless noted). All web evidence gathered 2026-10-03. Figures below carry their source date; "not found" is used where a number could not be verified rather than fabricated.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip mode — 2026-09-30
 
 Consolidated from `output/dip/parts/2026-09-30/research_batch{1,2,3,4}.md` (15 names researched via

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens A — Supply-Chain Analyst Ballot — 2026-09-28
 Panel: S&P 500 momentum stock-pick. Lens mandate: weight shortage/backlog evidence and multi-year revenue visibility above all; rank names where supply is the binding constraint highest; discount names whose "shortage" is really a demand surge with no supply constraint, or whose backlog is soft/cancelable.
 

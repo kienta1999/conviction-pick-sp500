@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Growth/Momentum Panelist Ballot — 2026-09-24
 
 Lens: revenue acceleration, earnings beats/revisions, price momentum, composite score. I want the fastest compounder, not the safest holder.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Mean-Reversion / Catalyst Analyst (Agent A) — Run 2026-10-04
 
 Lens: weight the strength and timing of the rebound catalyst and evidence the drop is *temporary* above all; seek the name most likely to re-rate FASTEST. Downweight/reject names showing permanent impairment, not dislocation. All figures from the 2026-10-04 research dossier; nothing fabricated.

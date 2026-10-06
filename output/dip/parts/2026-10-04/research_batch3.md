@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Dip Candidates Batch 3 (run date 2026-10-04)
 
 Researcher: subagent. Sources gathered 2026-10-04 via web search; prices as of Friday Oct 2 / Saturday Oct 3, 2026 closes.

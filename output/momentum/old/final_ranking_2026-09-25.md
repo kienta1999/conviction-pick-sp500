@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum final ranking — 2026-09-25 (run 4/30)
 
 Screen: `output/momentum/shortlist_2026-09-25.json` (screen generated 2026-09-24 08:24:41, <24h old, reused per protocol). Triage kept 12 of 48; all 12 researched (batches in `parts/2026-09-25/`). Panel: 4 sequential lenses (A supply-chain, B growth, C quality/moat, D contrarian), each returning a ranked top-10 + single-pick nomination in one ballot file. Aggregation: Borda (rank 1 = 10 … rank 10 = 1, unranked = 0), ties broken on the doctrine then #1 votes then average placement. Verification of the top 3's headline claims: 11/11 CONFIRMED, 0 contradicted (`parts/2026-09-25/verification.md`).

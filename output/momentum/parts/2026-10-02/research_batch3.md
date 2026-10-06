@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 3 (2026-10-02)
 Tickers: CAT · VRTX · CDNS · AME | Read-only research; no skill/script edits; no commits.
 

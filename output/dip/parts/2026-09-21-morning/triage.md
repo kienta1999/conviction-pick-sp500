@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — dip mode, run 2026-09-21
 
 Screen produced 29 candidates (composite 0.147–0.797). Triaged to **14 KEEPs**

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # FINAL PICK — momentum — 2026-10-04 (RUN_DATE)
 
 **THE PICK: KLAC — KLA Corporation** (Technology / Semiconductor Capital Equipment — process control & inspection; market cap ~\$261B as of 2026-10-03 close; entry price \$200.33).

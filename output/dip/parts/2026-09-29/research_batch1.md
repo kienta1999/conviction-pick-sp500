@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Batch Research — 2026-09-29 (Batch 1: LVS, IDXX, VRT, TPR)
 
 Researched 2026-09-29. Sources cited inline; all figures dated. Prices: Finnhub live quotes from 2026-09-28/29 search snippets.

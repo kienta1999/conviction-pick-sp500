@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 2 Research Dossier — Dip Batch 4 (RUN 2026-10-05)
 
 Tickers: BRO (Brown & Brown), EFX (Equifax), SYK (Stryker Corporation)

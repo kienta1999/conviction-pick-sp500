@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist B ballot — growth / momentum lens (RUN_DATE 2026-09-21)
 
 Scored strictly on: revenue/earnings growth (latest quarter + trailing), guidance trajectory

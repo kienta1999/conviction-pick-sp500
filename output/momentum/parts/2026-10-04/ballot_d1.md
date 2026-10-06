@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel Ballot — Agent D (Contrarian / Risk Skeptic) — 2026-10-04
 
 **Lens:** Hunt for the thesis that is real but still underappreciated by the market; penalize fully-priced moves (peak multiples, crowded analyst targets, doubled stocks); reward genuine shortage + reasonable or beaten-down valuation. Trap filter: disintermediation / in-sourcing risk is weighted as a flag (visible caveat), not an automatic veto.

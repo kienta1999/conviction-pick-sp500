@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — earnings 2026-09-17 (full panel)
 
 Screen: 503 → 48 (reports ≤45d, mktcap ≥$20B, <2 misses/4q, beat→up >50%, margin>sector, EQ, 0<fwdPE<60).

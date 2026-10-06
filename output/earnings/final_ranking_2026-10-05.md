@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # FINAL RANKING — earnings mode — 2026-10-05
 
 7 names researched (the full actionable field, days_to_earnings ≤ 10). 4 panelists,

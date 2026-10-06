@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final Ranking — Top 10 Explosive-Return Momentum Candidates (S&P 500)
 
 *Generated 2026-07-02. Screen: `output/momentum/shortlist.json` (2026-07-01 23:28, 50 candidates). Funnel: 50 screened → 15 triaged → 4 parallel Opus research subagents → 4-lens voting panel (R=1, 4 ballots) → Borda aggregation + doctrine adjudication → top-3 claims independently verified. Prices are last close from the screen. **This is research/education, not financial advice.***

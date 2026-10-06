@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Verification — Momentum panel, RUN_DATE 2026-09-21 (independent verifier)
 
 Scope: the Borda top three — MU (36 pts), NVDA (32), AMAT (27) — plus the trap veto on

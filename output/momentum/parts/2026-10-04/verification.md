@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — stock-pick-momentum 2026-10-04
 **Verifier:** independent web checks (primary sources where available). Verdicts: CONFIRMED / CONTRADICTED / UNVERIFIED.
 **Run date:** 2026-10-04. All sources dated 2026 unless noted.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip ranking — run 2026-09-24 (ranked top 10)
 
 **PROVENANCE NOTE:** the scheduled 2026-09-24 run was interrupted after the dip panel's

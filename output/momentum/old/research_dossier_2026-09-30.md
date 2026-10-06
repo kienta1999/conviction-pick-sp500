@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — 2026-09-30
 
 Consolidated from parts/2026-09-30/research_batch{1,2,3}.md (3 independent research subagents) + deterministic screen metrics. All figures quoted from cited sources; where sources conflict I note it. MU reports Q4 FY26 TODAY (2026-09-30).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — AGENT A: Mean-reversion / catalyst analyst (RUN_DATE 2026-10-03)
 
 Lens: weight the STRENGTH AND TIMING of the rebound catalyst and the evidence

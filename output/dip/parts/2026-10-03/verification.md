@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — buy-the-dip panel, RUN_DATE 2026-10-03
 # Verifier ran Oct 3, 2026 via web search (primary sources where possible). Dossier was context only.
 

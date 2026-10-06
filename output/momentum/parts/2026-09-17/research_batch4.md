@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Stock-Pick-Momentum Panel — Research Dossier, Batch 4
 Run date: 2026-09-17 | Companies: CAT, NEM, CF
 

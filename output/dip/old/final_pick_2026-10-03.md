@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip conviction pick — 2026-10-03
 
 **THE PICK: IDXX — Idexx Laboratories, Inc.** (Health Care / Health Care Equipment), market cap ~$40.8B, at **$517.75** (Fri 2026-10-02 close).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 2 (MS, GOOGL, AMAT, APH, CF)
 Research date: 2026-09-24. Sources cited with dates; figures not found are marked "not found".
 Batch 2 of 3 — covers only these 5 tickers.

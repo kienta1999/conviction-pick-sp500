@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final pick — stock-pick-dip, 2026-09-28
 
 **THE PICK: SYK — Stryker Corporation** (Health Care / Health Care Equipment), market cap ~$103B (screen 2026-09-28).

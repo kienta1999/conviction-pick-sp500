@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum triage — 2026-09-23
 
 Screen: `output/momentum/shortlist_2026-09-22.json` (generated 2026-09-22 08:21:23 UTC, <24h — reused). 50 candidates.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Deep-Research Dossier — Dip-Buy Panel, Run 2026-09-26
 ## Batch 4: SYK (Stryker), CBOE (Cboe Global Markets), EFX (Equifax)
 

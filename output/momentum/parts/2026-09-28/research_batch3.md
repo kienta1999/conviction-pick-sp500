@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research batch 3 — 2026-09-28
 Research subagent dossier for the S&P 500 momentum stock-pick panel.
 Five candidates: LLY, GOOGL, CF, CAT, MSFT.

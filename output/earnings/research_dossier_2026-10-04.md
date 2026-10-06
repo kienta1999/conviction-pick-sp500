@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — earnings mode, 2026-10-04
 
 Consolidated from parts/2026-10-04/research_batch1.md and research_batch2.md. 7 actionable names (dte ≤10): PEP (dte 4), GS (9), JPM (9), MS (10), BLK (10), BAC (10), STT (10). All 7 earnings dates CONFIRMED vs company IR. Prices = Friday 2026-10-02 closes (market closed all weekend).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip mode, 2026-09-24
 
 Consolidated from 4 research batches (parts/2026-09-24/). Shortlist: output/dip/shortlist_2026-09-24.json. Triage kept 14 of 28.

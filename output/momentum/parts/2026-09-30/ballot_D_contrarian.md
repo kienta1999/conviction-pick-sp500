@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D — Contrarian / risk skeptic — 2026-09-30
 
 Lens: real-but-underappreciated thesis only. Priced-in perfection is a pass; cheap multiples and overlooked backlog are the target. Valuation, downside, and disintermediation risk weighed on every name.

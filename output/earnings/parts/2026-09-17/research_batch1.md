@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Batch 1 — S&P 500 Earnings Pipeline
 **As-of date:** 2026-09-17 (all prices, consensus, and commentary reflect information observed on this date) · All prices in USD
 **Tickers:** GS, MS, BLK, BNY, APH

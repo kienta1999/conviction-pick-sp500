@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist B (growth/momentum investor) ballots — 2026-09-23
 
 Lens: revenue acceleration, earnings revisions, and price momentum. The fastest compounder wins; moats and shortages matter only insofar as they underwrite the acceleration. Judged strictly on the research dossier; no new research.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Stock-Pick Research Batch 1 — Run Date 2026-10-04
 Subagent research dossier. Sources: web search, earnings releases/10-Qs via stocktitan, analyst coverage via MarketBeat/Zacks/TipRanks. Prices are post-corporate-action series as quoted by sources (NFLX reflects the Nov 2025 10-for-1 split). Figures quoted with source dates; "not found" where not found.
 

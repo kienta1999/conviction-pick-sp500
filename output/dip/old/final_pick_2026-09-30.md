@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip conviction pick — 2026-09-30
 
 *Research output, not financial advice. Prices are the 2026-09-29 close unless noted.*

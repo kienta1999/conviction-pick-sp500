@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens B (Setup / positioning skeptic) — Earnings Ballot, RUN_DATE 2026-10-03
 
 *Panelist: B1. Evidence drawn solely from `research_dossier_2026-10-03.md` (PEP researched

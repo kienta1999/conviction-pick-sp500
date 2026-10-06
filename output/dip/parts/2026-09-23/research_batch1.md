@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip mode, run 2026-09-23, batch 1 (IDXX, TPR, LVS, VRT)
 
 Researched 2026-09-23 via web search (primary sources and financial press where available).

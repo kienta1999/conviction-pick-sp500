@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent B — Growth/quality compounder lens — Ballots — 2026-10-04
 
 My lens rewards: durable recurring revenue, high margins and returns on capital,

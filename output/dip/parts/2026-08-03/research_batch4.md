@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research batch 4 — BR, VRSK, ROL, DECK (run 2026-08-03)
 
 ## BR — Broadridge Financial Solutions

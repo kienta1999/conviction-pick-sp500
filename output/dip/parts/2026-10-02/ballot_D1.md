@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D1 — Panelist D (Falling-knife / value-trap skeptic)
 **RUN_DATE:** 2026-10-02 | **Dossier:** `output/dip/research_dossier_2026-10-02.md` (16 triaged names, 2026-10-01 close screen)
 **Lens:** Hunt for permanent impairment hiding as a cheap dip. Weigh whether the business (not just the price) is broken, debt/survival risk, and whether cheapness is a trap. I am the veto lens — a name with a *credible* trap threat is a poor bet even if other panelists love it.

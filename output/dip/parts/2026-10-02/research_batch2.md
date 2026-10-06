@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Panel Research — Batch 2 — RUN_DATE 2026-10-02
 
 Researcher: subagent research brief, 2026-10-02. All four screened as below-200-day-SMA and off-52wk-high on the 2026-10-01 close.

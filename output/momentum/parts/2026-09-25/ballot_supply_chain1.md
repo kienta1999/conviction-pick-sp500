@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Supply-chain panelist ballot — momentum panel, 2026-09-25 (run 4/30)
 Author: panelist A (Supply-chain analyst). Independent sample; no coordination.
 Dossier: `output/momentum/research_dossier_2026-09-25.md`; screen: `shortlist_2026-09-25.json`.

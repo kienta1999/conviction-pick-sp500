@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research — Batch 3 (RUN_DATE 2026-10-03)
 Tickers: AMAT, KLAC, CAT, FCX. Screen snapshot: AMAT price $540.04 / fwd PE 29.3; KLAC $200.33 / 29.9; CAT $845.42 / 26.1; FCX $72.04 / 17.3. Next earnings: KLAC 10/28, CAT 10/29, FCX 10/27, AMAT 11/12.
 Sources: dated below. Numbers from web sources reflect their publication dates; do not mix with screen metrics.

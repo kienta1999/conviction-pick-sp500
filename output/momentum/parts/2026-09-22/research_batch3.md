@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — momentum batch 3 (2026-09-22)
 Tickers: GOOGL, CSCO, VRTX, NEM
 Sources: company earnings releases/IR calls (abc.xyz, businesswire), Synergy Research via CRN/The Register, Jefferies, financial press, dated where known. Figures not found are marked "not found" — none fabricated.

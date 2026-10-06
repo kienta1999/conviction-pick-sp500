@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # DIP TRIAGE — 2026-09-22 (orchestrator, run 1 of 30 daily consistency test)
 
 Screen reused: `output/dip/shortlist_2026-09-21.json` (generated 2026-09-21 19:59:46 PDT, ~5h old, fresh per 24h cache rule). 29 candidates, composite order. No new completed market session overnight, so screen = yesterday evening's data. KEPT 15 / DROPPED 14.

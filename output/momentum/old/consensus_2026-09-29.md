@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # momentum consensus — as of 2026-09-29 (5 runs: 2026-09-25 → 2026-09-29)
 
 **Consensus top 3:** MU, KLAC, MSFT

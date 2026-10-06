@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Research Dossier — Batch 3a
 **Date:** 2026-08-03
 **Tickers:** HOOD (Robinhood Markets), NEM (Newmont)

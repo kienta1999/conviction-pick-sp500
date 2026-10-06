@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C1 — Panelist C (Quality / Moat & Irreplaceability lens), run 2026-09-17
 
 Lens doctrine: category dominance, margins, returns on capital, balance-sheet durability — and above all IRREPLACEABILITY. Any name whose customers (especially hyperscalers) can build or in-source the product, or that a substitute can route around, is ruthlessly downgraded no matter how hot the shortage is. Commodity producers with no customer lock-in score poorly through this lens, period.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranking — stock-pick-earnings 2026-09-17 (full panel)
 
 Run 2026-09-17. 15 names researched, 4-lens panel (A earnings-momentum, B setup-skeptic, C quality/moat, D contrarian), Borda tally 10-for-#1. Verifier checked top-3 load-bearing claims 2026-09-17/18. Scores below are agent judgment (higher guide-risk / priced-in = worse). Screen field: 48-candidate fresh screen 2026-09-18 05:45 UTC.

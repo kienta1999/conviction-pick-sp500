@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 1 (RUN_DATE 2026-10-03)
 
 Four S&P 500 momentum candidates researched 2026-10-03 (Saturday; last session Fri 2026-10-02 close).

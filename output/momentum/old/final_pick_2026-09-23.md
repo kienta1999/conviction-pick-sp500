@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-MOMENTUM — FINAL PICK — 2026-09-23
 
 **PROVENANCE NOTE:** the scheduled 2026-09-23 run was interrupted after the momentum

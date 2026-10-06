@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-Pick Research — Batch 2 (2026-09-28)
 
 Research subagent dossier for 4 S&P 500 buy-the-dip candidates: VRT, BKNG, ADBE, BRO.

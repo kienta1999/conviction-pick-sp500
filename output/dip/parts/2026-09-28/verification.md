@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — stock-pick-dip tentative top 3 (2026-09-28)
 
 Independent fact-check via web search (primary: SEC filings via milvern ledger, earnings-call transcripts, company PRs; secondary: Zacks, MarketBeat, StockStory, Reuters-carried PRs). Prices are Friday 2026-09-25 closes (latest available in sources checked; Monday 9/28 session not yet reflected in quote crawls).

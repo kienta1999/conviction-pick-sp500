@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research — TPR & CPRT (batch 2a, dip mode, 2026-10-01)
 
 Screen (2026-10-01 close, as provided): TPR $119.24, -4.7% vs 200d SMA, -27.4% off 52w high, fwd P/E 13.4, net debt/EBITDA 1.85; CPRT $27.29, -14.0% vs SMA, -40.4% off high, fwd P/E 15.6, net cash. Next earnings: TPR 2026-11-05, CPRT 2026-11-19.

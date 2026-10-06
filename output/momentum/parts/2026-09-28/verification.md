@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — S&P 500 Momentum Panel (2026-09-28)
 
 Verification date: 2026-09-28. The verifier did not write the dossier; all findings below are checked against primary or reputable secondary sources. Verdicts: CONFIRMED / CONTRADICTED / UNVERIFIED.

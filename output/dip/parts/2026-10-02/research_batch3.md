@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Dip-Mode Panel, RUN_DATE 2026-10-02 (Batch 3: LVS / BKNG / TPR / VRSK)
 
 Screen context: all four trade below their 200-day SMA and off their 52-week high on the **2026-10-01 close** (deterministic screen, `shortlist_2026-10-02.csv`).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip — Ranked Top 10 (S&P 500)
 
 *Generated 2026-08-03 · Mode: ranked top-N (N=10, R=1 round, 4-lens Opus panel) ·

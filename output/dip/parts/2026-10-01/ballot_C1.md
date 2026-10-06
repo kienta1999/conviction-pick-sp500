@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 ### Ballot — Panelist C · single-pick (mode-wide)
 **Top pick:** SPGI
 **Runner-up:** SYK

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST C — QUALITY/MOAT & IRREPLACEABILITY INVESTOR — Momentum Panel, 2026-09-22
 
 Lens: category dominance, margins, returns on capital, balance-sheet durability, and above

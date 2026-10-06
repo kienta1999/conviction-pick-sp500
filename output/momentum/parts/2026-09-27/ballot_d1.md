@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # LENS D — Contrarian / Risk Skeptic — Momentum Mode — RUN 2026-09-27
 
 *Method: read the consolidated dossier (batches 1–4) in full before judging. This lens rewards a shortage thesis that is REAL but not yet fully priced, and penalizes consensus shortages whose prices have already run. Valuation, downside, and disintermediation risk are weighted explicitly.*

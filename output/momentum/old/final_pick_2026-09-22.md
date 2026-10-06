@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-MOMENTUM — FINAL PICK — 2026-09-22
 
 ## THE PICK: **MU — Micron Technology — $1,015.80** (screen-record price, 2026-09-22)

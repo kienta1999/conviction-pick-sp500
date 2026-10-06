@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C — QUALITY/MOAT & IRREPLACEABILITY lens — 2026-09-28
 
 ## SINGLE-PICK BALLOT

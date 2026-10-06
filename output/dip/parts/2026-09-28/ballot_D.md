@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Panelist D (Falling-knife / value-trap skeptic), 2026-09-28
 
 Lens applied: is the moat intact or eroding? Is the drawdown cause provably transitory (business, not price)? Any debt/survival red flags? Cheapness that hides permanent impairment = veto.

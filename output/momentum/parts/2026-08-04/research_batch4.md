@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research — Batch 4
 **Date:** 2026-08-04 | **Tickers:** GOOGL, MSFT, FCX, CF
 **Frame:** explosive-return momentum bet — structural shortage + order-book visibility + irreplaceability

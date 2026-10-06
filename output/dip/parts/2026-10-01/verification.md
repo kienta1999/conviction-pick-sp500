@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — Buy-the-Dip Panel, Run Date 2026-10-01 (SPGI / SYK / ISRG)
 
 Verifier method: every claim below was checked against sources independent of the dossier's own citations — company earnings releases and SEC-filing reproductions (Quartr/GlobeNewswire/StockTitan 8-K exhibits), company scheduling announcements (PR Newswire/GlobeNewswire), Reuters, Morningstar, Motley Fool, Zacks, MassDevice, Cleveland Clinic Newsroom, and Hagens Berman's PR Newswire release quoting Stryker management verbatim. Where the only support found is an aggregator (MarketBeat / StockAnalysis / Tickeron / Tradestie / screen data), that is flagged explicitly. Verdicts are not softened: a claim with a materially wrong date, label, or figure is marked CONTRADICTED even if the surrounding thesis is intact.

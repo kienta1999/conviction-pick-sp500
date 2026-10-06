@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 independent verification — MU (momentum 2026-10-02)
 
 **Verifier role:** independent (read-only). Figures below were checked via web search against primary/near-primary sources (company earnings call transcripts, reputable financial press citing the release), NOT against the panel dossier. No skill/script files edited; nothing committed.

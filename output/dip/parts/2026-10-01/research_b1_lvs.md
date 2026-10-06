@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # 3. LVS — Las Vegas Sands (Casinos & Gaming)
 
 Screen (2026-10-01 close): $37.81, -26.6% vs 200-day SMA, -44.6% off 52-week high ($70.45), fwd P/E 10.8, TTM revenue growth +9.0%, operating margin 19.7%, net debt/EBITDA 2.57, analyst upside +56.2%, next earnings 2026-10-21.

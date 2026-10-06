@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — earnings mode — 2026-09-22
 
 Consolidated from `parts/2026-09-22/research_batch1.md` (fresh web research, 2026-09-22 ~01:30 PDT)

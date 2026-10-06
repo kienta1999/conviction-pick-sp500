@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — dip panel run 2026-09-21
 Model: Opus-class verifier. Method: independent web verification from primary
 sources (company press releases, earnings-call transcripts, SEC-filed 8-K/earnings

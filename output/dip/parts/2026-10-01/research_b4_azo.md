@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # 14. AZO — AutoZone (Specialty Retail)
 
 *Screen (2026-10-01 close): $2,819.03, -16.8% vs 200d SMA, -33.7% off 52w high, fwd P/E 14.7 (screen), rev growth TTM +9.2%, net debt/EBITDA 2.89, analyst upside +31.6%, next earnings 2026-12-08. FY ends late August; FY2026 results reported 2026-09-22.*

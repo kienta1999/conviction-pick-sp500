@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # BALLOT D1 — Agent D: Falling-knife / value-trap skeptic (VETO LENS)
 Dip run 2026-08-03. All prices are the screen's 2026-08-03 close.
 

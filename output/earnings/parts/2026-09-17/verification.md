@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 verification — REGN / MS / FSLR (as of 2026-09-17)
 
 Independent verification of load-bearing claims in `research_dossier.md` (assembled 2026-09-17). Each claim: **CONFIRMED / CONTRADICTED / UNVERIFIED**, with source and date. Price-reaction figures were recomputed from Finnhub daily candles (open/close) saved with this session, cross-checked against press reporting. All prices USD.

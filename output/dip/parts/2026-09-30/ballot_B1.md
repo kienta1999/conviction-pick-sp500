@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST B (Growth/quality compounder) — single-pick + ranked ballot — 2026-09-30
 
 Lens: revenue durability, margins, returns on capital, and the dip must not have broken the growth story. Great business bought on sale.

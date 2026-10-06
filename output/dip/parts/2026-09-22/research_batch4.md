@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Dip Panel Batch 4 (2026-09-22)
 Tickers: EFX, COO, SPGI. Data as of 2026-09-22 (EFX ~$158.6, COO ~$53.9, SPGI ~$407.6).
 

@@ -95,6 +95,9 @@ it, one sentence per deviation.
 
 ## 5. Write it — same file names as the full protocol, `_lite` suffixed
 
+The first line of each file is `> Run by: <model name> (<model id>) — lite` — the model id this session states it
+runs on (`unknown` if it does not know) — then a blank line, then the content. `check_run.py` fails a file without it.
+
 Lite scores the whole field in one pass, so the ranking is free every run and
 the "one pick" is just its top `buy` row. Both files, every run:
 

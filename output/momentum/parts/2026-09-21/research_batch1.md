@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel — Research Dossier Batch 1 (memory/AI semis)
 Run date: 2026-09-21 | Screen session: live intraday 2026-09-21
 

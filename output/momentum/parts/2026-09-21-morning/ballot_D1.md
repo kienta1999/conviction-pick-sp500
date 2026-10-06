@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D1 — Contrarian / Risk / Valuation lens (2026-09-21)
 
 ## Ranked ballot (top 10)

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — momentum mode — 2026-09-24
 
 Source: `output/momentum/shortlist_2026-09-24.json` (generated 2026-09-24 08:24:41; 48 candidates; funnel start 502 w/ data, AZO excluded).

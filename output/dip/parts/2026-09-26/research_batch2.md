@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Deep-Research Dossier — S&P 500 Dip-Buy Panel, Run Date 2026-09-26 (mode=dip)
 ## Batch 2: LVS · BKNG · ADBE · BRO
 

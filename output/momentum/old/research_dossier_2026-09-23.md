@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — 2026-09-23
 
 _Consolidated extraction from research_batch1–4.md. Each ticker section below is extracted (not rewritten) from the batch dossiers; the panel must verify claims against the batch files._

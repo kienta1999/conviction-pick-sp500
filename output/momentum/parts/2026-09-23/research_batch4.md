@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research batch 4 — FANG, VRTX, EW, UNP, AME (2026-09-23)
 
 ## FANG (Diamondback Energy) — Permian E&P, post-Endeavor scale

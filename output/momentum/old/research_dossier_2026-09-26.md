@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — 2026-09-26
 
 Assembled by the orchestrator from three independent research batches (parts/2026-09-26/research_batch{1,2,3}.md). 13 names researched.

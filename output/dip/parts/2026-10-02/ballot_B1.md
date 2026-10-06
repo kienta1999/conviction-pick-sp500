@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B1 — Panelist B (Growth/quality compounder investor) — RUN_DATE 2026-10-02
 
 Lens: revenue durability, margins, returns on capital, and that the dip hasn't broken the growth story — a great business bought on sale.

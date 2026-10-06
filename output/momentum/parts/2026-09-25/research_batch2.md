@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 2 (2026-09-25, run 4 of 30)
 **Tickers:** GOOGL · AMAT · KLAC · APH
 **Screen snapshot (shortlist_2026-09-25.json, prices as of ~9/24 close):** GOOGL $337.83 (rank 7) · AMAT $474.38 (rank 8) · KLAC $187.86 (rank 9) · APH $82.19 (rank 10)

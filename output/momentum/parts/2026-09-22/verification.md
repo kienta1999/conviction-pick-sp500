@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — stock-pick-momentum panel, 2026-09-22
 
 **Verifier scope:** Independent of the panel's votes. Load-bearing claims for the tentative single pick MU and top-3 names GOOGL, NVDA checked against web sources (primary/near-primary where available). Search conducted 2026-09-22 (PDT). Note: the web record for mid-2026 events is dominated by secondary financial press; primary sources (Micron IR press releases, NVIDIA newsroom/SEC 8-K) were used where retrievable.

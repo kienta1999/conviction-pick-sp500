@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings ranking — 2026-10-03 (top 10)
 
 **Official pick: GS (Plan B queue on the 10/13 BMO print)** — Borda winner (10 pts) of a 4-lens panel over a 3-name actionable field; the trap-veto lands on it too. See `final_pick_2026-10-03.md`. PEP's 10/08 Plan B queue (standing since 9/28) continues separately — the one-position rule applies if both triggers fire (see final_pick). Ranks 4–10 are the **unresearched watchlist**, ordered by screen composite — the queue for coming weeks, not today's trade.

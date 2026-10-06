@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — LENS_B (Value Hunter) — 2026-09-21
 
 Lens: absolute-value score 0-10. Higher = the dip created genuine mispricing vs

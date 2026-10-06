@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification Report — Momentum Panel, RUN_DATE 2026-09-27
 
 Verifier role: independent check of 8 specific panel claims against web sources (primary where possible), conducted 2026-09-27. Claims were NOT verified from the dossier itself.

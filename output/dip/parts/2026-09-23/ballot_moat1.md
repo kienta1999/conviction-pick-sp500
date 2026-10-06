@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist C (moat & AI-irreplaceability) — dip 2026-09-23
 
 Lens: weight category dominance, balance-sheet durability, and above all irreplaceability — reject any name whose product AI or a substitute could realistically disrupt or commoditize, or whose moat the dip reveals is eroding. Deliberated off the consolidated dossier only (no fresh web search).

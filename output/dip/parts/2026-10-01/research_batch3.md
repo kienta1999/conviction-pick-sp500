@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research — EFX & ISRG (batch 3, dip mode, 2026-10-01)
 
 Screen (2026-10-01 close, panel data): EFX $139.73, −21.3% vs 200d SMA, −44.3% off 52w high, fwd P/E 13.8, rev growth TTM +7.4%, net debt/EBITDA 3.08, analyst upside +53.4%, earnings 2026-10-22. ISRG $406.63, −9.0% vs SMA, −31.4% off high, fwd P/E 33.6, rev growth TTM +14.5%, net cash, analyst upside +17.1%, earnings 2026-10-20.

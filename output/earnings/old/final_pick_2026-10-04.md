@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final pick — earnings mode, 2026-10-04
 
 **THE PICK: BLK (BlackRock, Inc.) — Financials / Asset Management & Custody Banks. Plan B (enter AFTER the 10/14 BMO print, on a confirmed beat-and-clean-capital-return message + up first session; enter 10/15). Price at pick: $1,059.63 (10-02 close).** This is a NEW panel pick: BLK entered the ~10-day window today and won the Borda aggregate with unanimous top-3 support. **⚠️ NO SAFE FALLBACK** — the 12–18 month fallback EV is +6.2%, below the +15% guardrail (see scenarios).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-MOMENTUM — FINAL RANKING — 2026-09-24
 
 ## The ranking (Borda, 4 lenses)

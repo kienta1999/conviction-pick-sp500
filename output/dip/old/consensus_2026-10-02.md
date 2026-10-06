@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # dip consensus — as of 2026-10-02 (5 runs: 2026-09-28 → 2026-10-02)
 
 **Consensus top 3:** IDXX, CPRT, SYK

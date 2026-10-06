@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # EARNINGS-mode research — batch 3/3
 **Run date:** 2026-09-21 (PDT). **Tickers:** HWM, BNY, PEP, BAC, FOXA.
 **Skill:** `.claude/skills/stock-pick-earnings/SKILL.md` (read 2026-09-21, obeyed).

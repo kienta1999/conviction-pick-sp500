@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip ranked top-10 — 2026-10-03
 
 ## Consensus top 3 (official pick — scripts/consensus.py, last 5 rank10 runs)

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip ranking — run 2026-09-25 (rank 4/30 consistency experiment)
 
 **Provenance:** fresh screen `output/dip/shortlist_2026-09-25.json` (37 names,

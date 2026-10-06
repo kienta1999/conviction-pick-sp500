@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum — Final Pick (single-pick mode)
 **Run date:** 2026-09-21 · **Mode:** momentum (above 200d SMA + structural shortage doctrine)
 **Screen:** `output/momentum/shortlist.json`, generated 2026-09-21 08:33:32 UTC — 50 candidates from 503 S&P 500 members, triaged to 11 for deep research (prices through 9/18 close)

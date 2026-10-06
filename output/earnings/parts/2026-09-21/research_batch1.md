@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PAYX Earnings Dossier — Fiscal Q1 2027 (quarter ended 8/31/2026)
 Report date: **2026-09-23 (Wednesday), BMO** · Research date: 2026-09-21 · Screen price: **$116.14**
 

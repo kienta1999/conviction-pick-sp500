@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens A (earnings-momentum) — earnings 2026-09-21
 
 **Analyst:** Agent A — earnings-momentum lens. Weighting: beat/raise record, size and trend of surprises, estimate revisions, revenue acceleration into the print. Seeking the highest probability of a beat-and-raise. All figures grounded in `research_dossier.md` / triage; nothing invented.

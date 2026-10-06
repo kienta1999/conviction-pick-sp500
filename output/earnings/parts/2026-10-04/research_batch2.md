@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings research batch 2 — BLK / BAC / STT
 RUN_DATE=2026-10-04 (Sunday; last session Fri 2026-10-02). All three report **Wed 2026-10-14, before market open**. Prices are Fri 10-02 closes. Research as of 2026-10-04.
 

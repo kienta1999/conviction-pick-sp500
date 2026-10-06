@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-panel research dossier — RUN 2026-10-05 (batch 1: NFLX, IDXX, LVS, BKNG)
 
 Prices as of Fri 2026-10-02 close (last session before 2026-10-05 run date).

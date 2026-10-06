@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research — SYK & HSY (batch 4, dip mode, 2026-10-01)
 
 Screen (2026-10-01 close, panel-provided): SYK $272.96, -16.9% vs 200d SMA, -28.9% off 52w high, fwd P/E 16.3, rev growth TTM +11.0%, net debt/EBITDA 1.59, analyst upside +35.2%, next earnings 2026-10-29. HSY $157.61, -9.0% vs SMA, -32.3% off high, fwd P/E 16.0, rev growth TTM -1.0%, net debt/EBITDA 1.94, analyst upside +29.9%, next earnings 2026-10-30.

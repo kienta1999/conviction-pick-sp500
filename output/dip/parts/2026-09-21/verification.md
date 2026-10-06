@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — stock-pick-dip panel, run date 2026-09-21
 
 **Verifier:** independent subagent (session model: Muse Spark; per MODEL POLICY the money panel

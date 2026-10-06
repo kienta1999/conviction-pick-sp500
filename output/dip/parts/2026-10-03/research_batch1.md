@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Research Batch 1 — RUN_DATE 2026-10-03 (last close Fri 2026-10-02)
 Subagent dossier for the S&P 500 buy-the-dip panel. All figures from web sources cited with dates; "not found" where unavailable. No fabricated numbers.
 

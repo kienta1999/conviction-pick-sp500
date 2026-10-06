@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — dip mode, RUN 2026-09-17
 
 Screen produced 32 candidates (below 200d SMA, drawdown within -55% floor,

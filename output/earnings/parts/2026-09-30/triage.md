@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — earnings mode — 2026-09-30
 
 Screen: 50 candidates, 45-day window, generated 2026-09-30 08:24:55 (fresh rebuild, 9/29-close data).

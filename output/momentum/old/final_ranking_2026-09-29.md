@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranking — momentum mode, 2026-09-29 (prices as of Fri 2026-09-26 close)
 
 ## Consensus top 3 (official pick — 5-run consensus, 2026-09-25 → 2026-09-29)

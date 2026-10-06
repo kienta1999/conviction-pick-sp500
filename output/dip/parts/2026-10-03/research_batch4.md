@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-dip research dossier — RUN_DATE 2026-10-03 (Batch 4: ADBE, CPRT, BRO, EFX)
 All prices as of Fri 2026-10-02 close unless noted. Sourced from web searches 2026-10-03.
 

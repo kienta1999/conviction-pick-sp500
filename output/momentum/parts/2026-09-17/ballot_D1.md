@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist D Ballot (Contrarian / risk skeptic) — run 2026-09-17
 
 Lens: hunt for a thesis that is REAL but still UNDERAPPRECIATED by the market; avoid anything already priced for perfection. Weigh valuation, downside, and disintermediation risk. Great business at a bull-case price = pass. Mispriced shortage, not crowded momentum.

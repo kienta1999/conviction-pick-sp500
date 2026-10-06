@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — PEP (PepsiCo) Q3 2026 Earnings Pick
 
 - Candidate: PEP — Q3 2026 print

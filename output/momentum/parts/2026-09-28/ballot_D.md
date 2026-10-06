@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist D — CONTRARIAN / RISK SKEPTIC ballot
 **Run:** 2026-09-28 (momentum panel). Read the consolidated dossier cover to cover; no figures invented.
 All prices/figures below are from the dossier's screen table and research batches.

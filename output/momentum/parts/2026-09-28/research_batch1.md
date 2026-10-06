@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research batch 1 — SNDK / MU / NVDA / ANET
 **Research date: 2026-09-28 (PDT). All figures per sources cited; figures not found are marked "not found".**
 

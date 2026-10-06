@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent A — Supply-chain analyst ballot (momentum, 2026-10-04)
 
 Lens: weight physical shortage/backlog evidence and multi-year revenue visibility above all else. Vote for the name where a booked-demand or supply-constraint setup gives the clearest explosive-return configuration.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — momentum, run 2026-09-17
 
 **Screen:** `output/momentum/shortlist.json` generated 2026-09-18 05:47:08 UTC — 50 candidates from 503 S&P 500 members.

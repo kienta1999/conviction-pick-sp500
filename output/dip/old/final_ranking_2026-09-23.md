@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip ranking — run 2026-09-23 (ranked top 10)
 
 Screen: `output/dip/shortlist_2026-09-22.json` (generated 2026-09-22 08:57:55 UTC, <24h — reused). 26 candidates → 15 triaged → 4 sequential research batches → consolidated `output/dip/research_dossier_2026-09-23.md` → 4 sequential panelists (mean-reversion/catalyst, growth-quality compounder, moat/AI-irreplaceability, falling-knife skeptic), each casting a single-pick + ranked ballot in one file → Borda aggregation below.

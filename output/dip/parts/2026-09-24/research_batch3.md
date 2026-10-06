@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-Mode Research Dossier — Batch 3 (2026-09-24)
 Tickers: BRO (Brown & Brown), EFX (Equifax), SYK (Stryker). Prices as of ~Sep 23–24, 2026 (Finnhub/MarketBeat). Sources: earnings-call transcripts (MarketBeat), company PRs, Zacks, Scotsman Guide, Business Wire.
 

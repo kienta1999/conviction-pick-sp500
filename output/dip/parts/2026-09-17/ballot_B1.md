@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B1 — Growth/Quality Compounder Panelist (date 2026-09-17)
 
 Lens: revenue durability, margins, returns on capital, and the dip not breaking the growth story — highest-quality business at a fair dip price over deepest dip on a mediocre business. Evidence: research_dossier.md + shortlist.json.

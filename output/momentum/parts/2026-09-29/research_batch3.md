@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Phase 2 Research — Batch 3 (2026-09-29)
 Run date 2026-09-29 · prices as of Fri 2026-09-26 close. Prices/cap data dated below where sourced.
 Doctrine: structural shortage + backlog visibility + customers cannot easily in-source.

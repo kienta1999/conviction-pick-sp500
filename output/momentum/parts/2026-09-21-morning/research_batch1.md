@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 1 (SNDK / MU / NVDA / KLAC)
 RUN_DATE: 2026-09-21. Research subagent. All figures sourced from web search; "not found" where unavailable. Prices: Finnhub/Celsius data as of 2026-09-18 unless noted.
 

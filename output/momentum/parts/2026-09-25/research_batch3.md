@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel Research — Batch 3 (2026-09-25, run 4 of 30)
 
 Screen data (from `shortlist_2026-09-25.json`, generated 2026-09-24): CF rank 11 ($120.64, fwdPE 11.3), MSFT rank 20 ($500.59, fwdPE 21.2), V rank 16 ($361.52, fwdPE 24.1), FCX rank 40 ($72.58, fwdPE 17.5, INVENTORY_BUILD flag). Current prices found in today's research: CF ~$118.44 (Finnhub live quote, prev close $120.64); MSFT $497.68 (Sep 23, 2026 session); V ~$365–367 (July 28 earnings session; +0.42% on Sep 22 news); FCX ~$72.58 (screen; no separate quote found — noted).

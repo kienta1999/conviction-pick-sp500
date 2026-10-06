@@ -61,10 +61,28 @@ def known_gaps():
     return out
 
 
+PROVENANCE_FROM = "2026-10-06"   # earlier runs were annotated after the fact from the owner's record
+
+
+def provenance_errors(mode):
+    """Every md a run writes opens with '> Run by: <model> (<model id>)': the memos directly in output/<mode>/
+    and the per-run work in parts/<date>/ from PROVENANCE_FROM on (old/ is history and exempt)."""
+    d = artifacts.mode_dir(mode)
+    files = [p for p in d.glob("*.md")]
+    parts = d / "parts"
+    if parts.is_dir():
+        files += [p for sub in parts.iterdir() if sub.is_dir() and sub.name[:10] >= PROVENANCE_FROM
+                  for p in sub.rglob("*.md")]
+    missing = sorted(str(p.relative_to(ROOT)) for p in files if not p.read_text().startswith("> Run by:"))
+    return ([f"{mode}: first line must be '> Run by: <model name> (<model id>) — <full|lite>' in: "
+             + ", ".join(missing)] if missing else [])
+
+
 def check_mode(mode, gaps=frozenset()):
     errs, warns = [], []
     if not artifacts.mode_dir(mode).is_dir():
         return errs, warns
+    errs += provenance_errors(mode)
     pub = artifacts.latest_date(mode, "final_ranking", ".md") or \
           artifacts.latest_date(mode, "final_pick", ".md")
     if not pub:

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens B (setup / positioning skeptic) — earnings 2026-09-21
 
 **Analyst:** Agent B — the setup/positioning skeptic. Weighting: `ret_21d` and the run-into-print flag, implied move vs each name's own `reaction_avg_abs_move`, valuation vs its own history, and above all the **reaction record** (`beat_up_rate`, `reaction_last4`) — what each stock has actually done with its own good news. All figures grounded in `research_dossier.md` / `triage.md`; nothing invented.

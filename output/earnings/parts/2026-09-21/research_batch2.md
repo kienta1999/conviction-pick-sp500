@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # CTAS (Cintas Corporation) — Earnings Dossier
 **Run date:** Monday 2026-09-21 (intraday screen) · **Report date:** Wednesday 2026-09-23 · **Screen price:** $197.64
 **Quarter:** Fiscal Q1 2027 (quarter ended August 31, 2026)

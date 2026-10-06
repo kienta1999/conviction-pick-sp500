@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum-Mode Research Dossier — Batch 1 (RUN_DATE 2026-09-27)
 
 Price at pick baseline (S&P 500 shortlist screen, 2026-09-25/26 close): SNDK ~$1,777.80 · MU ~$1,080.53 · LLY ~$1,181.89 · ANET ~$205.70.

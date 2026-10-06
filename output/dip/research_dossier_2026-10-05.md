@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip mode, RUN 2026-10-05
 
 Consolidated from parts/2026-10-05/research_batch{1..4}.md (independent research subagents, dip skill Phase 2 brief, dated 2026-10-05). Prices as of 2026-10-02 close unless noted. Screen: output/dip/shortlist_2026-10-05.json (38 candidates; triage kept 15).

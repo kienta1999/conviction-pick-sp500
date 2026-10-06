@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-mode triage — 2026-10-04 (orchestrator)
 
 Screen: 39 candidates (shortlist_2026-10-04.json, generated 2026-10-04). Keeping 15 for deep research.

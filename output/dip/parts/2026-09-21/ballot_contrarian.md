@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Contrarian panelist ballot — LENS_D — 2026-09-21
 
 Lens: upside-capture 0-10. Reward deep drawdown + high analyst upside + an

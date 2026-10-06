@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Dossier — Batch 2 (RUN_DATE 2026-09-27)
 Tickers: LRCX, KLAC, AMAT, APH
 

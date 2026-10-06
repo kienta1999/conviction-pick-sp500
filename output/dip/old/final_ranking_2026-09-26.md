@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranking — dip mode, run 2026-09-26 (top 10)
 
 Borda aggregation of the four lens ballots (R=1 round; rank 1 = 10 pts … rank 10 = 1 pt; unranked = 0).

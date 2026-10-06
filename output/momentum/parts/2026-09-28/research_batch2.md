@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 2 (2026-09-28)
 **Tickers:** LRCX, KLAC, AMAT, APH — S&P 500 momentum candidates
 **Sources:** primary company reporting (earnings releases, 10-K, shareholder letters via Quartr, Business Wire), reputable financial press. No figures invented; gaps marked "not found."

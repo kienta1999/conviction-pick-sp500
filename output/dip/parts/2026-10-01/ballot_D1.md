@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 ### Ballot — Panelist D · single-pick (mode-wide)
 **Top pick:** SPGI (the least-trappy name — the one you'd least object to owning)
 **Runner-up:** BKNG

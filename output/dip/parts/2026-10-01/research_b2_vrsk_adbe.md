@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research — VRSK & ADBE (batch 2b, dip mode, 2026-10-01)
 
 Screen (2026-10-01 close, panel data): VRSK $168.38, -11.7% vs 200d SMA, -31.8% off 52w high, fwdPE 19.4, rev growth TTM +6.6%, net debt/EBITDA 1.35, analyst upside +39.4%, next earnings 2026-12-08. ADBE $241.28, -17.1% vs SMA, -33.0% off high, fwdPE 8.7, rev growth TTM +10.7%, net debt/EBITDA 0.91, analyst upside +14.0%, next earnings 2026-12-10.

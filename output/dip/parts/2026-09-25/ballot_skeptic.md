@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Skeptic ballot — dip panel, run 2026-09-25 (run 4/30)
 Lens: Agent D — Falling-knife / value-trap skeptic (the veto lens).
 Dossier: output/dip/research_dossier_2026-09-25.md (15 names). Screen: shortlist_2026-09-25.json.

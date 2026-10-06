@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — 2026-10-02
 
 **Run date:** 2026-10-02 | **Mode:** momentum | **Panel doctrine:** structural shortage + backlog visibility + category dominance + irreplaceability

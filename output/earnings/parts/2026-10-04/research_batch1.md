@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings Research Dossier — batch1 — RUN_DATE 2026-10-04
 Tickers: PEP, GS, JPM, MS. Research as of Sunday 2026-10-04; last session Fri 2026-10-02.
 Sources: company IR/PRs, earnings calls, 10-Q-era reporting via press, Barron's, WSJ, Zacks, Barchart, MarketBeat, Motley Fool transcripts, TradingView/FactSet.

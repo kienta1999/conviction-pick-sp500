@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — momentum-mode run, 2026-09-29
 
 Verifier checked each load-bearing claim for MU, LRCX, and MSFT against primary sources and reputable financial press (searched Sep 29, 2026). Verdicts: **CONFIRMED / CONTRADICTED / UNVERIFIED**.

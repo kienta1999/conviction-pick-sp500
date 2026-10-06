@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — momentum mode — 2026-09-24
 **Verifier role:** independent check of load-bearing factual claims behind the top-3 Borda ranking (AMAT #1, GOOGL #2, MSFT #3) and the tentative single pick (AMAT).
 **Method:** claims taken from `research_dossier_2026-09-24.md` and `parts/2026-09-24/ballot_*.md`; checked against fresh web search, NOT the dossier's own citations.

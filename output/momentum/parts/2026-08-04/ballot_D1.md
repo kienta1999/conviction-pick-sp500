@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D — Agent D, contrarian / risk skeptic
 **Date:** 2026-08-04 | **Universe:** the 14 momentum-screen survivors
 **Lens:** valuation, downside, and disintermediation weighted explicitly. I hunt for a thesis that is *real but still underappreciated*. A great business at a price that already assumes greatness is not an opportunity.

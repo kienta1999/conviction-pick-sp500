@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-DIP — FINAL RANKING (TOP 10) — 2026-09-22 (daily consistency run 1 of 30)
 
 Four-lens panel (A mean-reversion/catalyst, B growth/quality compounder,

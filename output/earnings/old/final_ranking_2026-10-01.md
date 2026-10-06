@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings ranking — 2026-10-01 (top 10) — RERUN under the updated protocol
 
 **Official pick: PEP (Plan B queue on the 10/08 print)** — the only actionable name (dte 7);

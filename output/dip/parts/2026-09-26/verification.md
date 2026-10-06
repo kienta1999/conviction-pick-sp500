@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — S&P 500 Dip-Buy Panel, Run Date 2026-09-26
 
 **Verifier role:** Phase 3.5 independent verifier (did not rely on the orchestrator's dossier framing).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip batch 2, RUN_DATE 2026-10-03 (last close Fri 2026-10-02)
 
 All price/multiples from Finnhub market data snippets captured 2026-10-03; analyst targets from MarketBeat/stockanalysis pages updated Sep–Oct 2026 (dates noted). No deterministic earnings-quality flags on this run.

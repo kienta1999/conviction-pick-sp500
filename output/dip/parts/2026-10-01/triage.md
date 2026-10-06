@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip triage — 2026-10-01 RERUN (updated protocol, evening)
 
 Screen: fresh, generated 2026-10-01 22:13 PT (TZ=America/Los_Angeles), 38 candidates,

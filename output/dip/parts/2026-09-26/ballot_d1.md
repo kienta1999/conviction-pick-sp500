@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # AGENT D — Falling-knife / value-trap skeptic ballot
 **Run date:** 2026-09-26 · **Mode:** dip · **Lens:** permanent impairment, debt/survival, cheapness-as-trap
 

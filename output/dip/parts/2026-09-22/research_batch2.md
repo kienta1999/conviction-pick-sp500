@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Stock-Pick-Dip Panel, Batch 2 (2026-09-22)
 
 Research date: 2026-09-22. Prices/targets reflect split-adjusted shares where noted (NFLX 10-for-1 Nov 2025; BKNG 25-for-1 Apr 2, 2026).

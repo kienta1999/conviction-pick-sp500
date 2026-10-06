@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — RUN 2026-10-04
 
 Screen: `output/momentum/old/shortlist_2026-10-03.json` (generated 2026-10-03 08:22:03, <24h → reused fresh). Triage: 15 kept of 50 (see `output/momentum/parts/2026-10-04/triage.md`).

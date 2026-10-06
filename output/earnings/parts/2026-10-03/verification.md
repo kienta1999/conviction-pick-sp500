@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — GS (Goldman Sachs Group), Q3 FY2026 print
 **Verifier:** independent (did not write the dossier) | **Run date:** 2026-10-03 (Sat; last close Fri 2026-10-02)
 **Dossier under review:** `output/earnings/research_dossier_2026-10-03.md`, TICKER 1 (GS), researched 2026-10-03

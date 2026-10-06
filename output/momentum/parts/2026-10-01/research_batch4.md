@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Batch 4 — Run Date 2026-10-01
 ## Tickers: LLY (Eli Lilly), EW (Edwards Lifesciences), CDNS (Cadence Design Systems)
 

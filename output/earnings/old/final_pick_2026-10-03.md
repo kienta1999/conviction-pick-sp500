@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final pick — earnings mode, 2026-10-03
 
 **THE PICK: GS (Goldman Sachs Group, Inc.) — Financials / Capital Markets. Plan B (enter AFTER the 10/13 BMO print, on a confirmed beat-and-clean-guide + up first session; enter 10/14). Price at pick: $896.67 (10-02 close).** This is a NEW panel pick (first full 4-lens earnings panel of this run; GS entered the ~10-day window today). PEP's 10/08 Plan B queue (standing since 9/28, entry 10/09 if triggered) continues unchanged — see "one-position rule" below.

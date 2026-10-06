@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — Buy-the-Dip Panel, Tentative Top 3 (2026-09-17)
 
 Adversarial re-verification of load-bearing claims, derived independently of the dossier's own citations.

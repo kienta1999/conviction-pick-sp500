@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research batch 1 — 2026-09-29 (prices as of Fri 2026-09-26 close)
 
 Candidates: SNDK, MU, NVDA, LRCX, AMAT. Doctrine: category leaders riding a structural shortage with backlog/order-book visibility and customers who cannot easily in-source the technology.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # stock-pick-dip 2026-09-06 — lite pick: ISRG
 
 **Not a recorded pick, and not sized.** Lite builds no bear/base/bull scenarios, so it runs no +15% EV

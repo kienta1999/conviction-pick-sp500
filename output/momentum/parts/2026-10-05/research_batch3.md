@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research batch 3 — 2026-10-05
 
 Tickers: APH (Amphenol), CAT (Caterpillar), MSFT (Microsoft), CDNS (Cadence Design Systems).

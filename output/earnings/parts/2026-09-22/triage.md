@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — earnings mode — 2026-09-22
 
 Screen reused per protocol 1-day cache rule: `shortlist_2026-09-21.json` built 2026-09-21 20:20:46

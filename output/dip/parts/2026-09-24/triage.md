@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — dip mode, 2026-09-24 (orchestrator)
 
 Screen produced 28 candidates (composite-sorted). Keeping 14 with the strongest rebound-thesis; dropping 14. Doctrine scores 0-10 (temporary dip + intact moat + catalyst + margin of safety).

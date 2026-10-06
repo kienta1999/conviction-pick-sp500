@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Research Dossier — Batch 3 (ISRG, ADBE, BR, VRSK)
 Run date: 2026-09-21. Screen context (shortlist.json, 2026-09-21): ISRG −33.7% off 52w high, −13.6% below 200d SMA, fwdPE 32.5, analyst upside +21.1%, next earnings 2026-10-20 | ADBE −32.3% off high, −6.1% below SMA, fwdPE 9.0, upside +11.7%, next earnings 2026-12-09 | BR −31.2% off high, −5.3% below SMA, fwdPE 14.1, upside +30.8%, next earnings 2026-11-03 | VRSK −29.6% off high, −8.4% below SMA, fwdPE 20.2, upside +33.8%, next earnings 2026-10-28.
 Research conducted via web search on 2026-09-21; primary sources (earnings releases, call transcripts) cited where available. No figures invented; "not found" noted where a figure could not be sourced.

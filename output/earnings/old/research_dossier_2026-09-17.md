@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — stock-pick-earnings 2026-09-17 (full panel)
 
 Assembled 2026-09-17 from three sequential research batches. All research as of 2026-09-17. Scores are agent judgment, not market data. "Not found" marks gaps rather than fabricated figures.

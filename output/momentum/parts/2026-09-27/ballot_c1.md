@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # LENS C Ballot — Quality/moat & irreplaceability — RUN_DATE 2026-09-27
 
 ## Ballot 1 — Single pick

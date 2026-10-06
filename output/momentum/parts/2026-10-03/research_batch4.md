@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research — batch 4: EOG / CSCO / FANG
 Run date: 2026-10-03 (last close Fri 2026-10-02). Research as of 2026-10-03.
 Sources: company Q2 2026 earnings PRs, earnings calls, analyst notes, Dell'Oro, Wood Mackenzie, trade press. Dates noted inline.

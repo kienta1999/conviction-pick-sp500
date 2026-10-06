@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST D BALLOT — Falling-knife / value-trap skeptic — 2026-09-22
 
 *Run 1 of 30, daily consistency experiment. Based solely on `output/dip/research_dossier_2026-09-22.md`.*

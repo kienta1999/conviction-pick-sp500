@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Agent A (mean-reversion / catalyst analyst) — dip mode, 2026-09-23
 
 Dossier: ~/workspace/conviction-pick-sp500/output/dip/research_dossier_2026-09-23.md (15 names).

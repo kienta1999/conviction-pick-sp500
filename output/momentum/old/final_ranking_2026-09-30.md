@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranking — momentum mode, 2026-09-30
 
 ## Consensus top 3 (from consensus.py, 5-run window)

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — growth/momentum lens (panelist B, "growth1")
 Mode: momentum · Run date: 2026-09-25 · Run 4/30
 Dossier: `research_dossier_2026-09-25.md` (12 researched candidates)

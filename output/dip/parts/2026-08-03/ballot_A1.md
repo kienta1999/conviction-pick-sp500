@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # BALLOT A1 — Agent A: Mean-reversion / catalyst analyst
 Dip run 2026-08-03. Lens: strength + **timing** of the rebound catalyst, and evidence the drop is
 about price rather than the business. A dated trigger beats a beautiful business with no clock.

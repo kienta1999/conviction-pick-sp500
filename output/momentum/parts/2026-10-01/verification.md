@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — Stock-Pick Panel, Momentum Mode
 ## Run date: 2026-10-01 | Verifier date: 2026-10-01 (PDT)
 

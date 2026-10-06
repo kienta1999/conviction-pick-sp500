@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # EARNINGS RESEARCH — BATCH 1 (RUN_DATE 2026-10-03)
 
 *Money-center banks into Q3 FY2026. Last market close: Friday 2026-10-02. All figures sourced; gaps marked "not found." Nothing invented.*

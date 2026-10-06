@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panel brief — dip run 2026-08-03 (14 candidates)
 
 Condensed from `output/dip/research_dossier.md` (2,388 lines). If one name is decisive for your

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings triage — 2026-10-01 (RERUN under the updated protocol)
 
 Rerun of the 2026-10-01 earnings screen/triage after the protocol update

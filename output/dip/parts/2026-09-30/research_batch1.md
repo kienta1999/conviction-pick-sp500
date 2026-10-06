@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # DIP Panel Research Dossier — RUN_DATE 2026-09-30 (batch 1: LVS, IDXX, TPR, DECK)
 
 Prepared by research subagent. Prices/quotes are as of the source dates cited. Figures sourced from web searches on 2026-09-30; where a figure could not be found it is marked "not found".

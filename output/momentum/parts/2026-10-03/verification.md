@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Independent Verification — Momentum Panel
 RUN_DATE: 2026-10-03 (verification run Sat 2026-10-03 ~01:35–02:00 PDT; last market session: Fri 2026-10-02 close)
 Verifier: independent subagent; all checks are fresh web research (Sept 30 – Oct 2, 2026 reporting window), not echoes of the dossier.

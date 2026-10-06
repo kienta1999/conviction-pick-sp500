@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Consolidated research dossier — momentum mode, RUN 2026-09-27
 
 Assembled 2026-09-27 from the four independently-researched batch dossiers in

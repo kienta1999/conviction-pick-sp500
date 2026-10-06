@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist C ballot — Moat & AI-irreplaceability lens — 2026-09-17
 
 Through this lens the veto is simple: any name AI or a substitute could plausibly eat gets rejected no matter how deep the dip. I favor switching costs, network effects, process-tech/patents, certification lock-in, brand, and capital intensity that AI cannot erode — and I treat "dip reveals moat erosion" as a second veto (LVS's repeating Macau margin compression, Kate Spade's brand decay, VRSK's AI-elongated sales cycles are all marks against, not neutral).

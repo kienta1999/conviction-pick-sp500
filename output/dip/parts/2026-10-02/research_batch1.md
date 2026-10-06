@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Panel Research Dossier — RUN_DATE 2026-10-02 (Batch 1)
 Tickers: NFLX, ORLY, RL, RSG. Screen point: 2026-10-01 close; all below 200-day SMA and off 52-week highs.
 Research compiled 2026-10-02 (PDT) from primary sources and reputable financial press. Figures not found are marked as such.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens A: Supply-chain / shortage & backlog (2026-09-21)
 
 Judge: how structurally supply-constrained the core product is, backlog/bookings visibility (multi-year contracted demand), lead-time/pricing power, and whether the shortage survives a demand pause.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Dip Panel, Run Date 2026-10-04 (Batch 2)
 
 Prices as of ~Oct 2–3, 2026 close unless noted. Sources cited inline with dates.

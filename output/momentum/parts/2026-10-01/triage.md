@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum triage — run 2026-10-01 (RERUN under updated protocol, commit f98f9e4)
 
 Screen: fresh, generated 2026-10-01 22:13 PDT (America/Los_Angeles), 49 candidates, all on

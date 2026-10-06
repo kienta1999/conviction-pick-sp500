@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings triage — 2026-10-02
 
 Fresh full fetch (503/503) + screen, `output/earnings/shortlist_2026-10-02.json`,

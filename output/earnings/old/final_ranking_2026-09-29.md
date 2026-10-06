@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings ranking — 2026-09-29 (daily consistency experiment)
 
 **HONESTY NOTE.** Triage found exactly one actionable name in the window (PEP, dte 9). Per the earnings skill's 1–3-name rule, the screen made the decision and a four-lens vote would be theater — so no panel was run and this is a single-agent adjudication (research refresh subagent + independent verifier subagent, then this ranking). Ranks 2–10 below are the nearest watchlist names by report date, screen-ordered; they are **not researched, not verified, and not picks**. They are published so the run is comparable with other days, and so tomorrow has a queue.

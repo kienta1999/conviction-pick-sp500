@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # 4. BKNG — Booking Holdings (Hotels, Resorts & Cruise Lines)
 
 *Run date 2026-10-01, all prices post-split (25-for-1 split effective 2026-04-02). Screen: $160.28, -12.0% vs 200d SMA, -26.5% off 52w high ($225.00; 52w low $150.14), fwd P/E 13.0, rev growth TTM +8.1%, op margin 34.4%, net debt/EBITDA 0.36, analyst upside +48.5%, next earnings 2026-10-27.*

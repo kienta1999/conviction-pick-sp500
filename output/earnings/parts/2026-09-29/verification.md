@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PEP (PepsiCo, Inc.) — Phase 3.5 Verification Report
 **Run date:** 2026-09-29 (daily consistency experiment, run 8) · Independent verifier
 **Dossier verified:** `output/earnings/parts/2026-09-29/research_batch1.md` (refresh of `output/earnings/research_dossier_2026-09-28.md`)

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Panel Research — Batch 2 (run 2026-09-25)
 Run 4 of the 30-day consistency experiment. Screen snapshot (per `shortlist_2026-09-25.json`, generated 2026-09-25 08:36 UTC): LVS $38.65, BKNG $157.41, ADBE $238.93, BRO $60.33.
 Research gathered 2026-09-25 via public web. Numbers are cited with dates; where the screen's Yahoo-derived figures differ from press-derived figures, both are quoted.

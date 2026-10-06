@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — BLK (BlackRock) — 2026-10-05
 
 Verifier run: Sun 2026-10-05 (last session Fri 2026-10-02). Dossier: `output/earnings/research_dossier.md` §3. All figures checked independently via web search; primary sources preferred. Company sources take precedence over aggregators.

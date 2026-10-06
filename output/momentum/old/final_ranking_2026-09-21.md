@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-MOMENTUM — FINAL RANKING — 2026-09-21 (LIVE intraday screen)
 
 **HONESTY NOTE:** this ranking reflects the LIVE 2026-09-21 intraday screen —

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — momentum panel, run 2026-09-26
 
 Verifier role: independent check of the top-3 aggregated picks' key claims. Claims sourced from the dossier (`output/momentum/research_dossier_2026-09-26.md`) and re-verified via web search on 2026-09-26. Dossier citations were re-checked independently, not trusted.

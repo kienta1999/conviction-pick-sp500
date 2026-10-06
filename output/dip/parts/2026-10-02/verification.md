@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — Dip Panel, RUN_DATE=2026-10-02
 
 Verifier: subagent (Phase 3.5). Method: independent web search, primary sources where available

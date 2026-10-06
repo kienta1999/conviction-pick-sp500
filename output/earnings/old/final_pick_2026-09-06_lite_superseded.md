@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # stock-pick-earnings 2026-09-06 — lite pick: NO TRADE THIS WEEK
 
 **Not a recorded pick, and not a position.** Lite is Plan B only — it never recommends holding through a

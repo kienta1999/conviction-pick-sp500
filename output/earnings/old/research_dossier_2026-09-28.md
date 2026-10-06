@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — earnings mode — 2026-09-28
 
 Consolidated from `output/earnings/parts/2026-09-28/research_batch1.md` (single actionable name; one batch). Verification: `parts/2026-09-28/verification.md` — all five priority claims CONFIRMED, no corrections.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip ranked top-10 — 2026-09-30
 
 *Research output, not financial advice.*

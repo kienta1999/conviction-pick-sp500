@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Panelist A (supply-chain analyst), momentum, 2026-09-23
 
 _Lens: shortage/backlog evidence and multi-year revenue visibility above all. Judged solely on the research dossier; no new research._

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Verification Report — DIP panel Phase 3.5 Verifier
 RUN_DATE: 2026-09-30 | Repo: ~/workspace/conviction-pick-sp500 | Verifier run: 2026-09-30 (web, independent of the panel's research dossier)
 No files were committed or pushed. Tentative pick under review: ISRG. Borda top 3: ISRG, CPRT, IDXX.

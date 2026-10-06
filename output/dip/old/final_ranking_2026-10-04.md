@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip ranked top-10 — 2026-10-04 (research output, not financial advice)
 
 ## Consensus top 3 (official pick — from consensus_2026-10-04.md)

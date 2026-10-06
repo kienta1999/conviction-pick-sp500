@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum — Ranked Top 10 (S&P 500)
 **Run date:** 2026-08-04 · **Mode:** momentum (above 200d SMA + structural shortage doctrine) · **N = 10, R = 1**
 **Screen:** `output/momentum/shortlist.json`, generated 2026-08-04 19:44:47 — 50 candidates from 503 S&P 500 members, triaged to 14 for deep research

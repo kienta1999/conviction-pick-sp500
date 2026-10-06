@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum panel ballot — Panelist C: QUALITY/MOAT & IRREPLACEABILITY INVESTOR
 Run date: 2026-09-26
 

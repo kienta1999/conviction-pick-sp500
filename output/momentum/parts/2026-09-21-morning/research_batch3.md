@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel Research — Batch 3 (FCX, VRTX, AME, EMR)
 RUN_DATE: 2026-09-21. Research gathered 2026-09-21. Prefer primary sources where available.
 All figures in USD unless noted. Prices are snapshots from September 2026.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Dossier — Batch 1 (as of 2026-09-17)
 
 Tickers: KLAC, IDXX, VRT, TPR. All S&P 500, all below 200-day SMA and off 52-week highs.

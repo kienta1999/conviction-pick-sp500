@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Research — Batch 3: ODFL, VRSK, SYK, SPGI
 Research date: 2026-09-17. All prices/metrics per Finnhub snippets pulled 2026-09-17 unless dated otherwise.
 Base metrics (from panel): ODFL -29% off 52w high, -12% vs 200d SMA, fwd P/E 26.3, analyst upside +31%, TTM rev growth +0.3%, op margin 28.8% | VRSK -29% off high, -8% vs 200d, fwd P/E 20.3, upside +33%, rev growth +3.9%, op margin 45.1% | SYK -27% off high, -16% vs 200d, fwd P/E 16.7, upside +34%, rev growth +5.9%, op margin 27.0% | SPGI -21% off high, -5% vs 200d, fwd P/E 20.0, upside +29%, rev growth +7.4%, op margin 44.8%. None carry earnings-quality flags.

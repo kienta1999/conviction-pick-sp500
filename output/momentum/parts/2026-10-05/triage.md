@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — momentum mode, run 2026-10-05
 
 **Screen:** 50 candidates (composite-ordered). Doctrine: profitable US category-leader riding a **structural shortage** with a backlog/order book and **irreplaceability** (disintermediation trap = the veto).

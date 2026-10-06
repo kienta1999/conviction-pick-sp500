@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Deep-Research Dossier — Dip Mode, Batch 3 (2026-09-26)
 Tickers: VRSK (Verisk Analytics), CPRT (Copart), ISRG (Intuitive Surgical), BR (Broadridge Financial Solutions)
 Research date: 2026-09-26. Prices referenced are per Finnhub data pulled 2026-09-26 unless otherwise dated.

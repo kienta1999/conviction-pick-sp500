@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — Dip Batch 2 (2026-09-24)
 Screen context: IDXX, BKNG, ADBE, ISRG — all trade below 200-day SMA and off 52-wk highs. Earnings-quality screen: no flags on any of the four. Research-only; prices as of ~Sep 23-24, 2026 closes.
 

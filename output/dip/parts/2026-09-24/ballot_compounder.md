@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist B — Growth/Quality Compounder Ballot — 2026-09-24
 Lens: revenue durability, margins, returns on capital, growth story intact. A great business bought on sale — not a cheap business with a broken one.
 

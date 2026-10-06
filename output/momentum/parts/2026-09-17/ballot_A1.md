@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot A1 — Panelist A (Supply-chain analyst lens) — run 2026-09-17
 
 Lens weighting: shortage/backlog evidence and contracted multi-year revenue visibility above all else. The best pick is the most undeniable supply-demand imbalance with contracted, multi-year revenue visibility.

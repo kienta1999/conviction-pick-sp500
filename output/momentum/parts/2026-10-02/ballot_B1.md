@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel Ballot — Lens B (Growth/Momentum Investor) — 2026-10-02
 
 Panelist: Lens B — growth/momentum investor. Weights: revenue acceleration, earnings revisions, price momentum; wants the fastest compounder. Disintermediation trap weighted as a veto for the single pick, flagged as a caveat in the ranking. All figures sourced from `research_dossier_2026-10-02.md` (research gathered 2026-10-02; "not found" stated where the dossier has no figure).

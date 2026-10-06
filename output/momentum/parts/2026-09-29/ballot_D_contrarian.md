@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D — Contrarian / Risk Skeptic — 2026-09-29 (momentum mode)
 
 Panelist lens: hunt for the thesis that is REAL but still UNDERAPPRECIATED by the market. Avoid what is already fully priced. Weight valuation, downside, and disintermediation risk. A name at 40x with no analyst upside and peak-cycle margins gets suspicion; a genuine shortage the market hasn't repriced gets excitement.

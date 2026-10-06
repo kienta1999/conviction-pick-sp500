@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B — Growth/momentum lens — 2026-10-05
 
 Lens: revenue acceleration + earnings revisions + price momentum. Fastest compounder wins; a decelerating grower is dead even with a great moat.

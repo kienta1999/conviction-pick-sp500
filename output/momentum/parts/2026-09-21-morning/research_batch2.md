@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Batch 2 — Research Dossier (RUN_DATE 2026-09-21)
 Tickers: ANET (Arista Networks) | AMAT (Applied Materials) | APH (Amphenol)
 

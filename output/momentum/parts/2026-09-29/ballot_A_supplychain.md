@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot A — Supply-Chain Analyst (momentum panel, 2026-09-29)
 
 ## Single-pick ballot

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Panel — Phase 2 Research Dossier (Batch 2)
 Run date: 2026-09-21 (intraday, live session). Research subagent report.
 Screen figures below are the LIVE 2026-09-21 screen values; article price references are older and not quoted here.

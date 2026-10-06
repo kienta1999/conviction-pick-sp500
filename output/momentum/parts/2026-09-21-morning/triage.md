@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum triage — 2026-09-21 (screen generated 2026-09-21 08:33 UTC, prices through 9/18 close)
 
 Doctrine: profitable US category-#1, above 200d SMA, riding a STRUCTURAL SHORTAGE with multi-year

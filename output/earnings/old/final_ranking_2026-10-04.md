@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Final ranking — earnings mode, 2026-10-04
 
 7 actionable names (dte ≤10), all reporting 10/08–10/14. Borda aggregate of the four independent lens ballots (rank 1 = 10 pts … rank 7 = 4 pts). Field smaller than the protocol's floor of 10 — all 7 ranked, never padded.

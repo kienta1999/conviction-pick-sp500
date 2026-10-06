@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent B — Growth/quality compounder investor — Ballot 1 (2026-10-03)
 
 RUN_DATE: 2026-10-03 (last close Fri 2026-10-02). All figures from the consolidated research dossier; no figures invented.

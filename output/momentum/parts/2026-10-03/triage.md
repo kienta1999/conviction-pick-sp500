@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum triage — 2026-10-03 (orchestrator, Phase 1)
 
 Screen: output/momentum/shortlist_2026-10-03.json, generated 2026-10-03 08:22:03, 50 candidates (453 dropped).

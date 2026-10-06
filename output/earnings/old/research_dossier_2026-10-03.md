@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — earnings mode, 2026-10-03
 
 *Consolidated from: PEP researched 2026-10-01/10-02 (reused; independent verification

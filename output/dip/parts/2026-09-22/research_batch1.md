@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Stock-Pick-Dip Research Dossier — Batch 1 (2026-09-22)
 Daily consistency run. Four S&P 500 dip candidates, researched via web search 2026-09-22.
 Sources are cited inline; dates given where available. No numbers fabricated — gaps marked "not found".

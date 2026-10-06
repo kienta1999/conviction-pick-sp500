@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PEP — PepsiCo, Inc. — Earnings Event Dossier
 **As of: Thursday 2026-10-01 (close) | Research for Q3 FY2026 print, Thu 2026-10-08**
 **Sector:** Consumer Staples / Soft Drinks & Convenient Foods

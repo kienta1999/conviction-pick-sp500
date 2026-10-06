@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — batch 2 (run date 2026-10-02)
 
 Tickers: LLY (Eli Lilly), ANET (Arista Networks), APH (Amphenol), KEYS (Keysight Technologies).

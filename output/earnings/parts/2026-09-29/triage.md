@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 1 triage — earnings mode — 2026-09-29
 
 Fresh 45-day screen: `shortlist_2026-09-29.json` (generated 2026-09-29 08:35:05 UTC;

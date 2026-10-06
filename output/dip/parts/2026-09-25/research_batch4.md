@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research Dossier — dip mode, run 2026-09-25 (batch 4)
 **Run:** 4 of 30-day consistency experiment · **Date:** 2026-09-25 · **Tickers:** SYK, EFX, SPGI
 **Screen context (shortlist_2026-09-25.json):** SYK rank 13 ($269.75, fwd P/E 16.1, −18.7% vs 200d, −30.1% vs 52w high, net debt/EBITDA 1.62, mean target $369.00, +36.8% upside); EFX rank 15 ($148.80, fwd P/E 14.6, −19.1% vs 200d, −41.6% vs 52w high, net debt/EBITDA 2.75, mean target $214.38, +44.1% upside); SPGI rank 17 ($403.25, fwd P/E 19.9, −5.1% vs 200d, −21.4% vs 52w high, net debt/EBITDA 1.43, mean target $520.30, +29.0% upside). No earnings-quality flags on any of the three. Next earnings: EFX Oct 20, SYK and SPGI Oct 29, 2026.

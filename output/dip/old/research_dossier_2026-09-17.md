@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip mode, RUN 2026-09-17
 
 Consolidated from 4 sequential research batches (output/dip/parts/2026-09-17/research_batchN.md), 15 triage-kept names. Screen: 2026-09-18 05:45:15. Each section = the batch agent's independent dossier, unedited, with screen metrics prepended.

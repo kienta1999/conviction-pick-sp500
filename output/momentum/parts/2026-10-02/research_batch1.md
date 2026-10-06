@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 1
 **Run date:** 2026-10-02 | **Mode:** momentum | **Research subagent**
 **Tickers:** SNDK (Sandisk), MU (Micron Technology), LRCX (Lam Research), AMAT (Applied Materials)

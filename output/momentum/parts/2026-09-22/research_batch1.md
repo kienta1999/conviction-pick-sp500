@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Batch 1 — 2026-09-22
 Independent researcher dossier for the stock-pick-momentum panel. Tickers: SNDK, MU, NVDA, ANET.
 

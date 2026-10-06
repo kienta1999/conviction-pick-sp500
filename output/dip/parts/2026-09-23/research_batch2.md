@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip research batch 2 — 2026-09-23 (BKNG, NFLX, ADBE, ISRG)
 
 Screen: output/dip/shortlist_2026-09-22.json (generated 2026-09-22 08:57:55 UTC). All figures sourced; "not found" where unconfirmed. Run date 2026-09-23.

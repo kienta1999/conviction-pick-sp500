@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-DIP — RESEARCH DOSSIER — 2026-09-22
 
 Daily consistency experiment, run 1 of 30. Consolidated by the orchestrator from four

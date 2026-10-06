@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Panel Ballot — Agent C: Moat & AI-irreplaceability investor — 2026-10-04
 
 ## BALLOT 1 — Single-pick nomination

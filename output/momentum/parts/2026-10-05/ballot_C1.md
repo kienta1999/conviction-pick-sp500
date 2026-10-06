@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum ballot — Agent C (Quality / moat / irreplaceability) — 2026-10-05
 
 Evidence: output/momentum/research_dossier_2026-10-05.md. Lens: category dominance, margins, returns on capital, balance-sheet durability — above all irreplaceability. A credible disintermediation/in-sourcing vector is the veto.

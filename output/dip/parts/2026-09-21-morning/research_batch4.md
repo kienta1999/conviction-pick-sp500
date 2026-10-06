@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Research Dossier — Batch 4 (run date 2026-09-21)
 **Tickers:** STRYKER (SYK), EQUIFAX (EFX), S&P GLOBAL (SPGI), XYLEM (XYL)
 **Prepared:** 2026-09-21. Sources cited with dates; figures not found are marked "not found".

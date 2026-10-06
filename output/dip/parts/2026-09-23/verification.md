@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent verification — dip panel run 2026-09-23
 
 Verifier: independent subagent. Method: web search against primary sources (company press releases, earnings call transcripts, 10-Q/8-K) and reputable financial press. Verdicts: CONFIRMED / CONTRADICTED / UNVERIFIED. Dated 2026-09-23.

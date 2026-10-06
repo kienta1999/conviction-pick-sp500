@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Conviction Pick — Momentum Mode — 2026-10-01 (RERUN)
 
 **THE PICK: MU — Micron Technology** (Information Technology / Semiconductors; market cap ≈ \$1.19T) **@ \$1,065.11** (2026-09-30 close, fresh screen under the updated protocol, commit f98f9e4).

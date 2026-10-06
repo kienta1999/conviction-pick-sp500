@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum panel — Research batch 3 (2026-09-21)
 Run date: 2026-09-21 (intraday session). Research by subagent; all figures from sources cited below.
 Screens given: NEM $123.41 (+58.3% 12m) · GOOGL $349.54 (+40.4%) · CSCO $109.51 (+65.1%) · FCX $71.54 (+60.4%).

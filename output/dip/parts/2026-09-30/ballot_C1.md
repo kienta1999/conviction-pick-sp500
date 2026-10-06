@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist C ballot — Moat & AI-irreplaceability — 2026-09-30
 
 Lens: category dominance, balance-sheet durability, and above all IRREPLACEABILITY.

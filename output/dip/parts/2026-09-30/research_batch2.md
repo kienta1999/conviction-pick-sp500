@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # DIP Panel Research Dossier — Batch 2
 RUN_DATE=2026-09-30. Research subagent. Sources dated through 2026-09-30. Prices from Finnhub/quote snapshots as noted.
 

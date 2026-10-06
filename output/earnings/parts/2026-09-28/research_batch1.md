@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PEP (PepsiCo, Inc.) — Earnings Dossier
 **Run date:** 2026-09-28 (daily consistency experiment, run 7) · Phase 2 research agent
 

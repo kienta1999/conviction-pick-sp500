@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings research — batch 1 of 1 (2026-09-22)
 Screen data: market close Friday 2026-09-18, screen built 2026-09-21 20:20.
 Both names report TOMORROW, Wednesday 2026-09-23.

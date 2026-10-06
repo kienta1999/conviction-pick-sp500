@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum triage — 2026-09-30 (orchestrator-written)
 
 Screen: 50 candidates, rebuilt 2026-09-30 (asof 2026-09-29 close). Doctrine: structural shortage + backlog visibility + category dominance + irreplaceability (disintermediation = the trap).

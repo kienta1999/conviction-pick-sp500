@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # LENS_C — Moat Judge ballot — run date 2026-09-21
 Lens: score the BUSINESS, not the price. Moat/AI-irreplaceability first; price only as tiebreak.
 

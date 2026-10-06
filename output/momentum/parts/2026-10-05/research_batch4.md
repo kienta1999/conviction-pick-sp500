@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research — batch 4 (2026-10-05)
 Candidates: AME (Ametek), FCX (Freeport-McMoRan), CF (CF Industries)
 Research date: 2026-10-05. Sources as dated; do not fabricate missing figures.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Refresh dossier — PepsiCo (PEP) — earnings — 2026-09-29
 
 Phase 2 research agent (refresh pass). Read alongside `output/earnings/research_dossier_2026-09-28.md` (all load-bearing facts verified 2026-09-28, five priority claims CONFIRMED).

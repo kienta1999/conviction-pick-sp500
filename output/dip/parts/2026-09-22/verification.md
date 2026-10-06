@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Independent Verification — stock-pick-dip panel, run 2026-09-22
 
 Verifier: independent subagent. Sources checked via web search 2026-09-22. Primary sources (company PRs, SEC rules, Morningstar) used where available.

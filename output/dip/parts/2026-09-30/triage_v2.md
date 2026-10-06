@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage v2 — dip mode — 2026-09-30 (FRESH screen)
 
 Screen: `shortlist_2026-09-30.json`, generated 2026-09-30 08:48:41 UTC (fresh run,

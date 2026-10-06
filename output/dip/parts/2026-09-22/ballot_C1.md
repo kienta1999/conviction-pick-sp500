@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST C BALLOT — Moat & AI-irreplaceability lens
 Daily consistency run 2026-09-22 (run 1 of 30). All facts from research_dossier_2026-09-22.md.
 

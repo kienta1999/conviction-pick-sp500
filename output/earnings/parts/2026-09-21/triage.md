@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Earnings mode triage — 2026-09-21 (live intraday screen)
 
 Screen generated 2026-09-21 (live intraday session; NOT the morning 09-18-close

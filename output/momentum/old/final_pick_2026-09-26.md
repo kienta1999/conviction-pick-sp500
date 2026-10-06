@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum conviction pick — 2026-09-26 (run 5/30)
 
 **THE PICK: KLAC — KLA Corporation** | Info Tech / Semiconductor Materials & Equipment | market cap ~$244B

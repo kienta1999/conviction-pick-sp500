@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens B ballot — GROWTH/MOMENTUM INVESTOR — 2026-09-28
 
 **Lens weights:** revenue acceleration > earnings revisions/guidance raises > price momentum with runway. Fastest compounder wins. Names whose runs already priced in the growth (SNDK +649% YTD / MU +279% YTD) get stress-tested against analyst upside and cliff risk.

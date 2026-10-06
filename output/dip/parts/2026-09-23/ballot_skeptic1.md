@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist D — falling-knife / value-trap skeptic — dip panel 2026-09-23
 
 Lens: hunt for permanent impairment hiding as a cheap dip. The business, not just the price, must be unbroken.

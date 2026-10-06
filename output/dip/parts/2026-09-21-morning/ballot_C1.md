@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C1 — Panelist C (Moat & AI-irreplaceability investor)
 Run date: 2026-09-21 | Model: Opus-class | Independent vote
 

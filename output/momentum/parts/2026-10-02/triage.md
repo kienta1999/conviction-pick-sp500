@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — momentum 2026-10-02
 
 Doctrine: profitable US category-leader riding a STRUCTURAL SHORTAGE, with backlog / order-book visibility and technology customers can't easily in-source or substitute. Scoring "doctrine score" 0-10 = strength of the shortage/backlog narrative (not screen composite).

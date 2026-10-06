@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C — quality/moat & irreplaceability investor (momentum panel, 2026-09-23)
 
 Lens: category dominance, margins, returns on capital, balance-sheet durability, and above all irreplaceability. Rejected any name whose customers (especially hyperscalers) could realistically build or in-source the product, or that a substitute technology could route around. Judged only on the dossier; no new research.

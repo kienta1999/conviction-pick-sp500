@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist B (Growth/Quality Compounder) ballot — run 2026-09-21
 Model: Opus-class | Lens: revenue durability, margins, returns on capital, dip hasn't broken the growth story.
 I want a great business bought on sale: high operating margins, durable double-digit growth,

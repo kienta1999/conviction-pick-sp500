@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-Mode Research Dossier — 2026-10-01 (rerun under updated protocol)
 
 Consolidated from parts/2026-10-01/research_batch1-4.md (14 triage survivors of the fresh 2026-10-01 screen, 38 candidates). Prices are the 2026-10-01 close.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # LENS A — Supply-chain analyst ballot — RUN 2026-09-27
 
 Lens mandate: weight shortage/backlog evidence and multi-year revenue visibility

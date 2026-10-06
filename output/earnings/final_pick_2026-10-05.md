@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # FINAL PICK — earnings mode — 2026-10-05
 
 **Plan: B (enter after the print, on a confirmed beat-and-raise with a positive first session). All four lenses voted Plan B unanimously; Plan A was not argued for by any lens.**

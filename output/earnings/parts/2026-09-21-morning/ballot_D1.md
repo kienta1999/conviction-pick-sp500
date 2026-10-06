@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens D (contrarian / risk skeptic) — earnings 2026-09-21
 
 **Analyst:** Agent D — the contrarian and guide-down risk skeptic. Weighting: the tough comp, the guide nobody is discussing, the segment soft for two quarters, and above all the forward bar the market is carrying vs the company's run-rate. This lens owns the "beat but guided soft" loss case and is expected to nominate NO TRADE if the whole field is a coin flip. All figures grounded in `research_dossier.md` / `triage.md`; nothing invented.

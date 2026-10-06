@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist A ballot (Mean-reversion / catalyst) — RUN_DATE 2026-10-02
 
 Lens: weight the strength and timing of the rebound catalyst and the evidence that the drop is *temporary* — the name most likely to re-rate fastest. All figures from `research_dossier_2026-10-02.md` (10/01 close screen).

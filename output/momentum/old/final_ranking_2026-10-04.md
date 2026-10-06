@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # FINAL RANKING — momentum — 2026-10-04 (RUN_DATE)
 
 *Research output, not financial advice. Every number is a research scenario, not a guarantee.*

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # S&P 500 Dip-Buy Research Dossier — Batch 1
 **Run date:** 2026-09-26 · **Mode:** dip · **Tickers:** IDXX, TPR, NFLX, VRT
 **Prepared by:** research subagent · **Sources:** primary filings (10-Q/PRs via StockTitan/SEC/ir.idexx.com), company press releases, MarketBeat, StockAnalysis, Finnhub, Zacks, POEMS, Wells Fargo (via StockStory/BestStocks). All prices as of Sep 25–26, 2026 close unless noted. Do not fabricate — figures not found are marked "not found".

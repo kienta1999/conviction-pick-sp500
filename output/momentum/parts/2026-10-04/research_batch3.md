@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research — Batch 3 (RUN_DATE 2026-10-04)
 Candidates: AMAT, KLAC, EOG, CAT. Researched 2026-10-04 by research subagent.
 All figures quoted from cited sources; dates given. "Not found" means not found in this pass.

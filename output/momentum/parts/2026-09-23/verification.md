@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum verification — 2026-09-23 (independent verifier)
 
 Run date: 2026-09-23. Tentative top 3: MU, GOOGL, MSFT.

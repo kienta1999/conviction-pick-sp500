@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research dossier — dip mode, run 2026-09-26
 
 Assembled 2026-09-26 from 4 research subagent dossiers (sequential dispatch). Triage set: 15 names.

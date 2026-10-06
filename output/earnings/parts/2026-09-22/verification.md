@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 verification — earnings panel, 2026-09-22 (PAYX + CTAS)
 Verifier pass run 2026-09-22 ~02:00 PDT via web search. Priority order per skill: date/BMO first, then consensus, last-quarter surprise + reactions, forward bar, moat facts.
 Verdicts: CONFIRMED / CONTRADICTED / UNVERIFIED. The moat *ratings* (PAYX 7/10, CTAS 8/10) are judgment, not factual claims — underlying facts are checked below.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Phase 3.5 Verification — stock-pick-earnings panel, RUN_DATE=2026-10-04
 
 Verifier worked independently of the research dossier. Sources are web search results + Finnhub daily-candle data (last trading day 2026-10-02), checked 2026-10-04.

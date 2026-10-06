@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Panelist A (earnings-momentum lens) — ballot, RUN_DATE=2026-10-04
 
 Lens doctrine: beat/raise record, size and trend of surprises, estimate

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Lens D (Contrarian / Risk Skeptic) — Momentum Ballot — 2026-10-03
 
 ## SINGLE-PICK BALLOT

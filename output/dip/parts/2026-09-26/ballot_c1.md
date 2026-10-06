@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent C (Moat & AI-irreplaceability) — Ballot, dip mode, run 2026-09-26
 
 ## PART 1 — SINGLE-PICK BALLOT

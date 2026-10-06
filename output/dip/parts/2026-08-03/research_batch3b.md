@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip research — batch 3b (run of 2026-08-03)
 
 **Tickers: VST, GNRC.** Research date **2026-08-03**. No WebSearch used (quota

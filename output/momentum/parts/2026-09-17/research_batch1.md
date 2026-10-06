@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum Research Dossier — Batch 1 (run date 2026-09-17)
 
 Tickers: SNDK (Sandisk, NAND flash), MU (Micron, DRAM/NAND/HBM), NVDA (Nvidia, AI GPUs)

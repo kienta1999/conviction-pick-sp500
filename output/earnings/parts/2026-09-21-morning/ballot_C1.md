@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot — Lens C (quality / moat & irreplaceability) — earnings 2026-09-21
 
 **Analyst:** Agent C — the quality/moat & irreplaceability investor. Weighting: margins, returns on capital, balance sheet, and above all **irreplaceability** — rejecting names customers could in-source or that a substitute (including AI-native competition) could route around. AI-disruption exposure is a first-class filter. The question: which of these would I be **happy** to be stuck holding after a bad print? All figures grounded in `research_dossier.md` / `triage.md`; nothing invented.

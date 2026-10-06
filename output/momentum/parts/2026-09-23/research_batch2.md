@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research — batch 2 (financials): MS, SCHW, JPM, HOOD, V
 
 Run date: 2026-09-23. All figures from Q2 2026 (calendar) or fiscal Q3 2026 (Visa) prints, July 2026. Sources dated per item.

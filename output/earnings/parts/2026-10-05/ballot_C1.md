@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot C1 — Lens C: Quality/moat & irreplaceability — RUN 2026-10-05
 
 Panelist: C (quality/moat & irreplaceability investor). Evidence base: research_dossier.md (RUN 2026-10-05).

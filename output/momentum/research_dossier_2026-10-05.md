@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum research dossier — run 2026-10-05
 
 **Screen:** shortlist_2026-10-05.json (50 candidates; generated 2026-10-05 08:22:10).

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Compounder-Lens Ballot — Agent B (run 2026-09-25, run 4/30)
 
 Lens: Growth/quality compounder investor. Weights: revenue durability (recurring/subscription share), operating margins, returns on capital, balance-sheet cleanliness, earnings trend — and that the dip is a repricing of sentiment, not a break in the compounding story.

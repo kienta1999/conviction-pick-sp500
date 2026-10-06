@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum conviction pick — 2026-10-03
 
 **THE PICK: MU — Micron Technology** (Semiconductors, US; market cap ~\$1.24T as of 2026-10-02 close; entry price \$1,097.39).

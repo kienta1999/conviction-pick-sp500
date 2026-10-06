@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Research batch 3 — earnings dossiers (research as of 2026-09-17)
 
 Tickers: CAT (cached 2026-10-29), GRMN (cached 2026-10-28), AME (cached 2026-10-29), PAYX (cached 2026-09-23), CTAS (cached 2026-09-23).

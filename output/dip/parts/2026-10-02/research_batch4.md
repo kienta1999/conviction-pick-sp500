@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip-mode research dossier — batch 4 (2026-10-02)
 
 Screen basis: 2026-10-01 close. Sources checked 2026-10-02; all price figures as of 2026-10-01 unless noted. Numbers quoted verbatim from cited sources; where not found, marked "not found".

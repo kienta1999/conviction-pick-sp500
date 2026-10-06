@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — dip mode, 2026-09-28
 
 Shortlist: `output/dip/shortlist_2026-09-28.json`, generated 2026-09-28 08:19:31, 37 candidates.

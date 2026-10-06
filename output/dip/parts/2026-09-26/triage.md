@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Triage — dip mode, run 2026-09-26 (orchestrator-written)
 Shortlist: 37 names, screen generated 2026-09-25 08:36 UTC (reused, <24h old). Yesterday's pick: IDXX.
 

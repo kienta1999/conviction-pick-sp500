@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip Research Dossier — Batch 4 (2026-09-29)
 
 Tickers: SYK (Stryker), AZO (AutoZone), HSY (Hershey). Research date: 2026-09-29. Prices cited as of late Sept 2026.

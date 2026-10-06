@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # STOCK-PICK-EARNINGS — FINAL — 2026-09-24
 
 **PASS — no pick.** Per the skill's 0-candidate rule: the funnel is reported, the next

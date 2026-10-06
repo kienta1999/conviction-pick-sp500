@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent A — Supply-chain lens — Momentum panel — RUN_DATE 2026-09-30
 
 Lens: weight shortage/backlog evidence and multi-year revenue visibility above all. The name with the most acute, best-documented supply-demand imbalance and the longest contracted revenue visibility wins. Apply the disintermediation trap filter.

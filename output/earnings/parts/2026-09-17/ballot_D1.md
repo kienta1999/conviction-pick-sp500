@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot D1 — Agent D (Contrarian / risk skeptic) · 2026-09-17
 
 Lens: hunt the print the market is mis-modelling in either direction; weigh downside explicitly; own the guide-down case. Report dates attached to every entry. Plan A (hold through print) carries the burden of proof.

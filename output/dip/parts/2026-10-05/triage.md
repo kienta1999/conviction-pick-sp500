@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip triage — RUN 2026-10-05 (orchestrator)
 
 Shortlist: 38 names (screen generated 2026-10-05 08:22:11). Doctrine: reboundable

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # stock-pick-earnings 2026-09-06 — lite, the whole field (one agent, 5 searches, no panel, no verifier)
 
 **Plan B only, and nothing is actionable this week.** Lite never recommends holding through a print — it has

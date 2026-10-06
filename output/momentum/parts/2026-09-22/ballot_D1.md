@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # PANELIST D — CONTRARIAN / RISK SKEPTIC — BALLOT — 2026-09-22
 
 Lens: hunt for the thesis that is REAL but still UNDERAPPRECIATED by the market; avoid what's fully priced. Valuation, downside, and disintermediation risk are weighted explicitly. All numbers below are from the 2026-09-22 consolidated research dossier — no outside research, no invented figures.

@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Research Dossier — Batch 3 (2026-09-28)
 
 Tickers: CPRT, VRSK, ISRG, BR. Prices and P/E from Finnhub snapshots taken 2026-09-28 (close ~09/25–09/26, 2026).

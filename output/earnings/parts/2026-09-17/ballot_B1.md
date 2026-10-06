@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Ballot B1 — Agent B (Setup/positioning skeptic) — 2026-09-17
 
 Method note: No event-specific options-implied moves were found for any of the 15 names in the dossier (all marked "not found"). The priced-in analysis below therefore uses the reaction record (beat_up_rate, reaction_last4), the run into the print, and valuation vs own history — the three things the record actually supports. No figure below is interpolated or estimated by this author.

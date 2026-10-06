@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Momentum ranked top-10 — 2026-09-28 (RUN_DATE)
 
 Aggregate of the four lens ballots (A: supply-chain, B: growth/momentum, C: quality/moat, D: contrarian), Borda-scored: rank 1 = 10 pts … rank 10 = 1 pt. Single-pick ballots also returned in each ballot file (A: NVDA, B: NVDA, C: KLAC, D: KLAC).

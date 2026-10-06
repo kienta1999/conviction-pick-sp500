@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Buy-the-Dip Research — Batch 4 (BRO / EFX / HSY)
 **Research date: 2026-09-17** | Researcher: subagent dossier | Sources: company IR/PRs, earnings calls, Reuters, Zacks, Barchart, Inman, foodnavigator, BLS/Fed commentary. All numbers sourced; "not found" where unavailable.
 

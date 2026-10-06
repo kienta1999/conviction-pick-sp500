@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Agent A Ballot — Mean-reversion / Catalyst Lens
 Run 2026-09-25 (run 4/30). Dossier: research_dossier_2026-09-25.md (15 names).
 

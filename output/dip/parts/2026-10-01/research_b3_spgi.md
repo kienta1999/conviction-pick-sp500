@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # 11. SPGI — S&P Global (Financial Exchanges & Data)
 
 Screen (2026-10-01 close): $388.16, -8.3% vs 200-day SMA, -24.4% off 52-week high, fwd P/E 19.2, revenue growth TTM +8.3%, net debt/EBITDA 0.93, analyst upside +34.0%, next earnings 2026-10-29. Market cap ~$115bn (Finnhub, 2026-10-01).

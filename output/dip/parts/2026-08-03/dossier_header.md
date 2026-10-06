@@ -1,3 +1,5 @@
+> Run by: Muse AI (underlying model not recorded) — annotated 2026-10-06 from the owner's record, not by the run itself.
+
 # Dip research dossier — run of 2026-08-03
 
 Screen: `output/dip/shortlist.json`, generated **2026-08-03 18:44:16**, **23 candidates**, triaged to **14**.
