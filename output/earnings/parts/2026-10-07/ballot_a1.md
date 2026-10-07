@@ -1,0 +1,35 @@
+> Run by: Muse Spark (muse-spark) — full panel
+
+# Ballot A1 — Earnings-momentum analyst (panelist A), RUN_DATE=2026-10-07
+
+## SINGLE-PICK BALLOT
+
+- **Top pick:** BLK
+- **Runner-up:** GS
+- **Thesis (3-5 sentences):** BLK is the only name in the field with 4/4 beats where the surprise size is *growing* (+3→+6→+9→+11%), and every one of those beats was bought — reactions of +3.4/+5.9/+5.3/+6.6, the only all-positive reaction record on the board. Revenue is accelerating (+25→+31% y/y) on record $15.34T AUM, so the EPS bar is chasing a run-rate that keeps rising rather than defending one that's peaked. There is no EPS guide to trip over, the buyback was already raised ($450M→$550M+/qtr), and the market is treating this like a tame print: options imply ~2.1% while recent beats have moved ~5.3% on average. That's a momentum misprice — the tape is underwriting a surprise trend that hasn't broken in four quarters.
+- **Key evidence from the record:** 4/4 beats with strictly growing surprise size (+3→+6→+9→+11%) combined with four consecutive positive reactions (+3.4/+5.9/+5.3/+6.6) — the strongest beat-and-reward function in the 7-name field; beat_up_rate 0.875, beat score 8.
+- **Priced-in risk (THE TRAP):** low. Stock −5.1% in a month and ~13% off the high into the print — no chase, no froth. Options imply ~2.1% vs ~5.3% actual recent reactions, so the derivatives market is pricing half the historically realized move. Forward P/E ~19.1x is the highest in the field but fair-to-cheap for BLK historically; the trap here isn't a run-up, it's just the multiple.
+- **The guide:** BLK does not guide EPS, which removes the classic loss case entirely — there is no "beat but guided soft" mechanism for the Street to punish; guide-risk scores 3, lowest of the field alongside GS. The closest analog is the buyback/tax line items: the buyback was already raised to $550M+/qtr, and the revenue run-rate (+25→+31% y/y acceleration on record AUM) supports the market's carry-forward ask. A "beat but soft outlook" on any Q4 commentary is the residual loss case, but the structure of this company makes it the weakest version of that loss case on the board.
+- **Plan A or Plan B**, with one sentence of justification. Plan A. Holding through the print is the base case being paid for: four straight beats with growing surprises, all rewarded, no EPS guide to miss, and an implied move pricing in less than half the recent realized reaction.
+- **Fallback if the print disappoints:** yes, I'd hold it 12–18 months — record $15.34T AUM, margin at a 5-year high of 45.9%, accelerating revenue, and the dominant structural position in asset management with a raised buyback; a one-quarter wobble at a fair-to-cheap ~19x forward multiple is not a thesis break.
+- **Event scenario:** beat-and-raise: +4–6% (recent beats averaged ~+5.3%); in-line: +0–2% (the growing-surprise trend argues the Street gets outbid anyway); miss: −4–6% (first miss in four-plus quarters would reprice the surprise trend, but no guide exists to amplify it).
+- **Top risk:** Whisper number not found — with a +11% growing surprise streak, the real bar may sit above the $14.04–14.25 published consensus; a beat that lands under the whisper breaks the four-quarter reward streak, and the 19.1x forward P/E is the richest in the field if flows disappoint.
+- **Conviction (1-10):** 8
+
+## RANKED BALLOT
+
+1. BLK — 4/4 accelerating beats, all positive reactions
+2. GS — lowered bar, accelerating surprises, −23% off high
+3. BAC — bar sits below last quarter's print
+4. BNY — guide raised, rewarded three straight quarters
+5. JPM — beats fade on forward items
+6. MS — surprises shrinking, reaction deteriorating
+7. STT — beats get faded, highest guide risk
+
+**BLK (top 3 detail):** The most compelling record data point is the 4/4 beat streak with strictly growing surprise size (+3→+6→+9→+11%) on revenue accelerating +25→+31% y/y — momentum is compounding, not mean-reverting. Reaction record is the field's best: +3.4/+5.9/+5.3/+6.6, the only name where every beat in the window was bought, and the ~2.1% options-implied move prices in less than half the ~5.3% recent realized reaction. Guide risk is minimal (no EPS guide; buyback already raised to $550M+/qtr) — the "beat but guided soft" loss case has no mechanism here. Rough moves: +4–6% beat-and-raise / +0–2% in-line / −4–6% miss. **Plan A.**
+
+**GS (top 3 detail):** 4/4 beats with *accelerating* surprises and beat_up_rate 0.875 — the same accelerating-surprise signature as BLK, and the CEO already pre-warned the soft half on Sep 16 (soft FICC, +$500M expenses), so the bad news is out of the print. Reactions are strong (+9/+2/+5/−2), and the stock at −14.8% in a month and −23% off the high has de-risked the multiple (forward P/E ~13.0x). Guide risk is low — no EPS guide to miss — but the consensus is unusually dispersed ($13.3–15.4, genuine uncertainty), and options imply ±4.1% vs 3.5% realized, i.e. the market is pricing slightly more than the average realized move. Rough moves: +4–6% strong beat / +1–2% in-line (low bar helps) / −4–6% miss. **Plan A lean** — kept as runner-up because the dispersed consensus and a fuller-priced move make the beat-and-raise probability lower than BLK's.
+
+**BAC (top 3 detail):** The bar is conservative by construction — consensus EPS ~$1.10–1.18 sits *below* Q2's $1.21, so the company has to beat against a number it already cleared last quarter. 4/4 beats with a clean +2/+2/−4/+4 reaction record, CEO pre-warned the soft spots (IB fees −10%+, S&T flat), and the NII outlook was already raised to the upper end of 6–8% at Q2. Stock −17% off high and −14.7% in a month has de-risked it; option vol is cheap (IV rank 22%, stale). Guide risk is moderate (NII range guidance, not EPS), and a "beat but guided soft" case exists if NII language is trimmed — that's the loss case to watch. Rough moves: +3–4% beat / +0–2% in-line / −3–5% miss. **Plan A lean** — ranks third because the beat streak (beat_up_rate 0.75) lacks BLK/GS's accelerating-surprise signature.
+
+**Deliberately left out of top ranks:** BNY (4th) — guide raised and rewarded thrice is real momentum, but the raised FY guide must be defended with +11.5% Q4 EPS growth and it's the most "owned" name at 15.3x forward, so the beat-and-raise bar is structurally higher than BAC's below-last-quarter bar. JPM (5th) — the last two beats were both sold on forward items (NII trim, expense shock); holding through is a bet on Dimon's tone after he called the economy "as good as it gets," which is a guide trade, not an earnings-momentum trade. MS (6th) — surprises are shrinking (screen trend −6.6), three PT cuts plus a Zacks downgrade last week, and the Q2 record quarter got ~+1% then drifted −19%: deteriorating reaction function. STT (7th) — earned the triage flag: beats get faded (Q2's +9.3% beat closed −0.5%, average reaction −1.0%), the guide has been raised twice on assumptions management doesn't control (equities flat from end-2Q), and it's +48% over 12 months with targets only 5–7% above — the worst momentum-reward setup on the board.
