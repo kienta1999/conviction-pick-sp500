@@ -1,0 +1,35 @@
+> Run by: Muse Spark (muse-spark) — full panel
+
+# Panelist C (moat & AI-irreplaceability) ballot — 2026-10-09
+
+## Single-pick ballot
+
+- **Top pick:** ISRG
+- **Runner-up:** AZO
+- **Thesis (3-5 sentences):** Intuitive Surgical is the purest "moat no model can copy" name in the panel: ~11,700 da Vinci systems installed across 70+ countries, a surgeon-training ecosystem that makes switching slow and costly, and roughly 86% recurring revenue from instruments, accessories, and service. The 35%+ drawdown repriced the multiple from ~55x to ~35x forward on GLP-1 fears, China softness, and the first-ever real competition (J&J Ottava, Medtronic Hugo) — while fundamentals kept beating (Q2 revenue +18.5%, EPS beat +11.9%, procedure guidance maintained, gross-margin outlook raised). Debt-free with $5.2B+ cash and ~$3.2B TTM FCF, Intuitive can out-invest and out-last every challenger. Every 30%+ drawdown in ISRG's history has been a buying opportunity; this one has the same anatomy — beating fundamentals, compressed multiple.
+- **Why the dip is temporary (not permanent):** The business is still growing double-digits while the stock fell 35%+: Q2 revenue $2.89B (+18.5%) beat, EPS $2.80 (+11.9%) beat, FY procedure growth guidance 13.5–15.5% maintained, gross-margin outlook raised to 68–69% — and the company has beaten Street EPS estimates in each of the past four quarters (Barchart, Oct 2026). Rivals are *entering*, not taking share: da Vinci 5 ramped past 1,700 systems and Ion procedures grew 36% in Q2.
+- **Moat / AI-irreplaceability:** LOW risk. AI cannot bypass the FDA, hospital integration, or a surgeon's hands — the late-May OpenAI-robotics scare was pure speculation against this stack. The genuine competition risk comes from J&J and Medtronic robots, not from AI substitution; their training-base and indication-clearance walls are decades behind. No substitute technology routes around physical surgery.
+- **Rebound catalyst & timing:** Q3 earnings, confirmed Tuesday Oct 20, 2026 after market close — the next sentiment checkpoint (Street expects $2.13/share, +8.7% YoY). Continued da Vinci 5 placements and Ion growth plus any procedure-growth reacceleration toward the high end of guidance are the upside triggers, over 1–3 quarters.
+- **Base/bull 12-18mo scenarios:** Base ~$480–510 (+16–23% from ~$415): procedure growth stabilizes in the guidance range, earnings compound at ~13–20% (analyst FY27 EPS est ~$10.02), multiple holds ~35x, in line with the $482–$509 analyst target means and Barclays' $485 Overweight (initiated Oct 7, 2026). Bull ~$560–600 (+35–45%): Q3/Q4 show US procedure reacceleration, China stabilizes, and the market re-rates toward 40x+ forward on renewed da Vinci 5 momentum — targets up to $615 exist (RBC Outperform).
+- **Key risks:** J&J's Ottava and Medtronic's Hugo scale faster than expected, structurally eroding the competitive premium rather than just the multiple; GLP-1 drugs permanently remove the bariatric growth driver; China is lost to subsidized local OEMs; at ~35x forward, any further procedure-growth deceleration gets punished hard; insider selling and ~8.1M shares of short interest flag sentiment fragility.
+
+## Ranked ballot (this lens: category dominance + balance-sheet durability + irreplaceability)
+
+1. ISRG — robotic-surgery monopoly, debt-free fortress
+2. AZO — aging-fleet tailwind, below-history multiple
+3. ODFL — #1 LTL, net cash, freight trough
+4. VRT — AI demand driver, $15B backlog
+5. BR — regulated proxy monopoly, 6% FCF yield
+6. IDXX — diagnostics installed base, AI augments
+7. VRSK — insurance-data utility, cheapest-ever multiple
+8. SYK — #1 orthopedics, cheapest multiple in years
+9. COO — contact-lens oligopoly, 12.5x forward earnings
+10. NFLX — #1 streamer, derated 40x to 20x
+
+**Top 3 detail:**
+
+1. **ISRG.** The single most compelling data point: Q2 CY2026 beat on both lines (revenue $2.89B +18.5%, EPS $2.80 +11.9%) with FY procedure guidance *maintained* at 13.5–15.5% and gross-margin outlook *raised* to 68–69% — the business is growing double-digits while the stock sits 35%+ off its high on pure multiple compression (55x→~35x forward, its cheapest relative multiple in years); the da Vinci 5 ramp (>1,700 systems) and Ion +36% are the intact-moat evidence, with ~86% recurring revenue backing every placement. Base ~$480–510 (+16–23%) on steady compounding; bull ~$560–600 (+35–45%) if Q3/Q4 reaccelerate US procedures and the market re-rates toward 40x+.
+2. **AZO.** The single most compelling data point: the US average vehicle age is 12.8 years (S&P Global Mobility) — AZO's closest correlates of market growth are miles driven and 7+ year-old vehicles — while the commercial (DIFM) channel grew same-store sales 8.6% to $1.91B in Q4 FY2026, proving the pro engine works even as DIY traffic softened; the dip repriced a low-20s-multiple compounder to ~17x forward, below its own historical range — the only name here trading under its history. The buyback machine accelerates at the lower price ($697.5M in Q4, new $1.5B authorization) and Bernstein initiated Strong Buy on Oct 1. Base ~$3,550–3,710 (+22–27% toward the $3,669–3,710 analyst mean); bull ~$4,000+ if DIY SSS reaccelerates as tariff passthrough normalizes.
+3. **ODFL.** The single most compelling data point: Q2 2026 was a genuine beat (EPS $1.68 +32.3% YoY vs $1.52 consensus; operating ratio improved 450bp to 70.1%, the industry's lowest) with LTL yield +15.2%/cwt *despite* tons/day -4.1% — pricing power held through the trough — and the May 8-K showed revenue/day +12.3% YoY with demand "improving through the quarter," the classic LTL inflection tell. The moat is a physical one no model can copy: 250+ company-owned service centers, a network effectively impossible to rebuild, run at the industry's lowest OR, on a net-cash balance sheet ($283.9M cash vs $20M debt) with $1.31B buyback authorization remaining. Base ~$225–235 (+24–29% toward the ~$226–229 analyst means; BMO $230, Morgan Stanley $235); bull ~$250+ if freight volumes inflect through late 2026/early 2027 and the multiple re-rates.
+
+**Names deliberately left out of the top 10 (and why):** ADBE — generative AI commoditizes creation itself, the disruption thesis is aimed squarely at the product (suspected value trap: the 9x multiple is the market's verdict, AI-first ARR only ~2.4% of ARR while net new ARR falls); BKNG — AI-agent disintermediation is the one genuine disruption vector in this panel and it points directly at the OTA take-rate model; CPRT — cost-per-car +12.7% squeeze may be structural, PGR volume was yielded to IAA on price, $1.9B for ACV at 23x EBITDA, and autonomous driving is a slow secular bleed on the total-loss pool; TPR — AI-proof but the moat erosion is fashion-cycle, not price: Coach FY26 may have been the cycle peak and Kate Spade is a structural drag; LVS — license moat but a levered cyclical at the 52-week low with Beijing policy risk, a Macau promo arms race, and heavy insider selling — the triage's value-trap specimen, a hold-normalization bet, not a compounder.
