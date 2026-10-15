@@ -1,0 +1,89 @@
+[
+  {
+    "stage": "1 profitable",
+    "in": 503,
+    "out": 472,
+    "dropped": 31
+  },
+  {
+    "stage": "2 US company",
+    "in": 472,
+    "out": 472,
+    "dropped": 0,
+    "skipped": "not applicable in earnings mode (domicile does not affect a print)"
+  },
+  {
+    "stage": "3 TTM rev growth>0",
+    "in": 472,
+    "out": 431,
+    "dropped": 41
+  },
+  {
+    "stage": "4 leverage ok",
+    "in": 431,
+    "out": 309,
+    "dropped": 122
+  },
+  {
+    "stage": "5 reports <=45d",
+    "in": 309,
+    "out": 270,
+    "dropped": 39
+  },
+  {
+    "stage": "5b mktcap>=$20B",
+    "in": 270,
+    "out": 226,
+    "dropped": 44
+  },
+  {
+    "stage": "5c has >=4q history",
+    "in": 226,
+    "out": 225,
+    "dropped": 1
+  },
+  {
+    "stage": "5c misses<2 of 4q",
+    "in": 225,
+    "out": 201,
+    "dropped": 24
+  },
+  {
+    "stage": "5d beat->up rate>50%",
+    "in": 201,
+    "out": 107,
+    "dropped": 94
+  },
+  {
+    "stage": "6 op margin>sector med",
+    "in": 107,
+    "out": 66,
+    "dropped": 41
+  },
+  {
+    "stage": "6b earnings quality",
+    "in": 66,
+    "out": 63,
+    "dropped": 3
+  },
+  {
+    "stage": "7 0<fwdPE<60",
+    "in": 63,
+    "out": 62,
+    "dropped": 1
+  },
+  {
+    "stage": "8 niche leaders",
+    "in": 62,
+    "out": 62,
+    "dropped": 0,
+    "skipped": "not applicable in earnings mode (stage 5b market-cap floor instead)"
+  },
+  {
+    "stage": "9 trim to target",
+    "in": 62,
+    "out": 50,
+    "dropped": 12,
+    "target": 50
+  }
+]
