@@ -1,0 +1,33 @@
+> Run by: Muse Wonder (muse-wonder) — full panel
+
+=== SINGLE-PICK BALLOT ===
+
+- **Top pick:** CME
+- **Runner-up:** CINF
+- **Thesis (3-5 sentences):** On setup alone this is the only name whose own good news has actually been paid for by the stock: screen beat_up_rate 1.00, reaction_last4 +5%, +0%, +1%, +0% — no beat in the last four has been sold. Valuation is not the trap either: fwd P/E 21.4x sits at/below its own history (5-yr avg fwd ~23.25x, 3-yr trailing ~24.2x), the screen price was −15.5% off the $329.16 high, and there is no EPS guide that can be "guided soft." I concede the reward is capped — reaction_avg_abs_move is only 1.6% and options price ~3.7%, more than double the typical reaction — but this lens is paid to avoid the priced-in print, not to chase the biggest one, and CME is the only candidate where a beat is neither pre-paid at an all-time high (PM), pre-sold last quarter (ISRG), arb-pinned (NSC), nor a coin-flip on an unknowable input (CINF cats).
+- **Key evidence from the record:** Four straight small adjusted beats (~+1% to +3%; screen 3/4 is a vendor artefact on Q1'26's $3.36) with zero negative reactions; flat Q3 revenue bar (~$1.71B, equal to Q2's $1.706B) against already-disclosed record Q3 ADV of 29.4M contracts (+16% YoY, Oct 2 release); guide-risk scored 2/10 and priced-in 4/10 in the dossier — both the lowest or joint-lowest in the field; RECEIVABLES_OUTRUN flag adjudicated BENIGN, with H1'26 operating cash flow $2.207B vs net income $2.196B (~100% conversion).
+- **Priced-in risk (THE TRAP):** medium — valuation and positioning are not crowded, but the stock ran ~+10% from the Oct 2 close ($263.14) to ~$289 by Oct 15 purely on ADV data that has been public since Oct 2, so the known good news is already paid for and only the undisclosed piece (RPC/mix/collateral) is left to surprise, in either direction.
+- **The guide:** There is no EPS/revenue guide to raise or trim — only the Feb-issued FY26 opex ~$1.695B / capex ~$85M / tax 23.5–24.5% framework — so "beat but guided soft" cannot happen in the ISRG/PM form; the market is carrying Q4'26 EPS $2.98 and FY26 $12.29, and the run-rate supports them exactly as continuation (H1 $6.35 + Q3e $2.96–$2.98 = ~$9.32, leaving Q4 to print an identical ~$2.97), with the soft-guide risk instead arriving disguised as October-volume tone on the call being traded as a Q4 guide.
+- **Plan A or Plan B:** Plan B — Plan A carries the burden of proof and fails it at $278+ because the post-ADV run has already collected the payment for the record volume, leaving only unknown RPC to hold through.
+- **Fallback if the print disappoints:** Yes, hold 12–18 months — a miss here would be an RPC/mix quarter inside a 9/10-moat, ~65%-operating-margin, ~100%-cash-conversion franchise with buybacks; the dossier's own test says a −15% gap is an opportunity unless it is caused by a regulatory break (clearing mandate, fee/transaction tax), which an RPC miss is not.
+- **Event scenario:** Beat-and-raise equivalent (beat + firm RPC/October-volume tone): +2% to +4% / in-line small beat: 0% to +1% (the last three in-line-ish prints went +0%, +1%, +0%) / miss (RPC miss on record volume): −2% to −4%, roughly the ~3.7% indicative expected move.
+- **Top risk:** RPC/mix disappointment on record ADV — consensus already assumes volume does not translate (revenue flat vs Q2), so if RPC fell further than assumed, CME "misses" on a record-volume quarter, the one print-specific trap in the file.
+- **Conviction (1-10):** 5
+
+=== RANKED BALLOT ===
+
+1. CME — Only clean reaction record; nothing pre-paid
+2. CINF — Washed out, cheap vol, cat binary
+3. ISRG — De-rated multiple, but run-up into print
+4. NSC — Arb-pinned at headline value; beats unpaid
+5. PM — All-time high; good news is price
+
+**CME (Plan B).** Setup: fwd 21.4x at/below its own history, −15.5% off the high at the screen, and the lowest guide-risk (2/10) in the field because there is no EPS guide to trim. Reaction record is the best in the field — beat_up_rate 1.00, last four +5%/+0%/+1%/+0% on four straight small beats — but priced-in risk is medium, not low: the ~+10% run since the Oct 2 ADV release already paid for the record 29.4M-contract quarter, options price ~3.7% vs a 1.6% average absolute reaction, and what remains is RPC, which cuts both ways within roughly +2–4% / 0–+1% / −2–4%. Plan B.
+
+**CINF (Plan B).** Setup is the second-cleanest: −15.0% off the $194.81 high, −7.4% over three months, mid-range 18.3x forward, implied move ~2.1% *below* its 2.5% realised average — nobody is crowded into this print. The reaction record is the counterweight: the sequential last four are −1%, +1%, −3%, −4%, including a −1% on a +33–42% beat (Q3'25) and a −3% on a +8% beat (Q1'26), so being right has recently been sold anyway; guide risk is formally low (3/10, non-guider) but the print is a cat-load coin-flip and the bar has drifted up late ($1.91 → $2.01 Zacks), for roughly +2–3% / ~0% / −3–5%. Plan B.
+
+**ISRG (Plan B).** The fundamental favourite is a setup reject for the top slot: ret_21d +11.7% straight into the print, implied move 7.8–7.9% *above* its own 6.7% reaction_avg_abs_move, and the freshest data point in the whole dossier is Q2'26 — an +11.5% EPS beat with a margin guide *raise* that was sold −14% because the procedure guide was merely reaffirmed. Mitigants keep it off the bottom: −30.1% vs the $603.88 high and fwd 34.9x, ~37% below its 5-year level, mean the franchise is de-rated even if the setup is crowded, and beat_up_rate 0.625 with last-four reactions −14%/+7%/0%/+14% says the distribution is bimodal — roughly +7–14% on a procedure-guide raise, ~0% in-line, −10–14% on a reaffirm-with-soft-US-procedures print, i.e. "beat but guided soft" is the base-case trap, not the tail. Plan B.
+
+Names deliberately left at the bottom: **NSC and PM.** NSC (4th) is priced at ~100% of the $320 UNP merger headline value on 22.4x forward, so the reaction function is broken by arb — a +17% surprise bought +2% (Q4'25), last four +5%/−1%/+2%/−2% — while the Sep 15 fuel guide cut (~250bp of OR ≈ ~$0.28/share) is only ~$0.10 reflected in the $3.48–$3.52 bar: you are paid nothing for being right and exposed to spread-widening for being wrong. PM (5th) is THE TRAP of this panel: priced-in score 8/10, new 52-week highs on Oct 15 after the $199.29 screen, trailing P/E ~28.6x vs a ~21.3–21.9x five-year average, consensus targets essentially at the price, and options pricing ~2.7% against a 5.9% average absolute reaction that includes a −4% fall on a beat a year ago — at that price a beat plus an intact ex-currency guide is required merely to stand still.
+
+Research, not financial advice.
