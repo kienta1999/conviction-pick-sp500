@@ -1,0 +1,39 @@
+> Run by: Muse Wonder (unknown) — full panel
+
+# Agent D — Contrarian / Risk Skeptic — STOCK EARNINGS — Run 2026-10-17
+
+## (1) SINGLE-PICK ballot
+
+- **Top pick:** NONE — I nominate NO TRADE explicitly. No name in this field offers positive hold-through-print asymmetry under this lens.
+- **Runner-up:** CME
+- **Thesis (3-5 sentences):** Every apparent beat here is already the consensus expectation, and the dossier shows the loss case is not a miss — it is a beat paired with soft forward language. ISRG lost -14% in Q2 2026 on a beat plus a margin raise plus a procedure-growth reaffirm, PM's Q3 consensus of $2.29–2.31 sits above management's own $2.20–2.25 guided range, and FFIV's consensus sits at/above the top of its $4.14–4.26 range into a pre-flagged FY27 gross-margin step-down. The names that are not guide-trapped do not pay for beats: CINF fell after three of its last four prints including a +33–38% surprise, and NSC's beats average only a 2.7% absolute move while its EPS bar rose +1.21% in 30 days despite a verified fuel warning. CME is the least-bad name, not a good trade — its quarter is already public via volume data and its average absolute reaction is only 1.6%, so even being right barely pays.
+- **Key evidence from the record:** PM consensus EPS $2.29–2.31 (Zacks/MarketBeat) versus the company's own Q3 guidance of $2.20–2.25 given with Q2 — a print exactly at guidance therefore reads as a consensus miss, and it is the cleanest single mis-modelling tell in the field.
+- **Priced-in risk (THE TRAP):** high — field-wide. PM is at/near a new 52-week high ($210.45 on ~15 Oct) at 21.8x forward versus its own 1-year median of 20.15x, FFIV is +73% YTD and trading above its ~$426 mean analyst target at the $476.24 screen price, V rose +11% in October on zero estimate revision, KO trades at 26.1x at a record high with FY consensus at the top of its guide, and ISRG has already run +11.9% in 21 days into a print where a reaffirm was punished -14% last quarter.
+- **The guide:** For the runner-up CME, the market is carrying Q4 2026 EPS $2.98 on revenue $1.74B and FY2026 EPS $12.27–12.29 on revenue $7.03B; the run-rate supports it on pure continuation — H1 EPS of $6.35 ($3.36 + $2.99) plus consensus H2 of $5.94 sums to ~$12.29 with no acceleration required, provided rate-per-contract does not deteriorate. CME has no EPS/revenue guide to cut, so the explicit "beat but guided soft" loss case here is a beat on the already-known record volumes paired with an upward revision to the ~$1.695B FY adjusted opex guide or weak RPC commentary — and that same loss case, in true guide form, is the modal outcome I fear at PM (beat history, trim FY guide on FX again), FFIV (beat Q4, guide FY27 revenue/EPS down on the 80–82% gross-margin step-down), and ISRG (beat, merely reaffirm 13.5–15.5% procedure growth, size the 2027 Extended Use headwind).
+- **Plan B:** No name carries Plan A's burden of proof — every candidate either needs the guide, not just the quarter, to surprise upward, or has a reaction record that does not reward the beat it is likely to deliver.
+- **Fallback if the print disappoints:** For CME specifically, yes, I would hold 12–18 months after a disappointment — a 63.4% net-margin, ~$4.2B-FCF toll road with a 9/10 moat and no debt-driven fragility at ~19–22x forward is an opportunity on a -15% gap, not a disaster; that fallback quality is precisely why it ranks first even though the event trade itself is a pass.
+- **Event scenario:** CME as the proxy trade: beat-and-clean (RPC holds, expense guide reaffirmed) +3% to +5% (Q2's beat did +5%), in-line 0% to +1%, miss / RPC slip / expense-guide raise -2% to -4%; the field's tails are far worse — ISRG, STX and FFIV all carry documented -8% to -14% reactions on prints that beat.
+- **Top risk:** That I am passing on the one genuine upside mis-modelling — STX after a -20.4% month / -44% fall from its $1,145 high — but its FY27 consensus of $35.70–36.27 requires Q2–Q4 to average above the guided Q1 run-rate, so the market is still carrying acceleration the company has not guided to.
+- **Conviction (1-10):** 7 — conviction in the NO TRADE call itself; standalone conviction in CME as a hold-through trade would be only 4.
+
+## (2) RANKED ballot
+
+1. CME — No guide; lowest variance trap
+2. CINF — Cut bar; uncrowded; beats unpaid
+3. KO — Reliable beat; guide already top-ended
+4. V — Deceleration assumed; multiple-only run
+5. STX — Washed out; guide ladder extreme
+6. ISRG — Likely beat; reaffirm punished before
+7. NSC — Fuel warning never in bar
+8. PM — Consensus above management's own guide
+9. FFIV — Whisper above range; margin cliff
+
+### Top 3 — detail
+
+**1. CME.** The most compelling setup data point is also its cap: CME already published record Q3 ADV of 29.4M contracts (+16% YoY, record September 31.8M, +22%) on 2 Oct, so the revenue driver is known and the only unseen swing is rate-per-contract, which is exactly what made Q2 revenue grow only +0.8% despite volume strength. Its reaction record is the tamest in the field (+5%, 0%, +1%, 0%; average absolute move 1.6%, worst measured -1.5%) and guide risk is the lowest (3/10) because there is no EPS guide — only the ~$1.695B expense guide can be raised — while priced-in risk is middling at 22.3x forward, +6.2% in 21 days and a neutral Hold consensus; rough moves are +3%/+5% on a clean RPC beat, 0%/+1% in-line, -2%/-4% on an RPC or expense miss — Plan B, because the known volume story leaves too little surprise to clear even this small gap risk.
+
+**2. CINF.** The bar has genuinely been cut — operating EPS consensus of ~$1.91–2.03 is down -29% to -33% YoY against Q3 2025's blowout $2.85 light-catastrophe comp — and the ex-cat engine is stable (accident-year ex-cat combined ratio 87.8% in H1 2026 versus 87.7% a year earlier, net investment income +12%), with the stock -15% from its $194.81 high, Hold-rated and uncrowded. But its reaction record destroys the event case: it fell after three of the last four prints (-1%, +1%, -3%, -4%), including -4% on the +33–38% Q3 2025 surprise, and with no formal guide the residual guide risk is an adverse reserve or catastrophe admission in peak hurricane quarter; rough moves are +1%/+2% on a beat, -1%/0% in-line, -3%/-5% on a heavy cat load — Plan B, because a likely beat that historically loses money is not an edge.
+
+**3. KO.** This is the steadiest beat machine in the lower-risk half: 4/4 screen beats, both 2026 prints beat on EPS and revenue, the FY26 guide has been raised twice (organic revenue to ~5%, comparable EPS growth to +9–10%), and YTD run-rate is ahead of that guide with no unseen acceleration required. The trap is that consensus FY26 EPS of $3.30 now sits at the very top of the $3.27–3.30 guide range, the stock closed at $93.52 on 16 Oct at a record high on 26.1x forward — roughly 3 turns above its ~23.3x historical average — with only ~3% to the mean target, and the documented February 2026 precedent is a -3% to -4% fall when KO guided below the Street despite an EPS beat; rough moves are +2%/+4% on a beat with a third raise, 0%/-2% on beat-and-reaffirm, -4%/-6% on soft volume quality (Q2 APAC price/mix was -9%) or bearish FY27 colour — Plan B, the closest of the three to flipping, blocked by valuation alone.
+
+Deliberately left at the bottom: FFIV and PM, because in both cases published consensus sits above the company's own guided range — the one configuration where a company can do exactly what it promised and the stock still falls — with FFIV last because it adds a pre-flagged 200–300bp FY27 gross-margin step-down, a parabolic +73% YTD run and a price above its mean analyst target; ISRG and NSC sit just above them because ISRG's -14% Q2 template proves a reaffirm is now a sell event, and NSC's bar never came down for a management-issued 250bp fuel headwind to its operating ratio.

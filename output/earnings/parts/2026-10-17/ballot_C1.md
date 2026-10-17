@@ -1,0 +1,39 @@
+> Run by: Muse Wonder (unknown) — full panel
+
+# Panelist C — Quality / Moat & Irreplaceability — STOCK EARNINGS — Run 2026-10-17
+
+## (1) SINGLE-PICK ballot
+
+- **Top pick:** CME
+- **Runner-up:** V
+- **Thesis (3-5 sentences):** CME is the name I would be happiest to be stuck holding after a bad print, because the franchise cannot be in-sourced or routed around — traders go where open interest already is, and the clearing, cross-margining and proprietary market-data layers sit on top of that liquidity pool. The print should go well on already-public evidence: CME published record Q3 ADV of 29.4M contracts (+16% YoY) on 2 Oct, yet Q3 consensus ($2.96–2.98 EPS / $1.71B revenue) is flat in dollars versus Q2's $1.706B, so no unseen acceleration is required — only rate-per-contract not deteriorating. That is not already in the price: the Street rating is Hold, the average target (~$289.75–292) sits roughly at the later-feed price, forward P/E is 22.3×, and the stock has run only +6.2% in 21 days and remains ~8–11% below its 52-week high. Unlike every other high-moat name in this field, there is no EPS or revenue guide for management to cut, so the usual "beat but guided soft" trap has no main channel here.
+- **Key evidence from the record:** Record Q3 ADV of 29.4M contracts (+16% YoY, September alone 31.8M, +22%) already published on 2 Oct, alongside a 69.5% Q2 adjusted operating margin, 63.4% TTM net margin, and 33 consecutive quarters of YoY market-data revenue growth.
+- **Priced-in risk (THE TRAP):** Medium — the volume half of the story was published on 2 Oct and is partly priced, and the +11.4% YoY revenue consensus is against the weakest quarter of 2025 (Q3'25 $1.538B), so there is no room for an RPC slip; mitigated by no crowding, a Hold consensus, and the smallest realised event risk in the field (average absolute reaction 1.6%, worst measured -1.5%).
+- **The guide:** CME guides only costs — FY adjusted opex ex-license fees ~$1.695B, capex ~$85M, adjusted tax 23.5–24.5%, all reaffirmed at Q2 with tax refined to the low end. The market is carrying Q4 2026 EPS $2.98 / revenue $1.74B and FY2026 EPS $12.27–12.29 / revenue $7.03B; run-rate supports it as pure continuation (H1 actual EPS $3.36 + $2.99 = $6.35, plus H2 consensus $2.96 + $2.98 = $5.94, sums to ~$12.29 with no acceleration required). The "beat but guided soft" loss case is explicit here in its CME form: an EPS beat accompanied by an upward revision to the $1.695B expense guide, adverse tax guidance, or soft RPC commentary — that, not a revenue guide cut (which cannot exist), is how this print loses.
+- **Plan A or Plan B:** Plan A — hold through the print, because there is no top-line guide to cut, the worst measured reaction is -1.5%, and any miss would be RPC/mix noise on an irreplaceable franchise rather than a thesis break.
+- **Fallback if the print disappoints:** Yes, hold 12–18 months without hesitation — a 63%-net-margin, ~$4.2B-FCF toll road on global risk transfer (94% institutional hedging volume in H1'26) whose liquidity network effect self-reinforces; the dossier's gap-down test is explicit that -15% and stuck is opportunity, and the disaster case requires a structural loss of the liquidity pool for which there is no current evidence.
+- **Event scenario:** Beat-and-strong-RPC / expense guide reaffirmed: +3% to +5% (Q2's beat did +5%); in-line: 0% to +1%; miss (low RPC or expense-guide raise): -2% to -4%.
+- **Top risk:** RPC / mix — Q3 volume is known, revenue is not; Q2 proved volume strength can coexist with only +0.8% revenue growth when rates/SOFR mix softens and RPC compresses ($0.678 in Q2 vs $0.652 in Q1), and technology (+18%) and licensing (+13%) expense drift compounds that risk.
+- **Conviction (1-10):** 8
+
+## (2) RANKED ballot
+
+1. CME — Irreplaceable liquidity pool, 63% net margin
+2. V — Global toll road, nobody routes around
+3. ISRG — Installed base, training lock-in, debt-free
+4. KO — Brand plus bottler system, irreplaceable distribution
+5. PM — Pricing power, regulated nicotine moat
+6. NSC — Unreplicable rail network, eastern duopoly
+7. FFIV — Entrenched plumbing, but contested, substitutable
+8. STX — Duopoly density lead, cyclical pricing only
+9. CINF — Competence, not structure; commoditised carrier
+
+### Top 3 — detail
+
+**1. CME.** The most compelling record point is the combination of the already-published record Q3 ADV (+16% YoY) with elite, stable economics — 69.5% adjusted operating margin, 63.4% net margin, CFO/NI ~1.005 with a nil accrual ratio, and 33 straight quarters of market-data growth — from a business (moat 9/10) whose institutional hedging flow cannot be in-sourced to an AI model or a crypto venue. Its reaction record is the tamest in the field (last four +5%, 0%, +1%, 0%; average absolute move 1.6%, beat_up_rate 1.00), guide risk is the field's lowest (3/10, no EPS/revenue guide to cut; only expense/tax guidance can disappoint), and priced-in risk is medium (5/10, Hold consensus, target roughly at price). Rough moves: beat-and-strong-RPC +3% to +5% / in-line 0% to +1% / miss -2% to -4% — Plan A.
+
+**2. V.** Visa is the highest moat score in the field (9.5/10) — the archetypal two-sided toll road across 200+ countries, now extending into stablecoin settlement (+~200% YoY linked volume, $7B settlement run-rate at Q2) and agentic commerce rather than being displaced by them, with VAS revenue +34% to $3.8B in Q3 and ~$33B of buyback capacity making any -15% gap a multiple event, not a franchise event. Its beat is also the most machine-like (4/4, small +2.7% average surprises; last four reactions +1%, +8%, -3%, -2%), but guide risk (6/10) is the initial FY27 band versus FY27 consensus of ~$14.98 EPS / $50.62B revenue, and priced-in risk is high (7/10): +11% in October on zero estimate revisions, at its 52-week high at the top of its ~24–28× forward band. Rough moves: beat-and-raise-the-band +3% to +5% / in-line-with-a-soft-band-low-end -1% to -3% / miss -5% to -6% — Plan B.
+
+**3. ISRG.** On pure quality ISRG rivals the top two — moat 9/10, ~13,000-system installed base, surgeon training/certification lock-in, 85% recurring revenue, no debt, CFO/NI 1.18, and a Q2 beat of $2.80 vs ~$2.48–2.51 consensus with gross margin guided up to 68–69%; a -15% gap stuck for 18 months is opportunity, not disaster, in the dominant debt-free franchise. What demotes it on this lens is not the business but the print: its reaction record punished exactly this setup last quarter (-14% on a beat plus a margin raise plus a procedure-guide reaffirm; last four -14%, +7%, 0%, +14%), guide risk is material (5/10 — the FY procedure-growth midpoint plus Extended Use Program detail due on this call, which could size a 2027 revenue-per-procedure headwind), and priced-in risk is elevated (6/10, +11.9% in 21 days, 35.3× forward, consensus already expecting the +15.7% average surprise). Rough moves: beat-and-raise +6% to +8% / in-line-or-mere-reaffirm -5% to -14% (the Q2 template) / miss -14% or worse — Plan B.
+
+Deliberately left at the bottom: STX and CINF — STX (8th) because its moat is a cycle position plus a density lead, not lock-in: pricing, its #1 margin driver, is renegotiated with the most powerful buyers on earth at every LTA, and a "stuck 18 months" outcome has the FY23 loss-year precedent; CINF (9th, moat 6/10, the field's lowest) because it is a regional P&C carrier in a commoditised product with no network effect and no pricing power beyond the cycle — competence, not structure — whose beats historically do not even pay (fell after three of its last four prints, including a +38% surprise that lost 4%). FFIV sits just above them (7th) because application-delivery plumbing, however entrenched, is the one name here a substitute — Cloudflare, A10, or hyperscaler-native tooling — can realistically route around.
