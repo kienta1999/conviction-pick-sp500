@@ -6,6 +6,7 @@ nobody noticed. One row per run whose committed inputs do not match its publishe
 | run | missing | why | recoverable? |
 |---|---|---|---|
 | 2026-09-21 (dip, momentum, earnings) | `shortlist_*.csv`, `shortlist_*.json`, `funnel_*.json`, `research_dossier_*.md` | The run committed only files whose path was new that day. These four had to be overwritten in place, so `git add` skipped them in all three modes and the repo kept 2026-09-17's screen. | **No.** See below. |
+| 2026-10-18 (momentum) | `shortlist_2026-10-18.*`, `funnel_2026-10-18.*` (no screen dated for the run day) | The panel ran on `shortlist_2026-10-17.json` (generated 2026-10-17 08:57 UTC), reused under the protocol Phase 0 rule at ~23.0h old at the 08:00 PT run start, inside the <24h freshness window — the screen-of-record is committed under its own date. A same-day regeneration was attempted post-panel: identical prices but a different candidate set (APH, PH dropped on Yahoo snapshot-fundamentals drift), so it was not substituted for the screen the panel actually scored. | Inputs are committed (dated 2026-10-17); the 2026-10-18 regeneration was discarded, not lost. |
 
 ## Why 2026-09-21 cannot be regenerated
 
