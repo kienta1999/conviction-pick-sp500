@@ -1,0 +1,42 @@
+> Run by: Muse Wonder (muse-wonder) — full panel
+
+# Panelist A — Earnings-momentum — Ballots — Run 2026-10-19
+
+Lens: beat/raise record, size and trend of surprises, estimate revisions, and revenue acceleration into the print. Highest probability of a beat-and-raise wins; the priced-in trap is noted, but the record scores first.
+
+## SINGLE-PICK BALLOT
+
+- Top pick: CAT
+- Runner-up: LLY
+- Thesis (3-5 sentences): CAT is the only name in the field whose surprises are getting bigger while the bar is still beatable: 4/4 beats at +17.5% average with a +16.1 surprise trend, capped by Q2's +~32% EPS beat ($8.17 vs ~$6.20-6.25 consensus) on the first >$20B revenue quarter in company history, and management raised the full-year outlook on that print. The Q3 bar ($7.09 EPS / $20.7B revenue) sits ~13% below Q2's delivered EPS and merely asks the company to repeat its record revenue quarter, with a $72B backlog (+92% YoY, 59% deliverable within 12 months) mechanically covering the revenue leg. It is not already in the price because the stock has been sold down on an AI-power factor unwind, not on its numbers: -8.5% in 21 days, -31.3% off the 52-week high, while estimates were being raised in October. Every one of its last four prints was rewarded (+6/+10/+3/+12, beat→up 0.80), so a beat here has historically been paid, not faded.
+- Key evidence from the record: Q2 2026 adjusted EPS $8.17 vs ~$6.20-6.25 consensus (+~32%) with a full-year outlook raise on the same print — and the Q3 consensus of $7.09 is set below that delivered number.
+- Priced-in risk (THE TRAP): low — de-rated -31.3% off the high and down -8.5% into the print on factor unwind rather than company news, forward P/E 22.4× against a $951 target (+30%); priced-in score 4/10, the lowest in the field. The trap that remains is qualitative: at ~31× trailing, a merely good print may not be enough for the multiple sceptics.
+- The guide: CAT gives no quarterly or full-year EPS range — the guide is outlook language (FY revenue growth raised at Q2 to mid-to-high-teens, implying roughly $77-79B vs FY25's $67.6B; adjusted operating margin "near the bottom of its target range" ex-IEEPA recoveries; ~$2.2B FY tariff cost). The number the market is carrying forward is Q4 2026 EPS of $6.88 (Zacks, single firm) and FY26 consensus EPS of $27.42. The run-rate supports the revenue side outright — Q3 consensus $20.7B is a repeat of Q2's $20.54B and the $72B backlog covers forward revenue — but the margin leg is only supported if Q3 tariff cost lands at the guided ~$600M; that, not demand, is where the guide can break.
+- Plan A or Plan B: Plan A — hold through the print; CAT is the one name that clears Plan A's burden of proof through this lens: beat→up 0.80 with all four recent reactions positive and the field's smallest event tail (avg abs 5.04%, worst -4.6%), so the gap risk being underwritten is demonstrably half the size of the other quality names'.
+- Fallback if the print disappoints: Yes, hold 12-18 months — a miss here would most plausibly be a tariff/margin miss against a $72B backlog, a 21.9% adjusted operating margin business and a parts-and-services annuity, not a demand break; the position only becomes a sell if the print comes with order cancellations or a backlog decline.
+- Event scenario: beat-and-raise (outlook language improved again) +5% to +8% / in-line (beat, outlook reaffirmed) +1% to +3% / miss (tariff overshoot or flat backlog traded as "peak backlog") -4% to -6%.
+- Top risk: Q3 tariff cost overshooting the guided ~$600M, with no IEEPA recovery credit this quarter to flatter the margin comparison — the one line management has already pre-softened, leaving no rhetorical room.
+- Conviction (1-10): 8
+
+## RANKED BALLOT (top 10 of 15)
+
+1. CAT — Improving surprises, raised outlook, de-rated price
+2. LLY — Rising surprises, two raises, scripts tracking plan
+3. STX — Four straight guide-raises, surprises trending up
+4. ISRG — 4/4 beats, static bar, timing still estimated
+5. GRMN — Last three surprises +13% to +24%, raise paid
+6. SNDK — Huge beats, but surprise trend collapsing fast
+7. V — Metronome 4/4 beats, smallest surprise size though
+8. FFIV — 4/4 beats, three straight guide raises historically
+9. WAB — 4/4 beats, but thinnest surprises in field
+10. GOOGL — Revenue/Cloud acceleration strong, normalised EPS record mixed
+
+### Top 3 in detail
+
+**1. CAT.** The most compelling record point is the combination no other name has: an improving surprise trend (+16.1) on a rising bar — Q2 delivered $8.17 against ~$6.20-6.25 consensus and raised the FY outlook (revenue growth to mid-to-high-teens, FCF to the top half of its range) — while Zacks still raised its below-consensus Q3 estimate on Oct 6-7 and the operative $7.09 bar sits below Q2's delivery. Reaction record is the field's cleanest: beat→up 0.80, last four +6/+10/+3/+12, avg abs 5.04%, worst -4.6%. Guide risk is moderate (5/10): there is no EPS guide to cut, but the margin outlook depends on ~$600M of Q3 tariff cost landing as guided, with no IEEPA credit this quarter. Priced-in risk is low (4/10): -31.3% off the high, sold on factor unwind. Rough moves: beat-and-raise +5% to +8% / in-line +1% to +3% / miss -4% to -6%. Plan A.
+
+**2. LLY.** The record is elite: 4/4 beats at +20.4% average with the trend still rising (+12.4), revenue accelerating to +47.7% YoY on +60% volume, two FY guidance raises already in 2026, and hard script data into the print (Zepbound 805.7K/week +2.3% sequentially, 60.9% US incretin share) tracking at or above plan on the core franchise. Reaction record: beat→up 0.833 and last four +5/+10/+10/+4 — though the wider window carries a -14.1% worst print and an 8.03% average absolute move. Guide risk is the catch (6/10): FY consensus revenue of ~$88.5B sits above the top of Lilly's own $85-87B guide, so after two raises a beat-and-reaffirm can be priced as a disappointment, and Jefferies has Foundayo marginally below consensus ($203M vs $209M). Priced-in risk is the field's worst among the quality names (8/10): -1.8% off the 52-week high, +9.1% in 21 days, target only ~+6% away. Rough moves: beat-and-raise +4% to +7% / in-line -2% to -4% / miss -8% to -12%. Plan B — the record says own it after a raise confirms, not at the high before it.
+
+**3. STX.** The guide ladder is the momentum signal: four consecutive quarterly guide midpoints of $2.75 → $3.40 → $5.00 → $7.30, each set above then-consensus and each beaten, with 4/4 beats at +11.8% average and the surprise trend still rising (+5.3) on +48.5% revenue growth. Consensus for this print (Wed 2026-10-28 AMC per Seagate IR, moved from the screen's 10-27) is $7.39 against the $7.30 ± $0.20 guide — inside the range, not above it, which SNDK cannot say. Reaction record is powerful but two-way: beat→up only 0.625, avg abs 11.0%, last four -9/+11/+19/+19. Guide risk is high (7/10): FY27 consensus of ~$35.70-36.27 annualises to ~$8.9/quarter, requiring continued sequential acceleration beyond the guided quarter, so the fifth straight raise is the whole trade — WDC's Oct 22 guide language is the pre-print tell. Priced-in risk is middling (5/10): -20.4% in 21 days and -41.5% off the high have done real de-rating work. Rough moves: beat-and-fifth-raise +10% to +15% / in-line +0% to +4% / guide miss -8% to -12%. Plan B — buy the confirmed fifth raise, never the print itself.
+
+Left out of the top 10: PM (consensus $2.29-2.32 sits above the top of the company's own $2.20-2.25 guide — the priced-in trap in its purest form, beat score 5), META (surprise trend -11.9 and falling, beat→up 0.571, last four reactions -8/-9/+10/-11, plus a ~$10B Q3 legal charge guaranteeing a GAAP "miss" headline on Wed 2026-10-29), NSC (4/4 streak but trend -3.7, a bar the panel now carries at $2.60 on close-proximity re-underwriting, and only a ~2.7% average move to be paid with), CME (guide risk is the field's lowest at 3, but through this lens the record is empty: +1.4% average surprise, revenue +0.8% and decelerating), and CINF (average surprise +10.5% masks a collapsed -34.0 trend, negative revenue acceleration, and a stock that fell after 3 of its last 4 prints — beats do not pay here). FFIV stays in at #8 on its 4/4 record and raise history despite the field-high guide risk (8/10) and the unresolved Oct 15 F5 security incident, which caps it there; ISRG is docked one place for its Tue 2026-10-20 AMC date remaining ESTIMATED rather than confirmed by dated company PR.
