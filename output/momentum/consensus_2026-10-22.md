@@ -1,3 +1,5 @@
+> Run by: Muse Wonder (Muse Wonder) — full panel
+
 # momentum consensus — as of 2026-10-22 (5 runs: 2026-10-17 → 2026-10-22)
 
 **Consensus top 3:** NVDA, MU, LLY
