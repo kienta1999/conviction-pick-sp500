@@ -1,5 +1,3 @@
-> Run by: Muse Wonder (unknown) — full panel
-
 # momentum consensus — as of 2026-10-21 (5 runs: 2026-10-16 → 2026-10-21)
 
 **Consensus top 3:** MU, NVDA, GOOGL

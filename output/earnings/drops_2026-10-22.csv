@@ -1,0 +1,489 @@
+ticker,security,gics_sector,gics_sub_industry,stage,reason
+CSGP,CoStar Group,Real Estate,Real Estate Services,0 no cached data,missing price and info cache
+COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,0 no cached data,missing price and info cache
+CRH,CRH plc,Materials,Construction Materials,0 no cached data,missing price and info cache
+CRWD,CrowdStrike,Information Technology,Systems Software,0 no cached data,missing price and info cache
+CCI,Crown Castle,Real Estate,Telecom Tower REITs,0 no cached data,missing price and info cache
+CSX,CSX Corporation,Industrials,Rail Transportation,0 no cached data,missing price and info cache
+CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,0 no cached data,missing price and info cache
+CVS,CVS Health,Health Care,Health Care Services,0 no cached data,missing price and info cache
+DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,0 no cached data,missing price and info cache
+DRI,Darden Restaurants,Consumer Discretionary,Restaurants,0 no cached data,missing price and info cache
+DDOG,Datadog,Information Technology,Application Software,0 no cached data,missing price and info cache
+DVA,DaVita,Health Care,Health Care Services,0 no cached data,missing price and info cache
+DECK,Deckers Brands,Consumer Discretionary,Footwear,0 no cached data,missing price and info cache
+DE,Deere & Company,Industrials,Agricultural & Farm Machinery,0 no cached data,missing price and info cache
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+DAL,Delta Air Lines,Industrials,Passenger Airlines,0 no cached data,missing price and info cache
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+DXCM,Dexcom,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+DLR,Digital Realty,Real Estate,Data Center REITs,0 no cached data,missing price and info cache
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,0 no cached data,missing price and info cache
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,0 no cached data,missing price and info cache
+D,Dominion Energy,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+DPZ,Domino's,Consumer Discretionary,Restaurants,0 no cached data,missing price and info cache
+DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,0 no cached data,missing price and info cache
+DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+DOW,Dow Inc.,Materials,Commodity Chemicals,0 no cached data,missing price and info cache
+DHI,D. R. Horton,Consumer Discretionary,Homebuilding,0 no cached data,missing price and info cache
+DTE,DTE Energy,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+DUK,Duke Energy,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+DD,DuPont,Industrials,Industrial Conglomerates,0 no cached data,missing price and info cache
+ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,0 no cached data,missing price and info cache
+EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,0 no cached data,missing price and info cache
+ECHO,EchoStar,Communication Services,Wireless Telecommunication Services,0 no cached data,missing price and info cache
+ECL,Ecolab,Materials,Specialty Chemicals,0 no cached data,missing price and info cache
+EIX,Edison International,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+EW,Edwards Lifesciences,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+ELV,Elevance Health,Health Care,Managed Health Care,0 no cached data,missing price and info cache
+EME,Emcor,Industrials,Construction & Engineering,0 no cached data,missing price and info cache
+EMR,Emerson Electric,Industrials,Electrical Components & Equipment,0 no cached data,missing price and info cache
+ETR,Entergy,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+EFX,Equifax,Industrials,Research & Consulting Services,0 no cached data,missing price and info cache
+EQIX,Equinix,Real Estate,Data Center REITs,0 no cached data,missing price and info cache
+ERIE,Erie Indemnity,Financials,Insurance Brokers,0 no cached data,missing price and info cache
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,0 no cached data,missing price and info cache
+EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,0 no cached data,missing price and info cache
+EG,Everest Group,Financials,Reinsurance,0 no cached data,missing price and info cache
+EVRG,Evergy,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+P,Everpure,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+ES,Eversource Energy,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+EXC,Exelon,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0 no cached data,missing price and info cache
+EXPD,Expeditors International,Industrials,Air Freight & Logistics,0 no cached data,missing price and info cache
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,0 no cached data,missing price and info cache
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,0 no cached data,missing price and info cache
+FFIV,"F5, Inc.",Information Technology,Communications Equipment,0 no cached data,missing price and info cache
+FDS,FactSet,Financials,Financial Exchanges & Data,0 no cached data,missing price and info cache
+FICO,Fair Isaac,Information Technology,Application Software,0 no cached data,missing price and info cache
+FAST,Fastenal,Industrials,Trading Companies & Distributors,0 no cached data,missing price and info cache
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,0 no cached data,missing price and info cache
+FDX,FedEx,Industrials,Air Freight & Logistics,0 no cached data,missing price and info cache
+FDXF,FedEx Freight,Industrials,Cargo Ground Transportation,0 no cached data,missing price and info cache
+FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,0 no cached data,missing price and info cache
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+FITB,Fifth Third Bancorp,Financials,Regional Banks,0 no cached data,missing price and info cache
+FSLR,First Solar,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+FE,FirstEnergy,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+FISV,Fiserv,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+FLEX,Flex Ltd.,Information Technology,Electronic Manufacturing Services,0 no cached data,missing price and info cache
+F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,0 no cached data,missing price and info cache
+FTNT,Fortinet,Information Technology,Systems Software,0 no cached data,missing price and info cache
+FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,0 no cached data,missing price and info cache
+FOX,Fox Corporation (Class B),Communication Services,Broadcasting,0 no cached data,missing price and info cache
+BEN,Franklin Resources,Financials,Asset Management & Custody Banks,0 no cached data,missing price and info cache
+FCX,Freeport-McMoRan,Materials,Copper,0 no cached data,missing price and info cache
+GRMN,Garmin,Consumer Discretionary,Consumer Electronics,0 no cached data,missing price and info cache
+IT,Gartner,Information Technology,IT Consulting & Other Services,0 no cached data,missing price and info cache
+GE,GE Aerospace,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+GEHC,GE HealthCare,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+GEV,GE Vernova,Industrials,Heavy Electrical Equipment,0 no cached data,missing price and info cache
+GEN,Gen Digital,Information Technology,Systems Software,0 no cached data,missing price and info cache
+GNRC,Generac,Industrials,Heavy Electrical Equipment,0 no cached data,missing price and info cache
+GD,General Dynamics,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+GIS,General Mills,Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+GM,General Motors,Consumer Discretionary,Automobile Manufacturers,0 no cached data,missing price and info cache
+GPC,Genuine Parts Company,Consumer Discretionary,Distributors,0 no cached data,missing price and info cache
+GILD,Gilead Sciences,Health Care,Biotechnology,0 no cached data,missing price and info cache
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+GL,Globe Life,Financials,Life & Health Insurance,0 no cached data,missing price and info cache
+GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,0 no cached data,missing price and info cache
+GS,Goldman Sachs,Financials,Investment Banking & Brokerage,0 no cached data,missing price and info cache
+HAL,Halliburton,Energy,Oil & Gas Equipment & Services,0 no cached data,missing price and info cache
+HIG,Hartford (The),Financials,Property & Casualty Insurance,0 no cached data,missing price and info cache
+HAS,Hasbro,Consumer Discretionary,Leisure Products,0 no cached data,missing price and info cache
+HCA,HCA Healthcare,Health Care,Health Care Facilities,0 no cached data,missing price and info cache
+DOC,Healthpeak Properties,Real Estate,Health Care REITs,0 no cached data,missing price and info cache
+HSIC,Henry Schein,Health Care,Health Care Distributors,0 no cached data,missing price and info cache
+HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0 no cached data,missing price and info cache
+HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,0 no cached data,missing price and info cache
+HONA,Honeywell Aerospace,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+HON,Honeywell Technologies,Industrials,Industrial Conglomerates,0 no cached data,missing price and info cache
+HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,0 no cached data,missing price and info cache
+HWM,Howmet Aerospace,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+HUM,Humana,Health Care,Managed Health Care,0 no cached data,missing price and info cache
+HBAN,Huntington Bancshares,Financials,Regional Banks,0 no cached data,missing price and info cache
+HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+IBM,IBM,Information Technology,IT Consulting & Other Services,0 no cached data,missing price and info cache
+IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+IDXX,Idexx Laboratories,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+ILMN,"Illumina, Inc.",Health Care,Life Sciences Tools & Services,0 no cached data,missing price and info cache
+INCY,Incyte,Health Care,Biotechnology,0 no cached data,missing price and info cache
+IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+PODD,Insulet Corporation,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+INTC,Intel,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,0 no cached data,missing price and info cache
+ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,0 no cached data,missing price and info cache
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,0 no cached data,missing price and info cache
+IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,0 no cached data,missing price and info cache
+INTU,Intuit,Information Technology,Application Software,0 no cached data,missing price and info cache
+ISRG,Intuitive Surgical,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+IVZ,Invesco,Financials,Asset Management & Custody Banks,0 no cached data,missing price and info cache
+INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,0 no cached data,missing price and info cache
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,0 no cached data,missing price and info cache
+IRM,Iron Mountain,Real Estate,Other Specialized REITs,0 no cached data,missing price and info cache
+JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,0 no cached data,missing price and info cache
+JBL,Jabil,Information Technology,Electronic Manufacturing Services,0 no cached data,missing price and info cache
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+J,Jacobs Solutions,Industrials,Construction & Engineering,0 no cached data,missing price and info cache
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,0 no cached data,missing price and info cache
+JCI,Johnson Controls,Industrials,Building Products,0 no cached data,missing price and info cache
+JPM,JPMorgan Chase,Financials,Diversified Banks,0 no cached data,missing price and info cache
+KVUE,Kenvue,Consumer Staples,Personal Care Products,0 no cached data,missing price and info cache
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,0 no cached data,missing price and info cache
+KEY,KeyCorp,Financials,Regional Banks,0 no cached data,missing price and info cache
+KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,0 no cached data,missing price and info cache
+KMB,Kimberly-Clark,Consumer Staples,Household Products,0 no cached data,missing price and info cache
+KIM,Kimco Realty,Real Estate,Retail REITs,0 no cached data,missing price and info cache
+KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,0 no cached data,missing price and info cache
+KKR,KKR & Co.,Financials,Asset Management & Custody Banks,0 no cached data,missing price and info cache
+KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,0 no cached data,missing price and info cache
+KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+KR,Kroger,Consumer Staples,Food Retail,0 no cached data,missing price and info cache
+LHX,L3Harris,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+LH,Labcorp,Health Care,Health Care Services,0 no cached data,missing price and info cache
+LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,0 no cached data,missing price and info cache
+LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,0 no cached data,missing price and info cache
+LDOS,Leidos,Industrials,Diversified Support Services,0 no cached data,missing price and info cache
+LEN,Lennar,Consumer Discretionary,Homebuilding,0 no cached data,missing price and info cache
+LII,Lennox International,Industrials,Building Products,0 no cached data,missing price and info cache
+LLY,Lilly (Eli),Health Care,Pharmaceuticals,0 no cached data,missing price and info cache
+LIN,Linde plc,Materials,Industrial Gases,0 no cached data,missing price and info cache
+LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,0 no cached data,missing price and info cache
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+L,Loews Corporation,Financials,Multi-line Insurance,0 no cached data,missing price and info cache
+LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,0 no cached data,missing price and info cache
+LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0 no cached data,missing price and info cache
+LITE,Lumentum,Information Technology,Communications Equipment,0 no cached data,missing price and info cache
+LYB,LyondellBasell,Materials,Specialty Chemicals,0 no cached data,missing price and info cache
+MTB,M&T Bank,Financials,Regional Banks,0 no cached data,missing price and info cache
+MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,0 no cached data,missing price and info cache
+MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0 no cached data,missing price and info cache
+MRSH,Marsh McLennan,Financials,Insurance Brokers,0 no cached data,missing price and info cache
+MLM,Martin Marietta Materials,Materials,Construction Materials,0 no cached data,missing price and info cache
+MRVL,Marvell Technology,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+MAS,Masco,Industrials,Building Products,0 no cached data,missing price and info cache
+MA,Mastercard,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+MCD,McDonald's,Consumer Discretionary,Restaurants,0 no cached data,missing price and info cache
+MCK,McKesson,Health Care,Health Care Distributors,0 no cached data,missing price and info cache
+MDT,Medtronic,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+MRK,Merck & Co.,Health Care,Pharmaceuticals,0 no cached data,missing price and info cache
+META,Meta Platforms,Communication Services,Interactive Media & Services,0 no cached data,missing price and info cache
+MET,MetLife,Financials,Life & Health Insurance,0 no cached data,missing price and info cache
+MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,0 no cached data,missing price and info cache
+MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,0 no cached data,missing price and info cache
+MCHP,Microchip Technology,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+MU,Micron Technology,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+MSFT,Microsoft,Information Technology,Systems Software,0 no cached data,missing price and info cache
+MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,0 no cached data,missing price and info cache
+MRNA,Moderna,Health Care,Biotechnology,0 no cached data,missing price and info cache
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+MPWR,Monolithic Power Systems,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,0 no cached data,missing price and info cache
+MCO,Moody's Corporation,Financials,Financial Exchanges & Data,0 no cached data,missing price and info cache
+MS,Morgan Stanley,Financials,Investment Banking & Brokerage,0 no cached data,missing price and info cache
+MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,0 no cached data,missing price and info cache
+MSI,Motorola Solutions,Information Technology,Communications Equipment,0 no cached data,missing price and info cache
+MSCI,MSCI,Financials,Financial Exchanges & Data,0 no cached data,missing price and info cache
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,0 no cached data,missing price and info cache
+NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+NFLX,Netflix,Communication Services,Movies & Entertainment,0 no cached data,missing price and info cache
+NEM,Newmont,Materials,Gold,0 no cached data,missing price and info cache
+NWSA,News Corp (Class A),Communication Services,Publishing,0 no cached data,missing price and info cache
+NWS,News Corp (Class B),Communication Services,Publishing,0 no cached data,missing price and info cache
+NEE,NextEra Energy,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0 no cached data,missing price and info cache
+NI,NiSource,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+NSC,Norfolk Southern,Industrials,Rail Transportation,0 no cached data,missing price and info cache
+NTRS,Northern Trust,Financials,Asset Management & Custody Banks,0 no cached data,missing price and info cache
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0 no cached data,missing price and info cache
+NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,0 no cached data,missing price and info cache
+NUE,Nucor,Materials,Steel,0 no cached data,missing price and info cache
+NVDA,Nvidia,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,0 no cached data,missing price and info cache
+NXPI,NXP Semiconductors,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,0 no cached data,missing price and info cache
+OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+ODFL,Old Dominion,Industrials,Cargo Ground Transportation,0 no cached data,missing price and info cache
+OMC,Omnicom Group,Communication Services,Advertising,0 no cached data,missing price and info cache
+ON,ON Semiconductor,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+OKE,Oneok,Energy,Oil & Gas Storage & Transportation,0 no cached data,missing price and info cache
+ORCL,Oracle Corporation,Information Technology,Application Software,0 no cached data,missing price and info cache
+OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,0 no cached data,missing price and info cache
+PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,0 no cached data,missing price and info cache
+PLTR,Palantir Technologies,Information Technology,Application Software,0 no cached data,missing price and info cache
+PANW,Palo Alto Networks,Information Technology,Systems Software,0 no cached data,missing price and info cache
+PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+PAYX,Paychex,Industrials,Human Resource & Employment Services,0 no cached data,missing price and info cache
+PYPL,PayPal,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,0 no cached data,missing price and info cache
+PFE,Pfizer,Health Care,Pharmaceuticals,0 no cached data,missing price and info cache
+PCG,PG&E Corporation,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+PM,Philip Morris International,Consumer Staples,Tobacco,0 no cached data,missing price and info cache
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,0 no cached data,missing price and info cache
+PNW,Pinnacle West Capital,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+PNC,PNC Financial Services,Financials,Diversified Banks,0 no cached data,missing price and info cache
+PPG,PPG Industries,Materials,Specialty Chemicals,0 no cached data,missing price and info cache
+PPL,PPL Corporation,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+PFG,Principal Financial Group,Financials,Life & Health Insurance,0 no cached data,missing price and info cache
+PG,Procter & Gamble,Consumer Staples,Personal Care Products,0 no cached data,missing price and info cache
+PGR,Progressive Corporation,Financials,Property & Casualty Insurance,0 no cached data,missing price and info cache
+PLD,Prologis,Real Estate,Industrial REITs,0 no cached data,missing price and info cache
+PRU,Prudential Financial,Financials,Life & Health Insurance,0 no cached data,missing price and info cache
+PEG,Public Service Enterprise Group,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+PTC,PTC Inc.,Information Technology,Application Software,0 no cached data,missing price and info cache
+PSA,Public Storage,Real Estate,Self-Storage REITs,0 no cached data,missing price and info cache
+PHM,PulteGroup,Consumer Discretionary,Homebuilding,0 no cached data,missing price and info cache
+PWR,Quanta Services,Industrials,Construction & Engineering,0 no cached data,missing price and info cache
+QCOM,Qualcomm,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+DGX,Quest Diagnostics,Health Care,Health Care Services,0 no cached data,missing price and info cache
+Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,0 no cached data,missing price and info cache
+RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0 no cached data,missing price and info cache
+RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,0 no cached data,missing price and info cache
+RDDT,Reddit,Communication Services,Interactive Media & Services,0 no cached data,missing price and info cache
+RTX,RTX Corporation,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+O,Realty Income,Real Estate,Retail REITs,0 no cached data,missing price and info cache
+REG,Regency Centers,Real Estate,Retail REITs,0 no cached data,missing price and info cache
+REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,0 no cached data,missing price and info cache
+RF,Regions Financial Corporation,Financials,Regional Banks,0 no cached data,missing price and info cache
+RSG,Republic Services,Industrials,Environmental & Facilities Services,0 no cached data,missing price and info cache
+RMD,ResMed,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+RVTY,Revvity,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,0 no cached data,missing price and info cache
+ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,0 no cached data,missing price and info cache
+ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,0 no cached data,missing price and info cache
+ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,0 no cached data,missing price and info cache
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,0 no cached data,missing price and info cache
+RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0 no cached data,missing price and info cache
+SPGI,S&P Global,Financials,Financial Exchanges & Data,0 no cached data,missing price and info cache
+CRM,Salesforce,Information Technology,Application Software,0 no cached data,missing price and info cache
+SNDK,Sandisk,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,0 no cached data,missing price and info cache
+SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,0 no cached data,missing price and info cache
+STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+SRE,Sempra,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+NOW,ServiceNow,Information Technology,Systems Software,0 no cached data,missing price and info cache
+SHW,Sherwin-Williams,Materials,Specialty Chemicals,0 no cached data,missing price and info cache
+SPG,Simon Property Group,Real Estate,Retail REITs,0 no cached data,missing price and info cache
+SKYD,Skydance Corporation,Communication Services,Movies & Entertainment,0 no cached data,missing price and info cache
+SWKS,Skyworks Solutions,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,0 no cached data,missing price and info cache
+SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+SOLV,Solventum,Health Care,Health Care Technology,0 no cached data,missing price and info cache
+SO,Southern Company,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+LUV,Southwest Airlines,Industrials,Passenger Airlines,0 no cached data,missing price and info cache
+SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+SBUX,Starbucks,Consumer Discretionary,Restaurants,0 no cached data,missing price and info cache
+STT,State Street Corporation,Financials,Asset Management & Custody Banks,0 no cached data,missing price and info cache
+STLD,Steel Dynamics,Materials,Steel,0 no cached data,missing price and info cache
+STE,Steris,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+SYK,Stryker Corporation,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+SYF,Synchrony Financial,Financials,Consumer Finance,0 no cached data,missing price and info cache
+SNPS,Synopsys,Information Technology,Application Software,0 no cached data,missing price and info cache
+SYY,Sysco,Consumer Staples,Food Distributors,0 no cached data,missing price and info cache
+TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,0 no cached data,missing price and info cache
+TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,0 no cached data,missing price and info cache
+TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,0 no cached data,missing price and info cache
+TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0 no cached data,missing price and info cache
+TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,0 no cached data,missing price and info cache
+TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,0 no cached data,missing price and info cache
+TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,0 no cached data,missing price and info cache
+TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,0 no cached data,missing price and info cache
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,0 no cached data,missing price and info cache
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,0 no cached data,missing price and info cache
+TXN,Texas Instruments,Information Technology,Semiconductors,0 no cached data,missing price and info cache
+TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,0 no cached data,missing price and info cache
+TXT,Textron,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,0 no cached data,missing price and info cache
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,0 no cached data,missing price and info cache
+TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,0 no cached data,missing price and info cache
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,0 no cached data,missing price and info cache
+TT,Trane Technologies,Industrials,Building Products,0 no cached data,missing price and info cache
+TDG,TransDigm Group,Industrials,Aerospace & Defense,0 no cached data,missing price and info cache
+TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,0 no cached data,missing price and info cache
+TRMB,Trimble Inc.,Information Technology,Application Software,0 no cached data,missing price and info cache
+TFC,Truist Financial,Financials,Diversified Banks,0 no cached data,missing price and info cache
+TWLO,Twilio,Information Technology,Systems Software,0 no cached data,missing price and info cache
+TYL,Tyler Technologies,Information Technology,Application Software,0 no cached data,missing price and info cache
+TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,0 no cached data,missing price and info cache
+USB,U.S. Bancorp,Financials,Diversified Banks,0 no cached data,missing price and info cache
+UBER,Uber,Industrials,Passenger Ground Transportation,0 no cached data,missing price and info cache
+UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,0 no cached data,missing price and info cache
+ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,0 no cached data,missing price and info cache
+UNP,Union Pacific Corporation,Industrials,Rail Transportation,0 no cached data,missing price and info cache
+UAL,United Airlines Holdings,Industrials,Passenger Airlines,0 no cached data,missing price and info cache
+UPS,United Parcel Service,Industrials,Air Freight & Logistics,0 no cached data,missing price and info cache
+URI,United Rentals,Industrials,Trading Companies & Distributors,0 no cached data,missing price and info cache
+UNH,UnitedHealth Group,Health Care,Managed Health Care,0 no cached data,missing price and info cache
+UHS,Universal Health Services,Health Care,Health Care Facilities,0 no cached data,missing price and info cache
+VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,0 no cached data,missing price and info cache
+VEEV,Veeva Systems,Health Care,Health Care Technology,0 no cached data,missing price and info cache
+VTR,Ventas,Real Estate,Health Care REITs,0 no cached data,missing price and info cache
+VLTO,Veralto,Industrials,Environmental & Facilities Services,0 no cached data,missing price and info cache
+VRSN,Verisign,Information Technology,Internet Services & Infrastructure,0 no cached data,missing price and info cache
+VRSK,Verisk Analytics,Industrials,Research & Consulting Services,0 no cached data,missing price and info cache
+VZ,Verizon,Communication Services,Integrated Telecommunication Services,0 no cached data,missing price and info cache
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,0 no cached data,missing price and info cache
+VRT,Vertiv,Industrials,Electrical Components & Equipment,0 no cached data,missing price and info cache
+VTRS,Viatris,Health Care,Pharmaceuticals,0 no cached data,missing price and info cache
+VICI,Vici Properties,Real Estate,Hotel & Resort REITs,0 no cached data,missing price and info cache
+V,Visa Inc.,Financials,Transaction & Payment Processing Services,0 no cached data,missing price and info cache
+VST,Vistra Corp.,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,0 no cached data,missing price and info cache
+VMC,Vulcan Materials Company,Materials,Construction Materials,0 no cached data,missing price and info cache
+VYLR,Vylor,Consumer Staples,Agricultural Products & Services,0 no cached data,missing price and info cache
+WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,0 no cached data,missing price and info cache
+GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,0 no cached data,missing price and info cache
+WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,0 no cached data,missing price and info cache
+DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,0 no cached data,missing price and info cache
+WM,Waste Management,Industrials,Environmental & Facilities Services,0 no cached data,missing price and info cache
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,0 no cached data,missing price and info cache
+WEC,WEC Energy Group,Utilities,Electric Utilities,0 no cached data,missing price and info cache
+WFC,Wells Fargo,Financials,Diversified Banks,0 no cached data,missing price and info cache
+WELL,Welltower,Real Estate,Health Care REITs,0 no cached data,missing price and info cache
+WST,West Pharmaceutical Services,Health Care,Health Care Supplies,0 no cached data,missing price and info cache
+WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",0 no cached data,missing price and info cache
+WY,Weyerhaeuser,Real Estate,Timber REITs,0 no cached data,missing price and info cache
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,0 no cached data,missing price and info cache
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,0 no cached data,missing price and info cache
+WTW,Willis Towers Watson,Financials,Insurance Brokers,0 no cached data,missing price and info cache
+WDAY,"Workday, Inc.",Information Technology,Application Software,0 no cached data,missing price and info cache
+WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,0 no cached data,missing price and info cache
+XEL,Xcel Energy,Utilities,Multi-Utilities,0 no cached data,missing price and info cache
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,0 no cached data,missing price and info cache
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,0 no cached data,missing price and info cache
+ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,0 no cached data,missing price and info cache
+ZBH,Zimmer Biomet,Health Care,Health Care Equipment,0 no cached data,missing price and info cache
+ZTS,Zoetis,Health Care,Pharmaceuticals,0 no cached data,missing price and info cache
+BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BAC,Bank of America,Financials,Diversified Banks,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+APH,Amphenol,Information Technology,Electronic Components,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+T,AT&T,Communication Services,Integrated Telecommunication Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+GLW,Corning Inc.,Information Technology,Electronic Components,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+CEG,Constellation Energy,Utilities,Electric Utilities,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+CL,Colgate-Palmolive,Consumer Staples,Household Products,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+APD,Air Products,Materials,Industrial Gases,1 profitable,netIncomeToCommon=-4.73e+07; profitMargins=-0.00375
+CVNA,Carvana,Consumer Discretionary,Automotive Retail,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+ALL,Allstate,Financials,Property & Casualty Insurance,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BDX,Becton Dickinson,Health Care,Health Care Equipment,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+COIN,Coinbase,Financials,Financial Exchanges & Data,1 profitable,netIncomeToCommon=-9.878e+08; profitMargins=-0.1634
+CNC,Centene Corporation,Health Care,Managed Health Care,1 profitable,netIncomeToCommon=-5.1e+09; profitMargins=-0.02829
+CHD,Church & Dwight,Consumer Staples,Household Products,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BRO,Brown & Brown,Financials,Insurance Brokers,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+LNT,Alliant Energy,Utilities,Electric Utilities,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,1 profitable,netIncomeToCommon=-2.385e+08; profitMargins=-0.05963
+CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+ALLE,Allegion,Industrials,Building Products,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BAX,Baxter International,Health Care,Health Care Equipment,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BXP,"BXP, Inc.",Real Estate,Office REITs,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+AXP,American Express,Financials,Consumer Finance,3 TTM rev growth>0,rev_growth=-0.001534; rev_growth_ttm=-0.001534; revenueGrowth=0.128
+C,Citigroup,Financials,Diversified Banks,3 TTM rev growth>0,rev_growth=-0.01234; rev_growth_ttm=-0.01234; revenueGrowth=0.08
+COF,Capital One,Financials,Consumer Finance,3 TTM rev growth>0,rev_growth=-0.03525; rev_growth_ttm=-0.03525; revenueGrowth=0.062
+BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,3 TTM rev growth>0,rev_growth=-0.0009536; rev_growth_ttm=-0.0009536; revenueGrowth=-0.024
+AIG,American International Group,Financials,Multi-line Insurance,3 TTM rev growth>0,rev_growth=-0.004853; rev_growth_ttm=-0.004853; revenueGrowth=0.005
+ARES,Ares Management,Financials,Asset Management & Custody Banks,3 TTM rev growth>0,rev_growth=-0.003555; rev_growth_ttm=-0.003555; revenueGrowth=0.096
+AEE,Ameren,Utilities,Multi-Utilities,3 TTM rev growth>0,rev_growth=-0.01888; rev_growth_ttm=-0.01888; revenueGrowth=-0.062
+STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,3 TTM rev growth>0,rev_growth=-0.03245; rev_growth_ttm=-0.03245; revenueGrowth=0.061
+APA,APA Corporation,Energy,Oil & Gas Exploration & Production,3 TTM rev growth>0,rev_growth=-0.05565; rev_growth_ttm=-0.05565; revenueGrowth=0.092
+CHTR,Charter Communications,Communication Services,Cable & Satellite,3 TTM rev growth>0,rev_growth=-0.007984; rev_growth_ttm=-0.007984; revenueGrowth=-0.017
+BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,3 TTM rev growth>0,rev_growth=-0.009483; rev_growth_ttm=-0.009483; revenueGrowth=-0.014
+CLX,Clorox,Consumer Staples,Household Products,3 TTM rev growth>0,rev_growth=-0.03782; rev_growth_ttm=-0.03782; revenueGrowth=-0.02
+AOS,A. O. Smith,Industrials,Building Products,3 TTM rev growth>0,rev_growth=-0.006001; rev_growth_ttm=-0.006001; revenueGrowth=-0.007
+BA,Boeing,Industrials,Aerospace & Defense,4 leverage ok,net_debt_ebitda=NaN; net_debt=2.907e+10; ebitda=-2.9e+09
+AMT,American Tower,Real Estate,Telecom Tower REITs,4 leverage ok,net_debt_ebitda=6.135; net_debt=4.322e+10; ebitda=7.044e+09
+AEP,American Electric Power,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.861; net_debt=5.292e+10; ebitda=9.029e+09
+CARR,Carrier Global,Industrials,Building Products,4 leverage ok,net_debt_ebitda=3.573; net_debt=1.105e+10; ebitda=3.093e+09
+ED,Consolidated Edison,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=4.357; net_debt=2.685e+10; ebitda=6.162e+09
+CBRE,CBRE Group,Real Estate,Real Estate Services,4 leverage ok,net_debt_ebitda=4.208; net_debt=9.317e+09; ebitda=2.214e+09
+CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",4 leverage ok,net_debt_ebitda=3.283; net_debt=2.394e+10; ebitda=7.292e+09
+AXON,Axon Enterprise,Industrials,Aerospace & Defense,4 leverage ok,net_debt_ebitda=7.014; net_debt=1.158e+09; ebitda=1.651e+08
+ATO,Atmos Energy,Utilities,Gas Utilities,4 leverage ok,net_debt_ebitda=3.735; net_debt=9.803e+09; ebitda=2.624e+09
+AWK,American Water Works,Utilities,Water Utilities,4 leverage ok,net_debt_ebitda=5.438; net_debt=1.584e+10; ebitda=2.913e+09
+CFG,Citizens Financial Group,Financials,Regional Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=4.274e+09; ebitda=NaN
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.276; net_debt=2.419e+10; ebitda=3.854e+09
+CMS,CMS Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.315; net_debt=1.906e+10; ebitda=3.018e+09
+AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,4 leverage ok,net_debt_ebitda=3.966; net_debt=1.402e+10; ebitda=3.536e+09
+CDW,CDW Corporation,Information Technology,Technology Distributors,4 leverage ok,net_debt_ebitda=3.017; net_debt=6.068e+09; ebitda=2.011e+09
+BG,Bunge Global,Consumer Staples,Agricultural Products & Services,4 leverage ok,net_debt_ebitda=5.206; net_debt=1.627e+10; ebitda=3.126e+09
+AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,4 leverage ok,net_debt_ebitda=5.541; net_debt=5.984e+09; ebitda=1.08e+09
+CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,4 leverage ok,net_debt_ebitda=5.401; net_debt=4.828e+09; ebitda=8.94e+08
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,4 leverage ok,net_debt_ebitda=7.639; net_debt=3.109e+10; ebitda=4.07e+09
+AVGO,Broadcom,Information Technology,Semiconductors,5 reports <=45d,next_earnings=2026-12-09; days_to_earnings=48
+BLK,BlackRock,Financials,Asset Management & Custody Banks,5 reports <=45d,next_earnings=2027-01-14; days_to_earnings=84
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=98
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,5 reports <=45d,next_earnings=2027-01-21; days_to_earnings=91
+ACN,Accenture,Information Technology,IT Consulting & Other Services,5 reports <=45d,next_earnings=2026-12-17; days_to_earnings=56
+CB,Chubb Limited,Financials,Property & Casualty Insurance,5 reports <=45d,next_earnings=2027-02-02; days_to_earnings=103
+CME,CME Group,Financials,Financial Exchanges & Data,5 reports <=45d,next_earnings=2027-02-03; days_to_earnings=104
+ADBE,Adobe Inc.,Information Technology,Application Software,5 reports <=45d,next_earnings=2026-12-09; days_to_earnings=48
+BNY,BNY Mellon,Financials,Asset Management & Custody Banks,5 reports <=45d,next_earnings=2027-01-15; days_to_earnings=85
+MMM,3M,Industrials,Industrial Conglomerates,5 reports <=45d,next_earnings=2027-01-19; days_to_earnings=89
+CTAS,Cintas,Industrials,Diversified Support Services,5 reports <=45d,next_earnings=2026-12-17; days_to_earnings=56
+CMCSA,Comcast,Communication Services,Cable & Satellite,5 reports <=45d,next_earnings=NaN; days_to_earnings=NaN
+AZO,AutoZone,Consumer Discretionary,Automotive Retail,5 reports <=45d,next_earnings=2026-12-08; days_to_earnings=47
+CIEN,Ciena,Information Technology,Communications Equipment,5 reports <=45d,next_earnings=2026-12-10; days_to_earnings=49
+CPRT,Copart,Industrials,Diversified Support Services,5 reports <=45d,next_earnings=NaN; days_to_earnings=NaN
+CASY,Casey's,Consumer Staples,Food Retail,5 reports <=45d,next_earnings=2026-12-08; days_to_earnings=47
+COO,Cooper Companies (The),Health Care,Health Care Supplies,5 reports <=45d,next_earnings=NaN; days_to_earnings=NaN
+CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,5b mktcap>=$20B,marketCap=17815525376
+AIZ,Assurant,Financials,Multi-line Insurance,5b mktcap>=$20B,marketCap=14173185024
+AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,5b mktcap>=$20B,marketCap=13770705920
+ALGN,Align Technology,Health Care,Health Care Supplies,5b mktcap>=$20B,marketCap=10951859200
+APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,5b mktcap>=$20B,marketCap=9147286528
+MO,Altria,Consumer Staples,Tobacco,5c misses<2 of 4q,eps_misses_4q=2
+ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",5c misses<2 of 4q,eps_misses_4q=3
+AFL,Aflac,Financials,Life & Health Insurance,5c misses<2 of 4q,eps_misses_4q=3
+AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=-7%, +3%, +1%, +1%"
+AMD,Advanced Micro Devices,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.1429; n_beats_measured=7; reaction_last4=-7%, +19%, -17%, -4%"
+CSCO,Cisco,Information Technology,Communications Equipment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-8%, +13%, -12%, +5%"
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=-5%, +1%, +8%, -3%"
+ANET,Arista Networks,Information Technology,Communications Equipment,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+4%, -14%, +5%, -9%"
+ADI,Analog Devices,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-1%, -4%, +3%, +5%"
+BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+7%, -2%, -6%, -3%"
+CI,Cigna,Health Care,Health Care Services,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=-3%, -3%, +5%, -17%"
+APO,Apollo Global Management,Financials,Asset Management & Custody Banks,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=6; reaction_last4=+3%, -1%, -1%, +5%"
+COR,Cencora,Health Care,Health Care Distributors,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+4%, -17%, -9%, +3%"
+BE,Bloom Energy,Industrials,Electrical Components & Equipment,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-11%, +27%, -7%, +18%"
+CAH,Cardinal Health,Health Care,Health Care Distributors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-3%, -5%, +10%, +15%"
+AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=+2%, -2%, +4%, -5%"
+ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=6; reaction_last4=-3%, +4%, -1%, -6%"
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+12%, +3%, +2%, -18%"
+ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,5d beat->up rate>50%,"beat_up_rate=0.125; n_beats_measured=8; reaction_last4=+3%, -4%, -5%, -1%"
+BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+7%, -4%, -6%, -2%"
+GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,6 op margin>sector med,operatingMargins=0.3403; sector_median_full_universe=0.3403
+GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,6 op margin>sector med,operatingMargins=0.3403; sector_median_full_universe=0.3403
+AMZN,Amazon,Consumer Discretionary,Broadline Retail,6 op margin>sector med,operatingMargins=0.1369; sector_median_full_universe=0.1997
+CVX,Chevron Corporation,Energy,Integrated Oil & Gas,6 op margin>sector med,operatingMargins=0.2187; sector_median_full_universe=0.2669
+CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,6 op margin>sector med,operatingMargins=0.2218; sector_median_full_universe=0.2218
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,6 op margin>sector med,operatingMargins=0.1916; sector_median_full_universe=0.2658
+AON,Aon plc,Financials,Insurance Brokers,6 op margin>sector med,operatingMargins=0.2346; sector_median_full_universe=0.2658
+XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,6 op margin>sector med,operatingMargins=0.06999; sector_median_full_universe=0.2658
+FIX,Comfort Systems USA,Industrials,Construction & Engineering,6 op margin>sector med,operatingMargins=0.1706; sector_median_full_universe=0.2218
+COHR,Coherent Corp.,Information Technology,Electronic Components,6 op margin>sector med,operatingMargins=0.1183; sector_median_full_universe=0.2815
+CTSH,Cognizant,Information Technology,IT Consulting & Other Services,6 op margin>sector med,operatingMargins=0.1748; sector_median_full_universe=0.2815
+CDNS,Cadence Design Systems,Information Technology,Application Software,6b earnings quality,"eq_flags=RECEIVABLES_OUTRUN,INVENTORY_BUILD"
