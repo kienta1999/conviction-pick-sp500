@@ -1,0 +1,34 @@
+> Run by: Muse Wonder (Muse Wonder) — full panel
+
+SINGLE-PICK BALLOT:
+- **Top pick:** CPRT
+- **Runner-up:** AMAT
+- **Thesis (3-5 sentences):** As the falling-knife skeptic, I pick the name where the cash proves the earnings are real and the price does not require a recovery: Copart is net cash (net debt/EBITDA −2.36, ~$4.40B net cash), trades at 16.07x forward — roughly a decade-low versus its ~29x average trailing multiple and about half rival RB Global's ~35x — and funded $1,632.5M of FY2026 buybacks from its own cash. The dip is a volume stall (U.S. insurance units −8% in FY2026) plus one bounded lost account, not a franchise break: excluding that account, domestic insurance assignments would have risen 2.3%. With revenue per unit +5.4–5.7% and global ASP +5.5% in FY2026 while volumes fell, pricing power is demonstrated, not asserted. The upside is a re-rating toward the screen target (~$39, +34.1%) once the 2026-11-19 print verifies ex-lost-account growth and the ACV contribution — explosive by trap-adjusted standards, because the downside case is a plateau, not a collapse.
+- **Why the dip is temporary (not permanent):** The earnings-quality flag itself refutes the trap: FY2026 receivables consumed only $80.6M of cash against net income of $1,480.4M, and operating cash flow was $1,604.5M — above net income (CFO/NI 1.085, accrual ratio −0.0137). The 3.2030 receivables divergence is a denominator artefact of revenue growth at +0.4%, and the volume hole tracks industry claims frequency (−3.4% YoY) while total-loss frequency sits at record levels (~23%+, severity +8.8%) — the secular supply line for salvage.
+- **Moat / AI-irreplaceability:** Low risk — a two-sided duopoly (~80% of U.S. salvage with IAA; Copart ~40–45% share) built on 250+ mostly owned, permitted salvage yards, tow/title/storage integration and a buyer base across ~185 countries (international buyers 38.2% of U.S. units but 45.7% of sale value). Software cannot replicate physical yards, catastrophe surge capacity or auction data; AI is an internal pricing lever for the incumbent, and vehicle complexity is what totals cars into Copart's funnel (irreplaceability 9/10 in the dossier).
+- **Rebound catalyst & timing:** Q1 FY2027 print on 2026-11-19 — the first quarter to verify ex-lost-account assignment growth, cost-per-unit discipline after Q4's +12.7% rise, and early contribution from ACV Auctions (closed 2026-10-16, ~$1.9B all-cash, dealer-wholesale leg). International compounding (units +10%, revenue +11.7% in Q4) and continued buybacks at de-rated prices support the path before and after the print.
+- **12-18 month return scenario:** Base ~+25–35% toward the screen-implied target of ~$39 if volumes merely stabilise and the multiple partially normalises off its decade low; bull ~+50%+ if ex-account growth, ACV and record total-loss frequency restore mid-single-digit-plus EPS growth at a multiple still below its historical ~29x. Downside is cushioned by net cash and buybacks — the trap case is stagnation, not solvency.
+- **Top risk (value-trap case):** The plateau is permanent: claims frequency keeps falling structurally (ADAS/safer cars), the Progressive reallocation (~3 points on independent decomposition, not the feared ~15) becomes the first of several insurer dual-sourcing moves to IAA's 50-state footprint, cost per unit stays elevated, and lower-margin ACV dilutes the 32% operating-margin tollbooth — then EPS compounds at 3–5% and 16x forward is fair, not cheap.
+- **Conviction (1-10):** 7
+
+RANKED BALLOT:
+1. CPRT — Net cash, cash-backed earnings, decade-low multiple
+2. AMAT — Net cash, no flags, record quarter de-rated
+3. GOOGL — Net cash, flag explained, capex is real risk
+4. KLAC — Best WFE moat, receivables watch not yet pattern
+5. VRT — CFO/NI 1.94 refutes trap, execution unproven
+6. BKNG — 13x fortress cash, AI disintermediation unresolved
+7. APH — Record orders, but levered and insiders selling
+8. CAT — Record $72B backlog, late-cycle tariff exposure
+9. TPR — 12.8x and real FCF, fashion concentration risk
+10. HWM — Scarce pricing-power toll road, still premium multiple
+
+Top 3 — detail:
+
+1. CPRT — The single most compelling anti-trap datapoint is primary-source: FY2026 CFO $1,604.5M exceeded net income $1,480.4M with only an $80.6M receivables build, so this cheapness is not earnings running ahead of cash, and the one lost account is bounded (~3-point shift; ex-account assignments +2.3%). 12-18mo scenario: base ~+25–35% to ~$39 (screen target, +34.1%); bull ~+50%+ on volume recovery plus ACV at a still-discounted multiple.
+
+2. AMAT — No earnings-quality flags, net cash (net debt/EBITDA −0.19), and a record fiscal Q3 ($9.12B revenue, +25% YoY; Q4 guided to a first $10.25B quarter) was de-rated from ~49x to ~20.31x forward, including a ~7% Lam-sympathy leg where Lam simultaneously put preliminary 2027 WFE above $200B. 12-18mo scenario: base ~+35–50% toward delivery of the guided record quarter and a 2027 WFE outlook at the 2026-11-12 print; bull toward the screen's +67.2% analyst upside if 2027 WFE confirms above $200B — sized for a WFE-cycle miss, which is the genuine trap path.
+
+3. GOOGL — The HIGH_ACCRUALS flag is verified benign: a $99.0B non-cash SpaceX-led equity gain inflates net income and mechanically produces CFO/NI 0.760, while receivables divergence is 0.0143 and the business printed Q2 revenue +24%, Cloud +82% with a $514B backlog and net cash (−0.70). It ranks only third for this lens because the separate cash story is real — Q2 capex $44.9B, FCF −$5.9B, $195–205B 2026 capex, paused buybacks and equity/debt issuance. 12-18mo scenario: base ~+25–32% toward the screen target (+32.4%, ~$429) if the 2026-10-28 print holds capex inside guidance with Cloud ≥70%; bull higher on backlog conversion, with the trap being poor capex returns plus AI answers taking high-value search queries.
+
+Left out of top 10: GE, IDXX, NFLX, GNRC — GE is the clearest multiple trap (31.61x forward, ~36.5x guided 2026 EPS, a beat-and-raise that still fell, and a live bear target of $280 below the $293.54 screen price); IDXX pairs 33.85x forward with 16 consecutive quarters of falling U.S. clinical visits (−1.3% in Q2, wellness −3.4%), so price-led growth may be masking a permanent visit reset; NFLX has the panel's only documented multi-quarter growth deceleration (16.2% → 13.4% → 11.8% → 11.5% guided), a cut ad forecast (~$3.0B → ~$2.7B), a Q4 guide miss and no catalyst until 2027-01-19 — a growth-rate impairment, not yet a proven dip; GNRC is the name I most suspect is a value trap — the high-margin residential core has already printed −23% in a weak-outage quarter and was guide-trimmed again, while the replacement growth is lower-margin C&I/data-center volume that even bullish modelling sees spiking then giving back ~40%, so 14.50x forward can become 14.50x on falling forwards if the 2026-10-28 print cuts residential again.
