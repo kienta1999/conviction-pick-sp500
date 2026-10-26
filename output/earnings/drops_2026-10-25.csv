@@ -1,0 +1,454 @@
+ticker,security,gics_sector,gics_sub_industry,stage,reason
+INTC,Intel,Information Technology,Semiconductors,1 profitable,netIncomeToCommon=-1.129e+10; profitMargins=-0.1979
+RTX,RTX Corporation,Industrials,Aerospace & Defense,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+LIN,Linde plc,Materials,Industrial Gases,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+GILD,Gilead Sciences,Health Care,Biotechnology,1 profitable,netIncomeToCommon=-3.24e+09; profitMargins=-0.1064
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+T,AT&T,Communication Services,Integrated Telecommunication Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BNY,BNY Mellon,Financials,Asset Management & Custody Banks,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+WM,Waste Management,Industrials,Environmental & Facilities Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+CEG,Constellation Energy,Utilities,Electric Utilities,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+MRNA,Moderna,Health Care,Biotechnology,1 profitable,netIncomeToCommon=-3.151e+09; profitMargins=-1.414
+HON,Honeywell Technologies,Industrials,Industrial Conglomerates,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+APD,Air Products,Materials,Industrial Gases,1 profitable,netIncomeToCommon=-4.73e+07; profitMargins=-0.00375
+LITE,Lumentum,Information Technology,Communications Equipment,1 profitable,netIncomeToCommon=-6.935e+09; profitMargins=-2.301
+KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+LHX,L3Harris,Industrials,Aerospace & Defense,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,1 profitable,netIncomeToCommon=-7.396e+09; profitMargins=-0.03935
+FIX,Comfort Systems USA,Industrials,Construction & Engineering,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+COIN,Coinbase,Financials,Financial Exchanges & Data,1 profitable,netIncomeToCommon=-9.878e+08; profitMargins=-0.1634
+LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+SKYD,Skydance Corporation,Communication Services,Movies & Entertainment,1 profitable,netIncomeToCommon=-6.21e+08; profitMargins=-0.02133
+TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,1 profitable,netIncomeToCommon=-3.204e+08; profitMargins=-0.04792
+CNC,Centene Corporation,Health Care,Managed Health Care,1 profitable,netIncomeToCommon=-5.1e+09; profitMargins=-0.02829
+GEHC,GE HealthCare,Health Care,Health Care Equipment,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+NTRS,Northern Trust,Financials,Asset Management & Custody Banks,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+AEE,Ameren,Utilities,Multi-Utilities,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,1 profitable,netIncomeToCommon=-3.396e+09; profitMargins=-0.1364
+ON,ON Semiconductor,Information Technology,Semiconductors,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+FISV,Fiserv,Financials,Transaction & Payment Processing Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+ECHO,EchoStar,Communication Services,Wireless Telecommunication Services,1 profitable,netIncomeToCommon=-5.673e+09; profitMargins=-0.3871
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,1 profitable,netIncomeToCommon=-7.91e+08; profitMargins=0.02569
+DOW,Dow Inc.,Materials,Commodity Chemicals,1 profitable,netIncomeToCommon=-1.301e+09; profitMargins=-0.03129
+LYB,LyondellBasell,Materials,Specialty Chemicals,1 profitable,netIncomeToCommon=-2.65e+08; profitMargins=-0.01132
+VTRS,Viatris,Health Care,Pharmaceuticals,1 profitable,netIncomeToCommon=-4.107e+08; profitMargins=-0.02787
+GIS,General Mills,Consumer Staples,Packaged Foods & Meats,1 profitable,netIncomeToCommon=-8.948e+08; profitMargins=-0.04891
+LNT,Alliant Energy,Utilities,Electric Utilities,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,1 profitable,netIncomeToCommon=-2.725e+09; profitMargins=-0.1421
+HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,1 profitable,netIncomeToCommon=-2.385e+08; profitMargins=-0.05963
+BEN,Franklin Resources,Financials,Asset Management & Custody Banks,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+TRMB,Trimble Inc.,Information Technology,Application Software,1 profitable,netIncomeToCommon=-1.047e+08; profitMargins=-0.02768
+LII,Lennox International,Industrials,Building Products,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+BAX,Baxter International,Health Care,Health Care Equipment,1 profitable,netIncomeToCommon=-9.68e+08; profitMargins=-0.09268
+IVZ,Invesco,Financials,Asset Management & Custody Banks,1 profitable,netIncomeToCommon=-3.092e+08; profitMargins=-0.00934
+DVA,DaVita,Health Care,Health Care Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,1 profitable,netIncomeToCommon=NaN; profitMargins=NaN
+ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,1 profitable,netIncomeToCommon=-1.03e+09; profitMargins=-0.3608
+MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,1 profitable,netIncomeToCommon=-6.385e+08; profitMargins=-0.05213
+BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,3 TTM rev growth>0,rev_growth=-0.06866; rev_growth_ttm=-0.06866; revenueGrowth=0.1
+WFC,Wells Fargo,Financials,Diversified Banks,3 TTM rev growth>0,rev_growth=-0.003939; rev_growth_ttm=-0.003939; revenueGrowth=0.004
+AXP,American Express,Financials,Consumer Finance,3 TTM rev growth>0,rev_growth=-0.002259; rev_growth_ttm=-0.002259; revenueGrowth=0.128
+C,Citigroup,Financials,Diversified Banks,3 TTM rev growth>0,rev_growth=-0.01277; rev_growth_ttm=-0.01277; revenueGrowth=0.08
+QCOM,Qualcomm,Information Technology,Semiconductors,3 TTM rev growth>0,rev_growth=-0.004855; rev_growth_ttm=-0.004855; revenueGrowth=-0.04
+IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,3 TTM rev growth>0,rev_growth=-0.2981; rev_growth_ttm=-0.2981; revenueGrowth=0.135
+COF,Capital One,Financials,Consumer Finance,3 TTM rev growth>0,rev_growth=-0.03748; rev_growth_ttm=-0.03748; revenueGrowth=0.062
+MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",3 TTM rev growth>0,rev_growth=-0.7158; rev_growth_ttm=-0.7158; revenueGrowth=0.111
+USB,U.S. Bancorp,Financials,Diversified Banks,3 TTM rev growth>0,rev_growth=-0.01526; rev_growth_ttm=-0.01526; revenueGrowth=0.084
+ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,3 TTM rev growth>0,rev_growth=-0.1539; rev_growth_ttm=-0.1539; revenueGrowth=0.048
+HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",3 TTM rev growth>0,rev_growth=-0.5704; rev_growth_ttm=-0.5704; revenueGrowth=0.025
+TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,3 TTM rev growth>0,rev_growth=-0.009918; rev_growth_ttm=-0.009918; revenueGrowth=0.042
+TFC,Truist Financial,Financials,Diversified Banks,3 TTM rev growth>0,rev_growth=-0.0392; rev_growth_ttm=-0.0392; revenueGrowth=-0.158
+PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,3 TTM rev growth>0,rev_growth=-0.05407; rev_growth_ttm=-0.05407; revenueGrowth=0.005
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,3 TTM rev growth>0,rev_growth=-0.2867; rev_growth_ttm=-0.2867; revenueGrowth=0.126
+NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",3 TTM rev growth>0,rev_growth=-0.009792; rev_growth_ttm=-0.009792; revenueGrowth=-0.043
+BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,3 TTM rev growth>0,rev_growth=-0.0009252; rev_growth_ttm=-0.0009252; revenueGrowth=-0.024
+SRE,Sempra,Utilities,Multi-Utilities,3 TTM rev growth>0,rev_growth=-0.004028; rev_growth_ttm=-0.004028; revenueGrowth=-0.001
+AIG,American International Group,Financials,Multi-line Insurance,3 TTM rev growth>0,rev_growth=-0.004702; rev_growth_ttm=-0.004702; revenueGrowth=0.005
+DHI,D. R. Horton,Consumer Discretionary,Homebuilding,3 TTM rev growth>0,rev_growth=-0.02629; rev_growth_ttm=-0.02629; revenueGrowth=0
+ARES,Ares Management,Financials,Asset Management & Custody Banks,3 TTM rev growth>0,rev_growth=-0.006213; rev_growth_ttm=-0.006213; revenueGrowth=0.096
+CCI,Crown Castle,Real Estate,Telecom Tower REITs,3 TTM rev growth>0,rev_growth=-0.05025; rev_growth_ttm=-0.05025; revenueGrowth=-0.072
+MTB,M&T Bank,Financials,Regional Banks,3 TTM rev growth>0,rev_growth=-0.009852; rev_growth_ttm=-0.009852; revenueGrowth=0.005
+RF,Regions Financial Corporation,Financials,Regional Banks,3 TTM rev growth>0,rev_growth=-0.0151; rev_growth_ttm=-0.0151; revenueGrowth=0.052
+SYF,Synchrony Financial,Financials,Consumer Finance,3 TTM rev growth>0,rev_growth=-0.3476; rev_growth_ttm=-0.3476; revenueGrowth=-0.047
+STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,3 TTM rev growth>0,rev_growth=-0.03155; rev_growth_ttm=-0.03155; revenueGrowth=0.061
+PFG,Principal Financial Group,Financials,Life & Health Insurance,3 TTM rev growth>0,rev_growth=-0.001576; rev_growth_ttm=-0.001576; revenueGrowth=0.064
+PHM,PulteGroup,Consumer Discretionary,Homebuilding,3 TTM rev growth>0,rev_growth=-0.08335; rev_growth_ttm=-0.08335; revenueGrowth=-0.098
+LEN,Lennar,Consumer Discretionary,Homebuilding,3 TTM rev growth>0,rev_growth=-0.06815; rev_growth_ttm=-0.06815; revenueGrowth=-0.087
+SWKS,Skyworks Solutions,Information Technology,Semiconductors,3 TTM rev growth>0,rev_growth=-0.01781; rev_growth_ttm=-0.01781; revenueGrowth=-0.031
+APA,APA Corporation,Energy,Oil & Gas Exploration & Production,3 TTM rev growth>0,rev_growth=-0.05495; rev_growth_ttm=-0.05495; revenueGrowth=0.092
+FDXF,FedEx Freight,Industrials,Cargo Ground Transportation,3 TTM rev growth>0,rev_growth=-0.006547; rev_growth_ttm=-0.006547; revenueGrowth=0.048
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,3 TTM rev growth>0,rev_growth=-0.09299; rev_growth_ttm=-0.09299; revenueGrowth=-0.082
+EG,Everest Group,Financials,Reinsurance,3 TTM rev growth>0,rev_growth=-0.02134; rev_growth_ttm=-0.02134; revenueGrowth=-0.113
+SOLV,Solventum,Health Care,Health Care Technology,3 TTM rev growth>0,rev_growth=-0.0002319; rev_growth_ttm=-0.0002319; revenueGrowth=0.022
+CHTR,Charter Communications,Communication Services,Cable & Satellite,3 TTM rev growth>0,rev_growth=-0.007938; rev_growth_ttm=-0.007938; revenueGrowth=-0.017
+WY,Weyerhaeuser,Real Estate,Timber REITs,3 TTM rev growth>0,rev_growth=-0.01344; rev_growth_ttm=-0.01344; revenueGrowth=-0.009
+BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,3 TTM rev growth>0,rev_growth=-0.009386; rev_growth_ttm=-0.009386; revenueGrowth=-0.014
+BXP,"BXP, Inc.",Real Estate,Office REITs,3 TTM rev growth>0,rev_growth=-0.08024; rev_growth_ttm=-0.08024; revenueGrowth=0.037
+CLX,Clorox,Consumer Staples,Household Products,3 TTM rev growth>0,rev_growth=-0.03739; rev_growth_ttm=-0.03739; revenueGrowth=-0.02
+PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,3 TTM rev growth>0,rev_growth=-0.03536; rev_growth_ttm=-0.03536; revenueGrowth=-0.17
+AOS,A. O. Smith,Industrials,Building Products,3 TTM rev growth>0,rev_growth=-0.006027; rev_growth_ttm=-0.006027; revenueGrowth=-0.007
+ORCL,Oracle Corporation,Information Technology,Application Software,4 leverage ok,net_debt_ebitda=3.835; net_debt=1.321e+11; ebitda=3.443e+10
+IBM,IBM,Information Technology,IT Consulting & Other Services,4 leverage ok,net_debt_ebitda=3.474; net_debt=5.608e+10; ebitda=1.614e+10
+VZ,Verizon,Communication Services,Integrated Telecommunication Services,4 leverage ok,net_debt_ebitda=3.756; net_debt=1.919e+11; ebitda=5.108e+10
+MCD,McDonald's,Consumer Discretionary,Restaurants,4 leverage ok,net_debt_ebitda=3.602; net_debt=5.378e+10; ebitda=1.493e+10
+DE,Deere & Company,Industrials,Agricultural & Farm Machinery,4 leverage ok,net_debt_ebitda=6.702; net_debt=5.764e+10; ebitda=8.6e+09
+WELL,Welltower,Real Estate,Health Care REITs,4 leverage ok,net_debt_ebitda=5.315; net_debt=1.776e+10; ebitda=3.341e+09
+NEE,NextEra Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=7.355; net_debt=1.073e+11; ebitda=1.459e+10
+TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,4 leverage ok,net_debt_ebitda=3.422; net_debt=1.176e+11; ebitda=3.437e+10
+BA,Boeing,Industrials,Aerospace & Defense,4 leverage ok,net_debt_ebitda=NaN; net_debt=2.907e+10; ebitda=-2.9e+09
+ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,4 leverage ok,net_debt_ebitda=3.108; net_debt=2.063e+10; ebitda=6.639e+09
+BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=1.264e+10; ebitda=NaN
+PLD,Prologis,Real Estate,Industrial REITs,4 leverage ok,net_debt_ebitda=5.05; net_debt=3.456e+10; ebitda=6.843e+09
+CVS,CVS Health,Health Care,Health Care Services,4 leverage ok,net_debt_ebitda=3.738; net_debt=6.235e+10; ebitda=1.668e+10
+SBUX,Starbucks,Consumer Discretionary,Restaurants,4 leverage ok,net_debt_ebitda=3.34; net_debt=1.884e+10; ebitda=5.642e+09
+LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,4 leverage ok,net_debt_ebitda=3.053; net_debt=3.886e+10; ebitda=1.273e+10
+SO,Southern Company,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.197; net_debt=7.41e+10; ebitda=1.426e+10
+HCA,HCA Healthcare,Health Care,Health Care Facilities,4 leverage ok,net_debt_ebitda=3.202; net_debt=5.042e+10; ebitda=1.575e+10
+DUK,Duke Energy,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.508; net_debt=9.153e+10; ebitda=1.662e+10
+EQIX,Equinix,Real Estate,Data Center REITs,4 leverage ok,net_debt_ebitda=4.929; net_debt=2.238e+10; ebitda=4.54e+09
+PNC,PNC Financial Services,Financials,Diversified Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=7.323e+10; ebitda=NaN
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,4 leverage ok,net_debt_ebitda=4.349; net_debt=3.059e+10; ebitda=7.033e+09
+KKR,KKR & Co.,Financials,Asset Management & Custody Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=8.607e+09; ebitda=NaN
+AMT,American Tower,Real Estate,Telecom Tower REITs,4 leverage ok,net_debt_ebitda=6.135; net_debt=4.322e+10; ebitda=7.044e+09
+SNPS,Synopsys,Information Technology,Application Software,4 leverage ok,net_debt_ebitda=3.486; net_debt=7.234e+09; ebitda=2.075e+09
+SHW,Sherwin-Williams,Materials,Specialty Chemicals,4 leverage ok,net_debt_ebitda=3.13; net_debt=1.474e+10; ebitda=4.709e+09
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,4 leverage ok,net_debt_ebitda=3.346; net_debt=2.034e+10; ebitda=6.08e+09
+SPG,Simon Property Group,Real Estate,Retail REITs,4 leverage ok,net_debt_ebitda=5.545; net_debt=2.842e+10; ebitda=5.125e+09
+KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,4 leverage ok,net_debt_ebitda=4.235; net_debt=3.233e+10; ebitda=7.635e+09
+RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",4 leverage ok,net_debt_ebitda=3.269; net_debt=2.264e+10; ebitda=6.926e+09
+AEP,American Electric Power,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.861; net_debt=5.292e+10; ebitda=9.029e+09
+URI,United Rentals,Industrials,Trading Companies & Distributors,4 leverage ok,net_debt_ebitda=3.134; net_debt=1.571e+10; ebitda=5.014e+09
+GM,General Motors,Consumer Discretionary,Automobile Manufacturers,4 leverage ok,net_debt_ebitda=5.469; net_debt=1.029e+11; ebitda=1.882e+10
+DLR,Digital Realty,Real Estate,Data Center REITs,4 leverage ok,net_debt_ebitda=5.659; net_debt=1.817e+10; ebitda=3.21e+09
+MET,MetLife,Financials,Life & Health Insurance,4 leverage ok,net_debt_ebitda=3.807; net_debt=2.299e+10; ebitda=6.04e+09
+TDG,TransDigm Group,Industrials,Aerospace & Defense,4 leverage ok,net_debt_ebitda=6.026; net_debt=3.071e+10; ebitda=5.095e+09
+OKE,Oneok,Energy,Oil & Gas Storage & Transportation,4 leverage ok,net_debt_ebitda=4.284; net_debt=3.286e+10; ebitda=7.67e+09
+D,Dominion Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.43; net_debt=5.363e+10; ebitda=8.341e+09
+O,Realty Income,Real Estate,Retail REITs,4 leverage ok,net_debt_ebitda=5.742; net_debt=3.076e+10; ebitda=5.358e+09
+HONA,Honeywell Aerospace,Industrials,Aerospace & Defense,4 leverage ok,net_debt_ebitda=4.266; net_debt=1.509e+10; ebitda=3.538e+09
+ETR,Entergy,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.556; net_debt=3.077e+10; ebitda=5.538e+09
+VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,4 leverage ok,net_debt_ebitda=4.964; net_debt=9.097e+09; ebitda=1.833e+09
+XEL,Xcel Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.473; net_debt=3.963e+10; ebitda=6.123e+09
+FITB,Fifth Third Bancorp,Financials,Regional Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=1.229e+10; ebitda=NaN
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,4 leverage ok,net_debt_ebitda=6.657; net_debt=3.2e+10; ebitda=4.807e+09
+VST,Vistra Corp.,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=3.02; net_debt=2.007e+10; ebitda=6.646e+09
+CARR,Carrier Global,Industrials,Building Products,4 leverage ok,net_debt_ebitda=3.573; net_debt=1.105e+10; ebitda=3.093e+09
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,4 leverage ok,net_debt_ebitda=4.651; net_debt=1.417e+10; ebitda=3.048e+09
+EXC,Exelon,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=6.087; net_debt=5.086e+10; ebitda=8.355e+09
+MSCI,MSCI,Financials,Financial Exchanges & Data,4 leverage ok,net_debt_ebitda=3.286; net_debt=6.633e+09; ebitda=2.018e+09
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,4 leverage ok,net_debt_ebitda=3.401; net_debt=4.938e+09; ebitda=1.452e+09
+VTR,Ventas,Real Estate,Health Care REITs,4 leverage ok,net_debt_ebitda=5.343; net_debt=1.272e+10; ebitda=2.381e+09
+ED,Consolidated Edison,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=4.357; net_debt=2.685e+10; ebitda=6.162e+09
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,4 leverage ok,net_debt_ebitda=4.15; net_debt=1.273e+10; ebitda=3.068e+09
+MCHP,Microchip Technology,Information Technology,Semiconductors,4 leverage ok,net_debt_ebitda=3.404; net_debt=5.126e+09; ebitda=1.506e+09
+PRU,Prudential Financial,Financials,Life & Health Insurance,4 leverage ok,net_debt_ebitda=3.371; net_debt=1.755e+10; ebitda=5.206e+09
+PCG,PG&E Corporation,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.097; net_debt=6.373e+10; ebitda=1.045e+10
+WEC,WEC Energy Group,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.794; net_debt=2.297e+10; ebitda=3.965e+09
+PEG,Public Service Enterprise Group,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.486; net_debt=2.449e+10; ebitda=4.463e+09
+CBRE,CBRE Group,Real Estate,Real Estate Services,4 leverage ok,net_debt_ebitda=3.967; net_debt=8.784e+09; ebitda=2.214e+09
+CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",4 leverage ok,net_debt_ebitda=3.283; net_debt=2.394e+10; ebitda=7.292e+09
+AXON,Axon Enterprise,Industrials,Aerospace & Defense,4 leverage ok,net_debt_ebitda=7.014; net_debt=1.158e+09; ebitda=1.651e+08
+IRM,Iron Mountain,Real Estate,Other Specialized REITs,4 leverage ok,net_debt_ebitda=7.739; net_debt=1.974e+10; ebitda=2.551e+09
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,4 leverage ok,net_debt_ebitda=5.937; net_debt=1.372e+10; ebitda=2.311e+09
+HBAN,Huntington Bancshares,Financials,Regional Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=6.003e+09; ebitda=NaN
+ATO,Atmos Energy,Utilities,Gas Utilities,4 leverage ok,net_debt_ebitda=3.735; net_debt=9.803e+09; ebitda=2.624e+09
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,4 leverage ok,net_debt_ebitda=3.96; net_debt=1.418e+10; ebitda=3.582e+09
+OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,4 leverage ok,net_debt_ebitda=3.043; net_debt=8.033e+09; ebitda=2.64e+09
+AWK,American Water Works,Utilities,Water Utilities,4 leverage ok,net_debt_ebitda=5.438; net_debt=1.584e+10; ebitda=2.913e+09
+DTE,DTE Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=7.685; net_debt=2.78e+10; ebitda=3.617e+09
+CFG,Citizens Financial Group,Financials,Regional Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=4.274e+09; ebitda=NaN
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.276; net_debt=2.419e+10; ebitda=3.854e+09
+FE,FirstEnergy,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.334; net_debt=2.892e+10; ebitda=5.422e+09
+PPL,PPL Corporation,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.332; net_debt=2.004e+10; ebitda=3.759e+09
+VICI,Vici Properties,Real Estate,Hotel & Resort REITs,4 leverage ok,net_debt_ebitda=4.82; net_debt=1.754e+10; ebitda=3.639e+09
+ES,Eversource Energy,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.674; net_debt=2.799e+10; ebitda=4.933e+09
+DRI,Darden Restaurants,Consumer Discretionary,Restaurants,4 leverage ok,net_debt_ebitda=3.907; net_debt=8.37e+09; ebitda=2.142e+09
+HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,4 leverage ok,net_debt_ebitda=3.406; net_debt=5.162e+09; ebitda=1.516e+09
+KEY,KeyCorp,Financials,Regional Banks,4 leverage ok,net_debt_ebitda=NaN; net_debt=1.424e+10; ebitda=NaN
+EIX,Edison International,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=4.849; net_debt=4.33e+10; ebitda=8.93e+09
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,4 leverage ok,net_debt_ebitda=4.049; net_debt=1.815e+10; ebitda=4.482e+09
+CMS,CMS Energy,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=6.315; net_debt=1.906e+10; ebitda=3.018e+09
+AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,4 leverage ok,net_debt_ebitda=3.966; net_debt=1.402e+10; ebitda=3.536e+09
+NI,NiSource,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=5.741; net_debt=1.737e+10; ebitda=3.026e+09
+CDW,CDW Corporation,Information Technology,Technology Distributors,4 leverage ok,net_debt_ebitda=3.017; net_debt=6.068e+09; ebitda=2.011e+09
+BG,Bunge Global,Consumer Staples,Agricultural Products & Services,4 leverage ok,net_debt_ebitda=5.206; net_debt=1.627e+10; ebitda=3.126e+09
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,4 leverage ok,net_debt_ebitda=8.116; net_debt=1.488e+10; ebitda=1.834e+09
+EVRG,Evergy,Utilities,Electric Utilities,4 leverage ok,net_debt_ebitda=5.801; net_debt=1.648e+10; ebitda=2.84e+09
+NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,4 leverage ok,net_debt_ebitda=7.164; net_debt=2.33e+10; ebitda=3.253e+09
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,4 leverage ok,net_debt_ebitda=5.821; net_debt=2.051e+10; ebitda=3.524e+09
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,4 leverage ok,net_debt_ebitda=5.429; net_debt=6.681e+09; ebitda=1.231e+09
+GPC,Genuine Parts Company,Consumer Discretionary,Distributors,4 leverage ok,net_debt_ebitda=3.025; net_debt=6.061e+09; ebitda=2.003e+09
+FICO,Fair Isaac,Information Technology,Application Software,4 leverage ok,net_debt_ebitda=4.234; net_debt=5.35e+09; ebitda=1.263e+09
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,4 leverage ok,net_debt_ebitda=3.456; net_debt=6.521e+09; ebitda=1.887e+09
+BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",4 leverage ok,net_debt_ebitda=3.411; net_debt=7.082e+09; ebitda=2.076e+09
+INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,4 leverage ok,net_debt_ebitda=5.647; net_debt=8.473e+09; ebitda=1.5e+09
+KIM,Kimco Realty,Real Estate,Retail REITs,4 leverage ok,net_debt_ebitda=6.123; net_debt=8.156e+09; ebitda=1.332e+09
+GEN,Gen Digital,Information Technology,Systems Software,4 leverage ok,net_debt_ebitda=3.171; net_debt=7.643e+09; ebitda=2.41e+09
+MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,4 leverage ok,net_debt_ebitda=4.574; net_debt=5.663e+09; ebitda=1.238e+09
+SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,4 leverage ok,net_debt_ebitda=3.047; net_debt=6.897e+09; ebitda=2.264e+09
+REG,Regency Centers,Real Estate,Retail REITs,4 leverage ok,net_debt_ebitda=4.622; net_debt=4.951e+09; ebitda=1.071e+09
+DOC,Healthpeak Properties,Real Estate,Health Care REITs,4 leverage ok,net_debt_ebitda=5.526; net_debt=8.679e+09; ebitda=1.571e+09
+AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,4 leverage ok,net_debt_ebitda=5.541; net_debt=5.984e+09; ebitda=1.08e+09
+UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,4 leverage ok,net_debt_ebitda=5.757; net_debt=5.992e+09; ebitda=1.041e+09
+MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,4 leverage ok,net_debt_ebitda=3.116; net_debt=4.687e+09; ebitda=1.504e+09
+PNW,Pinnacle West Capital,Utilities,Multi-Utilities,4 leverage ok,net_debt_ebitda=7.676; net_debt=1.65e+10; ebitda=2.149e+09
+CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,4 leverage ok,net_debt_ebitda=5.401; net_debt=4.828e+09; ebitda=8.94e+08
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,4 leverage ok,net_debt_ebitda=7.639; net_debt=3.109e+10; ebitda=4.07e+09
+DPZ,Domino's,Consumer Discretionary,Restaurants,4 leverage ok,net_debt_ebitda=4.693; net_debt=4.893e+09; ebitda=1.043e+09
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,4 leverage ok,net_debt_ebitda=5.654; net_debt=4.737e+09; ebitda=8.377e+08
+HSIC,Henry Schein,Health Care,Health Care Distributors,4 leverage ok,net_debt_ebitda=3.385; net_debt=3.656e+09; ebitda=1.08e+09
+WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,4 leverage ok,net_debt_ebitda=5.662; net_debt=1.024e+10; ebitda=1.809e+09
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",4 leverage ok,net_debt_ebitda=6.075; net_debt=1.576e+10; ebitda=2.594e+09
+META,Meta Platforms,Communication Services,Interactive Media & Services,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+MU,Micron Technology,Information Technology,Semiconductors,5 reports <=45d,next_earnings=2026-12-23; days_to_earnings=59
+JPM,JPMorgan Chase,Financials,Diversified Banks,5 reports <=45d,next_earnings=2027-01-14; days_to_earnings=81
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,5 reports <=45d,next_earnings=2026-12-10; days_to_earnings=46
+UNH,UnitedHealth Group,Health Care,Managed Health Care,5 reports <=45d,next_earnings=2027-01-12; days_to_earnings=79
+PG,Procter & Gamble,Consumer Staples,Personal Care Products,5 reports <=45d,next_earnings=2027-01-21; days_to_earnings=88
+BAC,Bank of America,Financials,Diversified Banks,5 reports <=45d,next_earnings=2027-01-15; days_to_earnings=82
+PM,Philip Morris International,Consumer Staples,Tobacco,5 reports <=45d,next_earnings=2027-02-04; days_to_earnings=102
+GE,GE Aerospace,Industrials,Aerospace & Defense,5 reports <=45d,next_earnings=2027-01-21; days_to_earnings=88
+LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+MS,Morgan Stanley,Financials,Investment Banking & Brokerage,5 reports <=45d,next_earnings=2027-01-14; days_to_earnings=81
+NFLX,Netflix,Communication Services,Movies & Entertainment,5 reports <=45d,next_earnings=2027-01-19; days_to_earnings=86
+TXN,Texas Instruments,Information Technology,Semiconductors,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+GS,Goldman Sachs,Financials,Investment Banking & Brokerage,5 reports <=45d,next_earnings=2027-01-19; days_to_earnings=86
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,5 reports <=45d,next_earnings=2027-02-02; days_to_earnings=100
+BLK,BlackRock,Financials,Asset Management & Custody Banks,5 reports <=45d,next_earnings=2027-01-14; days_to_earnings=81
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+UNP,Union Pacific Corporation,Industrials,Rail Transportation,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+ISRG,Intuitive Surgical,Health Care,Health Care Equipment,5 reports <=45d,next_earnings=2027-01-21; days_to_earnings=88
+ACN,Accenture,Information Technology,IT Consulting & Other Services,5 reports <=45d,next_earnings=2026-12-17; days_to_earnings=53
+CB,Chubb Limited,Financials,Property & Casualty Insurance,5 reports <=45d,next_earnings=2027-02-02; days_to_earnings=100
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+PGR,Progressive Corporation,Financials,Property & Casualty Insurance,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",5 reports <=45d,next_earnings=2027-02-04; days_to_earnings=102
+VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+NEM,Newmont,Materials,Gold,5 reports <=45d,next_earnings=2027-02-18; days_to_earnings=116
+CME,CME Group,Financials,Financial Exchanges & Data,5 reports <=45d,next_earnings=2027-02-03; days_to_earnings=101
+ELV,Elevance Health,Health Care,Managed Health Care,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+MRSH,Marsh McLennan,Financials,Insurance Brokers,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+CSX,CSX Corporation,Industrials,Rail Transportation,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+MMM,3M,Industrials,Industrial Conglomerates,5 reports <=45d,next_earnings=2027-01-19; days_to_earnings=86
+CTAS,Cintas,Industrials,Diversified Support Services,5 reports <=45d,next_earnings=2026-12-17; days_to_earnings=53
+MCO,Moody's Corporation,Financials,Financial Exchanges & Data,5 reports <=45d,next_earnings=2027-02-17; days_to_earnings=115
+TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,5 reports <=45d,next_earnings=2027-01-20; days_to_earnings=87
+CMCSA,Comcast,Communication Services,Cable & Satellite,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,5 reports <=45d,next_earnings=2027-01-22; days_to_earnings=89
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+NSC,Norfolk Southern,Industrials,Rail Transportation,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+FDX,FedEx,Industrials,Air Freight & Logistics,5 reports <=45d,next_earnings=NaN; days_to_earnings=NaN
+BE,Bloom Energy,Industrials,Electrical Components & Equipment,5 reports <=45d,next_earnings=2027-02-04; days_to_earnings=102
+FAST,Fastenal,Industrials,Trading Companies & Distributors,5 reports <=45d,next_earnings=2027-01-19; days_to_earnings=86
+DAL,Delta Air Lines,Industrials,Passenger Airlines,5 reports <=45d,next_earnings=2027-01-13; days_to_earnings=80
+STT,State Street Corporation,Financials,Asset Management & Custody Banks,5 reports <=45d,next_earnings=2027-01-15; days_to_earnings=82
+WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,5 reports <=45d,next_earnings=2027-02-10; days_to_earnings=108
+CIEN,Ciena,Information Technology,Communications Equipment,5 reports <=45d,next_earnings=2026-12-10; days_to_earnings=46
+ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+PAYX,Paychex,Industrials,Human Resource & Employment Services,5 reports <=45d,next_earnings=2026-12-18; days_to_earnings=54
+STLD,Steel Dynamics,Materials,Steel,5 reports <=45d,next_earnings=2027-01-25; days_to_earnings=92
+UAL,United Airlines Holdings,Industrials,Passenger Airlines,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+HAL,Halliburton,Energy,Oil & Gas Equipment & Services,5 reports <=45d,next_earnings=2027-01-20; days_to_earnings=87
+TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,5 reports <=45d,next_earnings=2027-01-20; days_to_earnings=87
+JBL,Jabil,Information Technology,Electronic Manufacturing Services,5 reports <=45d,next_earnings=2026-12-16; days_to_earnings=52
+VRSN,Verisign,Information Technology,Internet Services & Infrastructure,5 reports <=45d,next_earnings=2027-02-04; days_to_earnings=102
+DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+DGX,Quest Diagnostics,Health Care,Health Care Services,5 reports <=45d,next_earnings=2027-02-09; days_to_earnings=107
+LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+OMC,Omnicom Group,Communication Services,Advertising,5 reports <=45d,next_earnings=2027-02-17; days_to_earnings=115
+PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,5 reports <=45d,next_earnings=2027-01-26; days_to_earnings=93
+JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,5 reports <=45d,next_earnings=2027-01-15; days_to_earnings=82
+EFX,Equifax,Industrials,Research & Consulting Services,5 reports <=45d,next_earnings=2027-02-03; days_to_earnings=101
+LUV,Southwest Airlines,Industrials,Passenger Airlines,5 reports <=45d,next_earnings=2027-01-27; days_to_earnings=94
+SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,5 reports <=45d,next_earnings=2027-02-04; days_to_earnings=102
+ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,5 reports <=45d,next_earnings=2027-02-10; days_to_earnings=108
+HAS,Hasbro,Consumer Discretionary,Leisure Products,5 reports <=45d,next_earnings=2027-02-09; days_to_earnings=107
+ALLE,Allegion,Industrials,Building Products,5 reports <=45d,next_earnings=2027-02-16; days_to_earnings=114
+LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",5 reports <=45d,next_earnings=2026-12-10; days_to_earnings=46
+GL,Globe Life,Financials,Life & Health Insurance,5 reports <=45d,next_earnings=2027-02-03; days_to_earnings=101
+FDS,FactSet,Financials,Financial Exchanges & Data,5 reports <=45d,next_earnings=2026-12-17; days_to_earnings=53
+COO,Cooper Companies (The),Health Care,Health Care Supplies,5 reports <=45d,next_earnings=2026-12-10; days_to_earnings=46
+DECK,Deckers Brands,Consumer Discretionary,Footwear,5 reports <=45d,next_earnings=2027-01-28; days_to_earnings=95
+TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,5b mktcap>=$20B,marketCap=19947145216
+ZBH,Zimmer Biomet,Health Care,Health Care Equipment,5b mktcap>=$20B,marketCap=18799106048
+FSLR,First Solar,Information Technology,Semiconductors,5b mktcap>=$20B,marketCap=18483730432
+DD,DuPont,Industrials,Industrial Conglomerates,5b mktcap>=$20B,marketCap=18440118272
+ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,5b mktcap>=$20B,marketCap=18407925760
+CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,5b mktcap>=$20B,marketCap=18263484416
+FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,5b mktcap>=$20B,marketCap=18196527104
+NWS,News Corp (Class B),Communication Services,Publishing,5b mktcap>=$20B,marketCap=18190266368
+NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,5b mktcap>=$20B,marketCap=17759186944
+RVTY,Revvity,Health Care,Health Care Equipment,5b mktcap>=$20B,marketCap=17716574208
+LDOS,Leidos,Industrials,Diversified Support Services,5b mktcap>=$20B,marketCap=17076979712
+J,Jacobs Solutions,Industrials,Construction & Engineering,5b mktcap>=$20B,marketCap=16977619968
+IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,5b mktcap>=$20B,marketCap=16885542912
+NWSA,News Corp (Class A),Communication Services,Publishing,5b mktcap>=$20B,marketCap=16743732224
+CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,5b mktcap>=$20B,marketCap=16300100608
+TYL,Tyler Technologies,Information Technology,Application Software,5b mktcap>=$20B,marketCap=15977119744
+MAS,Masco,Industrials,Building Products,5b mktcap>=$20B,marketCap=14988216320
+SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,5b mktcap>=$20B,marketCap=14986891264
+IT,Gartner,Information Technology,IT Consulting & Other Services,5b mktcap>=$20B,marketCap=14804645888
+GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,5b mktcap>=$20B,marketCap=14284594176
+AIZ,Assurant,Financials,Multi-line Insurance,5b mktcap>=$20B,marketCap=14044943360
+AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,5b mktcap>=$20B,marketCap=13780558848
+CSGP,CoStar Group,Real Estate,Real Estate Services,5b mktcap>=$20B,marketCap=13744302080
+ERIE,Erie Indemnity,Financials,Insurance Brokers,5b mktcap>=$20B,marketCap=13428037632
+TXT,Textron,Industrials,Aerospace & Defense,5b mktcap>=$20B,marketCap=13213754368
+HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,5b mktcap>=$20B,marketCap=11590387712
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,5b mktcap>=$20B,marketCap=11396706304
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,5b mktcap>=$20B,marketCap=11053533184
+GNRC,Generac,Industrials,Heavy Electrical Equipment,5b mktcap>=$20B,marketCap=11040230400
+UHS,Universal Health Services,Health Care,Health Care Facilities,5b mktcap>=$20B,marketCap=11014645760
+ALGN,Align Technology,Health Care,Health Care Supplies,5b mktcap>=$20B,marketCap=10976367616
+HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,5b mktcap>=$20B,marketCap=10800012288
+PODD,Insulet Corporation,Health Care,Health Care Equipment,5b mktcap>=$20B,marketCap=10334469120
+APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,5b mktcap>=$20B,marketCap=9096416256
+VYLR,Vylor,Consumer Staples,Agricultural Products & Services,5c has >=4q history,n_reported=0
+GEV,GE Vernova,Industrials,Heavy Electrical Equipment,5c misses<2 of 4q,eps_misses_4q=2
+UBER,Uber,Industrials,Passenger Ground Transportation,5c misses<2 of 4q,eps_misses_4q=2
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,5c misses<2 of 4q,eps_misses_4q=2
+SPGI,S&P Global,Financials,Financial Exchanges & Data,5c misses<2 of 4q,eps_misses_4q=2
+MO,Altria,Consumer Staples,Tobacco,5c misses<2 of 4q,eps_misses_4q=2
+ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",5c misses<2 of 4q,eps_misses_4q=3
+DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,5c misses<2 of 4q,eps_misses_4q=3
+CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,5c misses<2 of 4q,eps_misses_4q=2
+AFL,Aflac,Financials,Life & Health Insurance,5c misses<2 of 4q,eps_misses_4q=3
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,5c misses<2 of 4q,eps_misses_4q=2
+CRH,CRH plc,Materials,Construction Materials,5c misses<2 of 4q,eps_misses_4q=2
+TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,5c misses<2 of 4q,eps_misses_4q=2
+CPRT,Copart,Industrials,Diversified Support Services,5c misses<2 of 4q,eps_misses_4q=2
+PPG,PPG Industries,Materials,Specialty Chemicals,5c misses<2 of 4q,eps_misses_4q=2
+TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,5c misses<2 of 4q,eps_misses_4q=2
+STE,Steris,Health Care,Health Care Equipment,5c misses<2 of 4q,eps_misses_4q=2
+SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,5c misses<2 of 4q,eps_misses_4q=4
+NVDA,Nvidia,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=+9%, -2%, -5%, -3%"
+AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=-7%, +3%, +1%, +1%"
+MSFT,Microsoft,Information Technology,Systems Software,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+16%, -4%, -10%, -3%"
+AVGO,Broadcom,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-13%, +5%, -11%, +9%"
+WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-9%, -7%, -2%, +6%"
+AMD,Advanced Micro Devices,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.1429; n_beats_measured=7; reaction_last4=-7%, +19%, -17%, -4%"
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,5d beat->up rate>50%,"beat_up_rate=0.1429; n_beats_measured=7; reaction_last4=-1%, -1%, -2%, -1%"
+CSCO,Cisco,Information Technology,Communications Equipment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-8%, +13%, -12%, +5%"
+MRK,Merck & Co.,Health Care,Pharmaceuticals,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+0%, +3%, +2%, -0%"
+PANW,Palo Alto Networks,Information Technology,Systems Software,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=-9%, -6%, -7%, -7%"
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=-5%, +1%, +8%, -3%"
+CRWD,CrowdStrike,Information Technology,Systems Software,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+20%, -4%, +4%, +2%"
+ANET,Arista Networks,Information Technology,Communications Equipment,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+4%, -14%, +5%, -9%"
+MRVL,Marvell Technology,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-10%, -5%, +18%, +8%"
+CRM,Salesforce,Information Technology,Application Software,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=+23%, -1%, +4%, +4%"
+DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+4%, +8%, -7%, -8%"
+KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=-11%, -4%, -15%, +2%"
+ADI,Analog Devices,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-1%, -4%, +3%, +5%"
+NOW,ServiceNow,Information Technology,Systems Software,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=-6%, -18%, -10%, -3%"
+MDT,Medtronic,Health Care,Health Care Equipment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+2%, +6%, -3%, +5%"
+SYK,Stryker Corporation,Health Care,Health Care Equipment,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-6%, -6%, +4%, -3%"
+BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+7%, -2%, -6%, -3%"
+MCK,McKesson,Health Care,Health Care Distributors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+6%, -2%, +17%, +2%"
+GLW,Corning Inc.,Information Technology,Electronic Components,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-12%, -9%, -5%, +4%"
+ADBE,Adobe Inc.,Information Technology,Application Software,5d beat->up rate>50%,"beat_up_rate=0.125; n_beats_measured=8; reaction_last4=-2%, -7%, -8%, +2%"
+DDOG,Datadog,Information Technology,Application Software,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-19%, +31%, +14%, +23%"
+GD,General Dynamics,Industrials,Aerospace & Defense,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-3%, +8%, -3%, +3%"
+FCX,Freeport-McMoRan,Materials,Copper,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=-2%, -13%, -3%, +1%"
+INTU,Intuit,Information Technology,Application Software,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-3%, -20%, +4%, +4%"
+UPS,United Parcel Service,Industrials,Air Freight & Logistics,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=-7%, -4%, -3%, +8%"
+EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-6%, -4%, +1%, +0%"
+HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,5d beat->up rate>50%,"beat_up_rate=0.125; n_beats_measured=8; reaction_last4=-4%, -13%, -9%, -11%"
+CI,Cigna,Health Care,Health Care Services,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=-3%, -3%, +5%, -17%"
+MSI,Motorola Solutions,Information Technology,Communications Equipment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+8%, -11%, +8%, -6%"
+ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+4%, -3%, +6%, -5%"
+CL,Colgate-Palmolive,Consumer Staples,Household Products,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=-2%, +2%, +6%, -3%"
+RSG,Republic Services,Industrials,Environmental & Facilities Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+2%, +1%, -2%, -1%"
+TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,5d beat->up rate>50%,"beat_up_rate=0.3333; n_beats_measured=6; reaction_last4=+4%, -4%, +7%, -3%"
+APO,Apollo Global Management,Financials,Asset Management & Custody Banks,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=6; reaction_last4=+3%, -1%, -1%, +5%"
+CVNA,Carvana,Consumer Discretionary,Automotive Retail,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-7%, -2%, -8%, -14%"
+COR,Cencora,Health Care,Health Care Distributors,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+4%, -17%, -9%, +3%"
+TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-4%, -9%, -1%, +2%"
+NXPI,NXP Semiconductors,Information Technology,Semiconductors,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=-7%, +26%, -5%, -4%"
+PSA,Public Storage,Real Estate,Self-Storage REITs,5d beat->up rate>50%,"beat_up_rate=0.4; n_beats_measured=5; reaction_last4=-4%, -3%, +3%, -3%"
+CAH,Cardinal Health,Health Care,Health Care Distributors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-3%, -5%, +10%, +15%"
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,5d beat->up rate>50%,"beat_up_rate=0; n_beats_measured=5; reaction_last4=-3%, -4%, -1%, -1%"
+HUM,Humana,Health Care,Managed Health Care,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-6%, +6%, -3%, -6%"
+WDAY,"Workday, Inc.",Information Technology,Application Software,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+6%, +5%, +2%, -8%"
+PYPL,PayPal,Financials,Transaction & Payment Processing Services,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=+4%, -8%, -20%, -5%"
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=-4%, -19%, +13%, +20%"
+ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-7%, +9%, -5%, +3%"
+FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=6; reaction_last4=-5%, -3%, +4%, +17%"
+AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=+2%, -2%, +4%, -5%"
+NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=+22%, -3%, +2%, +5%"
+P,Everpure,Information Technology,"Technology Hardware, Storage & Peripherals",5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=-9%, -15%, -10%, -27%"
+SYY,Sysco,Consumer Staples,Food Distributors,5d beat->up rate>50%,"beat_up_rate=0.2; n_beats_measured=5; reaction_last4=-3%, -3%, +11%, -3%"
+EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,5d beat->up rate>50%,"beat_up_rate=0.25; n_beats_measured=8; reaction_last4=+16%, +3%, -19%, -1%"
+ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=6; reaction_last4=-3%, +4%, -1%, -6%"
+KMB,Kimberly-Clark,Consumer Staples,Household Products,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=+4%, -2%, -1%, +3%"
+HIG,Hartford (The),Financials,Property & Casualty Insurance,5d beat->up rate>50%,"beat_up_rate=0.3333; n_beats_measured=6; reaction_last4=-1%, -4%, +2%, -2%"
+RMD,ResMed,Health Care,Health Care Equipment,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-5%, -4%, +0%, -2%"
+HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,5d beat->up rate>50%,"beat_up_rate=0.2857; n_beats_measured=7; reaction_last4=-4%, -2%, +9%, -2%"
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+12%, +3%, +2%, -18%"
+ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,5d beat->up rate>50%,"beat_up_rate=0.125; n_beats_measured=8; reaction_last4=+3%, -4%, -5%, -1%"
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-4%, -9%, -6%, +18%"
+VMC,Vulcan Materials Company,Materials,Construction Materials,5d beat->up rate>50%,"beat_up_rate=0.4; n_beats_measured=5; reaction_last4=-4%, +2%, -8%, -2%"
+ZTS,Zoetis,Health Care,Pharmaceuticals,5d beat->up rate>50%,"beat_up_rate=0; n_beats_measured=7; reaction_last4=-6%, -21%, -2%, -14%"
+MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+3%, -15%, -1%, -0%"
+HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=4; reaction_last4=+3%, +4%, -1%, -1%"
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+1%, +6%, +1%, -3%"
+EME,Emcor,Industrials,Construction & Engineering,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+19%, +7%, -7%, -17%"
+IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,5d beat->up rate>50%,"beat_up_rate=0.2; n_beats_measured=5; reaction_last4=-1%, -5%, +5%, -3%"
+FLEX,Flex Ltd.,Information Technology,Electronic Manufacturing Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-9%, +40%, -11%, -3%"
+RDDT,Reddit,Communication Services,Interactive Media & Services,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=-21%, +13%, -7%, -8%"
+LH,Labcorp,Health Care,Health Care Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+3%, -0%, -2%, -6%"
+VRSK,Verisk Analytics,Industrials,Research & Consulting Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-6%, +7%, +4%, -10%"
+VLTO,Veralto,Industrials,Environmental & Facilities Services,5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=+4%, +5%, -6%, -3%"
+CHD,Church & Dwight,Consumer Staples,Household Products,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=+1%, -3%, +5%, +7%"
+BRO,Brown & Brown,Financials,Insurance Brokers,5d beat->up rate>50%,"beat_up_rate=0.1667; n_beats_measured=6; reaction_last4=+6%, -5%, -7%, -6%"
+TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",5d beat->up rate>50%,"beat_up_rate=0.5; n_beats_measured=8; reaction_last4=-16%, -12%, +10%, -10%"
+EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=+4%, +4%, -3%, -3%"
+BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,5d beat->up rate>50%,"beat_up_rate=0.4286; n_beats_measured=7; reaction_last4=-4%, +16%, +7%, +5%"
+BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,5d beat->up rate>50%,"beat_up_rate=0.375; n_beats_measured=8; reaction_last4=+7%, -4%, -6%, -2%"
+AMZN,Amazon,Consumer Discretionary,Broadline Retail,6 op margin>sector med,operatingMargins=0.1369; sector_median_full_universe=0.1467
+CVX,Chevron Corporation,Energy,Integrated Oil & Gas,6 op margin>sector med,operatingMargins=0.2187; sector_median_full_universe=0.2706
+HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,6 op margin>sector med,operatingMargins=0.1286; sector_median_full_universe=0.1467
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",6 op margin>sector med,operatingMargins=0.1202; sector_median_full_universe=0.2396
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,6 op margin>sector med,operatingMargins=0.1091; sector_median_full_universe=0.1467
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,6 op margin>sector med,operatingMargins=0.08529; sector_median_full_universe=0.2706
+JCI,Johnson Controls,Industrials,Building Products,6 op margin>sector med,operatingMargins=0.1588; sector_median_full_universe=0.1793
+PWR,Quanta Services,Industrials,Construction & Engineering,6 op margin>sector med,operatingMargins=0.07217; sector_median_full_universe=0.1793
+HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",6 op margin>sector med,operatingMargins=0.1256; sector_median_full_universe=0.2396
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,6 op margin>sector med,operatingMargins=0.1358; sector_median_full_universe=0.1467
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,6 op margin>sector med,operatingMargins=0.1916; sector_median_full_universe=0.3072
+AON,Aon plc,Financials,Insurance Brokers,6 op margin>sector med,operatingMargins=0.2346; sector_median_full_universe=0.3072
+ALL,Allstate,Financials,Property & Casualty Insurance,6 op margin>sector med,operatingMargins=0.2283; sector_median_full_universe=0.3072
+GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,6 op margin>sector med,operatingMargins=0.1607; sector_median_full_universe=0.1793
+NUE,Nucor,Materials,Steel,6 op margin>sector med,operatingMargins=0.1567; sector_median_full_universe=0.1567
+BDX,Becton Dickinson,Health Care,Health Care Equipment,6 op margin>sector med,operatingMargins=0.1573; sector_median_full_universe=0.1915
+XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,6 op margin>sector med,operatingMargins=0.06999; sector_median_full_universe=0.3072
+COHR,Coherent Corp.,Information Technology,Electronic Components,6 op margin>sector med,operatingMargins=0.1183; sector_median_full_universe=0.2396
+TWLO,Twilio,Information Technology,Systems Software,6 op margin>sector med,operatingMargins=0.07826; sector_median_full_universe=0.2396
+KR,Kroger,Consumer Staples,Food Retail,6 op margin>sector med,operatingMargins=0.02978; sector_median_full_universe=0.1619
+EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,6 op margin>sector med,operatingMargins=0.2337; sector_median_full_universe=0.2706
+CTSH,Cognizant,Information Technology,IT Consulting & Other Services,6 op margin>sector med,operatingMargins=0.1748; sector_median_full_universe=0.2396
+WTW,Willis Towers Watson,Financials,Insurance Brokers,6 op margin>sector med,operatingMargins=0.1756; sector_median_full_universe=0.3072
+ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,6 op margin>sector med,operatingMargins=0.1251; sector_median_full_universe=0.1467
+CASY,Casey's,Consumer Staples,Food Retail,6 op margin>sector med,operatingMargins=0.065; sector_median_full_universe=0.1619
+EXPD,Expeditors International,Industrials,Air Freight & Logistics,6 op margin>sector med,operatingMargins=0.1071; sector_median_full_universe=0.1793
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,6 op margin>sector med,operatingMargins=0.17; sector_median_full_universe=0.1793
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,6 op margin>sector med,operatingMargins=0.06209; sector_median_full_universe=0.1619
+L,Loews Corporation,Financials,Multi-line Insurance,6 op margin>sector med,operatingMargins=0.1453; sector_median_full_universe=0.3072
+Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,6 op margin>sector med,operatingMargins=0.2232; sector_median_full_universe=0.2396
+TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,6 op margin>sector med,operatingMargins=0.2869; sector_median_full_universe=0.3072
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",6 op margin>sector med,operatingMargins=0.1338; sector_median_full_universe=0.2396
+CDNS,Cadence Design Systems,Information Technology,Application Software,6b earnings quality,"eq_flags=RECEIVABLES_OUTRUN,INVENTORY_BUILD"
+PLTR,Palantir Technologies,Information Technology,Application Software,7 0<fwdPE<60,forwardPE=83.71
+ABBV,AbbVie,Health Care,Biotechnology,9 trim to target,composite_score=0.2991; composite_rank=51
+ECL,Ecolab,Materials,Specialty Chemicals,9 trim to target,composite_score=0.2679; composite_rank=52
+KVUE,Kenvue,Consumer Staples,Personal Care Products,9 trim to target,composite_score=0.2116; composite_rank=53
+ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,9 trim to target,composite_score=0.2051; composite_rank=54
+AZO,AutoZone,Consumer Discretionary,Automotive Retail,9 trim to target,composite_score=0.1431; composite_rank=55
