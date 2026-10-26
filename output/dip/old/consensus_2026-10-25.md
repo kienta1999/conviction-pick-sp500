@@ -1,5 +1,3 @@
-> Run by: Muse Wonder (Muse Wonder) — full panel
-
 # dip consensus — as of 2026-10-25 (5 runs: 2026-10-21 → 2026-10-25)
 
 **Consensus top 3:** AMAT, CPRT, BKNG
