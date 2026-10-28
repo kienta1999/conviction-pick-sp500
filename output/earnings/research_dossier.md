@@ -1,751 +1,862 @@
 > Run by: Muse Wonder (Muse Wonder) — full panel
 
-# Earnings research dossier — 2026-10-27 (consolidated, 15 names)
+# Research Dossier — Earnings — 2026-10-28
 
-Consolidated from parts/2026-10-27/research_batch1.md (SNDK, STX, MPWR, GOOGL, FTNT), research_batch2.md (APH, HWM, GRMN, CBOE, AME), research_batch3.md (INCY, LLY, CPAY, APP, FFIV). Screen: shortlist_2026-10-27.json (49 candidates, 44 actionable, 15 researched). All batch content below is the subagents' work, reproduced in full.
+Consolidated from parts/2026-10-28/research_batch1-4.md (14 names: APH, GOOGL, FTNT, GRMN, VRT, SNDK, INCY, LLY, HWM, MPWR, CBOE, REGN, CPAY, AME). Screen: shortlist_2026-10-28.json (45-name field, 14 researched per parts/2026-10-28/triage.md).
 
----
+> Run by: Muse Wonder (muse-wonder) — full panel
 
-> Run by: Muse Wonder (Muse Wonder) — full panel
-
-# Earnings research batch 1 — run date 2026-10-27
-
-Tickers: SNDK, STX, MPWR, GOOGL, FTNT. Screen prices (2026-10-26 close, per brief): SNDK $1,255.58, STX $654.93, MPWR $1,167.77, GOOGL $320.42, FTNT $183.55. Price-move / valuation cross-checks are Finnhub data as of the 2026-10-26 close unless noted. Where a number could not be sourced, it is marked **not found** — nothing below is estimated into existence. Consensus differs by vendor (Zacks vs LSEG/Yahoo vs Barchart); ranges are shown where vendors disagree, because the disagreement itself is part of the bar.
-
-**Cross-cutting context for all five:** This is the densest print week of the season. Microsoft and Alphabet report the same evening (Wed 2026-10-28, after a Fed decision at 14:00 ET that day), Amazon Thu 2026-10-29, SK hynix Wed 2026-10-28 Seoul time (Tue evening US), Western Digital already printed Wed 2026-10-22: adj. EPS $4.64 vs $4.08 expected, revenue $4.38B (+55%), Dec-quarter guide $5.60–$6.00 EPS on $5.0–$5.2B, 60–61% GM — and WDC still reversed from +4% to about −6.5% after hours after flagging capex above its 4–6%-of-revenue range for two years and rising DRAM/NAND input costs slowing cost-per-TB gains (Investing.com via FinanceFeeds, 2026-10-22/24). That is the template risk for this whole batch: in this complex, a beat is necessary and not sufficient; the guide and the cost/capex commentary decide the session. Lam Research's soft outlook (supply-chain constraints) and Tesla's 2026 capex cut to ~$20B from >$25B triggered an ~8.5% sector selloff in SNDK on Thu 2026-10-22 — the AI-capex narrative is being interrogated in real time, into these prints.
+# Research Batch 1 — RUN_DATE 2026-10-28 (all four report TODAY, Wed 2026-10-28)
+Tickers: APH, GOOGL, FTNT, GRMN. Screen prices (2026-10-27 close, shortlist_2026-10-28.json): APH $78.21, GOOGL $320.58, FTNT $183.55, GRMN $292.56.
+Method note: figures below are from web search 2026-10-28 (MarketBeat, Zacks, SentiSense, TipRanks, company releases as reproduced). Where sources conflict I say so and do not average them silently. "Not found" means not found — no figure is invented. APH per-share figures need care: APH did a 2-for-1 split effective Sep 2026; pre-split EPS figures in older sources are exactly 2× the post-split figures quoted here.
 
 ---
 
-## 1. SNDK — SanDisk Corporation
+## 1. APH — Amphenol ($78.21, screen rank 3)
 
-### 1. Date
-**Thu 2026-10-29, AMC. CONFIRMED.** Company announced 2026-09-29 that fiscal Q1 2027 results / call are Thu 2026-10-29 at 13:30 PT / 16:30 ET (SanDisk IR, via TipRanks 2026-09-30 and Admiral Markets preview). Quarter is fiscal Q1 2027, ended early Oct 2026. No move from the screen date.
+### 1. Report date
+**CONFIRMED — Wed 2026-10-28, BMO (before market open), call 1:00 p.m. ET.** Multiple dated previews (MarketBeat/American Banking News, Oct 27, 2026; Yahoo Finance via ad-hoc-news) state Q3 2026 results "before the US market opens on October 28, 2026" with call at 1:00 p.m. ET. I did not retrieve Amphenol's own IR press release announcing the date directly — confirmation is via consistent secondary coverage, not the primary release. Status vs screen: matches screen (2026-10-28, BMO). Not moved as far as found.
 
-### 2. Bar
-Company guide (given with Q4, see §5) is the real bar: **non-GAAP EPS $44.00–$46.00, revenue $10.3–$10.8B, non-GAAP GM 83–85%**, opex $520–$540M.
-Consensus for the quarter: EPS **$45.22 (Barchart) to $46.27 (Yahoo)**, $46.06 Public, $46.11–$46.21 TipRanks; revenue **~$10.63–$10.68B** (TipRanks / FinanceFeeds, mid-to-late Oct 2026). So consensus sits at/above the guide midpoint ($45.00) and inside the top half on EPS — the Street has already capitalised a guide-beat pattern. Whisper / revisions last 30d: **not found** as a quantified whisper number; directionally, analyst targets were raised into the print (consensus PT $2,173–$2,206, range $1,000–$3,000; Mizuho $2,050, Citi $2,100, Rosenblatt $2,400, Susquehanna $2,745, Bernstein $3,000 — StockAnalysis 2026-10-09), i.e. expectations rose even as the price fell ~29% in a month.
+### 2. The bar
+- **Consensus Q3 2026: adj EPS $0.72–$0.73, revenue $9.44–$9.49B** (post-split). American Banking News/MarketBeat Oct 27: EPS $0.7290, revenue $9.49B. Zacks Oct 26: EPS $0.73 (raised +$0.01 over prior 30 days), revenue $9.44B (+52.4% YoY). TickerOn: $9.44–9.46B / $0.72–0.73.
+- **Company Q3 guide (given Jul 29, 2026): revenue $9.3–9.4B, adj EPS $0.70–0.71 post-split** ($1.40–1.42 pre-split). **Consensus sits ABOVE the top of the guide on both lines** — the market is already pricing a beat of guidance, not just a meet.
+- Revisions: Zacks consensus EPS +1c in last 30 days; price targets raised into the print (Citi $105→$112 on Oct 8 — pre-split-equivalent basis in that report; Evercore $90→$100 Oct 12, maintained Oct 26; Erste initiated Buy Oct 21, FY26 EPS $2.68 vs $2.67 consensus). Whisper: not found as a published number; the above-guide consensus is itself the whisper.
+
+### 3. Last four prints (adj EPS, post-split equivalents where sources are pre-split I halve them and say so)
+- **Q2 2026 (Jul 29, 2026):** adj EPS $0.68 vs consensus $0.60 (MarketBeat; pre-split prints $1.35 vs $1.19, AltIndex, +13.4%). Revenue $8.76B vs $8.26B consensus, +55.0% YoY, 30% organic. Guided Q3 to $9.3–9.4B / $0.70–0.71. Orders $10.7B, book-to-bill ~1.22–1.23.
+- **Q1 2026 (Apr 29, 2026):** adj EPS $0.53 vs $0.475 consensus (MarketBeat; pre-split $1.06 vs $0.95, +11.6%). Revenue $7.62B vs $7.08–7.12B consensus, +58% YoY. Guided Q2 revenue ~$8.15B midpoint, ~5% above consensus at the time. Caveat: GAAP net income was hit by a ~$290M discrete China tax charge and CCS-deal interest — adj vs GAAP gap was wide this quarter.
+- **Q4 2025 (Jan 28, 2026):** adj EPS $0.97 pre-split (~$0.485 post) vs $0.94 pre-split consensus (+3.2%, smallest beat of the four). Revenue $6.44B, FY25 revenue ~$23.1B (+51.7%). Guided Q1 2026 to $6.9–7.0B / $0.91–0.93 pre-split incl. ~$900M CCS revenue.
+- **Q3 2025 (Oct 22, 2025):** adj EPS $0.93 pre-split vs $0.80 consensus (+16.3%). Revenue $6.19B.
+- Reactions (screen, shortlist print_reaction): beat→up rate **0.875 (7/8)**, avg move +3.0%, avg abs 6.0%, worst −12.2%, last-4 sequence as stored "+6%, +3%, −12%, +5%" (screen does not label the order; the −12% shows a beat can still gap down hard when guidance/orders disappoint).
+
+### 4. Revenue / margin trend (last 8 quarters, AltIndex/MarketBeat series)
+Revenue: Q3'24 $4.04B → Q4'24 $4.32B → Q1'25 $4.81B → Q2'25 $5.65B → Q3'25 $6.19B → Q4'25 $6.44B → Q1'26 $7.62B → Q2'26 $8.76B. **Accelerating in dollars every quarter; YoY growth +55–58% in H1/H2 2026**, flattered by the CommScope CCS acquisition (closed Jan 9, 2026, ~$10.5B cash; ~$4.1B expected FY26 sales) on top of ~30% organic growth in Q2. Gross margin: 38.1% (Q3'25) → 38.2% → 36.7% (Q1'26, CCS mix + tax noise) → 40.5% (Q2'26, AltIndex basis). Operating margin: 27.5% → 27.5% → 24.0% → 29.5–29.8% adj. Trend into the print: **accelerating revenue, margins recovered to highs in Q2** — no deceleration signal, but Q3 guide implies sequential revenue +6–7% only, a slower QoQ step than Q1→Q2 (+15%).
+
+### 5. THE GUIDE
+- (a) **Guides one quarter ahead only**, precisely: next-quarter revenue range + adj EPS range, with segment colour and book-to-bill on the call. No formal full-year guide.
+- (b) Forward consensus: **Q4 2026 direct consensus not found** as a published line. Implied: FY26 consensus EPS $2.67 (MarketBeat, Oct 21–27) minus Q1 $0.53 + Q2 $0.68 + Q3E $0.73 = **Q4 implied ~$0.73** (prior panel research said ~$0.75 — consistent within source noise). FY27 consensus EPS $3.29 (MarketBeat).
+- (c) Run-rate support: Q4 implied ~$0.73–0.75 on revenue presumably ~$9.6–9.9B is a **continuation**, not an unseen acceleration — it only requires Q3's guided growth to persist one more quarter with normal seasonality. It does NOT require a new leg. This is the cleanest forward setup in the batch.
+- (d) Guide history (last 8 quarters, from the prints above): a metronome of **guide → beat the high end → guide next quarter above then-consensus**. Q4'25 guide for Q1 was beaten by ~$0.6B revenue; Q1 guide for Q2 ($8.15B mid) was beaten by $0.6B; every one of the last 8 quarters is an EPS beat (screen: 8/8, avg surprise last 4 +11.2%). No cuts found in the window. Stock reaction to guides has mostly been positive (7/8 beats rewarded) with one −12% exception.
+- (e) Between quarters: no intra-quarter guide raise found. The "raise" mechanism here is the quarterly guide itself stepping up ($6.95B mid → $8.15B mid → $9.35B mid across Q1–Q3 guides).
+
+### 6. Priced-in
+- Price: $78.21 (Oct 27 close). **1-month −7.0%** (Finnhub), screen ret_21d −7.6%; **3-month −2.0%** (AltIndex, $79.79 → $78.21); 6-month +5.2% (Finnhub) / screen ret_6m +9.2%. **−11.7% vs 52w high $89.93** (screen; −13.4% on Oct 27 intraday snapshot), 52w low $59.01. The stock de-rated into the print, including a −7.9% day on Oct 22 in an AI-infrastructure pullback.
+- Valuation: screen forward P/E **23.5×**, trailing ~38×. Zacks: 23.3× forward vs sector 18.9×. Vs its own history this is mid-range for APH's AI era (it has traded well above 23× forward during 2025–26) — premium to industrials, not extreme for APH itself. Mean target ~$103 (screen $102.97), +32%.
+- Options-implied move: **not found** as a published figure. Screen realised proxy: avg abs 6.0%. Given the −12% worst reaction, sizing should respect >6%, not =6%.
+- **Crowded? Explicitly: NO — not crowded into this print.** It is a consensus long-term AI-connectivity long, but positioning into today is washed out (−7% in a month, double-digits off the high, targets raised while price fell). The crowding risk is in the *consensus-above-guide bar*, not in the price action.
+
+### 7. Moat / AI-irreplaceability: **8/10**
+Connectors/interconnect are the physical layer AI cannot virtualise: every GPU cluster needs high-speed copper/fibre interconnect, and APH is the scaled, qualified, multi-sourced incumbent (plus CCS fibre assets bought Jan 2026). Qualification cycles, 170k employees, broad end-market diversification (auto, aero/defence, industrial, datacom) are downside insurance — revenue does not depend on one hyperscaler or one socket. Docked 2 points: it is a component supplier, not a platform — pricing power is real but bounded, and a large chunk of current growth is acquired (CCS) and debt-funded (net debt/EBITDA 1.42×, screen).
+
+### 8. Risks specific to THIS print
+1. **Bar above guide:** consensus $0.73/$9.49B vs guide top $0.71/$9.4B — a clean in-guide print likely reads as a miss.
+2. Communications-networks (non-AI) softness flagged in previews vs IT datacom strength — mix miss can hit margin even on a revenue beat.
+3. CCS integration, interest expense (~tripled YoY in Q1) and any repeat discrete tax item widening the GAAP/adj gap.
+4. Book-to-bill: Q2 orders $10.7B set a high marker; a print <1.1 would change the story more than EPS.
+5. Fed decision lands the same day (Oct 28) — macro gap risk unrelated to the print.
+
+### 9. Scores
+- Beat-likelihood **8/10** · Guide-risk **4/10** · Priced-in **6/10**
+- Verdict: The most mechanical beat-and-guide setup in the batch — 8/8 beats, forward consensus needs only continuation — but the bar already sits above guidance and a −12% reaction is in its own recent record.
+
+### 10. Plan
+**Plan B** (closest to A in this batch: de-rated price, continuation-only forward bar; still B because consensus > guide top and reaction tail is fat).
+
+---
+
+## 2. GOOGL — Alphabet ($320.58, screen rank 10)
+
+### 1. Report date
+**CONFIRMED — Wed 2026-10-28, AMC, call 4:30 p.m. ET.** Alphabet announced the date/call time on **Oct 6, 2026** on its investor-relations site (SentiSense, read Oct 25, citing company IR pages; PrimeXBT FAQ confirms Oct 6 IR confirmation). Caveat from SentiSense: Alphabet states the call time, not a release time; AMC is inferred from its last eight releases all filing after 4:00 p.m. ET. Matches screen. Not moved.
+
+### 2. The bar
+- **Consensus Q3 2026: EPS $3.02–$3.03, revenue $127.91–$127.97B gross** (MarketBeat Oct 27: $3.02 / $127.96B; SentiSense Oct 25: $3.03, 29 analysts / $127.91B, 25 analysts, range $124.84–132.08B). That is +25.0% revenue YoY vs Q3'25 $102.35B, but only ~+5% EPS YoY vs $2.87 — the gap is depreciation/opex from the AI build-out.
+- **Source conflict flagged, not hidden:** Zacks (Oct 20–21) prints EPS $2.94 and revenue $111.64B. The $111.6B figure is on a different (net-of-TAC-style) basis and must NOT be mixed with the $127.9B gross consensus; Zacks' own EPS revision note says consensus EPS was revised +1.51% in the last 30 days to its $2.94 level. Use $3.02–3.03 / ~$127.9B as the headline bar.
+- Segment bar that actually matters: LSEG/Visible Alpha consensus cited in previews looks for **Google Cloud ~$29.6B** (vs $24.8B in Q2, ~double YoY) with a very wide range ($25.0–36.7B, 26 analysts). Whisper: not found as a single published number; the Cloud range is the whisper dispersion.
+
+### 3. Earnings quality — HIGH_ACCRUALS flag EXPLAINED (required)
+From shortlist_2026-10-28.json, GOOGL earnings_quality: **accrual_ratio +0.0822, CFO/NI 0.76, flags ["HIGH_ACCRUALS"]** — the only flagged name in this batch (APH −0.0389 / 1.28, FTNT −0.1186 / 1.60, GRMN −0.0093 / 1.05, all clean). **Verified explanation:** this is NOT receivables/inventory stuffing — recv divergence is only +0.014. It is the mechanical consequence of Q2 2026's **~$98–99B non-cash unrealised gain on equity securities** booked through net income (Alphabet's own Q2 release via SEC: gain added **$6.26/share**; SentiSense: $99.0B gain, $6.26/sh). Net income ballooned (Q2 NI ~$112.2B) while operating cash flow did not — CFO/NI mechanically fell to 0.76 and the accrual ratio (NI−CFO scaled) spiked positive. **Headline Q2 GAAP EPS $9.11 vs consensus ~$2.87–2.89 is therefore a fake +217% "beat"; normalised core EPS was ~$2.85, slightly BELOW the ~$2.89 consensus** (TickerOn and CoinsInsight both compute ~$2.85 ex-gain) — prior panel research on this point is **verified and stands**. Implication for today: headline EPS vs the $3.02 consensus is again hostage to whatever unrealised gain/loss Q3 books; operating income and Cloud are the clean reads. Screen's "84.9% avg EPS surprise / 8 beats" for GOOGL is polluted by these two gain quarters (Q1'26 $5.11 vs $2.66 also gain-inflated) and should not be used as beat evidence.
+
+### 4. Last four prints (one line each; core EPS where GAAP is gain-distorted)
+- **Q2 2026 (Jul 22, 2026):** GAAP EPS $9.11 vs $2.87–2.89 consensus (distorted, see §3); core ~$2.85, slight miss. Revenue $119.80B vs ~$116.5B consensus, +24%. Guide: raised FY26 capex to $195–205B (see §5). **Next-session reaction −7.1% to −7.5%** (PrimeXBT −7.1%; Public.com −7.50%, $347.15→$321.13) — fell on capex/negative FCF (−$5.9B) despite Cloud +82%.
+- **Q1 2026 (Apr 29, 2026):** GAAP EPS $5.11 vs $2.66 consensus (also gain-inflated per AInvest/TickerOn summaries). Revenue $109.90B, +22% YoY. Cloud +63% to $20.03B, backlog >$460B. Reaction **+6.9% to +10.0%** (Public.com +6.94%; SentiSense table +9.96%).
+- **Q4 2025 (Feb 4, 2026):** EPS $2.82 vs $2.61 consensus (+8%). Revenue $113.83B, +18%. Cloud +47.8% to $17.66B. Reaction: SentiSense −0.54% vs Public.com −8.09% — **sources conflict materially**; either way it was not rewarded. Initial FY26 capex guide $175–185B was given here.
+- **Q3 2025 (Oct 29, 2025):** EPS $2.87 vs $2.27 consensus (+26%). Revenue $102.35B, +16%. Cloud $15.16B (+33.5%). Reaction +2.5% (SentiSense) to +9.0% (Public.com) — again source spread; direction up.
+- Screen reaction record: beat→up **0.625**, avg move +0.3%, avg abs 4.4%, worst −7.3%, last-4 "−7%, +10%, −2%, +3%". Net message across all sources: **GOOGL beats are coin-flips for the stock; capex, not EPS, sets the reaction.**
+
+### 5. Revenue / margin trend
+Total revenue YoY: Q3'25 +16% ($102.3B) → Q4'25 +18% ($113.8B) → Q1'26 +22% ($109.9B, seasonal QoQ dip) → Q2'26 +24% ($119.8B) — **accelerating YoY for three straight quarters**. Google Cloud YoY: +33.5% → +47.8% → +63.4% → **+81.8%** ($24.77B), Cloud operating margin 23.7% → 30.1% → 32.9% → **35.6%** ($8.81B OI) — violent acceleration, which is precisely the problem for Q3: consensus ~$29.6B Cloud implies ~+95% YoY, i.e. **the bar assumes the acceleration continues again**. Consolidated operating margin 34% in Q2. Counter-trend: FCF $24.5B (Q3'25) → $24.6B → $10.1B → **−$5.9B (Q2'26)**; capex $24.0B → $27.9B → $35.7B → $44.9B per quarter. Search +17% ($63.3B) and YouTube +13% ($11.1B) in Q2 are decelerating-quality ballast, and Alphabet has warned Search comps toughen in Q3 (lapping the Q3'25 acceleration).
+
+### 6. THE GUIDE
+- (a) **Alphabet does not guide revenue or EPS — at any granularity.** The only numeric guidance is **capex** (annual range, updated on calls) plus qualitative colour (depreciation rising "meaningfully" in 2026; Q3 third-party Cloud capacity causing "modest near-term margin pressure"; most TPU-systems revenue recognised in 2027).
+- (b) Forward consensus: Q4 2026 direct line not found. FY26 revenue consensus ~**$500.3B** (CoinsInsight, citing Street) minus H1 $229.7B and Q3E $127.9B implies **Q4 ~$142B** — a very large seasonal + acceleration step. Zacks FY EPS $20.55 / rev $434.71B is on its distorted/net basis (includes gain-inflated H1 EPS) — do not use it as a clean forward bar.
+- (c) Run-rate support: Q4 ~$142B requires Cloud to keep compounding at the new rate AND the usual Q4 ad seasonality on a much bigger base. That is **partly continuation (seasonality), partly unseen persistence of an 82%→~95% Cloud acceleration** — the least "continuation-only" forward bar in this batch alongside FTNT.
+- (d) Guide history — read "guide" as capex guide, the only one there is: **raised three times in 2026**: Feb $175–185B → Apr $180–190B → Jul $195–205B, plus "2027 capex to increase significantly." Stock reactions to those raises: Feb (with Q4 print) down, Apr up (Cloud overwhelmed it), **Jul −7.1%** (capex + negative FCF overwhelmed an 82% Cloud print). No revenue/EPS guide exists to have been raised/reaffirmed/cut in the last 8 quarters.
+- (e) Between quarters: no intra-quarter raise found; the $80B equity raise announced Jun 1, 2026 ($10B Berkshire private placement within it, per previews) to fund AI compute is the between-quarter signal that spending was going up, not down.
+
+### 7. Priced-in
+- Price $320.58 (Oct 27). **1-month −6.8%** (Finnhub), screen ret_21d −6.5%; 6-month −8.5%; **−20.3% vs 52w high** (screen; 52w high $408.61 Finnhub / $402.62 close basis May 13), 52w low $255.32. Five straight down sessions into the print per TradingKey (Oct 27). It has de-rated, not run, into today.
+- Valuation: screen forward P/E **20.9×**; trailing P/E meaningless (16–17× on gain-inflated TTM EPS). 20.9× forward for ~25% revenue growth is **cheap vs GOOGL's own AI-era range and vs mega-cap peers** — the discount is the capex/FCF story, not growth. Mean target $429.12 (SentiSense/screen target), +34%, and the Oct 23 close sat below even the lowest analyst target ($340) per SentiSense.
+- Options-implied move: **5.3% either way (Oct 23 session, SentiSense options data, IV rank 63)** vs screen realised proxy 4.4% avg abs and SentiSense's own 8-print realised average 4.1% — **options are pricing MORE than GOOGL usually delivers** (avg implied at last 8 prints 5.6% vs 4.1% realised). Long premium is historically the expensive side here.
+- **Crowded? Explicitly: NO on positioning, YES on belief.** Price, targets and sentiment trend (30-day sentiment down, latest daily Neutral per SentiSense) say the long has been trimmed; but the entire Street still models Cloud acceleration + capex discipline arriving eventually — a consensus belief structure, thinly held at the price.
+
+### 8. Moat / AI-irreplaceability: **10/10**
+The strongest in the batch and close to absolute: Search default distribution, YouTube, Android/Chrome, Cloud, TPUs, DeepMind/Gemini, and ~$514B Cloud backlog. AI is a threat vector to Search in theory, but Alphabet owns the frontier models, the silicon, the distribution and the cash engine simultaneously — there is no plausible 3-year displacement path. As downside insurance for an earnings trade this matters less than capex, but as a business it is the safest balance sheet here (net cash, screen net debt/EBITDA −0.70×).
+
+### 9. Risks specific to THIS print
+1. **Capex guide, again:** a 4th raise (or a hard, large 2027 number) has already produced a −7% day once this year on a great operating print.
+2. **Cloud deceleration arithmetic:** from +82%, any print in the 60s–70s is operationally superb and still a "slowdown" headline vs the ~$29.6B consensus.
+3. **EPS quality noise:** another large unrealised gain/loss makes headline EPS vs $3.02 uninterpretable in the first minutes; algos will trade the wrong number.
+4. Search comp warning + post-World-Cup YouTube normalisation were pre-flagged by the company itself.
+5. Same-day Fed decision + MSFT printing the same evening — cross-reads on Azure/capex will move GOOGL independently of its own release.
+
+### 10. Scores
+- Beat-likelihood **6/10** (operating beat likely; *core* EPS beat genuinely uncertain — Q2 core missed) · Guide-risk **8/10** (the capex "guide" is the whole trade, and its direction of travel is up) · Priced-in **5/10**
+- Verdict: De-rated price and a 10/10 moat cannot offset the fact that this print is decided by a capex line management has raised three times in nine months.
+
+### 11. Plan
+**Plan B.**
+
+---
+
+## 3. FTNT — Fortinet ($183.55, screen rank 11)
+
+### 1. Report date
+**CONFIRMED — Wed 2026-10-28, AMC, call 1:30 p.m. PT / 4:30 p.m. ET.** Primary source: Fortinet's own press release, **Oct 2, 2026** (fortinet.com newsroom: "will hold a conference call to discuss its third quarter 2026 financial results on Wednesday, October 28, at 1:30 p.m. Pacific Time"). Matches screen (2026-10-28); timing AMC confirmed by the company itself.
+
+### 2. The bar
+- **Consensus Q3 2026: non-GAAP EPS $0.86, revenue $2.06B** (MarketBeat Oct 21/27; Zacks Oct 26: EPS $0.86 "+16.2% YoY", revenue $2.06B +19.6% YoY; TipRanks: 0.86 vs $0.74 year-ago). Billings consensus ~$2.30B (TickerOn preview).
+- **Company Q3 guide (Jul 29, 2026): revenue $2.01–2.10B, billings $2.25–2.35B, non-GAAP EPS $0.83–0.87, non-GAAP op margin 35–37%, gross margin 79–81%.** Consensus sits **inside the guide, at/above midpoint** — unlike APH, the bar does not exceed guidance. FY26 guide was raised at Q2 (see §5).
+- Revisions: Zacks notes no estimate cut in the last two months for FY26, consensus drifting up; Scotiabank raised FY26 EPS estimate $2.77→$3.10 on Oct 1. But analyst *ratings/targets* are split to an unusual degree: Truist target $200, TD Cowen $225, vs JPMorgan/Mizuho/Wells Fargo Underweight/Underperform, Arete double-downgrade to Sell (target $117) on Oct 21 arguing tailwinds fade in 2027. Consensus rating Hold, mean target ~$169 (screen $169.45) — **below the $183.55 price**.
 
 ### 3. Last four prints
-Fiscal quarters (note: SNDK was spun from Western Digital 2025-02-24; history is short):
-- **Q4 FY26 (reported 2026-08-05):** non-GAAP EPS $39.25 vs ~$33.28–$34.96 consensus (beat ~+13–18%); revenue $8.97B vs guide $7.75–$8.25B; guide for Q1 given (above) but read as light vs whisper; reaction **≈ −5.4% to −8% after hours / −5.4% on the day to ~$1,351** (AInvest; MEXC). Screen record says −7% for the most recent — consistent.
-- **Q3 FY26 (2026-04-30):** EPS $23.41 vs $14.17 consensus (+65%); revenue $5.95B; GM 78.4%; reaction **≈ +7% to +8%** per screen (+8% in last4). Guide raised sharply.
-- **Q2 FY26 (2026-01-29):** EPS $6.20 vs $3.31 consensus; revenue $3.03B vs $2.67B est.; reaction **≈ +15%** per screen last4 (oldest of the four shown as +15%? screen order −7%, +8%, +7%, +15% most-recent-first — the +7% is Q1 FY26 below; ordering in sources is imperfect, treat magnitudes as screen-verified, not re-derived here).
-- **Q1 FY26 (2025-11-06):** EPS $1.22 vs $0.58 consensus; revenue $2.31B vs $2.12B est.; reaction **≈ +7%** per screen.
-Pattern: 6 straight EPS/revenue beats (TipRanks), beats are enormous in % terms because consensus chronically lags a pricing cycle — and Q4 proved a +18% EPS beat can still sell off if the guide merely matches the whisper.
+- **Q2 2026 (Jul 29, 2026):** non-GAAP EPS $0.90 vs $0.75 consensus (+20%). Revenue $2.05B vs $1.89B, +25.6% YoY. Billings $2.37B (+33%), product revenue $773M (+52%), record non-GAAP op margin 38%, FCF $966M. **Raised FY26 guide** (see §5). Reaction: screen last-4 includes a +20% (attribution per screen sequence, see below).
+- **Q1 2026 (May 6, 2026):** non-GAAP EPS $0.82 vs $0.62 consensus (+32%, largest $ beat of the four). Revenue $1.85B vs $1.73B consensus. (Q1 guide had been revenue $1.70–1.76B / EPS $0.59–0.63 — beaten by a wide margin on both.)
+- **Q4 2025 (Feb 5, 2026):** non-GAAP EPS $0.81 vs $0.74 consensus (+9%). Revenue $1.91B vs $1.86B, +15% YoY; billings $2.37B (+18%). GAAP op margin 33%, non-GAAP 37.3%. Set initial FY26 guide (see §5).
+- **Q3 2025 (Nov 5, 2025):** non-GAAP EPS $0.74 vs $0.63 consensus (+17%). Revenue $1.72B vs $1.70B.
+- Screen: 4/4 last-4 EPS beats, 8/8 last-8, avg surprise last 4 **+19.8%**; beat→up **0.625** (note: brief's context and shortlist both give 0.625 for FTNT, not higher), avg move +0.4%, **avg abs 9.6%, worst −22.0%**, last-4 "+2%, +20%, +5%, −6%". Four straight beats averaging ~+20% and the stock still only rewards 5 of 8 — the definition of a high bar.
 
 ### 4. Revenue / margin trend
-Revenue, fiscal quarters: Q1 FY26 $2.31B → Q2 $3.03B → Q3 $5.95B → Q4 $8.97B (+51% QoQ, +372% YoY); FY26 total $20.25B (+175%). Gross margin: 29.8% (Q1 FY26, AltIndex series labelling differs by fiscal/calendar) → 50.9% → 78.4% → **84.6% Q4**. Data-center revenue $2.98B in Q4, +103% QoQ; edge +48% QoQ; consumer −32%. **Violently accelerating, and explicitly price-led:** management said ~two-thirds of Q4's sequential revenue growth came from higher prices, not bits shipped. That is the single most important quality fact in this dossier section: the trend is real, cash-backed (adj. FCF $5.04B in Q4; zero debt, $4.76B cash at 2026-07-03; $14B added to buyback, $15.5B authorised, ~$4.5B bought in Q4) — and it is a price cycle, not a volume cycle.
+Revenue: Q3'25 $1.72B → Q4'25 $1.91B (+15% YoY) → Q1'26 $1.85B → Q2'26 $2.05B (+25.6% YoY). YoY growth **accelerated through 2026** (screen rev_yoy_q +25.6%, rev_accel +12.5pts), driven by **product** revenue (+52% in Q2, firewall refresh + AI-data-centre deals) while service revenue grew only +14% in Q2 — management called Q1 the trough for service growth, with service billings +26% in Q2. Billings: +18% (Q4) → +33% (Q2). Non-GAAP op margin: 37.3% (Q4) → 38% record (Q2); gross margin ~80% (79.6% GAAP Q4). Trend into print: **accelerating, but the acceleration is hardware-led and therefore lumpy** — product is the swing factor every quarter, and Q3 guide op margin 35–37% already embeds a step down from Q2's 38%.
 
 ### 5. THE GUIDE
-(a) **Guides one quarter ahead, precisely:** revenue, non-GAAP EPS, GM and opex ranges. No full-year guide.
-(b) Next quarter (Q2 FY27, Dec) consensus: **not found** as a clean published consensus in this pass. Full-year: FY27 consensus EPS ~$208.94–$213.94 (Barchart / vendor feeds), FY28 ~$252–$261. The Q2 guide SNDK gives on Thu is therefore the event — there is no pre-set low bar to trip over.
-(c) Run-rate support: Q1 guide midpoint implies revenue +18% QoQ and EPS +15% QoQ, vs +51% / +68% in Q4 and +278% EPS in Q3. **The forward number requires a sharp deceleration that management itself has already telegraphed** (modest price increases + bit growth in Q1, GM guided flat 83–85%). Continuation of the *level* is supported by contracts (see below); continuation of the *growth rate* is not, and is not being promised.
-(d) Guide history (short post-spin history): Q2 guide $2.6–$2.7B rev / $3.00–$3.40 EPS → delivered $3.03B / $6.20 (crushed). Q4 guide $30–$33 EPS → delivered $39.25 (crushed). Q1 FY27 guide set at Q4 → read as light vs whisper → stock fell despite the beat. So: guides have been conservative and beaten every time, **but the reaction function flipped in Q4** — the market now prices the guide against the whisper, not against the printed range.
-(e) Raised between quarters? No intra-quarter raises found; the "raise" pattern is beat-the-guide at the next print.
-What's changed this quarter: (i) **Long-term agreements are the structural story** — 10 LTAs with 8 customers, $59.8B remaining performance obligations (10-K), ≥$93.9B at floor prices per the call, $7.7B of customer prepayments/deposits/collateral (other sources cite $16.5B in guarantees), expected to cover 50%+ of FY27 and ~67% of FY28 output. Untested through a falling market. (ii) WDC (2026-10-22) confirmed NAND input-cost inflation — a tailwind read-across for SNDK pricing. (iii) SK hynix prints hours before SNDK (Wed 2026-10-28 Seoul) — its NAND pricing commentary will pre-price SNDK's guide. (iv) Insider selling: chairman sold ~$105M in Sep; insiders sold ~$130M total and bought nothing (The Inference, Oct 2026) — while the company itself bought $4.5B in Q4 at ~$1,600 average. Both facts are true; the panel should hold both.
+- (a) **Guides everything, at high granularity:** current-quarter AND full-year revenue, billings, service revenue, non-GAAP EPS, gross margin, op margin. The most complete guider in this batch.
+- (b) Forward consensus: Q4 2026 direct consensus **not found**. Implied from guide: FY26 guide EPS $3.41–3.47 minus Q1 $0.82 + Q2 $0.90 + Q3E $0.86 (= $2.58) → **Q4 implied $0.83–0.89**; Zacks FY26 consensus EPS $3.42 → Q4 implied ~$0.84. Revenue: FY guide $8.02–8.18B minus H1 $3.90B + Q3E $2.06B → **Q4 implied ~$2.06–2.22B** (Q4 is seasonally FTNT's largest).
+- (c) Run-rate support: Q4 implied numbers are **continuation with normal Q4 seasonality on revenue, but require Q4 EPS at the top of the recent quarterly range ($0.81–0.90 band) and billings to stay hot** after a +33% Q2. Achievable, not free: it assumes the firewall-refresh/AI-security product surge persists two more quarters, which is exactly what the Arete Sell thesis disputes for 2027.
+- (d) Guide history (2026, the verifiable chain): **Feb 5:** initial FY26 revenue $7.50–7.70B, billings $8.4–8.6B, EPS $2.94–3.00. **May (Q1):** raised to ~$7.71–7.87B revenue / EPS ~$3.10–3.16 (per Zacks' "prior guidance" references). **Jul 29 (Q2):** raised again to **revenue $8.02–8.18B, billings $9.35–9.55B, EPS $3.41–3.47, op margin guide 33–36% → 35–37%**. Two raises, no cuts, in 2026. Prior-year pattern per TipRanks/MarketBeat history is the same beat-and-raise cadence (8/8 EPS beats). Stock reaction: the July raise coincided with the +20% reaction in the screen's last-4 — raises here DO get paid, which cuts both ways if this one merely reaffirms.
+- (e) Between quarters: no intra-quarter raise found. The Oct 1 Scotiabank FY estimate raise ($2.77→$3.10) is an analyst move, not company guidance — do not conflate.
 
-### 6. Priced in
-1-month **−29.4%**, 6-month +17.3%, YTD +429%, 1-year +611% (Finnhub, 2026-10-26). Price is **−46.7% below the 52-week high of $2,354.39** (June). Forward P/E: **~5.8–8.4× FY27 consensus** — optically the cheapest name in the batch, and the classic peak-cycle trap: on a sketched full cycle (two boom years, two lean years cushioned by LTA floors) average EPS is ~$60, i.e. ~21× at $1,255 and ~178× the FY22–26 average GAAP EPS (Dividend Line X-ray, Oct 2026). The market is not mispricing SNDK; it is refusing to capitalise peak NAND earnings. Options-implied move: **7.7% (Investing.com/Bloomberg model) to 12.1% (TipRanks, 2026-10-23) to 13.7% (Earnings-Watcher, 2026-10-16)** vs screen realised proxy 7.8% avg abs — options price *more* than the recent realised average, less than the 10-year average actual move of 13.3%. Crowded? **No longer crowded on price** (de-rated hard for a month, RSI ~30 per vendor technicals), but crowded on *narrative*: every target on the Street assumes the supercycle persists.
+### 6. Priced-in
+- Price $183.55. **1-month +6.7%** (Finnhub; +9.4% in last 5 days), screen ret_21d +5.8%; **3-month ~+20.7%** (Tradestie 90-day); **6-month +114–116%, 12-month +116%** (screen/Finnhub), YTD +128–133% (Zacks/Finnhub). **−5.8% vs 52w high $197.13** (screen) — essentially at the highs after doubling.
+- Valuation: screen forward P/E **48.4×** (Tradestie: forward 48.8× vs FTNT's own historical average ~35.3× — **~37% above its own history**), trailing ~65×. This is the richest own-history multiple in the batch.
+- Options-implied move: **not found** as a published figure. Screen realised proxy avg abs **9.6%**, worst −22% — the fattest realised tail in the batch alongside GRMN.
+- **Crowded? Explicitly: YES — the crowded one of the four.** Doubled in 6–12 months, at the highs, price above the mean analyst target ($169), Hold consensus, vocal bears (Arete Sell, three Underweights) failing to dent it, and a +20%-average-surprise beat record that the market now treats as the base case. A merely in-line guide reaffirmation is a sell-the-news candidate.
 
-### 7. Moat / irreplaceability
-Vertically integrated NAND (design + fab via Flash Ventures JV with Kioxia), one of ~5 credible NAND makers, enterprise SSD qualification moat with hyperscalers, and now LTA floor-price contracts no memory maker has previously extracted at this scale. But NAND remains a commodity with a brutal history (revenue fell 38% FY22→FY23; GM was 7% at spin-off). **Irreplaceability 5/10.** A −15% gap that sticks for 18 months: **opportunity, not disaster, IF the LTA floors hold** — at $1,067 the stock would be ~5× FY27E with a net-cash balance sheet and a $15.5B buyback underneath it. It becomes a disaster only in the scenario where the gap is caused by NAND spot rolling over *and* LTAs being renegotiated — in which case EPS doesn't fall 15%, it falls 60%+.
+### 7. Moat / AI-irreplaceability: **8/10**
+Custom ASIC architecture (SPU/SP6 with Intel US-manufacturing partnership), single-OS (FortiOS) convergence of networking + security, 40%+ share positions in firewalls, and now the "SASE firewall" framing (Secure Networking + Unified SASE billings +34–35% in Q2, FortiSASE billings +100%+). AI increases east-west/machine traffic that must be inspected at throughput — a structural tailwind, not a displacement threat, so far. Docked: Palo Alto Networks/Cisco competition is real, hardware cyclicality is real, and there is no consumer/platform lock-in — enterprise refresh budgets can defer.
 
-### 8. Print-specific risks
-Guide-vs-whisper repeat of Q4 (consensus already at guide top-half); GM plateau (83–85% guide vs 84.6% actual reads as "peak margin" to a momentum holder); SK hynix pre-print read-across; price-led growth decelerating to bit-led growth; consumer segment already shrinking; the stock's beta (3.5 per Finnhub) in a Fed-day week.
+### 8. Risks specific to THIS print
+1. **Product-revenue lumpiness:** +52% in Q2 annualises expectations; any normalisation reads as deceleration even at +25–30%.
+2. Billings: guide $2.25–2.35B vs a $2.37B Q2 print — a sequential billings decline is already guided; below $2.25B would break the raise narrative.
+3. Memory/component cost pressure (flagged on prior calls) vs the 79–81% gross-margin guide; Q2's pricing actions may not repeat.
+4. Valuation + positioning (see §6): at 48× forward with the price above the Street mean target, the asymmetry is poor — beats are paid +5–20%, but the −22% worst reaction is also in its own record.
+5. 2027 fade debate (Arete): any cautious 2027 colour on the call lands harder than the Q3 numbers.
 
 ### 9. Scores
-Beat-likelihood **8/10** (6 straight beats, guides set conservatively). Guide-risk **7/10 HIGH=BAD** (the guide *is* the stock; Q4 proved the reaction function). Priced-in **5/10** (price de-rated −47% off high, but earnings expectations are at cycle-max). **Verdict: the best risk/reward shape in the storage pair precisely because it has already been punished — but the position is a bet that the Q2 guide clears a whisper nobody has published.**
+- Beat-likelihood **8/10** · Guide-risk **6/10** · Priced-in **9/10**
+- Verdict: Best beat machine in the batch attached to the worst entry price — 8/8 beats averaging ~+20% are already the consensus expectation at 48× forward, $14 above the mean target.
 
 ### 10. Plan
-**Plan B by default.** Becomes Plan A only if the panel judges the LTA floor coverage (50%+ of FY27 output at floor prices, $7.7B prepaid) converts this from a commodity print into a contracted-revenue print. That is a genuinely arguable A — the strongest A-case in this batch alongside FTNT.
-
-**Earnings-quality flags:** none assigned to SNDK in the brief. Own note: adjusted FCF excludes NBM payments and Flash Ventures activity (per Q4 coverage) — benign JV accounting, but GAAP-vs-adjusted cash should be checked at the print.
+**Plan B.**
 
 ---
 
-## 2. STX — Seagate Technology Holdings — REPORTS TODAY, Tue 2026-10-27 AMC
+## 4. GRMN — Garmin ($292.56, screen rank 12)
 
-### 1. Date
-**Tue 2026-10-27, AMC (call 17:00 ET). CONFIRMED** — company press-release calendar / IR (Zacks 2026-10-26; Tickeron; EquitySwarm: "confirmed via its investor relations site"). Fiscal Q1 2027, ended early Oct 2026. No move.
+### 1. Report date
+**CONFIRMED — Wed 2026-10-28, BMO, call 10:30 a.m. ET.** Primary-source chain: Garmin release dated **Sep 23, 2026** scheduling the Q3 release and call for Oct 28 (reported by MarketScreener/ad-hoc-news from the company's release; Seeking Alpha preview Oct 27: "scheduled to announce Q3 earnings results on Wednesday, October 28, before market open"; Zacks Oct 26 same). Matches screen. Not moved.
 
-### 2. Bar
-Company guide (2026-07-28): **revenue $4.1B ± $100M, non-GAAP EPS $7.30 ± $0.20.**
-Consensus: EPS **$7.39–$7.44** (Clearthesis ~$7.39; Defense World/MarketBeat $7.41–$7.42; Zacks $7.44), revenue **$4.11–$4.14B**. Zacks Earnings ESP +2.07% (whisper modestly above consensus). Consensus sits *inside* the guide range, upper half — a cleaner setup than SNDK: STX does not need to beat its own guide by much, it needs to beat $7.42 and guide Q2 up. Revisions last 30d: mixed-to-up — Morgan Stanley PT $1,187→$1,200 (2026-10-20), BofA $1,150→$1,200 (2026-10-21), but Wells Fargo *cut* its PT $1,180→$865 (still Overweight, ~2026-10-20) citing Toshiba HDD-expansion concerns. FY27 consensus EPS ~$35.70–$35.79; FY28 ~$57.8–$57.9.
+### 2. The bar
+- **Consensus Q3 2026: pro forma EPS $2.38, revenue $1.98–1.99B** (Zacks Oct 26: $2.38, +19.6% YoY; revenue $1.99B, +12.3% YoY — note Zacks text mislabels it "second-quarter revenues," the figure is the Q3 estimate; Seeking Alpha: $2.38 / $1.98B; AlphaStreet: $2.38, 7 analysts, range $2.28–2.54 / rev range $1.95–2.04B; MarketBeat prints $2.41 / $1.99B). Use $2.38–2.41 / $1.98–1.99B.
+- Segment bars (Zacks/Yahoo): Fitness ~$728.6M (+21.3%), Outdoor ~$545.7M, Auto OEM ~$158.1M (**−4.2%**, expected decline ahead of a major program launch in early 2027).
+- Revisions: AlphaStreet — EPS consensus **flat over last 30 days at $2.38, +1.7% over 90 days** ($2.34→$2.38). Quiet, slight upward drift. One stale outlier: a MarketBeat-derived Oct 20 item cited $2.73 EPS — inconsistent with every other source and with the $2.38 consensus cluster; treat as stale/erroneous, do not use. Whisper: not found.
 
-### 3. Last four prints — and the screen-reaction correction
-- **Q4 FY26 (2026-07-28):** non-GAAP EPS $5.71 vs $5.10 consensus; GAAP EPS $5.58; revenue $3.63B vs $3.50B; non-GAAP GM 52.7% (record); guide Q1 $4.1B / $7.30 — well above the then-consensus ($3.75B / $5.80). **Reaction verification (explicitly requested): the screen's −9% for this print is WRONG as a post-print reaction.** Sources found: shares **rose ~6% after hours on 2026-07-28** (CryptoDaily/Techmeme recap of the print); the stock opened the next session at $747.20 on Wed 2026-07-29 (American Banking News / MarketBeat). One secondary source (TradingNews) describes "an 8.53% decline on the day to $747.30, followed by a 5.13% after-hours recovery" — i.e. the −8.5%/−9% move belongs to the *pre-print / print-day regular session* (a selloff into the number), not the session after it. **This corroborates yesterday's verifier: the −9% is the pre-print session; the genuine post-print move was positive (after-hours ~+6%; the exact close-to-close next-day figure of +2.1% cited by the verifier was not independently re-derived from a primary price source in this pass — treat +2.1% as plausible-but-unverified, and −9% as definitively misattributed).** Consequence: STX's true last4 reaction record is better than the screen's −9%, +11%, +19%, +19% — the first entry should be a positive number.
-- **Q3 FY26 (2026-04-28):** EPS $4.10 vs $3.48–$3.51 consensus; revenue $3.11B vs $2.95B (+44% YoY); GM 47.0% non-GAAP; Q4 guided $3.45B / $5.00; reaction **+18–19% after hours** (BitRss/StockStory recap: $579.03 close → $687 after hours) — matches screen +19%.
-- **Q2 FY26 (Jan 2026):** non-GAAP EPS $3.11 vs Zacks $2.83, above the top of its own $2.75 ± $0.20 guide; revenue $2.83B (+22% YoY), +2.7% vs consensus; reaction **≈ +11%** per screen (not independently re-derived).
-- **Q1 FY26 (2025-10-28):** EPS $2.61 vs $2.39–$2.40; revenue $2.63B vs $2.54–$2.55B (+21% YoY); GM 40.1% (then-record); reaction **≈ +19%** per screen (not independently re-derived).
-Eight consecutive EPS beats (Tickeron); trailing-4 average surprise +12.4% (Zacks).
-
-### 4. Revenue / margin trend
-Revenue: Q1 FY26 $2.63B → Q2 $2.83B → Q3 $3.11B → Q4 $3.63B (+48.5% YoY); FY26 $12.20B (+34%). Non-GAAP GM: 40.1% → ~44% → 47.0% → **52.7%**; GAAP GM 37.4%→52.3% across FY26 (10-K attribution: "pricing actions" first, then mix shift to higher-capacity). **Accelerating on both lines, thirteen straight quarters of margin gains** per one recap. Q4 anatomy matters for the guide (TKAL forensic read of the 10-K/call): Q4's revenue gain was ~70% *volume* (218 EB shipped, +34%); the Q1 guide requires the opposite mix — see §5(c).
-
-### 5. THE GUIDE
-(a) **Guides one quarter ahead:** revenue ±$100M, EPS ±$0.20, plus directional margin ("~50% operating margin" for Q1 per recaps). No formal FY guide; instead it guides the *demand book*: nearline capacity "almost fully allocated through calendar 2027," and at Q4, "the vast majority of nearline exabytes are now allocated into calendar 2028."
-(b) Next quarter (Q2 FY27) consensus: **not found** as a clean published figure in this pass. FY anchors: FY27 EPS ~$35.7–$35.8, FY28 ~$57.8–$57.9 — FY28 consensus embeds another +62% EPS year, which is the real expectation mountain.
-(c) Run-rate support — **the crux for STX:** the $4.1B Q1 guide (+13% QoQ) cannot be reached on volume at management's own mid-20s% exabyte-growth pacing: TKAL's arithmetic from the Q4 call/10-K shows the guide needs revenue-per-TB up ~+19.4% at any exabyte count up to ~237 EB, with volume supplying less than half the gain; their falsifiable line: Q1 exabytes ≥237 = volume story intact, <228 = the quarter was carried by price alone. Q4's beat was volume-led; Q1's guide is price-led. Price above contract is exactly what a 14%-of-revenue customer (up from 10%; top-3 customers = 18%/16%/10% of receivables at year-end) will push back on at the next LTA negotiation. So the forward number is *supported* for Q1 (allocated book + pricing power in a shortage) but the support mechanism changes character — continuation for one quarter, unseen acceleration of *pricing* thereafter.
-(d) Guide history: Q1 FY26 guide beaten; Q2 guide $2.55B/$2.75 beaten ($2.83B/$3.11, above range top); Q3 guide beaten; Q4 guide $3.45B/$5.00 beaten ($3.63B/$5.71) and Q1 guided far above consensus. **Four straight beat-and-raises, each rewarded (+11% to +19%, and Q4 positive after hours once the pre-print session is stripped out).** No cuts/trims in the last 8 quarters found.
-(e) Raised between quarters? No intra-quarter raise found; allocation commentary extended (2027 → into 2028) at Q4, which functions as a soft raise.
-What's changed: Mozaic 4 (44TB HAMR) ramping, target ~50% of HAMR exabytes by exit CY26; Mozaic 5 (50TB) late CY27; new demand legs cited by bulls (KV-cache/agentic AI, NeoClouds, physical AI); ~$1.2B debt retirement planned in the Sep quarter, net debt down to ~$1.9B (0.4× adj. EBITDA) unlocking buyback acceleration; WDC's print (2026-10-22) confirmed HDD pricing strength but also flagged NAND cost inflation — for STX the read-across is benign on price, watch on BOM; Toshiba HDD expansion is the new competitive talking point (WF PT cut); the $175M Huawei-related shareholder settlement is a known, dated overhang, not a print item.
-
-### 6. Priced in
-1-month **−29.7%**, 6-month +8.1%, YTD +134%, 1-year +180% (Finnhub). **−43% below the $1,145 52-week high** (June 18 intraday ATH). Forward P/E on FY27 consensus: $654.93 / $35.79 ≈ **18×**; on FY28 ≈ 11×; trailing P/E ~45× on depressed trailing EPS (Finnhub) — the trailing multiple is meaningless mid-ramp; the honest statement is that the stock prices FY28 delivery at a mid-teens multiple and peak-cycle scepticism beyond it. Options-implied move: **not found** from a reputable source in this pass (do not substitute); screen realised proxy is 11.0% avg abs, the largest in this batch alongside its +19% prints — options almost certainly price double digits. Crowded? **De-crowded by price** (−30% in a month, targets $865–$1,350 cluster far above spot), still crowded by narrative (HDD supercycle is a consensus long).
-
-### 7. Moat / irreplaceability
-HDD duopoly (STX/WDC) with genuine barriers: HAMR photonics, internal laser production, areal-density roadmap to 100TB, build-to-order model, and a cost-per-TB advantage over NAND for cold/warm data that widens as NAND prices rise. Offsetting: a commodity cycle that cut revenue 44% last downturn, ~90% of exabytes to hyperscalers, customer concentration rising. **Irreplaceability 6/10** — the highest of the storage pair, because there is no third supplier to switch to. −15% gap stuck 18 months: **opportunity** — net debt ~0.4× EBITDA, $3.1B record FCF, buyback capacity; the business would be buying itself at ~15× FY27E while the book is allocated into 2028.
-
-### 8. Print-specific risks
-**It prints TODAY** — no time to react to SK hynix (tomorrow) or anything else; the price-vs-volume mix in the guide (§5c); any Mozaic 4 yield/transition slip (management itself flagged WIP held during transitions ships a quarter late); Q2 guide is the trade — a merely in-line Q2 guide after four beat-and-raises breaks the pattern that the last4 reactions (+11/+19/+19) were paying for; GM at a record 52.7% has one direction of surprise left that matters.
-
-### 9. Scores
-Beat-likelihood **8/10**. Guide-risk **6/10** (pattern is pristine, but Q1's guide is price-dependent and Q2 must extend it). Priced-in **5/10**. **Verdict: four straight beat-and-raises, a corrected reaction record that is better than the screen shows, and a −43% de-rating — the cleanest "hold through the print" setup in the batch, with the single caveat that the guide's price-dependence is new.**
-
-### 10. Plan
-**Plan B** (default). A-case: the allocation book into CY2028 + duopoly + net-debt collapse make the fallback (own it for 18 months at 18× FY27E) genuinely comfortable. Weaker than SNDK's A-case on contracted floors, stronger on supplier irreplaceability.
-
-### Earnings-quality flag — STX: RECEIVABLES_OUTRUN — EXPLAINED
-Balance sheet (Q4 FY26 press release / 10-K): accounts receivable **$959M (2025-06-27) → $1,534M (2026-07-03), +60% YoY**, vs FY revenue +34% — receivables outran revenue, hence the flag. Intra-year path: $959M → $1,246M at Q2 (2026-01-02) → $1,534M at year-end; the cash-flow statement shows a −$575M change in receivables for FY26. Mitigants: (i) the growth is back-loaded into the highest-revenue quarter in company history (Q4 revenue +48.5% YoY, +17% QoQ) — receivables are a snapshot of the exit quarter, and annualising Q4 revenue ($3.63B × 4 = $14.5B) puts receivables at ~10.6% of run-rate revenue, unremarkable; (ii) the customers are hyperscalers — the receivable is concentrated (top-3 = 18%/16%/10% of receivables) but in investment-grade cloud buyers, not channel stuffing into distributors; (iii) cash conversion is proven in the same period: record $3.1B FCF and $1,118M FCF in Q4 alone — earnings are *not* ahead of cash at the annual level. **Verdict: benign — a growth-and-mix artefact (exit-quarter snapshot + hyperscaler concentration), not earnings ahead of cash; the residual risk is concentration, not collectability.**
-
----
-
-## 3. MPWR — Monolithic Power Systems
-
-### 1. Date
-**Thu 2026-10-29, AMC. CONFIRMED** — Zacks earnings calendar marks 2026-10-29 as "a confirmed date," AMC, period ending Sep 2026; corroborated by MarketBeat and Nemo. Fiscal Q3 2026 (calendar Q3). No move from screen date.
-
-### 2. Bar
-Company guide (given 2026-07-30): **Q3 revenue $1.14–$1.16B** (midpoint $1.15B). No EPS guide (MPS guides revenue only — see §5a).
-Consensus: **non-GAAP EPS $7.79–$7.80, revenue ~$1.16B** (Zacks $7.80, ESP +1.35%; MarketBeat $7.79 / $1.16B). Note the trap in some coverage: Barchart's "$6.53 EPS" preview figure is a GAAP diluted number — do not mix it with the $7.79 non-GAAP bar. Consensus revenue sits at the *top* of the guide range: the Street has already moved to the guide after Q2's shock raise (Q3 consensus was $986.8M before the Q2 print — the guide itself moved the bar +16.5%). Whisper: ESP +1.35% says whisper ≈ consensus; revisions last 30d: estimates "being raised" per vendor signal pages (12 analysts raising) — **no quantified whisper found** beyond ESP.
-
-### 3. Last four prints
-- **Q2 2026 (2026-07-30):** revenue $980.6M vs $903.3M consensus (+8.6% beat, +47.6% YoY, +21.9% QoQ); non-GAAP EPS $6.50 vs $5.88 (+10.5%); Q3 guided $1.14–$1.16B (16.5% above consensus); FY Enterprise Data growth outlook raised 85% → 130%; reaction **+10.5% intraday / next session (StockStory)** — screen last4 shows +8% as the most recent; treat as a high-single-to-double-digit up move, sources differ on the exact session convention.
-- **Q1 2026 (2026-04-30):** EPS $5.10 vs $4.90; revenue $804.2M vs $781.9M; reaction **≈ +6%** per screen.
-- **Q4 2025 (2026-02-05):** EPS $4.79 vs $4.74; revenue $751.2M vs $741.7M; reaction **≈ +6%** per screen (vendor EPS-surprise series shows a −4.7% 20-day post-earnings *drift* for the Dec-2025 quarter — drift ≠ reaction; flagged, not resolved).
-- **Q3 2025 (2025-10-30):** EPS $4.73 vs $4.62; revenue $737.2M vs $720.7M; reaction **≈ −8%** per screen, worst in last4 −17.5% (older print). 
-Pattern: beats every quarter but *small* (+1% to +11%) until Q2 2026, when the beat and the guide both exploded. The stock's reaction is a guide referendum, not a beat referendum.
+### 3. Last four prints (pro forma EPS)
+- **Q2 2026 (Jul 29, 2026):** pro forma EPS $2.81 vs $2.29–2.30 consensus (+22–23%). Revenue $2.02B vs $1.93B, +11.4% YoY. GAAP diluted EPS $2.80. Op margin 30.0–30.4%. **Raised FY26 guide** (see §5). Reaction: strongly up — Trefis: +15.2% from the close before the release to Oct 22 (cumulative, not 1-day); TickerOn: "~17% after its July 2026 report" (window unspecified); screen last-4 includes +16%.
+- **Q1 2026 (Apr 29, 2026):** pro forma EPS $2.08 vs $1.84 consensus (+13%). Revenue $1.75B (per quarterly series). Op margin ~25%. **Guide held flat** at the April release — and per the5krunner's contemporaneous note, "a strong Garmin quarter does not guarantee a strong share price reaction" after Q1 — the stock was not rewarded the way Q2 was.
+- **Q4 2025 (Feb 18, 2026):** pro forma EPS $2.79 vs $2.39 consensus (+16.7%). Revenue: not found in this search (Q4 is seasonally Garmin's biggest; do not substitute a guess).
+- **Q3 2025 (Oct 29, 2025):** pro forma EPS $1.99 vs $1.99 consensus (**0.0% — a meet, not a beat**; note the screen counts only 3 of last 4 with surprise data and 6/8 beats over 8 quarters for GRMN — the "streak" is thinner than APH/FTNT).
+- Screen: beat→up **0.833 (5/6 measured)**, avg move +4.5%, **avg abs 11.4% (largest in batch)**, worst −11.5%, last-4 "+16%, +2%, +9%, −11%"; Zacks: trailing-4 average surprise +13.5% (matches brief).
 
 ### 4. Revenue / margin trend
-Revenue: Q3'25 $737M → Q4'25 $751M → Q1'26 $804M → Q2'26 $981M — **accelerating hard in Q2**. Enterprise Data: Q2 $380.6M, +164.3% YoY, +44.8% QoQ (from +97.7% YoY in Q1 — genuine re-acceleration off a high base). GAAP GM 55.2% in Q2, GAAP operating margin 31.0% (from 24.8% a year earlier); non-GAAP operating margin 37.5%. Inventory days fell 157 → 140 in Q2 even as revenue jumped — the ramp is scaling profitably, not stuffing. Diversified tail: comms, auto, consumer, industrial all grew sequentially in Q2.
+Revenue: Q1'26 $1.75B → Q2'26 $2.02B (+11.4% YoY). YoY growth is **steady double-digit, not accelerating** at the consolidated level (screen rev_yoy_q +11.4%, rev_accel +3.1pts only; TTM rev growth +8.4%). The mix is doing the work: **Fitness +42% (Q1) → +25% (Q2, $757M)** — decelerating but still the engine, with advanced wearables (and sold-out CIRQA band, 5–8 week lead times) driving mix; every Fitness category grew in Q2. Margins: gross margin up on mix (Fitness gross ~64%), operating margin **25% (Q1) → 30.0–30.4% (Q2)**, operating income $431.7M → $615.5M — **but Q2 included a $21M tariff refund**; ex-refund, margin expansion is real but smaller. Management flagged **higher memory costs in H2** as the offset to watch. Auto OEM guided to decline in H2 ahead of the early-2027 program launch.
 
 ### 5. THE GUIDE
-(a) **Guides revenue one quarter ahead only** (range), plus — unusually — a full-year *segment* growth floor for Enterprise Data. No company EPS or full-year revenue guide. Granularity is therefore high where it matters (the AI segment) and absent elsewhere.
-(b) Next quarter (Q4 2026) consensus: ~$7.56 EPS (single-estimate vendor table, MarketBeat/Fiscal.ai — treat as thin); FY26 EPS ~$23.32 (Barchart, GAAP-diluted basis) with FY27 ~$30.43 (+30.5%). The number the print must produce is the **Q4 revenue guide**: at the Q2 pattern, anything ≥ ~$1.25B sustains the story; a guide that merely matches the post-Q2 consensus is a de facto trim of momentum.
-(c) Run-rate support: Q3 guide $1.15B midpoint = +17% QoQ off a +22% QoQ quarter, with Enterprise Data guided (via the 130% FY floor) to keep compounding — the Q3 bar is *continuation*, fully supported by Q2's order visibility ("broad-based ordering patterns," capacity goals extended "significantly beyond $6B"). The unseen-acceleration problem sits one quarter further out: Q4 consensus embeds another step-up that requires Blackwell/Vera Rubin VRM content to keep ramping on schedule.
-(d) Guide history: Q2 2026 was a **beat-and-raise of unusual size** (guide +16.5% vs consensus; segment FY outlook +45pts). Prior quarters: guides met/beaten by small margins, reactions mixed (+6%, +6%, −8%) — i.e. before Q2, MPWR guided *adequately*, not aggressively. Last-8-quarter raised/reaffirmed/trimmed/cut ledger beyond this: **not found** in full; no cut found in the periods searched.
-(e) Raised between quarters? The Q2 print itself was the raise (2026-07-30). No intra-Q3 pre-announcement found.
-What's changed: initial orders for high-speed DDR5 memory power components; sampling of 800V data-center AC-to-DC products on in-house SiC — content-per-rack expanding beyond VRMs; +$500M buyback authorisation (total $1B) announced with Q2; capacity expansion beyond the prior $6B goal. Peer read-across: ADI Q3 (2026-08-19) beat modestly ($3.45 vs $3.34) — analog demand is fine but not euphoric; the AI-power names are being priced on NVDA-platform content, and any Vera Rubin timing commentary from the channel this week lands directly on MPWR's Q4 guide.
+- (a) **Guides full-year only, as point estimates (not ranges):** FY revenue ~$, FY pro forma EPS ~$, plus FY gross/op margin and tax rate colour, and segment growth expectations. No quarterly guide. Updates come only at prints.
+- (b) Forward consensus: FY26 consensus EPS **$10.08** (MarketBeat) — essentially on top of the company's $10.00 guide; FY27 consensus $10.70. Q4 2026 direct consensus not found. Implied Q4: FY guide $8.05B revenue minus H1 $3.77B + Q3E $1.98B → **Q4 implied ~$2.30B revenue**; EPS $10.00 minus H1 $4.89 (2.08+2.81) + Q3E $2.38 → **Q4 implied ~$2.73 pro forma EPS** (vs Q4'25 $2.79 actual — i.e. guide implies a roughly flat YoY Q4 EPS).
+- (c) Run-rate support: Q4 implied revenue $2.30B is **continuation + normal Garmin Q4 holiday seasonality** (Q4 is always its biggest quarter); Q4 EPS ~$2.73 vs $2.79 a year ago asks for **no acceleration at all** — if anything the FY guide embeds H2 memory-cost pressure. This forward bar is *supported by* the run-rate, the second-cleanest in the batch after APH.
+- (d) Guide history (verifiable 2026 chain + pattern): **Q4'25 print (Feb 18):** initial FY26 guide (revenue $7.90B; pro forma EPS $9.35 per the5krunner's chain — one source; Trefis documents the April step as $7.9B / $9.65, see discrepancy note). **Q1 print (Apr 29): guide reaffirmed/held** ($7.90B revenue; EPS shown as $9.65 in Trefis' account of the April release) despite a +13% EPS beat — the hold, not a raise, is why Q1's beat was not rewarded. **Q2 print (Jul 29): RAISED — revenue $7.90B → $8.05B, pro forma EPS → ~$10.00** (from $9.65 per Trefis/Yahoo, or from $9.35 per the5krunner — sources conflict on the starting EPS point, not on the raise or the landing point), tax rate guide raised 16% → 16.5%, FY gross margin assumes no further tariff refunds. Pattern over 8 quarters (from Public/Zacks surprise history): consistent beats with **conservative, infrequently-raised** annual guides — Garmin raises late and modestly, which is why the July raise moved the stock so much.
+- (e) Between quarters: no intra-quarter guide change found. Arete initiated Buy, $335 target, Oct 14 — analyst action only.
 
-### 6. Priced in
-1-month **−14.6%**, 6-month −26.5%, YTD +28.8%, 1-year +5.6% (Finnhub). **−32% below the 52-week high of $1,714.09.** Valuation: trailing P/E ~70× (Finnhub); screen forward P/E 33.1×; P/S ~18–20× — the richest multiple structure in this batch relative to growth durability, cheaper than its own peak only because the price fell for six months. Options-implied move: **not found** from a reputable source; screen realised proxy 8.9% avg abs, worst −17.5% — the tail is fat and has been exercised before. Crowded? **No — this is the de-crowded AI name**: −26% in six months while posting its best quarter ever is a "show me again" tape, not a crowded long. That is the bull case for holding through: expectations were reset by price, not by estimates (estimates rose).
+### 6. Priced-in
+- Price $292.56 (screen; Finnhub close Oct 27 $289.34 — source/time spread, use screen price for consistency). **1-month −1.6%** (Finnhub), screen ret_21d −0.5%; 6-month +12.4–14.6%; **YTD +42.6%**. **−6.2% vs 52w high $314.28** (screen), 52w low $186.67. Unlike APH/GOOGL there has been no washout; unlike FTNT there has been no parabolic run into the print either — a steady grind near highs.
+- Valuation: screen forward P/E **26.3×**, trailing ~30×. For a ~11% revenue grower that is **full vs GRMN's own history** (it spent years in the high-teens/low-20s forward) — the multiple already capitalises the Fitness re-rating. Mean target $306.71 (screen), only +4.8%; range is wide (Morgan Stanley $289, Arete $335, UBS $370).
+- Options-implied move: **not found**. Screen realised proxy avg abs **11.4%** — the options market, whatever it prints, is competing with a genuinely violent realised distribution (+16% and −11% both in the last four).
+- **Crowded? Explicitly: MODERATELY — owned and liked, not chased.** YTD +43% and a near-high price say the re-rating has happened; flat 30-day estimate revisions, a mid-pack target spread and a −1.6% month say nobody is piling in this week. Crowding sits in the *multiple*, not in positioning momentum.
 
-### 7. Moat / irreplaceability
-The best analogue/power design-win moat in semis outside ADI/TXN: proprietary BCD process, multi-year socket lock-in on GPU voltage regulation (Blackwell → Vera Rubin), fabless with a diversified supply chain, expanding from chip to full power *solution* (modules, SiC, 800V architecture). Power delivery is a genuine AI bottleneck and MPS is designed-in, not spot-bought. **Irreplaceability 7/10** — highest in this batch. −15% gap stuck 18 months: **opportunity, clearly** — a design-win business growing 30–48% with 55% GM, net cash and a buyback does not stay at ~25× forward for 18 months unless the NVDA socket is lost, which would be visible in the guide long before it showed in revenue.
+### 7. Moat / AI-irreplaceability: **7/10**
+Vertical integration (own factories, own silicon/software stack), genuine brand + ecosystem lock-in in aviation (Autoland installed on 2,500+ aircraft), marine, and serious-endurance wearables where Garmin's battery life/sensors beat phone-tethered rivals. Fitness data network (Garmin Connect + TrainingPeaks/TrainHeroic acquisitions) adds a services layer. Docked 3: the largest segment competes head-on with Apple/Samsung wearables — distribution giants with bigger ecosystems — and hardware remains cyclical and tariff/memory-cost exposed. AI neither displaces Garmin's sensors nor uniquely advantages it; this is a product-execution moat, not an AI moat.
 
-### 8. Print-specific risks
-Consensus revenue at the guide's top end leaves no room for a "meet"; the Q4 guide is the whole trade and Q4 is seasonally where MPS has stumbled before (Q4'24 GAAP EPS miss in the older record); Enterprise Data concentration — one segment is now ~39% of revenue and the 130% floor will be re-litigated if Q3 segment growth decelerates optically; China/export exposure (MPS's historical China revenue share and entity-list overhang — not in this week's news flow, but a standing headline risk); the receivables flag below.
-
-### 9. Scores
-Beat-likelihood **7/10** (Q3 guide was set from a position of visibility; consensus at range-top tempers it). Guide-risk **6/10** (Q2 set a raise precedent the market will demand again). Priced-in **4/10** (six-month de-rating, estimates up / price down divergence). **Verdict: the "show me again" name — if Q2's raise was real and not a pull-forward, this print proves it at a price 32% below the high.**
-
-### 10. Plan
-**Plan B**, with a credible A-path: irreplaceability 7 and the fallback quality (own a designed-in AI power franchise at a de-rated price) are A-grade; what keeps it B is that the A-decision would be made *before* the Q4 guide that decides the next 12 months.
-
-### Earnings-quality flag — MPWR: RECEIVABLES_OUTRUN — EXPLAINED
-10-Q balance sheets: receivables **$255.6M (2025-12-31) → $302.1M (Q1'26) → $343.6M (Q2'26)**; YoY receivables **+~76% vs revenue +48%** (MarketBeat financials review of the Q2 filing), with inventory +~38% YoY (to $675.8M, +9.2% QoQ) — receivables clearly outran revenue, hence the flag. Mitigants: (i) DSO remains low in absolute terms (~30–32 days on vendor ratio series; receivables turnover ~11.5–12×) — this is not a company stretching terms to 90 days; (ii) the mix shift explains much of it: Enterprise Data (hyperscaler/OEM customers on standard large-customer terms) grew +164% and is now the largest segment, mechanically lifting blended receivables faster than blended revenue during the transition quarters; (iii) inventory days *fell* (157 → 140), which is the opposite of a stuffing pattern — a channel-stuffing quarter builds both receivables *and* stale inventory; (iv) operating cash flow has historically tracked earnings (TTM OCF/share $14.75 vs EPS $12.86 per vendor ratios). Watch item: MarketBeat notes a decline in quarterly cash conversion in Q2 — one quarter, to be checked at Q3. **Verdict: mostly benign — mix-shift arithmetic during a hyperscaler ramp, with healthy absolute DSO; classify as "monitor," not "earnings ahead of cash," unless Q3 shows receivables outrunning again while Enterprise Data growth slows.**
-
----
-
-## 4. GOOGL — Alphabet Inc. (Class A)
-
-### 1. Date
-**Wed 2026-10-28, AMC (call 13:30 PT / 16:30 ET). CONFIRMED** — Alphabet announced the date on its IR site on 2026-10-06 (PrimeXBT/SentiSense, citing Alphabet IR). Q3 2026. Same afternoon as the Fed decision (14:00 ET statement) and Microsoft's print — macro and peer noise are unavoidable. No move from screen date.
-
-### 2. Bar
-Alphabet **does not guide** revenue or EPS (see §5a) — consensus is the bar: **EPS $2.94 (Zacks, 14 estimates via Nasdaq) to $3.03 (MarketBeat/SentiSense); revenue $127.4–$127.9B** (consensus cluster $127.4B / $127.8B / $127.91B). The spread between $2.94 and $3.03 is unusually wide for GOOGL and reflects the Q2 distortion below: some feeds are still normalising the equity-gains noise differently. Whisper: **not found** quantified. Revisions last 30d: price targets raised (JPMorgan → $425, BMO → $480) and cut (Citizens $515 → $450, KeyBanc → $410) in the same month; average PT ~$428 vs $320 spot — the Street is long-term bullish and near-term confused, which is the correct posture.
-
-### 3. Last four prints — NORMALISED (GAAP headline EPS is unusable for Q1/Q2 2026)
-- **Q2 2026 (2026-07-22):** GAAP EPS $9.11 vs ~$2.87–$2.90 consensus — **but $6.26/share was a ~$98–99B unrealised gain on equity securities in other income; normalised EPS ≈ $2.85, a slight MISS vs ~$2.89–$2.90.** Revenue $119.8B vs ~$116.5–$117B (+24% YoY); Cloud $24.8B (+82%), backlog $514B; capex guide raised to $195–205B; FCF −$5.9B; reaction **−7.1% next session (to $317.69)** — screen −7% ✓, and the cause was capex/FCF, not the P&L.
-- **Q1 2026 (2026-04-29):** GAAP EPS $5.11 vs ~$2.66–$2.68 — again inflated by investment gains (normalised figure **not found** precisely in this pass; the gain was materially smaller than Q2's); revenue $109.9B vs ~$107.0B (+22%); reaction **+10% next session (2026-04-30)** — screen +10% ✓.
-- **Q4 2025 (2026-02-04):** EPS $2.82 vs $2.59–$2.63 (clean, +8%); revenue $113.8B vs ~$111.2B (+18%); initial 2026 capex guide $175–185B; reaction **≈ −0.5% close (−4% intraday early)** per PrimeXBT/Motley Fool recaps; screen shows −2% — same sign, small magnitude, convention-dependent.
-- **Q3 2025 (2025-10-29):** EPS $2.87 vs $2.27–$2.32 (clean, +24–26%); revenue $102.3B vs ~$99.9B (first $100B quarter); reaction **≈ +3% to +5%** (screen +3%; Zacks cited ~+5% after hours).
-Normalised record: the underlying business has beaten revenue every quarter and normalised EPS roughly in line-to-modestly-up; the two "monster beats" of 2026 are accounting artefacts (see flag). Beat quality is good, not supernatural.
-
-### 4. Revenue / margin trend
-Revenue: Q3'25 $102.3B (+16%) → Q4'25 $113.8B (+18%) → Q1'26 $109.9B (+22%, seasonal dip) → Q2'26 $119.8B (+24%) — **YoY growth accelerating for four straight quarters**, driven by Cloud: +32% (Q2'25) → +82% (Q2'26), Cloud operating income tripling to $8.8B. Group operating margin: 30.5% → 31.7% → 36.1% → 34.0% (Q1'26 margin flattered by the gain geography; Q2's 34.0% absorbed +42% D&A growth). Search +17% YoY in Q2 (record $63.3B), YouTube ads +13%. The operating trend is the strongest in mega-cap tech; the *cash* trend is the problem: FCF $24.6B (Q4'25) → $10.1B (Q1'26) → **−$5.9B (Q2'26)**, TTM FCF down 27.6% from peak to $53.3B, funded now partly by the $80B equity raise announced 2026-06-01 (incl. $10B Berkshire, $40B ATM from Q3) — dilution has replaced buyback shrink (share count +0.9% YoY).
-
-### 5. THE GUIDE
-(a) **Alphabet does not guide revenue/EPS. It guides exactly one number, and it is the only number that has moved the stock for two quarters: capex.** Current FY26 capex guide: **$195–205B**, plus the qualitative steer that 2027 capex will "increase significantly" and FCF "will remain under pressure."
-(b) Next quarter (Q4 2026) consensus: EPS ~$3.05, revenue **not found** cleanly; FY26 consensus (distorted basis) varies wildly by vendor ($10.91 avg on one feed vs $20.55 Zacks incl. gains) — **do not use FY GAAP consensus for GOOGL this year; it is not a meaningful bar.** The operative forward bars are: Q3 Cloud growth (vs +82%), backlog (vs $514B), and any change to the $195–205B range or the 2027 steer.
-(c) Run-rate support: Q2 capex was $44.9B — annualised ~$180B, *below* the guide floor; hitting $195–205B requires H2 capex to step up to roughly $55B+/quarter. The guide therefore embeds an unseen acceleration *of spending*, which management justifies with the $514B backlog (>50% converting within 24 months) and Kurian's claim (Goldman Communacopia, 2026-09-08) of <2-year payback on AI servers (<1 year on own silicon). Revenue run-rate supports the *demand* side (Cloud +82%, backlog +$50B in one quarter); nothing in the run-rate supports FCF recovery in 2026 — management says so explicitly.
-(d) Guide history (capex guide is the guide): initial FY26 $175–185B (early 2026) → Q1'26 (2026-04-29) $180–190B → Q2'26 (2026-07-22) **$195–205B with a 2027 "significant increase" steer**. Two raises, +$15B midpoint at the last one; the +10% Q1 reaction vs −7.1% Q2 reaction shows the market initially paid for demand-signalling and then balked at the bill + negative FCF + equity-raise dilution. There is no revenue-guide history to grade; on the one guide that exists, direction has been relentlessly up.
-(e) Raised between quarters? No intra-quarter change found; the June equity raise was the between-quarters tell that the Q2 capex raise was coming.
-What's changed this quarter: Pichai has signalled Cloud is rationing scarce capacity toward Google's own frontier models — potentially sacrificing near-term commercial Cloud revenue (a Q3 Cloud-growth optical risk and a long-term moat tell in the same sentence); Gemini at 950M MAU and >90% Fortune 500 penetration (Q2 call); AI-agent competition to Search is the bear narrative (KeyBanc/Citizens cuts cite it); the print lands two hours after the Fed decision, so the first move may be macro, not fundamental.
-
-### 6. Priced in
-1-month **−7.9%**, 6-month −9.6%, YTD +1.2%, 1-year +17.7% (Finnhub). **−21.6% below the 52-week high of $408.61** (closing high $402.62 on 2026-05-13; the June equity offering priced at $355.20, −11.8% below the May record — the company itself sold stock above today's price). Forward P/E ~**20.8×** (vendor forward series) on normalised earnings — middle of its own 3–5y range (it has traded ~18–28× forward through the AI period; the Finnhub "16.0×" trailing figure is corrupted by the $98B gain and must not be used). Options-implied move: **±7.58% (±$24.27, range $295.94–$344.48 into the Oct-30 expiry, data as of 2026-10-23 close; MetisTrades)** vs screen realised proxy 4.4% avg abs — **options price nearly double the recent realised average**, IV rank ~65, put-heavy positioning, negative gamma. That is the market paying up for capex-tail risk. Crowded? Positioning is *defensive*, not crowded-long: put-heavy, below both moving averages, RSI ~31. The crowd has already hedged this print.
-
-### 7. Moat / irreplaceability
-Search distribution (default on Android/Chrome, paid default on iOS), YouTube, Android, the TPU/full-stack AI position (own silicon, own models, own cloud), and a $514B contracted backlog. In AI it is the only player that owns every layer. **Irreplaceability 9/10** — highest in the batch by a wide margin. −15% gap stuck 18 months: **opportunity, unambiguously** — at ~$272 the normalised forward multiple is ~17× for a business growing revenue 24% with 34% operating margins; the 18-month stuck scenario requires the capex to produce *no* return, contradicted by the backlog conversion schedule already contracted.
-
-### 8. Print-specific risks
-A third capex raise (or a 2027 range that quantifies "significant" at a shocking number) is the gap-down path — it worked twice already; FCF negative again and larger; Cloud growth decelerating from +82% on capacity rationing (an optical −, whatever the cause); Search growth slipping below mid-teens as agent competition narrative builds; another large unrealised gain/loss swinging GAAP EPS and confusing the first headlines (either direction); Fed-day cross-currents making the reaction uninterpretable for 24h.
+### 8. Risks specific to THIS print
+1. **Margin quality:** Q2's 30%+ op margin included the $21M tariff refund (guide assumes no repeat) while H2 memory costs rise — a margin step-down is pre-programmed and could still headline as a "miss."
+2. Fitness deceleration: +42% → +25% → consensus expects ~+21% segment growth; a print in the teens changes the re-rating story.
+3. Auto OEM decline (−4.2% expected) plus any slip in the early-2027 program timing.
+4. The realised reaction distribution (avg abs 11.4%): even a good print has produced a −11% day in the last four (screen) — position size must assume double digits either way.
+5. Thin analyst coverage (7 estimates, AlphaStreet) — consensus is fragile; the $2.73 stale outlier shows how easily a wrong bar circulates.
 
 ### 9. Scores
-Beat-likelihood (normalised) **7/10** (revenue beat streak is long; normalised EPS was a slight *miss* last quarter — do not score the GAAP streak). Guide-risk **8/10** (the capex guide is the highest-variance "guide" in the batch and has only ever moved one way). Priced-in **4/10** (de-rated, hedged, options already charging 7.6%). **Verdict: the print is not about whether Alphabet beats — it is about whether the bill grows again; the stock has pre-paid for a bad answer more than any other name here.**
+- Beat-likelihood **8/10** · Guide-risk **5/10** · Priced-in **7/10**
+- Verdict: A conservative-guide, beat-and-raise-late name whose forward bar needs no acceleration — but at 26× forward after a +43% YTD run and with an 11.4% average reaction, the print has to be clean on margin, not just EPS.
 
 ### 10. Plan
-**Plan B.** Fallback quality is A-grade (irreplaceability 9), but Plan A requires the event itself to be low-variance; a binary capex event on Fed day, two hours after Microsoft prints, is the definition of B. If the panel wants one mega-cap A this week, the argument must be that ±7.6% implied vs a −21% de-rating over-compensates — that is a volatility argument, not an earnings-certainty argument.
-
-### Earnings-quality flag — GOOGL: HIGH_ACCRUALS — EXPLAINED (with normalisation)
-Q2 2026 GAAP net income was $112.2B on $119.8B of revenue (net margin 93.7%) because other income contained a **~$98–99B net gain, almost entirely unrealised mark-ups on equity securities** (SpaceX/private AI stakes and the venture portfolio, marked up by the same AI boom Alphabet is spending into). That single line added **$6.26 to EPS**: reported $9.11 vs ~$2.85 underlying — vs ~$2.89–$2.90 consensus, i.e. **a normalised slight miss wearing a +217% "beat" costume.** Q1 2026 had the same disease at lower dose ($5.11 reported vs ~$2.66–$2.68 consensus). Accruals are "high" because the largest profit component is non-cash, unrealised, Level-3-flavoured appreciation that can reverse in any quarter the private marks fall — while, simultaneously, cash flow went the *other* way (FCF −$5.9B). This is the textbook definition of earnings ahead of cash for 2026 GAAP purposes. Mitigants: the gains are disclosed, quantified by the company itself ($6.26/share called out), the underlying operating business genuinely grew (operating income $40.8B, +30%, cash-generative before capex), and nobody at Alphabet chose the accounting — mark-to-market on equity securities is mandatory. **Verdict: benign intent, distorting effect — GAAP EPS, trailing P/E and every "beat streak" statistic for GOOGL in 2026 is unusable; judge this print on revenue, Cloud, operating income and the capex guide only.**
-
----
-
-## 5. FTNT — Fortinet, Inc.
-
-### 1. Date
-**Wed 2026-10-28, AMC (call 13:30 PT / 16:30 ET). CONFIRMED** — company announced 2026-10-02 that Q3 results will be discussed 2026-10-28 (Fortinet via Simply Wall St / ad-hoc-news); TipRanks lists Oct 28 as Confirmed. Q3 2026. No move from screen date.
-
-### 2. Bar
-Company guide (given 2026-07-29): **Q3 revenue $2.01–$2.10B, billings $2.25–$2.35B, non-GAAP EPS $0.83–$0.87.**
-Consensus: **EPS $0.86, revenue $2.06B** (Zacks; MarketBeat 2026-10-21) — dead on the guide midpoints, as usual for FTNT (consensus is anchored to guidance by construction). Zacks notes consensus EPS revised **+0.77% in the last 30 days** — trivial drift, no whisper gap building; TipRanks' GAAP-basis table shows $0.77 forecast vs $0.66 a year ago (different basis — the $0.86 non-GAAP figure is the operative bar). FY26 consensus EPS $3.45 / revenue $8.12B (Zacks) vs company guide $3.41–$3.47 / $8.02–$8.18B — again, consensus = guide.
-
-### 3. Last four prints
-- **Q2 2026 (2026-07-29):** non-GAAP EPS $0.90 vs $0.75 (+20%); GAAP EPS $0.82; revenue $2.05B vs ~$1.89B (+25.6% YoY); billings $2.37B (+33%); product revenue $773M (+52%); FY guide raised across the board (see §5); reaction **≈ +12% after hours** (onemoremoney recap) — screen last4 shows +2% as most recent, which does **not** match the after-hours report; session-convention discrepancy flagged, not resolved (the +20% in the screen's last4 aligns better with Q2's magnitude). Treat FTNT's screen reaction row as unreliable in ordering.
-- **Q1 2026 (2026-05-06):** non-GAAP EPS $0.82 vs $0.62 (+32.5%); revenue figure **not found** in this pass (guide had been $1.70–$1.76B); FY guide reiterated/trimmed path — see §5d.
-- **Q4 2025 (2026-02-05):** non-GAAP EPS $0.81 vs $0.74 (+9.5%); revenue $1.91B (+15% YoY); billings $2.37B (+18%); reaction **≈ +5%** per screen.
-- **Q3 2025 (2025-11-05):** non-GAAP EPS $0.74 vs $0.63 (+17.5%); revenue **not found** in this pass; reaction **≈ −6%** per screen (a beat that sold off — the known FTNT pattern when billings/guide disappoint under the EPS beat).
-Eight-plus consecutive non-GAAP EPS beats on TipRanks' table (every quarter back to Q3 2024 beats). The beats are manufactured-visible: consensus is set at guide midpoint and FTNT lands above it — the information is never in the EPS line, it is in billings and the FY guide.
-
-### 4. Revenue / margin trend
-Revenue: Q4'25 $1.91B (+15%) → Q2'26 $2.05B (**+25.6%**) with product revenue inflecting +52% (firewall refresh + AI data-center security wins) while service revenue grew +14% to $1.27B. Billings growth: +18% (Q4'25) → **+33% (Q2'26)**. Non-GAAP operating margin: 37.3% (Q4'25) → **38.0% record (Q2'26)**; GAAP GM ~80.2% (slight mix-driven dip from 80.7%), product GM improved +2.4pts to 69.8% on pricing actions. FCF Q2 $966M (47% margin), more than triple YoY. **Accelerating — a genuine re-acceleration after the 2024–25 digestion, led by the hardware refresh cycle management says was only 40–50% complete a year ago.** Q1'26 revenue/billings detail was not retrieved in this pass — the Q4→Q2 acceleration claim rests on those two endpoints plus the Q1 EPS beat.
-
-### 5. THE GUIDE
-(a) **The most granular guider in this batch:** quarterly *and* full-year ranges for billings, revenue, service revenue, non-GAAP GM, operating margin and EPS, plus tax rate and infrastructure investment. Guide-risk for FTNT is therefore never "will they guide" — it is "will they raise."
-(b) Next quarter (Q4 2026) / FY: FY26 guide **revenue $8.02–$8.18B, billings $9.35–$9.55B, service revenue $5.18–$5.22B, non-GAAP EPS $3.41–$3.47, operating margin 35–37%** (raised 2026-07-29). Consensus FY ($3.45 / $8.12B) = guide midpoint. Implied Q4 from the FY guide: revenue ~$2.2B area (arithmetic from guide minus 9M run-rate; company will give the explicit Q4 range at the print — that range vs the implied figure is the trade).
-(c) Run-rate support: Q3 guide midpoint ($2.055B) is essentially *flat* vs Q2's $2.05B — deliberately conservative-looking against +33% billings momentum and a refresh cycle with half its runway left; the FY guide implies a big Q4 (normal FTNT seasonality: Q4 billings are the year's peak). Continuation is well supported; the FY guide does **not** require unseen acceleration beyond normal Q4 seasonality + refresh persistence. This is the best-supported forward number in the batch.
-(d) Guide history — **a clean raise cycle in 2026:** initial FY26 guide (2026-02-05): revenue $7.50–$7.70B, billings $8.4–$8.6B, EPS $2.94–$3.00, op margin 33–36%. Q2 print (2026-07-29): **raised to $8.02–$8.18B / $9.35–$9.55B / $3.41–$3.47 / 35–37%** — a +$0.47 EPS-midpoint raise (+16%) mid-year, on top of the Q1 guide having been set and beaten. Prior-year context: FTNT's damaging prints historically come from billings/guide trims (the −22% worst reaction in the screen record is from that era), not from EPS misses. No cut found in 2026; the 8-quarter ledger beyond the two 2026 guideposts was **not fully retrieved** — graded on what was found: raised, twice-stepped, never trimmed this year.
-(e) Raised between quarters? No — raises happen *at* prints (Feb set, Jul raise). Q3's question is whether Jul's raise gets a second step.
-What's changed: price increases are now *inside* guidance — CFO said H2 billings guide includes a high-single-digit impact from price increases passing through memory/component costs (this is SNDK/STX's pricing power arriving as FTNT's *cost*, hedged by its own pricing); SASE momentum (FortiOS + FortiASIC combined on-prem/cloud SASE firewall), sovereign SASE outpost, AI data-center security wins, Virtue AI acquisition (Aug, immaterial price) for AI-model runtime protection, Gartner Leader for Hybrid Mesh Firewall (Sep 2026); guidance already assumes memory-cost pressure in product GM. Peer read: Check Point/Palo Alto prints **not found** in this pass — no peer contamination identified before FTNT's print (it reports in the first wave).
-
-### 6. Priced in
-1-month **+5.7%** (Finnhub; Zacks had +7.15% for the month to 2026-10-15 and +19% for the month to 2026-10-09 — the stock ran *into* this print), 6-month **+114%**, YTD +131%, 1-year +115%. **Only −6.9% below the 52-week high of $197.13** — the polar opposite of SNDK/STX: nothing has been de-rated here. Valuation: trailing P/E ~62–63×, screen forward P/E 48.4×, consensus PT $161.75–$162.36 — **the average analyst target is ~12% BELOW the $183.55 screen price**; the Street is split (RBC PT $205 raised 2026-10-12; Bernstein $145 Market Perform; JPMorgan $140 *Underweight* raised 2026-10-23; Arete *Sell* $117, 2026-10-21). When the bull case requires beating a target the bears just raised to $140 while the stock trades at $184, the stock is the most priced-in name in this batch. Options-implied move: **not found** from a reputable source; screen realised proxy 9.6% avg abs with a −22% worst — the distribution has a documented fat left tail. Crowded? **Yes — crowded and loved**, +114% in six months into the print at a premium multiple with targets below price. The refresh-cycle story is consensus.
-
-### 7. Moat / irreplaceability
-FortiGate + custom FortiASIC silicon (performance/watt no software-only rival matches at the price), the Security Fabric installed base, 80% gross margins funding a full platform (networking + SASE + SecOps) consolidation story, and a multi-year firewall refresh cycle that is a forced buyer event for its installed base. Switching costs are real (policies, fabric integration, FortiCare attach). **Irreplaceability 7/10.** −15% gap stuck 18 months: **opportunity** — at ~$156 the stock would trade near the consensus PT the Street already defends, on a business compounding billings at 25–33% with 38% operating margins and ~$1B/quarter FCF; the "stuck" scenario requires the refresh to end early, which the 40–50%-complete disclosure argues against.
-
-### 8. Print-specific risks
-This is the batch's classic trap shape: **meet-and-reaffirm = down.** With consensus = guide midpoint and the stock at 48× forward near highs, FTNT needs a *second* FY raise in three months, not a beat; billings is the trip-wire (Q3 billings guide $2.25–$2.35B — a print at the low end with an unchanged FY guide reads as a trim); product mix + memory costs pressuring the 80% GM line; service revenue (+14%) is the slow lane and any further deceleration undermines the recurring-revenue multiple; SecOps billings volatility was flagged on the Q2 call itself.
-
-### 9. Scores
-Beat-likelihood **8/10** (the streak + guide-anchored consensus make an EPS beat close to mechanical). Guide-risk **7/10** (not cut-risk — *raise-or-fall* risk at this price). Priced-in **9/10** — the highest in the batch. **Verdict: the best business setup and the worst price setup in batch 1 simultaneously; everything good is known, guided, and paid for.**
-
-### 10. Plan
-**Plan B** — despite the strongest guide support (§5c) in the batch, Plan A cannot survive priced-in 9/10 with analyst targets below the price. A-case would require the price to de-rate into the print or evidence of a second raise pre-leaked via channel checks; neither is present. If the panel wants FTNT, the honest route is post-print (Plan B logic: own the fallback after the raise-or-fall question is answered).
-
-**Earnings-quality flags:** none assigned. Own note: none warranted — FCF conversion is the best in the batch (FCF $966M vs GAAP net income tracking below it in Q2); billings > revenue is deferred-revenue build, a quality *positive*.
+**Plan B.**
 
 ---
 
 ## Batch summary table
 
-| Ticker | Date (AMC) | Status | Consensus EPS / Rev | Co. guide (this qtr) | Beat | Guide-risk | Priced-in | Irrepl. | Plan |
-|---|---|---|---|---|---|---|---|---|---|
-| SNDK | Thu 10-29 | CONFIRMED | $45.22–46.27 / ~$10.65B | $44–46 / $10.3–10.8B | 8 | 7 | 5 | 5 | B (strongest A-case) |
-| STX | Tue 10-27 TODAY | CONFIRMED | $7.39–7.44 / $4.11–4.14B | $7.30±0.20 / $4.1B±0.1B | 8 | 6 | 5 | 6 | B |
-| MPWR | Thu 10-29 | CONFIRMED | $7.79–7.80 / ~$1.16B | rev $1.14–1.16B only | 7 | 6 | 4 | 7 | B |
-| GOOGL | Wed 10-28 | CONFIRMED | $2.94–3.03 / $127.4–127.9B | none (capex $195–205B FY) | 7* | 8 | 4 | 9 | B |
-| FTNT | Wed 10-28 | CONFIRMED | $0.86 / $2.06B | $0.83–0.87 / $2.01–2.10B | 8 | 7 | 9 | 7 | B |
+| Ticker | Date/time (status) | Q3 bar (EPS / rev) | Guide posture | Beat | Guide-risk | Priced-in | Moat | Plan |
+|---|---|---|---|---|---|---|---|---|
+| APH | Oct 28 BMO, confirmed (secondary) | $0.72–0.73 / $9.44–9.49B, **above guide top** | Quarterly guide, 8/8 beats, forward = continuation | 8 | 4 | 6 | 8 | B (nearest A) |
+| GOOGL | Oct 28 AMC, confirmed (IR Oct 6) | $3.02–3.03 / ~$127.9B gross | No rev/EPS guide; capex guide raised 3× in 2026 | 6 | 8 | 5 | 10 | B |
+| FTNT | Oct 28 AMC, confirmed (co. release Oct 2) | $0.86 / $2.06B, inside guide | Full guide, raised twice in 2026 | 8 | 6 | 9 | 8 | B |
+| GRMN | Oct 28 BMO, confirmed (co. release Sep 23) | $2.38–2.41 / $1.98–1.99B | FY point guide, raised Jul, held Apr | 8 | 5 | 7 | 7 | B |
 
-*GOOGL beat score is on normalised EPS; GAAP "beats" in 2026 are artefacts of ~$98B unrealised equity gains (Q2: $6.26/share).
+Key cross-batch warnings: (1) GOOGL's screen EPS-surprise history is invalid as beat evidence — Q1/Q2 2026 GAAP EPS were inflated by unrealised equity gains (~$98–99B in Q2, +$6.26/sh); core Q2 EPS ~$2.85 slightly missed. HIGH_ACCRUALS flag (accrual +0.0822, CFO/NI 0.76, shortlist) is that non-cash gain, not channel stuffing. (2) APH consensus sits above its own guidance top — "in-guide" = miss. (3) FTNT is the crowded print: +116% in 12 months, 48.4× forward vs ~35× own history, price above the $169 mean target. (4) All four print the same day as the Fed decision — gap risk is partly macro for every name. (5) Options-implied moves were found only for GOOGL (5.3%, SentiSense Oct 23); for APH/FTNT/GRMN they are **not found** — use the screen realised proxies (6.0% / 9.6% / 11.4% avg abs) and note both FTNT and GRMN have double-digit moves in their last-four records.
+> Run by: Muse Wonder (muse-wonder) — full panel
 
-**Key corrections to the screen record:** (1) STX's most-recent screen reaction (−9%) is the pre-print session, not the post-print reaction — after-hours on 2026-07-28 was ~+6% on a clean beat-and-raise; the verifier's +2.1% close-to-close figure could not be independently re-derived from a primary source here but the direction (positive) is corroborated. (2) FTNT's screen reaction ordering does not match the reported ~+12% after-hours move at Q2 2026 — treat FTNT's last4 ordering as unreliable. (3) GOOGL's screen surprise history is distorted by non-cash gains in Q1/Q2 2026 and must be normalised before any panel use. (4) MPWR's Q2 reaction is +10.5% on StockStory's convention vs +8% on the screen — same conclusion, different session convention.
+# Research Batch 2 — RUN_DATE 2026-10-28
+## VRT · SNDK · INCY · LLY
 
-**Not found (explicit gaps):** quantified whisper numbers for all five; options-implied moves for STX, MPWR and FTNT; clean published next-quarter (Dec) consensus for SNDK, STX and GOOGL; FTNT Q1 2026 revenue/billings detail; full 8-quarter guide ledgers for MPWR and FTNT; GOOGL Q1 2026 normalised EPS.
-
-
----
-
-> Run by: Muse Wonder (Muse Wonder) — full panel
-
-# Earnings Research Batch 2 — Run date 2026-10-27 (MODE=earnings)
-Tickers: APH, HWM, GRMN, CBOE, AME. Screen prices given: APH $76.03, HWM $193.10, GRMN $292.56, CBOE $338.82, AME $244.69.
-Method note: Web search 2026-10-27, primary company releases preferred. Where a figure could not be verified from a reputable source it is marked **not found** — nothing is interpolated. Next-session reactions in §3 are primarily the screen's supplied records (labelled as such); independently sourced reactions are labelled separately. Options-implied moves were **not found** for any of the five in free sources searched — the screen's realised proxy is used for comparison instead. APH per-share figures are post the 2-for-1 split distributed 2026-09-02 (pre-split guide $1.40–1.42 = post-split $0.70–0.71); failure to adjust for this is the single biggest source of confusion in aggregator copy this week.
+Screen source for all four: `output/earnings/shortlist_2026-10-28.json` (generated 2026-10-28 08:23). Prices cited as "screen" are that file. Oct 27 closes are Finnhub via search snippets. Where a figure could not be found in a primary or reputable secondary source it is marked **not found** — nothing below is estimated silently. EPS bases differ by vendor (GAAP vs adjusted/non-GAAP); where vendors conflict, both are shown and the basis is named.
 
 ---
 
-## 1. APH — Amphenol — Screen date Wed 2026-10-28 — Screen price $76.03
+## 1. VRT — Vertiv Holdings (NYSE: VRT) — reports TODAY
 
-**1. Date.** Wed 2026-10-28, **BMO** (call 1:00pm ET). Status: **CONFIRMED in practice** — Finviz and multiple preview sources (Defense World 2026-10-26, MarketBeat 2026-10-21) all give Oct 28 BMO, consistent with Amphenol's fixed last-Wednesday cadence (Q2 was Wed 2026-07-29). A standalone company date-announcement PR was **not found** in search; Amphenol typically does not issue one. Not moved.
+Screen: $200.71 · rank 18 · beat_up 0.625 · last-4 reactions −17%, +5%, +24%, +7% · ret_21d −20.8% · dist_52w_high −46.6% · fwd P/E 21.8x · INVENTORY_BUILD flag (inv/rev divergence +0.544) · Oct 27 close $208.56 (Finnhub).
 
-**2. Bar.** Consensus Q3 2026: adj. EPS **$0.72–0.73** (Finviz $0.72–0.73 across crawls; Zacks $0.73; MarketBeat $0.7290) on revenue **$9.44–9.49B** (Zacks $9.44B, Finviz/MarketBeat $9.46–9.49B), as of 2026-10-26/27. Company Q3 guide (set 2026-07-29): sales **$9.3–9.4B**, adj. EPS **$0.70–0.71** post-split. **Yesterday's finding RE-VERIFIED and it is the story: consensus sits ABOVE the guide on both lines** — EPS consensus is 2–3c above the guide top, revenue consensus is at/above the guide top. Revisions: Zacks notes Q3 EPS consensus +1c in last 30 days to $0.73, +0.9% revision trend (Zacks 2026-10-21/26). Whisper number: **not found**.
+### 1. Report date
+**CONFIRMED — Wed 2026-10-28, before market open (BMO), call 11:00 a.m. ET.** Vertiv press release 2026-10-14 (PR Newswire, via Quantisnow / investors.vertiv.com): "Vertiv … today announced it will report its third quarter 2026 results before market open on Wednesday, October 28, 2026." No move vs the date carried all quarter. Same morning as MSFT/GOOGL prints and the FOMC decision — macro crowding is part of this print whether Vertiv likes it or not.
 
-**3. Last four prints** (adjusted, post-split equivalents where applicable; Finviz earnings table + company Q2 release):
-- Q2 2026 (2026-07-29): adj. EPS $0.68 vs ~$0.59–0.60 cons. (pre-split $1.35 vs $1.19); revenue $8.76B vs $8.26–8.29B cons.; Q3 guide issued above then-consensus; reaction **+4.5% on the day** (Barchart) — screen record +5%/+6% area.
-- Q1 2026 (2026-04-29): adj. EPS $0.53 vs $0.47 cons. (+12.6% surprise, Finviz); revenue beat; guide raised in tone; screen reaction +3%.
-- Q4 2025 (2026-01-28): adj. EPS $0.49 vs $0.47 cons. (+4.0%); FY25 revenue ~$23.1B, +51.7%; screen reaction **−12%** (the worst in the set — a beat that sold off hard on guide/valuation).
-- Q3 2025: adj. EPS $0.47 vs $0.40 cons. (+17.3%); screen reaction +6%.
-Screen record supplied: beat_up 0.875, last4 +6%, +3%, −12%, +5%, worst −12.2%. Pattern: it *always* beats the printed consensus; the stock still fell 12% once — the reaction is a guide/valuation verdict, not a headline verdict.
+### 2. The bar
+- **Consensus (as of 2026-10-21/26): adjusted EPS $1.82 (+46.8% YoY), revenue $3.75–3.77B (+40.9% YoY)** — Zacks 2026-10-21 ($1.82 / $3.77B), Tickeron preview ($1.82 / ~$3.76B), MarketBeat ($1.82 / $3.75B).
+- **Company Q3 guide (given at Q2, 2026-07-29): revenue $3.65–3.85B, adjusted EPS $1.77–1.83** (MarketBeat guidance table) — midpoint $3.75B / $1.80. Consensus therefore sits essentially **at the guide midpoint on revenue and near the top on EPS**. There is no soft guide to walk over; the guide itself already embeds the acceleration.
+- Revisions: Zacks consensus EPS revised **−0.12% over the last 30 days** — flat. No whisper number found. Roth/Mizuno-style previews (Roth, Justin Clare) model $3.76B / $1.82, i.e. in line with guide midpoint, and explicitly flag that Q3 execution decides whether the implied Q4 acceleration is credible, with OneCore/SmartRun integration cited as a limiter on further revenue upside.
 
-**4. Revenue/margin trend.** Accelerating, acquisition-supercharged: Q2 2026 sales $8.76B, +55% YoY, +30% organic; orders a record $10.7B, +94% YoY, book-to-bill 1.23. Adjusted operating margin 29.8% in Q2 (GAAP 29.5%), up from 25.1% a year earlier — but flattered by an ~$80M IEEPA tariff-recovery benefit that Q3 guide explicitly **excludes**. Q3 guide implies +50–52% YoY sales. Deceleration risk is arithmetic (comps) plus the guided sequential decline in communications-networks sales noted at Q2.
+### 3. Last four prints
+Adjusted EPS vs consensus (MarketBeat/Fiscal.ai basis unless noted); reactions are the screen's next-session figures, cross-checked where possible.
+- **Q2 2026 (2026-07-29):** Adj EPS **$1.52 vs $1.43 cons — beat +6%**; revenue **$3.27B vs $3.38B cons — miss −3%** (timing, per management). FY guide **raised** (see §5). Reaction **−17%** — the revenue miss landed in a sector-wide AI-infrastructure selloff the same week; DataCenterDynamics confirms shares fell as much as 17% intraday.
+- **Q1 2026 (2026-04-22):** Adj EPS **$1.17 vs ~$1.00 cons — beat +16–17%**; revenue **$2.65B vs $2.63B cons — beat ~+1%**. Reaction **+5%** (screen).
+- **Q4 2025 (2026-02-11):** Adj EPS **$1.36 vs $1.29–1.30 cons — beat +5%** (note: GAAP EPS printed $1.14, which some feeds record as a "miss" vs the adjusted consensus — a basis artefact, not two different quarters); revenue **$2.88B vs $2.89B cons — in line**. The story was the **FY26 guide crushing the Street** (revenue $13.25–13.75B vs ~$12.39B cons; EPS $5.97–6.07 vs $5.33 cons) on organic orders +252% YoY and a $15B backlog. Reaction **+24%** (screen; contemporaneous reports ~+23%).
+- **Q3 2025 (2025-10-22):** Adj EPS **$1.24 vs $0.99 cons — beat +25%**; revenue **$2.68B vs $2.59B cons — beat +3–4%**. Reaction **+7%** (screen).
 
-**5. THE GUIDE.**
-(a) Guides **one quarter only** (sales + adj. EPS range), no formal FY guide — but gives acquisition-specific FY colour (see e).
-(b) Next quarter: Q4 2026 consensus EPS **$0.75** (Finviz, 16 analysts); Q4 revenue consensus **not found** as a clean single figure. FY26 consensus EPS ~$2.66–2.69, FY27 ~$3.29–3.32 (MarketBeat/Trefis).
-(c) Run-rate support: Q4 consensus $0.75 is only +3–4% sequentially off a Q3 expected ~$0.73 — that is *continuation*, not unseen acceleration, and is consistent with normal Q4 seasonality + a full quarter cadence of CommScope. This is the most forgiving forward bar of the five.
-(d) Guide history (last 8 quarters): Amphenol's pattern is guide-next-quarter-above-consensus, then beat its own guide — Q2 2026 results came in "above the upper end of prior guidance" (company release) and Q3 guide was set above then-consensus ($9.35B mid vs $8.73B cons. at the time). No cuts found in the last 8 quarters; reactions to its guides have still been negative twice in the screen set (notably Q4 2025, −12%) when valuation, not the guide, was the problem.
-(e) Already raised between quarters? The guide itself is quarterly so there is nothing to raise intra-quarter — **but the CommScope CCS contribution was raised at Q2**: FY26 sales expected from that business lifted to **$4.6B (from $4.1B)** and EPS accretion to **$0.30 (from $0.15)**. That is a genuine pre-banked raise inside the numbers.
-What's changed this quarter: CommScope integration is the swing factor; AI datacom demand vs a guided dip in communications networks; the $80M tariff recovery does not repeat; 2-for-1 split (Sep) muddies aggregator EPS comparisons; stock was hit in a broad AI-hardware de-rating (see §6) with peer AI-spending doubts, not company news.
+**On the brief's "+84.9% avg surprise" claim: NOT supported.** The screen file itself records eps_surprise_avg_4q of **+13.0%** for VRT, and every vendor history retrieved (MarketBeat, ChartMill, AltIndex) shows last-4 adjusted surprises of roughly +5% to +25%. Very large percentage surprises exist only in the small-base era of 2022–23 (e.g. Q2 2023 +58% on a $0.29 base). Treat the +84.9% figure as erroneous / stale-base contamination; the real beat record is solid but ordinary in size, and Q2's revenue line actually missed.
 
-**6. Priced in.** Finnhub (as of 2026-10-26 close): 1-month **−10.5%**, 5-day −5.1%, 6-month +1.3%, YTD +11.4%. Tickeron: −11.9% in 30 days, $84.09 → ~$74, including **−7.9% on Thu 2026-10-22 with no company-specific news** (MarketBeat). 52w high $89.93 — screen price is ~15% below it. Forward P/E ~**22.9x** (MarketBeat) / Zacks forward-12m 23.3x vs sector ~18.9x — premium, but de-rated from where it traded at the high. Options-implied move: **not found**; screen realised proxy 6.0% avg abs, worst −12.2%. Crowded? It *was* the crowded AI-interconnect name; the last month looks like crowding being unwound into the print. Long interest remains (targets $90–116; BofA raised PT to $104 on 2026-10-13; Goldman to $116 on 2026-10-05).
+### 4. Revenue / margin trend (last 8 quarters)
+Revenue ($B, SEC filings via vendor tables): Q3'24 2.07 → Q4'24 2.35 → Q1'25 2.04 → Q2'25 2.64 → Q3'25 2.68 → Q4'25 2.88 → Q1'26 2.65 → Q2'26 3.27. Pattern: a seasonal Q1 dip each year, then a steep H2 ramp. YoY growth was +24% in Q2'26 (organic +18%, M&A +5pts, FX +1pt; Americas +29%, APAC +29%, EMEA +2%); **Q3 guide implies ~+40% YoY — a clear acceleration the company has not yet printed in 2026.** Margins: adjusted operating margin 18.5% (Q2'25) → **22.6% (Q2'26, +410bp YoY, +140bp vs guide)** on price-cost and productivity, partly offset by tariffs; gross margin steady ~37.7–38.9%; net margin 8.5% (Q3'24) → 15.2% (Q2'26). Trend verdict: **revenue growth re-accelerating only if Q3 delivers; profitability trend is genuinely accelerating.**
 
-**7. Moat / AI-irreplaceability: 8/10.** Interconnect is the physical layer AI cannot software-away; Amphenol is the diversified #1/#2 in connectors, sensors and now fibre (CommScope CCS), with 30% organic growth proving share, not just market. A −15% gap that stuck for 18 months would be an **opportunity**, not a disaster — the failure mode would be an AI-capex air-pocket hitting the whole complex, in which case the multiple, not the franchise, does the damage.
+### 5. THE GUIDE
+- **(a) Does it guide / granularity:** Yes — among the most granular guiders in industrials. Quarterly guide for revenue, adjusted EPS, adjusted operating profit/margin; full-year guide for net sales, organic growth, adjusted EPS, adjusted operating profit and adjusted FCF, plus backlog/orders disclosure.
+- **(b) Next quarter + full year consensus:** Q4 2026 consensus EPS **$2.21** (24 analysts, AlCapital/consensus table); FY26 consensus EPS ~**$6.73** vs company guide **$6.65–6.75** (midpoint $6.70) and FY revenue guide **$13.8–14.2B** (midpoint $14.0B). Implied Q4 revenue: $14.0B FY midpoint − (H1 $5.92B + Q3 guide-mid $3.75B) ≈ **$4.3B** — Smartkarma independently frames exactly this "$4.3bn test for Q4."
+- **(c) Run-rate support:** The Q4 ask is a **~+15% sequential revenue jump from Q3's guide midpoint and the largest dollar quarter in company history — an unseen level, though a familiar seasonal shape** (Q4 is always the peak). Support is real but not cash-in-hand: backlog **>$15B (>100% YoY, >1× FY revenue)**, book-to-bill ~3× at the start of 2026, and the Q2 revenue that "slipped on timing" is supposed to land in H2. This is continuation of demand with acceleration of *shipments* — execution, not orders, is the swing factor.
+- **(d) Guide history, last 8 quarters:** Full quarter-by-quarter reconstruction **not found** in retrievable sources; the verified anchor points are: Q4'25 print (2026-02-11) — FY26 guide set **above** the Street (a raise in effect, reaction +24%); Q1'26 — guide maintained/raised modestly alongside a clean beat (+5%); Q2'26 (2026-07-29) — **raised across all key metrics** (+$250M revenue to $14.0B midpoint, EPS $6.35→$6.70 area, FCF to $2.5B) and the stock still fell ~17% because revenue missed and the sector sold off. No guide **cut** was found anywhere in 2025–26. Direction of travel is raise/reaffirm only — which also means a first trim now would be a regime change, not noise.
+- **(e) Raised between quarters?** No intra-quarter guide raise found. The between-quarter news ran the other way on valuation: **four target cuts in one week (Oct 16–20)** — Morgan Stanley $350→$330, Mizuho $300→$280, RBC $337→$323, Roth $355→$335 — **all keeping Buy ratings**, citing AI-financing durability and multiples, not Vertiv execution. Also between quarters: Vertiv closed the **$1.45B cash acquisition of Utility Innovation Holdings (UIG) on 2026-10-27** (plus up to $1.15B earnouts) and King Environmental Services on 2026-10-26 — balance-sheet and integration news landing the day before the print.
 
-**8. Print-specific risks.** (i) Consensus above guide on both lines — a clean in-line-with-guide print is a *headline miss* vs consensus. (ii) Margin optics: Q2's 29.8% included the tariff recovery; a sequential margin step-down can be misread. (iii) Communications-networks guided down sequentially. (iv) Q4 guide is the real event — anything below $0.75 consensus invites a repeat of the Q4-2025 −12% reaction. (v) AI-capex headlines from hyperscaler prints the same week can swamp idiosyncratic good news.
+### 5b. INVENTORY_BUILD flag — required explanation
+The flag is arithmetically real: Q2'26 10-Q cash-flow statement shows inventories consuming **−$663.8M in Q2 alone and −$1,048.0M in H1 2026 vs −$137.5M in H1 2025**; the inventory balance reached **$2.523B at 2026-06-30, +78.5% YoY, vs revenue +24% YoY** (Macrotrends/10-Q). That is the screen's +0.54 inv/rev divergence.
 
-**9. Scores.** Beat-likelihood **7/10** (vs its own guide: 9/10 — it has beaten its guide habitually; vs the above-guide consensus: a coin-flip weighted positive by the orders/book-to-bill evidence). Guide-risk **6/10** (HIGH=BAD — Q4 guide must clear a bar set by momentum, and management guides only one quarter out). Priced-in **4/10** (HIGH=BAD — the −11% month genuinely helps; forward multiple still premium to sector). **Verdict: the de-rating plus a modest Q4 bar makes this the best risk/reward long in the batch, but the print itself is a guide event, not a Q3 event.**
+**Verdict: predominantly benign AI-order stocking / work-in-progress, NOT channel stuffing — with one genuine watch item.**
+1. **The build is customer-funded.** Deferred revenue rose **+$1,171.5M in Q2 and +$1,822.7M in H1** — customer advances exceed the entire H1 inventory build. Customers are prepaying for the capacity being stocked.
+2. **There is no channel to stuff.** Vertiv sells project infrastructure (power, switchgear, liquid cooling, OneCore/SmartRun integrated builds) direct to hyperscalers/colo builders against a >$15B backlog; WIP accumulates on Vertiv's floor because multiphase projects ship in interdependent stages — the same "timing elements" management blamed for the Q2 revenue miss.
+3. **Cash contradicts stuffing.** Adjusted FCF was **$925M in Q2 (+234% YoY), conversion >150%**, operating cash flow $1.1B, and the company reached a **net cash position** — stuffing burns cash; this build generated it. Receivables divergence is only +0.08 (screen), and accrual ratio is strongly negative (−0.12) with CFO/NI 1.94.
+4. **Watch item:** inventory growing at >3× the revenue rate only stays benign while shipments catch up. If Q3 revenue again "slips on timing" while inventory rises further, the story flips from pre-build to trapped WIP and future margin write-down risk. Q3's inventory + deferred-revenue pair is the tell to read first after the headline.
 
-**10. Plan A or Plan B? Plan B (default).** What would make it A: evidence the Q4 guide clears $0.75 with margin held ex-tariff-recovery — unknowable pre-print. The case for B over the others is the entry: you are paid (via the pullback) to take guide risk that the other momentum names charge you full price for.
+### 6. Priced-in
+- Move: **1M −17.7%** (Finnhub), ret_21d −20.8% (screen); **6M −35 to −38%**; **−46.6% from the 52-week high** ($379.94 intraday / $376.06 closing high; screen basis $200.71). YTD still +29% (Finnhub) after the de-rating.
+- Valuation: screen fwd P/E **21.8x**; vendor range 26–28x on 2026E at the Oct 27 close (~$209). Trailing P/E ~45x vs its own **3-yr average ~67x and 5-yr average ~82x** (FinanceCharts) — the multiple has roughly halved from the peak (was >50x forward at the high) while FY EPS growth expectations (~+60%) barely moved. On its own history this is the **cheap end of the range**, though still ~30%+ above sector P/E.
+- Options: **implied move 11.1%** (Barchart, Oct 26 weeklies) vs the screen's realised proxy **9.6%** avg abs — options price a modest premium to history, not panic.
+- **Crowded or not: NOT crowded — explicitly de-risked.** Four target cuts with ratings intact, bearish retail sentiment, a $24.2M bearish multi-leg options structure printed Oct 23 (long Nov $185 puts vs short Mar $150 puts), insider sales $3.9M / buys $0 in 90 days, and GLJ's Sell at $188 as the visible bear anchor. The long-AI-infrastructure crowd has already left; consensus target ~$328–355 still implies large upside, but that is stale-target inertia, not positioning.
 
----
+### 7. Moat / AI-irreplaceability: **7/10**
+Full-stack critical infrastructure (power chain + thermal + integrated OneCore/SmartRun builds + global service), NVIDIA reference-design partnership, and deployment-speed claims (factory modules cutting on-site build 90→45 days) are hard to replicate quickly, and a >$15B backlog is contracted downside insurance. Docked for: liquid-cooling commoditisation risk (GLJ thesis), hyperscaler in-sourcing optionality, and Eaton/Schneider/Modine competition. A bad print hurts the multiple, not the franchise.
 
-## 2. HWM — Howmet Aerospace — Screen date Thu 2026-10-29 — Screen price $193.10
+### 8. Risks specific to THIS print
+(i) The guide requires the Q2 timing slip to visibly reverse — a second consecutive revenue miss vs consensus, even with an EPS beat, repeats the Q2 −17% template. (ii) OneCore/SmartRun integration/learning-curve comments capping Q4 confidence. (iii) Tariff price-cost turning negative after flattering H1 comparisons. (iv) Same-day contamination: FOMC decision + MSFT/GOOGL capex commentary will move VRT more than its own call if hyperscaler 2027 capex language softens. (v) UIG deal ($1.45B cash + $1.15B earnouts) closed yesterday — any leverage/integration surprise lands with zero digestion time. (vi) Inventory rising again without a deferred-revenue offset (see §5b).
 
-**1. Date.** Thu 2026-10-29, release **7:00am ET / BMO**, call 10:00am ET. Status: **CONFIRMED** — company announcement 2026-10-01 (reported by Ad-Hoc News / Howmet release). Not moved.
+### 9. Scores
+- Beat-likelihood: **7/10** — EPS beat record is 8/8 on the screen's 8-quarter count and margin momentum is real; revenue beat is the weaker leg.
+- Guide-risk: **5/10** (high = bad) — no cut history, but the $4.3B Q4 ask is the steepest in company history and depends on project timing outside Vertiv's full control.
+- Priced-in: **4/10** (high = bad) — de-rated ~47% from the high with positioning washed out; the bad outcome is substantially, not fully, discounted.
+- **Verdict:** The cleanest risk/reward of this batch on paper — a de-risked AI-infrastructure leader whose guide, not its quarter, is the bet — but the quarter must prove the Q2 miss was timing, and it reports into an FOMC + hyperscaler pile-up.
 
-**2. Bar.** Consensus Q3 2026: adj. EPS **$1.37** on revenue **$2.58–2.59B** (MarketBeat/Tickeron/Barchart, as of 2026-10-22/26) — +44% EPS YoY. Company Q3 guide (official Q2 press release, 2026-08-06): revenue **$2,565–2,585M** (baseline $2,575M), adj. EBITDA $825–835M, adj. EPS **$1.34–1.36**. **Consensus is above the guide top on EPS ($1.37 vs $1.36) and at/above the top on revenue.** ⚠️ Data-integrity flag: several transcript-derived summaries (Yahoo Finance transcript via Ad-Hoc/Bernstein pieces) cite Q3 revenue guide as "$2.75B ±$10M" — that is a transcription error; the company's own guidance table in the Q2 release says $2,565/$2,575/$2,585M. Use $2.575B baseline. Revisions last 30d: no consensus revision series found; the revision story is in *price targets*, all one way — down (see §5/6). Whisper: **not found**.
-
-**3. Last four prints:**
-- Q2 2026 (2026-08-06): adj. EPS $1.33 vs $1.24 cons.; revenue $2.55B vs $2.43B cons., +24% YoY (+21% organic); FY guide **raised**; screen reaction −3% (a raise that still sold off — valuation).
-- Q1 2026: beat consensus (four straight EPS beats per Barchart/Tickeron); revenue/EPS specifics vs consensus **partially not found** in free sources; screen reaction +6%.
-- Q4 2025: beat; screen reaction +6%.
-- Q3 2025: adj. EPS $0.95 (the YoY comparator for the +44% consensus growth); beat; screen reaction +2%.
-Screen record supplied: beat_up 0.75, last4 −3%, +6%, +6%, +2%, worst −6.4%. Note the asymmetry flip: the most recent, best print produced the *negative* reaction.
-
-**4. Revenue/margin trend.** Accelerating into Q2: revenue +24% YoY (commercial aero +28%, defense aero +11%, gas turbines +38%); adj. EBITDA margin **32.1%, +340bp YoY**; adj. EPS +46% YoY. Q3 guide implies revenue roughly flat sequentially ($2.575B baseline vs $2.55B in Q2) at a held ~32.2% EBITDA margin — i.e. management's own guide already bakes in sequential growth deceleration, while YoY growth stays >20%.
-
-**5. THE GUIDE.**
-(a) Guides with unusual granularity: quarterly + FY revenue, adj. EBITDA ($ and margin), adj. EPS, and FCF, all as low/baseline/high.
-(b) Next: Q4 2026 consensus as a standalone figure **not found**; FY26 consensus EPS **$5.34** (vs company $5.23–5.31 — consensus above the guide top again), FY27 consensus $6.43. Implied Q4 is therefore a large step-up quarter in consensus modelling (normal Howmet seasonality + spares), not a run-rate quarter.
-(c) Run-rate support: Q1+Q2 actuals + Q3 at guide baseline gets FY to roughly the guide's low end; consensus $5.34 requires Q3/Q4 both at-or-above guide tops — **continuation at the top of the range, every quarter, with no slack**. Not an unseen acceleration, but zero tolerance for a merely in-guide print.
-(d) Guide history: **raised at Q2 2026** — FY revenue baseline +$400M to $10.05B, adj. EPS baseline +$0.33 to $5.27, EBITDA +$170M, FCF +$150M (company release). Prior quarters: a multi-year pattern of raise-on-beat; no cut found in the last 8 quarters. Stock reaction to the Q2 raise was still negative (−3% screen) — the market has stopped paying for raises at this multiple.
-(e) Raised between quarters? No intra-quarter update found; the Q2 raise (2026-08-06) is the last guide event.
-What's changed this quarter — and it is a lot, none of it from Howmet itself: **SpaceX's plan to bring gas-turbine blade/vane casting in-house and GE Aerospace's $11.75B agreement to acquire castings supplier CPP** (Tickeron, 2026-10-26) directly attack the perceived permanence of Howmet's Engine Products casting moat; defense-budget uncertainty cited by RBC; target cuts: Wells Fargo $315→$255 (2026-09-30, Equal Weight), TD Cowen $320→$280 (2026-10-09), RBC $350→$300 (2026-10-15, kept Outperform), Bernstein to $298. GE Aerospace's own Q3 (2026-10-20) showed strong aero demand — a supportive peer read on volumes, a negative one on vertical-integration intent.
-
-**6. Priced in.** Finnhub (2026-10-26): 1-month **−16.4%**, 5-day −11.7%, 6-month −19.6%, YTD −5.2%; Tickeron: −20% in 30 days, −35% in ~3 months from ~$287 late July. 52w range $183.52–310.00 — screen price $193.10 sits **just above the 52w low and ~38% below the high**. Trailing P/E ~39.6x, forward ~36x on FY26 consensus — still a premium multiple despite the collapse; the de-rating is in the price, not yet in the multiple relative to its own history of 45x+. Options-implied move: **not found**; screen realised proxy 5.9%, worst −6.4%. Crowded? The opposite near-term: this is a *de-crowding* in progress, driven by a structural (insourcing) narrative, not by numbers.
-
-**7. Moat / AI-irreplaceability: 7/10** (marked down from a clear 8–9 on this quarter's news). Investment castings, single-crystal airfoils and fastening systems are qualified, sole-sourced and take a decade to replicate — but GE buying CPP and SpaceX insourcing are the first credible evidence that the biggest customers *want* a second source/second option. Gas-turbine-for-data-centre demand is a real second leg. A −15% gap stuck for 18 months: **opportunity on the aero aftermarket annuity, disaster only if insourcing becomes an industry programme rather than two headlines** — at $193 that distinction is the entire position.
-
-**8. Print-specific risks.** (i) Consensus above guide on both lines, again. (ii) Any management comment — or refusal to comment — on GE/CPP and SpaceX insourcing will dominate the call. (iii) Engine Products growth rate vs the +38% gas-turbine comp. (iv) FY guide: a mere reaffirmation of $5.23–5.31 against $5.34 consensus reads as a cut. (v) The stock is oversold into the print (RSI flagged oversold, Tickeron) — squeeze risk cuts both ways.
-
-**9. Scores.** Beat-likelihood **6/10** (four straight beats, but consensus > guide top demands beating its own guide again). Guide-risk **7/10** (HIGH=BAD — reaffirm = miss vs consensus; plus structural questions management cannot answer in one call). Priced-in **3/10** (HIGH=BAD — near the 52w low after −35% in 3 months; expectations in price have genuinely reset, even if the multiple hasn't). **Verdict: cheapest expectations in the batch versus the highest narrative risk — a fallen compounder whose print will be judged on a moat question, not a number.**
-
-**10. Plan A or Plan B? Plan B.** What would make it A: management quantifying that GE/CPP and SpaceX volumes are immaterial to Engine Products revenue through 2028 *and* a third consecutive FY raise — the raise alone no longer suffices (Q2 proved that).
+### 10. Plan
+**Plan B** — default stands: let the print prove shipment catch-up and read the Q4 guide language first; the −17% Q2 template shows what a revenue-timing miss costs even on a raise.
 
 ---
 
-## 3. GRMN — Garmin — Screen date Wed 2026-10-28 — Screen price $292.56
+## 2. SNDK — SanDisk Corporation (NASDAQ: SNDK) — Thu 2026-10-29 AMC
 
-**1. Date.** Wed 2026-10-28, **BMO**, call 10:30am ET. Status: **CONFIRMED** — company announcement 2026-09-23 setting the Oct 28 release and call (MarketBeat/Ad-Hoc). Not moved.
+Screen: $1,255.58 · rank 1 · 4/4 beats, avg surprise +46.3%, surprise trend −19.2 · beat_up 0.667 · last-4 reactions −7%, +8%, +7%, +15% · ret_21d −29.4% · dist_52w_high −46.2% · fwd P/E 4.7x · revenue TTM +74.7% · Oct 27 close $1,304.84 (Finnhub).
 
-**2. Bar.** Consensus Q3 2026: pro forma EPS **$2.38** (Zacks/AlphaStreet, 7 analysts, range $2.28–2.54) — some feeds show $2.41 (MarketBeat); revenue **$1.98–1.99B** (+12.3% YoY). Segment colour (Zacks): Fitness ~$728.6M (+21.3%), Outdoor ~$545.7M, Auto OEM ~$158.1M (−4.2%). Revisions: EPS consensus **flat over last 30 days** at $2.38, +1.7% over 90 days from $2.34 (AlphaStreet) — the calmest bar in the batch. Whisper: **not found**. Note Garmin gives **no quarterly guide**, so unlike APH/HWM/AME there is no guide for consensus to sit above — consensus *is* the bar.
+### 1. Report date
+**CONFIRMED — Thu 2026-10-29, after market close (AMC), call 1:30 p.m. PT / 4:30 p.m. ET.** SanDisk IR calendar / company release (announced 2026-09-29, per IR-page reporting): fiscal Q1 2027 results Oct 29 with call at 1:30 p.m. PT. TipRanks also marks Oct 29 AMC as "Confirmed." No move.
 
-**3. Last four prints** (pro forma EPS vs consensus; ChartMill/Public/AltIndex cross-checked):
-- Q2 2026 (2026-07-29): EPS **$2.81 vs $2.29–2.30 cons.** (+~23%); revenue $2.02B vs $1.93B cons.; FY guide **raised**; reaction: Barron's reported the stock jumping ~19% intraday to $301 on the day — screen record for the corresponding print +16%. (Treat the exact close-to-close figure as source-variable; direction and magnitude are not in doubt.)
-- Q1 2026 (2026-04-29): EPS $2.08 vs $1.84–1.86 cons. (+13%); revenue $1.75B, essentially in line (−0.1% vs cons.); guide raised at this print too (see §5); screen reaction +2%.
-- Q4 2025 (2026-02-18): EPS $2.79 vs $2.39–2.44 cons. (+15–17%); revenue $2.12B vs ~$2.06B cons.; screen reaction +9%.
-- Q3 2025 (2025-10-29): EPS $1.99 vs $1.99–2.00 cons. (met); revenue $1.77B vs $1.79B cons. (slight miss); screen reaction −11% (the guide, not the quarter, did that).
-Screen record supplied: beat_up 0.833, last4 +16%, +2%, +9%, −11%, worst −11.5%. Average EPS surprise over trailing four quarters ~13.5% (Zacks) — the largest habitual surprise in the batch.
+### 2. The bar
+- **Company guide (given 2026-08-05): revenue $10.3–10.8B, non-GAAP EPS $44–46, non-GAAP gross margin 83–85%, ~155M diluted shares.**
+- **Consensus (as of Oct 15–27, vendor-dependent): EPS $45.22 (Barchart) / $46.06–46.27 (Public/Yahoo/Zacks) / $46.67 (TipRanks); revenue $10.58–10.68B.** Every EPS reading sits **at or above the top of the guide range**, and revenue consensus sits above the $10.55B guide midpoint. Zacks notes its EPS consensus was **unchanged over the past 30 days**.
+- Whisper: the de-facto whisper is "beat the guide top" — one widely cited investor reconstruction gets ~**$48 EPS** at an 84.5% gross margin using the company's own opex/tax/share guide (TipRanks/Cavenagh). A print that merely lands inside guidance is a consensus **miss**.
 
-**4. Revenue/margin trend.** Steady acceleration with margin expansion: revenue Q3'25 $1.77B → Q4'25 $2.12B → Q1'26 $1.75B → Q2'26 $2.02B (+11.4% YoY); gross margin 59.1% → 59.2% → 59.4% → **62.4%**; operating margin 25.8% → 28.9% → 24.6% → **30.4%**. Caveat that matters for Q3: Q2 gross margin included a **$21M tariff refund**; even ex-refund, mix drove genuine expansion (Fitness +25% in Q2), and FY guide assumes **no further refunds**. Fitness is the engine; Auto OEM is shrinking; Marine/Outdoor/Aviation each >$250M/quarter ballast.
+### 3. Last four prints (fiscal quarters; non-GAAP EPS)
+- **FQ4 2026 (2026-08-05):** EPS **$39.25 vs ~$33.3–35.0 cons — beat ~+12–18%**; revenue **$8.97B, +372% YoY, +51% seq** (⅔ of seq growth from price, ⅓ volume); GM 84.6%. Guide: FQ1 set at $10.3–10.8B / $44–46 (see §2). Reaction **−6.8%** next session (TipRanks price table $1,350.50→$1,258.58; screen −7%) — a large beat was **sold**.
+- **FQ3 2026 (2026-04-30):** EPS **$23.41 vs $14.62 cons — beat +60%**; revenue **$5.95B, +251% YoY, +97% seq**; GM 78.4% (from 50.9% in FQ2). Guide: FQ4 revenue $7.75–8.25B, EPS $30–33 — subsequently smashed. Reaction **+8.3%**.
+- **FQ2 2026 (2026-01-29):** EPS **$6.20 vs $3.62 cons — beat +71%**; revenue **$3.03B vs ~$2.69B cons**; GM 51.1%. Guide: FQ3 revenue $4.4–4.8B, EPS $12–14 — subsequently smashed. Reaction **+6.9%** (TipRanks price table; screen last-4 shows +7%).
+- **FQ1 2026 (2025-11-06):** EPS **$1.22 vs $0.88 cons — beat +39%**; revenue **$2.31B**. Reaction **+15.3%**.
 
-**5. THE GUIDE.**
-(a) Guides **full-year only**, but with real granularity: revenue, pro forma EPS, gross margin %, operating margin %, tax rate, and segment revenue outlooks. No quarterly guide.
-(b) Next: Q4 2026 standalone consensus **not found** as a clean figure; FY26 consensus EPS **$10.08** on revenue **$8.09B** (Zacks) vs company guide (below). FY27 consensus **not found** in this search.
-(c) Run-rate support: H1 pro forma EPS was $2.08 + $2.81 = $4.89. Guide FY $10.00 implies H2 of $5.11; consensus FY $10.08 implies H2 of $5.19, of which Q3 consensus $2.38 leaves a Q4 of ~$2.81 — exactly Q2's level and below Q4 2025's $2.79… i.e. consensus Q4 ≈ last year's Q4 + normal seasonality. **Continuation, fully supported by run-rate and by Q4's structural seasonality (holiday Fitness/Outdoor). No unseen acceleration required.** This is the cleanest forward bar of the five.
-(d) Guide history: raises, repeatedly — FY26 revenue guide $7.9B → **$8.05B at Q2 (2026-07-29)**, with pro forma EPS to **$10.00**; sourcing differs on the prior EPS step ($9.35 per SGB/Barrons' account of the original guide, $9.65 per Trefis' account of the Q1-step) — either way the direction is two upward steps during 2026 and zero cuts; the one violent negative reaction in the set (Q3 2025, −11%) came on a guide the market read as timid despite an in-line quarter. Garmin guides conservatively and beats its own guide — Q2's +23% EPS surprise is the proof, not the exception.
-(e) Already raised between quarters? The Q2 raise (2026-07-29) is in the price (stock +15% since that close per Trefis) but it was a raise to a number H1 run-rate already supported — pre-banked, not speculative.
-What's changed this quarter: TrainingPeaks/TrainHeroic acquisition closed into Fitness (services/subscription layer, Connect+); Arete initiated Buy, $335 PT (2026-10-14); tariff-refund position normalises (no repeat of the $21M); Auto OEM expected −4.2% YoY is the known soft spot; holiday-quarter (Q4) guide commentary will matter more than Q3 actuals.
+Pattern the screen's −19.2 surprise trend captures: beats are shrinking in percentage terms (+71% → +60% → ~+15%) purely because the base has gone from $3.62 to ~$35 of expected EPS — the dollar beats are still enormous, but the era of guides being wrong by 2× is ending as analysts catch up.
 
-**6. Priced in.** Finnhub (2026-10-26): 1-month **−0.4%**, 6-month +13.8%, YTD **+44.4%**, 1-year +16.5%. 52w range $186.67–314.28 — screen price ~7% below the high, i.e. essentially no de-rating into the print, unlike APH/HWM. P/E ~30x trailing (Finnhub 30.2x), ~29x FY26 consensus — full for a hardware name, defensible only if the FY27 growth algorithm (double-digit revenue, margin held) survives. Options-implied move: **not found**; screen realised proxy **11.4% — the highest in the batch**, worst −11.5%. Crowded? Yes, as a 2026 momentum winner, though positioning is long-only quality rather than hedge-fund AI beta.
+### 4. Revenue / margin trend
+Reported revenue, last four quarters: **$2.31B → $3.03B → $5.95B → $8.97B**; FY26 total $20.25B (+175% YoY). Non-GAAP gross margin: **~23% (year-ago) → 51.1% → 78.4% → 84.6%**. Mix: datacenter revenue $0.20B → $1.47B → $2.98B across the last three reported quarters (38% of FQ4 sales, +437% YoY for FY26); edge is the volume bulk; consumer fell −32% seq in FQ4 on price elasticity. Trend verdict: **the steepest acceleration in the S&P 500, and now guided to decelerate** — FQ1 guide is +15–20% seq vs +51% in FQ4, with management guiding to "modest price increases" + volume, and GM guided flat at 83–85%. Growth is not guided to fall; its *slope* is guided to normalise, which for this stock is the whole argument.
 
-**7. Moat / AI-irreplaceability: 8/10.** Vertical integration (own factories, own silicon/software stack), #1 or #2 in five unrelated niches (fitness wearables vs Apple, aviation vs Collins, marine, outdoor, auto OEM), $4.4B cash, no debt. AI does not replace a watch on a wrist, a transponder in a cockpit or a chartplotter on a boat; if anything its sensors are AI inputs. A −15% gap stuck 18 months: **opportunity** — the balance sheet and buyback ($448M remaining) put a floor under a purely multiple-driven gap.
+### 5. THE GUIDE
+- **(a) Does it guide / granularity:** Yes, one quarter forward, very granular: revenue, gross margin, opex, EPS, share count, plus capex intensity (~6% of revenue for FY27) and a long-range contract/margin framework (see (c)). **No full-year revenue/EPS guide** — the FY anchor is the contract book and FY28–30 margin targets (~80% GM, ~75% OM, ~50% FCF margin at target, per management via Cavenagh summary).
+- **(b) Next quarter + full year consensus:** A published FQ2 2027 (December quarter) consensus figure was **not found**. The operative bar, per TipRanks/Cavenagh analysis: FY27 revenue consensus ≈ **$49B**, which requires averaging ~**$12.7B over the remaining three quarters** after an ~$10.6B FQ1 — a December-quarter guide **near $12B keeps the path credible; near $11B breaks it**. FY27 EPS consensus ~$215 (Fool, Oct 16) is the denominator behind the optical multiples below.
+- **(c) Run-rate support:** FQ2 at ~$12B = ~+13–15% seq — **continuation, not unseen acceleration**, *if* NAND pricing holds: TrendForce expects Oct–Dec contract NAND prices **+15–20%**, Citi sees a NAND supply deficit widening to 6.1% in 2027 (demand +29% vs supply +21%), and the New Business Model book — **$93.9B minimum contracted revenue across 8 customers, price floors, $16.5B customer guarantees, covering ~½ of FY27 bits and ~⅔ of FY28** — mechanically supports volume. The vulnerability is symmetrical: FQ4 growth was ⅔ price, so a price stall removes the engine, not just a cylinder.
+- **(d) Guide history:** In this upcycle guidance has been a floor, not a forecast: FQ2 guide top $3.40 → actual $6.20; FQ3 guide top $14 → actual $23.41; FQ4 guide top $33 → actual $39.25. Three consecutive guides beaten by 18–82% at the top end. There is no "raise/reaffirm/trim" cadence to score in the normal sense — management guides conservatively at each print and the print does the raising. The risk this creates is new: **consensus has now moved above the guide top for the first time in the cycle**, so the conservative-guide game no longer guarantees a headline beat.
+- **(e) Raised between quarters?** **No** intra-quarter raise or pre-announcement found. Between-quarter flow was adverse on positioning (see §6) and mixed on read-throughs: Western Digital (Oct 22) beat and guided up but fell ~6.5% after hours after flagging rising NAND/DRAM input costs and elevated capex — a warning about what this tape does to beats; SK hynix/Seagate report the same week.
 
-**8. Print-specific risks.** (i) The 11.4% realised proxy is real: Garmin's prints *move* — the distribution is fat in both directions. (ii) Q4/FY guide: consensus FY ($10.08 / $8.09B) sits fractionally **above** company guide ($10.00 / $8.05B) — a mere reaffirmation is technically a consensus miss, and Q3 2025 showed what a "timid guide" reaction looks like (−11%). (iii) Gross margin normalisation ex-tariff-refund must not be misread as mix deterioration. (iv) No pullback cushion: it reports at ~93% of its 52w high after +44% YTD.
+### 6. Priced-in
+- Move: **1M −26.6%** (Finnhub), ret_21d −29.4% (screen); **−46.2% from the $2,354.39 52-week high** (screen); but **+450% YTD and +639% over 1 year** (Finnhub). This is a parabolic stock having a correction, not a broken chart discovering value.
+- Valuation — **the cyclical-peak-earnings question is the valuation**: screen fwd P/E **4.7x**; ~7x FY27 consensus EPS (Cavenagh); trailing P/E ~16–17x. All of these divide price by earnings that assume ~84% gross margins on a commodity that printed 22.7% gross margin five quarters ago and whose sales fell **38% in the last downturn** (management's own FQ4-call framing, via Fool). At mid-cycle margins the "4.7x" is meaningless; at contract-floor margins (bulls argue >75% GM even at floor prices — **unverified**, no primary disclosure of floor-price margins found) it is genuinely cheap. The multiple is a bet on the NBM contracts converting a cycle into an annuity, and that conversion has not yet been tested by a single down quarter.
+- Options: implied move is a **range, honestly reported: 7.7% (Investing.com/Bloomberg model) · 10.8% (Barchart, Oct 26) · 12.1% (TipRanks, Oct 23) · 13.7% (Earnings-Watcher, Oct 16)** vs the screen's realised proxy **7.8%** avg abs and an actual-move average of ~9–13% over recent prints. On most readings **options price more movement than the name has recently delivered** — long-vol into the print is not obviously cheap.
+- **Crowded or not: narrative-crowded, positioning partially washed — explicitly two-sided.** Bullish consensus is extreme (25 analysts: 17 Buy / 4 Overweight / 3 Hold / 1 Underweight; mean target $2,173, +73%, but range $1,000–$3,600 — disagreement, not conviction, at the tails). Against that: insiders **sold ~$130M and bought $0** into the boom (Inference, from filings), FMR cut its stake 41% in the June quarter, and the stock has already de-rated −46% from the high. The tourists have been shaken; the story believers have not.
 
-**9. Scores.** Beat-likelihood **8/10** (highest in batch: 7 of last 8 EPS beats, avg surprise ~13.5%, flat 30-day revisions, no guide-above-consensus trap). Guide-risk **5/10** (HIGH=BAD — FY reaffirm-vs-consensus gap is small but the Q3'25 precedent shows this stock punishes guide timidity hardest). Priced-in **7/10** (HIGH=BAD — near highs, +44% YTD, 30x, and an 11.4% realised move distribution). **Verdict: the most likely beat in the batch attached to the least forgiving entry price — quality at a momentum price.**
+### 7. Moat / AI-irreplaceability: **4/10**
+NAND is a commodity oligopoly (Samsung, SK hynix/Solidigm, Kioxia/WDC-JV, Micron, YMTC rising). SanDisk's genuine assets are scale, the BiCS cost roadmap (BiCS8/10), enterprise-SSD qualification at hyperscalers, High Bandwidth Flash optionality, and now the NBM contract structure — which is a *commercial* innovation that dampens, but cannot repeal, the cycle. Downside insurance framing: the $93.9B floor-priced book is real insurance for revenue; there is no equivalent insurance for the multiple if spot NAND rolls.
 
-**10. Plan A or Plan B? Plan B.** What would make it A: a pre-print pullback toward the $260s (the post-Q2 breakout base), or evidence Q4 consensus had been cut — neither is present. At $292 the beat is the expectation, not the surprise.
+### 8. Risks specific to THIS print
+(i) Consensus above the guide top — an in-guide print headlines as a miss. (ii) Gross margin: 83–85% guided after 84.6% — any print below 83% reads as "peak margin" and the stock has no second story that day. (iii) The FQ2 guide is the real event: ~$11B or soft pricing language breaks the $49B FY path (see §5b). (iv) Price-led growth: consumer/PC/smartphone units already falling mid-teens under NAND inflation — demand destruction is the cycle's usual first crack. (v) Calendar pile-up: FOMC the day before, SK hynix/Seagate read-throughs the same week, WDC already showed beats get sold. (vi) YMTC IPO/expansion headlines as a 2027–28 supply tell.
 
----
+### 9. Scores
+- Beat-likelihood: **6/10** — the guide itself will likely be beaten (it always has been), but beating *consensus above the guide top* is a harder, newer test.
+- Guide-risk: **8/10** (high = bad) — the December-quarter guide must simultaneously re-accelerate revenue and defend peak margins; both levers are the NAND price, which SanDisk does not control.
+- Priced-in: **7/10** (high = bad) — the −46% de-rating helps, but +639% in a year, a $2,173 mean target and options pricing 11–14% say the supercycle is still the base case in the price.
+- **Verdict:** Rank 1 on the screen and the most dangerous name in the batch — a commodity producer at 84% gross margins whose "4.7×" is either the cheapest large-cap in the market or a peak-earnings trap, and this print's guide, not its quarter, decides which description the tape uses.
 
-## 4. CBOE — Cboe Global Markets — Screen date Fri 2026-10-30 — Screen price $338.82 — ⚠️ run_into_print_flag TRUE (ret_21d +31.3% per screen)
-
-**1. Date.** Fri 2026-10-30, **BMO**, call 8:30am ET. Status: **CONFIRMED** — company PR via PR Newswire dated **2026-09-28** ("will announce Q3 2026 results before the market opens on Friday, October 30, 2026"). Not moved.
-
-**2. Bar.** Consensus Q3 2026: adj. EPS **$3.37–3.42** (Zacks $3.37; Barchart/Tickeron $3.41; Finviz $3.42) on net revenue **$702–709M** (Zacks $701.96M; Finviz $707.56M; Tickeron ~$708.6M), +26–28% EPS / +16% revenue YoY, as of 2026-10-23/26. Revisions: Zacks EPS consensus **+0.17% in last 30 days** — essentially flat. FY26 consensus adj. EPS ~$13.90 (+30% YoY). Whisper: **not found** — but see §5: the quarter's volumes are already public, which functions as a whisper.
-
-**3. Last four prints** (adjusted EPS vs consensus; Finviz table + Zacks):
-- Q2 2026 (2026-07-31): adj. EPS **$3.56 vs $3.45–3.48 cons.**; net revenue a record **$731.6M vs ~$717M cons.**, +25% YoY; FY organic growth guide **raised**; reaction **+4.6% on Jul 31** (Barchart) — screen +4%/+5% area.
-- Q1 2026: adj. EPS **$3.70 vs $3.34 cons.** (+10.8% — the big beat of the four); screen reaction +9% (largest in its set).
-- Q4 2025: adj. EPS $3.06 vs $2.94 cons. (+4.1%); screen reaction +3%.
-- Q3 2025: adj. EPS $2.67 vs $2.54 cons. (+4.9%); net revenue $605.5M; screen reaction +5%.
-Screen record supplied: beat_up 0.857, last4 +5%, +9%, +3%, +4%, **worst only −1.7%** — by far the shallowest downside reaction history in the batch. Four straight beats, four positive reactions.
-
-**4. Revenue/margin trend.** Strong acceleration through 2026 on volatility-driven volumes: Q2 net revenue $731.6M, +25% YoY (Options +30% to a record $473.9M; Cash/Spot +22%; Data Vantage +15%); GAAP operating margin 65.1%, +7.4pts; adj. EBITDA margin 72.2%, +6.4pts — expenses grew only ~3% against +25% revenue. **Important framing for Q3: consensus revenue ($702–709M) is BELOW Q2's actual $731.6M.** Consensus is already modelling sequential normalisation from an extraordinary Q2 — the bar embeds a step-down, not a step-up.
-
-**5. THE GUIDE.**
-(a) Does not guide EPS or quarterly revenue. Guides **full-year organic net revenue growth (a range), Data Vantage growth, adj. operating expenses, capex and tax** — and, uniquely in this batch, **pre-reports the quarter's raw material monthly**: trading volumes and RPC/net-capture by product.
-(b) Next: Q4 2026 consensus adj. EPS **$3.42** (Finviz, 15 analysts); Q4 revenue consensus **not found** as a clean figure. FY26 consensus $13.90; FY27 figures **not found** in this search beyond analyst EV/EBITDA colour.
-(c) Run-rate support: Q4 consensus $3.42 is *below* Q1 ($3.70) and Q2 ($3.56) actuals — consensus asks for **less than the demonstrated run-rate**, the only name in the batch where that is true on EPS as well as revenue. Continuation with room to spare.
-(d) Guide history: **raised at Q2 2026** — FY26 organic total net revenue growth lifted to **mid-to-high teens (from low-double-digit-to-mid-teens)**, Data Vantage to low-teens (from low-double-digits), opex reaffirmed $838–853M. The pattern across the last 8 quarters per available sources is raise-on-volume-strength; no cut found. Reactions to its prints have been positive four straight times (see §3) — this market rewards Cboe's guides because they are corroborated by public volume data within weeks.
-(e) Already raised between quarters? The Q2 raise is the last formal guide event — **but the September volume report (2026-10-05, PR Newswire) is effectively a between-quarters pre-announcement of the quarter's activity** (see below).
-What's changed this quarter — the quarter is largely pre-reported, RE-VERIFIED: September/Q3 volume release (2026-10-05) reported quarterly multi-list ADV of 15.3M contracts (2nd-best quarter ever), monthly proprietary index ADV 6.4M (2nd highest on record), quarterly SPX ADV 4.9M (2nd best), **record quarterly SPX 0DTE ADV 3.2M**, record XSP ADV, RUT's best month since Jan 2016, plus Q3 RPC/net-capture projections: total options $0.307 (vs $0.317 in June — note the slight sequential capture drift down), index options $0.952, multi-list $0.052. Cboe Australia sale to TMX completed 2026-07-31 (removes that segment from comparatives). Also new: Cboe/Robinhood planned KPI/prediction-market contracts announced with the September lookback. The residual unknowns are therefore expenses, Data Vantage, FX/Europe, and mix — not headline options volume.
-
-**6. Priced in — the problem.** Screen flag: **run_into_print TRUE, ret_21d +31.3%**. Corroboration: Finnhub 1-month return **+34.8%** (European listing feed) / +33.7% (Milan feed); price ran from ~$253–271 in late September (Ad-Hoc, 2026-09-28/10-02) to the $338.82 screen price — and note the average analyst target was ~$306–318 in early-October coverage (MarketBeat $306.73; Globe consensus $318.01; Goldman PT *cut* to $300 on 2026-10-02 even while upgrading to Neutral): **the stock has run through the consensus target into the print.** 52w range $227.15–371.18 — screen price is ~9% below the high, so not at the high, but the *speed* is the issue, not the level. P/E ~26x trailing; ~24x FY26 consensus ($338.82 / $13.90) — not extreme for an exchange, but the re-rating has already happened. Options-implied move: **not found**; screen realised proxy only **3.6%** avg abs, worst −1.7% — the options/realised frame says "calm name"; the +31% month says the calm-name assumption is what's being repriced. Crowded? Now, yes — it became the momentum name in exchanges *during* October.
-
-**7. Moat / AI-irreplaceability: 9/10** (highest in batch). Proprietary index products (SPX, VIX, 0DTE complex) are a licensed, network-effect monopoly that literally cannot be replicated by a competitor exchange or by AI; Data Vantage compounds on top. AI-driven volatility and retail options adoption are tailwinds, not threats. A −15% gap stuck 18 months: **opportunity, emphatically** — the franchise's cash generation and buyback would make a stuck de-rating self-correcting; disaster requires a regulatory strike at index-options exclusivity or 0DTE, neither of which is a this-print risk.
-
-**8. Print-specific risks.** (i) **The run itself**: +31% in 21 days means a good-but-not-great print has no marginal buyer left; "beat and fade" is the base case risk. (ii) RPC drift: Q3 projected total-options capture $0.307 vs $0.317 in June — volume beat with capture slippage is the one way the pre-reported quarter still disappoints. (iii) Q2's drivers included war/volatility headlines (Iran war, AI-sentiment swings per Barchart) — Q3 volumes held up (per the Sept data), but Q4/FY27 commentary on volume normalisation is where the multiple can leak. (iv) Australia divestiture makes YoY segment comparisons noisy. (v) FY organic-growth guide: a reaffirmation of "mid-to-high teens" after this run may not be enough; the market may now need the top of it quantified.
-
-**9. Scores.** Beat-likelihood **8/10** (volumes pre-reported at near-record levels, RPC pre-guided, consensus revenue below Q2 actual — the hardest bar to miss in the batch on fundamentals). Guide-risk **4/10** (HIGH=BAD — no EPS guide to miss; FY growth guide was just raised and volume data corroborates it; residual risk is tone on normalisation). Priced-in **9/10** (HIGH=BAD — the worst in the batch: +31.3% in 21 days, through the consensus target, into a name whose realised earnings move is 3.6%). **Verdict: the best business and the most knowable quarter in the batch, bought at the worst possible moment — every good fact about Q3 is already public and, after October, already in the price.**
-
-**10. Plan A or Plan B? Plan B — and the clearest B in the batch on timing alone.** What would make it A: the run unwinding pre-print (a give-back toward ~$300, Goldman's PT / early-October consensus target zone) with the volume data unchanged. Holding *through* the print after a +31% month in a 3.6%-realised-move name is being paid almost nothing for the one risk (multiple compression) that the print can actually deliver.
+### 10. Plan
+**Plan B** — default stands, emphatically: no pre-positioning into a guide-dependent print on a parabolic commodity name; reassess on the FQ2 guide and floor-price margin disclosure.
 
 ---
 
-## 5. AME — AMETEK — Screen date Tue 2026-11-03 — Screen price $244.69
+## 3. INCY — Incyte Corporation (NASDAQ: INCY) — Thu 2026-10-29 BMO
 
-**1. Date.** Tue 2026-11-03, **BMO**, call 8:30am ET. Status: **CONFIRMED** — company announcement dated **2026-10-15** (AMETEK release, reported Ad-Hoc 2026-10-22/23). Not moved. (Ignore MarketBeat calendar pages still showing Oct 29 as an estimate in some snapshots; the company date governs. Yesterday's finding RE-VERIFIED unchanged.)
+Screen: $113.30 · rank 2 · beat_up 0.80 · surprise trend +23.6 · last-4 reactions +9%, +2%, −8%, −2% · ret_21d −8.5% · dist_52w_high −12.8% · fwd P/E 13.1x · target mean $129.54 · Oct 27 close $116.60 (Finnhub).
 
-**2. Bar.** Consensus Q3 2026: EPS **$2.11–2.12** (Zacks Research raised its own estimate $2.08 → $2.11 on 2026-10-07; Zacks consensus $2.12, MarketBeat $2.11) on revenue **~$2.12B** (MarketBeat) — Zacks sales table shows $2.16B from a smaller 5-estimate panel; treat revenue consensus as **$2.12–2.16B**. Company Q3 guide (2026-08-04): adj. EPS **$2.08–2.10** on **+high-single-digit sales growth** (~$2.04–2.06B implied off Q3'25's $1.89B). **As yesterday: consensus sits above the guide on EPS (by 1–4c) and well above the guide's implied sales growth (+12–14% consensus vs +HSD guided)** — the sales gap is the larger of the two and reflects expected acquisition contribution (Indicor Instrumentation closed in Q3) that the guide, set before/at closing, may not fully carry. FY26 consensus $8.41–8.42. Whisper: **not found**.
+### 1. Report date
+**CONFIRMED — Thu 2026-10-29, press release 7:00 a.m. ET, call 8:00 a.m. ET (BMO).** Primary source: Incyte's own announcement via BusinessWire 2026-10-08 ("Incyte to Report Third Quarter Financial Results": release Oct 29 7:00 a.m. ET, call 8:00 a.m. ET, webcast at Investor.Incyte.com). No move.
 
-**3. Last four prints:**
-- Q2 2026 (2026-08-04): adj. EPS **$2.09 vs $1.99 cons.** (+$0.10); sales $2.04B vs $1.95B cons., +15% YoY; FY guide **raised**; reactions verified yesterday: **+4.2%** (screen +4%).
-- Q1 2026 (2026-04-30): sales $1.93B; EPS beat; reactions verified yesterday: **+3.4%** (screen +3%).
-- Q4 2025: beat; FY guide set at $7.94–8.14 initially for 2026; screen reaction +1%.
-- Q3 2025: EPS $1.89 (YoY comparator); beat; screen reaction +8%.
-Screen record supplied: beat_up 0.875, last4 +4%, +3%, +1%, +8%, **worst only −2.0%** — tied with CBOE for the shallowest downside in the batch, with no negative reaction in the last four at all.
+### 2. The bar — and verification of the Vega claim
+- **Consensus (as of Oct 22–23): EPS approx −$3.50 (Zacks), revenue $1.48B (+8.5% YoY).** Vendor spread on EPS is wide — MarketBeat −$3.64 / $1.47B, TipRanks −$3.26, Public −$3.96 — because vendors differ in how completely they have loaded the charge below. Revenue consensus is tight ($1.47–1.48B) and is the usable bar. Revisions: Zacks EPS consensus −0.28% over 30 days — flat; the number moved when the deal closed, not since.
+- **Product consensus (Zacks preview, Oct 23): Jakafi $827M; Opzelura $230M.** These two lines, plus total net sales vs the raised FY guide, are the real test.
+- **VERIFIED — the brief's Vega claim is correct.** Incyte's Q2 2026 release (BusinessWire, 2026-07-28) states the Vega Therapeutics acquisition (closed July 2026; $1.25B upfront for VGA039/latarcibart, a Phase 3 monoclonal antibody for von Willebrand disease, plus up to $750M sales milestones) will produce an IPR&D expense of approximately $1,270 million expected in Q3 2026, reflected in Q3 and FY26 GAAP **and** non-GAAP results, plus $50M of incremental ongoing R&D. Because the charge hits non-GAAP too, there is no clean adjusted number to hide behind: ~$1.27B over ~200M shares is a ~$6/share gross swing, which is exactly how an underlying ~+$2.80 EPS business (Q2's diluted print) becomes a ~−$3.50 consensus. **The headline EPS comparison is noise by construction.**
 
-**4. Revenue/margin trend.** Accelerating on orders, not just acquisitions: Q1 sales $1.93B → Q2 **$2.04B, +15% YoY**; operating income $544M, +18%; operating margin **26.6%, +60bp YoY**; FCF $452M, +37%. The demand gauges are the story: **Q2 orders +28% YoY to a record $2.3B; backlog $4.11B, ~80% shippable within 12 months.** That backlog is ~2 quarters of sales — Q3/Q4 revenue is substantially pre-sold, which is why consensus models +HSD-or-better despite the guide.
+### 3. Last four prints
+Adjusted/non-GAAP EPS vs consensus (vendor bases vary slightly; direction and revenue are consistent); reactions are the screen's.
+- **Q2 2026 (2026-07-28):** Adj EPS $3.09 vs $2.15 cons — beat +44% (GAAP diluted $2.81); revenue $1.67B vs $1.50B cons — beat +11%, +38% YoY. Jakafi $817M (+7%), Opzelura $450M — including a $246M one-time non-cash CMS gross-to-net reversal (underlying Opzelura approx $204M). Guide: FY sales raised. Reaction +9%.
+- **Q1 2026 (2026-04-28):** EPS $1.81 vs ~$1.31–1.34 cons — beat +35–38%; revenue $1.27B (+21% YoY), net sales $1.10B (+20%); Jakafi $758M (+7%), Opzelura $143M (+20%), Hem/Onc $204M (+116%). Guide: FY26 reaffirmed at $4.77–4.94B. Reaction +2%.
+- **Q4 2025 (2026-02-10):** EPS $1.80 vs $1.83–1.92 cons — slight miss −2 to −6%; revenue $1.51B — beat (incl. ~$100M milestones); FY25 revenue $5.14B (+21%). Guide: initial FY26 set at $4.77–4.94B total net sales, Jakafi $3.22–3.27B, Opzelura $750–790M (below the ~$801M Street figure for Opzelura). Reaction −8% — the guide, not the quarter, was punished.
+- **Q3 2025 (2025-10-28):** EPS $2.26 vs ~$1.53–1.64 cons — beat +38–48%; revenue $1.37B. Reaction −2% (screen) — a big beat that went nowhere, the pre-CMS-settlement pattern of beats being discounted for Jakafi-cliff reasons.
 
-**5. THE GUIDE.**
-(a) Guides quarterly adj. EPS (tight $0.02 range) + quarterly sales growth (qualitative %) + FY diluted EPS range. Granularity is high and the ranges are honest.
-(b) Next: Q4 2026 consensus EPS **$2.23–2.24** (Zacks Research $2.23; Zacks consensus table $2.24), Q4 sales consensus $2.43B per Zacks' 5-estimate panel (note: that figure implies a large Q4 acquisition/step-up contribution — flag, do not anchor on it; MarketBeat-derived FY arithmetic is more conservative). FY26 consensus **$8.41–8.42**; FY27 consensus $9.56–9.58 (Zacks/KeyCorp $9.73 is the high outlier).
-(c) Run-rate support: FY consensus $8.41 vs company guide $8.20–8.30 — consensus requires H2 of ~$4.35 (Q3 $2.11 + Q4 $2.23 ≈ $4.34) vs guide-implied H2 of ~$4.14–4.20 at guide tops. That gap (~$0.15) is **not** visible in the current run-rate alone; it requires the orders/backlog surge (+28% / $4.11B) to convert on schedule plus Indicor contribution. Call it **continuation-if-orders-convert** — supported by the hardest evidence (a backlog is not a hope), but it is a conversion assumption, not a run-rate identity. This is the batch's one genuine "show me" forward bar.
-(d) Guide history: **raised at Q2 2026** — FY26 EPS to **$8.20–8.30 from $7.94–8.14**, after Q2 EPS ($2.09) beat its own Q2 guide ($1.96–2.00) outright. The multi-year pattern is small-range guides, beats, and mid-year raises; no cut found in the last 8 quarters. Reactions to AME guides have been positive in all of the last four prints (screen), worst −2.0% across the wider set.
-(e) Already raised between quarters? **The FY raise is pre-banked (2026-08-04)** — and this is the crux from yesterday, unchanged on re-verification: consensus ($8.41–8.42) already sits *above the raised guide*, meaning the market has spent the raise and added a second, unofficial one on top. There has been no further intra-quarter update.
-What's changed this quarter: Indicor Instrumentation acquisition completed (DA Davidson reiterated Buy/$285 PT on 2026-10-07 on the deal); Zacks upgraded to Strong Buy (2026-10-08); Morgan Stanley PT $245→$275 (2026-10-09); Baird PT to $280 (2026-10-05); BNP Paribas Exane PT to $290 (2026-09-11) — a one-way target escalator all quarter. Insider sale: David Hermance sold 6,608 shares at $254 on 2026-08-07 (routine scale, noted for completeness).
+### 4. Revenue / margin trend
+Total revenue ($B): Q1'25 1.05, Q2'25 1.22, Q3'25 1.37, Q4'25 1.51, Q1'26 1.27, Q2'26 1.67. Headline growth is accelerating (+38% YoY in Q2) but flattered by the $246M one-off: ex-benefit net sales grew +17% in Q2 and +20% in Q1 — still acceleration vs 2025's low-teens, driven by ex-Jakafi products (core ex-Jakafi sales +63% YoY in Q1; Hem/Onc +69–116%). Jakafi is a metronome: +7% YoY in both Q1 and Q2 ($758M, $817M). Gross margin structurally ~92–94%; operating margin printed 41.7% in Q2 (one-off-inflated) vs a ~25–32% underlying range. Trend verdict: **underlying growth accelerating modestly, headline growth about to decelerate mechanically** as the Opzelura one-off drops out — Q3's $1.48B consensus (+8.5% YoY) already reflects that air pocket.
 
-**6. Priced in.** 52w range $182.87–261.16 — screen price $244.69 is ~6% below the high, ~34% above the low; 50-day MA ~$243.8 (price ≈ its own short-term average — no run, no washout). Precise 1-/3-month returns **not found** in this search; qualitatively the stock has chopped sideways $239–254 through October per MarketBeat snapshots — the opposite pattern from CBOE. Forward P/E: $244.69 / $8.41 ≈ **29x FY26 consensus** (Zacks P/E F1 28.4x; MarketBeat forward 25.4x on a different EPS base — range 25–29x), vs its own history of high-20s — at, not above, its normal premium. Options-implied move: **not found**; screen realised proxy **4.1%**, worst −2.0%. Crowded? No — it is the batch's consensus quality compounder, owned, not chased.
+### 5. THE GUIDE (INCY)
+- **(a) Does it guide / granularity:** Yes — full-year only, by product: total net sales, Jakafi, Opzelura, Hematology/Oncology, plus GAAP and non-GAAP R&D+SG&A ranges. No quarterly guide and no EPS guide — by design, and doubly sensible this quarter given the IPR&D distortion.
+- **(b) Next quarter + full year:** Current FY26 guide (raised 2026-07-28): total net sales $5,130–5,260M; Jakafi $3,220–3,270M (unchanged); Opzelura $1,050–1,100M; Hem/Onc $860–890M; GAAP opex $4,915–4,995M / non-GAAP $4,625–4,695M (both raised to absorb Vega). A specific Q4 2026 consensus was **not found** (the $1.96 EPS / $1.354B figures in AInvest content refer to the Q4 2025 cycle and must not be used). Implied Q4 test: H1 net sales were $2.59B ($1.10B + $1.49B), so H2 must deliver $2.54–2.67B for the guide to hold.
+- **(c) Run-rate support: continuation, no unseen acceleration required.** Jakafi at the $827M consensus = +7% YoY for a third straight quarter — pure run-rate. Opzelura at $230M consensus vs Q2's $450M printed but ~$204M underlying — consensus asks for ~+13% underlying sequential growth plus the guided $40–50M H2 gross-to-net benefit (split across Q3/Q4) — demanding but supported by patient starts/refills (Zacks preview) and the CMS settlement mechanics. The optical risk (a $450M to ~$230M "halving" in headlines) exceeds the operational risk.
+- **(d) Guide history (verified 2026 sequence; full 8-quarter table not found):** Q4'25 print — FY26 guide set, Opzelura leg below Street (reaction −8%); Q1'26 — reaffirmed; Q2'26 — raised materially (total +~$360M at midpoint, Opzelura +~$305M at midpoint on the CMS settlement, Hem/Onc raised/narrowed, Jakafi deliberately unchanged) and opex raised for Vega in the same release. Pattern: conservative initial set, raise when a settled item lands, no 2026 cut. The July raise was substantially a settlement raise, not a demand raise — worth remembering when scoring repeatability.
+- **(e) Raised between quarters?** No — no guide change since 2026-07-28 was found; Q3 is the first test of the raised guide rather than another raise event.
 
-**7. Moat / AI-irreplaceability: 8/10.** A portfolio of niche instrumentation monopolies (EIG + EMG) bought and compounded for decades; process control, aerospace, power and medical test/measurement are specification-locked, small-ticket/mission-critical products AI does not substitute — and its power/automation lines sell *into* the data-centre buildout without carrying AI-multiple risk at APH's level. A −15% gap stuck 18 months: **opportunity** — backlog, 26.6% margins, +37% FCF growth and a fortress balance sheet (D/E 0.09) make a stuck gap a valuation event, not a franchise event.
+### 6. Priced-in (INCY)
+- Move: 1M −5.9% (Finnhub), ret_21d −8.5% (screen); 3M strongly positive earlier in the fall (+22.5% over three months per Barchart, Oct 1, on the Q2 raise); −12.8% from the $132.60 52-week high (screen). Price $113.30 (screen) / $116.60 (Oct 27 close).
+- Valuation: fwd P/E 13.1x (screen), ~15x on other vendor bases; trailing ~14.7x. For a net-cash ($4.5B cash, minimal debt) biotech growing underlying sales ~17–20%, that is mid-range for its own post-2020 history and undemanding vs biotech peers — the Jakafi 2028 patent cliff is the discount, and it is already in the price.
+- Options: implied move **not found** (Incyte does not appear in the Barchart Oct 26–30 expected-move table retrieved) vs the screen's realised proxy 6.9% avg abs. Last-4 realised reactions (+9/+2/−8/−2) bracket that proxy honestly.
+- **Crowded or not: NOT crowded.** Moderate Buy consensus, mean target $129.54 (+14% vs screen price), with the debate openly about the cliff rather than the quarter; the stock de-rated into the print rather than running into it.
 
-**8. Print-specific risks.** (i) Consensus above guide on both lines, with the FY gap ($8.41 vs $8.30 top) the widest guide-vs-consensus spread in the batch — a print *at* guide top + FY reaffirm is a consensus miss on both. (ii) The beat therefore has to come from backlog conversion/Indicor — any "orders normalised" language kills the unofficial second raise. (iii) Q4 guide is the event: implied Q4 guide from an unchanged FY range would be ~$2.01–2.11 vs $2.23 consensus — management must raise FY again or guide Q4 specifically, or the stock does the arithmetic itself. (iv) One extra week of headline risk vs the others (reports Nov 3, after APH/GRMN/HWM/CBOE and after the hyperscalers).
+### 7. Moat / AI-irreplaceability (INCY): 6/10
+JAK-inhibitor franchise depth (Jakafi/Jakafi XR, Opzelura as the same molecule in cream form), a broadening Hem/Onc book (Niktimvo, Monjuvi, Zynyz) and now a first-in-class bleeding-disorder Phase 3 asset (VGA039) give real scientific and commercial infrastructure. Docked for single-molecule (ruxolitinib) concentration across the two biggest products and a dated, visible patent cliff — the moat is a portfolio-transition race, and Q3 is one lap of it.
 
-**9. Scores.** Beat-likelihood **7/10** (8 straight-ish beats pattern, backlog cover, but the bar is set above guide — the beat must be manufactured from conversion, not conservatism alone). Guide-risk **6/10** (HIGH=BAD — a second FY raise in consecutive quarters is a real ask; the mitigant is that AME's reaction history punishes disappointment mildly, worst −2.0%). Priced-in **4/10** (HIGH=BAD — sideways into the print, at its normal multiple, no run to unwind). **Verdict: yesterday's pick remains defensible on re-verification — the risk is a guide-arithmetic disappointment, the protection is that this stock's disappointments have historically cost 2%, not 12%.**
+### 8. Risks specific to THIS print (INCY)
+(i) Headline-loss misread: a ~−$3.50 print will trigger "Incyte swings to loss" wires; headline selling on a pre-announced, fully disclosed charge is a real flow risk. (ii) Opzelura optics: the drop from $450M printed to ~$230M expected must be narrated as one-off removal, not demand loss — any underlying miss vs ~$230M breaks that defence. (iii) Jakafi: a sub-$800M quarter would be the first crack in the +7% metronome and would hit the unchanged FY Jakafi guide directly. (iv) Vega colour: any increase to the ~$1.27B charge, the $50M ongoing R&D, or slippage in the VGA039 Phase 3 (VIVID-6) timeline. (v) Pipeline headlines sharing the release (povorcitinib, ESMO updates) can move the stock independently of the financials.
 
-**10. Plan A or Plan B? Plan B.** What would make it A: evidence pre-print that order conversion is tracking ahead of the +HSD guide (e.g. a peer/process-control print confirming acceleration) — or management's own intra-quarter signal, which AME does not give. It stays B, but it is the batch's lowest-regret B: bounded reaction history, no run into the print, backlog-verified demand.
+### 9. Scores (INCY)
+- Beat-likelihood: **7/10** — scored on the real bar (product revenue vs consensus and guide trajectory), where Jakafi's metronome and the guided GTN benefit do the work; the EPS beat/miss is unscoreable noise this quarter.
+- Guide-risk: **3/10** (high = bad) — the FY guide was raised one quarter ago on a settled item, needs only continuation, and Jakafi was left unchanged in July, signalling management is not stretching the anchor product.
+- Priced-in: **4/10** (high = bad) — de-rated into the print, mid-teens multiple, no crowd to unwind; the discount is a 2028 story, not a Q3 story.
+- **Verdict:** The batch's cleanest setup on fundamentals — a pre-announced accounting crater sitting on top of an accelerating underlying business — provided the panel scores product revenue and the guide, not the meaningless headline EPS.
+
+### 10. Plan (INCY)
+**Plan B** — default stands (borderline A): the underlying setup is A-grade, but a headline −$3.50 print into an 8 a.m. call is a flow event first and a fundamentals event second; B costs little with the stock 13% off its high.
+
+---
+
+## 4. LLY — Eli Lilly and Company (NYSE: LLY) — Thu 2026-10-29 BMO
+
+Screen: $1,275.80 · rank 5 · 4/4 beats, avg surprise +20.4%, trend +12.4 · beat_up 0.833 · last-4 reactions +5%, +10%, +10%, +4% · ret_21d +7.8% · dist_52w_high −2.4% · fwd P/E 27.0x · target mean $1,331.55 · Oct 27 close $1,281.91 (Finnhub).
+
+### 1. Report date
+**CONFIRMED — Thu 2026-10-29, results before the open, call 10:00 a.m. ET.** Primary source: Lilly press release "Lilly confirms date and conference call for third-quarter 2026 financial results announcement" (PR Newswire, ~2026-10-15), corroborated by the Lilly IR calendar (Q3 call Oct 29, 10:00 a.m. EDT). TipRanks marks it "Before Open (Confirmed)." No move.
+
+### 2. The bar
+- **Revenue consensus is tight and is the clean bar: $22.11B (Zacks) to $22.62B (consensus table via EuropeSays) — call it ~$22.1–22.6B, +26–28% YoY** (vs $17.60B in Q3'25). Fiscal.AI (via Stocktwits, Oct 20): $22.49B.
+- **EPS consensus is NOT a single number this quarter, and the dispersion is itself the finding:** $5.38 (Zacks, Oct 19 vintage) · $5.68 (TipRanks) · ~$6.67 normalised (EuropeSays: the estimate fell from $9.87 a month ago, on 7 downward vs 3 upward revisions) · $7.11 (Fiscal.AI). The spread is **acquired-IPR&D modelling, not business disagreement**: Lilly closed four acquisitions in Q2 (booked $3.03/share of IPR&D in that quarter alone) and three more infectious-disease acquisitions plus the AtaiBeckley agreement after Q2 ended; analysts are guessing how much IPR&D lands in Q3's non-GAAP EPS, exactly as they did — and were swamped — in Q2.
+- Whisper: Goldman Sachs (Oct 20) expects a **beat and a raise**, citing ex-US Mounjaro strength and Zepbound volume via Medicare's GLP-1 Bridge program; Goldman raised its target to **$1,413 from $1,371** (Buy). Leerink nudged its target $1,309 to $1,316 (Oct 21). The whisper is therefore "Q3 beat + third FY raise" — anything less is a disappointment against the whisper even if it beats the messy printed consensus.
+
+### 3. Last four prints
+Non-GAAP EPS vs consensus; reactions are the screen's next-session figures.
+- **Q2 2026 (2026-08-05):** Non-GAAP EPS $8.38 vs $6.01–6.40 cons — beat +31–39% (incl. $3.03/share IPR&D); revenue $22.97B vs ~$20.3–20.8B cons — beat ~+11%, +48% YoY. Mounjaro $9.94B (+91%), Zepbound $4.93B (+46%) — $14.9B combined, ~65% of revenue. Guide: FY revenue raised (2nd raise) to $85–87B, non-GAAP EPS guide $35.50–36.50. Reaction +5%.
+- **Q1 2026 (2026-04-30):** Non-GAAP EPS $8.55 vs ~$6.97 cons — beat ~+23–26% (GAAP-basis vendors: $8.27 vs $6.66, +24%); revenue $19.80B vs $17.62B cons — beat +12%. Guide: FY revenue raised (1st raise of the year, from the initial $80–83B set at Q4). Reaction +10%.
+- **Q4 2025 (2026-02-04):** Non-GAAP EPS $7.54 vs $6.91 cons — beat +9%; revenue $19.29B vs $17.96B cons — beat +7% (Mounjaro +110%, Zepbound +123% YoY in the quarter). Guide: initial FY26 set above the Street — revenue $80–83B vs ~$78B cons, EPS $33.50–35.00 vs $33.09 cons. Reaction +10% (screen; note the session initially dipped ~5% on a same-day Novo Nordisk pricing warning before the guide reasserted itself — guidance quality, not the beat, carried the day).
+- **Q3 2025 (2025-10-30):** Non-GAAP EPS $7.02 vs $5.69 cons — beat +23%; revenue $17.60B vs $16.02B cons — beat +10%. Guide: FY25 raised. Reaction +4%.
+
+**The screen's claim verifies cleanly:** 4/4 beats, average surprise ~+20%, trend rising, and all four reactions positive (+5/+10/+10/+4). This is the only name in the batch where beats have been both large and reliably rewarded for a full year.
+
+### 4. Revenue / margin trend
+Revenue ($B): Q1'25 12.73, Q2'25 15.56, Q3'25 17.60, Q4'25 19.29, Q1'26 19.80, Q2'26 22.97. YoY growth has **accelerated** through 2026 (Q2 +48%), driven by volume +60% partly offset by realised price −13% (ex-US: volume +113%, price −36% on China's NRDL inclusion for Mounjaro). Gross margin 82.5% (Q4'25) to 85.8% (Q2'26); non-GAAP performance margin 54.8% in Q2. Q3 consensus of ~$22.1–22.6B is **sequentially down 2–4%** — that is guided seasonality, not deceleration: management flagged European vacation seasonality and US rebate/discount estimate adjustments at Q2, and YoY growth of +26–28% would still be the envy of large-cap pharma. Trend verdict: **accelerating on every YoY measure; the sequential dip is pre-explained.**
+
+### 5. THE GUIDE (LLY)
+- **(a) Does it guide / granularity:** Yes — full-year only: revenue range, non-GAAP performance margin, non-GAAP EPS range, tax and capex colour. No quarterly guide. Current FY26 guide (set 2026-08-05): **revenue $85–87B; performance margin 49–50.5%; non-GAAP EPS $35.50–36.50** (the EPS range already absorbs Q2's $3.03 IPR&D; underlying EPS guide was raised +$2.78 at midpoint in Q2 before that charge).
+- **(b) Next quarter + full year consensus:** A standalone Q4 2026 consensus was **not found**; the implied Q4 is derivable: FY26 revenue consensus **$88.68B (EuropeSays table) to $88.94B (Zacks)** minus H1 actual $42.77B minus a ~$22.5B Q3 leaves a **Q4 ask of ~$23.4–23.7B — another all-time record quarter, ~+4–5% sequential.** FY26 EPS consensus $33.56–34.59 (Zacks variants) sits below the $35.50–36.50 guide because the Street is reserving for further H2 IPR&D that the guide has not yet booked.
+- **(c) Run-rate support — and verification of the brief's claim: VERIFIED TRUE.** FY revenue consensus ($88.7–88.9B) sits **$1.7–1.9B above the top of the company's own guide ($87B)**. Lilly must raise FY revenue guidance by roughly $2B simply for consensus to "stand still"; a mere reaffirmation is, mechanically, a consensus cut. Is the raise supported by run-rate? H1 $42.77B + Q3 at consensus ~$22.5B = ~$65.3B; Q4 is seasonally Lilly's strongest diabetes quarter, Foundayo (oral GLP-1) posted $98M in its launch quarter with management saying late-July volumes were "almost doubling" month over month, and international Mounjaro grew +172% in Q2 post-NRDL. A Q4 of ~$23.5B is **continuation of the existing trajectory, not unseen acceleration** — but it leaves zero slack: any Q3 revenue shortfall compounds directly into the size of raise required.
+- **(d) Guide history:** An unbroken raise sequence across the last four prints: Q3'25 — FY25 raised; Q4'25 — FY26 set **above** consensus; Q1'26 — FY26 raised; Q2'26 — FY26 raised again (revenue low end +$3B, high end +$2B). Reactions to the last four prints: all positive. No trim or cut found in the 2025–26 record retrieved. The guide *is* the product Lilly sells each quarter, and it has not missed.
+- **(e) Raised between quarters?** No company raise since 2026-08-05 was found. (Goldman's Oct 20 target raise is an analyst action anticipating a raise, not a company action — do not conflate.)
+
+### 6. Priced-in (LLY)
+- Move: **1M +8.3%** (Finnhub), ret_21d +7.8% (screen); 6M +47.6%; the stock made an **all-time high ($1,321.21; intraday record ~$1,311 on Oct 20)** days before the print and sits **−2.4% from that high** (screen). Market cap ~$1.14–1.22T.
+- Valuation: screen fwd P/E **27.0x**; vendor forward multiples range 24.4x–37x depending on which IPR&D-laden EPS denominator is used — treat any single figure with suspicion this quarter. Trailing P/E ~42.7–45.6x vs a 10-year average trailing P/E of ~52.9x and a 5-year median above 50x (FullRatio/Intickers): the multiple has **compressed hard as EPS caught up with price**, so vs its own GLP-1-era history Lilly is not at an extreme — but vs every pharma peer it carries an enormous premium, and the mean analyst target leaves almost no headroom: **$1,331.55 mean (screen) = +4.4%; $1,346.50 on another vendor cut = +5.7%.**
+- Options: **implied move 6.4%** (Barchart, Oct 26) / 6.6% (TradingKey) vs the screen's realised proxy **8.0%** avg abs, and vs actual last-4 reactions of +4% to +10% (all one direction). **Options are pricing less movement than Lilly has actually delivered on its last four prints** — the one name in the batch where implied looks light vs realised, though all four realised moves were up, which is a direction bet, not a vol fact.
+- **Crowded or not: CROWDED — explicitly.** 26 of 31 analysts Buy/Strong Buy, a record high into the print, consensus revenue already above the company's guide top, and a whisper that requires a third consecutive raise. This is the batch's most owned story at its highest price with its thinnest target headroom.
+
+### 7. Moat / AI-irreplaceability (LLY): 9/10
+The strongest downside insurance in the batch: a two-product tirzepatide franchise (Mounjaro/Zepbound, ~60% US incretin share, ~55% ex-US) with manufacturing scale rivals cannot match this decade, the oral follow-on (Foundayo/orforglipron) already launched, and retatrutide's Phase 3 package complete for a Q1 2027 BLA filing. Docked one point only for single-pathway (incretin) concentration at ~65% of revenue and live pricing politics. A bad Q3 costs points of multiple, not the thesis.
+
+### 8. Risks specific to THIS print (LLY)
+(i) **Raise-to-stand-still arithmetic (see 5c):** reaffirming $85–87B is a de-facto guide miss vs $88.7B+ consensus. (ii) **Headline EPS optics:** with consensus EPS estimates scattered from $5.38 to $7.11 on IPR&D guessing, some feed will print a "miss" or a "beat" that is purely an accounting-classification artefact — either can move the first hour. (iii) Pricing: realised price fell −13% in Q2; any widening (Medicare Bridge mix, payer pushback) vs volume is the margin debate in one line. (iv) Competition headlines: Novo's CagriSema data and pricing rhetoric have already caused one intraday −5% episode on a Lilly print day (Q4'25). (v) Foundayo ramp: the "almost doubling" claim sets a measurable bar — a soft oral number undercuts the post-tirzepatide growth story. (vi) At an all-time high with +4–6% target headroom, there is no valuation cushion for any of the above.
+
+### 9. Scores (LLY)
+- Beat-likelihood: **7/10** — on revenue, where the bar is clean, the beat record (4/4, avg +20%) and Goldman's channel checks support it; on headline EPS the score is meaningless by construction.
+- Guide-risk: **7/10** (high = bad) — not because Lilly trims (it never has in this sequence) but because the required raise is pre-spent: the guide must go up ~$2B merely to meet the Street, so the usual "raise = upside surprise" mechanism is disabled.
+- Priced-in: **8/10** (high = bad) — all-time high, crowded, target headroom ~5%, whisper = beat-and-raise; only the compressed-vs-own-history multiple argues lower.
+- **Verdict:** The best business and the worst setup in the batch can both be true: Lilly will probably beat and raise, and the stock can still fall, because the raise is already the consensus.
+
+### 10. Plan (LLY)
+**Plan B** — default stands: no chasing a crowded, record-high print whose good outcome is already in both consensus and the whisper; Plan A here would require the one thing the data deny — headroom.
 
 ---
 
 ## Batch summary table
 
-| Ticker | Date (BMO, confirmed) | Cons. EPS / Rev | Guide (quarter) | Cons. vs guide | Beat | Guide-risk | Priced-in | Irrepl. | Plan |
-|---|---|---|---|---|---|---|---|---|---|
-| APH | Wed 10-28 ✓ | $0.72–73 / $9.44–49B | $0.70–71 / $9.3–4B | Above both | 7 | 6 | 4 | 8 | B |
-| HWM | Thu 10-29 ✓ (co. 10-01) | $1.37 / $2.59B | $1.34–36 / $2,565–85M | Above both | 6 | 7 | 3 | 7 | B |
-| GRMN | Wed 10-28 ✓ (co. 09-23) | $2.38 / $1.99B | none (FY only) | n/a — FY cons. ≈ guide | 8 | 5 | 7 | 8 | B |
-| CBOE | Fri 10-30 ✓ (co. PR 09-28) | $3.37–42 / $702–09M | none (FY growth only) | cons. rev < Q2 actual | 8 | 4 | **9** | 9 | B |
-| AME | Tue 11-03 ✓ (co. 10-15) | $2.11–12 / ~$2.12B | $2.08–10 / +HSD sales | Above both; FY cons. $8.41 vs guide top $8.30 | 7 | 6 | 4 | 8 | B |
-
-**Cross-batch reads:** (1) The batch splits into de-rated (APH −11%/mo, HWM −16%/mo) vs run-up (CBOE +31%/21d, GRMN +44% YTD at its highs) with AME neutral in between — priced-in scores, not beat scores, are what separate them. (2) Consensus sits above the company's own guide at APH, HWM and AME alike: in all three, "beat the guide" and "beat the print" are different events. (3) CBOE has the most knowable quarter (volumes + RPC pre-reported 2026-10-05) and the worst entry; GRMN has the likeliest beat and the fattest reaction distribution (11.4% realised). (4) All five are Plan B — none offers a pre-print information edge sufficient for Plan A; the ranking *within* B is a priced-in ranking: HWM (3) and APH/AME (4) over GRMN (7) and CBOE (9).
-
-**Not-found log (no fabrication):** options-implied moves for all five; whisper numbers for all five; standalone APH date-announcement PR; HWM standalone Q4 consensus and full Q1/Q4 print detail vs consensus; GRMN standalone Q4 and FY27 consensus; CBOE Q4 revenue consensus and FY27 consensus; AME precise 1-/3-month returns. HWM "$2.75B Q3 revenue guide" in transcript-derived summaries is an error — official guide is $2,565–2,585M (company Q2 2026 release guidance table).
-
-
----
-
-> Run by: Muse Wonder (Muse Wonder) — full panel
-
-# Earnings Research Batch 3 — Run 2026-10-27
-## INCY, LLY, CPAY, APP, FFIV — Hold-through-earnings candidates
-
-Screen prices (given, 2026-10-26 close basis): INCY $113.30, LLY $1,275.80, CPAY $399.51, APP $260.61, FFIV $462.55.
-Sources are web search 2026-10-27 unless dated otherwise. Where consensus vendors disagree — notably LLY and INCY, both distorted by acquired IPR&D charges — all variants are shown, not averaged away. "Not found" means not found in this search pass, not that it does not exist.
-
----
-
-## 1. INCY — Incyte
-
-### 1. Date
-- **Thu 2026-10-29, BMO, call 8:00 AM ET. CONFIRMED in substance, ESTIMATED label in some calendars.**
-- Stock Observer 2026-10-27 and American Banking News 2026-10-22: "expected to be issuing its Q3 2026 results before the market opens on Thursday, October 29th… call scheduled for Thursday, October 29, 2026 at 8:00 AM ET." Zacks 2026-10-23: "scheduled to report third-quarter 2026 earnings on Oct. 29, before the opening bell." Pattern matches prior years (Q3 2025 was Tue Oct 28 BMO). No company IR/PR date release was retrieved in this pass — treat as CONFIRMED by multiple calendars, primary PR not sighted.
-
-### 2. Bar
-- **EPS: Zacks consensus -$3.50, revenue $1.48B** (Zacks preview, 2026-10-23). MarketBeat via ABMN/Stock Observer: **-$3.64, revenue $1.47B**. TickerOn/Trefis: loss ~-$3.20 to -$3.60 on $1.47-1.50B, +7-8% YoY vs $1.37B in Q3 2025.
-- **The -$3.50 is NOT an operating bar.** Per Incyte's own Q2 release (Business Wire via Morningstar, 2026-07-28): Vega Therapeutics acquisition closed for $1.25B upfront (up to $750M milestones), "an IPR&D expense of approximately $1,270 million expected in the third quarter 2026 associated with the upfront payment" for latarcibart/VGA039, in **both GAAP and non-GAAP** results, plus $50M incremental R&D. Yesterday's brief is re-verified: the charge is pre-announced, quantified, and in guidance.
-- **Real bar = product revenue:** Zacks component estimates: Jakafi $827M, Opzelura $230M (patient starts/refills + CMS settlement GTN benefit $40-50M guided for Q3+Q4 combined). FY guide (raised in July): total net sales **$5.13-5.26B**; H1 sales per brief $2.94B.
-- Whisper/revisions last 30d: **not found** as a discrete series. Directionally, FY EPS consensus has collapsed on the charge (ABMN: analysts expect only $1.97-2.28 EPS for full FY26, $7.55-7.61 for FY27) — that is accounting, not deterioration.
-
-### 3. Last four prints (screen reactions are the panel record; EPS/rev vs consensus from press)
-- **Q2 2026 (2026-07-28):** EPS $3.09 vs $2.15 cons (+$0.94); rev $1.67B vs $1.50B cons; FY sales guide RAISED $4.77-4.94B → $5.13-5.26B; reaction **+9%** (screen) / +8.3% same-day per Quiver.
-- **Q1 2026:** screen reaction **+2%**; detailed consensus pair not retrieved — not found in this pass.
-- **Q4 2025 (2026-02-10):** EPS $1.80 reported (NextEarningsDate history); reaction **-8%** (screen, worst -8.2%).
-- **Q3 2025 (2025-10-28):** EPS $2.26 vs $1.65-1.66 cons; rev $1.37B vs $1.26B cons; FY25 product guide raised to $4.23-4.32B; reaction **-2%** (screen) — a beat that sold off, worth remembering.
-- Screen: beat_up 0.80, last4 +9%, +2%, -8%, -2%.
-
-### 4. Revenue / margin trend
-- Total revenue: Q3'25 $1.37B (+20% YoY) → Q2'26 $1.67B (+37.7-38% YoY). Q2 net sales $1.49B (+40%): Jakafi $817M (+7%), Opzelura $450M — **but $246M of Opzelura was a one-time non-cash CMS reversal**; ex-benefit sales growth was ~+17% (Barchart). Hem/Onc $222M (+69%). GAAP net margin Q2 27.71%, ROE 29.93% (ABMN).
-- Trend: headline accelerating, underlying decelerating to high-teens once the CMS one-off laps. Q3's guided GTN benefit ($40-50M across H2) is a smaller tailwind. Margins will print deeply negative in Q3 on the $1.27B charge — pre-flagged.
-
-### 5. THE GUIDE
-- (a) **Guides annually, by product line, in $ ranges** — Jakafi, Opzelura, Hem/Onc, total net sales, plus GAAP and non-GAAP opex. No quarterly guide. Granularity is good.
-- (b) Forward consensus: Q4/FY — FY26 EPS cons ~$1.97-2.28 (charge-distorted), FY27 EPS $7.55-7.61, FY27 is the clean year. Product-revenue forward bar is the July guide itself.
-- (c) Run-rate support: H1 net sales $2.94B (brief). To hit $5.13-5.26B FY, H2 needs $2.19-2.32B, i.e. ~$1.10-1.16B/quarter of net sales — **below** Q2's $1.49B (which included $246M one-off) and roughly in line with ex-one-off Q2 (~$1.24B). Continuation, not unseen acceleration. Supportable.
-- (d) Guide history 8Q: raises dominate — Q3'25 raise, Q2'26 large raise; no cut retrieved in last 4 prints. Stock reaction to the Q2'26 raise was +8-9%.
-- (e) **Already raised between quarters? The FY guide was raised AT Q2 (July), not since.** No intra-quarter pre-announcement found. ESMO 2026 (Oct 23-27) Phase 1 data for KRAS G12D INCB161734 and TGFβR2×PD-1 INCA338901 is pipeline colour, not a guide event.
-- What's changed this quarter: Vega close (charge + latarcibart spend), CMS/Opzelura GTN benefit flowing, EU moderate atopic dermatitis approval for Opzelura anticipated H2 (in guide), povorcitinib readouts pending.
-
-### 6. Priced in
-- Finnhub (2026-10-26 close): 1M **-8.54%**, 6M +18.38%, YTD +14.72%; 52w $84.02-$132.60 — price $113.30 is **-14.6% vs 52w high**. P/E 14.55 (trailing, pre-charge). Mean target $129.13-132.58 (Trefis, early Oct) = +14-17% upside.
-- Options-implied move: **not found**. Screen realised proxy 6.9% avg abs. With the loss pre-announced, implied should be nearer history than a normal biotech print.
-- Crowded? No — stock has de-rated into the print, down in the last month. This is the least crowded name in the batch.
-
-### 7. Moat / irreplaceability: **7/10**
-Jakafi franchise + Jakafi XR, Opzelura's dermatology niche, growing Hem/Onc (Niktimvo, Monjuvi, Zynyz), $4.5B cash at Q2. JAK class and Jakafi patent/generic cliff later this decade cap the score; Vega/latarcibart is optionality, not moat yet. **-15% gap and stuck 18 months: opportunity, not disaster** — the gap would almost certainly be charge optics or a product miss on a guide that run-rate supports; underlying cash generation is intact.
-
-### 8. Print-specific risks
-1. Market/algos headline the -$3.50 loss and sell first. 2. Jakafi vs $827M estimate — any softness reads as share loss. 3. Opzelura ex-CMS-benefit growth disappoints vs the flattering Q2 comp. 4. Any trim to the July-raised FY guide after raising opex guide to $4.915-4.995B GAAP. 5. Vega milestone/integration commentary spooking on capital allocation.
-
-### 9. Scores
-**Beat-likelihood 7/10 · Guide-risk 3/10 (LOW=BAD scale: low is good) · Priced-in 4/10**
-Verdict: The scariest headline in the batch is the most pre-announced — the real bar is product sales vs a raised guide that H1 run-rate already supports.
-
-### 10. Plan
-**Plan B (default hold-through with normal sizing discipline).** What would make it Plan A: a company-IR-confirmed date plus evidence of an options-implied move at/below the 6.9% realised proxy — i.e. the market pricing the charge as the non-event management says it is. Not verified in this pass, so B stands.
-
----
-
-## 2. LLY — Eli Lilly
-
-### 1. Date
-- **Thu 2026-10-29, BMO, call 10:00 AM ET. CONFIRMED.**
-- TipRanks: "Report Date, Oct 29, 2026, Before Open (Confirmed)." MarketChameleon: "expected to release earnings on October 29, 2026 before the market opens (BMO)." Lilly IR via ad-hoc-news 2026-10-26: "Q3 2026 earnings call is scheduled for October 29, 2026 at 10:00 a.m. EDT."
-
-### 2. Bar — READ CAREFULLY, consensus is IPR&D-distorted and vendors disagree
-- **Revenue: $22.11B Zacks (2026-10-22, +25.6% YoY) to $22.62B Bernstein / $22.45B Bloomberg median** (Markets Insider via ad-hoc, 2026-10-27). TickerOn preview: ~$22.1B.
-- **EPS: three different bars exist.** Zacks $5.38 (-23.4% YoY, +0.07% revised in last 30d — essentially flat). TipRanks $5.68. Bernstein adjusted EPS $5.48 **including $4.2B of acquired IPR&D** (2026-10-26 note raising target to $1,450). A normalised/no-charge view in one preview: $6.67, down from $9.87 a month ago on "7 downward revisions against 3 upward" as deal charges were loaded in (EuropeSays summary of estimates, 2026-10-25); TickerOn's $9.78 figure appears to be a pre-charge normalised number and should **not** be used as the bar.
-- Whisper: the real whisper is on **Mounjaro/Zepbound/Foundayo volumes and a third FY guide raise**, not the EPS line. Goldman and BofA raised targets pre-print (to $1,413 / $1,397 per TickerOn); Bernstein to $1,450 on 2026-10-26.
-
-### 3. Last four prints
-- **Q2 2026 (2026-08-05):** Non-GAAP EPS $8.38 vs ~$6.40-6.58 cons (incl. $3.03/sh IPR&D charges); rev $22.97B vs ~$20.4-20.7B implied cons (+48% YoY, beat by >$2.5B per one source); FY rev guide RAISED $82-85B → $85-87B, non-GAAP EPS guide $35.50-36.50; reaction **+10%** (screen).
-- **Q1 2026 (2026-04-30):** Non-GAAP EPS $8.55 vs $6.97 cons (TipRanks history); rev $19.8B (Fool table); guide raised (first of two raises); reaction **+10%** (screen).
-- **Q4 2025 (2026-02-04):** Non-GAAP EPS $7.54 vs $6.91 cons; reaction **+4%** (screen; note screen series also contains a -14.1% worst print just outside/at the edge of last4 — the Oct 2024 IPR&D print).
-- **Q3 2025 (2025-10-30):** Non-GAAP EPS $7.02 vs $5.69-6.02 cons; rev $17.60B vs $16.01-16.09B cons (+54%); FY25 guide raised to rev $63.0-63.5B, EPS $23.00-23.70; reaction **+5%** (screen).
-- Screen: beat_up 0.833, last4 +5%, +10%, +10%, +4% — the best reaction record in the batch. Five consecutive EPS beats per TickerOn.
-
-### 4. Revenue / margin trend
-- Revenue: Q3'25 $17.60B → Q4'25 ~$19-20B area → Q1'26 $19.8B → Q2'26 $22.97B (+48% YoY). Q2: volume +60%, realised price **-13%**; US +33% to $14.4B, ex-US +80% to $8.6B (volume +113%, price -36% on China NRDL inclusion for Mounjaro). Mounjaro $9.94B (+91%), Zepbound $4.93B (+46%), Foundayo $98M in launch quarter (Apr 2026 launch). Gross margin Q2 85.8% reported / 86.3% non-GAAP, up YoY despite price.
-- Trend: **accelerating on volume, decelerating on price** — the whole thesis is whether volume keeps outrunning -13% price. So far, emphatically yes.
-
-### 5. THE GUIDE
-- (a) **Guides annually: revenue range + non-GAAP EPS range + performance margin.** Granular, and habitually raised.
-- (b) Forward consensus: **FY26 revenue consensus $88.68-88.94B — ABOVE the $85-87B guide top** (EuropeSays/Zacks). FY26 EPS consensus $33.56 (Zacks) to $34.59 normalised — below the $35.50-36.50 non-GAAP guide because of IPR&D loading confusion. Q4 implied by FY guide: ~$19-21B revenue after a ~$22.1-22.6B Q3, i.e. guide assumes a sequential step-down that nobody believes.
-- (c) Run-rate support: H1'26 revenue = $19.8B + $22.97B = ~$42.8B. Guide $85-87B needs H2 ~$42.2-44.2B — **already covered by H1 run-rate with zero growth.** Consensus $88.7-88.9B needs only modest H2 acceleration. Continuation supports even the above-guide consensus.
-- (d) Guide history: raised at Q3'25, Q4'25/Q1'26, and Q2'26 (second raise of 2026). No cut in the last 8 quarters retrieved. Reactions to raises: +4% to +10%.
-- (e) **Already raised between quarters? No intra-quarter raise found** — but two raises already in 2026, and the market explicitly expects a third (see 2). That expectation is the risk: a mere reaffirmation may read as a miss.
-- What's changed: Foundayo (oral orforglipron) scaling — Lilly claims ~1/3 of new oral starts vs Novo's Wegovy pill; Novo signalling 2027 Wegovy price cuts; retatrutide BLA planned Q1 2027, Lilly suing copycat sellers (11 suits by Oct 26, Bloomberg Law); Medicare Bridge pricing concerns caused a pre-print sell-down (TickerOn); EloraTZP Phase 2b 23.3% weight loss, Phase 3 in Q4.
-
-### 6. Priced in
-- **All-time intraday high $1,311.21 on 2026-10-20**; screen $1,275.80 is -2.7% off it. +19-21% YTD, +~10.6% last month (one preview). Market cap >$1.1T. Forward P/E ~25x (Fool, vs BMY 9.4x) — within LLY's own recent GLP-1-era range but at the top of any pre-2023 range; Morningstar flags moderate overvaluation.
-- **Options-implied ~6.4-7%** (yesterday's panel: 6.4%; TradingKey 2026-10-23: 6.6%; TickerOn: ~7%) vs screen realised proxy **8.0%** avg abs — implied is **below** realised history. Options are not overpricing this print; the equity multiple is.
-- Crowded? **Yes — the most crowded long in the batch.** Mean target ~$1,317-1,359 (StockAlpha $1,359, +6.3%) is barely above price; the pre-print target raises are to $1,397-1,450.
-
-### 7. Moat / irreplaceability: **9/10**
-Tirzepatide is the world's best-selling drug franchise; manufacturing scale, Foundayo oral, retatrutide pipeline, and cardiometabolic breadth are genuinely hard to replicate. Only Novo is a peer. **-15% gap stuck 18 months: opportunity** — at ~25x forward with 35%+ growth, a gap on pricing headlines with volumes intact is a gift; a gap on volume share loss to Novo would be the one disaster path, and nothing in Q2 data shows it.
-
-### 8. Print-specific risks
-1. "Beat but no third raise" = sell-the-news at an ATH. 2. Realised price worse than -13% (China NRDL, Zepbound discounting, Medicare Bridge). 3. Foundayo ramp below Novo pill claims. 4. IPR&D charge size ($4.2B per Bernstein) confusing headline EPS vs the $5.38 bar. 5. Any supply/capacity slip.
-
-### 9. Scores
-**Beat-likelihood 8/10 · Guide-risk 5/10 · Priced-in 9/10**
-Verdict: Elite execution and a guide that run-rate already covers — but at an all-time high with consensus revenue above the guide top, Lilly must raise again just to stand still.
-
-### 10. Plan
-**Plan B.** Plan A would require the price off its high / implied above realised — the opposite is true (ATH 9 days ago, implied 6.4-7% < 8.0% realised). Yesterday's priced-in 9/10 is re-verified.
-
----
-
-## 3. CPAY — Corpay
-
-### 1. Date
-- **Wed 2026-11-04, AMC. CONFIRMED.**
-- Company schedule reported 2026-10-25 (ad-hoc-news): "Corpay schedules November 4 results." Zacks detailed estimates: "AMC 11/4/26" and "has announced they will report… on November 04, 2026." Call after close, consistent with history (Q3'25 was Nov 5 AMC).
-
-### 2. Bar
-- **Adj EPS: Zacks $7.18; MarketBeat/Finviz $7.20. Revenue: $1.36B (MarketBeat/Finviz) — brief's ~$1.38B is at the high end of vendors; use $1.36-1.38B range.**
-- **Company Q3 guide (given at Q2, 2026-08-05): revenue ~$1.355B, adj EPS $7.05-7.25.** So consensus EPS $7.18-7.20 sits **inside the top half of guidance**, and consensus revenue sits **at/just above the guide point** — yesterday's characterisation ("at/above guide top") is re-verified in substance: there is no cushion between consensus and guidance.
-- Revisions/whisper: Zacks Earnings ESP +1.07% (i.e. recent revisions mildly positive, per Zacks detailed page); no separate whisper number found. Note GAAP EPS estimate is only $5.46 (Finviz) — the $100M FTC settlement charge (Q2, preliminary, subject to approval) is the GAAP/adjusted wedge to watch.
-
-### 3. Last four prints
-- **Q2 2026 (2026-08-05):** Adj EPS $7.00 vs $6.58 cons; rev $1,338.8M vs $1.30B cons (+21% YoY, organic +10%, Corporate Payments organic +16%); FY guide RAISED to rev $5.29-5.33B, adj EPS $27.15-27.55; GAAP EPS $3.70 hit by $100M FTC charge; reaction **+0.95%** (brief verified) — muted despite the beat, because (per brief) the beat leaned on ~$67M fuel/FX/spread tailwinds.
-- **Q1 2026 (2026-05-06/07):** Adj EPS $5.80 vs $5.47 cons (+6.0%); reaction **+12.6%** (screen/brief; CoinCodex table also shows +12.62%).
-- **Q4 2025 (2026-02-04):** Adj EPS $6.04 vs $5.94-5.95 cons; reaction **+12%** (screen; CoinCodex +14.64% on a 2-day window — window definition differs, direction agrees).
-- **Q3 2025 (2025-11-05):** Adj EPS $5.70 vs $5.63 cons; rev $1,172.5M (+14%, organic +11%, Corporate Payments +17%); FY guide raised; reaction **+6%** (screen; CoinCodex +6.44%).
-- Screen: beat_up 0.857 — best in batch — last4 +1%, +13%, +12%, +6%, worst only -3.4%.
-
-### 4. Revenue / margin trend
-- Revenue: Q3'25 $1.173B (+14%) → Q4'25 ~$1.2B area → Q1'26 not retrieved → Q2'26 $1.339B (+21.5%). Organic growth: +11% (Q3'25) → +10% (Q2'26) with acquisition help (AvidXchange investment, Alpha Group closed in 2025; Mastercard cross-border investment expected to close before YE26). Adj EBITDA Q2 $767.2M (+24%), margin ~57% of revenue; net margin 22.72%, ROE 42.18%.
-- Trend: reported growth accelerating on M&A, organic steady ~10-11% — **not accelerating organically**. That distinction is the print.
-
-### 5. THE GUIDE
-- (a) **Guides quarterly AND annually, adj EPS + revenue, in ranges/points.** Among the most granular guiders in the batch.
-- (b) Forward consensus: Q4'26 adj EPS $7.43 (Finviz), FY26 $27.44 (Zacks) — inside guide $27.15-27.55; **FY27 EPS $31.36 (Zacks next-year), +14.3%.**
-- (c) Run-rate support: Q4 consensus $7.43 vs Q3 guide midpoint $7.15 is a normal seasonal step-up for CPAY (Q4 is seasonally strongest, cf. Q4'25 $6.04 vs Q3'25 $5.70). FY27 +14% vs organic ~10% + M&A contribution — requires deal contribution to continue; not pure continuation, but not heroic either.
-- (d) Guide history: raised FY at Q3'25 and again at Q2'26; Q1'26 reaction +12.6% was guide-driven. No cut retrieved in last 8 quarters.
-- (e) **Already raised between quarters? No** — the raise was at Q2 (Aug). Nothing since; FTC settlement remains "preliminary, subject to approval" — finalisation language is a print item.
-- What's changed: PayByPhone sold Mar 2026 ($122.5M gain in H1), 1M shares repurchased for $321M in Q2, fuel prices/FX/spread — the Q2 tailwinds may not repeat; float rates falling would pressure float income (flagged in Q3'25 coverage).
-
-### 6. Priced in
-- Finnhub 2026-10-26: 1M **+0.4%**, 6M +27.8%, YTD +32.83%; 52w $252.84-$427.46 — $399.51 is **-6.5% vs 52w high**. P/E trailing ~23.5-24.9x, **forward P/E 13.5-14.85x** (MarketBeat/Zacks F1) — cheap vs its own history for a double-digit grower; mean target $438.93 (+9.8%).
-- Options-implied move: **not found**. Screen realised proxy **5.4%** — the lowest in the batch, consistent with worst last4 reaction of only -3.4%.
-- Crowded? No. Flat last month, below target, low forward multiple.
-
-### 7. Moat / irreplaceability: **6/10**
-Embedded fleet/corporate-payments workflows, acceptance network, and cross-border (Alpha) are sticky; but payments is contestable by banks, Adyen/Stripe-class platforms and AI agent payment rails — no unique asset comparable to tirzepatide or AXON's data loop. **-15% gap stuck 18 months: mostly opportunity** at ~14x forward if organic stays ~10%; disaster only if the gap is FTC/regulatory escalation or organic dropping to mid-single digits.
-
-### 8. Print-specific risks
-1. Consensus = guide top: an in-line print is a "miss" vs $7.20. 2. Q2's ~$67M fuel/FX/spread tailwind annualising/reversing. 3. FTC settlement final terms >$100M or conduct remedies. 4. Lodging/Vehicle softness vs Corporate Payments carrying growth. 5. Leverage (D/E 1.70) with deal spend.
-
-### 9. Scores
-**Beat-likelihood 6/10 · Guide-risk 5/10 · Priced-in 4/10**
-Verdict: The reaction record (+1/+13/+12/+6, worst -3.4%) is the friendliest in the batch, but this quarter consensus already spends the whole guidance range — CPAY must beat its own guide, not just consensus.
-
-### 10. Plan
-**Plan B.** Plan A would need consensus at/below guide midpoint ($7.15) — it is at $7.18-7.20. Close to A on valuation and reaction asymmetry, blocked by the bar.
-
----
-
-## 4. APP — AppLovin (NEW to full research today)
-
-### 1. Date
-- **Wed 2026-11-04, AMC. CONFIRMED.**
-- TipRanks: "Report Date, Nov 04, 2026, After Close (Confirmed)." Zacks 2026-10-19: "earnings report is set to go public on November 4, 2026." Pattern matches Q3'25 (Nov 5 AMC).
-
-### 2. Bar
-- **EPS: $4.04 (TipRanks/MarketBeat), $3.95 (Zacks), $4.08 (FXEmpire, 15 analysts). Revenue: $2.08B (all vendors agree, +47.8% YoY).**
-- **Company Q3 guide (given at Q2, 2026-08-05): revenue $2.055-2.085B, adj EBITDA $1.71-1.74B (~83% margin), +46-48% YoY.** Consensus $2.08B sits **at the guide top** — same trap as CPAY, but in a stock with 17.7% realised moves.
-- Revisions: analysts **trimming** since Q2 — Jefferies cut target $550 → $375 on Oct 8 (mobile gaming survey) while keeping Buy; Wells Fargo Sep 30 called Pixel adoption pickup a "false start" (per TIKR summary). Needham kept Buy/$475 on Oct 6. Mean target $507.75 (MarketBeat) is +95% above price — a stale, pre-collapse average; do not use it as support.
-
-### 3. Last four prints — the two -20% reactions are the story
-- **Q2 2026 (2026-08-05):** GAAP EPS $3.76 vs $3.76 cons (in line); rev **$1.92B vs $1.94B cons (MISS, -1.2%)**, +53% YoY; adj EBITDA $1.61B vs $1.64B cons (83.9% margin, miss); Q3 guide midpoint $2.07B, -0.6% vs cons; reaction **-19.66%** ($417.80 → $335.67, per class-action filings and FXEmpire). Management: "pace of meaningful model improvement was lighter than normal" — after telling investors on the Q1 call that April showed "bigger [uplift] than any quarter we had."
-- **Q1 2026 (2026-05-06):** EPS $3.56 vs $3.44 cons; rev not retrieved here; reaction **+1%** (screen; but note the Q1 print in Feb for Q4'25 below).
-- **Q4 2025 (2026-02-11):** EPS $3.24 vs $2.95-2.96 cons; rev $1.66B vs $1.61B cons; Q1'26 guide $1.75-1.78B vs $1.70B cons; reaction **-20%** (screen) — a clean beat-and-raise that still crashed, on gaming/AXON scalability scepticism.
-- **Q3 2025 (2025-11-05):** EPS $2.45 vs $2.34-2.38 cons; rev $1.405B vs $1.34B cons (+68%); Q4 guide $1.57-1.60B above cons; reaction **+6%** (screen).
-- Screen: beat_up 0.75, last4 **-20%, +6%, -20%, +1%**, worst -19.7%, avg abs **17.7%** — by far the field's most violent print stock. Two of the last four prints lost a fifth of the company on (a) a revenue miss of 1% and (b) a beat.
-
-### 4. Revenue / margin trend
-- Revenue (pure advertising since the apps divestiture in 2025; self-serve GA June 2026): Q3'25 $1.405B (+68%) → Q4'25 $1.66B (+66%) → Q1'26 ~$1.75-1.78B guided range area → Q2'26 $1.92B (+53%). **Growth is decelerating: 68% → 53%**, and Q2's sequential model uplift — the engine of the whole equity story — stalled. Adj EBITDA margin is not the problem: 82% → 83.9%, operating margin 77.7%, net margin ~64.6%. FCF margin fell 70.1% → 44.9% in Q2 (StockStory) — watch cash conversion; no screen accrual flag was raised for APP (flags=[]) and Q3'25 FCF was ~$1.05B on $1.16B EBITDA, but the Q2 FCF-margin drop plus the class-action allegation that model "constancy" was overstated makes cash/quality a live question, not a clean pass.
-
-### 5. THE GUIDE
-- (a) **Guides one quarter ahead only: revenue + adj EBITDA ranges.** No annual guide. Granularity is high but horizon is short — every print is a new referendum.
-- (b) Forward consensus: FY26 rev $8.08-8.10B, EPS $15.67-15.72 (Zacks); **FY27 rev ~$10.14B (+25%, Wedbush 2026-10-14)**; Q4'26 has no company guide yet — the market's Q4 expectation is a seasonally strong e-commerce quarter (Wedbush: advertiser feedback steady in Q3, e-comm-led Q4 boost expected).
-- (c) Run-rate support: Q4 implied by FY consensus: $8.08B - (Q1 ~$1.77B + Q2 $1.92B + Q3 guide ~$2.07B) ≈ **$2.32B, a +12% sequential jump** — that requires the Q3 model uplift management says is "already live" to actually land **and** a strong e-comm Q4. That is unseen acceleration relative to Q2's stalled uplift, not continuation. This is the single most important guide fact for APP.
-- (d) Guide history: Q3'25 guide above cons (stock +6%); Q4'25 Q1 guide above cons (stock -20% anyway); Q2'26 Q3 guide **below** cons at midpoint (stock -19.7% with the miss). Guide raises have stopped working for this stock since Feb 2026.
-- (e) Already raised between quarters? **No — the opposite:** estimate/target cuts (Jefferies, BofA's July note on muted GA ramp, Wells Fargo) and a securities class action filed over the Q1-call-to-Q2-print guidance gap.
-- What's changed this quarter: (i) **Securities class action** (lead-plaintiff deadline Nov 16, 2026) alleging Foroughi/Stumpf overstated model-improvement constancy while selling $109.1M of stock Feb-Aug 2026; class period Feb 12-Aug 5, 2026. (ii) **SEC probe into data-collection practices** — first reported by Bloomberg Oct 2025 (-14% in a day then); a 2026 update in secondary coverage (AL Capital) says it "remains a live overhang," plus a fresh CapitalWatch report alleging illicit-app ad spend ("digital laundromat") that secondary sources link to a ~32% one-week fall — **the CapitalWatch specifics are single-source/secondary and unverified against a primary report in this pass; treat as allegation, not fact.** (iii) CloudX and other LLM-agent ad startups targeting mobile gaming ads. (iv) Self-serve/GA advertiser ramp tracking slower than pitched (BofA July 13 note: -12.6% that day).
-
-### 6. Priced in — why -16.1% ret_21d, and is it enough?
-- Finnhub 2026-10-26: 1M **-16.09%**, 6M **-43.35%**, YTD **-61.3%**, 1Y -59.46%; 52w **$258.32-$738.01** — screen $260.61 is **essentially at the 52-week low, -64.7% vs the high.** Beta 2.51.
-- The -16.1% 21d leg is the tail of the Q2 collapse ($418 → $336 → drifting to $260) plus October target cuts and litigation headlines — there was no single October fraud event verified in primary sources; it is estimate-revision and multiple compression, not a new print.
-- Valuation: trailing P/E ~19.7-20.0x, **forward P/E ~13.1x** (MarketBeat) for guided +46-48% growth — optically the cheapest growth in the batch; Needham frames the same point (15x NTM vs 25.9x 5-yr average). Options-implied move: **not found** for Nov 4 specifically; screen realised proxy **17.7%** is the honest planning number.
-- Crowded? **Crowded short / hated long.** That cuts both ways: positioning supports a violent squeeze on a clean reacceleration, and violent continuation on a second miss.
-
-### 7. Moat / irreplaceability: **7/10**
-AXON's closed-loop data from 1B+ daily mobile users and its advertiser ROI record are a real data moat — if the numbers are what management says. The score is capped by (i) the unresolved SEC/class-action question of whether the model's edge was represented honestly, and (ii) platform dependence (Meta/Google/Snap agreements are the alleged violation surface). **-15% gap stuck 18 months: disaster-or-opportunity is genuinely binary here** — opportunity if Q3 proves the uplift is live and regulators stay quiet (13x forward for 40%+ growth); disaster if the gap comes with an SEC escalation, because then the moat itself is the defendant.
-
-### 8. Print-specific risks
-1. Second consecutive quarter of "lighter model uplift." 2. Q4 guide below the ~$2.32B implied-by-consensus path. 3. Any SEC/Array/data-practice disclosure in the release or 10-Q. 4. E-comm/consumer advertiser scaling slower than gaming deceleration. 5. Insider-sale questions on the call. 6. FCF conversion staying at Q2's 44.9% vs the historical ~90% of EBITDA.
-
-### 9. Scores
-**Beat-likelihood 5/10 · Guide-risk 8/10 · Priced-in 3/10**
-Verdict: Cheapest bar-adjusted valuation in the batch at its 52-week low — but APP has lost ~20% on both a miss and a beat in the last three prints, so "priced in" has not meant "safe" for this ticker.
-
-### 10. Plan
-**Plan B — emphatically.** Plan A would require a verified live model uplift datapoint (e.g. third-party advertiser spend data) before the print; what exists instead is management's assertion against a class-action complaint about the same assertion last quarter.
-
-*Earnings-quality note (no screen flag):* no accrual flag was raised; the Q2 FCF-margin halving and the litigation's model-constancy allegations are noted above as watch items, not as established accrual problems.
-
----
-
-## 5. FFIV — F5
-
-### 1. Date
-- **Tue 2026-10-27, AMC, call 4:30 PM ET — TODAY. CONFIRMED.**
-- MarketBeat/ABMN/Daily Political (Oct 20-24): "projected to post its Q4 2026 results after the market closes on Tuesday, October 27th… call scheduled for Tuesday, October 27, 2026 at 4:30 PM ET." TickerOn preview agrees. This is fiscal Q4 2026 (year ended 2026-09-30) — the print that carries the initial formal FY27 outlook.
-
-### 2. Bar
-- **Non-GAAP EPS $4.26, revenue $884.03M** (MarketBeat consensus, consistent across Oct 20-24 coverage).
-- **Company Q4 guide (at Q3, 2026-07-27): revenue $870-890M, non-GAAP EPS $4.14-4.26; FY26 EPS guide $17.21-17.33.** Consensus EPS is **exactly at the guide top** and revenue near the top — identical structure to CPAY/APP: F5 must beat its own range to beat the Street.
-- Revisions/whisper: not found as a series; sentiment "constructive" (TickerOn) after 7 EPS beats in last 8 quarters. Yesterday's panel noted price above mean target — re-verified below.
-
-### 3. Last four prints
-- **Q3 FY26 (2026-07-27):** Non-GAAP EPS $4.73 vs $3.81-4.00 cons (vendor range; +$0.73 vs MarketBeat's $4.00); rev $865.1M vs $834.6M cons (+11% YoY); systems $240M **+32%**, software $223M +7%, product +19%; FY26 guide RAISED (rev growth 7-8% → 9-10%, EPS $16.25-16.55 → $17.21-17.33); reaction **+8%** (screen).
-- **Q2 FY26 (2026-04-28):** EPS $3.90 vs $3.27 cons (Public.com history, +19%); reaction **+8%** (screen).
-- **Q1 FY26 (2026-01-27):** EPS $4.45 vs $3.32-3.65 cons (+22-34% depending on vendor); rev $822.5M vs $755.7M cons; FY EPS guide raised; reaction **+4%** (screen).
-- **Q4 FY25 (2025-10-27):** Non-GAAP EPS $4.39 vs $3.96 cons; rev $810M vs $794M cons (+8%); **but Q1 FY26 guide missed cons and management warned the security incident could disrupt sales — stock -6.8% after hours / -8% screen reaction.** This is the template for today's risk: F5's Q4 print is a guide print, and last year's guide print is the one that hurt.
-- Screen: beat_up 0.75, last4 +4%, +8%, +8%, -8%, worst -7.9%.
-
-### 4. Revenue / margin trend
-- Revenue: Q4'25 $810M (+8%) → Q1'26 $822.5M (+7.3%) → Q2'26 not separately retrieved → Q3'26 $865.1M (+11%). Product revenue +19% in Q3, systems +32% — **eighth consecutive quarter of double-digit product growth** (Trefis). Software is the soft leg: +0.3% in Q4'25 → +7% in Q3'26; subscription software +9%. Non-GAAP gross margin 84.2% (Q3'26), non-GAAP op margin 35.0%; GAAP op margin 24.7%. Deferred revenue $2.19B (+12%), recurring revenue 69% of total.
-- Trend: total growth re-accelerating (8% → 11%) **on a hardware refresh cycle**, with component (memory/storage) cost volatility flagged as the margin watchpoint (TickerOn).
-
-### 5. THE GUIDE — the print IS the guide
-- (a) **Guides quarterly + annually (revenue growth %, non-GAAP EPS range, margins, tax).** At Q4 it gives the initial FY outlook — today, FY27.
-- (b) Forward consensus: Trefis consensus FY27 revenue **$3.6B (+9.8%)**, FY27 non-GAAP EPS **$18.03**, FY28 $3.9B / $20.13. Q1 FY27 EPS consensus is thin ($3.37, single-estimate vendors) — unreliable, not found from a broad source.
-- (c) Run-rate support — **the crux, and yesterday's guide-risk 8/10 is re-verified in substance:** FY27 consensus +9.8% revenue requires systems to keep compounding against the **+32% Q3'26 / +42% Q4'25 systems comps** from the rSeries/iSeries refresh. Refresh cycles end; software at +7% cannot carry +9.8% total growth if systems normalise to flat. Consensus therefore embeds **continuation of a cyclical peak as if it were run-rate** — partially unseen acceleration in software (management aspiration: software accelerating to double digits in FY27) is required to bridge any systems fade.
-- (d) Guide history: FY26 guide raised twice during the year (to 9-10% growth / $17.21-17.33 by Q3); FY25's Q4 print guided FY26 revenue growth of only 0-4% initially (security-incident disruption) and the stock fell — F5 guides conservatively at Q4, then raises. That pattern is the bull's best argument today.
-- (e) **Already raised between quarters? Partially — and this refines yesterday's framing:** at its **Analyst Day on 2026-05-29**, F5 already introduced an FY27 guide calling for **7-9% revenue growth, above Street at the time** (Piper Sandler note via Intellectia), plus FY29 targets of $4.2B revenue / $22 EPS "power," a $600M competitive-displacement and $1.3B AI-infrastructure opportunity set, and guided component costs to weigh on FY27 EPS. So today's FY27 guide is **not a cold reveal** — the 7-9% growth frame is five months old. The print risk is narrower and sharper: (i) does the formal guide land at 7-9% or below it, (ii) what EPS range absorbs the component-cost warning, and (iii) note consensus (+9.8%) now sits **above the top of the Analyst Day frame** — the bar has crept past the pre-guide.
-- What's changed this quarter: AI use-case customers +50% cumulative in Q3, AI security customers doubling QoQ, Gartner "Market Shaper" for AI Application Security (Sep 2026), EMEA digital-sovereignty strength vs softer APAC, memory/storage cost inflation.
-
-### 6. Priced in
-- Finnhub 2026-10-26: 1M **+4.18%**, 6M **+55.04%**, YTD **+80.83%**; 52w $223.76-$483.30 — $462.55 is **-4.3% vs the high after an +81% year.** Trailing P/E 35.5x; **forward P/E ~24.1x on FY27 consensus (Trefis)** — rich vs F5's own pre-2025 range (high-teens/low-20s forward was typical for a mid-single-digit grower).
-- **Price vs targets: S&P Global mean target ~$437.80 — price is ABOVE the mean target** (TickerOn, late Oct), range $300-525, consensus rating Hold (1 Buy / 8 Hold / 1 Sell in one compilation). Yesterday's "above mean target" is re-verified.
-- Options-implied: yesterday's panel found **±10.11%** vs screen realised proxy **7.0%** — implied well above history; not independently re-found in this pass (single-source, from the brief), but directionally consistent with a guide print after an +81% YTD run.
-- Crowded? **Crowded long on momentum, uncrowded on analyst conviction** — the worst combination for a guide disappointment.
-
-### 7. Moat / irreplaceability: **6/10**
-BIG-IP's installed base in regulated/enterprise data centres, rSeries refresh lock-in, and the ADC+security bundle are sticky; but F5 competes with cloud-native WAF/API vendors and hyperscaler load balancing, and its current growth engine is a hardware cycle, not a data/network-effect moat. AI-app security is a credible second act, not yet a moat. **-15% gap stuck 18 months: opportunity if the gap is guide conservatism (the FY25 pattern repeated — guide low, raise all year); disaster only if systems demand has actually rolled over**, which a -15% print-day gap alone would not prove.
-
-### 8. Print-specific risks
-1. Formal FY27 guide at/below the 7-9% Analyst Day frame while consensus is at +9.8%. 2. FY27 EPS guide absorbing memory/component costs below the $18.03 consensus. 3. Systems growth commentary vs +32%/+42% comps. 4. Software failing to accelerate toward double digits. 5. Q4 itself is capped: consensus = guide top ($4.26 / $884M vs $890M guide top revenue). 6. It reports **today** — there is no time to react to any pre-print datapoint; position is binary by 4:05 PM ET.
-
-### 9. Scores
-**Beat-likelihood 7/10 (on Q4 itself) · Guide-risk 8/10 · Priced-in 8/10**
-Verdict: F5 will probably beat Q4 and it may not matter — at +81% YTD, above the mean target, with FY27 consensus above the company's own Analyst Day frame, this is a guide print priced for the raise cycle to continue uninterrupted.
-
-### 10. Plan
-**Plan B.** Plan A would require consensus FY27 at/below the 7-9% frame and price below mean target; both are the reverse. Yesterday's guide-risk 8/10 stands, with the refinement that the FY27 frame was pre-announced in May — the risk is bar creep past that frame, not total guide novelty.
-
----
-
-## Batch summary table
-
-| Ticker | Date (2026) | Bar (EPS / Rev) | Beat | Guide-risk | Priced-in | Plan |
+| Ticker | Date (confirmed) | Clean bar | Beat | Guide-risk | Priced-in | Plan |
 |---|---|---|---|---|---|---|
-| INCY | Oct 29 BMO | -$3.50* / $1.48B | 7 | 3 | 4 | B |
-| LLY | Oct 29 BMO | $5.38† / $22.11-22.62B | 8 | 5 | 9 | B |
-| CPAY | Nov 4 AMC | $7.18-7.20 / $1.36-1.38B | 6 | 5 | 4 | B |
-| APP | Nov 4 AMC | $3.95-4.04 / $2.08B | 5 | 8 | 3 | B |
-| FFIV | Oct 27 AMC (today) | $4.26 / $884M | 7 | 8 | 8 | B |
+| VRT | Wed Oct 28 BMO | Rev $3.75B / adj EPS $1.82 = guide mid/top | 7 | 5 | 4 | B |
+| SNDK | Thu Oct 29 AMC | Guide top: rev $10.8B / EPS $46 (cons above) | 6 | 8 | 7 | B |
+| INCY | Thu Oct 29 BMO | Product rev: Jakafi $827M, Opzelura $230M (EPS is noise) | 7 | 3 | 4 | B |
+| LLY | Thu Oct 29 BMO | Rev ~$22.1–22.6B (EPS scattered $5.38–7.11 on IPR&D) | 7 | 7 | 8 | B |
 
-\* INCY EPS bar is a pre-announced ~$1.27B Vega IPR&D charge; the operative bar is product revenue vs the July-raised $5.13-5.26B FY guide.
-† LLY EPS bars range $5.38 (Zacks) / $5.48 (Bernstein, incl. $4.2B IPR&D) / $5.68 (TipRanks) / $6.67 normalised — see LLY §2 before using any single number.
+Cross-batch notes for the panel: (1) All four dates are CONFIRMED from company sources; none moved. (2) Two of the four headline EPS bars (INCY, LLY) are distorted by pre-announced/acquired IPR&D — score revenue and guide, not EPS, for those two. (3) VRT's brief-supplied +84.9% avg surprise could not be verified anywhere and contradicts the screen file's own +13.0%; it was not used. (4) SNDK and LLY both require a guide event (FQ2 guide / FY raise) merely to satisfy a consensus that already sits above company guidance — the two highest guide-risk scores in the batch for the same structural reason.
+> Run by: Muse Wonder (muse-wonder) — full panel
 
-**Cross-batch read:** No Plan A in this batch. The two structural traps repeat: (1) consensus at/above company guide top (CPAY, APP, FFIV — and LLY revenue consensus above its FY guide top), and (2) cyclical or one-off tailwinds being capitalised as run-rate (FFIV systems refresh, INCY's CMS benefit, CPAY's Q2 fuel/FX). INCY is the cleanest risk/reward (bar is accounting noise, price -15% off high, guide-risk lowest); FFIV is the most dangerous hold-through despite the best recent beat streak, because it reports today with the bar above its own pre-announced FY27 frame.
+# Research Batch 3 — RUN_DATE 2026-10-28
+Tickers: HWM (Thu 2026-10-29 BMO), MPWR (Thu 2026-10-29 AMC), CBOE (Fri 2026-10-30 BMO), REGN (Fri 2026-10-30 BMO). Screen prices (shortlist_2026-10-28.json): HWM $193.10, MPWR $1,167.77, CBOE $324.68, REGN $803.37.
+Method note: figures are from web search 2026-10-28 (company releases via GlobeNewswire/PRNewswire, Zacks, MarketBeat, Finviz, TickerOn, EarningsWatcher, Finnhub). Where sources conflict I say so and do not average them silently. "Not found" means not found — no figure is invented. Reaction % for older prints is the screen's stored record (shortlist `print_reaction`) unless a sourced close-to-close figure is cited; the screen does not label the order of its last-4 sequence.
 
-**Not found in this pass (do not treat as absent):** company-IR primary date PRs for INCY/CPAY; options-implied moves for INCY, CPAY, APP (LLY ~6.4-7% and FFIV ±10.11% are sourced as noted); discrete whisper numbers for any name; INCY Q1'26 and CPAY Q1'26 full consensus pairs; FFIV Q2'26 standalone revenue.
+---
 
+## 1. HWM — Howmet Aerospace ($193.10, screen rank 8)
+
+### 1. Report date
+**CONFIRMED — Thu 2026-10-29, BMO: release ~7:00 a.m. ET, call/webcast 10:00 a.m. ET.** Company announcement dated **Oct 1, 2026** (reproduced by ad-hoc-news/EquitySwarm): Howmet will publish its Q3 2026 press release and presentation at approximately 7:00 a.m. ET on Oct 29 via its IR website, call at 10:00 a.m. ET hosted by John Plant (Exec Chairman/CEO) and Patrick Winterlich (CFO). Matches screen (2026-10-29). Not moved as far as found.
+
+### 2. The bar
+- **Consensus Q3 2026: adj EPS $1.37, revenue $2.59B** (Zacks Oct 22 and Oct 27, 2026: $1.37, +44.2% YoY; revenue $2.59B, +24% YoY; MarketBeat same; Finviz $1.37 / $2.59B). Segment bars (Zacks Oct 27): Engine Products revenue ~$1.42B (+28.8%), adj EBITDA ~$534.75M vs $368M a year ago; Fastening Systems ~$599.8M (+33.9%); Forged Wheels ~$286.8M (+16.1%); Engineered Structures ~$277.2M (−4.7%).
+- **Company Q3 guide (given Aug 6, 2026): adj EPS $1.34–$1.36, revenue ~$2.575B ±$10M, EBITDA ~$830M** (MarketBeat guide lines; TickerOn preview: "$1.35 ± $0.01 on revenue of about $2.58B"). **Prior research VERIFIED: consensus $1.37 sits ABOVE the $1.36 guide top on EPS** and at/above the revenue guide midpoint — an in-guide print reads as an EPS miss. The bar is a beat of guidance, not a meet.
+- Revisions: consensus EPS +0.6–0.7% over the last 30 days (Zacks, two previews), +1c in 30 days; Zacks Earnings ESP +0.21%, Rank #1 — whisper is effectively the $1.37 itself; no separate published whisper found. Analyst posture into the print is split: Citi on 90-day upside catalyst watch / argues forward consensus is too low (Oct 27), Morgan Stanley and Citi endorsements noted Oct 27 — against target cuts at RBC ($350→$300, Oct 15, Outperform kept), BNP Paribas Exane ($345→$310) and Wells Fargo ($315→$255, Equal-Weight).
+
+### 3. Last four prints (adj EPS)
+- **Q2 2026 (Aug 6, 2026):** adj EPS $1.33 vs $1.24 consensus (+7–8%). Revenue $2.55B vs $2.43B, +24.1% YoY. **Raised FY26 guide** (see §5) and set Q3 guide above. Reaction: screen last-4 sequence "+6%" is the most recent stored reaction; EarningsWatcher lists HWM's last report at +6.4%.
+- **Q1 2026 (May 7, 2026):** adj EPS $1.22 vs $1.11 (+9.9–10.3%). Revenue $2.31B vs $2.24B, +19% YoY. Raised FY26 forecast (see §5); contemporaneous coverage (TS2/Reuters chain) has the stock +7.7% to $276.16 on the day, hitting $290 intraday — note this conflicts with the screen's stored sequence, which shows no +7.7%; treat the +7.7% as a sourced intraday/session report, not screen data.
+- **Q4 2025 (Feb 12, 2026):** adj EPS $1.05 vs $0.97 (+8.3–8.8%). Revenue $2.17B vs $2.12B. (GAAP EPS $0.92 — TradingKey shows a GAAP-basis "miss" line; the adjusted series the Street trades is the $1.05 beat. Do not mix bases.)
+- **Q3 2025 (Oct 30, 2025):** adj EPS $0.95 vs $0.91 (+4.4%). Revenue $2.09B vs $2.04B.
+- Screen record: **8/8 EPS beats over 8 quarters**, last-4 avg surprise +7.6%, beat→up **0.75**, avg move +3.6%, avg abs **5.9%**, worst −6.4%, last-4 "−3%, +6%, +6%, +2%" (order unlabelled in the screen).
+
+### 4. Revenue / margin trend
+Revenue: Q1'25 $1.94B → Q2'25 $2.05B → Q3'25 $2.09B → Q4'25 $2.17B → Q1'26 $2.31B → Q2'26 $2.55B. **Accelerating**: YoY growth stepped up through 2026 to +24.1% in Q2 (screen rev_yoy_q +24.1%, rev_accel +11.6pts), and the Q3 bar asks for +24% again — continuation of the new rate, not a further step. Profitability is expanding faster than sales (adj EPS +46% YoY in Q2 on +24% revenue): net margin 20.5%, ROE ~34–35% (MarketBeat/screen), Engine Products is the margin engine (consensus Q3 segment EBITDA +45% YoY). No deceleration signal in the reported series; the deceleration risk is entirely in the narrative (see §7), not the numbers.
+
+### 5. THE GUIDE
+- (a) **Guides at high granularity:** current-quarter adj EPS range, revenue (~point ±$10M) and EBITDA, plus full-year adj EPS and revenue ranges, updated every quarter. The most precise guider in this batch alongside CBOE's qualitative ladder.
+- (b) Forward consensus: **Q4 2026 EPS $1.42** (Finviz, 20 analysts), revenue Q4 not found as a published line. **FY26 consensus EPS $5.34** (MarketBeat) vs company guide $5.23–$5.31 — consensus sits above the guide top for the year too. FY27 consensus EPS $6.43 (MarketBeat).
+- (c) Run-rate support: FY guide arithmetic — Q1 $1.22 + Q2 $1.33 + Q3 guide mid $1.35 = $3.90, so the FY guide implies **Q4 of $1.33–$1.41**. Consensus Q4 $1.42 sits just above even that implied top. Q4 therefore requires **continuation at the very top of the guided range plus a small unseen beat** — the same above-guide trap as Q3, one quarter out. It does not require a new growth leg, but it leaves zero slack.
+- (d) Guide history (verifiable 2026 chain): **Q1 print (May 7): raised** FY26 forecast (stock rewarded, see §3). **Q2 print (Aug 6): raised again** — FY26 adj EPS to **$5.23–$5.31**, revenue to **$10.0–$10.1B** (Barchart/MarketBeat). No guide cut found anywhere in the last 8 quarters; the pattern is the APH-style metronome (guide → beat → raise), with 8/8 EPS beats (screen). Reactions to the raises have been positive (+6% area on Q2 per screen/EarningsWatcher).
+- (e) Between quarters: **no intra-quarter guide raise found.** The October target cuts (RBC/BNP/Wells) are analyst actions against a company guide that has not moved since Aug 6.
+
+### 6. Priced-in
+- Price $193.10 (screen). **1-month −17.4%** (Finnhub, Oct 27 close $191.99), screen ret_21d **−16.9%**; **3-month ~−35%** from ~$287 in late July (TickerOn: "sliding from about $232 to near $186" over 30 days, "roughly 35% from levels near $287 in late July"); 6-month −20.1% (screen) / −20.6% (Finnhub). **−34.0% vs 52w high $310** (screen; Finnhub high $310, low $183.52). The washout is real and narrative-driven (SpaceX + GE/CPP headlines, §7), not print-driven.
+- Valuation: screen forward P/E **29.7×**, trailing ~40–41× (Finnhub 41.3×). Even after a −34% drawdown this is a premium industrial multiple — it was ~49.5× trailing at the Sep 18 close ($229.85, MarketBeat). A precise own 3–5y forward-P/E range was **not found**; directionally the stock has de-rated hard from its 2026 peak multiple but is not cheap on its own history. Mean target $324.55 (screen) is stale relative to the October cuts ($255–$310 cluster) — do not use the +68% "upside" at face value.
+- Options-implied move: **±7.7%** (EarningsWatcher, Oct 27, 2026) vs screen realised proxy **5.9%** avg abs (EarningsWatcher's own avg-move column: 8.3%). **Options price MORE than the screen proxy** — premium is not cheap insurance here despite the washout.
+- **Crowded? Explicitly: NO — this is the washed-out name of the batch.** −17% in a month, three target cuts in October, short interest up 15% to 2.14% of float (MarketBeat, Sep data), RSI flagged oversold in previews. The crowding that remains is in the *estimates* ($1.37 above guide), not in positioning.
+
+### 7. Moat / AI-irreplaceability: **8/10** — with the required in-sourcing assessment
+**The question:** is Howmet's sole-source / certified casting status actually threatened by (i) GE Aerospace buying CPP and (ii) SpaceX casting in-house?
+- **What Howmet actually is:** one of only ~four companies worldwide casting nickel-superalloy turbine blades/vanes at industrial scale (together ~70–80% of the market, all at capacity — TechCrunch/Benzinga via Webull), ~1,200 patents, and — critically — an **OEM-certified, often sole-source supplier on aero-engine airfoils**, where a part is qualified into an engine programme and cannot be swapped without re-certification. That certification moat is in *commercial/military aero engines*; the SpaceX story is about *industrial gas turbines (IGT) for data-centre power*, a different, less certification-bound market where Howmet is a beneficiary of the shortage, not the incumbent being displaced from a certified socket.
+- **SpaceX (announced Aug 30, 2026, Musk post; Bastrop, TX foundry):** SpaceX is **not a disclosed Howmet customer** (AInvest) — there is no revenue to lose. Bernstein (Outperform, target raised $248→$328): selloff overdone/buying opportunity; Howmet has long-term agreements with major IGT makers extending **through 2030**; six-plus capacity expansions due before Q4 could lift blade capacity **+38% vs Q1 2025**; SpaceX is unlikely to replicate the full process chain (notably coatings). Jefferies: ~**four years** to meaningful SpaceX output. Deutsche Bank: SpaceX is integrating for its *own* power needs, not becoming a commercial supplier, and may still collaborate with incumbent casters. Verdict on SpaceX: **a shortage-confirmation headline, not a threat to certified aero status, and not a 2026–27 IGT revenue threat of any modelled size.**
+- **GE / CPP (announced Sep 8, 2026; $11.75B, $7B cash + debt; close expected H2 2027):** this one is real but slow. GE is one of Howmet's largest customers and CPP competes in exactly Howmet's airfoil niche; HWM lost ~10% (~$11B of value) in two sessions on the announcement (AInvest). Mitigants, all sourced: GE CFO told Morgan Stanley Laguna that CPP was a *distinctive bottleneck fix, not a template* for broad vertical integration (Reuters via Business-News-Today); GE itself projects airfoil demand **+30% through 2030** across commercial, aftermarket and defence — it is buying capacity into a shortage, not replacing a supplier it can already serve itself with; CPP was priced at ~26× 2027 EBITDA pre-synergies (~18× post) — the deal *validates* the scarcity value of casters. No contract loss, qualification change or volume shift has been disclosed. Verdict on GE/CPP: **a genuine 2028+ share-of-wallet risk inside one large customer; zero evidence of threatened sole-source/certified status in the print horizon.** The stock has priced a decade-risk as if it were a 2027 revenue event.
+- Net moat: docked 2 points — one for the GE vertical-integration direction of travel, one because IGT (the fastest-growing leg) lacks the aero certification lock. The aero-engine core — certified, sole-sourced, sold-out — is intact.
+
+### 8. Risks specific to THIS print
+1. **Bar above guide (the trade):** $1.37 consensus vs $1.36 guide top; Engine Products EBITDA bar ~$535M (+45% YoY) is where a "good but not enough" print would show.
+2. Any commentary conceding CPP/SpaceX share loss — even a hypothetical — lands on a stock that fell −10% on the headline alone; equally, a dismissive answer is the upside catalyst Citi/Bernstein are positioned for.
+3. Boeing build rates: 737 MAX holding at 47/month, 787 at 8 targeting 10 (Flightdeck via Closing Print, Oct 12) — a slip hits Engine/Fastening volumes; jet fuel ~$5/gal and Brent >$100 raise airline shop-visit deferral risk for the aftermarket leg.
+4. Engineered Structures guided/consensus −4.7% YoY — a deeper decline widens the mix question.
+5. CAM acquisition contribution (flagged in Zacks' Oct 27 preview as a Q3 aid) — integration/one-off noise in the GAAP-to-adjusted gap (Q4'25 GAAP was $0.92 vs $1.05 adj).
+
+### 9. Scores
+- Beat-likelihood **7/10** · Guide-risk **6/10** · Priced-in **5/10**
+- Verdict: An 8/8 beat machine washed out −34% on a narrative its own numbers contradict — but consensus already sits above the guide top for both Q3 and implied Q4, so the print must beat guidance, not just consensus history, to pay.
+
+### 10. Plan
+**Plan B** (nearest A in the batch with REGN: de-crowded price and a debunked headline risk; still B because the bar is above guidance and options price ±7.7%).
+
+---
+
+## 2. MPWR — Monolithic Power Systems ($1,167.77, screen rank 9)
+
+### 1. Report date
+**CONFIRMED — Thu 2026-10-29, AMC, Q&A webinar 2:00 p.m. PT / 5:00 p.m. ET.** Primary source: company's own GlobeNewswire release, **Oct 8, 2026** ("will report its third quarter 2026 financial results on Thursday, October 29, 2026 after the market closes"). Matches screen. Not moved.
+
+### 2. The bar
+- **Consensus Q3 2026: non-GAAP EPS $7.79–$7.80, revenue $1.16B** (MarketBeat Oct 22: $7.79 / $1.16B; Zacks Oct 26: adj EPS $7.80, revenue $1.16B, +57% YoY vs $737.2M; Finviz $7.74 / $1.16B; one outlier aggregator, FXEmpire, prints $7.90 / $1.17B — treat $7.79–$7.80 as the bar). Zacks segment bar: Enterprise Data revenue ~$457.4M expected.
+- **Company Q3 guide (given Jul 30, 2026): revenue $1.14–$1.16B, non-GAAP gross margin 55.4–56.0% (GAAP 55.2–55.8%), non-GAAP opex $201.2–$205.2M.** Consensus revenue sits **at the guide top** — unlike HWM, the EPS bar does not exceed a guided EPS (MPWR does not guide EPS), but there is no guided slack left on revenue either.
+- Revisions: StockStory (Oct 28) — analysts have "generally reconfirmed their estimates over the last 30 days"; TD Cowen (Oct 5) raised 2027 revenue to $5.3B and 2028 to $6.2B, target $1,850 reiterated. Whisper: not found as a published number; the Q2 pattern (guide set 16.5% above then-consensus, then beaten) is the de-facto whisper — the Street now models the top of the range as the floor.
+
+### 3. RECEIVABLES_OUTRUN flag — EXPLAINED (required)
+Screen (shortlist_2026-10-28.json): **recv/rev divergence +0.288, accrual ratio −0.004, CFO/NI 1.02, flag RECEIVABLES_OUTRUN** — the only flag on the name. Checked against the company's own Q2 2026 earnings commentary (primary source, monolithicpower.com):
+- **Accounts receivable at Jun 30, 2026: $343.6M, = 32 days of sales outstanding — DOWN 2 days from 34 days at Mar 31, 2026.** Sequentially, AR rose +13.7% in Q2 while revenue rose **+21.9%** QoQ ($804.2M → $980.6M): receivables grew materially *slower* than revenue in the most recent quarter, and collection speed *improved*.
+- The screen's +0.288 is a **year-over-year divergence**: AR has grown faster than revenue on the trailing YoY comparison window because the year-ago AR base was abnormally low relative to a revenue line that has since stepped up in a staircase (Q3'25 $737M → Q2'26 $981M). It is a base-effect artefact of hyper-growth, not a lengthening of collection terms — DSO is the tell, and DSO fell.
+- Cash conversion corroborates benign: **CFO/NI 1.02 (screen, TTM); H1 2026 operating cash flow $478.2M ($250.3M Q1 + $227.9M Q2) vs H1 GAAP net income $450.5M ($193.2M + $257.3M) = 1.06×.** Accrual ratio −0.004 is effectively zero. Inventory discipline also improved: days of inventory 157 → 140 (121 on next-quarter revenue), down in Q2 despite the revenue surge.
+- The one genuine watch item: Q2 CFO *fell* QoQ ($250.3M → $227.9M) while net income rose, on an $89.8M working-capital use (inventory +$56.6M to $675.8M, AR +$41.5M) plus $82.4M capex and a $101.1M dividend — growth is consuming working capital even as it converts. That is capex/WC absorption, not earnings running ahead of cash.
+- **Verdict: BENIGN growth receivables — prior research ("watch/leaning benign") is verified and upgraded to benign on the primary-source DSO evidence.** Flip conditions to check in the Q3 release: DSO >35 days, or quarterly CFO/NI <0.8, would re-open the flag; neither is present in Q2.
+
+### 4. Last four prints (non-GAAP EPS)
+- **Q2 2026 (Jul 30, 2026):** EPS $6.50 vs $5.87 consensus (+10.5–10.7%). Revenue $980.6M vs $903.3M (+47.6% YoY, +21.9% QoQ). **Shock beat-and-raise (verified): Q3 revenue guide $1.14–$1.16B was +16.5% above the $986.8M analysts then expected (StockStory), and the FY26 Enterprise Data growth floor was raised 85% → 130%** (AInvest/Trefis). Reaction: screen last-4 includes +8% (close basis, consistent with FXEmpire's +8.35% close-to-close); TickerOn cites ~+17.8% in after-hours to ~$1,471 — both are reported; the close-to-close +8% is the conservative figure.
+- **Q1 2026 (Apr 30, 2026):** EPS $5.10 vs $4.90 (+4.1%). Revenue $804.2M vs $781.9M (+26.1% YoY). Guided Q2 to $890–$910M — then delivered $980.6M, +7.8% above the guide top.
+- **Q4 2025 (Feb 5, 2026):** EPS $4.79 vs $4.74 (+1.0%). Revenue $751.2M vs $741.7M.
+- **Q3 2025 (Oct 30, 2025):** EPS $4.73 vs $4.62–$4.64 (+1.9–2.4%). Revenue $737.2M vs $720.7M.
+- Screen record: **4/4 last-4 and 8/8 last-8 EPS beats**, avg surprise last 4 +4.4% (the small % is pre-Q2 vintage — Q2 alone was +10.5%+; surprise trend +5.7pts accelerating), beat→up **0.75**, avg move +2.6%, avg abs **8.9%**, worst **−17.5%**, last-4 "+8%, +6%, +6%, −8%".
+
+### 5. Revenue / margin trend
+Revenue: Q1'25 $637.6M → Q2'25 $664.6M → Q3'25 $737.2M → Q4'25 $751.2M → Q1'26 $804.2M → Q2'26 $980.6M → Q3 guide $1.14–$1.16B. **Violently accelerating**: YoY +26.1% (Q1) → +47.6% (Q2) → guide implies ~+57% (Q3). Enterprise Data is the engine: $380.6M in Q2, +164.3% YoY, +44.8% QoQ, 38.8% of revenue; Communications +78.3% YoY in Q2; all six end markets grew sequentially. Margins: gross margin is a metronome at 55.1–55.4% GAAP for eight straight quarters (AltIndex series) — no expansion, no slippage; **operating margin is where the leverage shows: 24.8% (Q2'25) → 26.5% → 26.6% → 30.0% (Q1'26) → 31.0% (Q2'26)**; net margin 20.1% → 26.2% over the same span. Trend into the print: accelerating revenue, expanding operating margin, guided gross margin flat — the cleanest operating trend in the batch, which is precisely why the bar keeps resetting upward.
+
+### 6. THE GUIDE
+- (a) **Guides one quarter ahead only** — revenue range, GAAP and non-GAAP gross-margin ranges, GAAP and non-GAAP opex ranges, SBC, interest income, tax rate (15% non-GAAP for 2026) and diluted share count — plus one segment-level full-year marker: the Enterprise Data growth floor (raised to +130% for FY26 at Q2). No company-wide full-year revenue/EPS guide exists.
+- (b) Forward consensus: **Q4 2026 EPS $8.14, Q1 2027 $8.05** (Finviz, 14/13 analysts); Q4 revenue consensus not found as a clean published line. MarketBeat's FY figures ($23.95 FY26 / $31.25 FY27) are an older vintage — Finviz's quarterly path ($5.10 + $6.50 + $7.74E + $8.14E ≈ $27.5 FY26) is inconsistent with them; use the quarterly path and flag the discrepancy rather than averaging.
+- (c) Run-rate support: Q4 $8.14 on a normal seasonal step implies revenue of roughly $1.25B+ (not a published consensus — arithmetic inference, labelled as such). That is **another sequential acceleration step of the same size as Q3's guided step** — MPWR has delivered exactly that twice in a row (Q2 guide beaten by 8.6% on revenue; Q3 guide set +17% QoQ), so the pattern supports it, but the forward bar is *pattern-dependent, not run-rate-guaranteed*: it requires Enterprise Data hyper-growth (+130% FY floor) to persist at the new base. This is an unseen-persistence bar, one notch harder than HWM's continuation bar.
+- (d) Guide history (last 8 quarters): a consistent **guide-conservatively-then-demolish** cadence in 2026 — Q1 guided Q2 $890–910M, delivered $980.6M; Q2 guided Q3 +16.5% above Street and raised the ED floor 85%→130%. 8/8 EPS beats (screen). **No guide cut found in the window.** The guide *is* the catalyst at MPWR: the two biggest reactions in its recent record followed guide shocks, not headline beats.
+- (e) Between quarters: **no intra-quarter company guide change found.** The Oct 5 TD Cowen estimate raises are analyst actions. Two between-quarter *legal* developments did land (see §8) — neither is a guide event, both are overhang.
+
+### 7. Priced-in
+- Price $1,167.77 (screen). **1-month −11.4%** (Finnhub), screen ret_21d **−14.5%**; **3-month: not found as a clean figure** — 6-month −26.2% (screen) / −23.7% (Finnhub); the stock opened Oct 27 at $1,167.27, **~32% below its 52w high** (The Inference, Oct 27) vs screen **−30.7% vs 52w high $1,714.09**, low $833.18. De-crowded on price, as the brief states.
+- Valuation: screen forward P/E **33.1×**, trailing ~69× (Finnhub 69.6×). A precise own 3–5y forward range was **not found**; the multiple has compressed by roughly the price drawdown (−31%) while forward estimates *rose* (TD Cowen lifted 2027/28), so on forward earnings the de-rating is larger than the price chart alone shows — but 33× forward for a name whose Q4 bar requires persistent hyper-growth is not a value multiple, it is a growth multiple at a discount to its own recent peak.
+- Options-implied move: **±13.7%** (EarningsWatcher, Oct 27, 2026; its avg-move column ±8.8%, last report +19.1% on its basis). **Prior research VERIFIED: options are pricing ~13.7–13.8% vs the screen's 8.9% realised proxy — a ~55% premium to history.** Long premium is the expensive side; the −17.5% worst realised reaction says the tail is not imaginary either.
+- **Crowded? Explicitly: NO on positioning, YES on belief.** −14.5% in 21 days, a Wall Street Zen downgrade to Hold (Oct 17), fraud-suit and ITC headlines (§8) — the marginal holder has been shaken out. But the analyst structure is still 13 Buys / 3 Holds / no Sells with a mean target ~$1,693–$1,800 (screen $1,799.80) — nobody has modelled a bad print.
+
+### 8. Moat / AI-irreplaceability: **8/10**
+The power-delivery layer of AI servers is physical, analogue and qualification-bound: MPS's proprietary process/packaging, system-level design-ins and monolithic integration make its 48V vertical power modules a designed-in socket, not a commodity chip — and it is expanding the moat upward (800V AC-to-DC sampling, DDR5 power, capacity ambition "beyond $6B"). Enterprise Data at +164% YoY is what an irreplaceable bottleneck looks like in numbers. Docked 2: (i) customer concentration — the fraud suit (§9) centres on alleged quality issues at its key customer (Nvidia, per the complaint as reported); (ii) Vicor's patent position is a live legal challenge to the exact module architecture, not a theoretical one.
+
+### 9. Risks specific to THIS print
+1. **Vicor ITC Section 337 case (filed ~Oct 2026):** Vicor is seeking a limited exclusion order and cease-and-desist orders against MPWR's AI-server power modules — **the accused line is the growth engine** (Enterprise Data, $380.6M, 38.8% of Q2 revenue). Vicor royalty revenue ~tripled YoY to $66.6M and two hyperscalers have sought licence terms (The Inference). An exclusion order is a 2027 remedy, not a Q3 number — but any management comment (or refusal to comment) on the call moves the multiple.
+2. **Securities-fraud suit surviving dismissal — twice:** Judge Robart held on **May 6, 2026** that the complaint sufficiently alleged scienter (alleged misstatements Feb–Nov 2024 about chip quality and the key-customer relationship, with >$160M of insider sales in the class period), and **refused dismissal again on Oct 22, 2026**; Rosen Law opened a fiduciary-duty probe Oct 26 and a Section 337 investigation also dragged in Luxshare/Hon Hai/Quanta in October coverage. Overhang, not print mechanics — but it caps the re-rating a beat can buy.
+3. **The Q4 guide is the print:** after Q2's +16.5% guide shock, a merely in-line Q4 guide (or none beyond the ED floor) reads as deceleration against a $8.14 Q4 consensus that assumes another step up.
+4. Gross margin: guided 55.4–56.0% non-GAAP after eight quarters pinned at ~55.2% — any print below 55.4% breaks the metronome narrative.
+5. Working capital: inventory $675.8M (+9.2% QoQ) built ahead of Q3 shipments — if Q3 revenue lands at the guide low end, inventory days re-expand and the benign-receivables verdict (§3) gets re-litigated by the market.
+
+### 10. Scores
+- Beat-likelihood **7/10** · Guide-risk **7/10** · Priced-in **6/10**
+- Verdict: The strongest operating trend in the batch attached to the widest legal overhang — the Q3 numbers are likely fine, but the trade is decided by the Q4 guide and by what management says about Vicor.
+
+### 11. Plan
+**Plan B.**
+
+---
+
+## 3. CBOE — Cboe Global Markets ($324.68, screen rank 13)
+
+### 1. Report date
+**CONFIRMED — Fri 2026-10-30, BMO (before market open), call 7:30 a.m. CT / 8:30 a.m. ET.** Primary source: company's own PRNewswire release, **Sep 28, 2026** ("will announce its financial results for the third quarter of 2026 before the market opens on Friday, October 30, 2026"; webcast via ir.cboe.com). Matches screen (2026-10-30). Not moved. Note: one aggregator (The Fiscalist) misprints the date as Oct 31 — the company release says Oct 30; ignore the aggregator.
+
+### 2. The bar
+- **Consensus Q3 2026: adj EPS $3.42, net revenue $702.5–$708.6M.** Zacks (Oct 27): EPS $3.42, revenue $702.5M (+16% YoY); TickerOn: adj EPS $3.41, revenue ~$708.6M vs $605.5M in Q3'25; TipRanks: $3.42 confirmed BMO. **Source error flagged:** Zacks' text says EPS is "a year-over-year decrease of 20.1%" — that is wrong against its own $2.67 year-ago figure; $3.42 is **+28.1% YoY** (Zacks' own calendar page says +28.09%). Use +28%.
+- Revisions: **consensus EPS +2.7% in the last 30 days** (Zacks Oct 27); Earnings ESP +0.35% (most accurate estimate $3.43 vs $3.42 consensus) — a whisper of exactly one cent. The bar has been walked up into the print, gently.
+- **Basis warning:** consensus net revenue $702.5M is *below* Q1's $728.9M and Q2's $731.6M actuals. That is not a modelled collapse — Q3 is seasonally softer and the Cboe Australia sale closed Jul 31 (segment removed) — but it means the "record quarter" headline pattern of H1 is **not** the bar this time; a merely record-tying print would beat this consensus comfortably.
+
+### 3. What is already known — the pre-reported quarter (VERIFIED)
+Prior research said the quarter was partly pre-reported. **Verified, and it is more than "partly":** Cboe's September 2026 volume release (**Oct 5, 2026, PRNewswire, company source**) discloses, for the full Q3:
+- Quarterly SPX options ADV **4.9M contracts — second-best quarter on record**; **quarterly SPX 0DTE ADV record 3.2M** and **monthly SPX 0DTE record 3.4M** (September); monthly proprietary index options ADV 6.4M, second-highest ever.
+- Quarterly multi-list ADV **15.3M — second-best quarter**; XSP quarterly/monthly ADV records (251k / 274k); GTH session quarterly and monthly ADV records (228k / 263k); RUT best month since Jan 2016.
+- **Q3 RPC / net-revenue-capture projections printed by the company**: index options **$0.952**, total options **$0.307**, futures **$1.712**, multi-list **$0.052** (vs $0.064 in Jun — multi-list capture is falling even as volume records).
+So volume × capture for the core Derivatives business — the majority of net revenue — is **arithmetically knowable before the print**. What is *not* pre-reported: Data Vantage growth, Cash & Spot ex-volume lines, expenses vs the $838–$853M FY guide, the Australia-sale accounting, buyback pace, and — the only thing that can actually move the stock — **the FY26 guide (raise #4 or reaffirm) and any 2027 framing.**
+
+### 4. Last four prints (adj EPS)
+- **Q2 2026 (Jul 31, 2026):** adj EPS $3.56 vs $3.45–$3.48 consensus (+2.3–3.2%). **Record net revenue $731.6M** vs ~$717M consensus, +25% YoY (gross revenue $1.44B). Options net revenue record $473.9M (+30%), index ADV +32%. **Raised FY26 guide** (see §5). Reaction: positive (screen last-4, all positive).
+- **Q1 2026 (May 1, 2026):** adj EPS $3.70 vs $3.34 (TipRanks) — one aggregator prints consensus as $3.25 (Blockonomi); use the TipRanks $3.34 and note the spread. **Record net revenue $728.9M, +29% YoY.** Raised FY guide *and cut* opex guide; announced ~20% headcount realignment and Canada/Australia sales. Stock hit a then-record $321 intraday, +8–9% session (Blockonomi; screen last-4 includes +9%).
+- **Q4 2025 (Feb 6, 2026):** adj EPS $3.06 vs $2.94 (+4.1%). Net revenue for the quarter: not found in this search — do not substitute. Set the initial FY26 guide (mid-single-digit organic growth — the low base the 2026 raise ladder climbed from).
+- **Q3 2025 (Oct 31, 2025):** adj EPS $2.67 vs $2.54 (+5.1%). Net revenue $605.5M (TickerOn year-ago basis).
+- Screen record: beat→up **0.857 (6/7 measured)** — the best in this batch — avg move +3.2%, avg abs **3.6%** (smallest bet in the batch), worst **−1.7%** (the shallowest left tail in the entire screen), last-4 **"+5%, +9%, +3%, +4%" — all positive.**
+
+### 5. Revenue / margin trend
+Net revenue: Q3'25 $605.5M → Q1'26 $728.9M (**+29% YoY**) → Q2'26 $731.6M (**+25% YoY**) → Q3'26 consensus $702.5M (**+16% YoY** on the Zacks basis). **Decelerating in YoY terms for two quarters** — partly mix/seasonality/Australia, partly the law of large numbers on 0DTE. Profitability is not decelerating: Q2 GAAP operating margin **65.1%** (+7.4pts YoY) with expenses +3% on revenue +25% — extreme operating leverage, flattered by the realignment. Adjusted operating margin was 72.4% in Q1. The trend question for the print is whether Data Vantage ( guided to low-teens growth, +15% in Q2) can offset the derivatives deceleration the volume data already implies.
+
+### 6. THE GUIDE
+- (a) **Guides full-year, qualitatively but completely:** organic total net revenue growth (word-range), Data Vantage organic growth (word-range), adjusted opex ($ range), capex ($ range), depreciation, and adjusted tax rate (27.5–29.5%). No EPS or dollar revenue guide. Granularity is high for an exchange — the word-ranges are narrow enough to trade on.
+- (b) Forward consensus: Q4 2026 direct consensus **not found**. Implied: FY26 consensus adj EPS ~**$13.90** (TickerOn) minus Q1 $3.70 + Q2 $3.56 + Q3E $3.42 (= $10.68) → **Q4 implied ~$3.22** — a normal seasonal step-down from Q3, in line with Q4'25's $3.06 pattern plus growth.
+- (c) Run-rate support: Q4 implied ~$3.22 is **pure continuation with normal seasonality** — the easiest forward bar in this batch. Nothing unseen is required; Q4 volumes would have to fall off a cliff to threaten it.
+- (d) Guide history — **the cleanest raise ladder in the batch (company releases):** **Feb 6, 2026 (Q4 print):** initial FY26 organic net revenue growth "mid single-digit", Data Vantage "mid to high single-digit", opex $864–$879M. **May 1 (Q1): RAISED** to "low double-digit to mid-teens" / Data Vantage "low double-digit", opex **cut** to $838–$853M. **Jul 31 (Q2): RAISED again** to **"mid to high teens"** / Data Vantage **"low teens"**, opex reaffirmed $838–$853M, capex raised $73–$83M → $98–$108M (clearing build). Three raises, zero cuts, in 2026; every raise was rewarded (last-4 reactions all positive). The risk is symmetric: this market now *expects* raise #4, and a reaffirmation is the disappointment scenario.
+- (e) Guide already raised between quarters: the **Oct 5 volume release with Q3 RPC projections** functions as an intra-quarter guide confirmation for the derivatives line (see §3) — the company has effectively pre-guided its core revenue into a narrow range. No formal FY guide change since Jul 31.
+
+### 7. Priced-in
+- Price $324.68 (screen). Screen ret_21d **+28.2% with run_into_print_flag TRUE** — the only flagged name in the batch; Finnhub 1-month **+29.5%**. 6-month +7.5% (screen) — i.e. essentially the entire 6-month gain arrived in the last month. **−11.0% vs 52w high** (screen). **Price vs mean target: $324.68 vs $328.47 — +1.2% headroom. There is no analyst-target upside left** (UBS target $335, Sep).
+- Valuation: screen forward P/E **21.4×**, trailing 25.7×. A precise own 3–5y forward range was **not found**; 21.4× for a mid-teens organic grower with 65%+ operating margins is full-but-not-absurd for CBOE's post-0DTE era — the problem is not the multiple level, it is that the price has pre-paid the quarter (see §3) *and* the raise.
+- Options-implied move — **sources conflict, both reported:** **±3.4%** (Bloomberg-compiled, via Tulsian, Oct 23) vs **±6.1%** (EarningsWatcher, Oct 27). The Oct 23 figure ≈ the screen realised proxy (**3.6%** avg abs); the Oct 27 figure is nearly double it, consistent with premium being bid up *after* the +28% run. Either way: at ±3.4% options underprice CBOE's own recent behaviour (that source notes 6 of the last 8 prints moved more than implied, incl. two +8.9% moves in 2025); at ±6.1% they have already corrected. Do not quote a single implied figure for CBOE without the date.
+- **Crowded? Explicitly: YES — the crowded print of the batch.** +28.2% in 21 days into a pre-reported quarter, price at the mean target, guide-raise streak priced as a base case. The business record is the best in the batch and the entry is the worst; both things are true at once.
+
+### 8. Moat / AI-irreplaceability: **9/10**
+Exclusive SPX and VIX index licences, the 0DTE franchise it created, proprietary index options that cannot be multi-listed away, its own clearing build-out, and Data Vantage's subscription data layer — CBOE is a toll booth on volatility itself, the one asset whose demand *rises* when AI-driven markets get turbulent. Network effects in options liquidity are self-reinforcing. Docked 1: multi-list capture is contestable (RPC $0.064 → $0.052 projected) and the event-contracts expansion (Cboe Predicts, KPI contracts) carries regulatory risk that a pure toll booth would not.
+
+### 9. Risks specific to THIS print
+1. **Everything good is known:** volumes, RPC, the raise ladder — the only upside surprise left is a guide raise to "high teens" or a Data Vantage beat; a reaffirm-after-three-raises is a sell-the-news setup at $324.68 vs a $328.47 mean target.
+2. Multi-list RPC erosion ($0.064 Jun → $0.052 Q3 projection): volume records with falling capture is the mix story bears will headline.
+3. Australia-sale comparability and any gain/charge treatment; Canada sale still pending — realignment charges (the ~20% headcount programme) can widen the GAAP/adj gap.
+4. Derivatives deceleration arithmetic: Q3 YoY net revenue growth guided-by-consensus to +16% from +25%/+29% — a "slowdown" headline is pre-written even on a beat.
+5. Event/KPI contracts and prediction-market regulatory commentary — a headline risk with no offsetting Q3 revenue.
+
+### 10. Scores
+- Beat-likelihood **8/10** · Guide-risk **5/10** · Priced-in **9/10**
+- Verdict: The best business record and gentlest reaction tail in the batch, bought at the worst possible moment — +28% in 21 days for a quarter the company has already published in pieces.
+
+### 11. Plan
+**Plan B.**
+
+---
+
+## 4. REGN — Regeneron Pharmaceuticals ($803.37, screen rank 16)
+
+### 1. Report date
+**CONFIRMED — Fri 2026-10-30, BMO (before U.S. markets open), call/webcast 8:30 a.m. ET.** Primary source: company's own GlobeNewswire announcement, **Sep 24, 2026** ("will report its third quarter 2026 financial and operating results on Friday, October 30, 2026, before the U.S. financial markets open"). Matches screen (2026-10-30). Not moved.
+
+### 2. The bar
+- **Consensus Q3 2026: non-GAAP EPS $16.19–$16.36, revenue $4.56B.** AlphaStreet (Oct 26): $16.19 from 23 analysts, range $14.88–$17.68; revenue $4.56B, range $4.35–$4.73B. MarketBeat: $16.36 / $4.56B. TickerOn: ~$16 / ~$4.55B. That is +36.9% EPS and +21.6% revenue YoY vs Q3'25 ($11.83 / $3.75B).
+- **Why the bar jumped — the mechanical step-up (the key fact of this print):** Regeneron's share of Sanofi collaboration profits was suppressed while it repaid the Sanofi development balance (~$3.1B); the balance was **fully repaid at end-Q2 2026**, and management guided on the Q2 call that **Sanofi collaboration revenue will "step up" from Q3 as the full profit share is recorded** (Q2 call transcript). The Q3 consensus jump is therefore substantially *accounting-mechanical and company-guided*, not a demand guess.
+- Revisions: **EPS consensus +1.6% in 30 days and +22.6% in 90 days** ($13.21 → $16.19, AlphaStreet) — analysts have been chasing the step-up all quarter; the chase appears complete (the +22.6% move *precedes* the print, it is not a whisper above it). Whisper beyond $16.36: not found.
+- Known in-bar items: the Oct 1 Sanofi expansion deal (§8) carries a company-disclosed **~$22M IPR&D charge = −$0.18 EPS in Q3** — announced Oct 1, *before* the recent estimate rises, so it should be inside consensus; verify on the print that it is not double-counted as a "miss" driver.
+
+### 3. Last four prints (non-GAAP EPS, MarketBeat series)
+- **Q2 2026 (Jul 30, 2026):** EPS **$14.29 vs $10.16 consensus (+$4.13, +40.7%)**. Revenue $4.29B vs $3.82B, +17% YoY. GAAP EPS $12.23 incl. −$1.02 IPR&D (non-GAAP incl. −$0.99). Records across the board: Dupixent global sales (Sanofi-recorded) **$6.0B, +38%**; EYLEA HD U.S. **$596M, +52%** — first quarter HD exceeded legacy EYLEA; Libtayo **$489M, +30%**. Sanofi collaboration revenue a record ~$2.2B (profit share ~$2.03B, +59% YoY). Guide: cost lines updated (see §5); Limerick bulk production back to normal at quarter-end.
+- **Q1 2026 (Apr 29, 2026):** EPS $9.47 vs $8.91 (+6.3%). Revenue $3.61B vs $3.48B. (GAAP EPS $6.75 — Limerick unabsorbed costs hit GAAP gross margin, 78% vs 83% a year ago in both Q1 and Q2.)
+- **Q4 2025 (Jan 30, 2026):** EPS $11.44 vs $10.74 (+6.5%). Revenue $3.88B vs $3.76B.
+- **Q3 2025 (Oct 28, 2025):** EPS $11.83 vs $9.73 (+21.6%). Revenue $3.75B vs $3.57B. GAAP EPS $13.62; Dupixent $4.86B global (+27%).
+- Screen record: **4/4 last-4 beats, avg surprise +18.9%** (the largest in this batch), surprise trend **+8.7pts accelerating**, 7/8 over 8 quarters, beat→up **0.714**, avg move +0.6%, avg abs **6.1%**, worst −9.2%, last-4 "+6%, −6%, +2%, +12%". Note the honest caveat inside the record: the huge % surprises are partly a *modelling* artefact — the Street chronically under-models the Sanofi profit-share line (Q2'25 was +$4.46 vs consensus on the same effect). The beat is real cash, but it is a recurring consensus-modelling failure, not recurring operational surprise.
+
+### 4. Revenue / margin trend
+Revenue: Q1'25 $3.03B (the dip quarter — the only EPS miss in 8) → Q2'25 $3.68B → Q3'25 $3.75B → Q4'25 $3.88B → Q1'26 $3.61B → Q2'26 $4.29B. YoY growth **accelerating**: +17% in Q2'26 (screen rev_yoy_q +16.7%, rev_accel +8.2pts), with Q3 consensus asking +21.6% — the acceleration is the guided Sanofi step-up landing on top of product growth. Mix (Q2): net product sales $1.64B (flat YoY — HD growth offsetting legacy EYLEA decline), Sanofi collaboration $2.17B (+51%), Bayer collaboration $276M (**−33%** — ex-U.S. EYLEA softness), other $193M. Margins are the volatile line: GAAP gross margin on product sales **78% in Q1 and Q2** (vs 83% PY) on Limerick unabsorbed costs, non-GAAP 87%; operating margin swung 17.8% (Q1) → 33.1% (Q2) on IPR&D lumpiness ($127M in Q2). Trend verdict: **revenue accelerating, margins noisy-but-recovering** — Q3 should show the first clean post-Limerick, post-repayment quarter, which cuts both ways: there is no excuse left in the print.
+
+### 5. THE GUIDE
+- (a) **Regeneron does NOT guide revenue or EPS — at any granularity.** It guides cost/structure lines only, updated at prints. Q2 update (company release, Jul 30): FY26 non-GAAP R&D **$5.95–$6.05B** (a second source summarising the same update gives GAAP R&D $6.50–$6.64B — different basis, both reported, do not mix), non-GAAP SG&A $2.5–$2.6B, non-GAAP gross margin 84–85%, non-GAAP tax rate 14–15%, capex $1.03–$1.10B. The only forward *revenue* guidance ever given is directional: the Sanofi step-up (§2) and "moderation in Dupixent growth in H2 as launches annualise and comps strengthen" (Q2 call).
+- (b) Forward consensus: Q4 2026 direct line **not found**. Implied: FY26 consensus EPS **$49.10** (MarketBeat) minus Q1 $9.47 + Q2 $14.29 + Q3E $16.36 (= $40.12) → **Q4 implied ~$8.98**. That looks like a cliff; it is not — Q4/Q1 are REGN's seasonally soft, IPR&D-heavy quarters (Q4'25 $11.44 → Q1'26 $9.47 is the same shape), and Q3 is flattered by the one-time step-up annualisation. FY27 consensus $53.12 (MarketBeat).
+- (c) Run-rate support: Q4 implied ~$8.98 requires **no acceleration and no step-up repeat — it is below every quarter of the last four on a reported basis and consistent with the seasonal pattern.** The forward bar after this print is the *most* supported in the batch. The demanding bar is Q3 itself, and Q3's demand is the company-guided mechanical step-up (§2).
+- (d) Guide history (last 8 quarters): with no revenue/EPS guide, "guide history" = cost guides + directional calls. Record: R&D guide raised in Q2'26 on pipeline breadth (~50 clinical assets) — a spending raise, absorbed without incident; the Sanofi-repayment timeline was called in advance and landed exactly as guided (repaid end-Q2, step-up guided for Q3); the H2 Dupixent-moderation caution was issued *by the company itself* at Q2. No revenue guide exists to have been cut; no directional call found to have been walked back in the window. 7/8 EPS beats against a non-guide is a consensus-modelling record (§3), which is a weaker form of evidence than HWM/CBOE's beat-the-guide record — scored accordingly in §9.
+- (e) Between quarters: two items. (i) **Oct 1, 2026: Sanofi collaboration expansion** — four next-gen immunology antibodies, **$1B upfront, up to $7B milestones**, 50/50 cost/profit share, Regeneron leads research; company disclosed the −$0.18 Q3 EPS charge at signing. **The $1B upfront's P&L treatment (deferred vs recognised) is not established in the sources found — do NOT model it as Q3 revenue; check the release.** (ii) Evercore ISI target $850→$900 (Oct 22) and a cluster of October Buy/Overweight reaffirmations ($865–$980) — analyst actions only.
+
+### 6. Priced-in
+- Price $803.37 (screen). **1-month +3.6%** (Finnhub, Oct 27 close $816.10 — note Finnhub's close sits above the screen price; use the screen price as the anchor), screen ret_21d **+1.9%**; 6-month +8.2% (screen) / +9.6% (Finnhub); 12-month +40.3% (screen). **−5.7% vs 52w high $859.34** (screen; Finnhub high $859.34, low $572.75). Flat into the print — no run, no washout.
+- Valuation: screen forward P/E **12.8×** — **the cheapest quality multiple in the entire near field** (triage's words, verified against the screen). One aggregator (MarketBeat) prints forward 15.4× on a different estimate vintage; either figure is at/below REGN's own multi-year forward range (it has habitually traded mid-teens forward and ~19–20× trailing; a precise 3–5y band was not found, but 12.8× is unambiguously the low end of its own history and a steep discount to large-cap biotech peers — cf. LLY at 27× forward in the same screen). Mean target $867.33 (screen, +8.0%); October individual targets $810–$980, incl. UBS upgrade to Buy ($978) and JPMorgan Overweight ($950).
+- Options-implied move: **±6.3%** (EarningsWatcher, Oct 27; avg move ±5.7%, last report +6.4% on its basis) vs screen realised proxy **6.1%** avg abs. TickerOn separately cites ~4–5% from options activity — source spread noted; on the EarningsWatcher figure, **implied ≈ realised: premium is fairly priced, neither gift nor trap** — the only name in the batch of which that is true.
+- **Crowded? Explicitly: NO.** +1.9% in 21 days, price below the mean target with real headroom, a 12.8× forward multiple on a +22.6% estimate-revision quarter — the revisions chased the fundamentals, the price did not chase the revisions. That gap is the opportunity and the question (why is it cheap? — answer: the EYLEa/biosimilar overhang in §8, which is a 2027 story being priced into a 2026 print).
+
+### 7. Moat / AI-irreplaceability: **9/10**
+VelocImmune + the Regeneron Genetics Center is a repeatable invention engine (~50 clinical assets, nine approved Dupixent indications, Dupixent annualising ~$24B with U.S. composition-of-matter patent to **2031**), now converting its second franchise (Libtayo, +30%, C-POST adjuvant data Oct 25: death-risk −37% at 44 months) while HD extends the eye franchise. $15.1B cash/marketable securities net of debt and $1.4B H1 FCF are downside insurance no other name in this batch except CBOE matches. Docked 1: revenue concentration — Dupixent economics + the EYLEA complex are still the overwhelming majority of profit, and both face dated cliffs (biosimilars now, 2031 patent later).
+
+### 8. Risks specific to THIS print
+1. **Same-morning cross-read — Sanofi reports Q3 on Fri Oct 30 too** (Paris, before the U.S. open): Dupixent global sales will be public essentially simultaneously (Street ~€5.1B; RBC models €5.3B but sits ~4% *below* Sanofi consensus EPS because post-Q2 profit-share costs now land differently — RBC via Finimize). REGN's biggest revenue line is thus half-known before its own call, and the profit-share *arithmetic* — not the sales number — is where modelling errors live on both sides of the partnership.
+2. **Legacy EYLEA erosion rate:** management guided low-to-mid-teens % declines per quarter in H2 for Eylea 2mg (TickerOn summary of company guidance); HD was 60% of the franchise in Q2 and must keep converting. The biosimilar wall is dated and real: settlements allow Alvotech/Teva, Sandoz and Formycon U.S. launches in **Q4 2026**, Celltrion on **Dec 31, 2026**, with Amgen's biosimilar already marketed and Roche's Vabysmo competing — any print commentary accelerating the erosion timeline hits a stock whose cheapness is *based* on that timeline being gradual.
+3. **The step-up must actually appear:** Q3 is the first quarter of full Sanofi profit share — if collaboration revenue does not step up by roughly the guided amount, the +22.6% estimate chase unwinds violently, because that is the entire bar.
+4. **Binary catalyst days after the print:** cemdisiran FDA action date in **November 2026** (gMG, Priority Review, PDUFA month only) plus EYLEA HD prefilled-syringe year-end approval target — management tone on both will be traded as part of this print.
+5. Limerick gross-margin recovery is assumed (78% GAAP GM must normalise toward the 84–85% non-GAAP guide zone); a third quarter of unabsorbed costs would reframe Q1/Q2 as a pattern, not an interruption.
+6. The $1B Sanofi upfront's accounting (§5e) — if any part is recognised in Q3, headline EPS vs the $16.19–$16.36 bar becomes uninterpretable in the first minutes, in either direction.
+
+### 9. Scores
+- Beat-likelihood **8/10** · Guide-risk **4/10** · Priced-in **4/10**
+- Verdict: The only name in the batch where the demanding bar is company-guided and mechanical (the Sanofi step-up), the forward bar needs nothing new, and the price — 12.8× forward, flat into the print, implied ≈ realised — has not pre-paid any of it; the risk is EYLEA commentary, not the Q3 arithmetic.
+
+### 10. Plan
+**Plan A** (the batch's only A: guided mechanical beat, cheapest multiple, no crowding — sized for the ±6.3% implied and the EYLEA-commentary tail).
+
+---
+
+## Batch summary table
+
+| Ticker | Date/time (status) | Q3 bar (EPS / rev) | Guide posture | Beat | Guide-risk | Priced-in | Moat | Plan |
+|---|---|---|---|---|---|---|---|---|
+| HWM | Thu Oct 29 BMO, confirmed (co. Oct 1) | $1.37 / $2.59B, **above $1.34–1.36 guide top** | Quarterly + FY guide, raised Q1 & Q2, forward = top-of-range + ε | 7 | 6 | 5 | 8 | B (nearest A) |
+| MPWR | Thu Oct 29 AMC, confirmed (co. Oct 8) | $7.79–7.80 / $1.16B, **at guide top** | One-quarter guide only; Q2 guide was a +16.5% shock raise; ED floor 85%→130% | 7 | 7 | 6 | 8 | B |
+| CBOE | Fri Oct 30 BMO, confirmed (co. Sep 28) | $3.42 / $702.5–708.6M net | FY word-range guide, **raised 3× in 2026**; quarter pre-reported (volumes + RPC, Oct 5) | 8 | 5 | 9 | 9 | B |
+| REGN | Fri Oct 30 BMO, confirmed (co. Sep 24) | $16.19–16.36 / $4.56B, incl. guided Sanofi step-up | **No rev/EPS guide** (cost lines only); step-up guided on Q2 call | 8 | 4 | 4 | 9 | **A** |
+
+Key cross-batch warnings: (1) HWM's bar exceeds guidance on both Q3 and implied Q4 — "in-guide" = miss, at a washed-out price. (2) MPWR's RECEIVABLES_OUTRUN flag is **benign on primary evidence** (Q2 AR $343.6M, DSO 32 days, *down* from 34; H1 CFO/NI 1.06; accrual −0.004) — a YoY base effect; re-check DSO/CFO in the Q3 release. MPWR options ±13.7% vs 8.9% realised is verified, and its print carries two live legal overhangs (Vicor ITC exclusion bid against the Enterprise Data engine; fraud suit that survived dismissal on Oct 22). (3) CBOE is the trap shape: best reaction record in the screen (worst −1.7%, last-4 all positive) bought after +28.2% in 21 days at the mean target, for a quarter already published in pieces on Oct 5 — and its two implied-move sources disagree (±3.4% Oct 23 vs ±6.1% Oct 27); quote with the date. (4) REGN and its partner Sanofi report the **same morning** — Dupixent is a shared, simultaneous print; REGN's Q3 bar is the guided Sanofi profit-share step-up (development balance repaid end-Q2), and the $1B Sanofi upfront's P&L treatment is **not established** — do not model it into Q3. (5) HWM in-sourcing verdict: SpaceX is not a Howmet customer and IGT casting is not its certified aero socket (Bernstein: LTAs through 2030, +38% capacity coming; Jefferies: ~4 years to SpaceX output); GE/CPP is a real 2028+ share risk inside one large customer with **no disclosed contract or certification loss** — neither threatens sole-source certified status in the print horizon.
+> Run by: Muse Wonder (Muse Wonder) — full panel
+
+# Research Batch 4 — RUN_DATE 2026-10-28 (final batch)
+## CPAY (Corpay) — Wed 2026-11-04 AMC · AME (AMETEK) — Tue 2026-11-03 BMO
+
+Prices are the screen prices (2026-10-27/28): CPAY $397.02, AME $246.22. Price-history cross-checks are from Finnhub daily candles as of the 2026-10-27 close, cited as Finnhub below. Options-implied move was **not found** for either name in any source searched — that field is explicitly "not found," not estimated.
+
+---
+
+# CPAY — Corpay, Inc. (NYSE: CPAY)
+
+## 1. Report date — CONFIRMED, AMC
+- **Wednesday, November 4, 2026, after market close; call 5:30 PM ET.** CONFIRMED by the company's own press release via Business Wire, dated **October 21, 2026** ("Corpay to Announce Third Quarter 2026 Results on November 4, 2026" — release issued after market close that same day, webcast via investor.corpay.com). No move vs the screen date (2026-11-04). Finviz/MarketBeat agree: Nov 04, AMC.
+
+## 2. The bar — Q3 2026 consensus
+- **Consensus (primary): adj. EPS $7.20, revenue $1.36B** — MarketBeat and Finviz (16 analysts), as of 2026-10-27/28 crawl. Zacks is close: Q3 EPS **$7.18**, Earnings ESP **+1.07%**.
+- **Higher second source / whisper proxy: EPS $7.34, revenue $1.38B** — FXEmpire (17 analysts), crawled 2026-10-28. This is the number that sits **above the top of the company's own Q3 guide ($7.05–$7.25, §5)**. Treat $7.20 as the print bar and ~$7.34 as the whisper bar.
+- Revisions: mildly positive into the print. Zacks (article ~2026-10-13): FY2026 consensus raised **+$0.04 to $27.44 in the last 60 days, 2 analysts revised up**, average surprise +3.6%. No late-October estimate cuts found.
+- Prior-year Q3: EPS $5.70 on revenue $1.17B, so the bar implies +26% EPS / +16% revenue YoY.
+
+## 3. Last four prints (adjusted EPS; reactions are next-session closes, Finnhub candles — they reconcile exactly to the screen's last-4)
+- **Q2 2026 (Aug 5, 2026):** EPS **$7.00 vs $6.58 cons (+6.3%)**; revenue **$1.34B vs $1.30B cons** (+21.5% YoY); guide RAISED (FY adj. EPS to $27.15–$27.55); reaction **+0.95%** (screen: +1%).
+- **Q1 2026 (May 7, 2026):** EPS **$5.80 vs $5.47–$5.50 cons (+6.0%)**; revenue **$1.26B vs $1.21B cons** (+25% YoY); guide RAISED (FY to $26.30–$27.10); reaction **+12.5%** (screen: +13%).
+- **Q4 2025 (Feb 4, 2026):** EPS **$6.04 vs $5.93–$5.94 cons (+1.6–1.9%)**; revenue **$1.25B vs $1.23B cons**; initial FY2026 guide set (see §5); reaction **+11.6%** (screen: +12%).
+- **Q3 2025 (Nov 5, 2025):** EPS **$5.70 vs $5.63 cons (+1.2%)**; revenue **$1.17B vs $1.16B cons**; reaction **+6.2%** (screen: +6%).
+- Pattern: 4/4 beats, and the surprise size has *grown* through 2026 (+1–2% → +6% → +6%). GAAP EPS is not comparable (Q2 GAAP $3.70 after the FTC charge, §8) — the Street trades the adjusted number.
+
+## 4. Revenue / margin trend — accelerating on revenue, noisy on reported margin
+Revenue (company reports / MarketBeat history): Q1'25 $1.01B → Q2'25 $1.10B → Q3'25 $1.17B → Q4'25 $1.25B → Q1'26 $1.26B → Q2'26 $1.34B. YoY growth accelerated into 2026: Q1'26 **+25%**, Q2'26 **+21.5%**, with **organic growth +10% in both quarters** (Q2: Corporate Payments organic +16%, Vehicle +8%; bookings +30%, retention 93%). The inorganic layer is Alpha Group (closed Nov 5, 2025, $2.4B) plus the AvidXchange stake — together +$0.39 of Q2 adj. EPS accretion, per management.
+Margins: gross margin ~79–80% (screen 80.5%). Reported operating margin fell to ~35% in Q2'26 from ~43–44% a year earlier, but that is distorted by the $100M FTC settlement charge in GAAP results; adjusted EBITDA rose +24% YoY in Q2. Management has guided to elevated investment spend and said some Q2 margin benefit will moderate — margin *expansion* is not the story this print; revenue/EPS compounding is.
+
+## 5. THE GUIDE
+**(a) Does it guide? Yes — the most granular guider in this batch.** Every quarter Corpay gives a full-year range (revenue, GAAP and adjusted net income/EPS, with explicit assumptions: fuel price $4.17/gal, spreads, FX, interest expense, tax rate, share count) **plus** a next-quarter revenue and adj. EPS range.
+**(b) Outstanding guide (set at Q2 print, Aug 5, 2026):** Q3 2026 revenue ~**$1.355B at the midpoint** (call transcript; range ~$1.35–1.36B), Q3 adj. EPS **$7.05–$7.25** (midpoint $7.15, +26% YoY), organic growth 9–11%. FY2026: revenue **$5.29–5.33B**, adj. EPS **$27.15–$27.55**.
+Consensus for the out-periods: Q4 2026 EPS **$7.43** (Finviz, 16 analysts); FY2026 EPS **$27.44** (Zacks) — see the correction in (c).
+**(c) Run-rate support — continuation, and the prior-research claim needs correcting.** H1 2026 delivered $5.80 + $7.00 = **$12.80**. The FY guide implies H2 of $14.35–$14.75; with Q3 guided at $7.05–$7.25, the implied Q4 is ~$7.10–$7.70 (midpoint ~$7.40) — consensus Q4 $7.43 sits **inside** that implied range, and FY consensus $27.44 sits **inside** the $27.15–$27.55 guide (upper half, not above it). **Correction to the prior-research note: the "~$7.18–7.34 at/above the $7.05–7.25 guide top" figures are Q3 estimates, not FY estimates** (Zacks $7.18, Finviz/MarketBeat $7.20 — inside the range, above midpoint — and FXEmpire $7.34, above the top). So the FY bar is covered by the existing guide; only the whisper-level Q3 bar ($7.34) requires beating the guide top. No unseen acceleration is needed — Q3 guide midpoint is already +26% YoY and +2% QoQ vs Q2's record $7.00, on ~10% guided organic growth, the same rate just delivered twice.
+**(d) Guide history, last 8 quarters (verified for the last 4 prints; earlier quarters partial):**
+- Q3'25 print → Q4'25 print: FY2025 guide carried into the Feb 2026 print, which set initial FY2026 adj. EPS guidance (~$26.00 midpoint per the Q1 supplement's February comparison column). Reaction to the Feb print: **+11.6%**.
+- Q1'26 (May 7): **RAISED** FY adj. EPS to $26.30–$27.10 (mid $26.70, +$0.70 vs initial) on the Q1 beat + higher fuel assumptions, net of the PayByPhone divestiture (−$75M rest-of-year revenue). Reaction **+12.5%**.
+- Q2'26 (Aug 5): **RAISED again** — FY adj. EPS to $27.15–$27.55 (mid $27.35, +$0.65), revenue midpoint $5.29B → $5.31B, explicitly flowing through the $0.42 Q2 beat (+$0.45 captured, +$0.20 added for H2 revenue/productivity) and absorbing a ~$40M revenue cut from the EPICS/epyx divestiture. Reaction only **+0.95%** — the smallest reward of the four, despite the biggest beat (see §6).
+- No cuts or trims found in the last 4 prints; a full 8-quarter raise/reaffirm ledger was **not found** in the sources searched, but the 2025–26 pattern in every release located is raise-or-set, never cut. Quarterly guides have been beaten both quarters of 2026 (Q1 guide $5.38–$5.52 → delivered $5.80; Q2 guide $6.45–$6.65 → delivered $7.00).
+**(e) Raised between quarters? No** — no intra-quarter guidance update found between Aug 5 and Oct 28, 2026. The raises happen *at* prints, which is exactly the setup here.
+
+## 6. Priced-in
+- Price action (Finnhub): **1 month +0.2%** (flat into the print — matches screen ret_21d +0.2%), **3 months +4.6%** ($379.71 on Jul 27 → $397.02), 6 months +27.4%, 1 year +39.0%. **−7.1% vs the 52-week high of $427.46** (52w low $252.84).
+- Valuation: screen forward P/E **12.6x**; FinanceCharts forward P/E 12.77 (Oct 27) vs a 5-year forward average of ~14.0x (Intellectia) — i.e. the forward multiple is at/below its own history *because* earnings have surged, while trailing P/E ~24x sits above its 5y trailing average ~21.5x. This is not a multiple-crowded name.
+- Options-implied move: **not found**. Screen realised proxy: **5.4% avg abs** — but note the realised pattern is asymmetric and decaying at the margin: the last print's +6.3% EPS beat bought only +0.95%, vs +12–13% rewards earlier in 2026. Worst reaction in the measured record is only −3.4% (screen) — the best downside asymmetry in the field.
+- **Crowded or not: NOT crowded on price or multiple** (flat month, sub-historical forward P/E, analyst mean target ~$460, +16%), but expectations are *operationally* high: two straight raises mean a mere in-line print with a reaffirm — not a third raise — is the realistic disappointment path.
+
+## 7. Moat / AI-irreplaceability — 7/10
+Embedded, workflow-level payments: fuel/vehicle cards with proprietary acceptance networks, AP automation and virtual cards wired into customer ERPs, cross-border accounts with banking licences and FX infrastructure (Alpha), 93% retention. Payments plumbing is regulated, trust-based and switching-cost heavy — AI agents commoditise the *interface* layer, not the rails, float, credit and compliance underneath; Corpay is itself shipping AI spend agents on top of its rails. Not a 9–10 because mid-market AP automation is contestable (Avid, Bill, Ramp-type entrants) and part of earnings is macro float/fuel-spread exposure, not pure moat rent.
+
+## 8. Risks specific to THIS print
+- **FTC settlement:** a **$100M preliminary FTC settlement charge** was booked in Q2 (subject to approval). Any change in status/quantum, or GAAP-vs-adjusted confusion, lands on this print.
+- **Macro did part of Q2's work:** ~$30M of the ~$45M Q2 revenue beat was "favourable macro" (fuel prices/spreads, FX, rates) per management. Q3 guide assumes $4.17/gal fuel and flat spreads — if macro normalised in Q3, the organic line has to carry the whole bar, and float income faces a rate-cut headwind management has flagged before.
+- **Whisper above the guide top:** at FXEmpire's $7.34, a print of $7.20–7.25 (a "beat" vs consensus and guide midpoint) could still read as a miss.
+- **Portfolio churn noise:** EPICS/epyx sale (−$40M revenue guided), PayByPhone already out — segment comparability and one-off gains/charges (Q1 had a $122.5M PayByPhone gain) muddy the GAAP print.
+- **Leverage & credit:** ~2.55–2.7x leverage after the Alpha debt package; management noted higher credit losses in Q2 commentary.
+
+## 9. Scores
+- Beat-likelihood **8/10** · Guide-risk **4/10** · Priced-in **5/10**
+- Verdict: The cleanest risk/reward in the batch — consensus sits inside an already-twice-raised guide, the stock is flat into the print at a below-history forward multiple, and the only real bar problem is a whisper number above the guide top plus a macro tailwind that may not repeat.
+
+## 10. Plan
+- **Plan B** — default: no pre-print position at full size; the trade is the post-print reaction to whether a third straight raise accompanies the beat (Plan A only becomes arguable if sized as a starter given the −3.4% worst-reaction record).
+
+---
+
+# AME — AMETEK, Inc. (NYSE: AME)
+
+## 1. Report date — CONFIRMED, BMO
+- **Tuesday, November 3, 2026, before market open; call 8:30 AM ET.** CONFIRMED by AMETEK's own investor release dated **October 15, 2026** (reported consistently across AMETEK-release coverage; Zacks also lists 11/03/2026, BMO, as a confirmed date). No move vs the screen date (2026-11-03). One stale aggregator line (MarketBeat via ad-hoc) said "October 29" — superseded by the company's Oct 15 release and every Oct 27 earnings preview; disregard.
+
+## 2. The bar — Q3 2026 consensus
+- **Consensus: adj. EPS $2.11, revenue $2.12B** — MarketBeat earnings preview, Oct 27, 2026; Zacks consensus **$2.12** with Earnings ESP +0.37%. Both sit **above the top of the company's Q3 guide ($2.08–$2.10)** — the bar is above guidance, not at it.
+- Revisions are *up into* the print: on **Oct 7, 2026 Zacks Research raised its Q3 estimate from $2.08 to $2.11** (Strong-Buy) and models Q4 at $2.23, FY2026 at $8.40, FY2027 at $9.58. Price-target raises clustered in October: Morgan Stanley $245 → **$275** (Oct 9), Citi $261 → $263 (Oct 12), BofA **$300** Buy (Oct 23), Baird $280 (Oct 5), KeyCorp $295 (Sep 30).
+- Growth implied by the bar: Q3 EPS +12% YoY (vs $1.89), revenue +12% YoY (vs $1.89B).
+
+## 3. Last four prints (adjusted EPS; reactions are same-session closes — AME reports BMO — Finnhub candles, reconciling to the screen's last-4)
+- **Q2 2026 (Aug 4, 2026):** EPS **$2.09 vs $1.99 cons (+5.0%)**; revenue **$2.04B vs $1.95B cons** (+15.0% YoY); guide RAISED (FY to $8.20–$8.30, §5); reaction **+4.2%** (screen: +4%).
+- **Q1 2026 (Apr 30, 2026):** EPS **$1.97 vs $1.90 cons (+3.7%)**; revenue **$1.93B vs $1.91B cons** (+11.3% YoY); FY guide $7.94–$8.14 in force (initiated at the Q4 print, carried at Q1); reaction **+3.3%** (screen: +3%).
+- **Q4 2025 (Feb 3, 2026):** EPS **$2.01 vs $1.94 cons (+3.6%)**; revenue **$2.00B vs $1.94B cons** (+13.4% YoY); initial FY2026 guide set; reaction **+0.5%** (screen: +1%).
+- **Q3 2025 (Oct 30, 2025):** EPS **$1.89 vs $1.76 cons (+7.4%)**; revenue **$1.89B vs $1.81B cons** (+10.8% YoY); FY2025 guide RAISED to $7.32–$7.37; reaction **+7.7%** (screen: +8%).
+- Streak: **8/8 beats** over two years (adds Q2'25 $1.78 vs $1.69, Q1'25 $1.75 vs $1.69, Q4'24 $1.87 vs $1.85, Q3'24 $1.66 vs $1.62), average surprise ~+4.8% (screen). Every one of the last four was rewarded positively — worst reaction in the measured record is only −2.0% (screen).
+
+## 4. Revenue / margin trend — clear acceleration, margins stable-to-up
+Revenue YoY by quarter: Q1'25 **−0.2%** ($1.73B) → Q2'25 **+2.5%** ($1.78B) → Q3'25 **+10.8%** ($1.89B) → Q4'25 **+13.4%** ($2.00B) → Q1'26 **+11.3%** ($1.93B) → Q2'26 **+15.0%** ($2.04B, record). Q2'26 mix: organic **+10%**, acquisitions +5pts, FX flat. Demand leads revenue: Q1 orders +23% (organic +22–23%), Q2 orders a record **$2.30B, +28%** (organic +25%).
+Margins: operating margin has held a tight 25.8–26.7% band for eight quarters; Q2'26 reported 26.6% (+60bp YoY) with **core margin 27.1% (+110bp)** — one nuance: TIKR notes the reported margin still missed the Street's forecast by ~10bp even as core expanded. Net margin ~20%, FCF Q2 $452M (+37%, 111% conversion). This is acceleration with margin discipline, not growth bought with margin.
+
+## 5. THE GUIDE
+**(a) Does it guide? Yes — annual + next-quarter, EPS-led.** Each print gives a full-year adj. EPS range with a sales-growth descriptor (~"up ~10%" for 2026, organic mid-to-high single digits) and a next-quarter adj. EPS range. No quarterly revenue range.
+**(b) Outstanding guide (set at Q2 print, Aug 4, 2026):** Q3 2026 adj. EPS **$2.08–$2.10**; FY2026 adj. EPS **$8.20–$8.30** (+10–12% YoY), sales up ~10%.
+Consensus for the out-periods: Q4 2026 EPS **$2.23** (Zacks), FY2026 **$8.41–$8.42** (MarketBeat analyst average; Zacks FY $8.40–$8.41), FY2027 $9.56–$9.58.
+**(c) Run-rate support — the one genuine tension in this dossier, VERIFIED and still standing.** Prior research (2026-10-26) claims all check out at today's price:
+- Q3 guide $2.08–$2.10 vs Q2 delivered $2.09 — **flat QoQ at midpoint**, while consensus asks $2.11–$2.12. ✔
+- Orders +28%, backlog **$4.11B** (record, +21% since year-end, ~80% shippable within 12 months) — **confirmed** from the Q2 call. ✔
+- FY consensus $8.41–$8.42 is **above the $8.30 guide top**. ✔ Arithmetic: H1 delivered $1.97 + $2.09 = $4.06. Guide-implied H2 = $4.14–$4.24; consensus-implied H2 = $4.35 (Q3 $2.11–2.12 + Q4 $2.23). Even delivering the Q3 guide top leaves a guide-implied Q4 of only ~$2.06–$2.16 vs consensus $2.23.
+- Mitigant, honestly stated: Q4 is AME's seasonal peak (Q4'25 $2.01 was +6.3% over Q3'25 $1.89), so a $2.23 Q4 is a *seasonal continuation*, not a heroic acceleration — but on the company's own numbers it still requires **either a Q3 beat vs guide or an FY raise at this print (or both)**. The $2.12B Q3 revenue consensus (+3.9% QoQ) is better supported: backlog conversion plus the first ~5 weeks of Indicor Instrumentation (closed Aug 26, guided to contribute ~$350M of 2026 sales) mechanically lifts Q3/Q4 revenue.
+**(d) Guide history, last 8 quarters — a raiser's record:**
+- FY2025: initiated ~$7.02–$7.18 → Q2'25 **raised** to $7.06–$7.20 (incl. FARO) → Q3'25 **raised** to $7.32–$7.37 → delivered FY adj. EPS ~$7.43 (sum of quarters) — i.e. finished *above the final range's top*.
+- FY2026: initiated $7.94–$8.14 (Q4'25 print, Feb 3, 2026; carried through Q1'26) → Q2'26 **raised** to $8.20–$8.30.
+- No cuts found in eight quarters; the pattern is initiate conservatively, raise at the Q2 and Q3 prints. Reactions to the raising prints: Q3'25 +7.7%, Q2'26 +4.2%. The guide-risk question is not "will they cut" but "is the customary Q3 raise already in the price" — consensus above the top says the market is *already spending* the raise.
+**(e) Raised between quarters? No company update** — but the Street moved between quarters instead (Zacks Q3 estimate raised Oct 7; five target raises in Oct), which raises the effective bar without any company confirmation.
+
+## 6. Priced-in
+- Price action (Finnhub): **1 month −2.2%** ($251.67 on Sep 28 → $246.22; matches screen ret_21d −2.2%), **3 months +1.3%** ($243.12 on Jul 27), 6 months +7.5%, 1 year +33.0%. **−5.7% vs the 52-week high of $261.16** (52w low $182.87). The stock has *not* run into this print — it faded ~2% in the last month after touching ~$254 post-Q2.
+- Valuation: screen forward P/E **25.8x**; FinanceCharts forward 28.25x, trailing 36.0x vs 5-year trailing average **31.5x** and 3-year 32.1x — a clear premium to its own history on trailing, roughly at-history on forward-next-year (~25.9x, Tradestie). Mean analyst target $282 (+14.5%).
+- Options-implied move: **not found**. Screen realised proxy **4.1% avg abs**, and the realised record is the gentlest in the field (last-4 all positive, worst −2.0%) — the options market, whatever it is pricing, is pricing a name that historically moves ~4% and almost never gaps down hard.
+- **Crowded or not: crowded on expectations, NOT crowded on positioning/momentum.** No run-in, modest premium multiple, but the estimate/target revision tape in October was one-way up and consensus now embeds the raise. Longs own it for exactly the beat-and-raise this print must deliver.
+
+## 7. Moat / AI-irreplaceability — 8/10
+The archetypal niche-compounder moat: dozens of spec'd-in, mission-critical instrument/electromechanical businesses (process, aerospace & defence, power, medical, semiconductor), high recurring consumables/service/aftermarket revenue, pricing power, and a decentralised operating model that keeps compounding via M&A (FARO, now Indicor). AI is a *demand tailwind* for AME — data-centre power, semiconductor test, grid build-out were named drivers of the +28% orders — not a substitution threat; you cannot prompt-engineer a physical measurement instrument into a customer's qualified process. Docked from 9–10 only because growth is partly bought (deal execution is the moat's maintenance cost) and end-markets remain cyclical industrials.
+
+## 8. Risks specific to THIS print
+- **Consensus above guide on every line** (Q3 $2.11–2.12 vs $2.08–2.10; Q4 $2.23; FY $8.41 vs $8.30 top): an in-guide print + reaffirm is a *miss* against the traded bar — the single biggest risk here.
+- **Indicor first consolidated quarter:** $5.0B all-cash deal closed **Aug 26, 2026** — integration costs, purchase accounting and the already-flagged **widening GAAP-vs-adjusted gap** (Q2 GAAP $1.77 vs adjusted $2.09) get their first full airing; any "modestly accretive" slippage or deal-related margin dilution hits a premium multiple.
+- **Margin bar creep:** core margin +110bp set a standard; Q2's reported margin already missed one Street model by ~10bp — a flat 26.5%-ish margin print may not be forgiven at 36x trailing.
+- **Order comps harden:** +28% orders / record backlog is the bull exhibit; any order-growth deceleration print (even to +10%) changes the narrative from "infrastructure build-out, beginning stages" to "peak orders."
+- Minor: insider sale Aug 7 (David Hermance, 6,608 shares at $254.00, −13.45% of his holding) — small, but at a price above today's.
+
+## 9. Scores
+- Beat-likelihood **8/10** · Guide-risk **6/10** · Priced-in **6/10**
+- Verdict: An 8/8 beat machine with accelerating revenue, record backlog and a raise-at-Q3 habit — but the Street has pre-paid for the raise (consensus above the guide top on Q3, Q4 and FY), so the print must beat *and* raise merely to validate the current price, at a premium multiple with a $5B integration in its first quarter.
+
+## 10. Plan
+- **Plan B** — default: let the BMO print prove the raise; pay up after confirmation rather than pre-paying for a beat-and-raise that consensus already assumes.
+
+---
+
+## Batch summary for the panel
+| | CPAY | AME |
+|---|---|---|
+| Date | Wed Nov 4, AMC — CONFIRMED (co. release Oct 21) | Tue Nov 3, BMO — CONFIRMED (co. release Oct 15) |
+| Bar vs guide | Q3 cons $7.20 *inside* guide $7.05–7.25; whisper $7.34 above top; **FY cons $27.44 inside FY guide** | Q3 cons $2.11–2.12, Q4 $2.23, FY $8.41 — **all above guide tops** |
+| Beat / Guide-risk / Priced-in | 8 / 4 / 5 | 8 / 6 / 6 |
+| Moat | 7 | 8 |
+| Plan | B | B |
+
+Key corrections/updates vs prior research: (1) CPAY's "$7.18–7.34 above guide" figures are **Q3**, not FY, estimates — FY consensus is inside the FY guide, which lowers CPAY guide-risk materially; the "pending corporate-payments acquisition" is **closed, not pending** — Alpha Group completed Nov 5, 2025 ($2.4B), is >80% integrated and contributed to Q2 accretion; the live deal items are the EPICS/epyx *divestiture* and the $100M FTC settlement. (2) AME's 2026-10-26 claims (Q3 guide $2.08–2.10, orders +28%, backlog $4.11B, FY consensus above the $8.20–8.30 top) are **all verified and unchanged** at $246.22; the new facts since then are Indicor's Aug 26 close feeding its first consolidated quarter and an October tape of estimate/target raises that further lifts the effective bar. Options-implied moves: **not found** for either name.
