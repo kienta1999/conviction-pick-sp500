@@ -1,0 +1,40 @@
+> Run by: Muse Spark 1.3 — full panel
+
+# Phase 3 ballot — Agent D (Contrarian / risk skeptic) — RUN_DATE 2026-10-31, MODE earnings
+
+## 1. SINGLE-PICK ballot
+
+- Top pick: PH
+- Runner-up: FOXA
+- Thesis (3-5 sentences): PH will probably beat the quarter — 4/4 beats, an 8.07% average surprise, and a record $12.8bn backlog — but the market is mis-modelling what counts as success, because FY2027 street consensus sits above the company's own guide top, so a beat paired with a mere reaffirmation is a guide-down in street terms. The stock has already de-rated 18.2% off its $1,099.94 high into the print, so the price does not demand perfection — the consensus does. The one clean upside path is a raise, and Filtration Group ($9.25bn, closed 2026-08-13) was excluded from the initial FY2027 guide, giving management a concrete lever to raise on 2026-11-05. That is a definable beat-and-raise trigger, not a hope that a good quarter gets paid for.
+- Key evidence from the record: The guide history in the FY2026 cycle — raised at Q2 FY2026 and again at Q3 FY2026, then delivered FY2026 adj. EPS of $32.31, beating the raised range, with Q4 FY2026 adj. EPS $9.27 vs $8.31 consensus (+11.6%) and revenue $5.75bn vs $5.57bn.
+- Priced-in risk (THE TRAP): low. The stock is down 6.84% over 1 month and 6.5% over 3 months to the 2026-10-30 close, and 18.2% below its 52-week high, despite the beat-and-raise cycle — the trap here is not a crowded price, it is a crowded consensus number (see The guide). Reaction history is contained: screen last-4 reactions −4% / +4% / +7% / +8%, average move +3.4%, average absolute move 4.4%, worst −4.0%.
+- The guide: The forward number the market is carrying is FY2027 adj. EPS consensus of $35.72, which is $0.47 ABOVE the top of the company's own FY2027 guide of $34.25–$35.25 (midpoint $34.75). The next-quarter bar for the 2026-11-05 print itself is Q1 FY2027 consensus adj. EPS ~$8.21 on revenue ~$5.81bn. Does the run-rate support $35.72? Only with help: FY2026 adj. EPS was $32.31, the guide midpoint implies only +7.5% growth, and Q1 consensus $8.21 annualises to ~$32.8 before the seasonally stronger Q4 — so the full-year number needs the usual H2 weighting plus Filtration Group contribution, and is not supported by Q1 alone. "Beat but guided soft" is the loss case, stated explicitly: a Q1 beat with FY2027 guidance merely reaffirmed at $34.25–$35.25 reads as a guide-down versus the $35.72 street number, and the precedent in this record is a beat that fell (Q1 FY2026, screen reaction −4%).
+- Plan A or Plan B, with one sentence of justification: Plan B. A beat-and-reaffirm is a selloff setup at this consensus gap, so there is no reason to hold through the print unless and until management raises FY2027 adj. EPS above $35.72 or folds Filtration Group into guidance with quantified accretion.
+- Fallback if the print disappoints: Yes, hold it 12–18 months — provided the disappointment is a guide hold, not an order collapse or Filtration margin dilution. The record supports holding through a multiple/consensus reset: total backlog is a record $12.8bn, aerospace backlog $8.5bn (+15%), FY2026 adj. segment operating margin was a record 27.3% (+120bp) with Q4 at 28.0%, and the moat (certification-heavy, safety-critical motion-and-control embedded in OEM platforms) is rated 8/10 in the dossier.
+- Event scenario: rough % move on a beat-and-raise / in-line / miss: beat-and-raise (FY2027 raised above $35.72 or Filtration folded in): +5% to +8% (anchored to the +7% and +8% reactions on the last two FY2026 prints). In-line (Q1 beat, FY2027 merely reaffirmed): −3% to −5% (the Q1 FY2026 beat-that-fell precedent was −4%). Miss (Q1 miss or a guide trim): −6% to −10% (beyond the screen worst of −4.0%, reflecting a broken raise cycle plus a premium-to-record-margin unwind).
+- Top risk: Consensus FY2027 EPS $35.72 above the $35.25 guide top — a reaffirmation disappoints — compounded by Filtration Group integration/debt ($9.25bn deal) diluting the record-margin story if synergies slip.
+- Conviction (1-10): 6
+
+## 2. RANKED ballot
+
+1. PH — De-rated guide trap, Filtration raise lever
+2. FOXA — Cheapest, uncrowded, cash-collection test
+3. EW — Uncrowded, CMS tailwind, sequential guide
+4. IDXX — Near lows, visit decline caps multiple
+5. APP — Capitulation price, brutal guide hurdle
+6. CPAY — Reliable beat, no upside left
+7. AMGN — New highs, flagged opex step-up
+8. OXY — Pre-announced print, crude call
+9. AME — Premium price, street above guide
+10. RL — Raised bar, H2 margin drag
+
+### Top 3 in detail
+
+**1. PH.** Most compelling record: two FY2026 guide raises followed by delivery of $32.31, beating the raised range, on a record $12.8bn backlog; reaction record is contained and beat-friendly (screen last-4 −4% / +4% / +7% / +8%, worst only −4.0%, average absolute move 4.4%). Guide risk is the whole trade: FY2027 street $35.72 vs company guide top $35.25 means reaffirmation is a guide-down, with Filtration Group (excluded from the initial guide) as the only clean raise lever; priced-in risk is low on price (−18.2% off the high, −6.8% in 1 month) but high on consensus. Rough moves: beat-and-raise +5% to +8%, in-line beat-plus-reaffirm −3% to −5%, miss −6% to −10%. Plan B.
+
+**2. FOXA.** Most compelling record: 4/4 beats averaging +40.4% surprise (though the trend is collapsing, −15.2, so the average overstates the current bar), the strongest Earnings ESP in the batch at +6.64% with Zacks Rank #2, and a Q1 FY2027 bar of EPS $1.99 (+31.7% YoY) on revenue $4.23bn (+13.2%); reaction record is mostly paid (screen last-4 +5% / +8% / −4% / +8%, average +3.3%, absolute 5.1%, worst −3.7%), with the Q2 FY2026 +64% beat that still fell −3.8% as the warning that commentary, not the beat, decides it. Guide risk is low in the formal sense — Fox gives no formal EPS/revenue guide, so there is no number to cut — but the qualitative guide (Roku close, political cycle, distribution) carries the risk, and the screen's +24.8pp revenue acceleration is a World Cup base effect, not a run-rate. Priced-in risk is low: flat-to-modest 1-month move (+3.2% / +0.94% by vendor), 17.2% below the $76.39 high, cheapest in the field at 11.0x forward PE, with the discount a Roku-deal discount ($22bn deal, DOJ second request 2026-09-30), not an earnings discount. Rough moves: beat plus receivables collection and clean Roku commentary +6% to +9%, in-line beat with soft commentary +1% to +3%, miss or receivables still rising −5% to −8%. Plan B.
+
+**3. EW.** Most compelling record: Q2 2026 sales $1.74bn (+13.6% YoY) with TMTT +47.3% and TAVR +11.3%, plus a structural tailwind from the September 2026 CMS national coverage determination for TAVR; reaction record is the weakest reason to doubt it on history alone (screen average move +2.9%, absolute 4.0%, worst only −1.4%, though only 3/4 beats and beat_up 0.57). Guide risk is moderate-low: FY2026 sales $6.6–6.9bn and adj. EPS $2.95–3.05 were reaffirmed at Q2 after sales guides were raised, but the Q3 guide itself ($1.63–1.71bn sales, $0.71–0.77 EPS) sits sequentially below Q2 actuals, and consensus ($1.68–1.69bn / $0.73–0.74) sits above the guide midpoints. Priced-in risk is low-to-medium: +8.01% in 1 month is a recovery, not a melt-up, and the stock sits ~4.5% below its $96.29 high after a weak 2026-10-30 session, though 27.9x forward PE leaves no room for an FDA escalation (delivery-system warning, week of 2026-10-17). Rough moves: beat-and-reaffirm with TMTT still +40%+ and no FDA escalation +4% to +7%, in-line at guide midpoint +0% to +2%, miss or FDA escalation −4% to −7%. Plan B.
+
+Left out of top 10: COP and PFE. COP: beat_up 0.57 is barely above a coin flip, only 3/4 beats, and the stock has already banked the oil move (+21.23% in 1 month, new 52-week high $154.28 on 2026-10-30) — a good print risks sell-the-news. PFE: surprise trend collapsing (−18.4), revenue only +2.6% YoY, consensus EPS forecast to decline in 2026–2028 into the patent cliff, and the price ($30.52, near its $30.67 high) sits above the ~$28.65–28.72 mean target despite a Hold consensus — a shrinking beat nobody pays up for.
