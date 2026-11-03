@@ -1,0 +1,27 @@
+> Run by: Muse Spark (muse-spark) — full panel
+
+# Ledger rows for orchestrator append — dip — 2026-11-03 (DO NOT append from this file automatically; the orchestrator appends these to picks/ledger.csv centrally)
+
+Header: date,mode,kind,rank,ticker,price_at_pick,base_target,base_by,bull_target,bull_by,exit_price,thesis,source,bear_target,bear_by,p_bear,p_base,p_bull,ev_price,next_earnings,size_pct,exit_date,exit_reason,event_pred_dir,event_pred_move,event_implied_move
+
+Prices are Friday 2026-10-30 closes from output/dip/shortlist_2026-11-02.json (Monday 2026-11-02 session NOT reflected — see price-base caveat in the finals). KLAC screen price is split-adjusted (10-for-1 split, June 2026).
+
+## kind=single row
+2026-11-03,dip,single,1,KLAC,157.91,210,2028-Q2,250,2028-Q2,,"Record quarter plus raised guide sold off on sentiment; verified 58% process-control moat that AI strengthens.",output/dip/final_pick_2026-11-03.md,130,2028-Q2,0.20,0.55,0.25,204.00,2027-01-28,,,,,,
+
+## kind=rank10 rows (top 3 carry full scenarios; ranks 4-10 leave targets empty per protocol)
+2026-11-03,dip,rank10,1,KLAC,157.91,210,2028-Q2,250,2028-Q2,,"Record quarter plus raised guide sold off on sentiment; verified 58% process-control moat that AI strengthens.",output/dip/final_ranking_2026-11-03.md,130,2028-Q2,0.20,0.55,0.25,204.00,2027-01-28,,,,,,
+2026-11-03,dip,rank10,2,FIX,1232.66,1850,2028-Q2,2050,2028-Q2,,"Record $17.81bn backlog (+90% YoY) sold off on a CFO headline, not operations.",output/dip/final_ranking_2026-11-03.md,950,2028-Q2,0.20,0.55,0.25,1720.00,2027-02-18,,,,,,
+2026-11-03,dip,rank10,3,HWM,199.22,280,2028-Q2,320,2028-Q2,,"Beat-and-raise Q3; certification lock-in moat (dominance wording corrected per verification).",output/dip/final_ranking_2026-11-03.md,160,2028-Q2,0.20,0.55,0.25,266.00,2027-02-18,,,,,,
+2026-11-03,dip,rank10,4,IDXX,551.21,,,,,,"Vet-diagnostics razor/blade moat; Q3 beat banked 2026-11-02 but screen upside stale after +21.9% jump.",output/dip/final_ranking_2026-11-03.md,,,,,,,,,,,,,
+2026-11-03,dip,rank10,5,VRT,232.50,,,,,,"Q3 orders doubled and guide raised; rebound already firing, inventory build is the watch item.",output/dip/final_ranking_2026-11-03.md,,,,,,,2027-02-10,,,,,,
+2026-11-03,dip,rank10,6,AMAT,390.09,,,,,,Record quarter de-rated on a missing 2027 framework; 2026-11-12 print is the trigger.,output/dip/final_ranking_2026-11-03.md,,,,,,,2026-11-12,,,,,,
+2026-11-03,dip,rank10,7,SCHW,88.05,,,,,,"Highest-quality broker compounder; shallow dip, slow funding-mix grind as catalyst.",output/dip/final_ranking_2026-11-03.md,,,,,,,2027-01-21,,,,,,
+2026-11-03,dip,rank10,8,TPR,116.29,,,,,,Coach executing at full price; 2026-11-05 Q1 print is a binary either way.,output/dip/final_ranking_2026-11-03.md,,,,,,,2026-11-05,,,,,,
+2026-11-03,dip,rank10,9,CAT,622.75,,,,,,"Machinery bellwether on macro/tariff fears; record backlog, cyclical trough not impairment.",output/dip/final_ranking_2026-11-03.md,,,,,,,2027-02-02,,,,,,
+2026-11-03,dip,rank10,10,META,614.99,,,,,,Ad growth intact but a structural FCF-regime change; needs a 2027 capex framework.,output/dip/final_ranking_2026-11-03.md,,,,,,,2027-01-27,,,,,,
+
+Note on IDXX next_earnings: left empty because its screen date (2026-11-02) has already passed with the print; the next date is not in the screen. Column check: all 11 rows parse to exactly 26 fields against the header.
+
+## Consensus note
+Consensus (output/dip/consensus_2026-11-02.md, window 2026-10-29 → 2026-11-02, computed BEFORE these rows are appended): top 3 AMAT, KLAC, HWM. After appending the rows above, re-run `uv run python scripts/consensus.py --mode dip --write` so the consensus window rolls to include 2026-11-03, and re-check the consensus header in final_ranking_2026-11-03.md against the new file.
