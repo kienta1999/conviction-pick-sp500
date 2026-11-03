@@ -1,3 +1,5 @@
+> Run by: Muse Spark (muse-spark) — full panel
+
 # momentum consensus — as of 2026-11-03 (5 runs: 2026-10-30 → 2026-11-03)
 
 **Consensus top 3:** NVDA, APH, MU
