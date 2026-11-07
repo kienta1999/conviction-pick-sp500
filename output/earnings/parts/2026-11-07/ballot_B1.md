@@ -1,0 +1,34 @@
+> Run by: Muse Spark (Muse Spark) — full panel
+
+# Ballot B1 — Agent B (setup / positioning skeptic) — 2026-11-07
+
+## Single-pick ballot
+
+- **Top pick:** OXY
+- **Runner-up:** NTAP
+- **Thesis (3-5 sentences):** OXY's Q3 beat is near-arithmetic: the company pre-disclosed realized oil of \$85.91/bbl on Oct 13, and consensus EPS has already been raised 22.1% in 30 days to \$1.43–\$1.47, implying roughly +123% EPS YoY. The print itself is therefore largely in the bar — but the stock is not priced for it: it washed out 10.5% in 5 days, is down 3.2% over 21 days with no run-into-print flag, and trades at 11.24x forward earnings, about 16% below its 52-week high. What is not in the price is the washout itself: a meet here is not punished the way a meet is punished at VEEV or PAYX, while a firm Q4 production outlook or steady crude gives the beat room to breathe. This is the only name in the field where the setup — not the story — is on the buyer's side.
+- **Key evidence from the record:** Beat-up rate 0.875, the highest in the field, on a long beat streak: Q1 2026 EPS \$1.06 vs \$0.58 consensus (+83% beat) and Q2 2026 EPS \$2.40 vs \$1.83 (+31% beat) with revenue \$8.06bn vs \$7.07bn. The beats are real and repeated; the question is only what the market does with them.
+- **Priced-in risk (THE TRAP):** Medium. The bar was raised 22% in 30 days on the company's own pre-disclosure, so a "meet" reads as a disappointment, and the record proves the trap is live: the Q2 +31% EPS beat moved the stock only +1%. Offsetting that, the stock has washed out 10.5% in 5 days, ret_21d is -3.2% (no run-up), forward P/E of 11.24 is cheap against its own history, and the straddle-implied move of ±5.49% roughly brackets the 4.6% historical average absolute move rather than exceeding it. Priced-in on the number, washed-out on the price — medium, not low, and the skeptic's honest grade.
+- **The guide:** OXY never guides EPS; the market carries Q4 implied EPS of about \$1.90, which requires crude to hold near the Q3 level of roughly \$86/bbl — continuation, not acceleration — plus FY2026 EPS of \$6.81–\$6.84 and FY2027 EPS of \$5.14. The run-rate supports the Q4 number only if crude cooperates; crude has rolled over since quarter-end, and the Q2 midstream record (about \$960m) was explicitly not a run-rate. The loss case is explicit: **beat but guided soft** — a Q4 production trim, a 2027 capex starting point above the roughly \$5.9bn marker, or a Gulf restoration delay turns a pre-disclosed beat into a sell-the-news print, exactly as Q2's +31% beat produced only +1%.
+- **Plan A or Plan B**, with one sentence of justification. **Plan B.** The beat is pre-disclosed and already in the bar, and Q2 proved a +31% beat can move +1%, so holding through the print pays only if crude and the outlook cooperate — take the print from the sidelines and buy the washout or the confirmation, not the event.
+- **Fallback if the print disappoints:** Yes, I would hold it 12–18 months. Permian scale and low-cost resource, an integrated midstream, debt paydown toward the \$10bn target (\$11.8bn after Q2), and an 11.2x forward multiple with a roughly 2% dividend mean a -15% gap is a commodity drawdown to sit through, not a disaster — provided the crude thesis itself still holds.
+- **Event scenario:** Beat-and-raise (firm Q4 production / crude steady): +4% to +6%. In-line (meet on pre-disclosed numbers, neutral outlook): -2% to +1%. Miss or soft guide (production trim, capex up, crude weak): -5% to -8%.
+- **Top risk:** The bar was raised 22% in 30 days on OXY's own pre-disclosure, so a meet reads as a disappointment — and crude has rolled over since quarter-end, which undercuts the Q4 run-rate the market is carrying.
+- **Conviction (1-10):** 6
+
+## Ranked ballot
+
+1. OXY — Washed out, cheap, best beat-up rate
+2. NTAP — Corrected 28%, beat likely, guide trap
+3. VYLR — No run-up, no priced-in beat history
+4. VEEV — Beat priced in, date likely moved
+5. AZO — Rallied 16% into flat-comp guide
+6. PAYX — Textbook beat-and-dump, rallied 19%
+
+**1. OXY.** The record is the strongest in the field — beat-up rate 0.875, with Q1's +83% and Q2's +31% EPS beats — but the reaction record is the skeptic's warning: Q2's +31% beat moved the stock only +1%, and Q1's +83% beat moved it +9% despite a revenue miss. The guide risk is a production/capex trim rather than an EPS guide, since OXY never guides EPS, and Q4 implied EPS of about \$1.90 needs crude near \$86/bbl. Priced-in risk is medium: the bar was raised 22% in 30 days, yet the stock washed out 10.5% in 5 days with no run-into-print flag at 11.24x forward earnings. Rough moves: beat-and-firm-guide +4% to +6%, in-line -2% to +1%, miss or soft guide -5% to -8%. **Plan B.**
+
+**2. NTAP.** The setup is the cheapest in the field after a 28% one-month correction to 29.8% below the 52-week high (priced-in score 4, the lowest), and the beat is likely — but the reaction record is the trap in plain sight: the Q1 FY2027 print beat EPS by 21% and raised full-year guidance, and the stock still fell 8.7% the next session (the screen's "+22%" is the EPS surprise, not the price move). Guide risk is high: a serial raiser whose Q2 gross margin is guided to 67–68% versus 70.6% in Q1, so a mere reaffirmation on Dec 1 reads as a de facto cut. Rough moves: beat-and-raise +8% to +12%, in-line/reaffirm -3% to -6%, miss or margin guide-down -10% or worse. **Plan B.**
+
+**3. VYLR.** There is no standalone reaction record to judge — the screen's "3/4 beats" is discarded Corteva history — and the closest analogue is damning: Corteva's Q2 beat on EPS with a revenue miss fell 11.9% the next session, so revenue softness is punished even on EPS beats. Guide risk is the highest in the field (8): the FY2026 EBITDA guide of \$2,800m is already exceeded on its face by 1H pro forma EBITDA of \$2,892m, and the Q4 EPS bar of \$0.01 is hyper-sensitive to any tweak. Priced-in risk is moderate: no run-up (-6.1% over 21 days) and no priced-in beat history, but 26.26x forward earnings for flat revenue already prices the 2029 ramp, and the litigation overhang (TRO stayed Oct 10, no newer ruling) makes this a binary headline trade. Rough moves: clean guide reconciliation +5% to +8%, in-line -3% to -5%, litigation headline or guide confusion -10% or worse. **Plan B.**
+
+Left out of the top 3: VEEV (beat-and-raise fell 10% in Nov 2025, +80% in 6 months with the analyst mean target at the price, and the report date is likely Dec 3 per the CFO, not Nov 25), AZO (+16.3% run-into-print into a flat-comp guide, two of the last three beats fell 6–9%, and peer O'Reilly just raised while AZO guided comps flat), and PAYX (+18.9% run-into-print into the textbook beat-and-dump — the last beat fell 8.8% in a day and 16% over ten days on a reaffirmed guide — while the FY guide needs an H2 acceleration the run-rate does not show).
