@@ -1,5 +1,3 @@
-> Run by: Muse Spark (muse-spark) — full panel
-
 # dip consensus — as of 2026-11-10 (5 runs: 2026-11-06 → 2026-11-10)
 
 **Consensus top 3:** FIX, VRT, HWM

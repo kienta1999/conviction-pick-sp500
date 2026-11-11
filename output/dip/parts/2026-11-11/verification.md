@@ -1,0 +1,90 @@
+> Run by: Muse Spark (muse-spark) — full panel
+
+# Phase 3.5 verification — stock-pick-dip full panel, run date 2026-11-11
+
+Independent check of the 12 claims in the brief, against primary sources where possible (company releases and earnings calls, SEC filings) and reputable financial press. Each claim is graded CONFIRMED / CONTRADICTED / UNVERIFIED. Dollar signs are escaped as `\$` in this file so GitHub does not parse them as math. Verification date: 2026-11-11.
+
+## FIX — Comfort Systems USA
+
+| # | Claim | Verdict | Source | Source date |
+|---|---|---|---|---|
+| 1 | Q3 2026 gross margin compressed sequentially 26.3% → 25.9% → 24.8% over three quarters, and the stock fell ~36% in a month on margin optics plus the 5 Nov 2026 AI-sentiment rout — not on lost orders | CONFIRMED | MarketBeat, "FIX Stock Sinks on Margin Concerns Despite Record Backlog Growth"; Finnhub FIX quote snapshot; Motley Fool, "The AI Selloff Is Getting Worse", 5 Nov 2026 | MarketBeat Oct 2026; Finnhub 10–11 Nov 2026; Motley Fool 5 Nov 2026 |
+| 2 | Record backlog \$17.81bn (+90% YoY) with 65–75% converting within 12 months; Q4 2026 print expected Feb 2027 is the next fundamental test | CONFIRMED | Zacks, "Comfort Systems Q3 Earnings & Revenues Beat Estimates, Backlog Surges"; Investomine earnings radar (remaining performance obligations); Finnhub / Zacks earnings calendar | Zacks 23 Oct 2026 and 26 Oct 2026; Investomine 24 Oct 2026; Finnhub Nov 2026 |
+| 3 | Forward P/E ~16.5x on FY2027 EPS ~\$66.81; analyst mean target ~\$1,889 | CONFIRMED | MarketBeat FIX page (forward P/E 16.76, mean target \$1,889.13, 11 analysts); MyStockButler / FMP (FY2027 EPS \$66.81, FY2026 \$50.93) | MarketBeat updated 10 Nov 2026; MyStockButler / FMP 11 Nov 2026 |
+| 4 | FIX is the largest US mechanical/electrical contractor serving data centers, with modular prefab capacity expanding to over 4.0m sq ft by end-2026 | UNVERIFIED | Capacity: Zacks Q2 earnings-call coverage and Zacks, "Comfort Systems vs. Trane", 30 Oct 2026. Superlative: no primary or ranked source found; secondary sources say only "one of the largest / leading" | Zacks 27 Jul 2026 and 30 Oct 2026 |
+
+### FIX claim 1 — detail
+
+The margin sequence is exact: MarketBeat states Q3 gross margin of 24.8% was "the second straight sequential decline (Q1 26.3%, Q2 25.9%)", flat versus Q3 2025, with operating margin down to 16.6% from 17.1% in Q2. Zacks (23 Oct 2026) confirms Q3 revenue \$3.77bn (+53.7% YoY) and EPS \$13.91 beating consensus, and shares dipped more than 6% in after-hours trading on 22 Oct 2026. The one-month fall is confirmed in substance: Finnhub shows a 1-month return of −35.54% as of 10 Nov 2026 (close \$1,105.93); Zacks (9 Nov 2026) puts it at −43.7% "over the last month" on a different window, so "~36%" is the Finnhub-window figure and is fairly stated. The 5 Nov rout is confirmed: Motley Fool (5 Nov 2026) reports FIX fell about 9% that day, a second day of falls after −15.1% on 4 Nov 2026 (Macroplane, 5 Nov 2026). "Not on lost orders" is supported: backlog hit a record \$17.81bn with \$3.8bn of new bookings in the quarter, and no source reports a lost order.
+
+### FIX claim 2 — detail
+
+Backlog \$17.81bn, +90% YoY (+26.7% sequentially from \$14.06bn) is confirmed by the company release via Zacks (23 Oct 2026) and Zacks call coverage (26 Oct 2026). The 65–75% 12-month conversion is confirmed by Investomine (24 Oct 2026): the company "expects to recognize 65–75% of its remaining construction performance obligations over the next 12 months". The Q4 print in Feb 2027 is confirmed at month granularity, but the exact day is not settled: Finnhub lists Q4 FY2026 estimated 17 Feb 2027, while Zacks' detailed-estimates page and Intickers list 18 Feb 2027. Do not publish a single day; write "mid-Feb 2027 (estimates split 17 vs 18 Feb)".
+
+### FIX claim 3 — detail
+
+MarketBeat (updated 10 Nov 2026) gives a forward P/E of 16.76 and a mean target of \$1,889.13 (range \$1,700–\$2,001, 11 analysts, consensus Buy) — the ~16.5x and ~\$1,889 figures check out, and the arithmetic is internally consistent (screen price \$1,109.88 / \$66.81 = ~16.6x). FY2027 EPS \$66.81 is confirmed by FMP via MyStockButler (11 Nov 2026): FY2026 \$50.93 (8 analysts), FY2027 \$66.81 (9 analysts). Caveat for the memo: other vendors differ — MarketBeat implies \$65.90 and Zacks \$65.30 for FY2027, and Zacks quotes a 23.24x forward P/E on a different EPS vintage — so cite the FMP/MarketBeat pair and do not blend vintages.
+
+### FIX claim 4 — detail
+
+The capacity half is confirmed: Zacks Q2 call coverage (27 Jul 2026) reports management expects modular capacity "to exceed 4 million square feet by year-end" from more than 3.5m sq ft, and Zacks (30 Oct 2026) repeats "exceed 4 million square feet by year-end 2026 and approach 6 million square feet by year-end 2027". The superlative half is not verified: the sources found describe FIX as "one of the largest providers of mechanical, electrical, and plumbing contracting services in the United States" (InvestSeekers) or "one of the leading providers" — no primary source, ranking, or market-share figure establishes it as the largest, let alone the largest specifically serving data centers. Correction: soften to "one of the largest US mechanical/electrical contractors, and a leading data-center contractor".
+
+## KLAC — KLA Corporation
+
+| # | Claim | Verdict | Source | Source date |
+|---|---|---|---|---|
+| 1 | Q1 FY2027 (reported 28 Oct 2026) was a beat-and-raise (revenue \$4.14bn, +29% YoY) yet the stock fell in the following sessions — the 6th of the last 8 beats followed by a down session | CONFIRMED | KLA Q1 FY2027 press release via Quartr / Securities.io; StockExpertAI; StocksToBuyNow earnings table (EPS beats 8 of 8, positive price windows 2 of 8) | KLA release 28 Oct 2026; StockExpertAI 30–31 Oct 2026; StocksToBuyNow 28 Oct 2026 |
+| 2 | Dec-quarter guide \$4.70bn ±\$200m; next print ~28 Jan 2027; CY2027 wafer-fab equipment spending above \$200bn is the demand anchor | UNVERIFIED | Guide and WFE: KLA Q1 FY2027 earnings call via Motley Fool transcript; Zacks. Next-print date: sources conflict — Finnhub lists 27 Jan 2027, FMP/Gekko list 4 Feb 2027, management said "late January" | Call 28 Oct 2026; Zacks 29 Oct 2026; Finnhub / Gekko Nov 2026 |
+| 3 | Forward P/E ~21.4x; analyst mean target \$219.62 (+44.9% upside) | CONFIRMED | Mean target: Gekko, RockFlow, Tradestie. Forward P/E: vendor range 19.51x–29.81x; MyStockButler 21.57x | Gekko / RockFlow / Tradestie, 10–11 Nov 2026 |
+| 4 | Near-monopoly in process control, ~55–60% share, ~85% of optical inspection | CONFIRMED | The Investing Show; Quality Equities (16 Jun 2026); DeepVal moat analysis (Nov 2026) | 2026 (see detail) |
+
+### KLAC claim 1 — detail
+
+The print is confirmed from the primary source: KLA's 28 Oct 2026 release reports revenue \$4.14bn (above the \$4.0bn ± \$200m guidance midpoint), GAAP EPS \$1.18 and non-GAAP EPS \$1.22, both above guidance midpoints; revenue +28.9% YoY, net income \$1.55bn (+38.1%). The "raise" is the Dec-quarter guide (see claim 2). The fall is confirmed: shares rose ~2.7–3% after hours on 28 Oct, then were quoted down 5.69% on 30 Oct 2026 at \$157.91, with no confirmed company cause (StockExpertAI, 30–31 Oct 2026). The 6-of-8 pattern is confirmed in substance: StocksToBuyNow's table shows EPS beats in 8 of 8 comparable reports with positive price windows in only 2 of 8 — i.e. 6 of 8 down — including −16.3% (Jul 2026), −12.3% (Jan 2026) and +9.0% (Oct 2026) windows. Note the window definition spans the first trading close after the report and is not a single-session return, so the memo should say "down in the sessions following 6 of the last 8 beats" rather than "down on the day after".
+
+### KLAC claim 2 — detail
+
+The Dec-quarter guide is confirmed from the primary source: revenue \$4.7bn ± \$200m, non-GAAP gross margin 62.5% ± 1pt, non-GAAP EPS \$1.44 ± \$0.11 (KLA release, 28 Oct 2026; Securities.io). CY2027 WFE above \$200bn is confirmed from the call itself: CEO Rick Wallace said "we currently expect the wafer equipment market to exceed \$200 billion in calendar 2027" (Motley Fool transcript, 28 Oct 2026; corroborated by Zacks, 29 Oct 2026, and TipRanks, 31 Oct 2026). The next-print date is the problem: the brief's "~28 Jan 2027" matches management's "in late January" and Finnhub's quarterly table (Q2 FY2027 estimated 27 Jan 2027), but FMP/Gekko list 4 Feb 2027 after the close (EPS estimate \$1.42, revenue \$4.72bn), and StockExpertAI explicitly flags that "management pointed to an earnings call 'in late January,' so the sources differ". Verdict is UNVERIFIED for a single date — the memo must say "late Jan / early Feb 2027 (dated listings split 27 Jan vs 4 Feb)" and not publish "~28 Jan" as settled.
+
+### KLAC claim 3 — detail
+
+The \$219.62 mean target is confirmed across aggregators: Gekko ("\$219.62, +43.6% from the last close, from 17 firms", 10 Nov 2026 close), RockFlow (average target \$219.62, 29 analysts, range \$175–\$275) and Tradestie (\$219.62, +43.5%). The +44.9% upside is arithmetically correct against the screen price (\$219.62 / \$151.60 − 1 = +44.9%); against the 10 Nov close of \$152.99 it is +43.6% — the memo should state which price the upside is measured from. Forward P/E ~21.4x is vendor-dependent and cannot be confirmed to a single number: Gekko 24.2x, RockFlow 19.51x, Tradestie 29.81x, MyStockButler 21.57x (Nov 2026). The screen's 21.4x sits inside that range and is closest to MyStockButler's 21.57x, so it is fairly stated as a screen figure, but the memo should flag the dispersion (19.5x–29.8x) rather than present 21.4x as a consensus fact. The dossier's own warning applies: the 10-for-1 split on 11 Jun 2026 confuses EPS vintages across vendors.
+
+### KLAC claim 4 — detail
+
+Confirmed as third-party estimates, with the caveat that KLA does not publish its own share. The Investing Show states "approximately 55–60% of the overall inspection and metrology market", "75–80% in patterned wafer inspection" and "85%" in optical inspection, with Morningstar rating a wide moat. Quality Equities (16 Jun 2026) independently gives "roughly 56% of the overall process control market and more than 85% of optical wafer inspection". DeepVal (Nov 2026) is more conservative at ~50–55% and explicitly warns the figures are estimates derived from third-party analysis, "not reported facts". The memo should attribute the shares as third-party estimates and use the ~50–60% range, not a point estimate.
+
+## LRCX — Lam Research
+
+| # | Claim | Verdict | Source | Source date |
+|---|---|---|---|---|
+| 1 | Record Q1 FY2027 (21 Oct 2026, revenue \$8.219bn +54% YoY, record 52.4% non-GAAP gross margin) sold off on the China cliff (China ~35% of revenue, front-loaded ahead of BIS export rules, guided down meaningfully) plus clean-room-capped Dec guidance | CONFIRMED | Lam Q1 FY2027 press release (21 Oct 2026) via TradingView / SEC 8-K; Motley Fool earnings-call transcript; Zacks, "LRCX Gains 8% on a \$25B Buyback Plan"; Dechert / Mondaq BIS Affiliates Rule alert | Lam release and call 21 Oct 2026; Zacks 9 Nov 2026; Dechert alert 9 Nov 2026 |
+| 2 | Dec-quarter guide ~\$8.6bn revenue capped by supply not demand, with delayed shipments slipping to the Mar quarter; next print ~27 Jan 2027 | CONFIRMED | Lam Q1 FY2027 press release (21 Oct 2026); Technosight LRCX note; MarketBeat / TipRanks / Portevo earnings calendar | Lam release 21 Oct 2026; Technosight 22 Oct 2026; MarketBeat / TipRanks 10–11 Nov 2026 |
+| 3 | Forward P/E ~18.2x; analyst mean target ~\$364.03 (+63.7% upside); \$25bn buyback authorised 5 Nov 2026 | CONFIRMED | Mean target: Tickeron (raw mean \$364.03, 34 targets, S&P Global); Simply Wall St (\$364). Forward P/E: MarketBeat 18.72x. Buyback: Zacks; TechTimes | Tickeron Nov 2026; Simply Wall St 25 Oct 2026; MarketBeat 10 Nov 2026; Zacks 9 Nov 2026; TechTimes 5 Nov 2026 |
+| 4 | Etch/deposition oligopoly with qualification lock-in; customer-support/services revenue ~30% recurring | CONFIRMED | Lam Q1 FY2027 press release (Customer Support Business Group \$2.49bn, 30.3% of revenue); TechTimes; Motley Fool call transcript (Aether, CSBG growth) | Lam release 21 Oct 2026; TechTimes 5 Nov 2026; Motley Fool 21 Oct 2026 |
+
+### LRCX claim 1 — detail
+
+The quarter is confirmed from the primary source: Lam's 21 Oct 2026 release reports revenue \$8,219m (+22% sequentially, +54% YoY), GAAP EPS \$2.19, non-GAAP EPS \$2.20, GAAP operating margin 40.0% and non-GAAP operating margin 40.2%; Zacks (9 Nov 2026) confirms the record non-GAAP gross margin of 52.4% (up from 50.6% a year earlier) and revenue of \$8.22bn. The sell-off is confirmed: shares fell ~6% after hours and ~8% in pre-market on 22 Oct 2026, and 11.2% over 22–23 Oct 2026 (dossier sources); Zacks (9 Nov 2026) notes shares had lost 23.1% since the 21 Oct report. China at 35% of Q1 revenue (up from 26% in June) is confirmed by the release and the call transcript, and management guided China revenue to decline "significantly" / "meaningfully" in the December quarter, driven mainly by China-domestic customers (Motley Fool transcript, 21 Oct 2026; Cash & Chaos, 26 Oct 2026). Clean-room-capped guidance is confirmed: management said supply-chain constraints and clean-room space delayed shipments (Technosight, 22 Oct 2026; FXBrokerTrust). One attribution caveat: the "front-loaded ahead of BIS export rules" motive is analyst inference (Technosight / Parallax framing), not a statement by Lam management in the release or call. The BIS context itself is real — Dechert (9 Nov 2026) confirms the BIS Affiliates Rule suspension was set to expire 9 Nov 2026 with reimposition effective 10 Nov 2026 — but the memo should label front-loading as the market's reading, not a company-stated cause.
+
+### LRCX claim 2 — detail
+
+Dec-quarter guide of \$8.6bn ± \$400m (non-GAAP gross margin 52.5% ± 1pt, non-GAAP EPS \$2.33 ± \$0.15) is confirmed from Lam's 21 Oct 2026 release. The "capped by supply, not demand" reading and the slip to the March quarter are confirmed by Technosight (22 Oct 2026): "Dec guide capped by component availability & cleanroom space. Unshipped orders slip to March 2027 quarter." The next print ~27 Jan 2027 is confirmed as the estimated date across vendors (MarketBeat: next earnings estimated 27 Jan 2027; TipRanks: Jan 27, 2027, TBA not confirmed; Portevo: Jan 27, 2027, estimated). Minor note: Finnhub's quarterly table lists 26 Jan 2027, so the memo should call 27 Jan an estimate, not a confirmed date.
+
+### LRCX claim 3 — detail
+
+The \$364.03 mean target is confirmed: Tickeron states "the raw average is \$364.03" across 34 verified analyst targets (S&P Global), range \$255–\$500; Simply Wall St (25 Oct 2026) reports analysts "reconfirmed their price target of US\$364". The +63.7% upside is arithmetically correct against the screen price (\$364.03 / \$222.43 − 1 = +63.7%); against the 10 Nov close of \$222.39 it is +63.7% as well. Note MarketBeat's mean is lower at \$357.57 (+60.8%, 32 analysts, updated 10 Nov 2026), so the memo should name the source of the \$364.03 figure. Forward P/E ~18.2x is confirmed as a screen figure within vendor range: MarketBeat 18.72x (10 Nov 2026); StockAnalysis 21.64x — cite the vendor. The \$25bn buyback is confirmed: Zacks (9 Nov 2026) reports shares rose 8.2% after "the company's announcement of a massive \$25 billion share repurchase authorization on Nov. 5", supplementing ~\$3bn remaining under the prior authorisation; TechTimes (5 Nov 2026) confirms the authorisation and the dividend increase to \$0.33. (Barchart dates the press release to the morning of 6 Nov; use "announced 5 Nov 2026" per Zacks/TechTimes.)
+
+### LRCX claim 4 — detail
+
+The ~30% services figure is confirmed numerically from the primary source: Customer Support Business Group revenue was \$2.49bn in Q1 FY2027, +40% YoY, a record — 30.3% of the \$8.219bn total (Lam release, 21 Oct 2026; TechTimes, 5 Nov 2026). The "recurring" characterisation is reasonable — CSBG covers service, spare parts and upgrades on the installed base, and management guided CSBG annual growth above 30% for 2026 (Motley Fool call transcript, 21 Oct 2026) — but the memo should note Lam reports this line as "customer support-related revenue and other", which also includes mature-node equipment, so it is not pure services. The oligopoly/qualification-lock-in half is qualitative and supported in direction (Lam is a co-leader in plasma etch and deposition with Applied Materials and Tokyo Electron; Aether tools ramping in HBM high-volume manufacturing), but no market-share figure was independently verified for this claim in this round — do not attach a share number to it.
+
+## Overall verdicts
+
+- **FIX — needs correction.** Soften "largest US mechanical/electrical contractor serving data centers" to "one of the largest" (the superlative is unverified); give the Q4 print as "mid-Feb 2027 (estimates split 17 vs 18 Feb)"; note FY2027 EPS spans \$65.30–\$66.81 across vendors.
+- **KLAC — needs correction.** Do not publish a single next-print date: dated listings split 27 Jan 2027 (Finnhub) vs 4 Feb 2027 (FMP/Gekko), with management saying only "late January". Also flag forward-P/E dispersion (19.5x–29.8x across vendors) rather than presenting 21.4x as a consensus fact.
+- **LRCX — needs correction (minor).** Label the China "front-loading ahead of BIS rules" motive as the market's reading, not a company-stated cause; and call the 27 Jan 2027 print an estimate (Finnhub lists 26 Jan). All headline numbers — revenue, margin, guide, target, buyback, services share — check out.
+
+## Method note
+
+Searches were run independently of the dossier on 2026-11-11. Primary sources used: KLA Q1 FY2027 press release (28 Oct 2026) and earnings-call transcript; Lam Q1 FY2027 press release (21 Oct 2026) and earnings-call transcript; Comfort Systems Q3 2026 release and call via Zacks/MarketBeat coverage. Where the dossier and an independent source disagreed on a date (KLAC next print, FIX Q4 day), the disagreement is reported rather than resolved in either direction.
