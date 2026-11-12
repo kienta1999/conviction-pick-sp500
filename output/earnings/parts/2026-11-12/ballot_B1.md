@@ -1,0 +1,42 @@
+> Run by: Muse Spark (muse-spark-1.3) — full panel
+
+# Ballot B — Setup / Positioning Skeptic — earnings, RUN_DATE 2026-11-12
+
+Field (all from the consolidated dossier, 2026-11-11 closes): VEEV $304.77 (Nov 25, ESTIMATED, AMC), ADSK $260.01 (Nov 24, CONFIRMED, AMC), A $176.95 (Nov 23, CONFIRMED, AMC), CTAS $227.26 (Dec 17, ESTIMATED, BMO), PAYX $115.37 (Dec 18, ESTIMATED, BMO), AZO $3,237.73 (Dec 8, CONFIRMED, BMO). No name in this field has a run_into_print_flag (all ret_21d below 15%). No clean earnings-implied move was found for A, CTAS, PAYX, or AZO. All six researchers in the dossier default to Plan B; this ballot agrees — no name in the field earns Plan A.
+
+## 1. Single-pick ballot
+
+- **Top pick:** VEEV
+- **Runner-up:** ADSK
+- **Thesis (3-5 sentences):** VEEV is the only name whose print-specific setup is not already spent: ret_21d is just +1.0% (the lowest in the field), the options proxy implies ~8.1% against a 9.1% historical absolute reaction (the only name where the market prices *less* than its own history), and its reaction record is the field's best (screen reaction avg +4.3%). The Q3 quarter itself is largely pre-announced — management said Nov 5 it will "meet or exceed" guide — so the beat is the likely outcome, and the live question is the Q4/FY28 guide, where the run-rate exactly supports the carried numbers. That is a narrow edge, not a fat one: the 6-month +91.2% run and a stock sitting on its average price target mean any guide disappointment is punished through the multiple, as Nov 2025 proved.
+- **Key evidence from the record:** The single most compelling data point is the combination of a 12-for-12 beat streak with the Aug 26, 2026 print: EPS $2.35 vs $2.23 (+5.4%), revenue +17.6% YoY, a guide raise — and the stock rose +15.2% the next session, the largest rewarded beat in the field.
+- **Priced-in risk (THE TRAP):** High. The 21-day run is flat, but the 6-month move is +91.2%, YTD +36.5%, the stock is at its average analyst target ($303.33–$323.81 vs $304.77), 29 of 43 analysts rate it Buy/Strong Buy, and forward P/E is 29.7x (screen; up to 33.95x on Zacks' basis). The trap is not a sprint into this print — it is six months of momentum already paying for the beat, with the Nov 2025 precedent (a clean beat, −10.6% the next session) showing exactly how this name punishes a merely-met bar.
+- **The guide:** The market is carrying Q4 FY27 (ends Jan 31, 2027) EPS $2.29 and revenue $940.75M (Zacks, Nov 2), with FY27 consensus EPS $9.22–9.24 and revenue ~$3.69B. The run-rate supports it exactly: Q1 $2.24 + Q2 $2.35 + Q3 guide $2.33–2.34 + Q4 $2.29 ≈ $9.21–9.22, and revenue $882.95M + $927.96M + ~$933.5M + ~$940.75M ≈ $3,685M, inside the company's $3,682–3,687M guide. The loss case is explicit: **beat but guided soft** — a Q3 beat at the top of guide with a Q4 guide merely reaffirmed (note Q4 consensus EPS of $2.29 is *below* Q3's $2.34) or FY28 EPS ($10.16–10.28 consensus) left unraised would repeat Nov 2025.
+- **Plan A or Plan B**, with one sentence of justification. **Plan B — wait for the number.** Plan A would require a Q4 guide raise plus a first quantified Falcon/Vault AI revenue signal, and a pre-announced "meet or exceed" quarter does not clear that bar.
+- **Fallback if the print disappoints:** Yes, I would hold it 12–18 months — provided the Vault CRM migration stays on track and no top-20 customer defects to Salesforce/IQVIA. The moat (~80% life-sciences CRM share, Vault as the validated system of record, $6.6B cash, zero debt) survives a guide trim; a 15% gap on a guide trim would still leave a ~30x forward compounder, whereas a gap on a lost top-20 CRM commitment would be a different, worse hold.
+- **Event scenario:** Beat-and-raise: +8% to +12% (Aug 2026 did +15.2% on a raise; the 9.1% historical absolute average is the yardstick). In-line / beat-but-guide-soft: −4% to −8% (the market grades Q4, not Q3, and Q3 is pre-signalled). Miss or guide trim: −10% to −15% (Nov 2025 did −10.6% on a clean beat alone).
+- **Top risk:** The Q4/FY28 guide — a reaffirmation instead of a raise at ~30x forward, with Q3 growth already guided to decelerate to ~+15% from Q2's +17.6%.
+- **Conviction (1-10):** 5
+
+## 2. Ranked ballot
+
+1. VEEV — least run-in, best reaction record
+2. ADSK — cheap, but sprint plus 2x implied
+3. AZO — cheapest, least crowded, worst reaction
+4. PAYX — low bar, cheap, punishes reaffirms
+5. A — recovery priced, FY27 hurdle
+6. CTAS — at high on 41x, FTC binary
+
+**1. VEEV.** The most compelling setup datum is the print-specific one: ret_21d +1.0% with an ~8.1% implied proxy below its 9.1% historical absolute reaction, against a 12-for-12 beat streak and the field's best reaction record (screen avg +4.3%, last four +15 / −2 / +4 / −10, with the −10.6% Nov 2025 beat the warning). Guide risk is the field's lowest (4/10): the Q4 $2.29 / $940.75M carried numbers are exactly supported by the run-rate, but the loss case is beat-but-guided-soft, since Q4 EPS sits below Q3. Priced-in risk is high on the 6-month +91.2% run and a stock on its average target, so the rough moves are beat-and-raise +8% to +12%, in-line −4% to −8%, miss −10% to −15% — **Plan B**.
+
+**2. ADSK.** The valuation is the setup's compensation — 18.3x forward, the cheapest of the near-term trio, +18.6% to target, YTD −12.2% and −18.7% below its high — but the print-specific setup is the trap: ret_21d +12.8% (the field's highest) into a print the stock has *fallen* on after its last two beats once the screen's +6% Q2 FY27 reaction is corrected to the verified −3.7% (Q1 was −4.0% on a beat-and-raise). Guide risk is 6/10: the FY27 EPS midpoint already missed consensus in August, Q4 needs an implied ~$3.20 EPS (the year's best quarter), and no published Q4 consensus was found. Priced-in risk is medium — cheap on the multiple, expensive on the sprint and on options implying 10.0%, roughly double its 4.9% historical absolute reaction — so the rough moves are beat-and-raise +6% to +10%, in-line −4% to −7%, miss/soft guide −8% to −12% — **Plan B**.
+
+**3. AZO.** The least-priced-in name in the field (priced-in 3/10): 16.9x forward, −19.0% below its 52-week high, down YTD and −14.5% over one year, with the +11.7% one-month move a rebound off the Oct 5 52-week low rather than a breakout. But the reaction record is the field's worst — beat_up 0.333, reaction avg −2.3%, the stock fell on 3 of the last 4 prints including −11.1% in May 2026 on a +5.1% EPS beat, and revenue has missed 4 of 4 — so cheapness has not bought a green print. Guide risk is 7/10, the field's highest: AZO issues no earnings guide, its FY27 line-item framework embeds SG&A +~8% against ~7% sales growth (margin contraction by its own numbers), Aardvark's $162 FY27 EPS base sits ~5% below the $170.30 consensus, and an interim CFO fronts the Dec 8 call. Rough moves: beat-and-raise (SSS positive) +5% to +8%, in-line −3% to −6%, miss/negative DIY SSS −8% to −12% — **Plan B**.
+
+Left out of my top 3: PAYX, A, and CTAS — PAYX because the market has punished its last two reaffirms (−8.8% in September on a beat) and Q2 is guided soft by design; A because its +56.7% six-month recovery sits 3.3% under its high with only +2.9% to target, and its verified reaction record (~+2% on a 9.5% Q3 beat; shares fell in May despite a raise) does not pay for a beat; CTAS because it is the most priced-in name in the field (at its high, ~41x FY27 EPS, consensus EPS already at the top of guide) with a Dec 11 FTC earliest-close binary landing six days before its estimated Dec 17 print.
+
+## Notes on the record (setup lens)
+
+- The screen's reaction series is not trustworthy at face value for two names, and the corrections cut against holding through: ADSK's Q2 FY27 +6% is verified −3.7% (the +6.21% was the pre-print regular session), and A's +17% reactions could not be reproduced (Q3 FY26 verified ~+2% next session; Q2 FY26 unverified, with Zacks reporting shares fell despite the raise).
+- No name has a run_into_print_flag, but the 21-day returns still separate the field: ADSK +12.8%, AZO +11.9%, CTAS +10.1%, PAYX +9.7% have all sprinted, while VEEV (+1.0%) and A (+3.1%) have not — and the sprinters' recent prints mostly sold off.
+- Implied-vs-history is only measurable for two names, and they point opposite ways: VEEV's ~8.1% proxy is *below* its 9.1% historical absolute move; ADSK's 10.0% is *double* its 4.9%. For A, CTAS, PAYX, and AZO no clean earnings-implied move was found, and none is invented here.
