@@ -1,190 +1,162 @@
-> Run by: Muse Spark — full panel
+> Run by: Muse Spark (unknown) — full panel
 
-# Research dossier — momentum 2026-11-13
+# Research dossier — momentum 2026-11-14
 
-Screen: `output/momentum/shortlist_2026-11-12.json` (50 candidates, generated 2026-11-12 09:23:27; prices are the Nov 12 09:23 snapshots). Triage kept 12 names (`output/momentum/parts/2026-11-13/triage.md`). Research in four batches, each an independent subagent dossier appended verbatim below (batch provenance lines preserved inside each section).
+Screen: `output/momentum/shortlist_2026-11-14.json` (50 candidates, generated 2026-11-14 09:27:55; prices are the Nov 13 close snapshots). Triage kept 11 names (`output/momentum/parts/2026-11-14/triage.md`). Research in four batches, each an independent subagent dossier appended verbatim below (batch provenance lines preserved inside each section). Names researched yesterday (ANET, LLY, NEM, CF, MSFT, ISRG, PH) are refreshes of the 2026-11-13 dossier; APH, GE, WST, MSI are new.
 
-Screen turnover note: WST, EMR and WAB are again absent — dropped at stage 1 on `netIncomeToCommon=NaN` (Yahoo cache glitch, confirmed again today via `scripts/why.py`), not a thesis change. MU, MSFT and LLY are in the shortlist.
+Screen turnover note: MU, yesterday's pick, dropped at stage 5 on `dist_sma200=NaN` (Yahoo cache glitch, confirmed via `scripts/why.py`), not a thesis change — it cannot be ranked today. CDNS genuinely fell below its 200d SMA (`dist_sma200=-0.01548`). NUE dropped on op margin (13.29% vs sector median 16.94%). UNP and WAB again dropped at stage 1 on `netIncomeToCommon=NaN`. EMR trimmed to target (composite rank 56). WST is back in the shortlist after the same glitch kept it out yesterday.
 
-## Screen metrics for the 12 researched names
+## Screen metrics for the 11 researched names
 
 | Ticker | Company | Price | Analyst target | Fwd PE | Rev growth TTM | Ret 12m | Op margin | Next earnings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MU | Micron Technology | \$811.30 | \$1,561.90 (+92.5%) | 3.9x | +135.6% | +220.7% | 80.7% | 2026-12-23 |
-| ANET | Arista Networks | \$196.68 | \$249.06 (+26.6%) | 32.9x | +36.1% | +43.3% | 44.9% | 2027-02-09 |
-| LLY | Eli Lilly | \$1,437.29 | \$1,453.40 (+1.1%) | 28.4x | +38.4% | +49.6% | 53.7% | 2027-02-03 |
-| NEM | Newmont | \$118.47 | \$135.24 (+14.2%) | 11.9x | +20.2% | +35.5% | 50.0% | 2027-02-18 |
-| CF | CF Industries | \$123.24 | \$128.79 (+4.5%) | 10.9x | +14.6% | +51.8% | 34.4% | 2027-02-17 |
-| MSFT | Microsoft | \$521.13 | \$636.14 (+22.1%) | 21.5x | +15.4% | +3.8% | 49.8% | 2027-01-27 |
-| NUE | Nucor | \$261.39 | \$296.81 (+13.6%) | 11.9x | +20.4% | +85.4% | 16.7% | 2027-01-25 |
-| UNP | Union Pacific | \$302.11 | \$331.38 (+9.7%) | 21.0x | +7.7% | +37.8% | 41.3% | 2027-01-26 |
-| ISRG | Intuitive Surgical | \$449.53 | \$486.57 (+8.2%) | 36.1x | +17.7% | -22.0% | 33.3% | 2027-01-21 |
-| CDNS | Cadence Design Systems | \$329.26 | \$411.77 (+25.1%) | 33.4x | +17.7% | +0.1% | 28.9% | 2027-02-18 |
-| PM | Philip Morris International | \$196.35 | \$212.43 (+8.2%) | 21.7x | +7.1% | +31.1% | 41.9% | 2027-02-04 |
-| PH | Parker Hannifin | \$972.90 | \$1,138.29 (+17.0%) | 23.8x | +9.5% | +16.4% | 21.9% | 2027-01-28 |
+| ANET | Arista Networks | $197.29 | $249.65 (+26.5%) | 32.7x | +35.9% | +46.2% | 43.8% | 2027-02-09 |
+| LLY | Eli Lilly | $1,443.50 | $1,453.40 (+0.7%) | 28.6x | +38.2% | +42.9% | 53.7% | 2027-02-03 |
+| NEM | Newmont | $113.14 | $135.39 (+19.7%) | 11.2x | +20.1% | +22.7% | 55.6% | 2027-02-18 |
+| CF | CF Industries | $125.09 | $129.84 (+3.8%) | 10.7x | +14.5% | +50.7% | 38.5% | 2027-02-17 |
+| APH | Amphenol | $78.23 | $106.97 (+36.7%) | 21.6x | +49.7% | +11.0% | 28.7% | 2027-01-27 |
+| MSFT | Microsoft | $523.88 | $636.12 (+21.4%) | 21.7x | +15.3% | +3.3% | 49.8% | 2027-01-27 |
+| WST | West Pharmaceutical Services | $416.42 | $471.00 (+13.1%) | 40.1x | +11.3% | +52.5% | 22.9% | 2027-02-18 |
+| ISRG | Intuitive Surgical | $443.59 | $486.57 (+9.7%) | 35.6x | +17.6% | -22.5% | 33.3% | 2027-01-21 |
+| GE | GE Aerospace | $331.81 | $378.43 (+14.0%) | 35.6x | +17.0% | +8.0% | 19.7% | 2027-01-21 |
+| MSI | Motorola Solutions | $531.20 | $547.18 (+3.0%) | 27.2x | +8.9% | +37.1% | 24.4% | 2027-02-09 |
+| PH | Parker Hannifin | $955.68 | $1,137.60 (+19.0%) | 23.3x | +9.5% | +12.8% | 22.2% | 2027-01-28 |
 
 ## Scores at a glance (from the four batch dossiers)
 
 | Ticker | Shortage 0-10 | Irreplaceability 0-10 |
 | --- | --- | --- |
-| MU | 9 | 7 |
 | ANET | 7 | 6 |
 | LLY | 4 | 8 |
 | NEM | 6 | 4 |
 | CF | 9 | 8 |
+| APH | 8 | 7 |
 | MSFT | 7 | 6 |
-| NUE | 7 | 5 |
-| UNP | 4 | 8 |
+| WST | 7 | 8 |
 | ISRG | 6 | 9 |
-| CDNS | 7 | 9 |
-| PM | 4 | 5 |
+| GE | 8 | 9 |
+| MSI | 6 | 9 |
 | PH | 7 | 8 |
 
-Earnings-quality flags on researched names: CDNS carried RECEIVABLES_OUTRUN + INVENTORY_BUILD; batch 4 explains both as mostly benign (OCF/NI 1.43x, deferred revenue +30%, inventory is emulation hardware pre-built for the record backlog).
+Earnings-quality flags on researched names: WST carried RECEIVABLES_OUTRUN (batch 4: mostly benign, growth-driven, watch Q4); GE carried RECEIVABLES_OUTRUN (batch 3: mostly benign, monitor — 9M OCF ~$7.3B vs net income ~$6.57B = 1.11x, 105% FCF conversion YTD); MSI carried INVENTORY_BUILD (batch 4: largely benign deliberate pre-buy against AI-driven memory inflation).
 
 ---
-> Run by: Muse Spark — full panel
+> Run by: Muse Spark (unknown) — full panel
 
-# Momentum research — Batch 1: MU / ANET / LLY
-**Run date:** 2026-11-13 | **Model:** Muse Spark (this runtime's model) — full panel
-**Screen snapshot prices (Nov 12, 2026, reference only):** MU $811.30 | ANET $196.68 | LLY $1,437.29
-**Next earnings:** MU 2026-12-23 | ANET 2027-02-09 | LLY 2027-02-03
-**Method:** web search, primary sources (company earnings releases / calls, Lilly press releases) preferred, reputable press second. Figures are as reported by the cited source on the cited date; where secondary sources disagree I note it rather than reconciling. "Not found" means not found in this search round.
-
----
-
-## MU — Micron Technology
-
-### 1. Shortage thesis
-Yes — the strongest shortage thesis in this batch. The driver is AI-datacenter buildout: HBM (high-bandwidth memory stacked beside AI accelerators) consumes ~3× the wafer capacity per GB of ordinary DRAM (Micron executive figure, widely cited), so Samsung, SK Hynix and Micron — who make >95% of world DRAM — shifted wafers to HBM and left conventional DRAM/NAND short. AI servers + HBM now consume close to 70% of total DRAM output (Startup Fortune, Oct 26, 2026, summarising Micron's FQ4 call).
-Concrete evidence:
-- Micron FQ4 2026 (reported Sep 30, 2026): DRAM prices "increased high-teens percentage range, driven by tight DRAM industry conditions", NAND prices "increased approximately 30%" — in a single quarter, on bit shipments up only mid-single digits (Micron earnings release, via Sentisense summary of Sep 30–Nov 2, 2026 reports).
-- TrendForce: DDR4 8Gb contract price $27.50 in Oct 2026, +5.77% m/m, record high; Q4 PC DRAM contract prices expected +13–18% (reported Nov 2026). Counterpoint: global DRAM revenue +369% y/y in Q3 2026 to just under $200bn, shipments up only ~4% — price doing the work; blended DRAM price ~$1.90/Gb vs 20–30 cents/Gb previously, HBM4 heading toward ~$4/Gb (Counterpoint, Oct 28, 2026). J.P. Morgan est.: DRAM prices +400%+ from start of 2024 to end of 2026 ("chipflation").
-- CEO Sanjay Mehrotra on the FQ4 call: shortages "will persist well beyond 2028" even as new capacity comes online; Micron expects "supply-demand conditions to be much tighter in calendar 2027 and 2028 than they were in 2026." SK Hynix titled a section of its Oct 28, 2026 release "Memory supply shortage to persist through 2030"; SK Hynix said 2027 will be the worst year for the shortage. Samsung issued similar warnings about shortages extending past 2027.
-
-### 2. Backlog / order book
-- **~$100bn in binding multi-year AI memory contracts** (reported Aug 2026, WEEX summary of Micron disclosures) — HBM supply sold out through 2026 and into 2027.
-- **$32bn in customer financial commitments, mostly cash prepayments** tied to long-term supply contracts (CFO Mark Murphy, FQ4 call Sep 30, 2026, via Startup Fortune Nov 2, 2026).
-- **26 strategic customer agreements covering an estimated >35% of revenue through 2030** (Micron, FQ4 2026).
-- **Calendar 2027 HBM supply already agreed "with significant price increases year over year"** (Micron, FQ4 2026). Reporting in Oct–Nov 2026 (TweakTown/Notebookcheck via Startup Fortune) says Samsung, SK Hynix and Micron have between them sold out their entire planned 2027 DRAM and HBM production; agents quoted Nov 11, 2026: "original manufacturers' capacity is booked until 2028."
-- How far out: HBM sold out through 2026, large share of 2027 committed, contracts through 2030. New supply: Idaho One fab ~mid-2027, Tongluo (Taiwan) late 2027–2028, New York fab first wafer not until 2030 ($250bn plan through 2035, announced July 2026).
-
-### 3. Category position
-**No — #3 in HBM, #3 in DRAM overall.** Counterpoint Research, Q2 2026 HBM revenue share (published Sep 2–3, 2026): **SK Hynix 50%, Samsung 33%, Micron 18%** (Micron down from 21% in Q1 2026 and Q2 2025; Samsung up from 15% a year earlier). Overall DRAM revenue share Q2 2026: Samsung 38%, SK Hynix 25%, **Micron 24%**, CXMT 10%. Micron did overtake Samsung to become #2 HBM supplier in Q2 2025 (Counterpoint: SK Hynix 62%, Micron 21%, Samsung 17%) but has since lost that spot to Samsung's HBM4 ramp. Micron is the **only major US-based / US-headquartered memory manufacturer** and targets 20–25% HBM share by late 2026 (management, 2026). HBM TAM: Micron forecasts ~40% CAGR through 2028, ~$35bn (2025) to ~$100bn (2028), the $100bn milestone now expected two years earlier than previously guided (Dec 18, 2025, FQ1 2026).
-
-### 4. Irreplaceability / disintermediation risk
-**Irreplaceability score: 7/10.**
-Moat: only **three firms on earth** make HBM at scale (SK Hynix, Samsung, Micron); HBM requires advanced DRAM process + TSV stacking + packaging and Nvidia/AMD/Google qualification — a multi-year lock-in. Hyperscalers cannot realistically make memory themselves: fabs cost tens of billions, take years (Micron NY fab: first wafer 2030), and need process-tech depth. Micron's 1-gamma DRAM node claims 30% better bit density, >20% lower power; HBM4 in volume production for Nvidia's Vera Rubin platform (36GB 12-high, >11 Gbps, >2.8 TB/s), HBM4e ramps 2027.
-The limit on the score: Micron is **not** the irreplaceable one — SK Hynix is Nvidia's primary HBM supplier and Samsung is now the broad second source. Customers dual-/triple-source among the three; a share loss (21% → 18%) is already visible. The moat protects the *oligopoly*, not Micron specifically. No credible substitute technology routes around HBM in the near term (HBM4 ASP ~$550/stack est., vs HBM3E ~$300).
-Threat to watch: CXMT (China, 10% of DRAM revenue Q2 2026) — its IPO revived the argument Chinese DRAM capacity eventually compresses margins (WEEX, Aug 2026).
-
-### 5. Recent catalysts (last ~3 months)
-- **FQ4 2026, Sep 30, 2026:** revenue $54.23bn, +379% y/y, above $50bn guidance; non-GAAP EPS $33.42; GAAP net income $37.7bn (+1,078% y/y). FY2026 revenue $133.19bn, +256%; GAAP net income $84.97bn; non-GAAP gross margin 81.1% FY (87% in Q4). DRAM revenue topped $100bn for the first time.
-- **FQ1 2027 guidance (Sep 30):** revenue ~$61.5bn, adjusted EPS ~$38.15, both above Street; CFO said fiscal 2027 to show sequential revenue growth every quarter.
-- **FQ3 2026 (reported ~Aug 2026):** revenue $41.46bn vs $23.86bn prior quarter; GAAP net income $28.24bn, diluted EPS $24.67; market cap crossed $1tn.
-- HBM4 volume production for Nvidia Vera Rubin; 1-gamma node acceleration; groundbreaking on New York fab in 2026.
-- Note the tape: MU fell ~28% in July 2026 from the $1,213.37 record close (Jun 25) to an $820.53 low (Jul 28) while DRAM prices hit a 10-year peak — a duration/margin re-pricing, not a fundamentals event (WEEX, Aug 2026). Screen price Nov 12 ($811.30) is still well below that June peak despite the blowout FQ4 print — worth flagging to the panel.
-
-### 6. Risks
-- **Cyclicality / duration risk is the whole debate:** the market is re-pricing how long 80%+ gross margins last, not current earnings. Double-ordering / panic buying could flip severe shortage into oversupply (flagged by MEmoney/BigGo, Nov 2026); power wall for datacenters could cap AI buildout.
-- **Share loss in HBM:** 21% → 18% while Samsung 15% → 33% in a year; Samsung–Nvidia HBM4 shipments (Reuters, reported ~Nov 2026) are a live competitive threat.
-- **Customer concentration:** HBM demand is Nvidia/AMD/hyperscaler-concentrated; 26 agreements cover >35% of revenue through 2030 — good visibility, but concentrated.
-- **Cash/capex:** Barclays flagged cash could get "uncomfortably tight by November 2026" if capex stays on current path (Startup Fortune, Nov 2, 2026).
-- **Valuation already pricing it in:** stock ran to $1,213 in June 2026 on this exact thesis; FQ4 blowout did not reclaim the peak by Nov 12.
-
-### 7. Shortage score & verdict
-**Shortage score: 9/10. Verdict: The purest shortage in the batch — HBM and DRAM sold out into 2027–28 with triple-digit price rises — but Micron is the #3 HBM supplier, so the explosive return depends on the cycle lasting, not on Micron being irreplaceable.**
+# Momentum research — Batch 1 refresh: ANET / LLY / NEM
+**Run date:** 2026-11-14 | **Model:** Muse Spark (unknown) — full panel
+**Screen snapshot prices (Nov 13 close, reference only):** ANET $197.29 | LLY $1,443.50 | NEM $113.14
+**Next earnings:** ANET 2027-02-09 | LLY 2027-02-03 | NEM 2027-02-18
+**Method:** REFRESH of the 2026-11-13 dossier (`output/momentum/research_dossier_2026-11-13.md`, batches 1–2). Baseline figures are carried forward with their original sources and dates; only items that changed since Nov 13, 2026 are flagged **NEW** / **CHANGED** / **VERIFIED**. Web search round conducted Nov 14, 2026. "Not found" means not found in this search round.
 
 ---
 
 ## ANET — Arista Networks
 
-### 1. Shortage thesis
-Partial — a **demand surge the company cannot fully supply**, rather than Arista's own product being sold out years ahead. Driver: AI-datacenter buildout shifting back-end networking from Nvidia InfiniBand (~80% share late 2023) to Ethernet (>two-thirds by 2025; Dell'Oro expects Ethernet to pass InfiniBand in revenue share by 2027), plus the 800G → 1.6T refresh. Arista is the open-Ethernet switch leader riding that flip.
-Concrete evidence:
-- Q1 2026 call (May 5, 2026): CEO said demand is "the strongest seen in CEO's tenure, but supply is constrained by shortages in wafers, silicon chips, CPUs, optics, and memory. Demand is outstripping supply in 2026", with industry-wide shortages "expected to persist for one to two years" (AlphaMemo transcript summary).
-- Q3 2026: product revenue $3.19bn, +66.9% y/y; the constraint is now component supply (memory agreement in purchase commitments) and customer acceptance timing, not end demand. AI back-end switch spend: Dell'Oro expects >$100bn cumulative through 2030, ~$80bn of it in the next five years.
+### What's new since Nov 13
+- **CHANGED — price: fell 4.5% on Friday Nov 13 to $197.29** (prior close $206.63; intraday low $195.26; volume 8.19m shares, ~3% above average). No company-specific news accompanied the drop — coverage attributes it to broad tech selling and valuation reassessment after the Q3 beat (MarketBeat / Lincolnian, Nov 13, 2026). Stock is now ~9.3% below its 52-week high of $217.41; 50-day moving average $192.77, 200-day $166.84.
+- **No new earnings, guidance, contracts, or capacity news since Nov 13.** Last print remains Q3 2026 (Nov 3, 2026) — see baseline below.
+- **VERIFIED (pre-dossier, not in yesterday's dossier) — post-Q3 analyst actions:** Piper Sandler raised target $240 → $261, Overweight (Nov 4); UBS restated Buy, target $259 → $291 (Nov 4); Melius Research set a $305 target (Nov 4); Morgan Stanley reiterated $230 (up from $220, Nov 4); Truist raised $234 → $240, Buy (Nov 4); KeyCorp lifted FY2026 EPS estimates to $4.04 from $3.79 (Nov 3). Consensus: Buy, average target ~$240.24 (MarketBeat, Nov 13). TD Cowen's cut to $205 (from $250) was Oct 19 — pre-dossier, not new.
+- **VERIFIED (pre-dossier) — insider sale:** Director Mark Templeton sold 5,000 shares on Nov 2, 2026 (reported Nov 13 via SEC filings roundup). Small, routine-looking; no other insider activity flagged.
+- Options flow Nov 13 was call-heavy (70% of $16.5m premium in calls, Global Traders Academy) — tape colour only, not a fundamental signal.
 
-### 2. Backlog / order book
-- **Deferred revenue $6.84bn at Sep 30, 2026** (Q3 10-Q, filed Nov 4, 2026) — down $26.4m sequentially from $6.87bn at Jun 30 (first sequential decline in coverage, per Aardvark Labs), but up from $5.37bn at Dec 31, 2025 and $4.69bn a year earlier. $1.715bn of Q3 revenue (46.9%) came from the opening deferred balance.
-- **Remaining performance obligations / future recognised revenue $8.6bn at Sep 30, 2026, ~91% expected within the next two years** (Q3 10-Q, via Quantisnow Nov 3, 2026).
-- **Purchase commitments $11.4bn at Sep 30, 2026**, up from $9.7bn at Jun 30 and $6.8bn at Dec 31, 2025 (Q3 call; Q1 was $8.9bn, up from $6.8bn at Q4 2025) — including a new multi-year memory agreement; $2.1bn due beyond 12 months vs $0.3bn in June. Inventory built to $3.21bn from $2.54bn in Q2.
-- **Etherlink AI fabric: >100 cumulative customers**, up from 4–5 in 2024 (Q2 call, Aug 4, 2026). AI-fabric revenue target $3.5bn for 2026, doubling to ~$7.0bn in 2027 (Q3 call, Nov 3, 2026).
-- Caveat from the 10-Q read: new deferrals were flat ($1.69bn) in Q3 and the quarter's sequential growth was funded by releasing the opening deferred pool — backlog is still enormous, but it stopped growing sequentially in Q3. Management guides only ~two quarters of visibility yet has now guided five quarters out (Aardvark Labs, Nov 2026).
+### 1. Shortage thesis — UNCHANGED
+Carried forward from Nov 13 dossier: partial shortage — a demand surge Arista cannot fully supply, driven by the AI-datacenter shift from Nvidia InfiniBand (~80% share late 2023) to Ethernet (>two-thirds by 2025; Dell'Oro expects Ethernet to pass InfiniBand in revenue share by 2027), plus the 800G → 1.6T refresh. Q1 2026 call (May 5, 2026): CEO said demand is "the strongest seen in CEO's tenure, but supply is constrained by shortages in wafers, silicon chips, CPUs, optics, and memory. Demand is outstripping supply in 2026", with industry-wide shortages "expected to persist for one to two years". Q3 2026: product revenue $3.19bn, +66.9% y/y; constraint now component supply (memory agreement in purchase commitments) and customer acceptance timing, not end demand. AI back-end switch spend: Dell'Oro expects >$100bn cumulative through 2030, ~$80bn of it in the next five years. **No new evidence since Nov 13 changes this.**
 
-### 3. Category position
-**Yes — #1 in high-speed Ethernet switching, but the lead just flipped in one cut.** Arista "achieved the number one market share in high-speed switching (>10GbE)" in Q1 2026 (Q1 call). But in the March 2026 quarter, **Nvidia booked $2.1bn of data-center Ethernet switch revenue, 21.5% of the market, vs Arista's 20.7%**, taking the top revenue position in a category Arista defined for a decade (Dell'Oro via DK Street Journal, Aug 23, 2026). Nvidia's Spectrum-X had reached ~11% share by late 2025 and kept climbing. Cisco is also resurgent: $9.3bn of hyperscaler AI-infrastructure orders in FY2026 (~4.5× prior year), though ~40% is optics, putting switching nearer $5.6bn. Ethernet overall is winning; Arista's share of it is now contested. 650 Group: total AI/ML networking approaching/exceeding $200bn by 2030; scale-out Ethernet >$100bn by 2030.
+### 2. Backlog / order book — UNCHANGED
+Carried forward (Q3 2026 10-Q, filed Nov 4, 2026; Q3 call Nov 3, 2026):
+- Deferred revenue **$6.84bn at Sep 30, 2026** — down $26.4m sequentially from $6.87bn at Jun 30 (first sequential decline), but up from $5.37bn at Dec 31, 2025 and $4.69bn a year earlier. $1.715bn of Q3 revenue (46.9%) came from the opening deferred balance.
+- Remaining performance obligations **$8.6bn at Sep 30, 2026, ~91% expected within the next two years**.
+- Purchase commitments **$11.4bn at Sep 30, 2026**, up from $9.7bn at Jun 30 and $6.8bn at Dec 31, 2025 — including a new multi-year memory agreement; $2.1bn due beyond 12 months vs $0.3bn in June. Inventory $3.21bn (from $2.54bn in Q2).
+- Etherlink AI fabric: **>100 cumulative customers**, up from 4–5 in 2024. AI-fabric revenue target $3.5bn for 2026, doubling to ~$7.0bn in 2027 (Q3 call).
+- Caveat unchanged: new deferrals were flat ($1.69bn) in Q3; sequential growth was funded by releasing the opening deferred pool.
 
-### 4. Irreplaceability / disintermediation risk
-**Irreplaceability score: 6/10.**
-Moat: **EOS (Extensible Operating System)** + CloudVision — the software/operating system that runs the world's largest cloud networks, with deep qualification, telemetry and automation lock-in at Meta, Microsoft and other Cloud Titans; 100+ Etherlink AI-fabric customers; founding member of the Ultra Ethernet Consortium (UEC 1.0, June 2025), which is the open standard displacing InfiniBand. Non-GAAP operating margin 49.1% in Q3, gross margin 64.0% — software economics on hardware.
-The in-sourcing threat is concrete and already happening:
-- **Arista does not make its own switch silicon** — it buys Broadcom Tomahawk 5 / Jericho 3-AI chips (7060X6 / 7800R4 platforms). Broadcom captures the highest margin in the chain (66% op margin / 77% GM vs Arista 48% op margin). Broadcom could favour others or raise prices.
-- **Nvidia Spectrum-X** ships as an integrated GPU + switch + DPU + cable package — the accelerator vendor capturing network content that used to be bid separately. Nvidia just overtook Arista in DC Ethernet revenue.
-- **Hyperscaler white-box:** Microsoft SONiC and Meta FBOSS run on Broadcom-based ODM hardware — ~20–25% of DC Ethernet revenue — a direct disintermediation route for Arista's two biggest customers.
-- **Scale-up is the gap:** CEO Ullal on the Q3 call sees **no material scale-up Ethernet revenue in 2027**; production of the open-standard challenger to Nvidia NVLink is not due until 2028. Arista's networks are expected to support >10 GW of AI deployments by end-2027, but scale-up (inside the rack) remains Nvidia's.
-- Customer concentration: Microsoft 26% and Meta 16% of 2025 revenue.
+### 3. Category position — UNCHANGED
+Carried forward: #1 in high-speed Ethernet switching by the Q1 2026 definition, but the revenue crown flipped in the March 2026 quarter — **Nvidia booked $2.1bn of data-center Ethernet switch revenue, 21.5% of the market, vs Arista's 20.7%** (Dell'Oro via DK Street Journal, Aug 23, 2026). Cisco resurgent: $9.3bn of hyperscaler AI-infrastructure orders in FY2026 (~4.5× prior year), ~40% optics. No new share data since Nov 13.
 
-### 5. Recent catalysts (last ~3 months)
-- **Q3 2026, Nov 3, 2026 (the freshest print in this batch):** revenue $3.66bn, **+58.5% y/y — fastest since IPO**, +20.5% q/q, beating $3.3bn guidance and $3.33bn consensus by ~10%; non-GAAP EPS $1.20 vs $1.08 consensus; non-GAAP op margin 49.1%. Shares +~13% after hours. Cash + marketable securities $14.4bn, no debt.
-- **Guidance raised for the 4th time in FY2026:** FY2026 revenue ~$13.3bn (~48% growth, up from $12.5bn at Q2 and $10.5bn original Analyst Day target); Q4 guide $3.9–4.0bn vs ~$3.6bn consensus, EPS $1.26–1.30.
-- **First FY2027 outlook (Nov 3):** revenue ~$18.5bn at midpoint (+38–40%), AI fabrics ~$7.0bn (doubling), cognitive campus ~$2.0bn, gross margin 62–64%, op margin ~49%.
-- Q2 2026 (Aug 4): first $3bn quarter ($3.036bn, +37.7% y/y); guidance raised for the 3rd time, to ~$12.6bn.
+### 4. Irreplaceability / disintermediation risk — UNCHANGED
+**Irreplaceability score: 6/10 (unchanged).**
+Moat carried forward: EOS + CloudVision software lock-in at Meta, Microsoft and other Cloud Titans; 100+ Etherlink AI-fabric customers; founding member of the Ultra Ethernet Consortium (UEC 1.0, June 2025). Non-GAAP operating margin 49.1% in Q3, gross margin 64.0%.
+Threats carried forward, unchanged: (a) Arista buys its switch silicon from Broadcom (Tomahawk 5 / Jericho 3-AI); Broadcom captures the higher margin in the chain. (b) Nvidia Spectrum-X bundles networking with the GPU; Nvidia just overtook Arista in DC Ethernet revenue. (c) Hyperscaler white-box (Microsoft SONiC, Meta FBOSS) on Broadcom-based ODM hardware — ~20–25% of DC Ethernet revenue. (d) Scale-up gap: CEO Ullal sees no material scale-up Ethernet revenue in 2027; open-standard challenger to NVLink not due until 2028. Customer concentration: Microsoft 26%, Meta 16% of 2025 revenue. Nothing since Nov 13 alters any of these.
 
-### 6. Risks
-- **Nvidia is now the #1 DC Ethernet vendor** and bundles networking with the GPU — the bundle, not the box, is the competitive unit.
-- **Broadcom silicon dependence** — no captive ASIC; margin and supply both sit upstream.
-- **White-box / SONiC / FBOSS disintermediation** by its two largest customers (Microsoft 26%, Meta 16% of 2025 revenue).
-- **Deferred-revenue plateau:** Q3 was the first sequential decline; growth was funded by drawing down the pool. If new deferrals stay flat, the backlog story softens.
-- **Gross margin slipping:** 64.0% non-GAAP in Q3 vs 65.2% a year earlier; hyperscale mix diluting it; management says pricing power to offset mix "does not exist yet" — backlog ships at prior prices, structural pricing power pushed to 2027 (1.6T Etherlink production).
-- **Scale-up gap until 2028** concedes the highest-growth rack-internal segment to NVLink.
-- Valuation: ~45× TTM EPS at the $169.91 close on Nov 3, 2026 (SEC-API.io); stock at $196.68 on Nov 12 screen — the Q3 beat is already partly in the price.
+### 5. Recent catalysts (last ~3 months) — NO NEW CATALYSTS SINCE NOV 13
+Carried forward (Q3 2026, Nov 3, 2026): revenue $3.66bn, +58.5% y/y — fastest since IPO, +20.5% q/q, beating $3.3bn guidance and $3.33bn consensus by ~10%; non-GAAP EPS $1.20 vs $1.08 consensus; non-GAAP op margin 49.1%; shares +~13% after hours. Guidance raised for the 4th time in FY2026: FY2026 revenue ~$13.3bn (~48% growth); Q4 guide $3.9–4.0bn vs ~$3.6bn consensus, EPS $1.26–1.30. First FY2027 outlook: revenue ~$18.5bn at midpoint (+38–40%), AI fabrics ~$7.0bn (doubling), cognitive campus ~$2.0bn, gross margin 62–64%, op margin ~49%. Cash + marketable securities $14.4bn, no debt. The only Nov 13 items are the share-price drop (no news) and the analyst-target roundup above.
+
+### 6. Risks — UNCHANGED, with one price-action note
+Carried forward: Nvidia now #1 in DC Ethernet and bundles with the GPU; Broadcom silicon dependence; white-box/SONiC/FBOSS disintermediation by the two largest customers; deferred-revenue plateau (first sequential decline in Q3); gross margin slipping (64.0% non-GAAP in Q3 vs 65.2% a year earlier; management says pricing power to offset mix "does not exist yet"); scale-up gap until 2028; valuation ~53× TTM EPS at the Nov 13 close (P/E 53.02 per MarketBeat). **New note:** the 4.5% Nov 13 drop on no news, with the stock still 9.3% below its 52-week high, is consistent with the dossier's valuation warning — the Q3 beat is in the price and the stock is vulnerable to broad tech reassessment. It is not, by itself, a thesis change.
 
 ### 7. Shortage score & verdict
-**Shortage score: 7/10. Verdict: Demand is the strongest in the CEO's tenure and the backlog is $8.6bn, but this is a demand surge with a supply constraint, not a sold-out-years-ahead shortage — and Nvidia just took the Ethernet crown while Arista still buys its silicon from Broadcom.**
+**Shortage score: 7/10 (unchanged). Verdict: Nothing fundamental changed in 24 hours — demand is the strongest in the CEO's tenure and the backlog is $8.6bn, but Nvidia just took the Ethernet crown while Arista still buys its silicon from Broadcom; the Nov 13 sell-off was valuation/market, not a thesis break.**
 
 ---
 
 ## LLY — Eli Lilly
 
-### 1. Shortage thesis
-**No — not a shortage anymore; it is a demand surge at falling prices.** The GLP-1 shortage that defined 2022–24 is over, and that changes the thesis fundamentally.
-- FDA declared the **tirzepatide shortage resolved Dec 19, 2024** (grace periods ended Mar 5 / Mar 19, 2025); semaglutide shortage resolved Feb 2025. As of the FDA's Apr 1, 2026 update, neither drug is on the shortage list; the Fifth Circuit upheld the FDA's tirzepatide decision in Aug 2026 (Prax Health, reviewed Oct 27, 2026). Compounding on shortage grounds is now illegal — FDA warning letters in waves through 2026.
-- What remains is **volume demand**: Q3 2026 worldwide volume +53% while realised prices fell 15% (Lilly Q3 call, Oct 29, 2026). US volume +41%, prices −7%; ex-US volume +76%, prices −29% (driven by Mounjaro's listing on China's National Reimbursement Drug List). Management said only a small share of US patients are on these drugs — "the runway is long."
-- Demand drivers still expanding: Medicare GLP-1 Bridge pilot (launched July 2026) — >500,000 people have filled a prescription through it since July 1, ~7 in 10 new Bridge patients start on a Lilly drug, ~80% had never taken an incretin; ~1.1m patients in the programme per federal officials early Oct 2026 (Reuters, Oct 29, 2026). Lilly's US incretin share 63% in Q3 vs Novo 36.6%; ~7 in 10 US injectable incretin prescriptions are Lilly.
+### What's new since Nov 13
+- **NEW — China approved orforglipron (Nov 12, 2026):** China's National Medical Products Administration approved Lilly's once-daily oral GLP-1 pill orforglipron (brand name in China: Muyouda) for obese/overweight adults with at least one weight-related condition — the first oral GLP-1 weight-loss pill approved in China (Reuters via MedicalXpress / ad-hoc-news, Nov 13, 2026). GLP-1 injections from Lilly, Novo and domestic Innovent are already widely available in China; ~630 million Chinese adults could be overweight or obese by 2050 (The Lancet, via MedicalXpress). Pricing, reimbursement and launch execution are the open questions. US approval came in April 2026 (Foundayo). This is a genuine new catalyst: it opens the world's largest obesity market to the oral pill, where the pill's no-food/water-restriction profile and easier manufacturing matter most. It does not change the shortage score (there is no shortage), but it strengthens the volume-growth leg.
+- **NEW — Jefferies raised target $1,610 → $1,700** (reported Nov 12, 2026, Motley Fool). Stock closed Nov 13 at $1,443.50, +1.26% on the day (+$17.95), after trading as high as $1,449.64; prior close $1,427.28. Options flow Nov 13 was call-heavy (75% of $72.0m premium in calls).
+- **NEW (pre-dossier, not in yesterday's dossier) — retatrutide knee-osteoarthritis data:** Phase 3 trials (Northwestern University) showed high-dose retatrutide patients lost on average up to 25% of body weight with a ~50% reduction in knee osteoarthritis pain (Motley Fool, Nov 12, 2026). Suggests retatrutide could be filed for both weight loss and OA pain — a new indication that would widen the retatrutide TAM beyond obesity. Filing for weight loss still planned Q1 2027 (carried forward).
+- **NEW (pre-dossier, not in yesterday's dossier) — Foundayo sleep-apnea data:** Phase 3 found Foundayo significantly reduced obstructive sleep apnea severity; Lilly plans to submit to the FDA for sleep apnea by end of 2026 (announced Mon Nov 9, reported Motley Fool Nov 12). Another label expansion in the pipeline.
+- **NEW — downgrade, minor broker:** China Merchants Securities cut LLY from Buy to Hold (Nov 13, reported by American Banking News). Consensus remains Moderate Buy, average target $1,416.64 (MarketBeat, Nov 13); note the average target is below the current price and well below Jefferies' $1,700 — the Street is split.
+- **NEW — dividend ex-date:** $1.73 quarterly dividend went ex-dividend Fri Nov 13, payable Dec 10, 2026 (record date Nov 13). Annualised $6.92, yield ~0.5%.
+- Insider note: EVP Anat Hakim sold 5,000 shares on Nov 2 (pre-dossier, reported Nov 13).
 
-### 2. Backlog / order book
-**Not found — pharma does not report a backlog/order book.** The closest analogues:
-- **Manufacturing capacity committed, not orders booked:** >$50bn US capital expansion commitments since 2020 (Lilly, May 6, 2026). Lebanon, Indiana tirzepatide API campus $9bn total, production beginning toward end-2026, scaling through 2028, Lebanon API site opening 2027 billed as the largest API site in US history; Huntsville, Alabama >$6bn (completion 2032); Lehigh Valley, Pennsylvania >$3.5bn, groundbreaking Nov 12, 2026, operational 2031, for injectables incl. retatrutide; Houston, Texas $6.5bn, ground broken Sep 21, 2026, operational ~2030, for Foundayo (orforglipron) API. Note: Alzey, Germany $2.5bn plant scope cut ≥50% in June 2026 citing German drug-pricing legislation.
-- **Demand visibility:** Q3 revenue $24.4bn, +39% y/y; Mounjaro $10.72bn (+65%), Zepbound $5.35bn (+49%) — together ~66% of total sales (88% of added revenue over the year). No forward order book is disclosed; demand is measured in prescriptions, not backlog.
+### 1. Shortage thesis — UNCHANGED
+Carried forward: **no shortage — the GLP-1 shortage is over.** FDA declared the tirzepatide shortage resolved Dec 19, 2024; semaglutide resolved Feb 2025; neither drug on the shortage list as of Apr 1, 2026; Fifth Circuit upheld the FDA's tirzepatide decision Aug 2026. What remains is volume demand: Q3 2026 worldwide volume +53% while realised prices fell 15% (Lilly Q3 call, Oct 29, 2026). US volume +41%, prices −7%; ex-US volume +76%, prices −29% (Mounjaro's listing on China's National Reimbursement Drug List). Medicare GLP-1 Bridge pilot (launched July 2026): >500,000 people have filled a prescription through it since July 1; ~7 in 10 new Bridge patients start on a Lilly drug; ~80% had never taken an incretin; ~1.1m patients in the programme per federal officials early Oct 2026. Lilly's US incretin share 63% in Q3 vs Novo 36.6%. **The China orforglipron approval adds a new volume leg but does not restore a shortage thesis — supply is not the constraint.**
 
-### 3. Category position
-**Yes — #1, and pulling away.** Lilly 63% of the US obesity/diabetes drug market in Q3 2026 vs Novo Nordisk 36.6% (Lilly earnings presentation, via Reuters Oct 29, 2026); ~70% of US injectable incretin prescriptions. Tirzepatide overtook semaglutide in prescription data (Epic Research, early 2026) and beat Novo's CagriSema head-to-head in REDEFINE 4. Novo is stabilising only via the Wegovy pill (DKK 5.39bn in Q3) while its adjusted sales grew just +4% vs Lilly's +39%. Market cap ~$1.2tn (Reuters, Oct 29, 2026).
+### 2. Backlog / order book — UNCHANGED (not applicable)
+Carried forward: pharma reports no backlog. Closest analogues — manufacturing commitments >$50bn US capex since 2020; Lebanon, Indiana tirzepatide API campus $9bn total, production beginning toward end-2026, scaling through 2028, API site opening 2027; Huntsville, Alabama >$6bn (completion 2032); Lehigh Valley, Pennsylvania >$3.5bn, groundbreaking Nov 12, 2026, operational 2031 (retatrutide); Houston, Texas $6.5bn, ground broken Sep 21, 2026, operational ~2030 (Foundayo API); Alzey, Germany $2.5bn plant scope cut ≥50% in June 2026. Q3 revenue $24.4bn, +39% y/y; Mounjaro $10.72bn (+65%), Zepbound $5.35bn (+49%) — together ~66% of total sales. No new capacity news since Nov 13.
 
-### 4. Irreplaceability / disintermediation risk
-**Irreplaceability score: 8/10.**
-Moat: **patents + proven efficacy + manufacturing scale no rival can match quickly.** Tirzepatide is the only dual GIP/GLP-1 agonist; SURMOUNT-1 >20% weight loss at 72 weeks; retatrutide (triple agonist) 28.3% at 80 weeks in TRIUMPH-1 — the best data in the class, filing planned Q1 2027. Foundayo (orforglipron) is the first FDA-approved once-daily oral GLP-1 pill without food/water restrictions. Manufacturing: $50bn+ committed, multi-year plant builds (2027–2032 completions) — a competitor cannot replicate supply at scale. FDA enforcement is now actively shutting the compounding workaround.
-Limits: Novo is a real #2 with its own scale (DKK 42bn+ Kalundborg, $4.1bn Clayton NC, $11bn Catalent sites) and its Wegovy pill; oral small-molecule GLP-1s are easier to manufacture than peptides, lowering the barrier for future entrants; patents eventually expire; and "irreplaceable" here means the *molecule + supply*, not the category — patients can switch to Novo, and payers can steer them. No hyperscaler-style in-sourcing threat exists (payers/employers cannot make drugs), but **payer/employer coverage opt-outs** are the functional equivalent — "noise around a number of employers opting out of coverage" (Lilly US head Ilya Yuffa, Q3 call).
+### 3. Category position — UNCHANGED, slightly strengthened
+Carried forward: #1 and pulling away — 63% of the US obesity/diabetes drug market in Q3 2026 vs Novo 36.6%; ~70% of US injectable incretin prescriptions. **New:** China orforglipron approval makes Lilly the first company with an approved GLP-1 weight-loss pill in China — a first-mover position in the oral segment in the largest market, ahead of Novo's oral efforts there.
 
-### 5. Recent catalysts (last ~3 months)
-- **Q3 2026, Oct 29, 2026:** revenue $24.4bn, +39% y/y, beating $22.61bn consensus (LSEG); adjusted EPS $7.48 vs $6.26 consensus; GAAP EPS $7.22; net income $6.45bn (+15.6%). Gross margin 84.4% (+80 bps). Mounjaro $10.72bn (vs $10.16bn est.), Zepbound $5.35bn (vs $5.09bn est.).
-- **2026 guidance raised:** revenue $91–92bn (from $85–87bn, +$5bn); non-GAAP EPS trimmed to $35.00–36.00 (from $35.50–36.50) on IPR&D charges from AtaiBeckley and Curevo acquisitions ($4.57 charge). ~$900m of Q3 revenue was one-time (incl. $410m Jardiance milestones, the last expected) and ~$2bn of 2026 revenue is one-time items not expected to recur — flagged by management.
-- **Nov 6, 2026:** agreement with Hims & Hers to sell Zepbound and Foundayo through its telehealth platform at Lilly's regular self-pay prices; Hims has never offered compounded Lilly GLP-1s and committed not to.
-- **Nov 12, 2026:** groundbreaking on $3.5bn Lehigh Valley, PA plant (retatrutide capacity, operational 2031).
-- **Pipeline:** retatrutide BLA filing planned Q1 2027; EloraTZP Phase 3 starts Q4 2026; retatrutide beat Ozempic 2 mg head-to-head in type 2 diabetes. Foundayo Q3 sales $184m, missing $216.9m est. — CFO said this reflects launch-quarter stocking, not weak demand; US Foundayo demand more than tripled to >$120m from ~$37m.
-- **Medicare Bridge pilot** (July 2026 launch) is a live demand catalyst, but it is a temporary pilot — its future is unsettled.
+### 4. Irreplaceability / disintermediation risk — UNCHANGED
+**Irreplaceability score: 8/10 (unchanged).**
+Moat carried forward: patents + proven efficacy + manufacturing scale. Tirzepatide is the only dual GIP/GLP-1 agonist; SURMOUNT-1 >20% weight loss at 72 weeks; retatrutide (triple agonist) 28.3% at 80 weeks in TRIUMPH-1, filing planned Q1 2027; Foundayo is the first FDA-approved once-daily oral GLP-1 pill without food/water restrictions; $50bn+ manufacturing committed, plants completing 2027–2032; FDA enforcement shutting the compounding workaround. Limits unchanged: Novo is a real #2 with its own scale; oral small molecules lower the manufacturing barrier for future entrants; patents expire; payer/employer coverage opt-outs are the functional equivalent of disintermediation. **New nuance:** the retatrutide OA-pain data and Foundayo sleep-apnea data, if they become approved indications, widen the moat from weight loss into pain and sleep — but both are unapproved indications as of today, so no score change.
 
-### 6. Risks
-- **Price erosion is the story now, not shortage:** realised prices −15% worldwide in Q3 (−29% ex-US); Novo cut Wegovy/Ozempic US list to $675 from Jan 1, 2027; the model is volume growth at lower net prices. If volume growth slows, there is no price lever left.
-- **Concentration:** Mounjaro + Zepbound ~66% of revenue — the company swings with GLP-1 pricing/policy news.
-- **Competition:** Novo's Wegovy pill is stabilising Novo; CagriSema FDA decision expected Q4 2026, US launch early 2027; oral entrants lower the manufacturing barrier.
-- **Policy:** Medicare Bridge is a temporary pilot; employer coverage opt-outs; US drug-pricing deals (Trump administration pricing deal already lowered Zepbound prices); German pricing law already forced a plant cut.
-- **Compounding / grey market:** retatrutide is being sold illegally online (862 poison-centre exposures in Q3 2026; two unverified death reports to FDA, CBS Oct 13, 2026) — a reputational and enforcement overhang, not a revenue threat yet.
-- **Valuation:** ~$1.2tn market cap; $1,437 screen price; the Q3 beat and $5bn guidance raise are in the price — the explosive-return case needs retatrutide approval + sustained 40%+ growth, not just the current franchise.
-- **Execution:** Foundayo missed estimates in its first quarter; new plants do not produce until 2027–2032, so near-term supply growth is from existing sites.
+### 5. Recent catalysts (last ~3 months) — UPDATED
+Carried forward (Q3 2026, Oct 29, 2026): revenue $24.4bn, +39% y/y, beating $22.61bn consensus; adjusted EPS $7.48 vs $6.26 consensus; GAAP EPS $7.22; net income $6.45bn (+15.6%); gross margin 84.4% (+80 bps). Mounjaro $10.72bn (vs $10.16bn est.), Zepbound $5.35bn (vs $5.09bn est.). 2026 guidance raised: revenue $91–92bn (from $85–87bn, +$5bn); non-GAAP EPS trimmed to $35.00–36.00 on IPR&D charges. ~$900m of Q3 revenue was one-time; ~$2bn of 2026 revenue is one-time items not expected to recur. Nov 6, 2026: Hims & Hers agreement to sell Zepbound and Foundayo at Lilly's self-pay prices. Nov 12, 2026: Lehigh Valley groundbreaking.
+**New since Nov 13:** China NMPA approval of orforglipron (Nov 12); retatrutide knee-OA Phase 3 data (reported Nov 12); Foundayo sleep-apnea Phase 3, FDA submission planned by end-2026 (announced Nov 9); Jefferies target $1,610 → $1,700 (Nov 12).
+
+### 6. Risks — UNCHANGED
+Carried forward: price erosion is the story (realised prices −15% worldwide in Q3, −29% ex-US); Novo cut Wegovy/Ozempic US list to $675 from Jan 1, 2027; concentration (Mounjaro + Zepbound ~66% of revenue); Novo's Wegovy pill stabilising Novo; CagriSema FDA decision expected Q4 2026, US launch early 2027; Medicare Bridge is a temporary pilot; employer coverage opt-outs; US drug-pricing deals; compounding/grey-market retatrutide (862 poison-centre exposures in Q3 2026; two unverified death reports, CBS Oct 13, 2026); valuation ~$1.2tn market cap; Foundayo missed estimates in its first quarter ($184m vs $216.9m est.). **New risk note:** China approval is positive but execution-dependent — pricing/reimbursement in China (where Mounjaro is already on the National Reimbursement Drug List at steep discounts) may repeat the ex-US price-erosion pattern; and the China Merchants downgrade to Hold is a reminder the stock at $1,443.50 sits above the Street's average target ($1,416.64).
 
 ### 7. Shortage score & verdict
-**Shortage score: 4/10. Verdict: The shortage is over — the FDA said so in Dec 2024 — so this is a #1-franchise volume-growth story at falling prices, not a shortage bet; the explosive case now rests on retatrutide (filing Q1 2027), not on scarcity.**
+**Shortage score: 4/10 (unchanged). Verdict: Still not a shortage bet — the FDA closed that story in Dec 2024 — but Nov 12 delivered a real new volume catalyst (China orforglipron approval, first oral GLP-1 pill in China) plus two label-expansion data points (retatrutide OA pain, Foundayo sleep apnea); the explosive case remains retatrutide filing (Q1 2027) and oral-pill volume at falling prices, not scarcity.**
+
+---
+
+## NEM — Newmont Corporation
+
+### What's new since Nov 13
+- **CHANGED — price: fell ~4.6% on the week to $113.14** (Nov 13 close per screen; opened Fri Nov 13 at $112.57; 50-day moving average $118.36, 200-day $112.40; 12-month range $81.34–$135.29). The fall tracks gold, not company news.
+- **CHANGED — gold broke below $4,000 and hit a 13-month low:** spot gold closed Fri Nov 13 at ~$3,885/oz, +0.2% on the day, after falling to ~$3,850 on Thu Nov 12 — its lowest in 13 months (Finnhub daily candles; whygoldmoved.com, Nov 13). Nov 11 close $3,987.70; Nov 12 close $3,877.59. That is ~31% below the January 2026 record (~$5,595–$5,600/oz) and ~$415/oz below Newmont's Q3 realised price of $4,317/oz — i.e. the Q4 realised price will be materially lower than Q3's if spot stays here, compressing the ~$2,860/oz Q3 margin (at $1,454 AISC) by roughly $400/oz before any cost change. **This is the material change since yesterday: the gold-price leg of the thesis weakened further.**
+- **NEW — Zacks industry outlook (Nov 13, 2026):** Zacks Mining–Gold industry outlook "remains challenging, as gold prices have retreated from their January record, with a stronger U.S. dollar and expectations of further interest rate hikes weighing on the precious metal." NEM carries Zacks Rank #3 (Hold); consensus 2026 EPS estimate moved up 1.4% over the past 30 days, implying +33.2% YoY growth; trailing four-quarter earnings surprise +20% on average. Tanami Expansion 2 expected to add ~150,000–200,000 oz/yr and cut operating costs ~30%; Ahafo North (commercial production 2025) continues to ramp; Q4 2026 production expected higher; 2027 portfolio production guided low-to-mid single digits vs 2026. (Zacks, Nov 13, 2026.)
+- **VERIFIED (Trefis via Yahoo Finance, Nov 13, 2026) — 2027 cost pressure, already in yesterday's dossier:** 2026 AISC expected ~$1,520/oz (improved ~10% from $1,680 guide); Q3 AISC $1,454/oz; Q4 AISC guided ~$1,900/oz (highest of 2026), partly because Peñasquito silver output falls to ~half its Q3 level; Peñasquito silver ~30% below 2026 levels in 2027, lifting 2027 unit costs. Next AISC update expected with the Feb 2027 report. No new numbers — confirms yesterday's figures.
+- **Minor:** 13F filings (Q3) show new/small positions — Ritholtz Wealth Management bought 50,138 shares (~$5.78m), Jefferies Financial Group 38,160 shares (~$4.40m), Confluence Wealth Services 4,906 shares (~$566k) (reported Nov 13). Noise, not a signal. CEO Natascha Viljoen sold 3,882 shares on Nov 2 (pre-dossier).
+- Dividend confirmed: $0.26/share (yesterday's dossier said $0.261), record Nov 25, payable Dec 21, 2026.
+
+### 1. Shortage thesis — UNCHANGED IN STRUCTURE, WEAKENED IN PRICE
+Carried forward: genuine structural mine-supply shortage — global gold demand topped 5,000 tonnes in 2025 for the first time; mine production a record 3,672 tonnes but only ~1% y/y growth, extending a decade-long <1% average; no genuinely new major discovery since 2022 (S&P Global); a new discovery today would take ~16 years to reach production. Central banks: Goldman Sachs estimates official-sector purchases averaging 900–1,000 tonnes/year since 2022 (~a quarter of annual mine output); WGC Q3 2026 central-bank buying 321 tonnes, YTD 675 tonnes (+6% YoY, Nov 4, 2026). **Changed context:** the price signal now cuts the other way — gold has fallen ~31% from its January record to ~$3,885, below the $4,000 "floor" commentary of a week ago, with Zacks citing a stronger dollar and rate-hike expectations. The supply shortage is real; the demand premium that made it pay is unwinding. NEM's own output is falling into the shortage (see §2) — unchanged.
+
+### 2. Backlog / order book — UNCHANGED (not applicable)
+Carried forward: no order book for a gold miner; analogue is reserves + guidance. Reserves (Feb 19, 2026): 118.2 Moz attributable gold reserves at end-2025, down from 134.1 Moz at end-2024 (divestments) — still the industry's largest reserve base, ~20 years of production life at 2025 output (5.89 Moz), plus 12.5 Mt copper and 442 Moz silver reserves; 88.1 Moz measured & indicated + 60.6 Moz inferred resources. Reserves priced at a $2,000/oz assumption; management signalled year-end reserve/resource numbers are expected to increase as the price assumption rises. Production guidance: FY2026 5.3 Moz attributable gold, on track (Q3: 1.30 Moz; Q4 expected ~1.4 Moz, the strongest quarter). 2027 production guided low-to-mid single digits vs 2026, driven by higher grades at Lihir, Boddington, Tanami, Cerro Negro, Yanacocha. 2026 is a self-described production trough. No new reserve or guidance figures since Nov 13.
+
+### 3. Category position — UNCHANGED
+Carried forward: #1 — world's largest gold producer, ~5% of global mined supply (FY2025 10-K summary); 2025 attributable production 5.89 Moz vs Barrick, Agnico Eagle, Kinross, AngloGold, Gold Fields; largest reserve base (118.2 Moz); only gold producer in the S&P 500 / Fortune 500; market cap ~$124B (Nov 12, 2026 — lower now after the week's fall). No single mine >13.5% of NAV; top five assets ~54% of NAV.
+
+### 4. Irreplaceability / disintermediation risk — UNCHANGED
+**Irreplaceability score: 4/10 (unchanged).**
+Carried forward: gold itself is irreplaceable as a monetary/reserve asset (no substitute, no counterparty risk — central banks buy it for exactly that), but NEM the company is highly replaceable: gold is fungible, NEM holds ~5% of mined supply, any miner's ounce is identical. Customers cannot "in-source" mining (decade-plus, billions, permits, geology) but don't need NEM specifically. Moat is scale + reserve life + jurisdiction mix (US, Australia, Canada, Ghana), not product differentiation. The metal is ~9/10 irreplaceable; the company is ~4/10.
+
+### 5. Recent catalysts (last ~3 months) — NO NEW CATALYSTS SINCE NOV 13
+Carried forward (Q3 2026, Oct 22, 2026): record Q3 adjusted net income $2.3B / $2.20 per diluted share (beat $1.94–2.05 consensus), revenue $6.36B, adjusted EBITDA $4.0B, free cash flow $1.9B; $8.8B cash, $3.2B net cash; dividend $0.26/share. Full-year cost guidance improved ~10%: by-product AISC cut to ~$1,520/oz from $1,680; Q3 AISC $1,454/oz. Red Chris block-cave: feasibility study being finalised, full funds decision expected early 2027; first phase 275–325koz gold + 65–85kt copper/year over 13 years, development capital $4.2–4.8B (100% basis), commercial production 2033. Nevada Gold Mines dispute settled (agreement Aug 10, 2026); $1.95B payment due in Q4 2026 (pro-forma net cash ~$1.3B, near the $1B target). WGC Q3 demand data (Nov 4) showed central-bank buying accelerating. Nothing new since Nov 13 except the Zacks outlook and the Trefis cost write-up, both confirmatory rather than new.
+
+### 6. Risks — UNCHANGED, with the price risk now live
+Carried forward: pure commodity price reversal (gold already ~25% off its January record at dossier time — **now ~31% off, at $3,885**); production trough and rising costs (2025 production fell to 5.89 Moz from 6.85 Moz in 2024; Q4 AISC guided ~$1,900/oz; 2027 unit costs guided higher on lower silver co-product credits and labour/fuel inflation); JV dependence (38.5% of Nevada Gold Mines is Barrick-operated, ~999koz attributable in 2025, ~18% of production; the 2026 dispute only just settled); execution (Red Chris $4.2–4.8B, 2033-dated); no volume leverage to the shortage. **New emphasis:** the gold-price risk is no longer hypothetical — spot has broken $4,000 and printed a 13-month low; at ~$3,885, Q4 realised prices will be ~$430/oz below Q3's $4,317, and with Q4 AISC guided to ~$1,900, the Q4 margin compresses to roughly ~$1,985/oz from ~$2,863/oz in Q3 (arithmetic on disclosed figures, not a company guide). Zacks explicitly frames the industry outlook as "challenging" on dollar strength and rate-hike expectations.
+
+### 7. Shortage score & verdict
+**Shortage score: 6/10 (unchanged — the supply squeeze is structural, but see below). Verdict: The mine-supply shortage is still real, but the price that monetises it has broken below $4,000 to a 13-month low (~$3,885, −31% from January's record), so the explosive-return case — already a gold-price bet, not a company backlog story — now depends on gold stabilising, not just on scarcity; NEM remains a price-taking miner in a production trough with Q4 costs at ~$1,900/oz.**
 
 ---
 
@@ -192,72 +164,47 @@ Limits: Novo is a real #2 with its own scale (DKK 42bn+ Kalundborg, $4.1bn Clayt
 
 | Ticker | Shortage 0–10 | Irreplaceability 0–10 | One-line verdict |
 |---|---|---|---|
-| MU | 9 | 7 | Purest shortage in the batch — sold out into 2027–28 with triple-digit price rises — but #3 in HBM, so the return depends on the cycle lasting. |
-| ANET | 7 | 6 | Strongest demand in the CEO's tenure, $8.6bn backlog, but Nvidia just took the Ethernet crown and Arista buys its silicon from Broadcom. |
-| LLY | 4 | 8 | Shortage is over (FDA, Dec 2024); a #1 franchise growing volume at falling prices — the explosive case is retatrutide, not scarcity. |
+| ANET | 7 (unchanged) | 6 (unchanged) | No fundamental change in 24h — $8.6bn backlog, strongest demand in the CEO's tenure — but the 4.5% Nov 13 drop on no news shows the Q3 beat is fully priced; Nvidia still holds the Ethernet crown. |
+| LLY | 4 (unchanged) | 8 (unchanged) | Still not a shortage bet, but Nov 12 added a real volume catalyst — China approved orforglipron, the first oral GLP-1 pill in China — plus retatrutide OA-pain and Foundayo sleep-apnea data; explosive case still rests on retatrutide (Q1 2027 filing). |
+| NEM | 6 (unchanged) | 4 (unchanged) | Structural gold-supply squeeze intact, but gold has broken below $4,000 to a 13-month low (~$3,885, −31% from January's record), so the gold-price bet now needs stabilisation first; Q4 margin compresses as AISC hits ~$1,900/oz. |
 
-**Strongest shortage thesis:** MU (9/10), then ANET (7/10), then LLY (4/10).
-**Most irreplaceable:** LLY (8/10), then MU (7/10), then ANET (6/10).
-**Caveats for the panel:** (1) MU's FQ4 figures ($54.23bn revenue, $133.19bn FY) are as reported by Micron Sep 30, 2026 and repeated across secondary sources — they are an order of magnitude above Micron's pre-2026 scale, so the panel should sanity-check them against the 10-K before weighting them; the *direction* (sold-out HBM, price rises, prepayments) is corroborated by SK Hynix, Samsung and Counterpoint independently. (2) ANET's Q3 deferred revenue fell sequentially for the first time — the backlog is huge but stopped growing in Q3. (3) LLY has no backlog metric; "backlog" is proxied by manufacturing commitments and prescription share — do not score it on a backlog it does not disclose.
+**What actually changed since Nov 13 (one line each):** ANET — only price (−4.5%, no news) plus pre-dossier analyst targets verified (Piper $261, UBS $291, Melius $305). LLY — China approved orforglipron Nov 12 (first oral GLP-1 pill in China); Jefferies target $1,610 → $1,700; retatrutide OA-pain and Foundayo sleep-apnea Phase 3 data surfaced; stock +1.26% to $1,443.50. NEM — gold fell to a 13-month low (~$3,885, below $4,000); Zacks industry outlook "challenging"; 2027 cost pressure confirmed by Trefis (no new numbers).
+**Strongest shortage thesis in this batch:** ANET (7/10), then NEM (6/10), then LLY (4/10) — same order as yesterday.
+**Most irreplaceable:** LLY (8/10), then ANET (6/10), then NEM (4/10) — same order as yesterday.
+**Caveats for the panel:** (1) All baseline figures are carried forward from the Nov 13 dossier with their original sources/dates — only the items flagged NEW/CHANGED/VERIFIED above were re-checked today. (2) NEM's Q4 margin arithmetic (~$1,985/oz) is my calculation from disclosed Q3 realised price, Q4 AISC guide and Nov 13 spot — not a company guide. (3) LLY's China approval is positive for volume but pricing/reimbursement there is unannounced; the ex-US price-erosion pattern (−29% in Q3) may repeat.
 
-**Sources (selected, with dates):** Micron FQ4 2026 earnings release Sep 30, 2026; Micron FQ1 2026 release Dec 18, 2025; Counterpoint Research Q2 2026 HBM/DRAM tracker Sep 2–3, 2026; SK Hynix Q3 2026 release Oct 28, 2026; TrendForce via Longbridge Nov 11, 2026; Arista Q3 2026 earnings release + call Nov 3, 2026; Arista Q3 2026 10-Q filed Nov 4, 2026; Arista Q1 2026 call May 5, 2026; Dell'Oro via DK Street Journal Aug 23, 2026; Lilly Q3 2026 results Oct 29, 2026 (Reuters/LSEG); Lilly Lebanon press release May 6, 2026; Lilly Hims & Hers agreement Nov 6, 2026; Lilly Lehigh Valley groundbreaking Nov 12, 2026; FDA shortage-list history via Prax Health (reviewed Oct 27, 2026).
-
----
-
-> Run by: Muse Spark — full panel
-
-# Momentum Research — Batch 2 — Run date 2026-11-13
-
-Screen snapshot prices (Nov 12, 2026, reference only): NEM $118.47, CF $123.24, MSFT $521.13. Next earnings: NEM 2027-02-18, CF 2027-02-17, MSFT 2027-01-27. Research date: 2026-11-13. Sources are dated in-line; where a figure could not be found it is marked "not found" rather than estimated.
+**Sources (new today, with dates):** MarketBeat / Lincolnian / Global Banking & Finance, ANET Nov 13 price action, Nov 13, 2026; American Banking News, KeyCorp ANET estimates + Piper/UBS/Melius targets, Nov 13, 2026; MarketBeat, ANET analyst roundup (TD Cowen cut dated Oct 19, 2026); Reuters via MedicalXpress, China approves first oral GLP-1 pill (orforglipron/Muyouda, Nov 12), Nov 13, 2026; Motley Fool, LLY Jefferies $1,700 target + retatrutide OA / Foundayo sleep-apnea data, Nov 12, 2026; American Banking News, China Merchants Securities LLY downgrade to Hold, Nov 13, 2026; Zacks Industry Outlook, Mining–Gold, Nov 13, 2026; Trefis via Yahoo Finance / ad-hoc-news, NEM 2027 cost outlook, Nov 13, 2026; Finnhub XAU/USD daily candles (Nov 11–13, 2026 closes $3,987.70 / $3,877.59 / $3,884.69); whygoldmoved.com, gold Nov 13, 2026.
+**Sources (carried forward from Nov 13 dossier):** Arista Q3 2026 earnings release + call Nov 3, 2026; Arista Q3 2026 10-Q filed Nov 4, 2026; Arista Q1 2026 call May 5, 2026; Dell'Oro via DK Street Journal Aug 23, 2026; Lilly Q3 2026 results Oct 29, 2026 (Reuters/LSEG); Lilly Lebanon press release May 6, 2026; Lilly Hims & Hers agreement Nov 6, 2026; Lilly Lehigh Valley groundbreaking Nov 12, 2026; FDA shortage-list history via Prax Health (reviewed Oct 27, 2026); Newmont Q3 2026 results Oct 22, 2026; Newmont reserves release Feb 19, 2026; World Gold Council Q3 2026 demand data Nov 4, 2026.
 
 ---
 
-## NEM — Newmont Corporation (gold mining)
+> Run by: Muse Spark (unknown) — full panel
 
-### 1. Shortage thesis
-Yes — a genuine structural mine-supply shortage, though NEM is a price-taker on the metal, not a seller of a rationed product. World Gold Council data via multiple 2026 reports: global gold demand topped 5,000 tonnes in 2025 for the first time; mine production reached a record 3,672 tonnes but grew only ~1% year-on-year, extending a decade-long pattern of <1% average annual mine-supply growth. No genuinely new major gold discovery since 2022 (S&P Global), and a new discovery today would take ~16 years to reach production. Central banks are the demand driver: Goldman Sachs estimates official-sector purchases averaging 900–1,000 tonnes/year — roughly a quarter of annual mine output — since 2022; WGC reported Q3 2026 central-bank buying of 321 tonnes, YTD 675 tonnes (+6% YoY, Nov 4, 2026). Newmont itself realised $4,317/oz in Q3 2026 (vs $4,414 in Q2) while gold traded near $4,100–4,200 in H2 2026, ~25% below its January 2026 record near $5,600/oz but ~25% above a year earlier. The shortage is real at the industry level; NEM's own output is falling, not rising, into it (see §2).
-
-### 2. Backlog / order book
-No order book exists for a gold miner — gold is sold at spot into a liquid market, so there is no backlog. The analogue is reserves + production guidance. Reserves (Feb 19, 2026 release): 118.2 Moz attributable gold reserves at end-2025, down from 134.1 Moz at end-2024, "mainly driven by the divestment of assets in 2025" — still "the industry's largest gold reserve base," ~20 years of production life at 2025 output (5.89 Moz), plus 12.5 Mt copper and 442 Moz silver reserves, and 88.1 Moz measured & indicated + 60.6 Moz inferred resources. Reserves are priced at a $2,000/oz assumption, >20% below the 3-year trailing average and far below spot — management signalled on the Q3 call that year-end reserve/resource numbers are expected to increase as the price assumption rises. Production guidance: FY2026 5.3 Moz attributable gold, on track (Q3: 1.30 Moz; Q4 expected ~1.4 Moz, the strongest quarter). 2027 production guided to grow low-to-mid single digits vs 2026, driven by higher grades at Lihir and Boddington, Tanami, Cerro Negro and Yanacocha. Note the tension: 2026 is a self-described production trough; the "shortage" lifts price, not NEM's volumes.
-
-### 3. Category position
-#1. Newmont describes itself as the world's largest gold producer, ~5% of global mined supply (FY2025 10-K summary); 2025 attributable production 5.89 Moz vs peers Barrick, Agnico Eagle, Kinross, AngloGold, Gold Fields. Largest reserve base in the industry (118.2 Moz). Only gold producer in the S&P 500 / Fortune 500. Market-cap ~$124B (Nov 12, 2026). No single mine >13.5% of NAV; top five assets ~54% of NAV.
-
-### 4. Irreplaceability / disintermediation risk
-Gold itself is irreplaceable as a monetary/reserve asset — no substitute technology routes around it, and central banks buy it precisely because it has no counterparty risk. But NEM the company is highly replaceable: gold is fungible, NEM holds ~5% of mined supply, and any miner's ounce is identical. Customers (refiners, central banks, ETF sponsors) cannot "in-source" mining — it takes a decade-plus, billions in capital, permits and geology — but they don't need NEM specifically; Barrick, Agnico, juniors and recyclers all sell the same ounce. Moat is scale + reserve life + jurisdiction mix (US, Australia, Canada, Ghana), not product differentiation. **Irreplaceability score: 4/10** (the metal is 9/10 irreplaceable; the company is ~4/10 — a low-cost, long-life producer of a commodity, not a sole-source supplier).
-
-### 5. Recent catalysts (last ~3 months)
-- Q3 2026 results (Oct 22, 2026): record Q3 adjusted net income $2.3B / $2.20 per diluted share (beat $1.94–2.05 consensus), revenue $6.36B, adjusted EBITDA $4.0B, free cash flow $1.9B; $8.8B cash, $3.2B net cash. Dividend $0.261/share declared.
-- Full-year cost guidance improved ~10%: by-product AISC cut to ~$1,520/oz from $1,680; Q3 AISC $1,454/oz.
-- Red Chris block-cave update (Oct 22): feasibility study being finalised, full funds decision expected early 2027; first phase 275–325koz gold + 65–85kt copper/year over 13 years, development capital $4.2–4.8B (100% basis), commercial production 2033.
-- Nevada Gold Mines dispute settled (agreement Aug 10, 2026): Fourmile/Fiberline/Mike go into NGM, all disputes settled, governance modernised; $1.95B payment due in Q4 2026 (takes pro-forma net cash to ~$1.3B, near the $1B target).
-- Gold price: Q3 realised $4,317/oz; WGC Q3 demand data (Nov 4) showed central-bank buying accelerating.
-
-### 6. Risks
-- Pure commodity price reversal: gold fell ~25% from its January 2026 record (~$5,600) to ~$4,100–4,200; a further unwind of geopolitical/real-rate premiums hits NEM's earnings directly (85% of 2025 sales from gold). Q3 realised price already $97/oz below Q2.
-- Production trough and rising costs: 2025 production fell to 5.89 Moz from 6.85 Moz in 2024; Q4 AISC guided to ~$1,900/oz (highest of the year); 2027 unit costs guided higher on lower silver co-product credits (Peñasquito silver ~30% lower in 2027) and labour/fuel inflation.
-- JV dependence: 38.5% of Nevada Gold Mines is Barrick-operated (~999koz attributable in 2025, ~18% of production); the 2026 mismanagement/default dispute was only just settled.
-- Execution: Red Chris is a $4.2–4.8B, 2033-dated bet; Lihir water availability risk from strengthening El Niño flagged for Q4.
-- No volume leverage to the shortage: NEM cannot produce more gold quickly even at $4,300+/oz.
-
-### 7. Shortage score: 6/10
-**Verdict:** A real structural gold-supply squeeze with record central-bank demand, but NEM is a price-taking miner in a production trough — the shortage lifts the gold price, not NEM's volumes, so the explosive-return case is a gold-price bet, not a company-specific backlog story.
+# Momentum research — Batch 2: CF / MSFT / APH
+**Run date:** 2026-11-14 | **Model:** Muse Spark — full panel
+**Screen snapshot prices (Nov 13 close, 2026, reference only):** CF $125.09 | MSFT $523.88 | APH $78.23
+**Next earnings:** CF 2027-02-17 | MSFT 2027-01-27 | APH 2027-01-27
+**Method:** web search, primary sources (company earnings releases / calls, 10-Q) preferred, reputable press second. CF and MSFT were researched 2026-11-13 in `output/momentum/research_dossier_2026-11-13.md` — those sections are the baseline below, refreshed for news since Nov 13; where nothing changed I say so and carry the prior figures forward with original sources/dates. APH is new to this panel and is researched from scratch. "Not found" means not found in this search round; no figures fabricated.
 
 ---
 
-## CF — CF Industries Holdings (nitrogen fertilizer / ammonia)
+## CF — CF Industries Holdings (nitrogen fertilizer / ammonia) — REFRESH of 2026-11-13 dossier
+
+### Refresh note (what changed since Nov 13, 2026)
+**Nothing company-specific has changed.** No new CF press release, filing, analyst note or earnings item surfaced in searches dated Nov 13–14, 2026. The one new market datapoint is a **softening urea price**: urea ~$434.50/t on Nov 11, 2026 (down from $442.50 on Nov 4 and $440.00 on Nov 5), ~38% below its 12-month high, with the weekly market view "softening" — India has delayed its next major tender (potentially ~2.5 Mt) and purchasing seasons are ending in Australia, Thailand and Brazil (AFC weekly update w/e Oct 30, 2026, published Nov 2; urea price tracker updated Nov 14, 2026). Middle East export disruption persists (Strait of Hormuz complications, only limited cargoes moving; Oman's OMIFCO among the few regional producers actively exporting). CF shares: $123.24 screen Nov 12 → $125.09 Nov 13 close (+1.5%). All load-bearing figures below are carried forward unchanged from the Nov 13 dossier (Q3 2026 results Nov 4–5, 2026).
 
 ### 1. Shortage thesis
 Yes — the strongest, most concrete shortage thesis in this batch, stated in those terms by management on the Q3 2026 call (Nov 5, 2026). Drivers, all quantified by CF: (a) Middle East hostilities since late February 2026 have removed ~9 million metric tons of urea supply; Middle East urea exports running ~800,000 t/month vs a normal 1.5–1.7 Mt/month, and "normalization could take four to six months even if hostilities ended immediately"; (b) >35% of European ammonia capacity curtailed (37% offline/reduced in October per the earnings release) on high natural gas costs, plus Trinidad permanently shutting 35% of its ammonia capacity; (c) global nitrogen inventories low across North America, South America, Europe and Southeast Asia; (d) new capacity under construction is "not sufficient to meet global nitrogen demand growth and expected permanent shutdowns through 2030." Demand rebounded in Q3 as buyers in North America, South America and Europe returned; India is expected to import >10 Mt of urea in 2026. Chinese urea exports (~9 Mt authorised vs <5 Mt last year) "have not materially loosened the global nitrogen balance." CF ran its available ammonia capacity at 97% utilisation in the first nine months of 2026 and shipped nearly 2 Mt of UAN in Q3 — its largest quarterly UAN volume this decade. Management: "we expect the global nitrogen supply-demand balance to remain constructive into 2027" and nitrogen pricing "to follow a positive trajectory through at least the first half of 2027."
+*Update:* the Nov 11 urea price (~$434.50/t) and the delayed India tender soften the near-term price tape slightly, but do not change the supply-side facts above — exports remain disrupted and inventories low. The thesis is intact; the price signal is mixed at the margin.
 
 ### 2. Backlog / order book
-CF does not report a dollar backlog; its order book is the seasonal fill-programme book. On the Q3 call (Nov 5, 2026): the UAN fill programme supported ~2 Mt of Q3 shipments and "its order book extended into the first quarter of 2027"; fall ammonia programme participation was "very strong" and, weather permitting, volumes "could rank among the highest of the past 10 years." Production analogue: 9M 2026 ammonia production ~7.2 Mt at 97% utilisation; FY2026 gross ammonia production guidance reaffirmed at ~9.5 Mt. Yazoo City complex restart expected H1 2027 is the next volume driver. So: booked ~1–2 quarters out on fill programmes, with effectively 100% of available capacity sold — a sold-out producer, not a backlog-measured one.
+CF does not report a dollar backlog; its order book is the seasonal fill-programme book. On the Q3 call (Nov 5, 2026): the UAN fill programme supported ~2 Mt of Q3 shipments and "its order book extended into the first quarter of 2027"; fall ammonia programme participation was "very strong" and, weather permitting, volumes "could rank among the highest of the past 10 years." Production analogue: 9M 2026 ammonia production ~7.2 Mt at 97% utilisation; FY2026 gross ammonia production guidance reaffirmed at ~9.5 Mt. Yazoo City complex restart expected H1 2027 is the next volume driver. So: booked ~1–2 quarters out on fill programmes, with effectively 100% of available capacity sold — a sold-out producer, not a backlog-measured one. *No change since Nov 13.*
 
 ### 3. Category position
-#1. World's largest producer of anhydrous ammonia and North America's largest pure-play nitrogen manufacturer. US ammonia capacity share ~39% (CF) vs Nutrien ~16%, Koch ~10%, LSB ~5% (farmdoc daily, May 2026, via AgManager Oct 1, 2026); top four firms hold ~70% of US ammonia capacity, HHI ~2,010 (highly concentrated). CF controls ~40% of North American ammonia capacity, 41% of granular urea, 44% of UAN and 19% of ammonium nitrate capacity. In the broader US agricultural macronutrients market CF leads with 16–19% share vs Nutrien 14–17% (BIS Research, 2025). Cost edge: lowest-cost geography, realised gas cost $3.31/MMBtu in 2025; natural gas is 70–80% of cash costs, and European/Asian rivals pay LNG/coal-linked prices.
+#1. World's largest producer of anhydrous ammonia and North America's largest pure-play nitrogen manufacturer. US ammonia capacity share ~39% (CF) vs Nutrien ~16%, Koch ~10%, LSB ~5% (farmdoc daily, May 2026, via AgManager Oct 1, 2026); top four firms hold ~70% of US ammonia capacity, HHI ~2,010 (highly concentrated). CF controls ~40% of North American ammonia capacity, 41% of granular urea, 44% of UAN and 19% of ammonium nitrate capacity. In the broader US agricultural macronutrients market CF leads with 16–19% share vs Nutrien 14–17% (BIS Research, 2025). Cost edge: lowest-cost geography, realised gas cost $3.31/MMBtu in 2025; natural gas is 70–80% of cash costs, and European/Asian rivals pay LNG/coal-linked prices. *No change since Nov 13.*
 
 ### 4. Irreplaceability / disintermediation risk
-Nitrogen is biologically irreplaceable — there is no substitute for fixed nitrogen in high-yield corn/wheat farming, and the Haber-Bosch process is the only industrial route at scale. Customers (farmers, distributors) cannot in-source: a world-scale ammonia plant costs billions, takes years to permit/build, needs cheap gas, pipelines/barges/storage and safety certification for a hazardous chemical. CF's moat is (i) scale + lowest-cost North American gas, (ii) the deepest distribution network in the industry (pipelines, barges, terminals from the Gulf Coast to the Corn Belt), and (iii) a concentrated industry where the #1 holds ~39% of US capacity. Threats are at the margin, not existential: biological nitrogen / precision-agriculture could trim application rates over a decade, and low-carbon ("blue/green") ammonia is a new demand pool CF itself is capturing (Donaldsonville CCS sequestering 2 Mt CO₂/year with ExxonMobil; ~$20+/t premium on low-carbon ammonia sales; $4B Blue Point JV with JERA/Mitsui, 1.5 Mt nitrogen-equivalent capacity). No customer can realistically build its own ammonia plant. **Irreplaceability score: 8/10.**
+Nitrogen is biologically irreplaceable — there is no substitute for fixed nitrogen in high-yield corn/wheat farming, and the Haber-Bosch process is the only industrial route at scale. Customers (farmers, distributors) cannot in-source: a world-scale ammonia plant costs billions, takes years to permit/build, needs cheap gas, pipelines/barges/storage and safety certification for a hazardous chemical. CF's moat is (i) scale + lowest-cost North American gas, (ii) the deepest distribution network in the industry (pipelines, barges, terminals from the Gulf Coast to the Corn Belt), and (iii) a concentrated industry where the #1 holds ~39% of US capacity. Threats are at the margin, not existential: biological nitrogen / precision-agriculture could trim application rates over a decade, and low-carbon ("blue/green") ammonia is a new demand pool CF itself is capturing (Donaldsonville CCS sequestering 2 Mt CO₂/year with ExxonMobil; ~$20+/t premium on low-carbon ammonia sales; ~$4B Blue Point JV with JERA/Mitsui, 1.5 Mt nitrogen-equivalent capacity; final permits received July 2026, $3.7B Blue Point One targeting 1.4 Mt/year). No customer can realistically build its own ammonia plant. **Irreplaceability score: 8/10.** *Unchanged.*
 
 ### 5. Recent catalysts (last ~3 months)
 - Q3 2026 results (Nov 4–5, 2026): net earnings $436M / $2.87 per diluted share (vs $353M / $2.19 a year earlier); net sales $1.86B (+12% YoY, beat ~$1.79B consensus); adjusted EBITDA $833M; 9M adjusted EBITDA ~$3.0B; sales volumes +7% to 4.8 Mt.
@@ -265,310 +212,404 @@ Nitrogen is biologically irreplaceable — there is no substitute for fixed nitr
 - Blue Point: ~$4B low-carbon ammonia JV with JERA and Mitsui advanced in 2025; 1.5 Mt nitrogen-equivalent capacity on completion. Low-carbon UAN certifications secured; >$20/t average premium on low-carbon ammonia sales.
 - Capital returns: 3M shares repurchased for $367M in Q3; management projects 15% nitrogen-per-share growth by 2030 from growth projects + buybacks.
 - Yazoo City restart expected H1 2027 (volume driver); FY2026 capex ~$950M reaffirmed.
+*No new catalyst since Nov 13.*
 
 ### 6. Risks
 - Cyclicality is the core risk: nitrogen is a commodity; the shortage is partly geopolitical (Middle East war, European gas) and could normalise — management itself says 4–6 months to normalise if hostilities end. A peace deal or gas-price collapse would unwind prices fast.
-- Demand-side softness: Brazil credit constraints — urea demand down ~1 Mt vs 2025, overall fertiliser demand down 7–9 Mt; Chinese export policy is a swing factor (authorisations nearly doubled to ~9 Mt).
+- Demand-side softness: Brazil credit constraints — urea demand down ~1 Mt vs 2025, overall fertiliser demand down 7–9 Mt; Chinese export policy is a swing factor (authorisations nearly doubled to ~9 Mt). **New:** urea prices softening in early November on the delayed India tender — a reminder the price tape can sag even while supply stays disrupted.
 - Natural-gas price risk in the US (feedstock 70–80% of cash costs) and the Yazoo City outage (ongoing since the Nov 2025 incident; restart H1 2027 not yet delivered).
-- Valuation: the stock has already run hard on this story (up sharply over the last 12 months per April 2026 coverage); the shortage is now consensus and priced in part.
+- Valuation: the stock has already run hard on this story; the shortage is now consensus and priced in part.
 - Long-term substitution: biologicals/precision ag could erode nitrogen intensity over a decade; low-carbon ammonia demand (shipping/power co-firing) is policy-dependent.
 
-### 7. Shortage score: 9/10
-**Verdict:** The cleanest shortage in the batch — 97% utilisation, a sold-out order book into Q1 2027, ~9 Mt of urea supply removed by war and >35% of European capacity curtailed, with the #1 producer holding a 39% US capacity share and the lowest-cost gas on earth; the bet is on the disruption lasting into 2027, not on CF finding new demand.
+### 7. Shortage score & verdict
+**Shortage score: 9/10 (unchanged). Verdict: The cleanest shortage in the batch — 97% utilisation, a sold-out order book into Q1 2027, ~9 Mt of urea supply removed by war and >35% of European capacity curtailed, with the #1 producer holding a 39% US capacity share and the lowest-cost gas on earth; the bet is on the disruption lasting into 2027, not on CF finding new demand. Early-November urea price softness on the delayed India tender is a watch item, not a thesis break.**
 
 ---
 
-## MSFT — Microsoft (Azure / AI cloud)
+## MSFT — Microsoft (Azure / AI cloud) — REFRESH of 2026-11-13 dossier
+
+### Refresh note (what changed since Nov 13, 2026)
+**Two material new items, both negative for near-term sentiment, neither changing the backlog or Azure numbers:**
+1. **Global Microsoft 365 outage, Nov 12–13, 2026.** A disruption starting around midday Thu Nov 12 took down Outlook, Teams, Copilot and Microsoft 365 worldwide — Downdetector recorded >130,000 Outlook problem reports at the peak (1:27 p.m. ET Nov 12), >46,000 for Microsoft 365, ~3,000 for Teams; reports from 74+ countries; the outage lasted ~12–19 hours, with Microsoft reporting broad recovery on Nov 13 but email backlogs persisting. Cause reported as a failed network upgrade / network changes, not a cyberattack. Shares fell >1% on Nov 12 and were down ~2.5% pre-market Nov 13 before recovering to close Nov 13 at $523.88 (+0.17% on the day).
+2. **Price action:** MSFT closed Nov 13 at $523.88, down from its Nov 4 all-time high of $559.15 (~-6.3%) and below both its 50-day (~$534.98) and 200-day (~$531.50) moving averages (TradingKey, Nov 13). The Nov 10 Anthropic workplace launch (Claude Sheets/Whiteboards, −2.2% that day) remains the other live overhang.
+3. **Ignite is imminent, not yet held:** Microsoft Ignite runs Nov 17–20, 2026 in San Francisco (keynote Tue Nov 17, 10:00 a.m.–noon PT, Nadella + Judson Althoff). No announcements have been made yet — treat any Ignite upside as pending, not delivered. Pre-event signals: new Copilot experience for Frontier members (Home/Code/Autopilot), usage-based billing for new Copilot Business CSP licences now pushed to FY27 Q3 (Jan–Mar 2027) after two delays, and Microsoft last cited ">30M paid Microsoft 365 Copilot seats" in July 2026 with no update in the Oct 28 Q1 FY27 release.
+All load-bearing figures below are carried forward unchanged from the Nov 13 dossier (Q1 FY27 results Oct 28, 2026).
 
 ### 1. Shortage thesis — and the wrong-side-of-the-trap question
 The shortage is real but MSFT is the seller of the scarce good, not the buyer trapped by it — which is the right side, with a catch. On the FY2026 Q3 and Q4 calls and again on the FY2027 Q1 call (Oct 28, 2026), CFO Amy Hood said customer demand continues to exceed available Azure capacity and Microsoft expected to stay capacity-constrained at least through calendar 2026; in Q1 FY27 some third-party GPU capacity expected in the September quarter was delayed, with a portion pushed into H2 FY27, and "customer demand continued to exceed available supply." The constraint is concrete for customers: delayed access to specific GPU VM families, limited regional availability, slower quota approvals. Azure revenue still grew 48% in Q1 FY27 despite the delays, via efficiency gains (Foundry revenue more than tripled; better monetisation of underused CPU capacity) and token pricing above expectations. The demand side: IEA projects global data-centre electricity use rising from ~485 TWh (2025) to ~950 TWh by 2030; Goldman Sachs forecasts ~$7.6T of AI infrastructure investment 2026–2031. So yes — Azure AI compute is in a genuine demand-exceeds-supply shortage, and MSFT is the hyperscaler rationing it. The "trap" applies to MSFT's customers (OpenAI, Anthropic, enterprises) and to MSFT's own first-party Copilot services competing with external customers for the same silicon — Hood said capacity must be balanced across external Azure customers, first-party apps, R&D and server replacement. MSFT is not the wrong side of the trap; it is the toll-keeper. The trap for MSFT is different: it must spend ~$170B of capex in calendar 2026 (originally ~$190B; reduced largely by an accounting change moving data-centre leases to operating leases, plus delayed third-party deliveries) to serve demand it cannot yet meet, and the return on that spend is unproven.
+*Update:* the Nov 12–13 outage is a reliability dent, not a capacity change — it does not alter the demand-exceeds-supply picture, but it hands Anthropic/Google a live "reliability + workplace" talking point days before Ignite.
 
 ### 2. Backlog / order book
-Commercial remaining performance obligation (RPO) — Microsoft's contracted backlog — was $677B at Sep 30, 2026, up 73% YoY (vs $678B at Jun 30, 2026 — essentially flat sequentially). Weighted average duration 2.3 years; ~30% expected to be recognised as revenue in the next 12 months (+29% YoY), the portion beyond 12 months up 98%. Commercial bookings fell 12% YoY, reflecting large Azure commitments in the prior-year quarter (partly offset by a large Azure commitment signed this quarter). Caveat from independent analysis (Convexity, Nov 2026): the backlog has grown only ~8.3% since December 2025, the quarter OpenAI's contract landed — the RPO surge is heavily concentrated in a few frontier-model commitments. Also disclosed: $10.0B of Q1 FY27 revenue from commercial arrangements with OpenAI (incl. revenue-sharing), and data-centre leases signed but not yet commenced more than doubled to $364.6B (from $155.1B in December). So the backlog is enormous (~7x annual Azure revenue) but its growth has stalled sequentially and is concentrated in OpenAI/Anthropic-scale counterparties.
+Commercial remaining performance obligation (RPO) — Microsoft's contracted backlog — was $677B at Sep 30, 2026, up 73% YoY (vs $678B at Jun 30, 2026 — essentially flat sequentially). Weighted average duration 2.3 years; ~30% expected to be recognised as revenue in the next 12 months (+29% YoY), the portion beyond 12 months up 98%. Commercial bookings fell 12% YoY, reflecting large Azure commitments in the prior-year quarter (partly offset by a large Azure commitment signed this quarter). Caveat from independent analysis (Convexity, Nov 2026): the backlog has grown only ~8.3% since December 2025, the quarter OpenAI's contract landed — the RPO surge is heavily concentrated in a few frontier-model commitments. Also disclosed: $10.0B of Q1 FY27 revenue from commercial arrangements with OpenAI (incl. revenue-sharing), and data-centre leases signed but not yet commenced more than doubled to $364.6B (from $155.1B in December). So the backlog is enormous (~7x annual Azure revenue) but its growth has stalled sequentially and is concentrated in OpenAI/Anthropic-scale counterparties. *No change since Nov 13 — no new RPO figure disclosed.*
 
 ### 3. Category position
-#2 in cloud infrastructure, not #1. Synergy Research Group: Q2 2026 — AWS 28%, Microsoft 20%, Google Cloud 15%; Q3 2026 — AWS 26%, Microsoft 19%, Google gaining (CRN/Synergy, Nov 2026). Azure is, however, the fastest-growing of the big three in AI: Azure revenue +48% in Q1 FY27 to $33.2B (vs AWS +39% in Q3 2026 per Synergy summaries), annual Azure revenue >$100B (crossed in FY2026), Microsoft Cloud $63.9B in the quarter (+30%). In enterprise software / productivity MSFT is #1 (Microsoft 365 Copilot >30M paid seats; AI business ~$37B annualised revenue run rate per Tickeron summary of Q1 FY27). So: #2 in raw cloud share, #1 in enterprise AI distribution.
+#2 in cloud infrastructure, not #1. Synergy Research Group: Q2 2026 — AWS 28%, Microsoft 20%, Google Cloud 15%; Q3 2026 — AWS 26%, Microsoft 19%, Google gaining (CRN/Synergy, Nov 2026). Azure is, however, the fastest-growing of the big three in AI: Azure revenue +48% in Q1 FY27 to $33.2B (vs AWS +39% in Q3 2026 per Synergy summaries), annual Azure revenue >$100B (crossed in FY2026), Microsoft Cloud $63.9B in the quarter (+30%). In enterprise software / productivity MSFT is #1 (Microsoft 365 Copilot >30M paid seats; AI business ~$37B annualised revenue run rate per Tickeron summary of Q1 FY27). So: #2 in raw cloud share, #1 in enterprise AI distribution. *No change since Nov 13.*
 
 ### 4. Irreplaceability / disintermediation risk
 MSFT's moat is distribution and lock-in, not sole-source silicon. Enterprises cannot realistically in-source hyperscale AI: building a frontier-scale GPU fleet, power contracts, and the software stack (identity via Entra, M365, GitHub, Dynamics, Foundry) is a multi-hundred-billion-dollar endeavour — only AWS, Google, Meta and Oracle operate at that scale, and even Meta buys capacity. Switching costs are high (Entra ID, M365 integration, hybrid tooling, licensing benefits rivals cannot match). But the disintermediation risk runs the other way and is real: (a) MSFT's biggest AI customers are also its biggest risks — OpenAI and Anthropic are simultaneously its largest Azure tenants and emerging competitors (Anthropic launched Claude Sheets/Whiteboards/Data in Nov 2026, taking aim at Excel; MSFT shares fell 2.2% to $533.16 on Nov 10 on that news; Anthropic committed to buy $30B of Azure capacity in Nov 2025 while MSFT agreed to invest up to $5B and buy ~$1B of Anthropic IPO shares); (b) the model labs could shift spend to AWS/Google/CoreWeave or build their own capacity (OpenAI's Stargate, Anthropic's own infra ambitions); (c) custom silicon (MSFT's own Maia/Cobalt, plus customer-designed chips) commoditises the GPU layer over time. The moat is the enterprise control plane, not the compute itself. **Irreplaceability score: 6/10** — very hard to replace as an enterprise platform, quite replaceable as a GPU landlord.
+*Update:* new detail — an amended filing identifies at least **$44.9B in Anthropic commitments through June 2033** (subject to delivery/breach provisions), and MSFT is developing the Maia 300 custom processor, reportedly targeting 40% more tokens per megawatt than leading GPU systems (reported Nov 12–13). Also reported Nov 13: MSFT let its Oracle cloud-capacity deal lapse and ended ties with Nscale and IREN, moving AI building in-house with 2026 spending of $175–190B. The in-house turn sharpens both the moat (control) and the capex risk. Score unchanged at 6/10.
 
 ### 5. Recent catalysts (last ~3 months)
 - Q1 FY2027 earnings (Oct 28, 2026): revenue $92.3B (+19%, beat ~1.9%), non-GAAP EPS $4.89 (+18%, beat $4.72 consensus), GAAP EPS $4.92 (+32%); Azure +48% to $33.2B vs 44–45% guide; Microsoft Cloud $63.9B (+30%); operating income $45.9B (+21%), margin 49.8%.
 - Guidance: Q2 FY27 revenue $96.0–97.1B; Azure growth guided 49–50% in constant currency (acceleration from 48%).
 - Analyst upgrades post-earnings: Baird raised target $500 → $600 (Oct 30, Outperform); TD Cowen $625 → $650 (Oct 29, Buy); BNP Paribas to $632; Dan Ives (Wedbush) maintained Outperform, $615, "top software pick heading into 2027"; consensus ~Moderate Buy, average target ~$609; Citi $680 Buy and Morgan Stanley $650 Overweight reiterated ahead of Ignite (Nov 12).
-- Ignite conference Nov 17–20, 2026 (San Francisco) — Azure/Copilot/agents expected to lead; Citi and Morgan Stanley expect a rebound narrative.
+- **Ignite conference Nov 17–20, 2026 (San Francisco)** — Azure/Copilot/agents expected to lead; Citi and Morgan Stanley expect a rebound narrative. *Not yet held — pending catalyst.*
 - Capex discipline signal: Q1 capex $45.2B (cash capex $39.4B per 10-Q), below the feared run-rate; calendar-2026 capex ~$170B after third-party delays pushed some spend into H2 FY27.
+- *New, negative:* the Nov 12–13 global M365 outage (see refresh note) — a reliability event, not a financial catalyst, but it is the freshest market-moving item and it cut the other way.
 
 ### 6. Risks
-- The $170B capex / ROI question is the central risk: Microsoft is spending at a rate that dwarfs its free cash flow growth, and returns depend on AI demand persisting and token pricing holding. If the AI build-out is overbuilt, MSFT owns the stranded data centres.
+- The $170B capex / ROI question is the central risk: Microsoft is spending at a rate that dwarfs its free cash flow growth, and returns depend on AI demand persisting and token pricing holding. If the AI build-out is overbuilt, MSFT owns the stranded data centres. (Reported 2026 spend now framed as $175–190B in some Nov 13 coverage — the upper end is worse than the $170B in the Oct 28 framing.)
 - Customer concentration in the backlog: RPO growth has stalled sequentially (+73% YoY but flat vs June) and is concentrated in frontier-model customers (OpenAI $10B of quarterly revenue); if OpenAI/Anthropic slow or diversify, the backlog's quality is exposed.
-- Competition: AWS still leads (26–28% share) and Google Cloud is gaining share fastest (+3pts YoY in Q3); Anthropic's move into Office software shows partners becoming rivals.
-- Valuation already prices the shortage: ~$3.9T market cap at ~$521; consensus targets $609–680 imply the Azure acceleration is expected, not a surprise. Shares fell ~5% on Nov 10–12 (from ~$555 to ~$521) on Anthropic/competition fears and the broader tech selloff — momentum is fragile.
+- Competition: AWS still leads (26–28% share) and Google Cloud is gaining share fastest (+3pts YoY in Q3); Anthropic's move into Office software shows partners becoming rivals — now a realised share-price event (−2.2% Nov 10), not a hypothetical.
+- **Reliability:** the Nov 12–13 outage hit Outlook/Teams/Copilot for ~12–19 hours across 70+ countries, including government agencies; it is the kind of event that feeds SLA-credit and switching conversations, even if no displacement has been demonstrated.
+- Valuation already prices the shortage: ~$3.9T market cap at ~$524; consensus targets $609–680 imply the Azure acceleration is expected, not a surprise. Shares fell ~6% from the Nov 4 high by Nov 13 — momentum is fragile and the stock is now below its 50- and 200-day averages.
 - Token pricing and efficiency gains that flattered Q1 Azure growth "vary from quarter to quarter" (management's own words); the 49–50% guide depends on delayed third-party capacity actually arriving in H2 FY27.
 
-### 7. Shortage score: 7/10
-**Verdict:** Azure AI demand genuinely exceeds supply and MSFT is the toll-keeper, not the trapped buyer — but it is spending ~$170B a year to stay that way, its backlog growth has stalled sequentially and is concentrated in two frontier labs, and at ~$521 the shortage is already the consensus story, so the explosive upside needs the ROI to show up, not just the shortage to persist.
+### 7. Shortage score & verdict
+**Shortage score: 7/10 (unchanged). Verdict: Azure AI demand genuinely exceeds supply and MSFT is the toll-keeper, not the trapped buyer — but it is spending ~$170B+ a year to stay that way, its backlog growth has stalled sequentially and is concentrated in two frontier labs, and at ~$524 the shortage is already the consensus story. The Nov 12–13 global outage and the Anthropic workplace attack add near-term sentiment risk into Ignite (Nov 17–20); the explosive upside needs the ROI to show up, not just the shortage to persist.**
+
+---
+
+## APH — Amphenol Corporation (interconnect / connectors / sensors) — NEW, researched from scratch
+
+### 1. Shortage thesis
+Yes — a genuine, AI-driven shortage in the high-speed interconnect layer, though it is a *capacity/qualification* shortage, not a commodity price spike. The driver: AI data-centre buildout has moved the bottleneck inside the rack. At 224 Gb/s per lane and climbing, a signal running along a printed-circuit-board trace degrades before it arrives, so traffic must be lifted off the board into precisely built cable assemblies — copper, optical and power interconnect that Amphenol makes. CEO R. Adam Norwitt on the Q3 call (Oct 28, 2026): customers building next-generation AI architectures "need more interconnect, period. More copper, more optical, more power." Concrete evidence:
+- **High-speed interconnect lead times of 40+ weeks** vs 8–16 weeks for standard connectors (Utmel high-speed connector shortage outlook, 2026, citing LINK-PP industry analysis): "standard commodity connectors remain stable while high-speed interconnects, RF modules, and optical transceivers face severe, localized constraints" driven by hyperscale AI expansion, with >$600B in committed multi-year hyperscaler capex reallocating manufacturing capacity toward high-margin AI components. 800G/1.6T Ethernet transition requires entirely new connector families; copper demand per rack approaches ~27 tons per MW of data-centre capacity (IBS Electronics Market Report, via Utmel).
+- **Amphenol's own demand signal is the shortage in numbers:** IT datacom grew 30% sequentially in Q3 — twice the guided mid-teens pace — and 77% organically YoY; management said the strength reflected fulfilled customer demand, "not pull-ins" (Q3 call). Supply-chain commentary (Semibuffer, Nov 2, 2026): "If Amphenol or TE connectors are on your 2027 builds, confirm lead time and allocation for each part number before you release orders" — orders running ahead of sales at both Amphenol and TE.
+- Corroboration from the optical side: Corning's Q3 2026 call reported Optical Communications revenue +44%, Enterprise Networks +84%, Gen AI product sales +100%+, with management stating "our overall price is going up" on higher connectivity content per deployment — the same AI-connectivity squeeze, priced upward.
+- Caveat: no Amphenol-specific lead-time figure was published for its own part numbers (Semibuffer explicitly notes "I have no lead-time figure for these families this week"), and Amphenol itself has not declared a shortage — the evidence is bookings, growth and industry lead times, not a management "sold out" quote. The shortage is in the *high-speed/AI tier*, not in connectors generally.
+
+### 2. Backlog / order book
+Amphenol does **not disclose a dollar backlog total** — its 10-Q states a substantial portion of remaining performance obligations is expected to be fulfilled within three months, so it has "not disclosed the aggregate amount" (Q3 2026 10-Q, filed Oct 30, 2026; confirmed by EvidInvest read-back, Nov 11, 2026). The order-flow proxy is exceptionally strong:
+- **Orders $12.17B in Q3 2026, +99% YoY, +13% QoQ — a record** (company press release, Oct 28, 2026). Book-to-bill **1.19:1**, the fourth consecutive quarter at 1.19 or higher (Q2 1.23, Q1 1.24, Q4 2025 1.31 per Aardvark Labs).
+- **Orders exceeded sales by $1.94B in the quarter** — matching Q2's +$1.94B and Q1's +$1.82B; **$5.7B added year-to-date** through Sep 30, 2026, more than half a quarter of current revenue (Aardvark Labs, Oct 28, 2026 recap).
+- Book-to-bill positive in nearly every end market in Q3. Management described longer-dated orders as normal and said demand largely came from highly capitalized companies; analysts pressed on whether the extended backlog carried cancellation risk — **no non-cancelable obligations, deposits or minimum-volume guarantees were established** (Atlas Peak Research summary of the call). So the "backlog" is real order flow, but it is not contractually locked the way MSFT's RPO is.
+- How far out: not disclosed in quarters; management said on the call the backlog is extended "a little bit more than historical." Treat as ~2–4 quarters of forward cover implied by the $5.7B YTD orders-minus-sales build, not a dated figure.
+
+### 3. Category position
+**No — #2 in connectors overall, #1 in fiber-optic connectors.** Global connector market ~$75B in 2025, ~$78.5B in 2026 (Global Market Insights): **TE Connectivity leads with >12% share; Amphenol is #2** among the top 5 (TE, Amphenol, Molex, Aptiv, Foxconn) which collectively hold ~35%. In cable assemblies, TE 18.2% vs Amphenol 12.4% (Verified Market Research, Mar 2026). **In fiber-optic connectors Amphenol leads with >12.5% share in 2025**, ahead of Corning 10.8% and TE 9.2% (GMI fiber-optic connector report). In the US wire-connector manufacturing industry Amphenol holds the most market share (IBISWorld, Oct 2026). In automotive connectors TE is the undisputed leader (22.4% vs Amphenol lower). So: not the overall #1, but the leader in the fastest-growing slice (fiber-optic / AI datacom interconnect) and the largest US player. The AI-relevant segment — IT datacom — is 48% of Amphenol's sales and growing 77% organically; TE's AI exposure is real but its datacom mix is smaller.
+
+### 4. Irreplaceability / disintermediation risk
+**Irreplaceability score: 7/10.**
+Moat: high-speed interconnect is a **narrow node** — a short list of companies (Amphenol, TE, Molex) with decades of process knowledge in signal integrity at 224 Gb/s/lane; products are designed into architectures at the shelf and rack level, then qualified there, and "when a failed link can take an entire training run down with it, nobody chases the cheapest cable" (AInvest, Aug 2026). Amphenol's OverPass cables carry up to 12.8 Tb/s, replacing PCB traces in the largest AI racks. Qualification is slow and expensive, failure is expensive — no quick route around. Amphenol also owns the copper→optical migration: the $10.5B CommScope Connectivity and Cable Solutions acquisition (closed Jan 2026) gave it the fiber/structured-cabling franchise, now guided to $5.1B of 2026 sales (up from $3.6B at deal time). Breadth across copper, optical and power in one supplier is the pitch — "more interconnect, period" across all three.
+The limits on the score: (a) Amphenol is **not the sole source** — TE and Molex make the same families, and hyperscalers dual-source and qualify multiple vendors; (b) the architecture itself can route around copper: as Nvidia shifts from Oberon to Kyber (theoretically 2028), the backplane Amphenol supplies is lost and the design moves to a PCB midplane structure — management acknowledged this transition on the Q3 call; (c) hyperscalers could in-source *design* of interconnect (they already co-design racks with Nvidia) but they do not manufacture precision connectors at scale — the manufacturing process knowledge, not the design, is the moat, and no hyperscaler has shown intent to build connector factories; (d) optical substitution (co-packaged optics, silicon photonics) could compress the copper content per rack over time, though Amphenol's CommScope fiber position hedges exactly that shift.
+Threat to watch: Nvidia's rack architecture decisions (Oberon → Kyber) are the single biggest design-win risk — a platform shift can strand a product family even while total interconnect spend grows.
+
+### 5. Recent catalysts (last ~3 months)
+- **Q3 2026, Oct 28, 2026 — first $10B quarter:** sales $10,229.7M, +65% YoY (+37% organic), beating the July guide ceiling by $830M and Street (~$9.49B) by 7.8%; adjusted EPS $0.80 (+74%), beating $0.73 consensus by 9.6%; adjusted operating margin 29.7%. IT datacom $~4.9B (48% of sales), +117% YoY / +77% organic; AI now ~three-quarters of IT datacom revenue (~36% of the whole company), up from ~half in 2025. Communications Solutions segment $6.6B, +99% / +51% organic, 33.1% margin. Operating cash flow $2.1B (102% of net income); free cash flow $1.6B (80% of net income).
+- **Guidance raised:** Q4 2026 sales $10.3–10.5B (+60–63% YoY), adjusted EPS $0.81–0.83 (vs ~$0.75 / $9.7B consensus); FY2026 sales $36.9–37.1B, adjusted EPS $2.82–2.84 (vs $35.7B / $2.69 expected). CommScope 2026 sales outlook raised again to $5.1B (from $4.6B, and $3.6B at deal time), $0.18 EPS accretion, low-20s operating margin.
+- **Capital returns:** quarterly dividend raised 20% to $0.15/share (payable Jan 13, 2027, record Dec 22, 2026); new three-year **$4B stock repurchase program** announced Oct 28.
+- **M&A:** closed Empire Electronics (automotive interconnect assemblies) Oct 28; signed definitive agreements to acquire AdvancedPCB, Dexgreen and Humanetics Sensors — four deals totalling ~$1.6B, mostly away from AI (auto/industrial/defense sensing).
+- **Analyst upgrades post-earnings:** JPMorgan target $107 → $115 (Oct 29, Overweight); Barclays $100 → $111 (Nov 2, Overweight); UBS $105 → $111; Bernstein maintained Buy $102 (Nov 11); Goldman $116 Buy; consensus target ~$107 (median, 19 analysts, range $85–$130), ~+37% above the $78.23 Nov 13 close; 17 of 19 rate Buy, 1 Hold (MarketBeat/CleaRank, Nov 13). Note the split: Amphenol did a 2-for-1 split effective Sep 3, 2026 — pre-split targets ($190–$200) in older notes are the same dollars halved; the $90 TD Cowen Hold (Sep 9) is the lone bear.
+- **Stock reaction vs the beat:** shares rose only ~3.5–4.9% on the print and closed Nov 13 at $78.23, *below* the split-adjusted $80.35 level at the July note and below the 50-day average ($81.17) while above the 200-day ($75.52) — the market has not chased the beat; Aardvark Labs flags that Q4 datacom guidance (mid-single-digit sequential growth vs Q3's +30%) is "what the stock will trade on into 2027."
+- Beat streak: 8 of last 8 EPS reports beaten (Gekko, Nov 13).
+
+### 6. Risks
+- **AI concentration is now the company:** IT datacom is 48% of sales and AI ~36% of the whole company; a hyperscaler capex pause, a GPU-supply stall, or an AI-spending reassessment hits Amphenol harder than its diversified history suggests. The five biggest hyperscalers' combined 2026 capex is ~$600B — Amphenol's greatest customer concentration at the same time as its greatest growth.
+- **Deceleration is already guided:** Q4 datacom growth guided mid-single digits sequentially after +30% in Q3 — the explosive quarter may not repeat; the stock trades on that cadence.
+- **Backlog quality:** orders are not non-cancelable, no deposits or minimum-volume guarantees; a longer-dated backlog from highly capitalized customers is still cancellable if their build plans change. Double-ordering / pull-forward risk was explicitly probed on the call; management denied pull-ins in Q3, but the $5.7B YTD orders-minus-sales build is exactly what a double-ordering cycle looks like from the outside.
+- **Architecture risk:** Nvidia Oberon → Kyber (2028) removes the backplane; co-packaged optics / silicon photonics could compress copper content per rack. Amphenol's fiber hedge (CommScope) mitigates but does not eliminate this.
+- **Non-AI drag:** communications networks organic sales −28% YoY on soft broadband operator spending, with further sequential weakness guided for Q4; mobile devices, automotive and industrial are expected to moderate in Q4 from record Q3 levels.
+- **Leverage from the CommScope deal:** total debt $17.9B, net debt $12.6B at Sep 30, 2026 — the $10.5B cash deal was debt-funded; integration execution matters.
+- **Valuation:** consensus target +37% implies the Q3 beat is not yet in the price — but the stock has already fallen below its 50-day average despite the beat, and the market is pricing deceleration, not the 65% growth rate.
+
+### 7. Shortage score & verdict
+**Shortage score: 8/10. Verdict: The purest AI-infrastructure shortage after memory — high-speed interconnect lead times of 40+ weeks, record $12.2B orders at a 1.19 book-to-bill for a fourth straight quarter, IT datacom +77% organically with AI now ~36% of the whole company — but Amphenol is the #2 connector maker, not a sole source, its backlog is cancellable, and Q4 guidance already decelerates to mid-single-digit sequential datacom growth, so the explosive case needs the order book to keep reloading, not just one record quarter.**
 
 ---
 
 ## Batch summary (for the panel)
 
-| Ticker | Shortage score | Irreplaceability | One-line verdict |
-|---|---|---|---|
-| NEM | 6/10 | 4/10 | Real gold-supply squeeze, but NEM is a price-taking miner in a production trough — a gold-price bet, not a company backlog story. |
-| CF | 9/10 | 8/10 | Cleanest shortage: sold-out at 97% utilisation, ~9 Mt of urea removed by war, #1 with the cheapest gas — bet on the disruption lasting into 2027. |
-| MSFT | 7/10 | 6/10 | Azure demand exceeds supply and MSFT rations it, but $170B capex, a stalled-sequential backlog concentrated in two labs, and a priced-in story cap the explosive case. |
-
-Strongest momentum/shortage candidate in this batch: **CF**.
-
----
-
-> Run by: Muse Spark — full panel
-
-# Momentum Stock-Pick Research — Batch 3 — Run date 2026-11-13
-
-Tickers: NUE (Nucor), UNP (Union Pacific), ISRG (Intuitive Surgical).
-Screen snapshot prices (Nov 12, 2026, reference only): NUE $261.39, UNP $302.11, ISRG $449.53.
-Next earnings: NUE 2027-01-25, UNP 2027-01-26, ISRG 2027-01-21.
-Sources: primarily Q3 2026 earnings calls/releases (Oct 20–27, 2026) and reputable press; dates given per claim. No figures fabricated — "not found" where a figure could not be verified.
-
----
-
-## NUE — Nucor Corporation
-
-### 1. Shortage thesis
-Yes — a policy-driven domestic supply squeeze plus a genuine demand surge, not a pure physical shortage of steel globally. U.S. hot-rolled coil hit $1,255/short ton in Oct 2026, "the highest level since May 2022 and a 52 percent increase over the past year" (Bloomberg via Quartz, Oct 16, 2026). Finished-steel imports fell 14% Jan–Sep 2026 to ~13M tons (American Iron and Steel Institute), import share down to 16% of the U.S. market from 19% a year earlier, after 50% steel tariffs imposed June 2026. CRU's Josh Spoores told Bloomberg buyers face "a supply shortage" from restricted imports and shifting trade policy. Mills are also taking >1M tons of capacity offline for maintenance Sep–Dec 2026, "which keeps the domestic market tight into year-end." On the demand side, CEO Leon Topalian on the Q3 call (Oct 27, 2026) called demand "the strongest in 31 years" (Zacks, Nov 5, 2026) and said data centers are ~15% of companywide backlog, with Nucor able to "supply roughly 95% of all the steel required inside of and outside of a data center today." Other drivers named: infrastructure (>$135B of IIJA funding still unspent as of Aug 2026), reshoring, grid/energy, LNG, shipbuilding, defence. Caveat: this is tariff-made tightness — China still exports near-record volumes and U.S. HRC costs ~3x Chinese prices, so the squeeze reverses if tariffs ease.
-
-### 2. Backlog / order book
-Strong and lengthening. Overall Steel Products backlogs up ~25% YoY, "with pricing improvements extending into 2027" (Q3 call, Oct 27, 2026). Towers & Structures backlog "more than doubled since the start of the year and extends into early 2028"; Nucor raised its Towers & Structures EBITDA target to $200M/yr from $150M after a $165M capacity expansion (~50% more capacity at Indiana/Alabama plants). Data centres are 30–35% of the structural-products backlog. Border-wall work: ~1,400 miles remain, ~1,500 tons/mile, shipping weekly. Steel-mill shipments hit a record 7.2M+ tons in Q3 — third consecutive quarterly record — at 89% utilisation. No consolidated dollar backlog figure disclosed — not found.
-
-### 3. Category position
-#1. Largest and most diversified steel producer in North America; produces roughly a quarter of all raw U.S. steel; ~28M tons annual capacity, ~130 facilities (Nucor summer update, June 2026). One Jan 2026 industry tally put NUE at ~18.1% U.S. market share vs Steel Dynamics ~10.3% at #2 — i.e. roughly 1.8x the nearest rival. Zacks Rank #1 (Strong Buy) as of Nov 5, 2026.
-
-### 4. Irreplaceability / disintermediation risk
-Low for commodity steel, higher for its downstream bundle. Steel is fungible by specification: customers can buy from Steel Dynamics, Cleveland-Cliffs, U.S. Steel, or imports if tariffs fall — that is the core disintermediation threat, and it is real. The moat is cost and breadth, not lock-in: 100% scrap-fed EAF mini-mills with 30–50% lower capex/ton and 15–25% lower per-ton cost than integrated blast-furnace rivals, plus vertical integration into joists/deck/rebar/tube/panels/towers (Steel Products now ~29–33% of revenue, higher-margin and less volatile), plus captive scrap/DRI supply via David J. Joseph Co. The newest moat test was just passed: Nucor won a full GM platform for exposed automotive sheet — the last bastion of integrated mills — with Topalian declaring "It is over… we are going to continue to take that market share away from the integrated producers, period, full stop." No customer can realistically in-source a steel mill; but no customer is locked to Nucor either.
-**Irreplaceability score: 5/10.**
-
-### 5. Recent catalysts (last ~3 months)
-- Q3 2026 (Oct 27): strongest quarter in 3+ years — EPS $5.80 vs $5.71 consensus, revenue $11.25B vs $10.53B expected (+32% YoY), EBITDA $2.28B, FCF $1.6B in the quarter / ~$2.7B YTD; Q4 guided in line to modestly above Q3.
-- West Virginia sheet mill: first heat Sep 2026, first coils Oct, full ramp early 2027, 50% utilisation target by end-2027; Berkeley (SC) 500k-ton automotive galvanising line began production Oct 2026.
-- GM exposed-automotive-sheet platform win (see above); auto sheet shipments +4% despite flat North American vehicle production.
-- Freedom Broker upgraded to Buy from Hold, PT $285 → $304 (Oct 30, 2026); Zacks Bull of the Day / Rank #1 (Nov 5, 2026). Management: 2027 "even stronger" than 2026 as capex falls from ~$2.5B in 2026.
-
-### 6. Risks
-- Cyclicality: steel is the textbook cyclical; a recession hits non-residential construction (largest end market) first. Shares already +50%+ in 2026 and fell 8.3% on Nov 5 in a broad sell-off — momentum can reverse fast.
-- Tariff reversal / import surge: management itself flagged a recent surge in South Korean imports; World Steel Dynamics argues new domestic capacity (incl. Nucor WV, Cliffs Dearborn) plus re-rollers could force "a substantial price correction as soon as 2027."
-- New-capacity execution: WV start-up costs stay elevated through 2027; $124M pre-operating/start-up costs in Q3 alone.
-- Valuation already pricing it in: stock at/near all-time highs after a ~100% run over the past year (Tikr, May 2026).
-
-### 7. Shortage score: 7/10
-**Verdict:** Real, tariff-amplified domestic tightness with a multi-year datacentre/grid/infrastructure backlog into 2028 — but it is a cyclical commodity squeeze, not a structural monopoly shortage, and the 2027 capacity wave is the clock on it.
-
----
-
-## UNP — Union Pacific Corporation
-
-### 1. Shortage thesis
-Weak as a "shortage" — strong as a demand-surge / capacity-utilisation story. There is no physical shortage of rail capacity; the thesis is that intermodal demand is outrunning truck and rival-rail alternatives on the West Coast import + domestic-freight lanes, and UNP is capturing it at record service levels. Domestic intermodal volume +13% in Q3 2026 — its fifth consecutive record quarter — and international intermodal +8% on West Coast imports and new business wins; intermodal was ~75% of quarterly volume growth. Management expects international intermodal to grow double-digits in Q4 2026 and domestic intermodal to post a third consecutive record volume year. The structural driver is import restocking / tariff-front-running plus truck-to-rail conversion, not a supply constraint — rail can add trains, and trucking is a ready substitute for most intermodal freight. No sold-out capacity or lead-time evidence found.
-
-### 2. Backlog / order book
-Railroads do not report a backlog; the equivalents are volume, pricing and the merger pipeline. Q3 2026 (Oct 22): operating revenue $7.2B (+15% YoY), freight revenue $6.8B (+15%) on 6% volume growth; freight revenue ex-fuel $5.6B (+6%, a record); net income a record $2.1B (+16%); reported EPS $3.49 (+16%), adjusted EPS $3.53 (+15%, ex-merger costs). Carloads 2.293M (+6%). Premium (incl. intermodal) revenue +21% on +9% volume; intermodal units 956k (+11%), intermodal revenue $1.52B (+27%). Industrial revenue +14% on +6% volume; Bulk revenue +10% despite flat volume (grain +5%, coal/renewables −3%). Operating ratio 58.8%. Core pricing gains were muted by mix (intermodal-heavy growth); fuel surcharges contributed ~900bp of freight-revenue growth ($1.2B in the quarter) and diesel costs surged (one summary cites +64% YoY diesel cost pressure) — so headline +15% overstates underlying pricing power.
-**Merger status:** Proposed $85B acquisition of Norfolk Southern (announced Jul 29, 2025) is in STB merits review. First application rejected as incomplete Jan 2026; revised application accepted, review restarted Aug 18, 2026 (Docket FD 36873). Comments/protests due Nov 18, 2026; final briefs due May 28, 2027; STB decision due within 90 days after the record closes (projected by Aug 28, 2027). CEO Jim Vena on the Q3 call: "we should be reporting our first earnings as a merged company a year from now" (H2 2027 close expected) and "I am 99.999% sure that it is going to be approved." UNP is building cash reserves ahead of closing; 2026 capex raised to ~$3.5B (from $3.3B), pulling forward 2027 work.
-
-### 3. Category position
-#1 (tied) in the West, #1 listed U.S. railroad by market cap. Six Class I railroads hold ~94% of U.S. freight-rail revenue; BNSF and UP split the West (~32,000 vs ~32,500 route miles), CSX and NS split the East. UP 2025 operating revenue ~$24.5B vs BNSF ~$23.4B — largest or near-largest U.S. freight revenue in recent years. CSIMarket (Q3 2026): UNP #1 of 11 by market cap in railroads (36.7% of industry market cap), 19.5% of tracked peer-group revenue. If the NS merger closes, UNP becomes the first single-company transcontinental railroad in the U.S. — by far #1.
-
-### 4. Irreplaceability / disintermediation risk
-High for the network, low for any single shipment. Nobody can build a competing transcontinental railroad — the rights-of-way, 32,000 route miles across 23 western states, terminals and Mexican gateways are effectively unreplicable (capital intensity + regulatory + land). Only BNSF duplicates the western network, and only partially. But customers can and do substitute: trucking for short/intermodal hauls, BNSF for western lanes, CSX/NS for eastern lanes, and large shippers can (and do) lobby the STB for trackage rights / reciprocal switching. The moat is the duopoly network, not a technology or patent. The merger would deepen it (single-line coast-to-coast, no interchange) but also invites the conditions rivals are demanding.
-**Irreplaceability score: 8/10.**
-
-### 5. Recent catalysts (last ~3 months)
-- Q3 2026 record results (Oct 22): see §2; outlook reaffirmed — high-single-digit reported EPS growth for 2026 vs 2025 EPS of $11.98.
-- Merger process advancing on schedule (STB procedural schedule published; >500 customer support letters, ~30 customers in integration planning; UP cites 2,000+ stakeholders endorsing the deal).
-- CFO Jennifer Hamann announced retirement in early 2027 (succession watch, not a catalyst per se).
-
-### 6. Risks
-- **Merger/regulatory risk is the dominant one — and it escalated in the last two weeks.** CPKC filed a 193-page submission Oct 30, 2026 asking the STB to terminate the review, alleging CEO Vena threatened at a March 2026 shippers' conference to raise rates 3–4% on customers opposing the merger; Sen. Tammy Baldwin wrote to the STB in July; five shipper groups warned of a chilling effect. An STB administrative law judge ordered UP (Oct 23) to publicly release the ~53-min video; UP appealed Oct 30 and sought an emergency stay; BNSF and CSX opposed the appeal as untimely; the STB said Nov 9 it had "serious concerns" the remarks may have discouraged shippers from speaking freely, and gave UP/NS until Nov 19 to respond. CPKC's CEO Keith Creel (Nov 2026) asked the STB to reject the merger outright. Even if the deal survives, conditions (trackage rights, Gulf Coast neutral switching, gateway protections) could dilute the synergy case; the STB already rejected summary-dismissal requests from BNSF/CSX/shippers in Sep 2026, so opposition gets a full merits hearing.
-- Cyclical freight: coal −3%, automotive soft; a consumer/industrial slowdown hits volumes fast; fuel surcharge flatters current growth and diesel is a margin headwind (operating ratio 58.8% despite record revenue).
-- Integration risk: the largest rail combination in U.S. history, landing 2027–28, with a history of troubled rail mergers (service meltdowns).
-- Valuation: at ~$302 the explosive-return case rests almost entirely on the merger closing on favourable terms — if it is blocked or heavily conditioned, the upside case collapses; standalone growth is high-single-digit EPS.
-
-### 7. Shortage score: 4/10
-**Verdict:** A best-in-class duopoly railroad riding a genuine intermodal surge, but the bet is really a binary merger-arbitrage call — and the merger just picked up a live "poisoned proceeding" fight that Vena's own 99.999% confidence cannot wish away.
-
----
-
-## ISRG — Intuitive Surgical, Inc.
-
-### 1. Shortage thesis
-Demand surge, not a supply shortage — hospitals are buying robots faster than ever because procedure demand keeps outrunning installed capacity. Q3 2026: worldwide da Vinci + Ion procedures +15% YoY; da Vinci procedures +14% (~906k in the quarter, >10,000/day across ~7,000 customers in 70+ countries); Ion procedures +31%; single-port (SP) procedures +55% (U.S. +50%, Korea +40%). The constraint is operating-room capacity and trained surgeons, and hospitals are solving it by buying more systems: 546 da Vinci placements in Q3 (+28% YoY; 315 of them da Vinci 5, 58% of placements), net placements (expanding the installed base) +40%, U.S. placements +27%, international +29%. Recurring revenue was 84% of Q3 revenue — the flywheel is procedure volume pulling instruments, not a one-off capital spike. No "sold out / waitlist" language found; the surge is visible in placements, not in backlog disclosure. ISRG does not disclose an order backlog — not found.
-
-### 2. Backlog / order book
-No backlog figure disclosed. Closest equivalents: installed base and placements (see §1). Installed base at Sep 30, 2026: 12,094 da Vinci systems (+12% YoY from 10,763) and 1,152 Ion (+21%), 13,246 total (+13%). Systems revenue $769.1M (+30.3% YoY); instruments & accessories $1.80B (+18.3%); I&A revenue per procedure ~$1,860 (from ~$1,800). 2025 full-year da Vinci procedures were ~3.153M (+18% vs 2024). Full-year 2026 da Vinci procedure guidance narrowed to 14–15% (from 13.5–15.5%), midpoint unchanged, implying ~14% in Q4 — i.e. growth is decelerating from 2025's ~18–19% pace, and U.S. da Vinci growth slowed to 10% in Q3 (vs 16% in the prior-year quarter), albeit against the hardest comparison of the year (two-year stack ~26%, same as Q2).
-
-### 3. Category position
-#1 by an overwhelming margin. Twenty years of effective monopoly in soft-tissue robotic surgery; >4,500 granted patents (one account says 4,200+ active), 76,000+ surgeons trained on da Vinci, and a 2025 installed base (11,106 systems) several multiples of any rival. No rival has a comparable installed base — Medtronic's Hugo and J&J's Ottava only received U.S. authorisation in Dec 2025 and Jul 2026 respectively, and their procedure volumes are not yet reported at scale. Market-share percentage for ISRG in robotic soft-tissue surgery: not found as a single sourced figure, but every source describes it as the dominant incumbent with rivals at ~0% of the contested U.S. market until Dec 2025.
-
-### 4. Irreplaceability / disintermediation risk
-Very high, but no longer absolute. Moat stack: (i) 4,500+ patents on instruments, imaging and UI; (ii) surgeon training/habit — 76,000+ trained surgeons, switching platforms is "almost as costly as switching languages mid-career"; (iii) sunk hospital capital (OR integration, $250–400k/yr per system in instruments + $200–400k/yr in service); (iv) clinical-evidence library accumulated since 1999 across 70+ indications; (v) razor-blade economics — only ~14–25% of revenue is new system sales, the rest recurring. Hospitals cannot in-source a surgical robot — no hospital builds its own. The genuine threat is now substitution by a rival platform, not in-sourcing: Medtronic Hugo (FDA urology clearance Dec 3, 2025, modular carts, cheaper to deploy, live in 35+ countries), J&J Ottava (FDA De Novo authorisation Jul 22, 2026; arms integrated into the OR table), CMR Versius (U.S. debut Mar 2026), plus Chinese rivals (MicroPort Toumai, 300+ orders). One analysis notes 75.6% of U.S. robotic volume now sits in specialties where a rival is authorised — the monopoly cracked open in 2026. So far no damage is visible: Q3 growth widened, placements hit records, and no share loss shows in the numbers. But the moat is now contested for the first time in 27 years, and price is the weapon — see §6.
-**Irreplaceability score: 9/10** (docked one point for the now-live, well-funded rival platforms).
-
-### 5. Recent catalysts (last ~3 months)
-- Q3 2026 (Oct 20): revenue $3.05B (+21.7% YoY, +4.9% vs consensus), non-GAAP EPS $3.00 (+25%, beat $2.65 consensus by 13.6%; $2.94 ex a $0.06 tariff refund), non-GAAP operating margin 42% (41% ex a $28M one-time tariff refund); gross-margin guidance raised to 68.7–69.3%.
-- Capital cycle: da Vinci 5 is 58% of placements; SP +55% procedure growth; Ion +31%; net placements +40% — hospitals buying capacity, not just upgrades; leasing 53% of placements.
-- Analysts: JPMorgan maintained Overweight, PT $450 → $475 (Oct 20–21); Leerink raised PT $473 → $503, Outperform (Oct 21); RBC cut $575 → $550; Raymond James $483 → $480; consensus Buy, average PT ~$490–533 across sources (24 analysts, Public.com Nov 13, 2026). One recap raised its base case to $510 from $435 (Aardvark Labs). ISRG repurchased $2.9B of shares (per Leerink note).
-- Headline risk in the same call: a $450M settlement was flagged in one call summary (BigGo, Oct 20) — detail not verified in the SEC release excerpt reviewed; treat as unconfirmed.
-
-### 6. Risks
-- **Competition is now real and priced in as the #1 debate:** Hugo and Ottava are both authorised; if either wins a major U.S. IDN/system deal on price or modularity, ISRG's premium pricing and placement growth crack. No share loss yet — but the test is 2027, not Q3 2026.
-- **Self-inflicted price cut:** management will cut da Vinci I&A revenue per procedure 3–5% (constant-mix) once fully implemented — extended-use instruments + volume-based pricing + a policy-driven China price cut starting Nov 2026 (China is only ~5–6% of procedures but the cut is policy-driven). Phased: China Q4 2026, U.S. Q1 2027 (pending 510(k)), Europe H2 2027; full impact only end-2027. Smaller than the 7% cut in 2020, and management argues volume elasticity will offset it — but it caps the highest-margin line into 2027.
-- **Decelerating U.S. procedure growth** (10% in Q3, slowest since the pandemic per Street counts) and bariatric softness linked to GLP-1 weight-loss drugs; hospital capital budgets constrained in Japan/U.K.; tariff exposure on components from Mexico/Germany/China.
-- **Valuation already pricing it in:** ~$157B market cap, trailing P/E ~52.8x (Finnhub, Nov 12–13, 2026), forward P/E 43–46x — ~120% above the medical-devices median (~20x); stock is −22% YTD and −22% over 1 year despite the Q3 beat, with a 52-week range $328.57–$603.88 — i.e. the market has already de-rated it sharply from the Jan 2026 high, and the explosive case needs both procedure re-acceleration and no share loss.
-
-### 7. Shortage score: 6/10
-**Verdict:** The strongest moat in the batch and a genuine procedure-demand flywheel, but the shortage is of OR capacity, not of robots — and 2026 is the first year the monopoly has real, funded, FDA-cleared challengers, so the explosive case is "incumbent wins the first competitive cycle," not "shortage."
-
----
-
-## Batch summary
-
 | Ticker | Shortage 0–10 | Irreplaceability 0–10 | One-line verdict |
 |---|---|---|---|
-| NUE | 7 | 5 | Tariff-tight domestic steel with a backlog into 2028 — a cyclical squeeze with a 2027 capacity expiry date. |
-| UNP | 4 | 8 | Record intermodal surge on an unreplicable network — but the trade is the merger, and the merger is now in a live regulatory fight. |
-| ISRG | 6 | 9 | Best moat in the batch, procedure demand still compounding — but first real competition has arrived, and valuation already assumes it wins. |
+| CF | 9 | 8 | Cleanest shortage: sold-out at 97% utilisation, ~9 Mt of urea removed by war, #1 with the cheapest gas — bet on the disruption lasting into 2027; watch early-Nov urea price softness on the delayed India tender. |
+| MSFT | 7 | 6 | Azure demand exceeds supply and MSFT rations it, but $170B+ capex, a stalled-sequential backlog concentrated in two labs, a Nov 12–13 global outage and the Anthropic workplace attack into Ignite cap the explosive case. |
+| APH | 8 | 7 | Purest AI-infrastructure shortage after memory — 40+ week high-speed lead times, record $12.2B orders, AI ~36% of the company — but #2 in connectors, cancellable backlog, and Q4 datacom growth already guided to mid-single digits. |
 
-Research date: Nov 13, 2026. Prices and earnings dates per the task brief. Figures sourced from Q3 2026 earnings calls/releases (ISRG Oct 20, UNP Oct 22, NUE Oct 27) and the press cited inline; where a figure (e.g. consolidated dollar backlog for NUE/ISRG, ISRG market-share %) could not be found, that is stated, not estimated.
+**Strongest shortage thesis:** CF (9/10), then APH (8/10), then MSFT (7/10).
+**Most irreplaceable:** CF (8/10), then APH (7/10), then MSFT (6/10).
+**Refresh deltas vs 2026-11-13:** CF — no company news; only a softer urea tape (~$434.50/t Nov 11, India tender delayed); scores unchanged. MSFT — global M365 outage Nov 12–13 (~12–19 hrs, >130k Downdetector reports) and a ~6% pullback from the Nov 4 high to $523.88; Ignite Nov 17–20 still pending; scores unchanged. APH — new to the panel; Q3 Oct 28 is the freshest print in this batch.
+**Caveats for the panel:** (1) APH discloses no dollar backlog — the $5.7B YTD orders-minus-sales build is an analyst-derived proxy, and orders carry no non-cancelable obligations, deposits or minimum-volume guarantees. (2) CF's "backlog" is a fill-programme order book, not a dollar RPO — do not compare it numerically to MSFT's $677B RPO. (3) MSFT's RPO is flat sequentially and concentrated in frontier-model counterparties; the $44.9B Anthropic commitment figure is from an amended filing and is subject to delivery/breach provisions.
 
----
-
-> Run by: Muse Spark — full panel
-
-# Momentum Research Dossier — Batch 4 — Run date 2026-11-13
-
-**Tickers:** CDNS (Cadence Design Systems), PM (Philip Morris International), PH (Parker Hannifin)
-**Screen snapshot prices (Nov 12, 2026, reference only):** CDNS $329.26 · PM $196.35 · PH $972.90
-**Next earnings:** CDNS 2027-02-18 · PM 2027-02-04 · PH 2027-01-28
-**Sources:** primary (earnings releases, 10-Q/8-K, earnings-call transcripts) first; reputable press/analyst recaps second. Dates given per fact. "Not found" where a figure could not be verified.
+**Sources (selected, with dates):** CF Industries Q3 2026 results/call Nov 4–5, 2026; AgNavigator nitrogen market update Nov 5, 2026; AFC weekly fertiliser markets w/e Oct 30, 2026 (published Nov 2); urea price tracker updated Nov 14, 2026. Microsoft Q1 FY27 results/call Oct 28, 2026; Microsoft 365 outage coverage Nov 12–13, 2026 (Reuters/AP via FX Leaders, TradingKey, SellTheNews); Microsoft Ignite preview Nov 5–11, 2026 (Microsoft Foundry blog, Windows Forum, Pax8); Anthropic commitment/Maia 300 reporting Nov 12–13, 2026. Amphenol Q3 2026 press release + call Oct 28, 2026 (8-K 0001104659-26-119421; 10-Q filed Oct 30, 2026); Motley Fool call transcript Oct 28, 2026; Aardvark Labs Q3 recap Oct 28, 2026; Zacks call highlights Oct 29, 2026; EvidInvest supplier read-back Nov 11, 2026; Global Market Insights connector market (2025) and fiber-optic connector market reports; Verified Market Research cable assembly Mar 2026; IBISWorld wire connector manufacturing Oct 2026; Utmel high-speed connector shortage outlook 2026; Semibuffer Nov 2, 2026; analyst targets via MarketBeat/CleaRank/Gekko Nov 13, 2026.
 
 ---
 
-## CDNS — Cadence Design Systems (EDA / chip-design software + IP + system design)
+> Run by: Muse Spark (unknown) — full panel
+
+# Momentum research — Batch 3: ISRG / PH / GE
+**Run date:** 2026-11-14 | **Model:** Muse Spark — full panel
+**Screen snapshot prices (Nov 13 close, reference only):** ISRG $443.59 | PH $955.68 | GE $331.81
+**Next earnings:** ISRG 2027-01-21 | PH 2027-01-28 | GE 2027-01-21
+**Method:** web search; primary sources (earnings releases/calls, 10-Q/8-K, company PRs) first, reputable press second. Dates given per fact. "Not found" means not found in this search round.
+**Reuse note:** ISRG and PH were researched 2026-11-13 in `output/momentum/research_dossier_2026-11-13.md` (batch 3 and batch 4). Those sections are the baseline below; each is refreshed for news since Nov 13 and figures are carried forward where nothing changed. GE is new to this panel and is researched from scratch.
+
+---
+
+## ISRG — Intuitive Surgical, Inc. (REFRESH of 2026-11-13 dossier)
+
+### Refresh summary — what changed since Nov 13
+**No new fundamentals.** The only post-dossier items are (a) confirmation/detail on the $450M settlement, previously flagged as unconfirmed, and (b) one analyst price-target cut. All Q3 2026 figures below are carried forward unchanged from the Nov 13 dossier (Q3 reported Oct 20, 2026).
+
+- **$450M settlement — now confirmed and detailed** (Zacks, Nov 12, 2026): Intuitive agreed a $450M **no-fault** settlement with U.S. customers in a class-action suit over **third-party remanufacturing of da Vinci instruments and third-party servicing of da Vinci systems**. The settlement remains subject to court approval, with a decision not expected until 2027. It reduced Q3 GAAP EPS to $1.49 (GAAP net income $523M vs $704M a year earlier) while adjusted EPS rose 25% to $3.00. CEO David Rosa said it "establishes a clear framework for working with customers on third-party instrument remanufacturing and system servicing." Assessment: this is a one-off legal cost, not an operating deterioration — but note it *legitimises* third-party servicing/remanufacturing under a framework, which is a small, slow erosion of the closed-ecosystem moat rather than a defence of it.
+- **Analyst action:** Seeking Alpha, Nov 12, 2026 — author maintains Buy but **cuts price target to $553**, citing valuation and competitive/geographic pressures plus expected procedure-revenue headwinds and China price cuts. Consensus (TickerNerd/CleaRank, Nov 12–13): median 12-month target ~$500 (range $324–$685), 26 Buy / 6 Hold / 2 Sell of 34 analysts; MarketBeat average $493.54 (Nov 8). Stock −21.6% over 12 months vs +13.4% for the S&P 500; −22.3% YTD (CleaRank, Nov 13).
+- **Zacks, Nov 5, 2026** ("System Placements Rise 28%") adds a caution the Nov 13 dossier did not carry: the placement jump may have been driven partly by **multisystem orders and upgrades**, so it "does not necessarily signal a broad-based increase in hospital capital spending." Durable acceleration depends on capital spending staying healthy and new systems converting into procedure volume.
+- No new product, clearance, contract, or guidance news Nov 13–14 found.
+
+### 1. Shortage thesis (carried forward, unchanged)
+Demand surge, not a supply shortage. Q3 2026: worldwide da Vinci + Ion procedures +15% YoY; da Vinci procedures +14% (~906k in the quarter, >10,000/day across ~7,000 customers in 70+ countries); Ion +31%; single-port (SP) +55% (U.S. +50%, Korea +40%). Hospitals are buying capacity: 546 da Vinci placements in Q3 (+28% YoY; 315 da Vinci 5, 58% of placements), net placements +40%, U.S. +27%, international +29%. Recurring revenue 84% of Q3 revenue. No "sold out / waitlist" language found; ISRG does not disclose an order backlog.
+
+### 2. Backlog / order book (unchanged)
+No backlog figure disclosed — not found. Closest equivalents: installed base 12,094 da Vinci systems at Sep 30, 2026 (+12% YoY from 10,763) and 1,152 Ion (+21%), 13,246 total (+13%). Systems revenue $769.1M (+30.3% YoY); instruments & accessories $1.80B (+18.3%); I&A revenue per procedure ~$1,860. Full-year 2026 da Vinci procedure guidance narrowed to 14–15% (from 13.5–15.5%), midpoint unchanged, implying ~14% in Q4 — decelerating from 2025's ~18–19% pace; U.S. da Vinci growth slowed to 10% in Q3 (two-year stack ~26%, same as Q2).
+
+### 3. Category position (unchanged)
+#1 by an overwhelming margin. >4,500 granted patents, 76,000+ surgeons trained, 2025 installed base 11,106 systems, several multiples of any rival. Medtronic Hugo (FDA urology clearance Dec 3, 2025) and J&J Ottava (FDA De Novo Jul 22, 2026) are authorised but procedure volumes not yet reported at scale. Consolidated market-share % — not found as a single sourced figure.
+
+### 4. Irreplaceability / disintermediation risk (unchanged, one nuance added)
+Moat stack: patents; surgeon training/habit; sunk hospital capital; clinical-evidence library since 1999; razor-blade economics (~84% recurring revenue). Hospitals cannot in-source a surgical robot. The genuine threat is substitution by rival platforms (Hugo, Ottava, CMR Versius, MicroPort Toumai); 75.6% of U.S. robotic volume now sits in specialties where a rival is authorised. **New nuance from the settlement:** the $450M no-fault deal creates a formal framework for third-party instrument remanufacturing/servicing — a small crack in the closed ecosystem, but it removes legal overhang rather than opening the installed base to a rival platform.
+**Irreplaceability score: 9/10 — unchanged.**
+
+### 5. Recent catalysts (last ~3 months; refreshed)
+- Q3 2026 (Oct 20): revenue $3.05B (+21.7% YoY, +4.9% vs consensus), non-GAAP EPS $3.00 (+25%, beat $2.65 consensus by 13.6%), non-GAAP operating margin 42%; gross-margin guidance raised to 68.7–69.3%.
+- $450M settlement agreed (reported Nov 12, 2026; court approval expected 2027) — removes a legal overhang at a known cost.
+- Analysts post-Q3: JPMorgan Overweight, PT $450 → $475; Leerink Outperform, $473 → $503; Baird Outperform, $513 → $550 (Oct 21); RBC cut $575 → $550; Raymond James $483 → $480. Seeking Alpha Nov 12: Buy, PT cut to $553.
+- $2.9B of share repurchases (per Leerink note, Oct 2026).
+
+### 6. Risks (unchanged, plus settlement nuance)
+- Competition now real and priced in as the #1 debate (Hugo, Ottava authorised; 2027 is the test year, not Q3 2026).
+- Self-inflicted I&A price cut of 3–5% per procedure (constant-mix) once fully implemented — China Q4 2026, U.S. Q1 2027 (pending 510(k)), Europe H2 2027; full impact only end-2027.
+- Decelerating U.S. procedure growth (10% in Q3), bariatric softness linked to GLP-1s, hospital capital budgets constrained in Japan/U.K., tariff exposure.
+- Settlement framework legitimises third-party servicing — slow ecosystem erosion, not a cliff.
+- Valuation: trailing P/E ~52.8x, forward P/E ~39.6–46x (Zacks/Finnhub, Nov 2026) — ~120% above the medical-devices median; stock −22% YTD despite the Q3 beat.
+
+### 7. Shortage score & verdict
+**Shortage score: 6/10 — unchanged. Verdict: Best moat in the batch and a genuine procedure-demand flywheel, but the shortage is of OR capacity, not of robots — and the $450M settlement, now confirmed, buys legal peace at the price of a formal third-party servicing framework. The explosive case remains "incumbent wins the first competitive cycle," not "shortage."**
+
+---
+
+## PH — Parker Hannifin (REFRESH of 2026-11-13 dossier)
+
+### Refresh summary — what changed since Nov 13
+**No new fundamentals.** The Nov 13 dossier already covered the Nov 5, 2026 Q1 FY27 print in full. Post-dossier items are minor:
+- **Truist lowered its price target to $1,237 from $1,358, maintained Buy** (reported Nov 8, 2026) — a less bullish valuation view, still positive.
+- **Dividend:** $2.00/share quarterly dividend, payable Dec 4, 2026, to holders of record Nov 13 (ex-dividend Nov 13).
+- **Baird Global Industrial Conference presentation, Nov 10** — no new financial details disclosed in the coverage found.
+- Candriam S.C.A. raised its position 7.1% in Q3 (13F disclosure, reported Nov 8).
+- No new contract, order, guidance, or CIRCOR-closing news Nov 13–14 found. All figures below carried forward unchanged.
+
+### 1. Shortage thesis (carried forward, unchanged)
+Genuine multi-year aerospace/industrial order backlog that production cannot yet clear. Driver: commercial-aircraft production ramp (Boeing + Airbus >1,300 deliveries/year, order backlogs stretching years); every aircraft needs Parker's flight-control hydraulics, fuel systems, pneumatics, seals and thermal management. Aerospace Systems sales +13.8% in FY27 Q1; commercial OEM +mid-teens guided for FY27, commercial aftermarket high-single-digit. Management reported "increased demand across all market verticals, resulting in double-digit organic sales growth and record backlog levels" (Q1 FY27 release, Nov 5, 2026). Diversified Industrial North America +20% sales (+9.4% organic), International +22% (+11.6% organic, Asia-Pacific +23.4% organic) — first double-digit organic quarter in over three years (+11.5% organic overall).
+
+### 2. Backlog / order book (unchanged)
+**Record $13.7B backlog at Sep 30, 2026** (Q1 FY27 release/call, Nov 5, 2026), up from $12.5B at Mar 31, 2026 (+$1.2B in two quarters). Rolling 12-month order rates **+13%** overall: Aerospace Systems +14%, Diversified Industrial North America +11%, International +14%. Management: ~75% of backlog typically converts within 12 months. At the ~$6.0B/quarter sales run-rate, $13.7B ≈ 2.3 quarters of total sales — aerospace backlog is much longer-dated (multi-year platform programmes).
+
+### 3. Category position (unchanged)
+#1 / co-#1 in most niches; self-described "global leader in motion and control technologies." In aircraft fluid power/hydraulics, Parker and Eaton "dominated the competitive landscape"; broadest portfolio of hydraulic, fuel and motion-control systems, strengthened by the £6.3B Meggitt acquisition (closed Sep 2022). Aerospace competitors per 10-K: Eaton, Honeywell, Moog, Triumph, Collins Aerospace (RTX), Woodward, Safran — fragmented by subsystem. Consolidated share % — not found as a single published percentage.
+
+### 4. Irreplaceability / disintermediation risk (unchanged)
+**Irreplaceability score: 8/10.** Moat: (a) certification/qualification lock-in — flight-critical components certified to a specific airframe under FAA/EASA; re-qualifying an alternative takes years and the airframer bears the risk; designed in for the 20–30-year life of a programme; (b) aftermarket annuity — FY27 aerospace mix guided ~53% OEM / 47% aftermarket, aerospace adjusted margin a record 30.7%; (c) breadth — eight core technologies, 548,000 customers, Meggitt/Filtration Group/CIRCOR roll-up. Boeing/Airbus do not manufacture their own hydraulic systems and have spent decades outsourcing more, not less. Real substitution threat is more-electric aircraft (MEA) displacing central hydraulics over decades — Parker hedges by selling the electric actuators too; slow, platform-cycle threat, not a cliff.
+
+### 5. Recent catalysts (last ~3 months; refreshed)
+- **Nov 5, 2026 — record FY27 Q1:** sales $6.0B (+18%, +11.5% organic); adjusted EPS $8.90 (+23%, record, beat $8.21 consensus); segment operating margin 28.6% adjusted (+120bps); aerospace adjusted margin a record 30.7%.
+- **Nov 5, 2026 — FY27 guidance raised:** organic sales 7.5–10.5% (midpoint +200bps), adjusted EPS $36.45–$37.25 (midpoint +$2.10), revenue $24.9–$25.6B, free cash flow $3.5–$4.0B.
+- **Aug 13, 2026 — Filtration Group closed:** $9.25B cash (~$9.1B net of cash acquired), funded with $7.75B term loans; ~$1.85B sales expected in remaining ~10.5 months of FY27; ~$5.15B preliminary goodwill.
+- **May 21, 2026 — CIRCOR Aerospace agreed:** ~$2.55B cash (~$270M CY2026 sales, >40% adjusted EBITDA margin, ~10% cost synergies); expected to close H2/calendar 2026, funded by a new $2.0B term loan + cash. (No closing announcement found as of Nov 14 — still pending per last disclosure.)
+- Truist PT $1,358 → $1,237, Buy maintained (Nov 8); $2.00 quarterly dividend payable Dec 4.
+
+### 6. Risks (unchanged)
+- **Leverage jump:** long-term debt nearly doubled to **$14.64B** at Sep 30, 2026 (from $7.47B in June) to fund Filtration Group; another ~$2.55B CIRCOR deal pending adds a $2.0B term loan; $5.6B of principal falls due in FY2030. Interest expense guidance raised to $690M for FY27 (from $340M). Integration risk on two large deals at once.
+- Aerospace cycle concentration (~31% of sales, the growth engine) rides Boeing/Airbus production rates.
+- Industrial cyclicality: two-thirds of revenue is diversified industrial.
+- More-electric aircraft: long-run substitution of hydraulics.
+- Valuation: at $955.68, ~26x FY27 guided adjusted EPS ($36.45–$37.25) — premium industrial multiple assuming clean backlog conversion and integration without a stumble.
+
+### 7. Shortage score & verdict
+**Shortage score: 7/10 — unchanged. Verdict: The most tangible backlog in the batch — a record $13.7B, double-digit orders everywhere, flight-certified parts that cannot be swapped — but the explosive leg is now partly a leverage-and-integration story ($14.6B debt, two big deals), so the upside is steadier compounding than a spike unless aerospace production rates break higher.**
+
+---
+
+## GE — GE Aerospace (NEW — full research from scratch)
+
+### Earnings-quality flag: RECEIVABLES_OUTRUN — verdict first
+**One-line verdict: Mostly benign — the receivables build is the normal shape of long-cycle aerospace billing (services billed ahead of collection + a growing balance due from airframers on engine deliveries), not earnings without cash; monitor Q4, because Q3 free cash flow did fall while profit rose.**
+
+Metric values behind it:
+- **Current receivables: $11,773M at Dec 31, 2025 → $12,360M at Jun 30, 2026 (+5.0%)** (Q2 2026 10-Q, via Linevest analysis of the filing). Q3 2026 10-Q receivables figure was not separately surfaced in this search round — not found as a standalone number.
+- **Q3 2026 free cash flow fell 14% to $2.04B** (from $2.36B in Q3 2025) **because receivables grew**, even as adjusted operating profit rose 30% (Aardvark Labs Q3 recap, Oct 20, 2026). CFO Rahul Ghai on the Q3 call: "Working capital was a use as receivables grew from timing of services billings and an increase in balance due from airframers."
+- **Nine-month cash check — earnings ARE covered by cash:** 9M 2026 operating cash flow ~**$7.3B** vs consolidated net income ~**$6.57B** (OCF/NI ≈ **1.11x**); 9M free cash flow $6.7B, +13% YoY, **105% FCF conversion** YTD (company, Q3 call; InTickers analysis of the 10-Q). The classic value-trap signature (earnings with no cash behind them) is absent over nine months.
+- **Working-capital pressure is real but explained:** working capital absorbed ~**$1.8B** in 9M 2026 (vs a smaller outflow a year earlier); receivables, contract assets/liabilities and supplier-payment timing all contributed. The 10-Q adds a detail the call did not: **sales discounts and allowances rose $1.56B in nine months** on allowances for new engine installs and spare parts plus product durability reserves at CES — that **added $1.6B to operating cash**, $1.0B more than a year ago, while operating cash itself rose only $0.9B (Aardvark). In other words, part of the 9M cash strength is a growing accrued-credit liability, not collections — a genuine watch item, not a trap today.
+- **Business-model reason it is benign-leaning:** GE sells engines at a loss/near-cost and makes the money over 20–30 years of service agreements; services are billed on flight cycles and shop visits, so receivables mechanically swell when services orders (+23% in Q3, +30% YTD) outrun services revenue (+17% in Q3). Airframer receivables grow when engine deliveries rise (deliveries +21% YTD). Both are volume-driven, not channel-stuffing. The flag to re-check in Q4 (Jan 21, 2027): whether receivables growth slows as the $9.1–$9.4B full-year FCF guide implies a Q4 FCF of $2.37–$2.67B.
 
 ### 1. Shortage thesis
-Not a physical shortage — a **demand surge for the scarcest input in the AI buildout: chip-design capacity**. Every AI accelerator, custom ASIC (hyperscaler in-house silicon), and advanced-node chip must be designed and verified in EDA tools before it can be taped out, and design complexity at 2nm/3nm and chiplet architectures is rising faster than the pool of tools/engineers. Q3 2026: revenue $1.633B, +22% YoY, with double-digit growth in *all* product groups — Core EDA +20%, Semiconductor IP +24%, System Design & Analysis +30% (Q3 2026 earnings release/call, Oct 26, 2026). Recurring revenue accelerated to +18% YoY (from +11% a year ago). CEO Anirudh Devgan: backlog hit a record "reflecting strong bookings driven by growing customer demand." Management explicitly noted 2026 is a *light renewal year* — so the growth is add-ons/expansions, not the contract calendar. The binding constraint is design throughput, and Cadence sells the tools that relieve it; its Oct 26 Maestro launch (domain-specialized AI models claiming up to 30% higher quality and 5x token efficiency vs general-purpose models) is aimed directly at that bottleneck, with 100+ AI Super Agent customer engagements. Caveat: this is a *demand-surge* thesis, not a sold-out-capacity thesis — there is no lead-time/price-increase quote for EDA licences; pricing power shows up as mix and renewal expansion instead.
+**Yes — one of the strongest in the panel, and it is a shortage on both sides of the business: not enough engines, and not enough spare parts to keep the flying fleet flying.**
+- **Airframe order books are full through the end of the decade.** CEO Larry Culp on the Q3 call (Oct 20, 2026): "given airframer order books are full through the end of the decade, along with strong growth in aftermarket and defense…" Airbus's A320neo order book is "essentially sold out through 2032" (Astute Analytica, Nov 2026); Boeing 737 MAX production has stabilised at 36–38/month after its 2024 recovery.
+- **The engine shortage is acute because the #2 supplier is broken.** Pratt & Whitney's GTF powder-metal contamination crisis has ~**650 A320neo-family aircraft grounded globally at peak times** awaiting maintenance, with engine shop-visit turnaround times stretched from a targeted 60 days to **300–360 days** (Astute Analytica, Nov 2026). Airbus launched a formal damages claim against Pratt in March 2026 and cut its 70–75/month production target "directly attributed to Pratt & Whitney's inability to commit to sufficient engine supply volumes for 2026." CFM has captured the vacuum: record 1,802 LEAP deliveries in 2025 (+28% YoY), targeting ~15% more in 2026, with H1 2026 LEAP deliveries +41% (Leeham News, Jul 16, 2026).
+- **Spare-parts shortage is the binding constraint inside GE itself.** CFO Ghai, Q3 call: "Even with strong revenue growth, spare parts delinquency increased sequentially, reflecting strong underlying demand." Spare-parts delinquency grew **20% sequentially in Q2 2026** (Congress.net, Aug 5, 2026, citing the Q2 call); management: "it is a number we are not proud of, because we are failing to meet customer expectations in that regard." Spare parts are ~40% of services revenue. GE enters Q4 with **>95% of spare parts in backlog** and >100% of Q4 internal shop-visit engines already in the shop, with more waiting for induction. Material input has grown sequentially for **10 consecutive quarters** and still cannot clear the queue.
+- **Airlines are keeping old engines flying longer:** CFM56 retirement rate expected below 2% in 2026 (vs 3–4% expected at the start of the year); two-thirds of CFM56 engines have yet to see their second shop visit; CFM56 shop visits raised to ~2,400 units. Every deferred retirement is future high-margin shop-visit revenue.
+- **Price evidence:** services revenue +26% YTD, spare-parts orders growing faster than services orders overall; management guides low-double-digit commercial services growth into 2027 on pricing + work-scope + installed-base growth. No single published price-increase % found — pricing shows up as mix and scope, not a list-price quote.
 
 ### 2. Backlog / order book
-**Record $8.2B total backlog at Sep 30, 2026** (Q3 2026 earnings release, Oct 26, 2026), up from $8.1B in Q2 2026 and $7.8B at year-end 2025. Of that, **$4.2B of remaining performance obligations is expected to be recognised in the next 12 months** — i.e. ~51% converts within a year; the incremental Q3 backlog sits further out, supporting duration more than FY2027 revenue (Aardvark Labs Q3 recap). At ~$1.6B/quarter revenue run-rate, $8.2B ≈ 5 quarters of revenue booked. Backlog growth in a light renewal year is the strongest signal here.
+- **Total backlog >$170B** (Q3 2026 call, Oct 20, 2026); remaining performance obligations **$180.4B at Sep 30, 2026, including $170.2B in services, up 10% from end-2025** (10-Q, via Top1Markets Oct 2026). Commercial services backlog alone is up nearly $30B since end-2024.
+- **Q3 orders $19.0B, +49% YoY** — CES orders $15.3B (+58%), commercial services orders +23% in Q3 and +30% YTD; DPT orders +18%. YTD orders +49%.
+- **Farnborough Airshow (Jul 2026): commitments for >1,800 engines**, including the largest LEAP agreement ever — IndiGo, **>1,000 LEAP-1A engines** for A320neo aircraft. **October 2026: Turkish Airlines agreement for >300 LEAP-1B engines plus a services agreement covering its fleet of >600 engines.**
+- **DPT backlog >$30B**, up >$5B since the start of the year, including a five-year, **$2.9B F414 support contract** for the U.S. Navy's F/A-18 and EA-18G fleets.
+- **How far out:** the $170B+ backlog is predominantly long-term service agreements tied to engines already flying or on order — effectively a decade-plus revenue tail. Management: entering Q4 with ~95% of revenue in backlog (consistent through the year, ~10 points higher than historically). At the ~$13.3B/quarter adjusted revenue run-rate, $170B ≈ 3+ years of total revenue — and the services portion converts over the 20–30-year life of each engine programme. GE9X alone: >1,300 engines on order (sole source on the 777X).
 
 ### 3. Category position
-**Co-#1 in a duopoly.** Synopsys ~34–38% share, Cadence ~31–36% share; together ~70–74% of the EDA market, ~83–85% including Siemens EDA (Cadence 10-K disclosure via Technosight; Verified Market Research Mar 2026: Synopsys 35.8%, Cadence 31.4%; arvy.ch: "duopoly… near-100% retention rates and an 80–85% recurring revenue model"). Cadence leads in custom/analog layout (Virtuoso) and digital implementation (Innovus); Synopsys leads synthesis/simulation. No #4 of consequence. Effectively every advanced chip in the world is designed on one of the two.
+**Yes — #1 in commercial aircraft engines, and the lead widened in 2026.**
+- **LEAP-1B is the exclusive powerplant for every Boeing 737 MAX** ever built or ordered — 100%, no alternative.
+- **On the Airbus A320neo family, CFM (GE–Safran 50/50 JV) holds >55%** through LEAP vs Pratt & Whitney's GTF (Moat Explorer, Sep 2026; other sources put CFM's A320neo share at 60–65% by order value, and one 2026 SWOT cites ~76% — sources disagree on the exact figure, direction is dominant and rising). Astute Analytica (Nov 2026): CFM is "the undisputed leader with roughly 70% market share" of the narrowbody engine market.
+- **Delivery scoreboard:** 1,802 LEAP engines of 2,386 commercial engines delivered in 2025; LEAP deliveries +41% in H1 2026. CFM LEAP orders + commitments have surpassed 40,000 units; installed LEAP base expected to triple by 2030 (GE 2025 annual report via Aviation Outlook).
+- **Widebody:** GEnx is the leading 787 engine (deliveries now outpacing Boeing 787 airframe deliveries); **GE9X is sole source on the 777X** (>1,300 engines on order). Rolls-Royce is the widebody rival (Trent family, sole source on A350) — GE does not lead there, but the narrowbody + services combination makes it the largest commercial engine franchise overall.
+- **Defence:** F414 (F/A-18/EA-18G), F110, T700 — plus the U.S. Navy's F/A-XX sixth-generation programme cited on the Q3 call.
 
 ### 4. Irreplaceability / disintermediation risk
-**Irreplaceability score: 9/10.** Moat: (a) 30+ years of accumulated process-design kits, foundry-certified flows and verification IP — a new chip at 2nm cannot be taped out without a TSMC/Samsung-qualified EDA flow, and qualification takes years; (b) switching costs are existential — ripping out a design flow mid-program risks a tape-out; retention is near-100%; (c) only three firms on earth (Synopsys, Cadence, Siemens EDA) can supply production-grade EDA, and the top two control ~70%+. Can customers in-source? In theory hyperscalers (NVIDIA, Apple, Google) have huge internal CAD teams — but they *buy* Cadence/Synopsys tools and add internal flows on top; nobody has replicated a full-flow EDA stack. The live threat is different: **AI designing chips autonomously** — on Jul 17, 2026 both SNPS and CDNS fell 9–10% after Moonshot AI's Kimi K3 reportedly designed a functional chip in 48 hours. Cadence's answer is to own that shift (Maestro/Super Agents). A second threat: Synopsys+Ansys ($34.9B, closed Jul 2025) bundling simulation against Cadence. Neither threat removes the need for qualified EDA; both keep Cadence in the toll-booth seat.
+**Irreplaceability score: 9/10.**
+Moat: (a) **FAA/EASA certification + airframe exclusivity** — an engine is certified to a specific airframe; the LEAP-1B has no alternative on the 737 MAX, period. Re-certifying a new engine on an existing airframe takes a decade and billions; (b) **the installed-base annuity** — ~76% of 2025 CES revenue ($31.9B) came from MRO/services; each engine generates 20–30 years of shop visits, spare parts and service agreements that only the OEM (or its licensed network) can perform to certification standard; (c) **technology depth** — the high-pressure core, single-crystal superalloy airfoils and ceramic-matrix composites are made by a handful of firms on earth; GE is now buying the bottleneck itself (see §5); (d) **scale of the order book** — 40,000+ LEAP orders/commitments means the aftermarket of the 2030s and 2040s is already sold.
+Can the biggest customers in-source? **No, realistically.** Airlines do not build engines; Boeing/Airbus do not build engines and have spent decades outsourcing propulsion. The closest thing to in-sourcing is a rival engine choice — and the only rival just grounded ~650 aircraft. The concrete threats are: (i) **Pratt & Whitney GTF recovery** — if the GTF durability fix lands and Airbus restores its production ramp, CFM's share gains stop, though they do not reverse (airlines already ordered LEAP); (ii) **Rolls-Royce** in widebody (Trent XWB on A350, where GE has no engine); (iii) **vertical integration at the margin** — SpaceX confirmed in Sep 2026 it is building its own foundry to cast gas-turbine blades/vanes rather than buying them (Turbomachinery Mag, Sep 11, 2026), and Pratt plans an in-house casting foundry in North Carolina — these are supply-chain moves by *manufacturers*, not customers, and they validate rather than threaten GE's own CPP acquisition; (iv) long-run substitution by hydrogen/electric propulsion is decades away and GE's CFM RISE open-fan demonstrator is the hedge. One point docked for the Pratt recovery scenario and the widebody gap vs Rolls-Royce.
 
 ### 5. Recent catalysts (last ~3 months)
-- **Oct 26, 2026 — Q3 beat + third raise of the year:** revenue $1.633B (+22%) beat ~$1.61B consensus; non-GAAP EPS $2.11 beat ~$2.05; FY2026 revenue guidance raised to $6.387–$6.417B (~21% growth) and non-GAAP EPS to $8.37–$8.43 (+$0.30); Q4 guide $1.695–$1.725B revenue, EPS $2.19–$2.25, above consensus.
-- **Oct 26, 2026 — Maestro AI Model Portfolio launch:** domain-specialized models powering AI Super Agents (ChipStack, InnoStack, AuraStack, ViraStack); early access Q4 2026 with NVIDIA, Socionext, Silicon Labs engaged; Socionext deploying InnoStack in production targeting up to 5x productivity gains.
-- **Oct 26, 2026 — buyback:** $400M repurchased in Q3, ~$400M more planned Q4, board added **$2.5B** authorization (partly bridged with $150M revolver borrowing).
-- **Feb 2026 — Hexagon Design & Engineering acquisition closed ($3.1B)**, adding MSC Software/system simulation; BETA CAE ($1.24B) closed May 2024.
-- Analyst reaction: Aardvark Labs maintained Hold, fair value raised $360 → $370 (post-earnings note).
+- **Oct 20, 2026 — Q3 beat + second consecutive guidance raise:** adjusted revenue $13.29B (+18%, beat ~$12.85B consensus), adjusted EPS $2.25 (+36%, beat $2.01 consensus by ~12%), operating profit $2.99B (+30%), margin 22.5% (+220bps). Full-year 2026 guidance raised across the board: revenue growth 19–20%, adjusted EPS **$8.00–$8.10** (from $7.65–$7.85), operating profit $10.9–$11.0B, FCF **$9.1–$9.4B** (from $8.9–$9.2B). First 2027 frame: low-double-digit commercial services growth, high-single-digit defence growth.
+- **Sep 8, 2026 — CPP acquisition announced:** agreement to acquire **Consolidated Precision Products for $11.75B** ($7B cash + new debt; ~18x 2027 EBITDA incl. ~$200M synergies, ~26x without), the merchant casting supplier behind GE's airfoil bottleneck. CPP supplies ~25% of GE's airfoil needs (Jefferies est.); GE expects airfoil demand +30% by 2030. Expected close H2 2027, accretive to adjusted EPS and FCF in year one. Howmet shares fell ~8% on the announcement. The deal is GE buying the constraint that caps its own deliveries — the clearest possible signal the shortage is supply, not demand.
+- **Jul 2026 — Farnborough:** >1,800 engine commitments, incl. IndiGo >1,000 LEAP-1A (largest ever).
+- **Oct 2026 — Turkish Airlines:** >300 LEAP-1B + services agreement covering 600+ engines.
+- **Q3 2026 — LEAP-1B durability kit certified** (2026), expected to deliver ~2x time-on-wing, full cutover from early 2027 — aimed directly at the durability ground where Pratt stumbled. LEAP shop-visit turnaround ~100 days (down >2 weeks YoY); LEAP-grounded aircraft down to nearly zero since summer.
+- **GE9X:** upgraded mid-seal engines delivered to Boeing since August; FAA certification targeted by end-2026 (subject to FAA approval). GE9X revenue recognition is parked until certification; ~$300M additional GE9X losses expected in 2027 as volume ramps. ~$100M of the raised 2026 profit guide is GE9X losses shifting into 2027 — the one soft spot in the raise (Aardvark).
+- **Analysts:** median 12-month target **$380** (range $280–$431), 19–20 Buy / 3 Hold / 1 Sell of 23–24 analysts; UBS Buy $377 → $380, Wells Fargo Overweight $390 → $380, Susquehanna Positive $430 → $400, Deutsche Bank Buy $378, RBC $376 (Oct 21–23, 2026); BNP Paribas Underperform, $305 → $280 (Oct 21). Market cap ~$343B; trailing P/E ~37.8x, forward P/E ~35.5x (TickerNerd, Nov 13, 2026); Aardvark upgraded to Outperform, fair value $310–340, conviction 6/10, on the Q3 print.
 
 ### 6. Risks
-- **Valuation already prices a lot in:** at $329.26, ~39x FY2026 non-GAAP EPS guidance ($8.40) — a premium multiple that needs 20%+ growth to persist; any AI-capex air pocket hits the multiple first.
-- **China export controls:** management's outlook "depends on export-control regulations remaining substantially unchanged through year-end" — a live, binary overhang on a material revenue stream.
-- **AI-disintermediation narrative:** the Kimi K3 episode shows the market will punish any credible "AI replaces EDA" story; Cadence must prove Maestro *extends* its moat rather than commoditising it.
-- **Acquisition indigestion:** GAAP EPS $1.05 in Q3 fell below the July GAAP range on a $42.2M restructuring charge the call did not explain; cash fell $3.00B → $1.45B in 9M 2026 largely on acquisition outflows; debt ~$2.63B incl. $150M revolver draw.
-- **Semi cyclicality:** EDA is less cyclical than semis (subscription), but a chip downturn still cuts IP/licence expansions and renewal uplifts.
+- **The shortage is partly GE's own failure to deliver:** spare-parts delinquency rose again in Q3 despite 10 straight quarters of material-input growth; forgings/castings are a hard ceiling. If it persists, it caps the highest-margin revenue line (spare parts ~40% of services revenue) and hands Pratt/Rolls-Royce an opening. The CPP deal does not close until H2 2027 — the constraint persists through at least six more quarterly reports.
+- **GE9X certification risk:** FAA certification of the upgraded mid-seal targeted by end-2026 but not in GE's control; 777X entry-into-service has already slipped 6+ years; ~$300M of additional losses in 2027.
+- **$11.75B CPP deal risk:** ~26x EBITDA ex-synergies is a full price; $4.75B of new debt not yet issued (cost unknown); antitrust review given CPP also supplies Pratt, Honeywell and Lockheed; integration of ~6,600 employees across 20+ facilities. The long close runway (H2 2027) itself signals regulatory scrutiny.
+- **Air-travel / airframe cycle:** the thesis rides Boeing/Airbus production rates and airline flight hours; a recession, fuel-price spike or another Boeing quality event cuts OEM orders first. (High oil prices were flagged on the Q3 call as pressuring airlines, though not yet denting orders.)
+- **Pratt recovery:** a credible GTF durability fix would stop CFM's share gains on the A320neo and restore Airbus's production ramp — the share already won stays, but the incremental story slows.
+- **Valuation already pricing it in:** ~38x trailing / ~35.5x forward P/E, price-to-sales ~6.5x (63% above the sector median of 4.0x); the stock fell on the Q3 beat as investors weighed lower FCF, narrower CES margins and GE9X uncertainty. Aardvark's fair value $310–340 sits *below* the Nov 13 close of $331.81 at the low end. Implied Q4 EPS of $1.87–$1.97 is ~6% below Street (Aardvark).
+- **Earnings-quality watch:** see flag above — Q3 FCF down 14% on receivables; $1.6B of 9M operating cash came from rising sales allowances/durability reserves.
 
-### 7. Shortage score: 7/10
-### Verdict
-The purest AI toll-booth in the batch — record $8.2B backlog in a light renewal year, 22% growth, and a credible AI-agent offensive — but it is a demand-surge story at ~39x earnings, not a physical shortage, so the explosive upside depends on the multiple holding while growth compounds.
-
-### Earnings-quality flags (protocol requirement)
-Balance-sheet anchors (10-Q for quarter ended Sep 30, 2026, filed Oct 27, 2026): receivables $944.9M (Dec 31, 2025) → **$1,110.6M** (+17.5%); inventories $303.5M → **$448.8M** (+47.9%). Cash-flow check: 9M 2026 operating cash flow **$1,414.4M vs net income $992.5M (1.43x)** — cash comfortably covers earnings; current deferred revenue rose $778.4M → **$1,012.3M (+30%)**, i.e. customers are paying *ahead* of recognition. The classic value-trap signature (earnings without cash) is absent.
-- **RECEIVABLES_OUTRUN (recv_rev_divergence 0.242) — VERDICT: mostly benign, monitor.** Receivables +17.5% vs Q3 revenue +22% YoY is not outrunning on a quarterly view; the 9-month divergence reflects timing of large multi-year licence billings in a back-half-weighted year plus the Hexagon D&E acquisition (closed Feb 2026) folding in its receivables. No spike in DSO was disclosed; OCF/NI 1.43x argues against channel-stuffing.
-- **INVENTORY_BUILD (inv_rev_divergence 0.348) — VERDICT: benign-to-watch, not a trap.** Cadence is ~85% software; its "inventory" is overwhelmingly emulation/prototyping hardware (Palladium/ZeBu systems) built ahead of shipment plus Hexagon-acquired balances. A +48% inventory rise against +22% revenue is consistent with pre-building hardware for the record backlog and the SDA segment's +30% growth — but it is the one line to re-check in Q4: if inventory keeps climbing while SDA growth decelerates, it becomes a demand signal, not a supply one.
-
----
-
-## PM — Philip Morris International (Marlboro, IQOS, ZYN)
-
-### 1. Shortage thesis
-**Yes — but it has already peaked as a shortage and is now a share war.** The driver was ZYN: US nicotine-pouch demand exploded (category sales +250.8% Jan 2023–Aug 2025, CDC Foundation; global pouch market $6.9B in 2025 → projected ~$42B by 2033, ~25% CAGR, Grand View Research). PMI was genuinely **supply-constrained in H1 2025** — it "couldn't make enough Zyn to meet demand" — and responded with >$800M of US manufacturing investment, chiefly the Owensboro, Kentucky plant expansion. That constraint is now largely resolved: Q3 2026 ZYN US shipments grew only **+4.2% to 3.2B pouches** (+13% ex last September's promotion), and PMI's Q3 move was to *cut* effective price — moving flagship cans from 15 to 20 pouches at the same price (~25% less revenue per pouch) to defend share. A true shortage story would show rising prices and allocation; PMI is now spending to buy volume. The remaining demand-surge leg is IQOS internationally (adjusted in-market sales +7.1%, +10% ex Japan/Poland) and the unopened US IQOS market (ILUMA FDA application pending since Oct 2023).
-
-### 2. Backlog / order book
-**Not applicable — no backlog disclosed; not found as a reported figure.** Tobacco/consumer staples sell through distributors/retail on short-cycle orders, not a booked order book. The closest proxies: ZYN US shipments 3.2B pouches in Q3 2026 (+4.2% YoY); total shipment volume 206.2B cigarette-equivalent units (+0.6%); smoke-free products >40% of Q3 revenue. Do not treat any of these as backlog.
-
-### 3. Category position
-**#1 in both of its growth categories.** ZYN: ~61% of the US nicotine-pouch market by retail dollar value, ~56% by volume in Q1 2026 (Nielsen via NYT); other estimates put it at ~66–74% (share varies by dollar/volume and date — the direction is dominant but eroding at the margin). #2 is BAT's Velo at ~12%, Altria's on! at ~8–8.7%. IQOS: ~76% of the global heat-not-burn market; #1 nicotine brand by volume in its markets; 9.9% of cigarette + heated-tobacco volume (+1.0pp YoY) in Q3 2026, ~68% share in Japan, ~70% of Japan's heat-not-burn category; Marlboro record 11.4% share. Smoke-free is 41.5% of revenue (FY2025) and >40% in Q3 2026, heading toward PMI's >two-thirds-by-2030 ambition.
-
-### 4. Irreplaceability / disintermediation risk
-**Irreplaceability score: 5/10.** Moat: (a) regulatory — ZYN was the first nicotine pouch to win FDA PMTA authorisation (Jan 2025, 20 products) and on Jun 30, 2026 won FDA Modified Risk (MRTP) authorisation for 20 products, letting PMI make reduced-risk claims competitors cannot; ZYN Ultra 11mg is the highest-strength FDA-cleared pouch; (b) brand/distribution scale — first-mover since 2014/2019 US launch, widest flavour/strength range, shelf dominance; (c) the $16B Swedish Match acquisition (closed Nov 2022) consolidated the category leader. BUT the product itself is highly replicable: a nicotine pouch is nicotine + filler + flavour in a cellulose pouch — BAT, Altria and a swarm of small brands (LOOP, ZEUS, XQS, KUMA) make near-identical products, and **Velo captured two-thirds of category growth in 2025**. Customers (adult nicotine users) switch brands freely; distributors multi-source. No process-tech lead, no qualification lock-in comparable to EDA or aerospace certification. The moat is regulatory + brand + scale, not technology.
-- **In-sourcing threat:** not from customers (smokers don't make their own pouches) but from *competitors replicating* — the concrete, already-happening version of disintermediation.
-
-### 5. Recent catalysts (last ~3 months)
-- **Oct 21, 2026 — Q3 beat:** adjusted EPS $2.36 (+5.4%, +5.8% ex-FX) beat ~$2.30 consensus and the top of PMI's own September guide; net revenue $11.438B (+5.5% reported, +7.1% organic) beat ~$11.32B; adjusted operating income crossed $5B for the first time (44.7% margin, +1.6pp); US segment revenue +22.7% to $845M on ZYN. Dividend raised 8.8% to $1.60/quarter. FY2026 adjusted EPS guidance $8.29–$8.44 maintained (leaning mid-to-low end on cost pressure).
-- **Aug 21, 2026 — FDA authorised 11 additional ZYN Ultra products** (premarket pathway); Jun 30, 2026 MRTP authorisation for 20 ZYN products.
-- **Q3 2026 — ZYN Ultra rollout and portfolio reset:** 20-pouch cans at 15-pouch price from October; US SG&A ~$370M in Q3, +~10% more in Q4; Q4 US adjusted operating income guided to ~zero or slightly negative as spending intensifies — the market read this as buying share, and shares fell ~3% premarket on results.
-- **Medium-term targets:** 6–8% organic revenue growth, 9–11% adjusted EPS growth over 2026–2028.
-
-### 6. Risks
-- **The ZYN price war is the thesis breaker:** PMI is voluntarily giving up ~25% revenue per pouch for three quarters of 2027 to defend share against Velo — growth is now bought, not earned; scanner data cited on the Q3 call pointed to *lower* volumes even as shipments rose.
-- **Cost pressure:** Middle East war/energy inflation and Ukraine strikes disrupting operations — ~1pt of growth cost, worsening in Q4 (Reuters via Q3 coverage); management leaned FY guidance to the mid/low end.
-- **Regulatory binary:** IQOS ILUMA US application pending since Oct 2023 with no decision date — the single largest unaddressed market; adverse FDA decisions on ZYN flavours/strengths or new nicotine regulation would hit the growth engine directly.
-- **Combustible decline:** cigarette volumes flat-to-down (industry −1.1% in Q3); the whole story depends on smoke-free compounding while combustibles fund it.
-- **Valuation:** ~28.5x trailing P/E, ~23–24x FY2026 guided EPS ($8.29–$8.44) at $196.35, near its 52-week high ($214.35 on Oct 30, 2026) — a staples name priced like a growth stock, with the growth leg now margin-dilutive.
-- **Balance-sheet footnote:** $28B goodwill/intangibles from Swedish Match; $11.7B trade-receivable factoring inflates reported operating cash flow (FY2025 10-K analysis) — cash quality is weaker than the headline.
-
-### 7. Shortage score: 4/10
-### Verdict
-The category leader in the fastest-growing nicotine category, but the shortage is over — PMI is now discounting 25% per pouch and spending its Q4 US profit to zero to hold share against Velo, so the explosive-return leg has become a grinding share-defence story at a growth multiple.
-
----
-
-## PH — Parker Hannifin (motion & control: aerospace systems + diversified industrial + filtration)
-
-### 1. Shortage thesis
-**Yes — a genuine multi-year aerospace/industrial order backlog that production cannot yet clear.** The driver is the commercial-aircraft production ramp: Boeing and Airbus combined deliveries >1,300 aircraft/year, with order backlogs stretching years, and every aircraft needs Parker's flight-control hydraulics, fuel systems, pneumatics, seals and thermal management. Parker's Aerospace Systems sales grew +13.8% in FY27 Q1 (commercial OEM +mid-teens guided for FY27, commercial aftermarket high-single-digit) and management reported "increased demand across all market verticals, resulting in double-digit organic sales growth and record backlog levels" (Q1 FY27 release, Nov 5, 2026). The shortage is structural in the supply chain sense: long lead times, titanium/high-strength-alloy dependencies, and FAA/EASA-qualified parts that cannot be second-sourced quickly. Industrial demand is also broad-based — Diversified Industrial North America +20% sales (+9.4% organic), International +22% (+11.6% organic, Asia-Pacific +23.4% organic) in Q1 FY27 — the first double-digit organic quarter in over three years (+11.5% organic overall). No explicit "sold out" quote, but a record $13.7B backlog with double-digit order rates in *every* business is the industrial equivalent.
-
-### 2. Backlog / order book
-**Record $13.7B backlog at Sep 30, 2026** (Q1 FY27 earnings release/call, Nov 5, 2026), up from $12.5B at Mar 31, 2026 (FY26 Q3) — i.e. +$1.2B in two quarters. Rolling 12-month order rates **+13%** overall (Q4 FY26: +12%): Aerospace Systems +14% (Q4: +18%), Diversified Industrial North America +11%, International +14%. Management: ~75% of backlog typically converts to sales within 12 months. At the ~$6.0B/quarter sales run-rate, $13.7B ≈ 2.3 quarters of total sales — but aerospace backlog is much longer-dated (multi-year platform programmes) while industrial turns faster; the blended figure understates the aerospace duration. Aerospace, industrial and the newly acquired Filtration Group all contributed to the backlog increase.
-
-### 3. Category position
-**#1 / co-#1 in most of its niches; the self-described "global leader in motion and control technologies."** In aircraft fluid power/hydraulics, Parker and Eaton "dominated the competitive landscape" (Dataintelo); Parker is named market leader in aircraft hydraulic pumps with the broadest portfolio of hydraulic, fuel and motion-control systems, strengthened by the £6.3B Meggitt acquisition (closed Sep 2022) which added braking/sensors and Airbus content. Aerospace competitors per its 10-K: Eaton, Honeywell, Moog, Triumph, Collins Aerospace (RTX), Woodward, Safran — fragmented by subsystem, with Parker the broadest across eight core technologies. In filtration it just bought scale (see below). No single rival matches its breadth across aerospace + industrial + filtration; share in any single subsystem is typically #1 or #2 but precise consolidated share is not disclosed — **not found as a single published percentage**.
-
-### 4. Irreplaceability / disintermediation risk
-**Irreplaceability score: 8/10.** Moat: (a) **certification/qualification lock-in** — flight-critical hydraulics, fuel and flight-control components are certified to a specific airframe (Boeing/Airbus platforms) under FAA/EASA; re-qualifying an alternative supplier takes years and the airframer bears the risk, so incumbents are designed in for the 20–30-year life of a programme; (b) **aftermarket annuity** — FY27 aerospace mix guided ~53% OEM / 47% aftermarket, and aftermarket (MRO, spares) carries the 30.7% adjusted segment margin; installed base cannot be serviced by a substitute; (c) **capital intensity + breadth** — eight core technologies, 548,000 customers, and the Meggitt/Filtration Group/CIRCOR roll-up consolidating the supplier base; (d) only a handful of firms on earth can make flight-qualified hydraulic flight-control systems (Parker, Eaton, Moog, Safran, Liebherr, Collins). Can customers in-source? Boeing/Airbus do not manufacture their own hydraulic systems and have spent decades *outsourcing* more, not less; vertically integrating flight-critical hydraulics would require certification capability they do not hold. The real substitution threat is **more-electric aircraft (MEA)**: electro-hydrostatic actuators displacing central hydraulics over decades — Parker is hedging by selling the electric actuators too, but it is a slow, platform-cycle threat (new wide-bodies still use 5,000 psi hydraulics), not a cliff.
-
-### 5. Recent catalysts (last ~3 months)
-- **Nov 5, 2026 — record FY27 Q1:** sales $6.0B (+18%, +11.5% organic — first double-digit organic quarter in 3+ years); adjusted EPS $8.90 (+23%, record); segment operating margin 28.6% adjusted (+120bps); aerospace adjusted margin a record 30.7%.
-- **Nov 5, 2026 — FY27 guidance raised:** organic sales growth 7.5–10.5% (midpoint +200bps), adjusted EPS $36.45–$37.25, GAAP EPS $29.65–$30.45, free cash flow $3.5–$4.0B (includes Filtration Group).
-- **Aug 13, 2026 — Filtration Group acquisition closed:** $9.25B cash purchase price (~$9.1B net of cash acquired), funded with $7.75B of term loans; ~$1.85B of sales expected in the remaining ~10.5 months of FY27; ~$5.15B goodwill (preliminary).
-- **May 21, 2026 — CIRCOR Aerospace agreed:** ~$2.55B cash for KKR's Commercial & Defense Aerospace business (~$270M CY2026 sales, >40% adjusted EBITDA margin, ~10% cost synergies); expected to close H2/calendar 2026, funded by a new $2.0B term loan + cash.
-- Aerospace order momentum: commercial aftermarket orders mid-teens; defence OEM high-single-digit, defence MRO mid-single-digit (FY27 guide).
-
-### 6. Risks
-- **Leverage jump:** long-term debt nearly doubled to **$14.64B** at Sep 30, 2026 (from $7.47B in June) to fund Filtration Group; another ~$2.55B CIRCOR deal pending adds a $2.0B term loan; $5.6B of principal falls due in FY2030. Integration risk on two large deals at once, with $5.15B of preliminary Filtration Group goodwill subject to revision.
-- **Aerospace cycle concentration:** the thesis rides Boeing/Airbus production rates — a production cut (quality/safety issues, strike, or air-travel downturn) hits OEM orders first; aerospace is ~31% of sales but the growth engine.
-- **Industrial cyclicality:** two-thirds of revenue is diversified industrial — a global manufacturing slowdown would cut the +11.5% organic leg quickly.
-- **More-electric aircraft:** long-run substitution of hydraulics by electric actuation; slow but real, and it caps the terminal value of the hydraulic franchise.
-- **Valuation:** at $972.90, ~26–27x FY27 guided adjusted EPS ($36.45–$37.25) — a premium industrial multiple that assumes the record backlog converts cleanly and both acquisitions integrate without a stumble.
-
-### 7. Shortage score: 7/10
-### Verdict
-The most tangible backlog in the batch — a record $13.7B, double-digit orders everywhere, and flight-certified parts that cannot be swapped — but the explosive leg is now partly a leverage-and-integration story ($14.6B debt, two big deals), so the upside is steadier compounding than a spike unless aerospace production rates break higher.
+### 7. Shortage score & verdict
+**Shortage score: 8/10. Verdict: The strongest shortage in this batch — a $170B+ backlog, airframes sold out through the decade, a grounded rival fleet handing CFM share, and GE's own spare-parts queue so long it is buying the casting supplier for $11.75B — but the explosive case is capped by GE's own inability to clear its delinquency queue, the GE9X certification clock, and a ~38x multiple that already assumes the backlog converts.**
 
 ---
 
 ## Batch summary
 
-| Ticker | Shortage | Irreplaceability | Backlog | Verdict in one line |
+| Ticker | Shortage 0–10 | Irreplaceability 0–10 | Backlog | One-line verdict |
 |---|---|---|---|---|
-| CDNS | 7/10 | 9/10 | $8.2B record (Q3 2026) | AI toll-booth with a record backlog; explosive if the multiple holds, fragile if it doesn't. |
-| PM | 4/10 | 5/10 | n/a (no backlog) | Category king whose shortage is over — now buying share at a 25% price cut. |
-| PH | 7/10 | 8/10 | $13.7B record (Q1 FY27) | Certified, multi-year aerospace backlog; the steadiest shortage, diluted by deal leverage. |
+| ISRG | 6 | 9 | n/a (not disclosed) | Best moat in the batch, procedure demand still compounding — but first real competition has arrived, and the $450M settlement buys legal peace with a third-party servicing framework. |
+| PH | 7 | 8 | $13.7B record (Q1 FY27) | Certified, multi-year aerospace backlog; the steadiest shortage, diluted by deal leverage ($14.6B debt, two big deals). |
+| GE | 8 | 9 | >$170B (Q3 2026); RPO $180.4B | Strongest shortage in the batch — sold-out airframes, a grounded rival, a $170B backlog — capped by its own spare-parts delinquency, GE9X certification, and a ~38x multiple. |
 
-**Strongest shortage + moat combination: CDNS** (highest irreplaceability, record backlog in a light renewal year); **PH** is the closest second with the largest absolute backlog and the hardest certification lock-in; **PM** ranks third — its demand surge is real but its shortage phase has ended and competition is now taking the margin.
+**Strongest shortage thesis:** GE (8/10), then PH (7/10), then ISRG (6/10).
+**Most irreplaceable:** GE and ISRG (9/10 each), then PH (8/10).
+**Changes vs 2026-11-13:** ISRG and PH scores unchanged — no new fundamentals since Nov 13; the ISRG $450M settlement is now confirmed (was unconfirmed) and is a known one-off cost, not a score change. GE is new; its RECEIVABLES_OUTRUN flag is judged mostly benign (OCF/NI 1.11x over 9M, volume-driven billing), with Q4 FCF delivery the re-check point.
+
+**Sources (selected, with dates):** ISRG Q3 2026 release/call Oct 20, 2026; Zacks on ISRG settlement Nov 12, 2026; Zacks on ISRG placements Nov 5, 2026; Seeking Alpha ISRG Nov 12, 2026; Parker Q1 FY27 release/call Nov 5, 2026 (8-K); Motley Fool PH call transcript Nov 5, 2026; TickerReport PH Nov 8, 2026 (Truist PT, dividend); GE Q3 2026 earnings release/call Oct 20, 2026 (geaerospace.com); GE CPP acquisition press release/8-K Sep 8, 2026; Aardvark Labs GE Q3 recap Oct 20, 2026; Leeham News GE Q3 Oct 21, 2026 and Q2 Jul 16, 2026; Astute Analytica narrowbody engine market report Nov 2026; Moat Explorer GE/Pratt analysis Sep 2026; Congress.net GE spare-parts analysis Aug 5, 2026; TickerNerd/CleaRank/MarketBeat GE and ISRG pages Nov 13–14, 2026.
 
 ---
+
+> Run by: Muse Spark (unknown) — full panel
+
+# Momentum Research — Batch 4 — Run date 2026-11-14
+
+Screen snapshot prices (Nov 13, 2026 close, reference only): WST $416.42 | MSI $531.20.
+Next earnings: WST 2027-02-18 (Q4 2026, per FundSpec; task brief says 2027-02-18) | MSI 2027-02-09 (Q4 2026).
+Both tickers are NEW to this panel — researched from scratch. Latest reported quarter for both is Q3 2026 (WST Oct 29, 2026; MSI Nov 4, 2026).
+
+---
+
+## Earnings-quality flags — verdicts
+
+### WST — RECEIVABLES_OUTRUN
+- **Metrics (10-Q for quarter ended Sep 30, 2026, filed Oct 29, 2026):** Accounts receivable $748.2M at Sep 30, 2026 vs $574.4M at Dec 31, 2025 (+30.3%) and $625M at Sep 30, 2025 (+19.7%). 9M 2026 net sales $2,591.7M vs $2,269.1M (+14.2%) — receivables grew ~2x sales growth. 9M net income $506.8M (+40.1% YoY) while 9M operating cash flow fell to $403.4M from $503.7M (−19.9%); FCF $278M, down ~5% YoY. Management: FCF decline "due primarily to increases in customers accounts receivable, as well as increased inventory levels to support our operations" (Q3 2026 call). Inventories also rose to $464.7M from $443.9M.
+- **Verdict: MOSTLY BENIGN, WATCH — growth-driven working-capital swell, not channel-stuffing.** The AR jump tracks a genuine demand surge (HVP +20% organic, price +~4pp in Q3, 200+ new HVP upgrade projects in 2026) and large-pharma customers pay slowly; cash is still strongly positive and the company bought back $685M YTD. But earnings (+40%) running well ahead of OCF (−20%) is the classic early-warning shape — if AR keeps outrunning sales into Q4, it becomes a real quality concern. Not a value-trap signature yet.
+
+### MSI — INVENTORY_BUILD
+- **Metrics:** Inventory $943M at Sep 27, 2025; $983M at Dec 31, 2025 (+28.3% vs 2024's $766M); $1,181M at Mar 31, 2026; $1,333M at Jun 30, 2026 (+54.8% YoY, +12.9% sequentially). Q1 2026: OCF fell 11.6% YoY to $451M and FCF fell 17.8% to $389M on the build. Q3 2026 press release (Nov 4, 2026): "the company expects inventory levels to remain elevated" — explicitly a deliberate buffer against AI-driven memory cost inflation and supply-chain volatility ("higher costs for memory in its products which is a result of substantial demand in the market driven by AI").
+- **Verdict: LARGELY BENIGN / DELIBERATE PRE-BUY — but with a real margin cost.** The build is management-disclosed, demand-backed (record $16.6B backlog, orders +20% YoY, Silvus ~$300M in Q3 alone) and aimed at securing scarce memory/components ahead of price rises — not unsold finished goods piling up. The cost is visible: memory spend ~$150M in 2026 (vs ~$50M) and "may double in 2027" per call commentary, a genuine margin headwind. Watch for inventory-to-sales normalising as backlog converts; if backlog stalls while inventory keeps rising, the benign read breaks.
+
+---
+
+## WST — West Pharmaceutical Services ($416.42)
+
+**Business:** Elastomeric stoppers/seals, prefillable-syringe components, self-injection (autoinjector) systems and contract manufacturing (West Vantage) for injectable drugs. Supplies >41 billion components/devices a year (company PR, Mar 31, 2026). Market cap ~$29B; TTM P/E ~45x.
+
+### 1. Shortage thesis
+Yes — a real, structural bottleneck, though it is West's *customers'* shortage that flows to West. GLP-1/biologics demand has outpaced the whole injectable chain (peptide synthesis, sterile fill-finish, autoinjector assembly, packaging). West sits at multiple links, above all the elastomeric closure — "the stopper that seals the pre-filled syringe or cartridge" — and is "the largest global player with a dominant share of closures for high-value biologics" (Ainvest, Aug 2026). Evidence: HVP Components revenue $467M in Q3 2026, +20% organic, 53% of total sales; GLP-1-related HVP revenue grew "well into the 30% range" organically and was just under 12% of total quarterly revenue; growth *outside* GLP-1 was still high-teens. Price contributed just over 4pp of Q3 growth and gross margin expanded 310bp to 39.7% — pricing power, not just volume. CEO Michel Lagarde (joined ~Aug 2026): "We think it's a durable growth driver for us in the years to come." New capacity is being added precisely because demand exceeds supply: 165,000 sq ft Dublin (Damastown) expansion opened Mar 31, 2026 (+330 jobs) for high-volume injectables incl. next-gen GLP-1, and on the Q3 call management said a new round of HVP finishing-capacity investments in Europe and the US will take "about 18 to 24 months to provide a meaningful contribution" — i.e. capacity is the constraint for the next ~2 years.
+
+### 2. Backlog / order book
+**Not found — West does not report a backlog figure.** Closest proxies: 200+ HVP upgrade projects launched by customers in 2026 (CFO, Q3 call); HVP is 53% of sales and growing 20% organic; full-year 2026 organic growth guidance raised to 11.3–11.6%. No bookings/backlog number is disclosed in the Q3 2026 release or 10-Q.
+
+### 3. Category position
+#1 in its niche. Described as "the global leader in drug containment and delivery systems" / "undisputed leader in containment integrity" (Verified Market Research, Mar 2026: ~18.5% share of high-value prefilled-syringe components, ahead of SCHOTT Pharma 16.2% and Nipro 15.0%). Third Bridge expert transcripts call it "almost a monopoly in some areas" of elastomer components. Main competitors: Aptar, Stevanato Group, Gerresheimer, Nipro, Datwyler, SCHOTT. Caveat from the same transcripts: competitors "captured a greater share of newer projects over recent years" — leadership is real but not unchallenged on new filings.
+
+### 4. Irreplaceability / disintermediation risk
+**Irreplaceability score: 8/10.** The moat is regulatory, not just manufacturing: West's components are validated as part of the drug's FDA/EMA submission — switching a stopper/closure means re-filing, re-validation and risking regulators reopening the file. Third Bridge: "regulatory switching costs are a primary retention mechanism… Rivals offer discounted pricing but rarely displace West on incumbent programmes; supply decisions in biologics are seldom made on price alone." Pharma customers (Novo, Lilly) cannot realistically in-source elastomer compounding, coating and sterile finishing at scale — it is a specialised, capital-intensive, regulated process, and the drugmakers' bottleneck is their own fill-finish capacity, not a desire to make stoppers. Substitute threat is low: oral GLP-1s would reduce *injectable* volumes at the margin, but injectables remain the dominant form and the pipeline (biologics, ADCs, cell/gene therapy) is injectable-heavy. Deduction for the 8 (not 10): new projects are contestable (Datwyler/Aptar inroads) and oral/small-molecule shifts are a slow-burn substitute.
+
+### 5. Recent catalysts (last ~3 months)
+- **Q3 2026 beat + raise (Oct 29, 2026):** Revenue $874.5M (+8.7% reported, +11.9% organic) vs ~$827M consensus; adj. EPS $2.66 (+35.7%) vs $2.20 consensus (+$0.46 beat, ~21% per FundSpec). FY26 revenue guidance raised to $3.41–$3.42B (from $3.345–$3.38B); adj. EPS raised to $9.38–$9.48 (from $8.85–$9.05). Q4 guide $820–$830M.
+- **Analyst target wave (Oct 30–Nov 2, 2026):** Citi $412→$494 Buy; TD Cowen $420→$500 Buy; Barclays $440→$500 Overweight; Evercore $440→$480 Outperform; Jefferies reaffirmed Buy $475; Weiss upgraded Hold→Buy; Morgan Stanley upgraded to Overweight Sep 22 ($365→$400). Consensus target ~$425–$468 (sources differ); ~13 Buy / 1–2 Hold.
+- **Capacity:** Dublin Damastown 165,000 sq ft expansion opened Mar 31, 2026; new HVP finishing capacity in Europe/US announced on Q3 call (18–24 months to contribute).
+- **Capital return:** $231M buybacks in Q3, $685M YTD; Q4 dividend $0.26/share declared Oct 19, 2026.
+- **Headwind disclosed:** SmartDose 3.5 divestiture creates ~290bp reported-growth headwind in 2027; West Vantage (contract mfg) organic revenue −6.6% as legacy programs (incl. a CGM program) rolled off faster than new programs ramp.
+
+### 6. Risks
+- Valuation already prices much of it in: ~45x TTM earnings, ~28x EV/EBITDA; stock +59% over 1 year, +51% YTD to Nov 13, near its 52-week high ($438.27 on Oct 29). A GLP-1 growth deceleration or oral-GLP-1 shift hits the multiple hard.
+- Customer concentration in GLP-1 (Novo/Lilly) — a single sourcing decision or destocking cycle matters; 2023–24 destocking already hurt.
+- West Vantage transition drag and the 2027 SmartDose headwind (~290bp).
+- Receivables/inventory working-capital drag (see flag above); FCF down ~5% YTD despite +40% net income.
+- Competition on new projects (Datwyler, Aptar) and potential pricing pressure if GLP-1 supply normalises.
+
+### 7. Shortage score: 7/10
+**Verdict:** A genuine tollbooth on the GLP-1/biologics injectable boom with regulatory switching costs and 20% HVP growth — but a picks-and-shovels compounder, not an explosive shortage squeeze, and the stock has already run 59% in a year at 45x earnings.
+
+---
+
+## MSI — Motorola Solutions ($531.20)
+
+**Business:** Mission-critical communications for public safety/government: land mobile radio (LMR/P25), video security, command-center software, plus fast-growing defence/drone comms (Silvus MANET, D-Fend counter-drone). Market cap ~$89B; ~29x forward P/E.
+
+### 1. Shortage thesis
+Not a classic commodity shortage — it is a *demand surge + sole-source* story. Public-safety and defence demand for mission-critical comms is outrunning supply of the specialised systems: Q3 2026 orders grew >20% YoY with "record Q3 orders" in all three technologies (CEO Greg Brown, Nov 4, 2026 call); backlog jumped ~$1B sequentially in one quarter. The acute shortage driver is defence: Silvus (acquired Jul 2025 for $4.4B) — high-throughput, jam-resistant MANET mesh networking that powers unmanned systems in contested environments — did ~$300M revenue in Q3 alone, is guided to $900M+ in 2026 and ~30% growth in 2027 ("we do not see a slowdown in demand"). At AUSA, "Silvus was front and center, underscoring the critical need for high-throughput, jam-resistant tactical communications." On the supply side, MSI itself faces a component shortage: AI-driven memory demand has raised its memory costs (~$150M in 2026 vs ~$50M, may double in 2027) and forced deliberate inventory pre-buys — evidence demand is strong enough to justify stockpiling at inflated input prices. This is a demand-pull, capacity-constrained growth story rather than a sold-out commodity, so the "shortage" is real but softer than a hard physical bottleneck.
+
+### 2. Backlog / order book
+**Record $16.6B ending backlog at Q3 2026 (Nov 4, 2026), +14% / +$2.1B YoY and +~$1B sequentially** — the highest ever. Split: Software & Services $11B+ (record; +13% YoY) and Products & Systems Integration up $635M (+18%) on MCN/video demand. Orders grew >20% YoY in Q3, double-digit in both segments. Backlog is multi-year by nature (10-year, $139M Louisiana contract; 8-year, $78M federal mobile-video award in Q3) — roughly 1.3x annual revenue ($13.05B guided FY26), giving visibility well into 2027–28. Notable Q3 wins: $140M P25 order from the Federal Bureau of Prisons, $98M federal customer order, $39M Silvus order from a German unmanned-systems provider, plus three large D-series P25 infrastructure orders in Q3 2025 ($110M Colorado, $84M Tennessee, $82M state/local).
+
+### 3. Category position
+#1, decisively in its core. Morningstar: "controlling more than 80% of the U.S. [LMR] market" for public safety; "Motorola's devices are considered the standard within the emergency services world." Verified Market Research (Feb–Mar 2026): ~24.5% global critical-communications share, ~28.4% in North America, ~26% global public-safety comms equipment. Next players are far behind: L3Harris, Hytera, Airbus Defence and Space, JVCKenwood — the top five combined hold only ~42% of the land professional mobile radio market (Mordor Intelligence), with MSI the clear #1. In video/command-center it is a leader but faces more competition (Axon, Genetec, Avigilon peers).
+
+### 4. Irreplaceability / disintermediation risk
+**Irreplaceability score: 9/10.** The moat is switching costs + standards + institutional entrenchment, not a single patent. Replacing a public-safety radio network is "politically and operationally prohibitive" — P25 networks are multi-year, multi-hundred-million-dollar procurements, interoperable across agencies, and failure costs lives, so "technological disruption typically moves slowly in the public sector" (Morningstar, narrow moat). Customers are governments, not hyperscalers: no single customer can in-source a P25/LMR ecosystem, and the "hyperscaler builds it themselves" threat that haunts other names does not apply — the in-sourcing threat would be FirstNet/LTE/5G push-to-talk over cellular displacing LMR, which Morningstar explicitly flags but judges unlikely to rapidly disrupt MSI, and MSI is itself bridging it with hybrid LMR-LTE (WAVE) and its own broadband offerings. The newer Silvus/D-Fend drone layer adds a defence-grade moat (jam-resistant MANET is hard to replicate; D-Fend's RF cyber-takeover is niche IP). Deduction: video/software faces real commercial competition, and long-run LTE substitution is the slow-burn risk.
+
+### 5. Recent catalysts (last ~3 months)
+- **Q3 2026 beat + third consecutive guidance raise (Nov 4, 2026):** Revenue $3.376B (+12% YoY, +5% organic) vs $3.27B consensus; non-GAAP EPS $4.69 (+15.5%) vs $4.41 consensus; non-GAAP operating margin 32.5% (+200bp). FY26 revenue raised to ~$13.050B (from $12.975B); non-GAAP EPS raised to $17.94–$17.99 (from $17.62–$17.72, vs $17.71 FactSet). Q4 guide ~13% revenue growth, EPS $5.47–$5.52. GAAP EPS fell to $3.06 (from $3.33) on a $0.52 non-cash Silvus earnout charge — the earnout rose *because* Silvus is outperforming.
+- **D-Fend acquisition closed in Q3 2026:** $1.3B net of cash (funded largely by $950M new senior notes); industry leader in counter-drone (RF detection + cyber takeover mitigation); ~$45M revenue in stub 2026, ~$185M full-year 2026, guided +40–50% in 2027. Also acquired DeepNeuronic (AI video analytics) for $29M.
+- **Silvus momentum:** ~$300M Q3 revenue; FY26 guide $900M+; +30% expected in 2027. Silvus added $200M to backlog at acquisition and is driving the MCN segment.
+- **Analyst target wave (Nov 5, 2026):** Barclays $529→$598 Overweight; UBS $520→$570 Buy; JPMorgan $545→$570 Overweight; Evercore $550→$575 Outperform; Truist $550→$555 Buy; Piper Sandler $531→$533 Overweight. Consensus ~12 Buy / 2 Hold, median target ~$545–$570 (only ~3–7% above $531.20). Note: CFO Jason Winkler sold ~$4.0M of stock (Nov 13, 2026 filing) — insider selling, not a catalyst.
+- **Headwind disclosed:** memory cost inflation, tariffs (~$70–80M headwind in 2025), US government shutdown (Oct 2025) noted as a risk; long-term debt $9.36B at Oct 3, 2026 after Silvus/D-Fend deals.
+
+### 6. Risks
+- Valuation: ~29x forward P/E after a ~35% YTD run; consensus target implies only ~3–7% upside — the market has already priced the beat-and-raise cadence. Explosive upside needs Silvus/D-Fend to beat already-high expectations.
+- Leverage: $9.36B long-term debt after two big acquisitions ($4.4B Silvus + $1.3B D-Fend); integration/earnout charges are already denting GAAP earnings.
+- Memory cost inflation may double in 2027 (~$300M) and compress hardware margins; inventory build (+55% YoY) ties up cash.
+- Government budget cycles / shutdowns can delay orders; public-safety spending is non-discretionary but lumpy and political.
+- Organic growth only +5% in Q3 — the 12% headline is acquisition-assisted; underlying growth is mid-single-digit ex-M&A.
+- Long-run substitution: FirstNet/LTE/5G push-to-talk could erode LMR over a decade; video faces Axon/Genetec competition.
+
+### 7. Shortage score: 6/10
+**Verdict:** The #1 mission-critical comms franchise with a record $16.6B backlog, 80%+ US LMR share and a genuine defence-drone growth engine (Silvus + D-Fend) — a high-quality compounder with multi-year visibility, but the "shortage" is demand strength rather than a supply squeeze, organic growth is only ~5%, and the stock already reflects the story at ~29x forward earnings.
+
+---
+
+## Batch summary
+
+| Ticker | Shortage score | Irreplaceability | One-line verdict |
+|---|---|---|---|
+| WST | 7/10 | 8/10 | GLP-1/biologics tollbooth with regulatory switching costs and 20% HVP growth — real bottleneck, but a 45x compounder after a 59% run, not an explosive squeeze. |
+| MSI | 6/10 | 9/10 | Dominant public-safety franchise (80%+ US LMR) with record $16.6B backlog and a defence-drone kicker — superb moat and visibility, but demand-pull not supply-shortage, and only ~3–7% to consensus target. |
+
+**Batch takeaway:** MSI has the stronger moat and backlog visibility; WST has the stronger shortage/p Pricing-power evidence. Neither is a classic explosive shortage bet — WST is the closer fit on shortage score, MSI the safer compounder. Both carry full valuations after strong 2026 runs, so momentum upside from here depends on continued beats (WST: GLP-1 durability; MSI: Silvus/D-Fend outperformance) rather than a re-rating on scarcity alone.
+
+**Sources (all accessed Nov 14, 2026):** WST Q3 2026 PR / 10-Q (Oct 29, 2026, PRNewswire via TradingView/Nasdaq; 10-Q via QuoteMedia); WST Q3 2026 call transcript (Motley Fool / MarketBeat, Oct 29–31, 2026); West Dublin expansion PR (Mar 31, 2026, PRNewswire via MarketWire); MSI Q3 2026 PR and call transcript (Nov 4, 2026, motorolasolutions.com); MSI Q3 2025 PR (Oct 30, 2025); Zacks on MSI Q3 2026 (Nov 5, 2026) and Q3 2025 (Oct 31, 2025); Macrotrends WST receivables / MSI inventory pages; Morningstar on MSI (via ResearchPool); Verified Market Research critical-comms / prefilled-syringe share tables (Feb–Mar 2026); Third Bridge WST expert-transcript summary; FundSpec analyst-action tables for WST/MSI (Nov 13, 2026); Ainvest GLP-1 gatekeeper piece (Aug 2026). Figures marked "not found" where undisclosed (notably: West reports no backlog).
+
+---
+

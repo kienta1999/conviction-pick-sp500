@@ -1,0 +1,60 @@
+[
+  {
+    "stage": "1 profitable",
+    "in": 503,
+    "out": 414,
+    "dropped": 89
+  },
+  {
+    "stage": "2 US company",
+    "in": 414,
+    "out": 394,
+    "dropped": 20
+  },
+  {
+    "stage": "3 TTM rev growth>0",
+    "in": 394,
+    "out": 357,
+    "dropped": 37
+  },
+  {
+    "stage": "4 leverage ok",
+    "in": 357,
+    "out": 261,
+    "dropped": 96
+  },
+  {
+    "stage": "5 above 200d SMA",
+    "in": 261,
+    "out": 179,
+    "dropped": 82
+  },
+  {
+    "stage": "6 op margin>sector med",
+    "in": 179,
+    "out": 87,
+    "dropped": 92
+  },
+  {
+    "stage": "7 0<fwdPE<60",
+    "in": 87,
+    "out": 86,
+    "dropped": 1
+  },
+  {
+    "stage": "8 niche leaders (N=2,R=0.2,R2=0.5)",
+    "in": 86,
+    "out": 65,
+    "dropped": 21,
+    "leaders_per_subindustry": 2,
+    "coleader_ratio": 0.2,
+    "coleader_2nd_ratio": 0.5
+  },
+  {
+    "stage": "9 trim to target",
+    "in": 65,
+    "out": 50,
+    "dropped": 15,
+    "target": 50
+  }
+]

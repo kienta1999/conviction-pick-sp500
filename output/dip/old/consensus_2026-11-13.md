@@ -1,5 +1,3 @@
-> Run by: Muse Spark (muse-spark-1.3) — full panel
-
 # dip consensus — as of 2026-11-13 (5 runs: 2026-11-09 → 2026-11-13)
 
 **Consensus top 3:** KLAC, LRCX, FIX

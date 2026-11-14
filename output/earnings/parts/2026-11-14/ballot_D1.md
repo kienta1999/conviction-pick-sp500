@@ -1,0 +1,40 @@
+> Run by: Muse Spark (unknown) — full panel
+
+# BALLOT D1 — Contrarian / Risk Skeptic — Earnings 2026-11-14 (full panel)
+
+Field: 6 names (A, NTAP, AZO, CTAS, PAYX, MU). All six research batches concluded **Plan B** for every name — none earned Plan A. This ballot ranks the field as event trades under that constraint. No options-implied move was found for any name (stated as "not found" throughout, per the dossier).
+
+## 1. Single-pick ballot
+
+- **Top pick:** A
+- **Runner-up:** AZO
+- **Thesis (3-5 sentences):** Agilent is the only name in the field where the downside case is actually bounded by the record: its worst reaction in four prints is −5.5%, its beat-up rate is the field's best (0.857), and its date is company-confirmed nine days out. The loss case here is a soft in-line on a twice-raised guide, not a guide cut — and crucially, no FY27 guide is due on this print, so there is no new forward number for management to miss. The market has already run the stock +53.6% in six months, so this is not a bargain; it is simply the one print where a disappointment costs single digits instead of the −9% to −15.6% worst cases elsewhere in the field.
+- **Key evidence from the record:** Best reaction record in the field — beat-up 0.857, average reaction +2.5%, worst −5.5% — with 3 of 4 EPS beats (Q3 FY26 +9.5% beat, revenue beat, guide raised, +3.0% next session) and a guide raised twice in FY26. No other name combines a positive average reaction with a contained worst case.
+- **Priced-in risk (THE TRAP):** Medium-high. The stock is +53.6–55.7% over six months, +17.2% over three months, only 4.9% below its 52-week high ($182.99, Oct 28), at ~26x forward PE, and consensus sits at the top of Q4 guide ($1.72–1.73 vs guide $1.71–1.74). The trap is not valuation alone — it is that an in-line Q4 on a twice-raised guide reads as a peak, and there is no FY27 framework coming on this call to re-anchor the story. Implied move: not found (nearest datapoint is a Nov 20 straddle ~4.9%, not the earnings expiry).
+- **The guide:** The forward number the market is carrying is FY27 consensus EPS $6.77 (+9.2%), since no FY27 guide is due Nov 23 and no Q1 FY27 consensus was found in the dossier. Does the run-rate support it? Only on margin, not on growth: revenue growth is decelerating (+10.0% → +8.1% YoY), the $0.06 Q3 tariff-refund benefit does not repeat, and China (+9% in Q3 vs flat expected) is the mean-reversion risk. The bridge to $6.77 is continued Ignite margin expansion off a 27.2% non-GAAP operating margin. "Beat but guided soft" is the loss case here in its in-line form: a Q4 print at the midpoint of guide with a flat Q1 FY27 steer would leave the $6.77 looking like a stretch and the stock gives back part of the six-month run. There is no guide cut available to fear — but equally no guide raise available to save it.
+- **Plan A or Plan B**, with one sentence of justification. **Plan B** — a twice-raised guide with consensus at its top and no FY27 framework due means holding through the print pays full price for a beat that is already the base case.
+- **Fallback if the print disappoints:** Yes, I would hold it 12–18 months. Moat 7/10 — chromatography/mass-spec and CrossLab consumables embedded in regulated pharma QC, with real switching costs — and the dossier's gap-down verdict is "opportunity, not disaster." A guide-soft disappointment is a multiple event on a quality compounder, not a broken business, unless China rolls over hard.
+- **Event scenario:** beat-and-raise (strong Q4 + firm Q1 steer): +4% to +6%; in-line: −2% to −4% (disappointment on the twice-raised bar); miss / soft steer: −5% to −8% (record worst is −5.5%, but the six-month run gives room for a larger give-back).
+- **Top risk:** An in-line Q4 that reads as the peak of the twice-raised FY26 guide, compounded by China mean-reversion — with no FY27 guide due, there is nothing on the call to reset the bar upward.
+- **Conviction (1-10):** 5
+
+## 2. Ranked ballot
+
+1. A — Best reaction record, contained worst case
+2. AZO — Cheapest, washed out, no guide to cut
+3. NTAP — Already de-rated 18%, guide reaffirm bounces
+4. PAYX — Beats well, market demands a raise
+5. CTAS — Best business, worst price, FTC binary
+6. MU — Worst hold-through record, guide is the print
+
+### Top 3 detail
+
+**1. A — Agilent.** Most compelling record: beat-up 0.857 with average reaction +2.5% and worst −5.5% — the only name whose bad day is a single-digit event — plus a guide raised twice in FY26. Reaction record: 3 of 4 prints up, Q3 FY26 +3.0% on a +9.5% beat and raise. Guide risk: the lowest in the field (4/10) precisely because no FY27 guide is due; the risk is an in-line Q4 being read as a peak, not a cut. Priced-in risk: medium-high — +53.6% in six months, 4.9% below the high, consensus at the top of guide. Rough moves: beat-and-raise +4–6% / in-line −2–4% / miss −5–8%. **Plan B.**
+
+**2. AZO — AutoZone.** Most compelling record: the cheapest name in the field (17.0x forward PE), 18.4% below its 52-week high after a 1-year −15.5% drawdown, moat 8/10, and — critically for this lens — there is no EPS/revenue guide to cut, so the classic guide-down loss case does not exist here. Reaction record: ugly — revenue missed consensus all four prints and the stock fell 3 of 4 (+3/−9/−6/−7%), which is why it is #2 and not #1. Guide risk: 5/10 — the "guide" is qualitative SSS, guided "relatively flat" for Q1, and a negative DIY comp reads as deterioration; the $40m pre-announced Q1 LIFO charge (~80bp margin / ~$1.85 EPS) compresses reported optics. Priced-in risk: low (4/10) — the washout is already in the price, and the bounce off the Oct 5 52-week low is defensive rotation, not euphoria. Rough moves: beat (SSS positive, commercial high-single-digit) +5–8% / in-line (flat SSS, EPS beat) −2–4% / miss (negative DIY, commercial soft) −6–9%. **Plan B.**
+
+**3. NTAP — NetApp.** Most compelling record: 4/4 EPS beats averaging +10.1%, Q1 FY27 a +19–21% beat with a significantly raised FY27 guide — and the stock has already taken its punishment, −18.4% in a month on Barclays' downgrade, 24.7% below its high. Reaction record: mixed — beat-up 0.571, average +1.2%, but the screen's worst print is −15.6%, the field's worst. Guide risk: the highest in the field (8/10) — the FY27 guide (+17% revenue, +22% EPS) is exactly what Barclays attacked, and the dossier is explicit that the guide is still priced as credible, so a trim is a second leg down, not a priced-in event; the inventory build (+89%, turns 14→6, FCF −35%) is real even if plausibly demand-led. Priced-in risk: high on the guide, low on the multiple — the de-rating is about the guide's durability, and it has not resolved. Rough moves: beat + guide reaffirmed + billings strong +8–12% / in-line + guide reaffirmed but soft billings −3–6% / guide trimmed −12–18%. **Plan B.**
+
+Names deliberately left out of my top 3 and why: **PAYX** — beats well (8/10, 4/4) but the market's bar is a total-guide raise management's reaffirm-heavy cadence will not deliver, and the September precedent is a −9% fall on beat-plus-reaffirm; **CTAS** — the best business in the field at the worst price (36.7x, consensus EPS at/above the top of guide) with an FTC/UniFirst binary landing Dec 11, six days before earnings, that I will not pay 36.7x to flip; **MU** — the worst hold-through record in the field (median next-day −1.9%, 6 of 10 down over a week, the March 2026 archetype of a +39% surprise falling −3.8% then −23% in a week), and the guide IS the print with no published Q2 FY27 consensus while FY27 consensus ($176–189) implies ~$46–50/qtr against a ~$38 Q1 — a run-rate the print must accelerate into, in Christmas-week liquidity, with Nvidia reporting Nov 17 first.
+
+Note on the field: ADSK and VEEV — yesterday's pick and #2 — are absent on a Yahoo data failure at stage 1 (netIncomeToCommon/profitMargins NaN), not a thesis change; the panel ranks only the screened six, but the owner should know the field is missing its two strongest recent names on a data artifact.
