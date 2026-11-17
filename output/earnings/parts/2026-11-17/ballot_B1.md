@@ -1,0 +1,30 @@
+> Run by: Muse Spark (muse-spark-1.3) — full panel
+
+## 1. Single-pick ballot
+
+- **Top pick:** A
+- **Runner-up:** PAYX
+- **Thesis (3-5 sentences):** Agilent is the only name in the field whose own good news is actually rewarded — an 85.7% beat→up rate with a +2.5% average reaction — and it is the only one with a confirmed date seven days out and no run-up into the print (ret 21d −0.9%, flat for a month). Core growth is accelerating (4.4% → 6.3% → 7.3%) with three straight guidance raises, and both peers (Thermo Fisher, Danaher) beat-and-raised on Oct 21. The trap is real — the $1.77 whisper sits above the top of guidance ($1.74) and the FY27 initial guide is a second binary — but Plan B neutralizes it: enter only on a confirmed beat-and-raise, so the gap risk is never underwritten.
+- **Key evidence from the record:** Beat→up 85.7% (6 of 7 measured beats rewarded), average reaction +2.5%, average absolute move 4.7%, worst −5.5% — the field's only reaction record that pays for beats — on top of accelerating core growth and three consecutive guidance raises.
+- **Priced-in risk (THE TRAP):** medium. No run-up into the print (ret 21d −0.9%, no run-into-print flag), −4.1% off the high, flat for a month; but +54.8% over six months, ATM IV at the 100th percentile of its own history, and the market expects a fourth consecutive raise. Historical implied moves (4.0–5.9%) roughly match the 4.7% realized proxy, so the options market is not pricing a blowout — the crowding is in the expectation of a raise, not in the price.
+- **The guide:** The forward number is the FY27 initial guidance, issued on this call. Consensus is EPS $6.77 (+9.2% YoY) and revenue $7.96B; Q1 FY27 consensus is $1.48 / $1.92B. The run-rate supports ~$6.77 if core growth holds ~6% and margins expand ~100bp — supportable, not a layup, with flagged FY27 drags (memory-chip costs, Middle East logistics, Train C ramp). The loss case is explicit: a Q4 beat with FY27 guidance below $6.77, or a soft Q1 FY27 guide, is "beat but guided soft" and the stock falls anyway — and a serial raiser that merely reaffirms is a de facto cut.
+- **Plan A or Plan B**, with one sentence of justification. Plan B — the whisper sits above the top of guidance and the FY27 initial guide is an unhedgeable second binary, so there is no case for paying the gap risk when the entry can wait for the number.
+- **Fallback if the print disappoints:** Yes, hold it 12–18 months. Irreplaceability 8/10 — top-3 life-sciences tools vendor, validated-workflow switching costs, CrossLab annuity ~42% of revenue, clean balance sheet (net debt/EBITDA 1.15x), dividend $0.2550/quarter. A gap down on a soft FY27 guide is an opportunity, not a disaster — the risk is paying 26x forward for a 6% grower if the guide disappoints, not the business breaking.
+- **Event scenario:** rough % move on a beat-and-raise (≥$1.77 + FY27 ≥$6.77): +4% to +6%. In-line ($1.72–1.74, FY27 guide in line): −2% to −4% (whisper disappointment). Miss or soft FY27 guide: −6% to −9%.
+- **Top risk:** The whisper is the bar, not the $1.72 consensus — a print of $1.72–1.74 with FY27 guidance at consensus reads as a miss to the $1.77 whisper crowd, and the Q3 tariff refunds ($0.06 EPS) are explicitly excluded from Q4 and forward guidance, so there is no repeat benefit.
+- **Conviction (1-10):** 7
+
+## 2. Ranked ballot
+
+1. A — Best reaction record, no run-up
+2. PAYX — Cheapest setup, worst reaction record
+3. CTAS — Strongest record, most crowded setup
+4. AZO — Beats punished, comps decelerating
+
+**Top 3 detail:**
+
+- **1. A:** The most compelling setup data point is the reaction record: 85.7% beat→up (6 of 7 measured beats rewarded), +2.5% average reaction, worst only −5.5% — the only name in the field the market actually pays for beating. Guide risk 4/10: the Q4 guide is already issued and consensus sits at its bottom, so the quarter's guide risk is low; the risk is the new FY27 guide. Priced-in risk is medium (5/10): no run-up, flat for a month, but a +55% six-month run and a whisper above guidance. Rough moves: beat-and-raise +4% to +6%, in-line −2% to −4%, miss/soft guide −6% to −9%. Plan B.
+- **2. PAYX:** The most compelling setup data point is the cheapness: 18.1x forward vs a 25.25x three-year average (~30% discount to its own history), −8.2% off its high, priced-in 4/10 — the froth is gone. But the reaction record is the worst in the field on print day: fell on 3 of the last 4 prints despite beating EPS every time, print-day beat→up 1 of 4 (the screen's 57.1% blends the day-after recovery). Guide risk 7/10, the highest in the field: the FY27 guide (+7–9% adj EPS) needs ~8–11% H2 growth the Q1 run-rate does not support. Rough moves: beat-and-clean +3% to +5%, in-line −2% to −4%, miss −7% to −10%. Plan B, emphatically — the cheap multiple will still be there after the number.
+- **3. CTAS:** The most compelling record data point is the 8/8 beat streak with revenue accelerating to +10.9% and a FY27 guide covered by the Q1 run-rate — the strongest fundamentals in the field. But it is also the worst setup: priced-in 7/10, −1% off its high after a +35% six-month run, analyst targets below the price, and a coin-flip reaction record (fell on 2 of the last 4 beats-and-raises, 62.5% beat→up). Guide risk 4/10 on the number itself, but the market demands another raise after four straight and a reaffirmation reads as a slowdown. Add an unconfirmed date (Dec 16 vs 17) and the FTC/UniFirst headline landing Dec 11, six days before the print. Rough moves: beat-and-raise +3% to +5%, reaffirm −3% to −5%, FTC suit or miss −6% to −10%. Plan B.
+
+**Left out of the top 3:** AZO — the reaction record punishes beats (fell on 2 of its 3 recent beats, beat→up 33% on a not-judgeable 3-beat sample, average reaction −2.3%), domestic comps decelerated to +1.6% with DIY −0.6%, and the +14.1% EPS growth bar sits in the seasonally weakest quarter. Uncrowded (priced-in 4/10, IV at the 4th percentile) is not the same as set up — this is the name the market distrusts on print day, and a beat does not protect you here.
