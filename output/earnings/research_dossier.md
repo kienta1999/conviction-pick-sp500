@@ -1,478 +1,746 @@
-> Run by: Muse Spark (Muse Spark 1.3) — full panel
+> Run by: Muse Spark (muse-spark-1.3) — full panel
 
-# Earnings research dossier — 2026-11-18
+# Research dossier — earnings mode — run 2026-11-20
 
-Screen: `shortlist_2026-11-18.json`, generated 2026-11-18 09:27:58. 6 candidates. Actionable now (≤10d): A (Nov 23 AMC), ADSK (Nov 24 AMC). Watchlist: VEEV (Dec 3), AZO (Dec 8), CTAS (Dec 17*), PAYX (Dec 18*). * = estimated date, not company-confirmed.
-`ret_21d` / `run_into_print_flag` were not computed by the screen this run — research batches measured the run into the print from market data.
+Consolidated from `output/earnings/parts/2026-11-20/research_batch1.md` (A, ADSK), `output/earnings/parts/2026-11-20/research_batch2.md` (NTAP, VEEV) and `output/earnings/parts/2026-11-20/research_batch3.md` (CTAS, PAYX, AZO). Field: 7 candidates, all researched (4–9 field → skip the cut). Triage: `output/earnings/parts/2026-11-20/triage.md`.
 
-## Screen metrics
+## Screen metrics (from output/earnings/shortlist_2026-11-20.json, generated 2026-11-20 09:21:06)
 
-| ticker | price | composite | next_earnings | days | beats 4q | surprise avg | beat_up | react avg | react abs | worst | last4 | rev TTM | op margin | fwd PE | quality flags |
+| ticker | company | price | next earnings | beats 4q | surprise avg | surprise trend | rev yoy | rev accel | beat_up_rate | react avg | react avg abs | reaction last4 | ret_21d | fwd PE | quality flags |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| VEEV | 288.41 | 0.803 | 2026-12-03 | 15 | 4 | +5.42% | 0.625 | +4.3% | 9.1% | -9.8% | +15%, -2%, +4%, -10% | +11.4% | 29.9% | 28.1x | — |
-| ADSK | 255.22 | 0.692 | 2026-11-24 | 6 | 4 | +6.37% | 0.625 | +1.0% | 4.9% | -8.6% | +6%, -4%, +5%, +2% | +11.5% | 28.1% | 18.0x | RECEIVABLES_OUTRUN |
-| A | 172.22 | 0.607 | 2026-11-23 | 5 | 3 | +3.65% | 0.857 | +2.5% | 4.7% | -5.5% | +2%, +17%, -3%, +2% | +6.1% | 24.5% | 25.6x | RECEIVABLES_OUTRUN |
-| CTAS | 222.20 | 0.518 | 2026-12-17 | 29 | 4 | +0.99% | 0.625 | +0.1% | 4.7% | -10.6% | -3%, +7%, -5%, +1% | +7.3% | 23.6% | 36.1x | — |
-| PAYX | 114.10 | 0.518 | 2026-12-18 | 30 | 4 | +1.80% | 0.571 | -1.4% | 4.1% | -9.4% | -9%, -2%, +3%, +2% | +9.8% | 39.9% | 17.8x | RECEIVABLES_OUTRUN |
-| AZO | 3279.12 | 0.272 | 2026-12-08 | 20 | 3 | +1.62% | 0.333* | -2.3% | 4.2% | -9.0% | +3%, -9%, -6%, -7% | +5.7% | 17.7% | 17.1x | — |
+| VEEV | Veeva Systems | 262.92 | 2026-12-03 (13d) | 4/4 | 5.42% | -0.16 | 17.6% | +6.2pp | 0.625 | +4.3% | 9.1% | `+15%, -2%, +4%, -10%` | -18.0% | 25.6 | — |
+| NTAP | NetApp | 170.18 | 2026-12-01 (11d) | 4/4 | 10.08% | +8.61 | 29.9% | +20.7pp | 0.571 | +1.2% | 6.7% | `+3%, +22%, -3%, +2%` | -21.7% | 15.3 | INVENTORY_BUILD |
+| ADSK | Autodesk | 243.45 | 2026-11-24 (4d) | 4/4 | 6.37% | -1.96 | 16.1% | +4.6pp | 0.625 | +1.0% | 4.9% | `+6%, -4%, +5%, +2%` | -0.6% | 17.1 | RECEIVABLES_OUTRUN |
+| A | Agilent Technologies | 175.34 | 2026-11-23 (3d) | 3/4 | 3.65% | +7.52 | 8.1% | +2.0pp | 0.857 | +2.5% | 4.7% | `+2%, +17%, -3%, +2%` | -1.4% | 26.1 | RECEIVABLES_OUTRUN |
+| CTAS | Cintas | 218.92 | 2026-12-17 (27d) | 4/4 | 1.07% | +0.44 | 10.9% | +3.6pp | 0.625 | +0.1% | 4.7% | `-3%, +7%, -5%, +1%` | -0.3% | 35.5 | — |
+| PAYX | Paychex | 111.40 | 2026-12-18 (28d) | 4/4 | 1.80% | -1.11 | 5.9% | -3.9pp | 0.571 | -1.4% | 4.1% | `-9%, -2%, +3%, +2%` | +0.0% | 17.4 | RECEIVABLES_OUTRUN |
+| AZO | AutoZone | 3277.44 | 2026-12-08 (18d) | 3/4 | 1.34% | +6.60 | 5.6% | -0.0pp | 0.333* | -2.3% | 4.2% | `+3%, -9%, -6%, -7%` | +3.8% | 17.1 | — |
 
-* AZO beat_up 0.333 is NOT judgeable (<4 measured beats).
+Prices are the screen's `price` field (2026-11-19 closes). *AZO beat_up_rate 0.333 is NOT judgeable — only 3 measured beats; the screen's own note says so. Do not quote it as a rate.
 
-## Research scores (beat-likelihood / guide-risk / priced-in; guide-risk and priced-in HIGH IS BAD)
+**Actionable now (≤10d):** A (2026-11-23), ADSK (2026-11-24). **Watchlist:** NTAP (2026-12-01), VEEV (2026-12-03), AZO (2026-12-08), CTAS (2026-12-17), PAYX (2026-12-18).
 
-| ticker | beat | guide-risk | priced-in | plan | date status |
+**Dates as researched (batch dossiers, primary sources):** A — CONFIRMED Mon 2026-11-23 AMC; ADSK — CONFIRMED Tue 2026-11-24 AMC; NTAP — CONFIRMED Tue 2026-12-01 AMC; VEEV — CONFIRMED Thu 2026-12-03 AMC; AZO — CONFIRMED Tue 2026-12-08 BMO; CTAS — ESTIMATED Thu 2026-12-17 BMO (not company-confirmed); PAYX — ESTIMATED Fri 2026-12-18 BMO (not company-confirmed; Finnhub lists Dec 17 — one-day discrepancy flagged).
+
+---
+
+# Research batch 1 — A / ADSK — run 2026-11-20
+
+# Research batch 1 — A / ADSK — run 2026-11-20
+
+As-of: 2026-11-20, prices are 2026-11-19 closes per the screen (A \$175.34, ADSK \$243.45) unless a later close is cited. Fiscal-year note: Agilent FY ends 31 Oct, so A reports Q4 FY2026; Autodesk FY ends 31 Jan, so ADSK reports Q3 FY2027. Both report AMC. All consensus figures below are non-GAAP EPS unless stated otherwise. Where two reputable sources disagree, both are shown and the preferred figure is named — do not silently average them. Yesterday's run (2026-11-19) researched the same two names; figures carried forward from it were re-checked against sources dated 2026-11-19 or 2026-11-20 where a fresh source exists, and are flagged where they could not be re-verified today.
+
+## A — Agilent Technologies (NYSE: A)
+
+### 1. The date, confirmed
+
+**CONFIRMED — Monday 2026-11-23, after the close (AMC).** Company press release, 2026-10-29 (Business Wire / Agilent IR, re-surfaced 2026-11-19): "will release financial results for the fourth quarter of fiscal year 2026 after the stock market closes on Monday, Nov. 23" with a call at 1:30 p.m. PST / 4:30 p.m. ET the same day. Zacks' earnings-calendar page also labels 11/23/2026 "a confirmed date of earnings release", time AMC. This matches the screen date exactly. No move.
+
+### 2. The bar
+
+| Metric | Consensus | Source / as-of |
+|---|---|---|
+| Q4 FY2026 EPS | \$1.72 | Zacks, 2026-11-18 preview; Zacks detailed estimates, updated 2026-11-18 |
+| Q4 FY2026 EPS | \$1.73 | MarketBeat, as of 2026-11-19 |
+| Q4 FY2026 revenue | \$1.99 billion | Zacks, 2026-11-05 and 2026-11-18; MarketBeat \$1.99 billion |
+| Q4 FY2026 revenue | \$1.98 billion | Zacks 2026-11-18 preview text (says \$1.98B in one passage, \$1.99B in the headline figure — treat \$1.98–1.99B as the range) |
+| Year-ago Q4 FY2025 | EPS \$1.59, revenue \$1.86 billion | Zacks / MarketBeat |
+| Implied growth | EPS +8.2%, revenue +6.7% | Zacks |
+
+Company's own Q4 guide (given 2026-08-26): revenue \$1.98–\$2.00 billion, non-GAAP EPS \$1.71–\$1.74, explicitly excluding any future tariff refunds. Consensus sits at the midpoint of management's own range — the Street has not set a bar above guidance.
+
+Revisions: **changed since yesterday.** Zacks' 2026-11-05 note said estimates had "remained constant over the past 30 days"; the 2026-11-18 Zacks preview says the consensus EPS estimate "has been adjusted downward by 0.8% to its current level" over the past 30 days — a small downward drift, not a rise. Earnings ESP +0.19% (Zacks, 2026-11-05). Whisper: Earnings Whispers (2026-11-15): whisper \$1.77, above both consensus (\$1.72) and the top of guidance (\$1.74) — the engaged crowd still expects another beat of management's numbers, as in Q3. That raises the *effective* bar even though formal consensus is flat-to-down. Outlier to ignore: Finnhub shows a \$1.761 EPS / \$2.028B revenue estimate for Q4, which exceeds the company's own revenue guide ceiling (\$2.00B) and is inconsistent with Zacks/MarketBeat — do not use it.
+
+### 3. The last four prints
+
+| Quarter | Reported | Consensus EPS | Revenue vs consensus | Guide given | Next-session reaction |
 |---|---|---|---|---|---|
-| A | 6 | 6 | 5 | B | CONFIRMED Nov 23 AMC |
-| ADSK | 7 | 6 | 4 | B | CONFIRMED Nov 24 AMC |
-| VEEV | 8 | 5 | 7 | B | CONFIRMED Dec 3 AMC |
-| AZO | 6 | 4 | 3 | B | CONFIRMED Dec 8 BMO |
-| CTAS | 8 | 3 | 7 | B | ESTIMATED Dec 17 BMO (Dec 16 per Finnhub/FXEmpire) |
-| PAYX | 8 | 6 | 4 | B | ESTIMATED Dec 18 BMO (Dec 17 per TipRanks/Finnhub) |
+| Q3 FY2026, 2026-08-26 | EPS \$1.62 (incl. \$0.06 tariff refund; \$1.56 ex-refund), rev \$1.88B | \$1.49, beat +8.7% (Zacks: +9.46% vs \$1.48) | \$1.88B vs ~\$1.84B, beat ~+2% | Raised FY26: rev \$7.49–\$7.51B, EPS \$6.18–\$6.21 | +1.7% (AlgoDip) / +1.9% (Exent, two-session window); +3.17% after-hours |
+| Q2 FY2026, 2026-05-27 | EPS \$1.49, rev \$1.83B | \$1.41, beat +5.7% | \$1.83–1.84B vs \$1.80B, beat ~+2% | Raised FY26: rev \$7.39–\$7.49B, EPS \$6.00–\$6.10 | +17.6% (Exent); screen +17% |
+| Q1 FY2026, 2026-02-25 | EPS \$1.36, rev \$1.80B | \$1.37, miss −0.7% | \$1.80B vs ~\$1.81B, roughly in line | Raised FY26 reported revenue to \$7.30–\$7.50B, raised EPS | −3% (screen; not independently verified from a primary price source) |
+| Q4 FY2025, 2025-11-24 | EPS \$1.59, rev \$1.86B | \$1.59, met | \$1.86B vs ~\$1.83B, beat | FY26 initial guide given | +2% (screen; not independently verified) |
 
-All six research verdicts are Plan B — no hold-through case was made for any name.
-
----
-
-# Earnings Research — Batch 1 — RUN_DATE 2026-11-18
-
-**Tickers:** A (Agilent Technologies), ADSK (Autodesk), VEEV (Veeva Systems)
-**As-of:** Close Mon 17 Nov 2026. Prices: A $172.22, ADSK $255.22, VEEV $288.41 (Finnhub / screen).
-**Sources:** Company PRs / 8-Ks / 10-Qs, Zacks, MarketBeat, Earnings Whispers, StockStory, Finnhub price data. All three report **after market close (AMC)**. Fiscal years: A ends 31 Oct; ADSK and VEEV end 31 Jan.
-**Honesty notes:** Where a figure could not be cleanly retrieved it is marked "not found" rather than estimated. Reaction %s in §3 are the screen's last-4 set where stated; two ADSK reactions conflict with independent after-hours/next-session reports — flagged in the ADSK section, do not treat the 1-to-1 mapping as verified.
-
----
-
-## A — Agilent Technologies (NYSE: A) — Q4 FY2026
-
-### 1. Date — CONFIRMED
-- **Mon 23 Nov 2026, after market close (AMC).** Company PR 29 Oct 2026 (BusinessWire, via Agilent IR press-release index): "will release financial results for the fourth quarter of fiscal year 2026 after the stock market closes on Monday, Nov. 23" — call 1:30 p.m. PT / 4:30 p.m. ET same day. Zacks earnings calendar likewise lists 11/23/2026 as a confirmed date, AMC. **CONFIRMED — matches the cached 2026-11-23 date, not moved.**
-
-### 2. The bar — Q4 FY2026 (quarter ended 31 Oct 2026)
-- **Consensus EPS $1.72–$1.73, revenue ~$1.99bn.** Zacks (5 Nov 2026, updated 16 Nov): EPS $1.72 (+8.2% YoY), revenue $1.99bn (+6.7% YoY). MarketBeat (16 Nov): EPS $1.73, revenue $1.99bn. FXEmpire shows a higher $1.76 / $2.03bn from 18 analysts — treat Zacks/MarketBeat $1.72–1.73 as the bar; the dispersion itself is a warning.
-- **Company's own guide (26 Aug 2026, Q3 release) sits just under/at consensus:** Q4 revenue $1.98–$2.00bn, non-GAAP EPS $1.71–$1.74. Consensus is at the top of the guided range — a print at the guide midpoint ($1.725) is a consensus meet, not a beat.
-- **Revisions (last 30 days): flat to slightly down.** Zacks 5 Nov: "estimates have remained constant over the past 30 days"; Zacks 16 Nov: consensus EPS revised 0.81% lower over the last 30 days. Earnings ESP +0.19% (Zacks). **No whisper number found.**
-
-### 3. Last four prints
-| Print | EPS vs cons. | Revenue vs cons. | Guide given | Next-session reaction* |
-|---|---|---|---|---|
-| Q3 FY26, 26 Aug 2026 | $1.62 vs $1.49 (+9.5%) — incl. $0.06 tariff-refund benefit; ex-refund $1.56 vs $1.48–1.50 guide | $1.88bn vs $1.84bn (+8.1% YoY, +7.3% core) | Raised FY26: rev $7.49–7.51bn, EPS $6.18–6.21 (ex-refund $6.12–6.15); Q4 guide as §2 | +2% (screen) |
-| Q2 FY26, 27 May 2026 | $1.49 vs $1.41 (+5.7%) | $1.84bn vs ~$1.80bn (+10.0% YoY, +6.3% core) | Raised FY26: rev $7.39–7.49bn, EPS $6.00–6.06 (per 8-K summary; exact top truncated in source) | +17% (screen) — the big re-rate print |
-| Q1 FY26, 25 Feb 2026 | $1.36 vs $1.37 (−0.7%, a miss) | $1.80bn vs $1.81bn (slight miss; +7.0% YoY, +4.4% core) | Raised FY26 rev to $7.3–7.5bn and EPS to $5.90–6.04 | −3% (screen) |
-| Q4 FY25, 24 Nov 2025 | $1.59 vs $1.58 (+0.6%) non-GAAP | $1.86bn vs $1.83bn (+9.4% YoY, +7.2% core) | Initiated FY26: rev $7.3–7.4bn, EPS $5.86–6.00; Q1 guide $1.35–1.38 | +2% (screen) |
-
-\* Reactions are the screen's last-4 set, in order. Pattern: beats are rewarded only when the guide moves; the Q1 miss with a raise still fell.
+Pattern: beats 3 of 4, but the reaction is bimodal — a huge +17.6% on the Q2 beat-and-raise (when the stock was beaten down, 52-week low \$108.35 on 2026-05-20, a week before the print) and a muted +1.7–1.9% on the even bigger Q3 beat. The Q3 print was largely priced in by then. Exent: beat EPS in 10 of last 12 reports, rose after 9 of 12, average absolute move ±5.4%. No new print has occurred since yesterday's dossier, so this table is carried forward and re-checked against the Zacks Q3 figures above.
 
 ### 4. Revenue and margin trend
-- Revenue: Q4 FY25 $1.86bn → Q1 FY26 $1.80bn → Q2 $1.84bn → Q3 $1.88bn (AltIndex/8-K series: $1.70bn Q4 FY24, $1.68bn, $1.67bn, $1.74bn, $1.86bn, $1.80bn, $1.84bn, $1.88bn). Reported YoY growth: Q1 +7.0%, Q2 +10.0%, Q3 +8.1%; **core growth Q1 +4.4%, Q2 +6.3%, Q3 +7.3% — accelerating on a core basis, but Q4 guide implies core growth decelerating to +5.2–6.2%.**
-- Margins: Q3 FY26 GAAP op. margin 23.6% (+290bp YoY), non-GAAP op. margin 28.3% (+320bp YoY, incl. ~110bp tariff-refund benefit; 27.2% ex-refund, +80bp vs implied guide). Q2 non-GAAP op. margin 26.4% (+130bp YoY). **Margin expansion is real but Q3 was flattered ~110bp by a one-off refund; Q4 guide assumes no further refund benefit.**
-- Segments Q3: LDG $746m (+11% rep., +10% core), CrossLab $786m (+6%/+5%), Applied Markets $346m (+7%/+7%). ATD (advanced therapeutics/CDMO) flagged as flattish in Q4 against a >40% prior-year compare — a specific Q4 headwind.
+
+| Quarter | Revenue | Reported YoY | Core YoY | Non-GAAP operating margin |
+|---|---|---|---|---|
+| Q4 FY2025 | \$1.86B | — | — | not found in this pass |
+| Q1 FY2026 | \$1.80B | +7.0% | +4.4% | not found in this pass |
+| Q2 FY2026 | \$1.83B | +10.0% | +6.3% | 26.4%, +130 bps YoY |
+| Q3 FY2026 | \$1.88B | +8.1% | +7.3% | 27.2% ex-refund (28.3% incl. \$20m refund), +80 bps vs implied guide |
+
+Top line is accelerating on a core basis: +4.4% → +6.3% → +7.3%, and management said the revised guide implies a two-year core-growth stack accelerating from flat in 2025 to almost 11%. Q3 drivers: pharma +12% YoY (CDMO ~+30%), China +9% vs flat expected (after −9% the quarter before), instruments \$643m, +7.3%. Margins expanding with pricing ahead of target. This is a genuine acceleration into the print, not a deceleration — but Q4 core guide is only +5.2–6.2%, i.e. a *deceleration* from Q3's +7.3% is already guided. Zacks' 2026-11-18 preview adds segment-level expectations: CrossLab revenue ~\$800.08m, Applied Markets ~\$373.20m.
 
 ### 5. THE GUIDE
-- (a) **Guides every quarter, granular:** next-quarter revenue + non-GAAP EPS ranges, full-year revenue (reported + core), non-GAAP EPS, and op.-margin expansion. No FY27 guide yet — that comes with this Q4 print, and it is the whole event.
-- (b) **Next quarter (Q1 FY27) consensus: not found** as a clean separate figure. **Full-year FY27:** MarketBeat expects EPS to grow 9.19%, from $6.20 to **$6.77**; FY26 guidance is $6.18–6.21, so the Street's FY27 number implies ~+9% EPS growth.
-- (c) **Run-rate support:** FY26 EPS $6.18–6.21 on revenue $7.49–7.51bn. A $6.77 FY27 EPS needs ~+9% EPS growth on likely ~+5–6% revenue growth — i.e. continued margin expansion of ~100bp+. Plausible given Q3's ex-refund margin trajectory, but it requires the FY27 guide to confirm core growth does not slip to the 4–5% range.
-- (d) **Guide history (FY26, verified): raised three times in a row.** Initiated 24 Nov 2025 ($7.3–7.4bn / $5.86–6.00) → Q1 25 Feb 2026 raised ($7.3–7.5bn / $5.90–6.04) → Q2 27 May raised ($7.39–7.49bn / ~$6.00–6.06) → Q3 26 Aug raised again ($7.49–7.51bn / $6.18–6.21, +$0.15 at midpoint, of which $0.06 was the tariff refund). Stock: +17% after the Q2 raise, +2% after Q3 (raise partly one-off), −3% after Q1 (raise despite an EPS miss). **Earlier FY25 quarters: not fully verified — do not claim an 8-quarter raise streak.**
-- (e) **Guide already raised between quarters? Yes — three times in FY26 (see above); the Q3 raise is already in the price and in consensus.** There is no inter-quarter raise since 26 Aug.
+
+(a) **Does it guide?** Yes, granularly: next quarter (revenue range + non-GAAP EPS range) and full year (revenue, non-GAAP EPS, non-GAAP operating-margin expansion), every quarter. This print is doubly guide-sensitive because it is the fiscal year-end: the market will get Q1 FY2027 guidance *and* full-year FY2027 guidance for the first time.
+
+(b) **Forward bar.** Next quarter Q1 FY2027 consensus EPS \$1.48 (Zacks detailed estimates, updated 2026-11-18; Stocks.news / StockAlarm average \$1.50, range \$1.47–\$1.52, 6–7 estimates); Q1 FY2027 revenue consensus \$1.92B (Zacks detailed estimates). Full-year FY2027 consensus EPS \$6.75 (Zacks / MarketBeat, as of 2026-11-19), +8.9% vs FY2026 consensus \$6.20; Barchart (2026-10-28) had \$6.77 — the current Zacks figure is \$6.75, two cents lower. FY2027 revenue consensus \$7.95B (Zacks detailed estimates). That FY2027 \$6.75 is the number the new FY27 guide will be judged against: it implies ~9% EPS growth on ~\$7.5B of FY26 revenue, with Q4 FY26 at the guided \$1.71–1.74 already baked in.
+
+(c) **Does the run-rate support it?** Largely yes for FY27 EPS, with a caveat. Trailing non-GAAP EPS: Q1 \$1.36 + Q2 \$1.49 + Q3 \$1.62 + Q4 guide ~\$1.73 = ~\$6.20 FY26. FY27 \$6.75 requires +8.9% — in line with the ~10% ex-refund EPS growth guided for FY26 and the long-range double-digit plan. Revenue: FY26 ~\$7.50B; FY27 \$7.95B implies +6.0% — a continuation of the guided Q4 core pace, not an acceleration. The risk is not the *level* but the *composition*: Q3 EPS included a \$0.06 one-off tariff refund that does not repeat, and management has flagged Train C ramp depreciation/hiring and memory-chip costs and Middle East logistics as FY27 headwinds (Earnings Whispers, 2026-11-15).
+
+(d) **Guide history, last 8 quarters.** Raised three quarters in a row in FY2026: Q1 (Feb 2026) raised FY26 reported revenue and EPS; Q2 (May 2026) raised FY26 revenue to \$7.39–\$7.49B and EPS to \$6.00–\$6.10 (+8c at midpoint); Q3 (Aug 2026) raised again to revenue \$7.49–\$7.51B and EPS \$6.18–\$6.21 (+15c at midpoint, of which \$0.06 is the tariff refund). Earlier FY2025 prints were reaffirm/raise territory with small beats (Q3 FY2025 EPS \$1.37 vs \$1.36–1.37; Q4 FY2025 met). A serial raiser: a mere reaffirmation of the FY27 trajectory implied by current consensus would read as a de facto disappointment after three straight raises, and the stock's muted +1.7% reaction to the Q3 raise already hints the market is tiring of "raise by a nickel" prints.
+
+(e) **Already raised between quarters?** No pre-announcement and no inter-quarter raise since 2026-08-26. What *has* changed: 2026-10-13 Agilent agreed to acquire Proscia for \$240m upfront + up to \$30m milestones (digital pathology / AI, high-growth recurring software, expected to close early FY2027); 2026-10-27 collaboration with University of Chicago on an energy-materials Center of Excellence. Neither is in FY26 numbers; Proscia could feature in FY27 guidance framing.
+
+**Rest of the quarter — peers, segments, FX.** Peers already reported and supportive: Thermo Fisher Q3 2026 (2026-10-21) revenue \$12.14B, +9% YoY, 6% organic, beat and raised FY26 guidance to \$47.7–\$48.2B; China low-double-digit growth; Analytical Instruments +6% organic. Danaher Q3 (2026-10-21) revenue \$6.554B, +8.5% YoY, adj. EPS \$2.11 vs ~\$1.92 consensus, raised FY26 EPS guide to \$8.57–\$8.62; core +3.0% (+5.5% ex-respiratory). **New since yesterday's dossier:** Waters reported Q3 (2026-11-03) with revenue above consensus and raised 2026 guidance on accelerating instrument demand — a third peer confirming the pharma-lab replacement cycle is broadening, which supports Agilent's instrument line but also means the recovery is already in expectations. Watch items for the print: China (guided mid-single-digit FY26 growth; management warned it "could be non-linear heading into 2027"), CDMO (guided flattish in Q4 vs a >40% comp), pharma reshoring orders (5 of top 10 global pharma had placed early orders — look for broadening/conversion), and pricing vs cost headwinds. One new China headwind to note: from 2026-01-01 Chinese government tenders give domestic products a 20% price advantage (State Council, 2025-09-30) — a slow-burn share risk for foreign instrument makers in China, not yet visible in Agilent's Q3 China +9%.
 
 ### 6. How much is priced in
-- **Run into the print: flat-to-down, not a melt-up.** Close 17 Nov $172.22; Finnhub: 1-month −0.43%, 5 sessions −4.41%, 6 months +53.62%, YTD +26.57%. FinanceCharts: +1.37% over 30 days. The stock made its 52-week high $182.99 on 28 Oct 2026 and has since pulled back −5.9% from it; Sep 2026 was +9.6% (close $172.72), Oct +1.3% (close $175.01). **The Q3-beat rally is months old; the last 3 weeks are a fade, not a chase.**
-- **52-week range:** $108.35 (20 May 2026) – $182.99 (28 Oct 2026); current is ~86% of the way up the range.
-- **Forward P/E:** 25.6x (screen) / 25.53x (MarketBeat, 17 Nov). Trailing P/E ~28.5x (MarketBeat) / 33.7x (Finnhub TTM). A clean 3–5-year forward-P/E range was **not found** in retrieved sources — do not assert one. On the numbers available, 25.6x forward for ~9% EPS growth is not obviously stretched versus its own recent trailing multiples, but it is not cheap either.
-- **Options-implied move: ±9.7%** (EarningsWatcher, updated 17 Nov 2026, for the 23–25 Nov week; MCH model independently shows ±9.9% on the Dec-18 expiry, ATM IV 39.5%, IV at the 100th percentile of its own month-end history). **Implied ±9.7% is ~2.1x the name's reaction_avg_abs_move of 4.7% — the options market is pricing a much bigger swing than Agilent usually delivers.** That is consistent with a binary FY27-guide event, not with a quiet quarter.
-- **Crowded? No on price action (fading from the high, flat 1-month), yes on vol (IV at its own extreme).** Zacks Rank #4 (Sell) and a +0.19% ESP add to the "no easy beat" picture.
+
+Price \$175.34 (2026-11-19 close, per screen and Finnhub); \$177.33 on 2026-11-18, so −1.1% on 2026-11-19. 52-week high \$182.99 (2026-10-28), low \$108.35 (2026-05-20) — about 4.2% below the high at the 2026-11-19 close. Moves (Finnhub, as of 2026-11-19): 5 sessions −0.91%, 1 month +1.35%, 6 months +54.1%, YTD +28.9%, 1 year +20.9%. A 3-month move as a single figure was not found in this pass — not found; the 1-month figure (+1.35%) shows the stock has gone sideways-to-down into the print after the October run to the high. Median/mean analyst target ~\$181.45 (MarketBeat, 22 analysts, range \$135–\$196, Moderate Buy) vs screen mean \$183.14 — only ~3–5% above the price; the Street is already there. Forward P/E 26.1 (screen); trailing P/E ~33.9 (Finnhub). A 3–5 year forward-P/E range was not found in this pass — not found, do not infer one. Options-implied move for this print: **±5.1%** (ApexVol, as of 2026-11-19, implied range \$168–\$186, average move over last 12 reports 4.9%). A second source, Earnings-Watcher (2026-11-19), cites ±9.5% with an average move of ±6.8% — materially higher and inconsistent with ApexVol and with the name's own history; the ApexVol figure is preferred as the earnings-specific straddle quote, and the Earnings-Watcher figure is flagged as an outlier, not averaged in. Against the screen's realized proxy (reaction_avg_abs_move 4.7%), the ApexVol implied move (5.1%) is **slightly larger** — the options market is pricing a touch more than the name's recent average. Verdict on crowding: moderately crowded — +54% in six months, sitting ~4% under the high, three straight raises already banked, whisper above guidance. The easy money (May +17.6%) is gone.
 
 ### 7. Moat / AI-irreplaceability — score 7/10
-- Agilent sells chromatography, mass spec, spectroscopy instruments plus CrossLab services/consumables into pharma, diagnostics and applied markets. Switching costs are real: validated analytical methods, regulatory filings built around specific instruments, and a large installed base that buys consumables/services for years. Its biggest customers (large pharma) cannot credibly in-source precision analytical instrumentation — it is not their competence and the regulatory re-validation cost is prohibitive. AI-native substitutes do not replace a mass spectrometer; AI helps analyse the data Agilent's instruments generate, which if anything raises instrument value. Threats are cyclical (China pharma, biotech funding, tariffs) and competitive (Thermo Fisher, Waters, Danaher), not existential. **If it gaps down 15% and I hold 18 months: an opportunity, not a disaster — a cyclical tools franchise at ~21x forward earnings on a reset guide would be buyable, provided the guide cut is cyclical (China/ATD compare) rather than structural share loss.**
+
+Analytical instruments (mass spec, chromatography), consumables and CrossLab services embedded in regulated pharma/QC workflows: switching costs are high (method validation, regulatory filings name the instrument), installed base drives a consumables annuity, and the Proscia acquisition adds AI digital-pathology software. Customers cannot easily in-source a mass spectrometer, and AI-native competitors route *around* data analysis, not around the physical measurement. What caps the score: it is a cyclical capital-equipment business (instruments ~34% of revenue), exposed to China, academic/government budgets and pharma capex cycles; Thermo Fisher and Danaher are larger and can outspend it. If it gaps down 15% and I hold 18 months: an opportunity, not a disaster — the business is accelerating, margins expanding, and the balance sheet is clean — provided the guide does not reveal the China/pharma recovery was a one-quarter artifact.
 
 ### 8. Risks specific to THIS print
-- **The FY27 guide is the print.** Q4 itself is pre-guided to the dollar; a Q4 beat without a credible FY27 guide (core growth ≥5%, EPS ≥$6.70) will not hold.
-- **Tariff-refund optics:** Q3 EPS was flattered $0.06; Q4 has no such benefit — a YoY EPS comparison that looks soft could be misread, or the guide could bake in tariff costs.
-- **ATD tough compare (>40% prior-year growth) and China exposure;** LDG/CDMO strength must offset it.
-- **Consensus sits at the top of Q4 guidance** ($1.72–1.73 vs guide $1.71–1.74) — there is almost no room for a "meet" to read as a beat.
-- **High IV (±9.7% implied vs 4.7% typical):** a 5% "normal" move in either direction still leaves straddle buyers disappointed; the stock can fall on a good quarter if the guide disappoints.
 
-### 9. Scores
-- **Beat likelihood 6/10** — 3/4 beats in screen, Q4 guide is tight, consensus at guide top; the beat, if any, will be small.
-- **Guide risk 6/10** — FY27 guide must underwrite ~9% EPS growth with margin expansion; Q4 core growth is guided down; ATD compare is brutal.
-- **Priced-in 5/10** — price has faded from the high and the 1-month is flat, but the stock is still near the top of its 52-week range and IV is extreme.
-- **Verdict:** A serial raiser whose next raise is the entire thesis — the Q4 number is a formality, the FY27 guide is the bet.
+Tough CDMO comp (Q4 guided flattish vs >40% a year ago); China non-linearity warning plus the new 20% domestic-preference rule in Chinese tenders from January 2026; Q3 EPS flattered by a \$0.06 tariff refund that will invite "quality of beat" questions; FY27 is the first full-year guide — any FY27 EPS guide below the \$6.75 consensus, or margin guidance that bakes in Train C / memory-chip drag without offsetting pricing, is the classic beat-and-dump trigger; Proscia closing costs/integration noise early FY27; consensus EPS drifted down 0.8% in the last 30 days, so the Street is already trimming slightly into the print.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 7/10** — consensus sits at management's own midpoint, whisper above guidance, peers strong (Waters now a third confirming peer), Q3 beat the high end of guide by 140 bps core. Unchanged from yesterday; the 0.8% downward drift in consensus is a small offset, not a downgrade of the call.
+- **Guide-risk: 7/10 (HIGH IS BAD)** — first FY27 guide, consensus FY27 EPS \$6.75 (+8.9%) already assumes a clean year, three straight raises have trained the market to expect another, and flagged FY27 cost headwinds give management cover to guide conservatively.
+- **Priced-in: 7/10 (HIGH IS BAD)** — +54% in 6 months, ~4% under the high, targets ~3–5% above price, implied move slightly above the name's own average.
+- **Verdict:** A high-quality accelerating business whose print is more likely to be a guide verdict than an earnings verdict — the beat is probable, the reward for it is small, and the FY27 guide is where the money is made or lost.
 
 ### 10. Plan A or Plan B?
-- **Plan B — wait for the number.** What would have to be true for A: the FY27 guide comes in at core revenue growth ≥5.5% and EPS ≥$6.75 with margin expansion ex-tariff effects, i.e. the raise streak survives the ATD compare.
 
-### Earnings-quality flag — RECEIVABLES_OUTRUN (A)
-- **Not corroborated on the latest 10-Q.** Accounts receivable, net: $1,478m at 31 Jul 2026 vs $1,487m at 31 Oct 2025 — **down** while 9-month revenue rose 8.3% ($5,511m vs $5,087m); 9-month operating cash flow $1,064m vs $1,014m a year earlier. DSO is falling, cash conversion is intact. **One-line verdict: benign on the latest filing — receivables are not outrunning revenue; watch inventory instead (+$92m, $1,025m → $1,117m).**
+**Plan B — wait for the number.** For A: the FY27 guide must come in at or above the \$6.75 FY27 consensus EPS *and* show Q1 FY27 revenue/EPS guidance at or above the ~\$1.48–1.50 EPS / ~\$1.92B revenue consensus, with China and CDMO commentary intact. A beat alone is not enough — Q3 proved that (+1.7%).
 
 ---
 
-## ADSK — Autodesk (NASDAQ: ADSK) — Q3 FY2027
+## ADSK — Autodesk (NASDAQ: ADSK)
 
-### 1. Date — CONFIRMED
-- **Tue 24 Nov 2026, after market close (AMC).** Company PR 2 Nov 2026 (Autodesk News / PRNewswire): "will share its third quarter fiscal 2027 financial results conference call via its website on Tuesday, November 24, 2026, at 2 p.m. Pacific Time" — i.e. results released after the close, call 2 p.m. PT. MarketBeat/StockInvest also list 24 Nov, afternoon. **CONFIRMED — matches the cached 2026-11-24 date, not moved.**
+### 1. The date, confirmed
 
-### 2. The bar — Q3 FY2027 (quarter ended 31 Oct 2026)
-- **Consensus EPS $3.07, revenue $2.13bn.** Zacks (17 Nov 2026): EPS $3.07 (+15.0% YoY), revenue $2.13bn (+15.0% YoY). MarketBeat: $3.07 / $2.13bn. FXEmpire shows $3.12 / $2.18bn from 25 analysts — again a higher outlier set; use $3.07 as the bar.
-- **Company guide (27 Aug 2026, Q2 release): revenue $2.125–2.140bn, non-GAAP EPS $3.04–3.09.** Consensus sits at the guide midpoint on both lines — a print at the midpoint is a meet.
-- **Whisper: $3.16** (Earnings Whispers, 16 Nov 2026) — above consensus *and* above the top of the guided range. The informal bar is a clean beat, not a meet.
-- **Revisions (last 30 days): not found as a clean Zacks revision figure;** the guide itself was raised on 27 Aug and has not moved since. Jefferies raised its price target to $325 from $300 (week of 7–14 Nov, Buy) and Loop Capital upgraded to Buy from Hold on 14 Nov with a $310 target — sentiment into the print is warm.
+**CONFIRMED — Tuesday 2026-11-24, after the close (AMC).** Company announcement via PR Newswire, 2026-11-02: "Third quarter fiscal 2027 financial results conference call to be held Tuesday, November 24, 2026, 2 p.m. PT" via autodesk.com/investors. A 2 p.m. PT call implies the release just after the close, Autodesk's usual pattern. Source: Autodesk News / PR Newswire. This matches the screen date exactly. No move.
 
-### 3. Last four prints
-| Print | EPS vs cons. | Revenue vs cons. | Guide given | Next-session reaction* |
-|---|---|---|---|---|
-| Q2 FY27, 27 Aug 2026 | $3.30 vs $3.12 (+5.8%) non-GAAP; GAAP $2.33 | $2.046bn vs $2.01bn (+16.1% YoY, +14% CC) | Raised FY27: rev $8.295–8.345bn, EPS $12.52–12.60, billings $8.575–8.65bn, FCF $2.725–2.75bn; Q3 guide rev $2.125–2.14bn but EPS $3.04–3.09 **below** $3.14 Street | Screen set includes −4%; FXEmpire records −3.67% (close-to-close) |
-| Q1 FY27, 28 May 2026 | $2.99 vs $2.84 (+5.3%) | $1.934bn vs $1.89bn (+18.4% YoY) | Raised FY27: rev $8.155–8.215bn, EPS $12.40–12.65, billings $8.505–8.58bn; announced $3.6bn MaintainX acquisition | Screen set includes +6% / +5%; Aardvark records shares fell ~4% after hours on the deal |
-| Q4 FY26, 26 Feb 2026 | $2.85 vs $2.65 (+7.5%, per GlobalBankingFinance table: actual 2.85 vs forecast 2.65) | $1.957bn vs $1.91bn (+19.4% YoY) | Initiated FY27: rev $8.10–8.17bn, EPS $12.29–12.56, billings $8.48–8.58bn | Screen set includes −4% / +2% (mapping unverified) |
-| Q3 FY26, 25 Nov 2025 | $2.67 vs $2.50 (+6.8%) | $1.853bn vs $1.81bn (+18.0% YoY) | Raised FY26: billings $7.465–7.525bn, rev $7.15–7.165bn, non-GAAP op. margin ~37.5% | Screen set includes +6% (mapping unverified) |
+### 2. The bar
 
-\* **Reaction-mapping warning:** the screen's last-4 set for ADSK is +6%, −4%, +5%, +2%, but independent sources record Q1 FY27 falling ~4% after hours (Aardvark, on MaintainX-deal scepticism despite a beat-and-raise) and Q2 FY27 falling −3.67% close-to-close (FXEmpire). The screen's ordering/mapping could not be reconciled to those two prints — **do not rely on the +6/−4/+5/+2 sequence as a per-quarter record.** The robust fact is: ADSK has beaten EPS in 8 straight reports (Gekko, 17 Nov) and the stock has still fallen after the last two beats, because the guide / deal news, not the quarter, set the reaction.
+| Metric | Consensus | Source / as-of |
+|---|---|---|
+| Q3 FY2027 non-GAAP EPS | \$3.07 | Zacks, 2026-11-19; Earnings Whispers; MarketBeat; StockInvest |
+| Q3 FY2027 revenue | \$2.13 billion | Zacks, 2026-11-19; MarketBeat \$2.13B |
+| Year-ago Q3 FY2026 | EPS \$2.67, revenue \$1.85B | Earnings Whispers / TipRanks |
+| Implied growth | EPS +15%, revenue +15% | — |
+| Q3 billings (Zacks key metric) | \$2.07 billion | Zacks, 2026-11-19 (vs \$1.86B a year ago) |
+| Q3 subscription revenue | \$2.01 billion | Zacks, 2026-11-19 |
+
+Company's own Q3 guide (given 2026-08-27): revenue \$2.125–\$2.140B, non-GAAP EPS \$3.04–\$3.09. Consensus sits at the midpoint of guidance, exactly as with Agilent.
+
+Whisper / revisions: Earnings Whispers (2026-11-16, re-confirmed in its 2026-11-19 coverage): whisper \$3.16, above consensus *and* above the top of the guided range — the informal bar assumes another clean beat, not a quarter that lands where management said it would. Zacks (2026-11-19): "The consensus EPS estimate for the quarter has remained unchanged over the last 30 days." Note the same conflicting Finnhub-derived figure (\$3.13 EPS / \$2.176B revenue) seen yesterday; it is inconsistent with the company's own guide ceiling (\$2.140B revenue) and is treated as an outlier — do not use it. Full-year FY27 Zacks consensus: EPS \$12.62, revenue \$8.32B (Nasdaq/Zacks, 2026-11-19) — effectively the guide itself (\$12.52–12.60 / \$8.295–8.345B).
+
+### 3. The last four prints
+
+| Quarter | Reported | Consensus EPS | Revenue vs consensus | Guide given | Next-session reaction |
+|---|---|---|---|---|---|
+| Q2 FY2027, 2026-08-27 | Non-GAAP EPS \$3.30 (GAAP \$2.33), rev \$2.046B | \$3.12, beat +5.8% | \$2.046B vs \$2.01B, beat +1.8% | Raised FY27: rev \$8.295–\$8.345B, billings \$8.575–\$8.650B; Q3 guide \$2.125–2.140B / \$3.04–3.09 | −3.67% (SeasonalityCharts, first session after) / −4.5% (TipRanks day-before/day-after) |
+| Q1 FY2027, 2026-05-28 | Non-GAAP EPS \$2.99 (GAAP \$2.32), rev \$1.934B | ~\$2.84, beat +5.3% | \$1.934B vs ~\$1.89B, beat +2.3% | Raised FY27: rev \$8.155–\$8.215B, EPS \$12.40–12.65; announced MaintainX acquisition (~\$3.6B) | −4.00% (SeasonalityCharts) |
+| Q4 FY2026, 2026-02-26 | Non-GAAP EPS \$2.85 (GAAP \$1.47–1.48), rev \$1.957B | \$2.65, beat +7.5% | \$1.957B vs ~\$1.91B, beat | FY27 initial guide: rev \$8.10–\$8.17B, EPS \$12.40–12.65 (ex-MaintainX) | +5.32% (SeasonalityCharts) / +6.75% (TipRanks) |
+| Q3 FY2026, 2025-11-25 | Non-GAAP EPS \$2.67 (GAAP \$1.60), rev \$1.853B | \$2.50, beat +6.8% | \$1.853B vs \$1.81B, beat +2.4% | Raised FY26; Q4 guide rev \$1.901–\$1.917B | +2.36% (SeasonalityCharts) / +2.08% (TipRanks) |
+
+Pattern: beats 4 of 4 (indeed 8 of last 8 per AltIndex), yet the stock *fell* on the last two beats (−3.7%, −4.0%) and rose on the two before. This is the textbook "beats are priced in" name in this batch: the reaction record has inverted in FY2027 even as the beat streak continued. SeasonalityCharts (88 reports): average absolute reaction ±6.0%, up only 51% of the time; Q3 specifically averages −2.5% (up 10 of 22). The screen's reaction_last4 ("+6%, −4%, +5%, +2%") is directionally consistent with these figures in a different ordering/methodology — the two most recent reactions are negative in every source checked. No new print has occurred since yesterday's dossier, so this table is carried forward and re-checked against the Q2 figures re-confirmed in today's sources.
 
 ### 4. Revenue and margin trend
-- Revenue (StockAnalysis, as reported): Q3 FY26 $1,853m (+18.0%) → Q4 FY26 $1,957m (+19.4%) → Q1 FY27 $1,934m (+18.4%) → Q2 FY27 $2,046m (+16.1%). **Growth is decelerating gently from ~19% to ~16% reported; Q3 guide +15% YoY continues the glide path.** ~2pp of Q2 growth was the new transaction model; underlying growth is lower.
-- Margins: Q2 FY27 GAAP op. margin 29% (+4ppt YoY), non-GAAP op. margin 41% (+2ppt); Q1 FY27 non-GAAP op. margin 39%. GAAP operating income Q2 $599m vs $444m a year earlier. **Margin expansion is the story — EPS (+26% YoY in Q2) is growing ~1.6x revenue.**
-- Billings are the soft spot: Q2 billings $1,854m, only +10% YoY (+12% CC) vs revenue +16% — billings lagging revenue by ~6pp.
+
+| Quarter | Revenue | YoY | Non-GAAP operating margin | GAAP operating margin |
+|---|---|---|---|---|
+| Q3 FY2026 | \$1.853B | +18.0% | 38% | 25% |
+| Q4 FY2026 | \$1.957B | +19.4% | ~37–38% | ~27% |
+| Q1 FY2027 | \$1.934B | +18.4% | ~40% | 28% |
+| Q2 FY2027 | \$2.046B | +16.1% (+14% CC) | 41%, +2 ppt | 29%, +4 ppt |
+
+Top line is *decelerating slightly* on a reported basis (+19.4% → +18.4% → +16.1%), though still mid-teens and still beating guide. The deceleration is partly mix: ~2 pp of Q2 growth was the new transaction-model accounting effect, and billings — the leading indicator — slowed much more sharply, from +18% in Q1 to +10% in Q2 (and organic billings growth for the year is framed at only ~9–10% after adjusting for currency and transaction-model effects). RPO \$7.43B in Q2, cRPO +12% (vs +18% in Q1). Margins are the offsetting strength: non-GAAP operating margin 41% in Q2, with go-to-market optimization benefits. Q3 guide implies revenue \$2.125–2.140B, +14.7–15.5% YoY — a further step down in growth rate, by design. Zacks' key-metric consensus for Q3 (2026-11-19) puts billings at \$2.07B, i.e. +11% YoY vs Q3 FY2026 billings — if billings print near that, the deceleration is confirmed rather than reversed.
 
 ### 5. THE GUIDE
-- (a) **Guides every quarter, granular:** next-quarter revenue, GAAP + non-GAAP EPS; full-year billings, revenue, non-GAAP op. margin, FCF, EPS. Also guides billings growth and RPO.
-- (b) **Next quarter (Q4 FY27) consensus: not found as a clean separate figure.** **Full-year FY27:** Zacks consensus EPS **$12.62**, revenue **$8.32bn** (17 Nov). Note: Zacks FY EPS $12.62 sits *above* the company's guided $12.52–12.60 — the Street is already pricing a small Q4 beat/raise. Implied Q4 from guidance: FY $12.52–12.60 minus Q1 $2.99 + Q2 $3.30 + Q3 guide midpoint $3.065 = **Q4 ~$3.17–3.25**.
-- (c) **Run-rate support:** H1 FY27 non-GAAP EPS $6.29 ($2.99 + $3.30) on revenue $3.98bn. Annualising H1 gives ~$12.58 before Q3/Q4 seasonality — the guided $12.52–12.60 is fully supported by the run-rate; the Zacks $12.62 needs a modest Q4 beat. Revenue guide $8.295–8.345bn needs H2 revenue of ~$4.32–4.37bn vs H1 $3.98bn — normal H2 seasonality (Q4 is the biggest quarter) plus ~$60m of MaintainX H2 revenue.
-- (d) **Guide history (verified, FY26–FY27): raised repeatedly.** Q2 FY26 (Aug 2025) raised FY26; Q3 FY26 (Nov 2025) raised FY26 again; Q4 FY26 (26 Feb 2026) initiated FY27 at $8.10–8.17bn / $12.29–12.56; Q1 FY27 (28 May 2026) raised FY27 to $8.155–8.215bn / $12.40–12.65; Q2 FY27 (27 Aug 2026) raised again to $8.295–8.345bn / $12.52–12.60 (revenue midpoint +$135m, +1.6%; EPS midpoint +$0.035, +0.3% — a revenue raise much bigger than the EPS raise, because MaintainX dilutes margin) and **cut the FCF midpoint ~$25m**. The one blemish: the Q3 FY27 EPS guide ($3.04–3.09) came in *below* the $3.14 Street — management deliberately set a bar it could beat, or margins are genuinely pressured by the deal. **Earlier quarters (FY25): not fully verified.**
-- (e) **Guide already raised between quarters? Yes — twice in FY27 (May and Aug 2026), plus the FY27 initiation in Feb.** The Aug raise is already in consensus; what matters now is whether Q4/FY27 is raised again or merely reaffirmed, and whether MaintainX is accretive or dilutive in Q3 actuals.
+
+(a) **Does it guide?** Yes, granularly: next quarter (revenue + non-GAAP EPS + GAAP EPS) and full year (billings, revenue, non-GAAP operating margin ~39%, free cash flow \$2.725–\$2.750B, non-GAAP EPS \$12.52–\$12.60). It also guides billings and RPO commentary, which for a subscription business is where the guide lives or dies.
+
+(b) **Forward bar.** Next quarter Q4 FY2027 published consensus was not found in this pass — **not found**. Implied from the FY27 guide: FY27 revenue midpoint \$8.320B less Q1 \$1.934B, Q2 \$2.046B and Q3 guide \$2.133B = Q4 implied ~\$2.21B; FY27 non-GAAP EPS midpoint \$12.56 less Q1 \$2.99, Q2 \$3.30 and Q3 guide \$3.07 = Q4 implied ~\$3.20. That implied Q4 (~\$2.21B / ~\$3.20) is the number the Q4 guide will be judged against — it requires Q4 revenue growth of ~13% YoY (vs Q4 FY2026 \$1.957B) and is the first quarter to carry a full quarter of MaintainX dilution. Full-year FY27 consensus is effectively the guide itself (\$8.295–8.345B / \$12.52–12.60; Zacks \$12.62 / \$8.32B). Note: one aggregator (Stocks.news) shows a "Q4 2027" EPS average of \$3.60 — that is the FY2028 Q4, not Q4 FY2027; do not use it as the Q4 FY2027 bar.
+
+(c) **Does the run-rate support it?** For Q3, yes — the guide is only +15% revenue growth and Q2 printed +16% with margin expansion. For Q4, it is a *continuation with a softer mix*: implied Q4 revenue growth ~13% is below the Q1–Q3 run-rate, so the revenue bar is not heroic; the EPS bar (~\$3.20) is more demanding because MaintainX dilutes margins (management held non-GAAP margin guidance flat at ~39% precisely because MaintainX dilution offsets operating leverage) and because Q4 carries the sales-reorganization disruption management has been warning about since February. Billings are the weak spot: Q2 billings +10% vs revenue +16% — if Q3 billings print in single digits, the Q4/FY27 revenue guide will be questioned even if Q3 revenue beats.
+
+(d) **Guide history, last 8 quarters.** Raised in Q1 FY2027 (May 2026: FY27 revenue to \$8.155–\$8.215B) and again in Q2 FY2027 (Aug 2026: to \$8.295–\$8.345B, explicitly "higher underlying growth expectations, as well as the incremental contribution from MaintainX"). FY2026 was also a raise-every-quarter year (Q3 FY2026 raised FY26, Q4 FY2026 set a strong FY27 initial guide). The pattern is raise-then-fall: both FY2027 raises were followed by *negative* next-session reactions (−4.0%, −3.7%) despite the raise. A serial raiser whose raises no longer lift the stock is the most dangerous guide profile in this batch — the market has started discounting the raise in advance, so a mere reaffirmation of FY27 guidance on 2026-11-24 would read as a cut.
+
+(e) **Already raised between quarters?** No pre-announcement and no inter-quarter raise since 2026-08-27. The MaintainX acquisition closed 2026-08-03 (\$3.6B all-cash; ~\$60m H2 FY27 revenue, ~\$70m billings, weighted slightly to Q4; ~\$45m transaction expenses in FCF). It is *already in* the Q3 and FY27 guide — it is not fresh good news for this print, and its margin dilution is already the excuse for flat margin guidance. Also: from Q3 Autodesk stops disclosing Design and Make revenue and makes minor product-family reporting changes — a small transparency reduction to watch on the call.
+
+**Rest of the quarter — segments, peers.** AECO (architecture/engineering/construction/operations) is the engine (FY2026 AECO \$3.583B, +22%); management cited AECO strength, especially construction and emerging markets, in Q2. AutoCAD \$1.787B (+14% FY26), Manufacturing \$1.379B (+16%), Media \& Entertainment \$332m (+5%). **New since yesterday:** Loop Capital upgraded ADSK Hold → Buy on 2026-11-13 (target \$310); KeyCorp reiterated Overweight on 2026-11-17; Jefferies reiterated Buy, \$325, on 2026-11-09 — the Street is leaning into the print, not away from it, which raises the bar for a positive surprise. No direct peer has reported this cycle in a way that reads across cleanly (Bentley Systems is the closest comp and was not covered in this pass — not found). Watch: billings linearity and renewal behaviour after the sales reorganization, MaintainX revenue disclosure (promised for four quarters), and any change to the FY27 billings range \$8.575–\$8.650B.
 
 ### 6. How much is priced in
-- **Run into the print: choppy, down sharply into the week.** Close 17 Nov $255.22, **−3.88% on the day** (from $265.53). Finnhub: 1-month +6.39%, 6 months +4.82%, YTD −13.78%, 1-year −12.66%. Daily closes early Nov: 2 Nov $257.91, 4 Nov $270.09, 5 Nov $269.16, 13 Nov $264.42, 16 Nov $265.53, 17 Nov $255.22. **Three-month move: from the 27 Aug pre-print close $270.58 to $255.22 is −5.7%; the stock has given back its post-Q1 levels and sits well below its summer highs.**
-- **52-week range:** $185.50 (22 Jun 2026) – $320.00 (26 Nov 2025); current is −20.3% below the high, ~38% above the low. 50-day avg $236.02, 200-day $233.88 — price is above both.
-- **Forward P/E:** 18.0x (screen). Other sources disagree by basis: MarketBeat/Tradestie ~21.9x next-year, TTM P/E 33–34x, year-end TTM P/E 60.2x at end-2025 and 60.5x at end-2024 (GAAP EPS was depressed then — those prints are not a useful forward yardstick). On the screen's 18.0x, ADSK is the cheapest forward multiple of the three names despite the fastest revenue growth — **but the cheapness is partly a MaintainX / sales-reorganisation discount, not a free lunch.**
-- **Options-implied move: ~±7.2% (Gekko, 17 Nov close) vs reaction_avg_abs_move 4.9% — implied is larger.** Other prints disagree: WallSti lists ±4.5%, StockInvest "expected change ±3.08%" (different horizon/method). Taking the Gekko earnings-expiry figure as headline, **implied > historical average**; on the WallSti figure it is roughly in line. Either way the market is not pricing a quiet print.
-- **Crowded? No — the opposite.** Down 13.8% YTD, −3.9% the day before the research date, 19 Buy / 4 Hold with a ~$308 consensus target (Gekko) yet the price keeps fading; Loop Capital's 14 Nov upgrade to Buy ($310) did not hold the stock up. This is a "show me" setup, not a crowded long — but the $3.16 whisper means a mere meet will likely be sold.
+
+Price \$243.45 (2026-11-19 close, per screen and Finnhub); \$253.00 on 2026-11-18, so −3.77% on 2026-11-19 — a sharp down day into the print, the second leg of a slide from \$255.22 on 2026-11-17. 52-week high \$320 (2025-11-26), low \$185.50 (2026-06-22) — ~24% below the high at the 2026-11-19 close. Moves (Finnhub, as of 2026-11-19): 5 sessions −6.37%, 1 month −0.87%, 6 months −0.07%, YTD −17.76%, 1 year −15.16%. A 3-month move as a single figure was not found in this pass — not found; the 5-session −6.4% is the material move, and it is *downward into the print*, which de-risks the setup slightly versus yesterday. Forward P/E 17.1 (screen); MarketBeat shows forward P/E 22.27 on a different (GAAP-blended) basis — the screen's 17.1x non-GAAP figure is used here, and the discrepancy is a basis difference, not a disagreement about the price. A 3–5 year forward-P/E range was not found in this pass — not found. Analyst targets: mean \$309.60 (screen; Gekko, from the 2026-11-19 close, 23 firms, range \$215–\$375, +27.2% upside), median \$307.50, MarketBeat mean \$319.97 — the Street is far above the price, which is the market's verdict that the billings deceleration and sales-reorg risk are real, not a bargain signal on its own. Options-implied move: **±5.8%** (ApexVol, as of 2026-11-19, implied range \$238–\$268, average move over last 12 reports 3.9%). A second source, FxObzor (2026-11-17), cites ±7.2%. Both are above the screen's realized proxy (reaction_avg_abs_move 4.9%) — the options market is pricing a bigger move than the name's recent average, consistent with the two recent negative reactions and the billings question. The ApexVol figure is the fresher of the two and is used as the primary quote. Crowding: not crowded on price (24% off the high, YTD −17.8%, down 6.4% in five sessions) but crowded on *expectation* — whisper \$3.16 vs guide top \$3.09, three analyst upgrades/reiterations in the last ten days, and an implied move above the realized average mean the marginal buyer expects a beat-and-raise that the stock has punished twice in a row.
 
 ### 7. Moat / AI-irreplaceability — score 8/10
-- AutoCAD / Revit / Fusion / Construction Cloud are the file formats and workflows of architecture, engineering, construction and manufacturing. Switching means retraining entire firms, converting decades of DWG/RVT files, and breaking plug-in ecosystems — the highest switching costs in vertical software outside Adobe. Large customers cannot in-source a CAD kernel. The AI threat is real but second-order: AI-native design tools (generative design, text-to-CAD startups) attack the *edges* (concept design, small firms), while Autodesk is buying the adjacency — MaintainX ($3.6bn, AI-native CMMS, closed 3 Aug 2026) is explicitly the AI-native defence, turning maintenance/operations into a new segment. The risk is execution and price: 18x forward revenue for MaintainX, debt-funded, is a lot to pay for a defence. **If it gaps down 15% and I hold 18 months: an opportunity — a 97%-recurring-revenue franchise at ~15x forward non-GAAP earnings with a 39–41% non-GAAP margin does not stay down on a one-quarter guide wobble, unless the sales-reorganisation or MaintainX integration is genuinely broken.**
+
+AutoCAD / Revit / Fusion are the file-format and workflow standards for architecture, engineering, construction and manufacturing: decades of DWG files, trained users, plug-in ecosystems and regulatory submission workflows built around them. Switching costs are extreme; a customer cannot in-source CAD, and AI-native design tools (generative design, text-to-CAD) are complements that Autodesk is itself shipping (Project Intelligence / generative AI in Fusion) rather than existential substitutes — so far. MaintainX extends the moat into asset operations. What caps the score: the sales-reorganization and transaction-model transition show the moat does not protect the *commercial* model from self-inflicted disruption, and construction cyclicality plus AI-assisted design commoditising drafting work are slow-burn threats. If it gaps down 15% and I hold 18 months: an opportunity — a 15%-growing subscription franchise at ~17x forward earnings with 97% recurring revenue is the kind of drawdown to own, not flee, unless billings have structurally broken.
 
 ### 8. Risks specific to THIS print
-- **MaintainX is the test.** First quarter with the deal closed: is the ~$60m H2 revenue / $70m billings contribution real, and is the margin dilution as guided? A miss here reprices the whole $3.6bn deal.
-- **The whisper ($3.16) is above the guide top ($3.09).** A $3.07 consensus beat that misses the whisper reads as a miss.
-- **Q3 EPS guide was already below Street** — if Q3 EPS prints $3.04–3.09 as guided, the "beat streak" narrative breaks on the number that matters.
-- **Billings/RPO deceleration** (billings +10% vs revenue +16%; RPO +2%, unbilled deferred −8%) — if Q3 billings weaken further, the FY27 revenue guide's H2 weighting looks heroic.
-- **Management has warned FY27 progress will be "nonlinear"** with transaction-model and multi-year-contract annualisation headwinds — code for Q4 guidance possibly being set low, or for a soft Q4.
-- **Recent reaction pattern: the stock falls on beats** (Q1 −4% after hours, Q2 −3.7%) — the market is grading the guide/deal, not the quarter.
 
-### 9. Scores
-- **Beat likelihood 7/10** — 8 straight EPS beats, 4/4 in screen, and the Q3 guide was set below Street precisely to be beaten; but the whisper is $3.16, so a "beat" must clear $3.09, not $3.07.
-- **Guide risk 6/10** — FY27 guide is supported by run-rate, but Zacks FY EPS already sits above the guide top, the Q3 EPS guide was soft, FCF was cut, and MaintainX dilution is unproven.
-- **Priced-in 4/10** — YTD −13.8%, −20% below the 52-week high, −5.7% since the last print; the bad news is substantially in the price. The offset is the whisper: expectations for the *number* are higher than consensus.
-- **Verdict:** The cheapest growth in the batch, with a beat streak the market keeps selling — because every beat comes with a new reason to doubt the guide.
+Billings deceleration (Q2 +10% vs revenue +16%; cRPO growth halved from 18% to 12%); sales-reorganization disruption explicitly carried in guidance; MaintainX margin dilution and \$45m transaction costs; the Q3 guide is only +15% revenue growth, so a "beat" that comes with a billings miss or a flat FY27 reaffirmation is the beat-and-dump setup; reporting changes (dropping Design and Make disclosure) reduce visibility; whisper \$3.16 sets a bar above guidance; the stock fell 3.8% on 2026-11-19 with no company news in this pass, so momentum into the print is negative and a weak guide could cascade — though that same slide also means some de-risking has already happened.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 8/10** — 8-for-8 beat streak, consensus at guide midpoint, Q2 beat the high end of guide on both revenue and EPS, whisper above consensus. Unchanged from yesterday.
+- **Guide-risk: 8/10 (HIGH IS BAD)** — the highest in this batch: two straight raises were punished, billings are decelerating into the guide, Q4 implied EPS ~\$3.20 must absorb MaintainX dilution, and a reaffirmation reads as a cut.
+- **Priced-in: 5/10 (HIGH IS BAD)** — down from 6 yesterday: price is 24% off the high and YTD −17.8%, and the stock has now fallen 6.4% in five sessions *into* the print, which is genuine de-risking; but the *beat-and-raise expectation* is still fully priced in (whisper above guide top, implied move 5.8–7.2% > 4.9% realized average, three fresh bullish analyst actions).
+- **Verdict:** The most likely beat in the batch and the least likely to be rewarded for it — Autodesk beats, guides, and falls has happened twice running, and nothing in the setup says the third time is different. The five-session slide makes the downside slightly less crowded than yesterday, but it does not change the guide test.
 
 ### 10. Plan A or Plan B?
-- **Plan B — wait for the number, but this is the closest to a Plan A in the batch.** What would have to be true for A: Q3 EPS ≥$3.16 (clearing the whisper), billings growth re-accelerating toward revenue growth, and MaintainX contributing revenue without further FCF dilution — then the post-print dip, if any, is the entry, not the exit.
 
-### Earnings-quality flag — RECEIVABLES_OUTRUN (ADSK)
-- **Partly benign, partly genuine — the flag is mislabelled, the underlying signal is real.** Accounts receivable, net: **$684m at 31 Jul 2026 vs $1,439m at 31 Jan 2026** — a collapse, not a build, and it is seasonal: Q4 (Jan quarter) billings peak ($2,804m in Q4 FY26) and are collected in H1. A YoY AR comparison was **not found** in retrieved sources, so the screen's flag cannot be confirmed from the AR line alone. What *is* confirmed: **billings (+10%) are running well behind revenue (+16%), total RPO is only +2% YoY, and unbilled deferred revenue is −8%** — revenue is being recognised faster than new business is being booked, which management attributes to winding down multi-year discounts (good for price realisation, bad for backlog optics). Cash says the opposite of a value trap: operating cash flow $575m (+25% YoY) and FCF $561m (+24%) in Q2. **One-line verdict: not an earnings-ahead-of-cash story (FCF is strong) — it is a billings/RPO deceleration story, and that is what the Q3 billings print must answer.**
+**Plan B — wait for the number.** For A: Q3 billings growth back to mid-teens *and* FY27 billings/revenue guidance raised again (not reaffirmed) *and* a Q4 guide at or above the implied ~\$2.21B / ~\$3.20 — all three, because the last two prints show any one of them alone was not enough.
 
 ---
 
-## VEEV — Veeva Systems (NYSE: VEEV) — Q3 FY2027
+## Cross-name summary
 
-### 1. Date — CONFIRMED
-- **Thu 3 Dec 2026, after market close (AMC).** Company PR 12 Nov 2026 (PRNewswire): "will announce financial results for its third quarter ending October 31, 2026 after market close on December 3, 2026" — call 2:00 p.m. PT / 5:00 p.m. ET, prepared remarks ~1:05 p.m. PT. StockAnalysis lists it as the "next confirmed earnings date". **CONFIRMED — matches the cached 2026-12-03 date, not moved.** (Note: some aggregators still show the old estimated 25 Nov date — stale; the 12 Nov company PR governs.)
+| Ticker | Date / timing | Consensus EPS / revenue | Beat likelihood | Guide risk (bad=high) | Priced-in (bad=high) | Plan |
+|---|---|---|---|---|---|---|
+| A | 2026-11-23 AMC, CONFIRMED | \$1.72 / \$1.99B | 7 | 7 | 7 | B |
+| ADSK | 2026-11-24 AMC, CONFIRMED | \$3.07 / \$2.13B | 8 | 8 | 5 | B |
 
-### 2. The bar — Q3 FY2027 (quarter ended 31 Oct 2026)
-- **Consensus EPS $2.33–$2.34, revenue ~$934–935m.** Zacks (17 Nov 2026): EPS $2.33 (+14.2% YoY), revenue $933.79m (+15.1% YoY); full-year EPS $9.22, revenue $3.69bn. StockInvest: EPS $2.34, revenue $935.2m. Trefis: revenue $935m, EPS $2.34.
-- **Company guide (26 Aug 2026, Q2 release): revenue $932–935m, non-GAAP EPS $2.33–2.34, adjusted op. income $417–420m.** Consensus is *exactly* the guide — there is no daylight between the Street and management.
-- **Revisions (last 30 days): unchanged.** Zacks 17 Nov: "Over the last 30 days, the Zacks Consensus EPS estimate has remained unchanged." **No whisper number found.**
+Both dates are company-confirmed, so the load-bearing fact holds for the whole batch. The common thread, unchanged from yesterday: in both, consensus sits at the midpoint of management's own guide, so the *beat* is the expected outcome and the *guide* is the trade. What changed in 24 hours: Agilent consensus EPS drifted down 0.8% over 30 days (Zacks, 2026-11-18) and Waters added a third peer confirming the instrument recovery; Autodesk fell 6.4% in five sessions into its print while three analysts leaned in with upgrades/reiterations, and its Q3 billings consensus (\$2.07B) is now published. Neither change flips either name to Plan A.
 
-### 3. Last four prints
-| Print | EPS vs cons. | Revenue vs cons. | Guide given | Next-session reaction* |
-|---|---|---|---|---|
-| Q2 FY27, 26 Aug 2026 | $2.35 vs $2.23 (+5.4%) non-GAAP; GAAP $1.66 | $928.0m vs $905.4m (+17.6% YoY; subs +16%) | Raised FY27: rev $3.682–3.687bn, EPS ~$9.21, adj. op. income ~$1.64bn; Q3 guide as §2 | **+15%** (screen; OptionsAI records +15.2% 1-day) |
-| Q1 FY27, 3 Jun 2026 | $2.24 vs $2.14 (+4.7%) | $882.9m vs $857.7m (+16.3% YoY) | Raised FY27: rev $3.635–3.645bn, EPS ~$9.05 (from $3.585–3.60bn / $8.85) | **−2%** (screen; −2.5% premarket, close $178.60 on 4 Jun) — beat-and-raise that still fell, on AI-disruption worries |
-| Q4 FY26, 4 Mar 2026 | $2.06 vs $1.94 (+6.2%) | $836.0m vs $810.7m (+16.0% YoY) | Initiated FY27: rev $3.585–3.60bn, EPS ~$8.85 | +4% (screen) |
-| Q3 FY26, 20 Nov 2025 | $2.04 vs $1.95 (+4.6%) | $811.2m vs $792.4m (+16.0% YoY) | Raised FY26 / improved Q4 visibility | −10% (screen) |
+## Earnings-quality flags appendix
 
-\* Reactions are the screen's last-4 set; Q2 (+15.2%) and Q1 (−2% area) are independently corroborated. Pattern: VEEV's reactions are the most violent in the batch (avg abs 9.1%) and are *not* explained by the beat alone — Q1 fell on a beat-and-raise; Q3 FY26 fell ~10% on a beat.
+- **A — RECEIVABLES_OUTRUN (recv_rev_divergence 0.278): Benign — not a value-trap signature on the current balance sheet.** Accounts receivable, net were \$1,478m at 2026-07-31 vs \$1,487m at 2025-10-31 — *flat to down* while revenue grew 8.1% YoY in Q3; the 9-month cash-flow statement shows a \$16m *source* from receivables, Q3 operating cash flow was \$519m, and management cited ~96% non-GAAP free-cash-flow conversion. The screen divergence is a point-in-time / TTM artefact, not a current build-up of uncollected sales. No new balance-sheet data has been published since yesterday's check (next filing is the Q4 release itself). **Verdict: explainable, no action.**
+- **ADSK — RECEIVABLES_OUTRUN (recv_rev_divergence 0.125): Benign — explained by the new transaction model, but watch billings.** Accounts receivable jumped to \$1,439m at 2026-01-31 from \$1,008m a year earlier (+43% vs revenue +18%), but that is the mechanical result of moving to direct billings under the new transaction model: deferred revenue also rose (+14% to \$4,693m), RPO rose 20% to \$8.30B, FY2026 billings rose 30% to \$7,771m, and Q2 FY2027 operating cash flow was up 25% with free cash flow up 24% to \$561m. Receivables are rising because Autodesk now bills customers directly instead of through resellers — not because customers are not paying. The flag to watch instead is billings growth (+10% in Q2 vs revenue +16%), which is a demand signal, not a collections signal. Zacks' Q3 billings consensus of \$2.07B (+11% YoY) is the number to test that against on 2026-11-24. **Verdict: explainable by the business-model transition, no action — monitor Q3 billings, not receivables.**
+
+## Sources and gaps
+
+Primary: Agilent Q4 FY2026 date announcement 2026-10-29 (Business Wire); Autodesk Q2 FY2027 press release 2026-08-27 and results-call invitation 2026-11-02 (PR Newswire); Agilent Q3 FY2026 8-K / press release 2026-08-26. Consensus: Zacks (A preview 2026-11-18 and detailed estimates updated 2026-11-18; ADSK key-metrics preview 2026-11-19), Earnings Whispers (A 2026-11-15; ADSK 2026-11-16), MarketBeat. Whisper: Earnings Whispers. Reactions: Exent / AlgoDip (A), SeasonalityCharts / TipRanks (ADSK). Peers: Thermo Fisher and Danaher Q3 2026 calls, 2026-10-21; Waters Q3 2026, 2026-11-03. Options: ApexVol (A ±5.1% and ADSK ±5.8%, both as of 2026-11-19), Earnings-Watcher (A ±9.5%, flagged as outlier), FxObzor 2026-11-17 (ADSK 7.2%). Prices: Finnhub (2026-11-19 closes and returns). Analyst targets: MarketBeat, Gekko (2026-11-19 close), Loop Capital upgrade 2026-11-13.
+
+Not found (stated, not fabricated): Agilent 3–5 year forward-P/E range; Autodesk Q4 FY2027 published consensus and 3–5 year forward-P/E range; 3-month returns as single figures for either name; next-session closes for Agilent Q1 FY2026 and Q4 FY2025 (screen values used and labelled as such); a direct peer print for Autodesk (Bentley) in this window; any new Agilent or Autodesk company disclosure between 2026-11-19 and 2026-11-20 beyond the Zacks previews cited.
+
+
+---
+
+# Research batch 2 — NTAP / VEEV — run 2026-11-20
+
+# Research batch 2 — NTAP / VEEV — run 2026-11-20
+
+As-of: 2026-11-20, prices as in screen (NTAP \$170.18, VEEV \$262.92, both 2026-11-19 closes per screen file) unless a later close is cited. Fiscal-year note: NetApp FY ends 30 April (reports Q2 FY2027); Veeva FY ends 31 January (reports Q3 FY2027). Both report AMC. All consensus figures below are non-GAAP EPS unless stated otherwise. Where two reputable sources disagree, both are shown and the preferred figure is named — do not silently average them. VEEV was also researched yesterday (2026-11-19 dossier); every date, bar and figure below was re-verified fresh today — nothing was copied without re-checking.
+
+## Screen context (shortlist_2026-11-20.json, generated 2026-11-20 09:21:06)
+
+| Ticker | Price | Next earnings | Beats 4q | Surprise avg | Rev YoY | Rev accel | Beat-up rate | React avg | React avg abs | Reaction last4 | Ret 21d | Fwd PE | Mean target |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| NTAP | \$170.18 | 2026-12-01 | 4/4 | +10.08% | +29.9% | +20.7pp | 0.571 | +1.2% | 6.7% | `+3%, +22%, -3%, +2%` | −21.7% | 15.3 | \$211.69 |
+| VEEV | \$262.92 | 2026-12-03 | 4/4 | +5.42% | +17.6% | +6.2pp | 0.625 | +4.3% | 9.1% | `+15%, -2%, +4%, -10%` | −18.0% | 25.6 | \$326.41 |
+
+---
+
+## NTAP — NetApp (NASDAQ: NTAP)
+
+### 1. The date, confirmed
+
+**CONFIRMED — Tuesday 2026-12-01, after the close (AMC).** Company press release via Business Wire, 2026-11-10, via NetApp IR: "After market close on December 1, 2026, NetApp (NASDAQ: NTAP) will announce financial results for the second quarter of fiscal year 2027, which ended October 30, 2026", with a conference-call webcast at 2:30 p.m. PT (5:30 p.m. ET). Source: investors.netapp.com / Business Wire. Zacks also labels 12/01/2026 a confirmed date, AMC. This matches the screen date exactly. No move. The release also gives future targeted dates: Q3 FY2027 on 2027-03-04, Q4 FY2027 on 2027-06-03.
+
+### 2. The bar
+
+| Metric | Consensus | Source / as-of |
+|---|---|---|
+| Q2 FY2027 non-GAAP EPS | \$2.60 | Zacks, updated 2026-11-17/18; MarketBeat \$2.60 |
+| Q2 FY2027 non-GAAP EPS | \$2.61 | TipRanks / MarketBeat earnings table; Finnhub \$2.65 |
+| Q2 FY2027 revenue | \$2.11 billion | Zacks, 2026-11-17/18; MarketBeat \$2.10–2.11B |
+| Q2 FY2027 revenue | \$2.14 billion | Finnhub / FXEmpire (16 analysts) |
+| Year-ago Q2 FY2026 | EPS \$2.05, revenue \$1.71 billion | Company / Zacks |
+| Implied growth (Zacks) | EPS +26.8%, revenue +23.8% | Zacks |
+
+Preferred bar: **\$2.60 / \$2.11B (Zacks)** — it is the most widely cited, it sits inside the company's own guide, and the \$2.65 Finnhub figure sits above the top of management's guided EPS range (\$2.64, see §5) and is treated as an outlier. A \$2.61 print would be a coin-flip beat/miss depending on the vendor, so the EPS beat/miss headline on the night will be vendor-dependent; the revenue beat and the guide matter more.
+
+Company's own Q2 guide (given 2026-09-02): revenue \$2.025–\$2.175B (midpoint \$2.10B), gross margin 67–68%, operating margin 30.9–31.9%, non-GAAP EPS \$2.54–\$2.64 (midpoint \$2.59). Consensus (\$2.60 / \$2.11B) sits essentially at the midpoint/top of guidance — the Street has set the bar exactly where management put it.
+
+Revisions: Zacks detailed estimates (report dated 2026-11-03, price \$185.26): Q2 consensus \$2.60, unchanged over the last 30 days (7 days ago \$2.60, 30 days ago \$2.60), up from \$2.56 sixty days ago (+1.6%); FY2027 EPS \$10.05 unchanged over 30 days; next-year EPS \$11.03, +0.8% over 60 days. Earnings ESP 0.00%. Zacks (2026-10-27 / 2026-11-12): "the Zacks Consensus Estimate for NTAP's earnings for fiscal 2027 has been revised upward over the past 60 days." No whisper number was found in this pass — not found. The bar has crept up modestly since the Q1 print, not sharply — a rising bar, but a gentle one.
+
+### 3. The last four prints
+
+| Quarter | Reported | Consensus EPS | Revenue vs consensus | Guide given | Next-session reaction |
+|---|---|---|---|---|---|
+| Q1 FY2027, 2026-09-02 | Non-GAAP EPS \$2.58 (GAAP \$1.88), rev \$2.03B | \$2.12, beat +21.7% | \$2.03B vs \$1.84B, beat +9.9% | Raised FY27 materially: rev \$7.975–\$8.225B, EPS \$9.73–\$10.03; Q2 guide \$2.025–2.175B / \$2.54–2.64 | +3% (screen); TipRanks +2.55% (price day before \$180.36 → day after \$184.96) |
+| Q4 FY2026, 2026-05-28 | Non-GAAP EPS \$2.43 (GAAP \$2.03), rev \$1.95B | \$2.27, beat +7.0% | \$1.95B vs \$1.87B, beat +4.1% | FY27 initial guide: rev \$7.325–\$7.575B, EPS \$8.70–\$9.00; Q1 guide \$1.75–1.90B / \$2.05–2.15 | +22% (screen); TipRanks +22.39% (\$141.65 → \$173.37) |
+| Q3 FY2026, 2026-02-26 | Non-GAAP EPS \$2.12 (GAAP \$1.67), rev \$1.71B | \$2.07, beat +2.4% | \$1.71B vs \$1.70B, beat +0.6% | Raised FY26: rev \$6.772–\$6.922B, EPS \$7.92–\$8.02; Q4 guide \$1.795–1.945B / \$2.21–2.31; FY26 gross margin lowered 100 bps | −3% (screen); TipRanks −0.11% (\$98.11 → \$98.01) — the screen's −3% was not independently corroborated; the corroborated figure is essentially flat |
+| Q2 FY2026, 2025-11-25 | Non-GAAP EPS \$2.05 (GAAP \$1.51), rev \$1.71B | \$1.88, beat +9.0% | \$1.71B vs \$1.69B, beat +1.2% | FY26 guide: rev \$6.625–\$6.875B, EPS \$7.75–\$8.05; Q3 guide \$1.615–1.765B / \$2.01–2.11 | +2% (screen); TipRanks +0.47% (\$114.87 → \$115.41) |
+
+Pattern: beats 4 of 4 on EPS (and 7 of the last 8 per Gekko), but the reaction is driven by the *size* of the beat and the guide, not the beat itself: a +21.7% EPS surprise with a \$650m FY raise produced only +2.6–3% (the stock had already run into the print), while a +7.0% surprise with a confident FY27 initial guide produced +22.4%. The Q3 print — a small beat (+2.4%) with a raise that was mostly a floor-lift and a gross-margin cut — produced essentially no reaction. The screen's reaction_avg_move +1.2% and reaction_avg_abs_move 6.7% understate the bimodality: the average is a +22% and three flat days.
 
 ### 4. Revenue and margin trend
-- Revenue (StockAnalysis, as reported): Q3 FY26 $811.2m (+16.0%) → Q4 FY26 $836.0m (+16.0%) → Q1 FY27 $882.9m (+16.3%) → Q2 FY27 $928.0m (+17.6%). **Top line is *accelerating* into this print — the only name in the batch where that is true.** Subscription revenue (84% of FY26 total) grew +15–16% in Q1–Q2.
-- Margins: Q2 FY27 GAAP op. income $275.0m (+40% YoY), GAAP op. margin 29.6%; non-GAAP op. income $416m, ~44.8% margin. Q1 FY27 non-GAAP op. income $395.4m. Operating income by quarter: $240.9m (Q3 FY26) → $245.9m → $273.1m → $275.0m. **Margins are expanding while growth accelerates — the cleanest trend in the batch.** FCF was $230.7m in Q2 FY27, roughly flat YoY ($232.1m) — the one soft spot in an otherwise strong P&L.
+
+| Quarter | Revenue | YoY | Non-GAAP operating margin | Non-GAAP gross margin |
+|---|---|---|---|---|
+| Q2 FY2026 (Oct 2025) | \$1,705m | +2.8% | ~31% (\$530m op. profit) | not found in this pass |
+| Q3 FY2026 (Jan 2026) | \$1,713m | +4.4% | not found in this pass | not found in this pass |
+| Q4 FY2026 (Apr 2026) | \$1,948m | +12.5% | 32.0% (record, +340 bps YoY; op. income \$624m, +26%) | 70.5% (+100 bps YoY) |
+| Q1 FY2027 (Jul 2026) | \$2,025m | +29.9% | 31.9% (+610 bps YoY; op. income \$645m, +61%) | 70.6% (−50 bps YoY) |
+
+Top line is **accelerating violently into the print**: +2.8% → +4.4% → +12.5% → +29.9%. The Q1 drivers, per the company: record all-flash array revenue \$1.3B (+47% YoY), record public cloud revenue \$206m (+28% YoY), billings \$2.06B (+36% YoY), product revenue \$987m (+51% YoY). Margins are at record levels and flat-to-expanding on operating margin (31.9–32.0%), but gross margin is the pressure point: Q1 non-GAAP gross margin fell 50 bps YoY to 70.6% and the Q2 guide implies 67–68% — a deliberate step-down on product mix (more hardware in the mix) and component costs. The Q2 guide itself (\$2.10B midpoint, +23% YoY) implies a deceleration from Q1's +30% — the guide is already the deceleration, so the print is judged on whether NetApp beats the guide by its recent habit (Q1 beat the high end of every guided metric).
 
 ### 5. THE GUIDE
-- (a) **Guides every quarter, granular:** next-quarter revenue, adjusted op. income, adjusted EPS; full-year revenue, adjusted op. income, adjusted EPS. Does not guide GAAP op. income/EPS (cannot predict stock-based comp). No FY28 guide — that comes with Q4.
-- (b) **Next quarter (Q4 FY27) consensus: not found as a clean separate figure.** **Full-year FY27:** Zacks EPS **$9.22**, revenue **$3.69bn**. Implied Q4 from the company's FY guide ($9.21): Q1 $2.24 + Q2 $2.35 + Q3 guide midpoint $2.335 = $6.925, so **Q4 implied ~$2.29** — a sequential step-down from Q3, which is normal seasonality for Veeva (Q4 is not its biggest EPS quarter).
-- (c) **Run-rate support:** H1 FY27 non-GAAP EPS $4.59 on revenue $1,810.9m. The FY guide $9.21 needs H2 EPS of $4.62 — essentially a repeat of H1, with Q3 guided at $2.33–2.34. **The forward number is fully supported by the run-rate; it requires no heroics, only no deterioration.** That is also why the guide is rarely the upside surprise — it is usually a small raise of a number the Street already has.
-- (d) **Guide history (verified): raised every quarter in FY27, and in FY26.** FY27 initiated 4 Mar 2026 ($3.585–3.60bn / ~$8.85) → Q1 3 Jun raised ($3.635–3.645bn / ~$9.05, +$0.20 EPS) → Q2 26 Aug raised again ($3.682–3.687bn / ~$9.21, +$0.16 EPS). TickerScout confirms FY26 guidance was also raised at both Q1 and Q2 FY27-equivalent prints (i.e. the raise streak runs at least 4–5 quarters). Stock reactions to raises: Q1 FY27 raise → −2%; Q2 FY27 raise → +15%; Q4 FY26 initiation → +4%. **Raises do not reliably lift the stock — the reaction is set by the AI narrative and the multiple, not the guide.**
-- (e) **Guide already raised between quarters? Yes — twice in FY27 (Jun and Aug 2026).** The Aug raise is already in consensus (consensus = guide). A third consecutive raise is the base case; the question is its size.
+
+(a) **Does it guide?** Yes, granularly: next quarter (revenue range, GAAP and non-GAAP gross margin, GAAP and non-GAAP operating margin, GAAP and non-GAAP EPS) and full year (revenue, gross margin, operating margin, EPS), every quarter. This print is guide-sensitive in both directions: it will give Q3 FY2027 guidance *and* an updated FY2027 guide.
+
+(b) **Forward bar.** Next quarter Q3 FY2027 consensus (Zacks detailed estimates, updated 2026-11-18): EPS **\$2.42**, revenue **\$2.01B** (range \$2.17–2.82 EPS; revenue \$1.90–2.16B). Full-year FY2027 consensus (Zacks): EPS **\$10.05**, revenue **\$8.23B**. Note the tension: the FY2027 consensus (\$10.05 / \$8.23B) sits *above the top of the company's own current guide* (\$9.73–\$10.03 / \$7.975–\$8.225B). The Street is already carrying a number the company has not yet guided to — so a mere reaffirmation of the FY27 guide on 2026-12-01 would be a de facto miss against consensus, and the Q3 guide will be judged against \$2.42 / \$2.01B, which implies +14.2% EPS growth and +17.3% revenue growth vs Q3 FY2026 (\$2.12 / \$1.71B).
+
+(c) **Does the run-rate support that forward number?** For Q3, yes on revenue, with a margin caveat. Q1 revenue \$2.025B growing +30% and Q2 guided at \$2.10B (+23%) make a Q3 at \$2.01B (+17%) a *deceleration* from the run-rate, not an acceleration — the revenue bar is a continuation with the growth rate stepping down, which is achievable if billings hold. The EPS bar (\$2.42) is more demanding: it requires holding ~31% operating margins while gross margin steps down to the guided 67–68% range in Q2 and product mix stays hardware-heavy. For the full year, the run-rate supports the *guide* (\$9.88 EPS midpoint: Q1 \$2.58 + Q2 guide \$2.59 + Q3 consensus \$2.42 + Q4 implied ~\$2.29 = \$9.88) but does **not** yet support the *consensus* \$10.05 — that extra \$0.17 has to come from another raise. The forward number the market is carrying is, in other words, a raise that has not happened yet.
+
+(d) **Guide history, last 8 quarters.** Raised at three of the last four prints, and the pattern is raise-then-reward-or-ignore depending on size: Q2 FY2026 (Nov 2025) — FY26 guide set/raised to \$6.625–\$6.875B / \$7.75–\$8.05, stock +0.5–2%; Q3 FY2026 (Feb 2026) — FY26 raised to \$6.772–\$6.922B / \$7.92–\$8.02 (midpoint +\$0.07 EPS, low end +\$0.17) but gross margin lowered 100 bps, stock flat; Q4 FY2026 (May 2026) — FY27 initial guide \$7.325–\$7.575B / \$8.70–\$9.00 set *above* consensus (\$7.2B), stock +22%; Q1 FY2027 (Sep 2026) — FY27 raised by \$650m at the midpoint to \$7.975–\$8.225B / \$9.73–\$10.03 (+22% EPS growth), stock only +2.6%. Earlier FY2025 prints were reaffirm/raise territory with small beats. A serial raiser whose biggest raise in years bought only +3% is the warning: the market has started discounting the raise in advance, so a reaffirmation — or a raise smaller than the \$0.17 the FY consensus already assumes — reads as a cut.
+
+(e) **Has the guide already been raised between quarters?** No pre-announcement and no inter-quarter raise since 2026-09-02. What *has* changed: NetApp acquired DataPelago (AI data infrastructure) in Q1 FY2027; management said pricing actions have been implemented to offset rising component costs; inventory was expanded to secure silicon supply (see appendix). No analyst-day or conference remark raising the guide was found in this pass.
+
+**Rest of the quarter — segments, peers, FX.** Segments (Q1 FY2027): Hybrid Cloud \$1,819m (+30% YoY), Public Cloud \$206m (+28%); all-flash \$1.3B (+47%), Keystone storage-as-a-service growing ~65% in FY2026. AI: ~500 AI/data-preparation wins in Q4 FY2026, 1,100+ for FY2026 (vs ~400 the prior year); a multi-year Google Cloud agreement contributed to Q4 product revenue. Peers already reported and strongly supportive on demand — but punishing on valuation: Seagate fiscal Q1 2027 (2026-10-27) revenue \$4.23B (+61% YoY), gross margin 57.3%, Q2 guide ~\$4.8B, yet the stock fell ~5–6% after hours; Western Digital fiscal Q1 2027 (2026-10-22) revenue \$4.38B (+55% YoY), December-quarter guide ~32% above consensus on EPS, yet fell ~7% after hours. The storage/AI-infrastructure demand story is validated by peers, and the peer reaction is the warning: beat-and-raise is no longer enough in this tape — the market is pricing 2029–2030 supply, not the quarter. FX: not flagged as material in the Q1 call; the Q3 FY2026 print noted constant-currency revenue +2% vs reported +4%, i.e. a ~2 pp FX tailwind then — no current FX figure found.
 
 ### 6. How much is priced in
-- **Run into the print: down sharply in the last month after a huge run.** Close 17 Nov $288.41; Finnhub: 1-month −7.07%, 5 sessions −5.87%, 6 months +76.02%, YTD +29.2%, 1-year +5.37%. Daily closes: 2 Nov $307.00, 4 Nov $310.63, 11 Nov $304.77, 16 Nov $299.28, 17 Nov $288.41. **Three-month move: from the pre-Q2-print price (~$244.72 just before 26 Aug) to $288.41 is +~18%, but essentially all of it was the +15% post-print gap; since the 22 Oct 52-week high the stock is down −11.5%. The run into *this* print is a fade, not a chase.**
-- **52-week range:** $148.05 (10 Apr 2026) – $325.99 (22 Oct 2026); current is −11.5% below the high, +95% above the low. Analyst consensus target ~$317–326 (MarketBeat $317.42; StockAnalysis $326.41) — ~10–13% above spot.
-- **Forward P/E:** 28.1x (screen). Other sources are materially higher by basis: Zacks forward P/E 32.46x; MarketBeat forward P/E 38.65–38.82x; TTM P/E 43.5–47.5x. The dispersion reflects GAAP vs non-GAAP EPS bases (FY27 non-GAAP ~$9.21 vs GAAP ~$6.70) — **do not quote a single forward P/E without its basis.** A clean 3–5-year forward-P/E range was **not found**. On any basis VEEV is the most expensive name in the batch, and one independent model (MCH, 17 Nov) puts triangulated fair value at $174 (−40% vs spot) with a SELL rating — a reminder that the multiple, not the quarter, is the bear case.
-- **Options-implied move: not found cleanly.** No earnings-expiry straddle quote was retrieved. Best proxies: OptionsAI records an **8.88% average realised 1-day move**; AISMarketCap (9 Nov scan, $305.97) showed an ATM straddle cost of 7.2% of spot with a **scaled 8.1% implied move over 14 days** — but that chain expired 11 days out while the print was 16 days away, so it is an estimate of the event, not a quote on it; IntraAlpha shows ±$13.64 (~4.5% at ~$303) on a nearer expiry. **Against the name's reaction_avg_abs_move of 9.1%, the best available proxy (~8.1%) is slightly SMALLER than the historical average move — the options market is not pricing a bigger-than-usual swing, unlike A and ADSK.** Treat this as weak evidence: the implied-move figure should be re-pulled on a live chain before the panel decides.
-- **Crowded? On valuation, yes; on price action, no.** The stock has corrected −11.5% from its high and −7% in a month; short interest was 2.8% of float (9 Nov scan). But at 28–39x forward earnings (basis-dependent) with a $2bn buyback authorised Jan 2026 as the only support, good news is largely in the price — the Q1 precedent (beat-and-raise, −2%) is the warning.
 
-### 7. Moat / AI-irreplaceability — score 8/10
-- Veeva is the system of record for life sciences: Vault (clinical, regulatory, quality, safety), CRM (now Vault CRM, migrating off Salesforce), and Crossix data. Its customers are the top 20 pharma companies; switching means re-validating GxP-regulated workflows, migrating clinical-trial data, and retraining thousands of reps — multi-year, regulator-facing work nobody undertakes lightly. The AI question cuts both ways: Veeva AI / agentic "Falcon" is the company's own answer, and AI that drafts regulatory documents or automates pharmacovigilance *increases* the value of the validated Vault data it sits on. The genuine threat is not a startup replacing Vault; it is pharma IT budgets and the Salesforce relationship (Veeva is migrating customers off Salesforce CRM onto its own — an 80% win rate in Vault CRM migrations per Q1 FY27 — execution risk if migrations stall). **If it gaps down 15% and I hold 18 months: an opportunity, not a disaster — a 16–18% grower with ~45% non-GAAP margins and $7.1bn net cash does not stay down on a guidance wobble; it stays down only if subscription growth breaks below ~10% for two straight prints (the thesis-break the MCH note itself names).**
+Price \$170.18 (2026-11-19 close). 52-week high \$240.87 (2026-10-13), low \$93.69 (2026-01-20) — **29.4% below the high**. Moves (Finnhub): 1 month −19.0% (screen ret_21d −21.7%), 5 sessions −7.1%, 6 months +43.0%, YTD +58.9%, 1 year +64.8%. The stock has given back roughly a third of its October peak in five weeks *before* the print — the market is de-risking into it, not chasing it. It sits below its 50-day average (\$202.82) but above its 200-day (\$155.62). Forward P/E: screen 15.3; Zacks F1 17.14 (2026-11-19) / 17.22 (detailed estimates); MarketBeat 18.72 — the spread reflects different FY EPS denominators (\$10.05 Zacks vs \$8.32 MarketBeat FY basis); use the screen's 15.3 for panel comparability and note the vendor range 17–19. Trailing P/E ~23–24. Historical trailing P/E: 3-year average 22.1, 5-year average 19.4 (Public.com); 2025 year-end 18.4, 2024 year-end 20.4–21.3. On a forward basis the stock is *below* its own recent trailing-P/E range — the de-rating is already in the price. Mean analyst target \$211.69 (+24% above price; MarketBeat \$205.24, +21%). Options-implied move: **±5.1%** (Arbtrage, earnings-specific, range ~\$161.84–\$179.10 from \$170.47) — against the screen's realized proxy (reaction_avg_abs_move 6.7%), the implied move is **smaller**. A second figure, Barchart expected move (DTE 8) 5.97% (\$11.12), is consistent in magnitude but is an 8-day move, not the earnings move — do not use it as the earnings move. A third figure, MCH ±16.5% to the 2026-12-18 expiry, is a one-month move, *not* the earnings move — discounted, not used. A Gate post citing NTAP at ~10–11% expected move is unattributed and inconsistent with the two named sources — discounted. Crowding: not crowded on price — down 19–22% in a month, 29% off the high, forward P/E below its own range, no unusual options activity found (Gekko, 2026-11-19). The crowded part is the *expectation* that the AI-storage acceleration continues at +23–30%: the FY consensus already assumes a raise that has not been guided.
+
+### 7. Moat / AI-irreplaceability — score 6/10
+
+ONTAP is the entrenched enterprise data OS: all-flash arrays, hybrid-cloud data management across AWS (FSx for NetApp ONTAP), Azure (Azure NetApp Files) and Google Cloud, plus Keystone storage-as-a-service and a \$5.65B RPO (+14% YoY) / \$4.85B deferred revenue base. Switching costs are real — data gravity, ONTAP workflows, and multi-cloud portability — and the AI angle is genuine (1,100+ AI wins in FY2026, DataPelago acquisition). What caps the score hard: this is hardware. Customers *can* in-source with hyperscaler-native storage or buy from Dell, Pure Storage, HPE or the HDD duopoly; component (NAND / memory) pricing is a pass-through the company does not control and is currently squeezing gross margin (67–68% guided vs 70.6% in Q1); and the AI-storage demand that just re-rated the stock is the same demand that lets hyperscalers build their own. If it gaps down 15% and I hold 18 months: an opportunity, not a disaster — a \$2B-a-quarter, ~32% operating-margin franchise with \$1.1B net cash, a \$0.52 quarterly dividend and buybacks, at ~15–17x forward earnings — provided the Q3 guide does not reveal the +30% quarter was a one-off pull-forward (inventory, see appendix) rather than a run-rate.
 
 ### 8. Risks specific to THIS print
-- **The multiple is the risk.** Consensus = guide to the dollar; a beat-and-*reaffirm* (no raise) after two raises reads as a deceleration signal at 30x+ forward earnings.
-- **Q1 precedent:** the market sold a beat-and-raise on AI-disruption fears (Raymond James cut its target $275 → $225 that week while keeping Outperform). Any cautious AI commentary on the call can overwhelm the numbers again.
-- **Subscription growth is the line to watch:** Q2 subscription +16%; if Q3 subscription decelerates toward ~13–14% while total revenue is held up by services, the quality of the beat is poor.
-- **FCF was flat YoY in Q2 ($230.7m vs $232.1m)** despite +18% revenue — if that repeats, the cash-conversion story weakens.
-- **Volatility is the norm, not the exception:** last-4 reactions +15%, −2%, +4%, −10% — a 10% adverse move is a normal outcome for this name, and the options proxy (~8%) does not fully price it.
 
-### 9. Scores
-- **Beat likelihood 8/10** — 4/4 beats in screen, 8 of last 8 EPS beats per AltIndex, consensus exactly at guide (management sets bars it clears), accelerating revenue.
-- **Guide risk 5/10** — the forward number is fully supported by run-rate and the raise streak is long; the risk is not that the guide is unsupportable but that a mere reaffirmation disappoints a 30x multiple.
-- **Priced-in 7/10** — the highest in the batch: the most expensive multiple, consensus = guide, and the Q1 lesson that even a raise can be sold. The −11.5% pullback from the high tempers this to 7 rather than 9.
-- **Verdict:** The best business and the cleanest acceleration in the batch, priced like it — the print has to be good *and* the guide has to be raised *and* the AI story has to sound confident.
+The Q1 comp is the trap: Q1 FY2027 printed +30% revenue with a +21.7% EPS surprise, and Q2 is guided at only +23% — a "beat" that lands at the guide midpoint is already the expected outcome, and the FY consensus (\$10.05) sits above the guide top, so the print must *raise* to merely meet the Street. Gross-margin step-down (70.6% → 67–68% guided) on product mix and memory/NAND costs: if Q3 gross margin guides lower still, the EPS story breaks even if revenue beats. Memory-cost inflation is the named headwind (management flagged "unusual volatility in component pricing" at Q4 and implemented price increases — pricing power is unproven at this scale). The peer read is hostile: Seagate and WD both beat-and-raised in October and both fell 5–7% after hours. The inventory build (appendix) is the quality question the call must answer. No CFO transition, litigation or regulatory overhang was found in this pass.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 8/10** — consensus sits at the guide midpoint, estimates flat for 30 days, 4-for-4 beats with the last two by +7% and +22%, billings +36% and RPO +14% into the quarter.
+- **Guide-risk: 8/10 (HIGH IS BAD)** — the highest in this batch: FY consensus \$10.05 / \$8.23B is *above* the guide top, so a reaffirmation is a miss; Q3 consensus \$2.42 / \$2.01B must be met while gross margin steps down; and the last \$650m raise bought only +3%, so the market has stopped rewarding raises.
+- **Priced-in: 4/10 (HIGH IS BAD)** — low on price: −19–22% in a month, 29% off the high, forward P/E below its own range, implied move (5.1%) *below* the name's own average absolute move (6.7%). The price has corrected; the *expectation* (a raise already in consensus) has not.
+- **Verdict:** A probable beat on a stock that has already sold off — but the trade is the guide, and the guide must deliver a raise the company has not yet promised to merely match what the Street already carries.
 
 ### 10. Plan A or Plan B?
-- **Plan B — wait for the number.** What would have to be true for A: Q3 subscription growth ≥16% with a third consecutive FY27 raise of ≥$30m revenue / ≥$0.15 EPS *and* no new AI-disruption discount in the call — i.e. a repeat of the Q2 print, not the Q1 one. With a 9.1% average absolute move and a 30x+ multiple, holding through the print is paying full price for a coin flip.
+
+**Plan B — wait for the number.** For A: Q2 revenue beats the \$2.10B guide midpoint by the usual margin *and* the FY2027 guide is raised to at least \$8.23B / \$10.05 (i.e. to consensus, not merely reaffirmed) *and* the Q3 guide comes in at or above \$2.42 / \$2.01B without a further gross-margin step-down. A beat alone is not enough — Q1 proved that (+3% on a +22% surprise with a \$650m raise).
 
 ---
+
+## VEEV — Veeva Systems (NYSE: VEEV)
+
+### 1. The date, confirmed
+
+**CONFIRMED — Thursday 2026-12-03, after the close (AMC).** Company press release via PR Newswire, 2026-11-12, re-verified today: "Veeva Systems (NYSE: VEEV) will announce financial results for its third quarter ending October 31, 2026 after market close on December 3, 2026" with a call/webcast at 2:00 p.m. PT. Source: Veeva IR / PR Newswire (also MarketChameleon: "reports earnings next on December 3, 2026, after the market closes (confirmed)"). This matches the screen date exactly and matches yesterday's dossier. No move. Note: several aggregators still show a stale estimated date of 2026-11-25 (MarketBeat) — that is their model date, not the company's; the company-confirmed date is 2026-12-03.
+
+### 2. The bar
+
+| Metric | Consensus | Source / as-of |
+|---|---|---|
+| Q3 FY2027 non-GAAP EPS | \$2.33 | Zacks, 2026-11-17/18 |
+| Q3 FY2027 non-GAAP EPS | \$2.34 | TipRanks / StockInvest / CoinCodex / Tradytics, as of 2026-11-19/20 |
+| Q3 FY2027 revenue | \$933.79 million | Zacks, 2026-11-17/18 |
+| Q3 FY2027 revenue | \$935.22 million | MarketBeat / StockInvest |
+| Year-ago Q3 FY2026 | EPS \$2.04, revenue \$811.24m | Company / Zacks |
+| Implied growth (Zacks) | EPS +14.2%, revenue +15.1% | Zacks |
+
+Company's own Q3 guide (given 2026-08-26, unchanged since): total revenue \$932–\$935m, subscription revenue ~\$782m, services revenue \$150–\$153m, non-GAAP operating income \$417–\$420m, non-GAAP EPS \$2.33–\$2.34. Consensus (\$2.33–2.34 / \$933.8–935.2m) sits *exactly* on the guide — there is no daylight between the Street and management, as yesterday. Full-year Zacks consensus: EPS \$9.22, revenue \$3.69B (vs company guide \$9.21 / \$3.682–\$3.687B).
+
+Revisions: Zacks (2026-11-17, re-confirmed 2026-11-19): "Over the last 30 days, the Zacks Consensus EPS estimate has remained unchanged" — FY2027 EPS stable at \$9.22. No whisper number was found in this pass — not found, same as yesterday.
+
+### 3. The last four prints
+
+| Quarter | Reported | Consensus EPS | Revenue vs consensus | Guide given | Next-session reaction |
+|---|---|---|---|---|---|
+| Q2 FY2027, 2026-08-26 | Non-GAAP EPS \$2.35 (GAAP \$1.66), rev \$928.0m | \$2.22–2.23, beat +5.4% | \$928.0m vs \$905.4m, beat +2.5% | Raised FY27: rev \$3.682–\$3.687B, EPS ~\$9.21; Q3 guide \$932–935m / \$2.33–2.34 | +15% (screen; TipRanks +15.20%, \$244.91 → \$282.13; Public.com +11.58% on a different window) |
+| Q1 FY2027, 2026-06-03 | Non-GAAP EPS \$2.24 (GAAP \$1.57), rev \$882.9m | \$2.14, beat +4.7% | \$882.9m vs \$857.7m, beat +2.9% | Raised FY27: rev \$3.635–\$3.645B, EPS ~\$9.05 | −2% (screen; TipRanks −0.07%, \$178.72 → \$178.60) |
+| Q4 FY2026, 2026-03-04 | Non-GAAP EPS \$2.06 (GAAP \$1.45), rev \$836.0m | \$1.94, beat +6.2% | \$836.0m vs ~\$810.7m, beat +3.1% | Raised FY27 initial: rev \$3.585–\$3.600B, EPS ~\$8.85; Q1 guide \$855–858m / \$2.13–2.14 | +4% (screen; TipRanks +4.02%, \$188.48 → \$196.06) |
+| Q3 FY2026, 2025-11-20 | Non-GAAP EPS \$2.04 (GAAP \$1.40), rev \$811.2m | \$1.95, beat +4.6% | \$811.2m vs \$792.4m, beat +2.4% | Raised FY26: rev \$3.166–\$3.169B, EPS \$7.93; Q4 guide \$807–810m / ~\$1.92 | −10% (screen; Public.com −8.52%, \$273.00 → \$249.75) |
+
+Pattern unchanged from yesterday: beats 4 of 4 with remarkably consistent magnitude (+4.6% to +6.2% EPS surprise, +2.4% to +3.1% revenue surprise) — and reactions that swing violently: +15%, −2%, +4%, −10%. The reaction is driven by the guide and the Vault CRM narrative, not by the beat, which is almost a constant. Screen reaction_avg_move +4.3%, reaction_avg_abs_move 9.1% — the largest average absolute move in this batch.
+
+### 4. Revenue and margin trend
+
+| Quarter | Revenue | YoY | Non-GAAP operating margin |
+|---|---|---|---|
+| Q3 FY2026 | \$811.24m | +16.0% | ~45% (\$365m non-GAAP op. income) |
+| Q4 FY2026 | \$835.95m | +16.0% | ~44–45% |
+| Q1 FY2027 | \$882.95m | +16.3% | 45% (\$395.4m) |
+| Q2 FY2027 | \$927.96m | +17.6% | 45% (\$415.9m) |
+
+Top line is *accelerating modestly* (+16.0% → +16.3% → +17.6%) with subscription revenue +16% in Q2 (\$766.8m). Margins are flat at a very high ~45% non-GAAP — operating leverage is not expanding further. Q3 guide (\$932–935m, +15.1% YoY at midpoint) implies a *deceleration* from Q2's +17.6% — the guide itself is the deceleration, which is why the print is judged on whether Veeva beats the guide by its usual \$20m-plus margin (Q1 beat guide by \$25–28m; Q2 beat guide on all metrics). No new quarterly figures have been reported since yesterday's dossier; the trend table is re-verified against StockAnalysis / company filings as of today.
+
+### 5. THE GUIDE
+
+(a) **Does it guide?** Yes, granularly: next quarter (total revenue, subscription revenue, services revenue, non-GAAP operating income, non-GAAP EPS) and full year (total revenue, subscription revenue, non-GAAP operating income ~\$1.64B, non-GAAP EPS ~\$9.21). It does *not* give GAAP operating income or GAAP EPS guidance, citing stock-based compensation unpredictability — a standing limitation, not a new one.
+
+(b) **Forward bar — now published, not just implied.** Next quarter Q4 FY2027 consensus (Zacks detailed estimates, updated 2026-11-18, re-verified today): EPS **\$2.29**, revenue **\$940.75m** (range \$939.0–944.4m). Full-year FY2027 consensus (Zacks): EPS **\$9.22**, revenue **\$3.69B**; FY2028 consensus: EPS \$10.16, revenue \$4.13B. This confirms yesterday's implied Q4 (~\$940m / ~\$2.29) almost exactly — the Q4 guide will be judged against \$2.29 / \$940.75m, a modest sequential step-up from Q3 that requires no acceleration (+12.5% YoY vs Q4 FY2026 \$836m on revenue; +11.2% EPS growth vs Q4 FY2026 \$2.06).
+
+(c) **Does the run-rate support that forward number?** Yes, comfortably for Q4: Q2 revenue \$928m growing 17.6% with 45% margins supports a Q4 at ~\$941m without heroics. The risk is not Q4 arithmetic but the *growth rate*: the FY27 guide implies ~15% full-year growth, and the Investor Day 2030 plan (\$6B run rate by end of calendar 2030, from ~\$3.71B today) requires only ~11% CAGR — i.e. management's own long-term plan implies growth *slowing* from today's 15–17% to ~11%. A Q4 guide that merely hits the published ~\$941m confirms the deceleration; the market has to decide whether to pay ~26–28x forward earnings for a decelerating grower. For FY2028, consensus \$10.16 EPS / \$4.13B revenue implies +10.2% EPS and +11.9% revenue growth — already the decelerated rate, so the FY2028 guide (given in March 2027, not at this print) is where that debate lands.
+
+(d) **Guide history, last 8 quarters.** Raised every quarter in the last four: Q3 FY2026 (Nov 2025) raised FY26 to \$3.166–\$3.169B / \$7.93; Q4 FY2026 (Mar 2026) set FY27 at \$3.585–\$3.600B / ~\$8.85; Q1 FY2027 (Jun 2026) raised FY27 to \$3.635–\$3.645B / ~\$9.05 (+\$0.20 EPS); Q2 FY2027 (Aug 2026) raised FY27 again to \$3.682–\$3.687B / ~\$9.21 (+\$42m revenue at the high end, +\$0.16 EPS). A serial raiser with a consistent beat-the-guide-by-\$25m habit. The reactions show the market does not reward the raise mechanically (+15% once, −10% once on similar scripts) — the differentiator in Q2 was the Vault CRM acceleration narrative, not the size of the raise.
+
+(e) **Has the guide already been raised between quarters?** Yes — effectively, and this is unchanged since yesterday. At the Investor Day on 2026-11-05, CFO Brian Van Wagener said Veeva expects Q3 to **meet or exceed** its guidance on all metrics (8-K, 2026-11-06: Q3 revenue \$932–935m and non-GAAP operating income \$417–420m). That is a soft pre-announcement: it pulls the "beat" forward and leaves the print with less to deliver, since a mere meet is now the floor. The Investor Day also reaffirmed the \$6B 2030 revenue run-rate target, raised TAM to \$30B (from \$20B) largely on industry-specific AI, and disclosed Vault CRM progress: 200+ customers live, 14 of the top 20 committed, ~halfway through migration, completion not until end of 2029. New items with no financial targets: Falcon agents (live at only a few customers), Vault AI (priced at 10% of Vault subscription), Aspen CRM outside life sciences. The 2030 goal explicitly *excludes* all three — so the print cannot disappoint on AI revenue that was never guided, but it also cannot surprise positively on AI revenue that does not yet exist in any filing. No further raise, pre-announcement or analyst-day remark has appeared since 2026-11-05 in this pass.
+
+**Rest of the quarter — segments, peers.** Subscription \$766.8m (+16%) vs services \$161m in Q2; Commercial Solutions subscription \$347.4m, R\&D and Quality Solutions \$392.3m (Q1 split). Vault CRM is the swing factor: 14 of the top 20 committed at Investor Day (12 at Q2); Regeneron selected Vault CRM in Aug 2026, UCB in Nov 2026. IQVIA will run Veeva clinical-operations software on all new studies within seven months (Investor Day). Peer read: Salesforce's Life Sciences Cloud is the obvious alternative for the 6 of the top 20 that have *not* committed to Vault CRM — Salesforce reports 2026-12-02 (estimated) and no Salesforce print in this window was covered in this pass (not found). No new peer print has landed since yesterday.
+
+### 6. How much is priced in
+
+Price \$262.92 (2026-11-19 close), **down 5.15% on the day** (\$277.20 → \$262.92) and down 13.7% over 5 sessions. 52-week high \$325.99 (2026-10-22), low \$148.05 (2026-04-10) — **19.4% below the high** (11% below at yesterday's screen price of \$288.41; the sell-off has accelerated since yesterday's dossier). Moves (Finnhub): 1 month −17.5% (screen ret_21d −18.0%), 5 sessions −13.7%, 6 months +59.4%, YTD +17.8%, 1 year −2.8%. The stock has given back a large part of the post-Q2 +15% gap and the October run to \$326 in the last month, *before* the print — the market is de-risking into it, not chasing it. Forward P/E: screen 25.6; MarketBeat 35.23 on a different FY basis; Trefis FY2027 P/E 29.2 (as of 2026-11-18/19). Use the screen's 25.6 for panel comparability and note the vendor spread. A 3–5 year forward-P/E range was not found in this pass — not found. Options-implied move: **±7.5%** (ApexVol, as of 2026-11-19, implied range \$256–\$298), vs average move over the last 12 reports of 7.9%. Against the screen's realized proxy (reaction_avg_abs_move 9.1%), the implied move is **smaller** — the options market is pricing *less* than the name's own recent average absolute move. Yesterday's figure was ±6.9% (ApexVol, 2026-11-18); the implied move has *risen* to 7.5% as the stock fell, but it remains below the 9.1% realized average. Crowding: not crowded on the tape — down 18% in a month into the print, with the Investor Day "meet or exceed" already public. The crowded part is the *narrative*: Vault CRM + AI TAM expansion at ~26–29x forward earnings.
+
+### 7. Moat / AI-irreplaceability — score 8/10
+
+Veeva is the system of record for life-sciences R\&D, quality and commercial: Vault is embedded in regulated workflows (clinical, regulatory, safety, quality) where switching means re-validating processes with the FDA/EMA in the loop, and the data model is industry-specific in a way generic CRM/ERP cannot replicate without years of work. 14 of the top 20 pharma are committed to Vault CRM; the migration runs to 2029, which is itself a multi-year revenue lock-in. AI is a tailwind here, not a threat: Vault AI and Falcon are Veeva's own products, priced at 10% of subscription, and the TAM expansion to \$30B is *because* of industry-specific AI. What caps the score: Salesforce remains the credible alternative for the uncommitted 6 of the top 20; the CRM migration is only halfway done, so execution risk persists for three more years; and services growth (which flatters the top line) is lower-margin and lumpier than subscription. If it gaps down 15% and I hold 18 months: an opportunity — a 15–17% grower with 45% non-GAAP margins and a large cash pile, at a price that would then be ~22x forward earnings, is a hold-through-the-pain name, not a disaster — provided Vault CRM commitments do not start reversing. Unchanged from yesterday; the intervening −9% price move only improves the entry, it does not change the moat.
+
+### 8. Risks specific to THIS print
+
+The Investor Day "meet or exceed" remark removes the surprise: a print that merely meets the \$932–935m guide after that remark will read as a soft guide, and a Q4 guide at the published ~\$941m / \$2.29 confirms deceleration to ~13–15%; the −10% reaction to the Q3 FY2026 beat-and-raise shows this name punishes prints that do not *accelerate* the narrative; Vault CRM: any slowdown in new commitments (stuck at 14 of 20) or a large customer delaying migration would hit the multi-year story, not just the quarter; AI revenue is zero in filings — any hint that Falcon/Vault AI monetisation is further out than hoped could deflate the TAM story; momentum is now sharply negative (−13.7% in five sessions, −5.15% on 2026-11-19 alone), so a weak guide could cascade — but equally, the sell-off means a clean beat-and-raise has more room to run than it did yesterday.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 8/10** — consensus equals guidance, management has already said "meet or exceed", Q1/Q2 beat guide by \$25m+, and the beat pattern is the most consistent in the batch.
+- **Guide-risk: 6/10 (HIGH IS BAD)** — moderate: the Q4 published bar (~\$941m / ~\$2.29) is undemanding and the run-rate supports it, but the *growth-rate* guide is where the risk sits — a Q4 guide that confirms deceleration, or a FY27 guide that is merely reaffirmed after the Investor Day, would be read as a de facto cut at ~26x forward earnings.
+- **Priced-in: 4/10 (HIGH IS BAD)** — down from 5/10 yesterday: down 18% in a month and 13.7% in five sessions, 19% below the high, implied move (7.5%) *below* the name's own average absolute move (9.1%), and the beat is already half-announced.
+- **Verdict:** The best risk/reward hold-through candidate in this batch — a highly probable beat, a soft Q4 bar, and a stock that has already sold off hard into the print — but only because the *expectation* has been reset lower, not because the guide is safe.
+
+### 10. Plan A or Plan B?
+
+**Plan A — a case exists for holding through, narrowly (unchanged from yesterday, strengthened by the sell-off).** For A: Q3 revenue beats the \$932–935m guide by the usual \$20m+ *and* the Q4 guide comes in above the published ~\$941m / ~\$2.29 *and* Vault CRM commitments move above 14 of the top 20 (or a new top-20 name is named). If the print is merely a meet of guide with a Q4 guide at the published level, it reverts to Plan B — the +15% last print shows the upside when all three land, the −10% print shows the downside when they do not.
+
+---
+
+## Cross-name summary
+
+| Ticker | Date / timing | Consensus EPS / revenue | Beat likelihood | Guide risk (bad=high) | Priced-in (bad=high) | Plan |
+|---|---|---|---|---|---|---|
+| NTAP | 2026-12-01 AMC, CONFIRMED | \$2.60 / \$2.11B | 8 | 8 | 4 | B |
+| VEEV | 2026-12-03 AMC, CONFIRMED | \$2.33–2.34 / \$934m | 8 | 6 | 4 | A (conditional) |
+
+Both dates are company-confirmed, so the load-bearing fact holds for the whole batch. The common thread: in both, consensus sits at the midpoint of management's own guide, so the *beat* is the expected outcome and the *guide* is the trade. NTAP is the sharper version of that — its FY consensus already sits above its guide top, so it must raise to merely meet the Street. VEEV is the only one where the price has already corrected hard into the print and the implied move is below its own history, which is why it is the only conditional Plan A.
+
+## Earnings-quality flags appendix
+
+- **NTAP — INVENTORY_BUILD (inv_rev_divergence 1.52): Benign on the stated reason, but the cash-flow cost is real — watch Q2, do not dismiss it.** Inventories rose to \$375m at 2026-07-31 from \$198m at 2026-04-24 (+89% in one quarter; the Q4 call also noted inventories expanding YoY and QoQ with turns falling to 12, and the Q1 call noted turns falling further to 6). The cash-flow statement shows the cost plainly: a \$176m inventory drag in Q1, operating cash flow \$503m (−25% YoY) and free cash flow \$401m (−35% YoY, FCF margin 19.8% vs 39.8% a year ago) even as net income rose 61% to \$375m. Management's stated reason is explicit and repeated: inventory was expanded "to support growing demand and manage silicon supply" / "as we manage supply and inventory levels to support growing demand", alongside price increases for component costs. The demand backdrop supports that story — billings +36% YoY to \$2.06B, RPO +14% to \$5.65B, deferred revenue +7% to \$4.85B, all-flash +47% — and receivables *fell* to \$966m from \$1,286m at year-end, so this is not a receivables build-up. **Verdict: explainable as a deliberate pre-build for AI-driven demand and silicon security, not a value-trap signature on current evidence — but the Q2 print must show inventory stabilising and FCF recovering; a second quarter of inventory growth without a matching billings step-up would flip this to a real flag.**
+- **VEEV — no earnings-quality flags (accrual_ratio −0.076, CFO/NI 1.64):** No flag to explain. Cash conversion is clean (Q1 FY2027 non-GAAP operating cash flow \$1.131B in the quarter; cash and short-term investments ~\$7.3B at 2026-04-30) and earnings are backed by cash. **Verdict: clean.**
+
+## Sources and gaps
+
+Primary: NetApp Q2 FY2027 results-webcast announcement 2026-11-10 (Business Wire / NetApp IR); NetApp Q1 FY2027 press release 2026-09-02, Q4 FY2026 press release 2026-05-28, Q3 FY2026 press release 2026-02-26, Q2 FY2026 press release 2025-11-25; Veeva Q3 FY2027 results announcement 2026-11-12 (PR Newswire / Veeva IR), Q2 FY2027 press release 2026-08-26, Investor Day 8-K 2026-11-06. Consensus: Zacks (NTAP detailed estimates 2026-11-03 and 2026-11-17/18; VEEV 2026-11-17/18), MarketBeat, TipRanks, Finnhub. Reactions: TipRanks earnings-related price changes (NTAP, VEEV), Public.com. Peers: Seagate fiscal Q1 2027 (2026-10-27) and Western Digital fiscal Q1 2027 (2026-10-22). Options: Arbtrage NTAP (earnings-specific ±5.1%), ApexVol VEEV (±7.5%, 2026-11-19) and Barchart NTAP (8-day move, not earnings-specific).
+
+Not found (stated, not fabricated): NTAP and VEEV whisper numbers; NTAP Q3 FY2026 and Q2 FY2026 non-GAAP operating margins as published figures; a 3–5 year forward-P/E range for either name; a direct Salesforce print in this window (reports 2026-12-02 estimated); NTAP Q2 FY2026 guide history beyond the FY26 range cited; an earnings-specific NTAP implied move from ApexVol (the Arbtrage figure is used instead, with its history table flagged as inconsistent with TipRanks/screen and therefore not relied on for reactions).
+
+
+---
+
+# Research batch 3 — CTAS / PAYX / AZO — run 2026-11-20
+
+# Research batch 3 — CTAS / PAYX / AZO — run 2026-11-20
+
+As-of: 2026-11-20. Prices are the screen's 2026-11-19 closes unless a later close is cited (CTAS \$218.92, PAYX \$111.40, AZO \$3,277.44). This batch re-researches the same three names as yesterday's run (2026-11-19); no new earnings print has occurred since yesterday, so the last-four-prints tables are unchanged in substance and were re-checked against sources dated 2026-11-18 to 2026-11-20 where cited below. Where two aggregators disagree on a consensus figure, both are shown and the preferred figure is named — do not silently average them. "Not found" means a web search on 2026-11-20 did not surface a citable figure — it is not a zero. All consensus EPS figures below are adjusted / non-GAAP diluted EPS unless stated otherwise.
+
+Screen context (shortlist_2026-11-20.json, generated 2026-11-20 09:21:06): CTAS 4/4 beats, surprise avg +1.07% (trend +0.44), rev yoy +10.9%, rev_accel +3.6pp, beat_up_rate 0.625, reaction_avg_move +0.1%, reaction_avg_abs_move 4.7%, reaction_worst −10.6%, reaction_last4 `−3%, +7%, −5%, +1%`, ret_21d −0.3%, forward PE 35.5, mean target \$218.44. PAYX 4/4 beats, surprise avg +1.80% (trend −1.11), rev yoy +5.9%, rev_accel −3.9pp, beat_up_rate 0.571, reaction_avg_move −1.4%, reaction_avg_abs_move 4.1%, reaction_worst −9.4%, reaction_last4 `−9%, −2%, +3%, +2%`, ret_21d +0.0%, forward PE 17.4, mean target \$114.57. AZO 3/4 beats, surprise avg +1.34% (trend +6.6), rev yoy +5.6%, rev_accel −0.0pp, beat_up_rate 0.333 **on only 3 measured beats — the screen's own note says "only 3 measured beat(s) — rate is not judgeable", so the 0.333 rate is NOT judgeable and is not treated as a rate below**, reaction_avg_move −2.3%, reaction_avg_abs_move 4.2%, reaction_worst −9.0%, reaction_last4 `+3%, −9%, −6%, −7%`, ret_21d +3.8%, forward PE 17.1, mean target \$3,656.63.
+
+## CTAS — Cintas Corporation (NASDAQ: CTAS)
+
+### 1. The date, confirmed
+
+**ESTIMATED — Thu 2026-12-17, before the open (BMO).** No company confirmation found as of 2026-11-20 — unchanged from yesterday. MarketBeat (updated 2026-11-19) still lists "Next Earnings (Estimated), 12/17/2026" and, in its compare table, "12/17/2026 (Estimated)"; WallStreetZen (updated 1 day ago) lists "The next CTAS earnings date is Dec 17, 2026" with EPS estimate \$1.36. Zacks likewise labels it an estimated date. The pattern fits: Q2 FY2026 was reported 2025-12-18 BMO and Q1 FY2027 on 2026-09-23 BMO, and a search of cintas.com IR / newsroom on 2026-11-20 surfaced no Q2 FY2027 webcast announcement (the newsroom still shows the Dec 4, 2025 webcast notice for the prior-year quarter). Treat Dec 17 as high-probability but unconfirmed — re-verify against cintas.com IR in early December before any hold-through decision. One outlier: FXEmpire lists Dec 16, 2026 — discounted against the MarketBeat / Zacks / WallStreetZen consensus for Dec 17.
+
+### 2. The bar
+
+Quarter being reported: Q2 FY2027 (quarter ending Nov 2026).
+
+| Source (as of 2026-11-18/19) | Consensus EPS | Consensus revenue |
+| --- | --- | --- |
+| Zacks, updated 2026-11-18 14:22 ET | \$1.36 (+12.4% y/y) | \$3.02B |
+| MarketBeat (2026-11-19) | \$1.37 | \$3.03B |
+| WallStreetZen (updated 2026-11-19) | \$1.36 | not stated |
+| FXEmpire (outlier) | \$1.39 | \$3.09B |
+
+Take the bar as **EPS \$1.36–1.37, revenue \$3.02–3.03B**. Prior-year Q2 FY2026 EPS was \$1.21 (GAAP), so the bar is roughly +12–13% EPS growth on ~+8% revenue growth (prior-year Q2 revenue \$2.80B). No whisper number found. No 30-day estimate-revision trend found in this pass; the last material estimate event was the Sep 23 guide raise (see §5). Note the consensus spread is only \$0.01 between Zacks and MarketBeat, so a \$1.36 print is a coin-flip beat/miss depending on the vendor — and the FXEmpire \$1.39 would turn that same print into a miss, which is why the vendor matters here.
+
+### 3. The last four prints
+
+| Print | EPS reported vs consensus | Revenue vs consensus | Guide | Next-session reaction |
+| --- | --- | --- | --- | --- |
+| Q1 FY27, 2026-09-23 | Adj. \$1.39 vs \$1.35 (+3.0%); GAAP \$1.36 | \$3.01B vs ~\$2.98B, beat; +10.9% y/y | FY27 revenue and adj. EPS guidance RAISED (see §5) | **−3.4%** (close \$198.80 on Sep 22 → \$191.97 on Sep 23, Finnhub candles; Substack review also reports −3.4%) |
+| Q4 FY26, 2026-07-15 | Adj. \$1.29 vs ~\$1.26 (+2.9%, Finnhub) | \$2.91B vs \$2.93B, slight miss | Initial FY27 guide set: rev \$12.10–12.25B, adj. EPS \$5.36–5.50 | Screen-recorded reaction series implies +7% (not independently re-verified print by print) |
+| Q3 FY26, 2026-03-25 | \$1.24 vs \$1.26 (−1.8%, Finnhub) | \$2.84B vs \$2.88B, miss | Reaffirmed (no raise reported) | Screen-recorded reaction series implies −5% |
+| Q2 FY26, 2025-12-18 | \$1.21 vs \$1.22 (−0.9%, Finnhub) | \$2.80B vs \$2.82B, slight miss | Reaffirmed | Screen-recorded reaction series implies +1% |
+
+Pattern: **beats do not reliably pay** — the two most recent beats produced −3% and the Q3 miss produced −5%; only the Q4 print (a small EPS beat plus a fresh FY guide) produced a strong up day. The screen's `reaction_last4` (−3%, +7%, −5%, +1%, most recent first) matches the independently verified −3.4% for Sep 23.
+
+### 4. Revenue and margin trend
+
+| Quarter | Revenue | y/y growth | Operating margin |
+| --- | --- | --- | --- |
+| Q1 FY26 (Sep 2025) | \$2.72B | ~+9% | ~22.7% |
+| Q2 FY26 (Dec 2025) | \$2.80B | ~+9% | not separately cited |
+| Q3 FY26 (Mar 2026) | \$2.84B | ~+9% | not separately cited |
+| Q4 FY26 (Jul 2026) | \$2.91B | ~+9% | not separately cited |
+| Q1 FY27 (Sep 23, 2026) | \$3.01B | **+10.9%** (organic +8.9%) | **23.6%**, up from 22.7% a year ago; operating income +15.2% to \$711.9M; gross margin +120bp |
+
+Top line is **accelerating into the print**: 10.9% in Q1 FY27 is the fastest in this window and the first \$3B quarter, with organic growth 8.9%. Margins are expanding, not compressing. Screen: rev_yoy 10.9%, rev_accel +3.6pp — consistent.
+
+### 5. THE GUIDE
+
+(a) **Does it guide?** Yes — full-year, both lines, every quarter. FY27 revenue and adjusted diluted EPS, plus workday, net interest expense (~\$103–105M) and effective tax rate (~20.4%) assumptions. No quarterly EPS guide is given; the Q2 number must be inferred from the full-year range.
+
+(b) **Consensus for the NEXT quarter and full year.** Next quarter Q3 FY27 (Feb 2027): Zacks consensus EPS **\$1.35**, revenue **\$3.04B** (updated 2026-11-18) — that is the number a Q3 guide will be judged against, and it is barely above the Q2 bar (\$1.36), i.e. the Street expects essentially flat sequential EPS. Full-year FY27: Zacks consensus EPS **\$5.54**, revenue **\$12.23B** (updated 2026-11-18); MarketBeat FY27 EPS ~\$5.53. Company guidance (raised Sep 23): revenue \$12.15–12.27B, adj. EPS \$5.45–5.54 — consensus sits **at the top of the raised guide** (EPS \$5.54 = guide top; revenue \$12.23B vs guide midpoint \$12.21B). Next year FY28: Zacks EPS \$6.14, revenue \$13.15B.
+
+(c) **Does the run-rate support the forward number?** Yes, broadly. Q1 FY27 adj. EPS \$1.39 is 25% of the full-year guide midpoint (\$5.50) in a quarter that is seasonally the smallest; Q1 revenue \$3.01B annualises to ~\$12.05B before any growth, and the guide implies only ~7.9–8.9% full-year revenue growth versus 10.9% just printed — the guide looks **beatable on revenue** if Q1's pace holds. The risk is the opposite of the usual one: the bar is the *raised* guide, and the market will ask for another raise, not merely a hold. The Q3 consensus (\$1.35) is undemanding against that run-rate — a Q3 guide at or above \$1.35 requires no acceleration.
+
+(d) **Guide history, last 8 quarters.** Only the last two guide events are documented in sources retrieved: Q4 FY26 (Jul 2026) — initial FY27 guide set (rev \$12.10–12.25B, adj. EPS \$5.36–5.50); Q1 FY27 (Sep 23, 2026) — **raised both lines** (rev to \$12.15–12.27B, adj. EPS to \$5.45–5.54), stock −3.4% anyway. Earlier guide history (FY26 quarters): **not found** in retrieved sources — do not assume a serial-raiser record beyond these two events, though SureDividend (Oct 17, 2026) notes management's "penchant for under-promising on earnings" and sets its own FY27 EPS estimate at \$5.55, above the guide top.
+
+(e) **Has the guide already been raised between quarters?** Yes — at the Sep 23 print itself (see above). No pre-announcement, conference remark or analyst-day raise since Sep 23 was found. The Sep raise is now ~8 weeks old and is already in consensus (\$5.54 = guide top).
+
+**What else changed this quarter — the UniFirst / FTC overhang, now with conflicting signals inside 48 hours.** The \$5.5B UniFirst acquisition remains the dominant non-earnings mover. New since yesterday: Semafor, 2026-11-19, reported Cintas Chairman Scott Farmer met with President Trump recently to try to salvage the deal, that FTC Chairman Andrew Ferguson "appears inclined to challenge" it, that the President will defer to Ferguson's judgment, and that Cintas has engaged legal counsel and **expects the FTC to file a lawsuit**, while also indicating to some investors it may seek a divestiture package. The same Semafor thread notes the FTC will soon hold a "last rites" meeting with the parties (reported Nov 13, Seeking Alpha) — typically a precursor to a formal suit. Against that, Capitol Forum (via traders, 2026-11-18) reported the companies are "cautiously optimistic" the FTC will clear the combination unconditionally and are planning for integration; the deal spread narrowed to \$89 on Nov 18 from \$100 on Nov 17 (it had widened to \$95–97 on the Nov 13 last-rites report). Net: the two narratives are irreconcilable and both are live within the last 48 hours — the market is pricing a genuine binary, not a settled outcome. Unchanged facts: timing agreement — no close before Dec 11, 2026; \$350M reverse termination fee payable by Cintas if blocked on antitrust grounds; first end date Jan 10, 2027; FTC has not voted and no suit has been filed. The Dec 17 print lands six days after the earliest close date — expect a UniFirst question on every call, and any FTC headline between Dec 11 and Dec 17 will move the stock independently of earnings. Also: dividend \$0.52/qtr, ex-div Nov 13, payable Dec 15 (TradingView weekly recap, Nov 2).
+
+### 6. How much is priced in
+
+- Price \$218.92 (screen, 2026-11-19 close); Finnhub quote snapshot 2026-11-20 09:32 UTC shows the stock trading ~\$221.50 open / \$216.75 low in pre-market, previous close \$222.00 — i.e. it fell ~1.4% on Nov 19 and is soft again this morning. **1-month +0.87%** (Finnhub), 5 sessions −3.67%, 6 months +27.75%, YTD +16.4%, 1 year +19.5%. Screen ret_21d −0.3% — the 1-month gain has evaporated in the last week.
+- Vs 52-week high \$233.46 (Nov 5, 2026): **−6.2% below the high**; vs 52-week low \$161.16 (May 13, 2026): +36% off the low.
+- Forward P/E 35.5 (screen) vs trailing ~43.1 (Finnhub). 3–5 year forward P/E range: **not found** — but 35.5x forward for ~11% EPS growth is optically expensive versus its own history of mid-20s to low-30s forward multiples in 2023–2025 (directional, not a sourced range). Price sits **above** the analyst mean target \$218.44 (screen) — essentially at target.
+- Options-implied move for the Dec 17 print: **not found** — no earnings-specific straddle quote was located in this pass. Screen realised proxy `reaction_avg_abs_move` 4.70%. Without an implied move, assume the market will price roughly the historical ~4–5% — the print must clear ~4.7% to be a "win" on a hold-through basis, and the last four reactions averaged only +0.1% signed.
+- **Crowded?** Moderately. Fresh 52-week high two weeks ago, at mean target, 35.5x forward, and a serial-beat name that fell on its last beat-and-raise: the good news is largely in. The FTC binary adds a second, unrelated crowd: anyone holding through Dec 17 is also holding through a Dec 11–17 antitrust headline window. Not a short-squeeze setup; it is a "prove it again, and raise again" setup with a binary attached.
+
+### 7. Moat / AI-irreplaceability — score 7/10
+
+Uniform rental, facility services, first aid/safety and fire protection are route-based, contract-heavy, and sticky: customers sign multi-year service agreements, switching means re-outfitting an entire workforce and re-routing weekly pickups, and Cintas's scale (largest US uniform-rental network) gives route density no regional rival matches. AI does not replace physical garments, mats, or fire-extinguisher inspection; AI-native competitors cannot route around a truck. What can hurt it: a recession cuts uniformed headcount (its customers' employment is the volume driver), and the UniFirst deal — if blocked — removes the consolidation synergy story. **If it gaps down 15% and I hold 18 months: opportunity, not disaster** — the business compounds at double-digit EPS growth with a 44-year dividend-growth record; the gap would be a valuation event, not a business-break event, unless the guide is cut on demand rather than on deal noise.
+
+### 8. Risks specific to THIS print
+
+- **FTC/UniFirst headline risk Dec 11–17** (see §5) — a binary non-earnings mover days before the print, now with the company itself reportedly expecting a lawsuit while other reports claim cautious optimism on unconditional clearance.
+- **The raise treadmill:** consensus FY27 EPS \$5.54 sits at the top of the raised guide; a mere reaffirmation after Q1's raise reads as a de facto cut.
+- **Workday/mix:** Q2 has the same workdays y/y, so no calendar help; organic growth must do the work.
+- **Tough comp on margin:** Q1's 90bp operating-margin expansion sets a high bar for Q2 incrementals.
+- **Valuation:** 35.5x forward leaves no cushion for a soft guide; the stock has already faded 6.2% from its Nov 5 high.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 7/10** — 4/4 beats on the screen, accelerating revenue, expanding margins, and a guide that looks conservative against Q1's run-rate.
+- **Guide-risk: 7/10 (HIGH IS BAD)** — consensus already sits at the top of the raised guide; the market will demand a second consecutive raise, and the last raise still produced a −3.4% day.
+- **Priced-in: 7/10 (HIGH IS BAD)** — 6.2% below a fresh 52-week high, at mean target, 35.5x forward, plus an unresolved FTC binary in the same week as the print.
+- **Verdict:** A high-quality beat that the market has repeatedly refused to reward — the trade is a guide-raise lottery ticket at a premium price, now with a lawsuit headline attached to the same week.
+
+### 10. Plan A or Plan B?
+
+**Plan B (wait for the number).** For Plan A I would need: a confirmed Dec 17 BMO date from Cintas IR, plus evidence the Q2 guide-raise bar has reset lower (e.g. Street FY27 EPS drifting back toward the \$5.50 midpoint), plus a pullback toward \$205–210 that rebuilds the cushion, plus the FTC question resolved before Dec 11. None of those is true today.
+
+---
+
+## PAYX — Paychex, Inc. (NASDAQ: PAYX)
+
+### 1. The date, confirmed
+
+**ESTIMATED — Fri 2026-12-18, before the open (BMO) — with a one-day discrepancy to flag.** No company confirmation found as of 2026-11-20 — unchanged from yesterday. The majority of sources say Dec 18: Zacks labels 12/18/2026 "an estimated date of earnings release"; MarketBeat (updated 2026-11-19) lists "Next Earnings (Estimated), 12/18/2026"; Fundspec (2026-11-18) lists "scheduled for 18 December 2026 before the open for Q2 2027"; WallStreetZen (updated 9 hours ago) lists "The next PAYX earnings date is Dec 18, 2026" with EPS estimate \$1.30. **But Finnhub's earnings calendar lists Q2 FY2027 (estimated) as 2026-12-17 with EPS \$1.302 and revenue \$1.655B, and TipRanks' options page lists "Next Earnings Date: Dec 17, 2026, TBA"** — the same Dec 17 discrepancy yesterday's dossier noted from TipRanks. Pattern fits Dec 18 (Q2 FY2026 was reported 2025-12-19 BMO; Q1 FY2027 on 2026-09-23 BMO), and the weight of sources is Dec 18, but the Finnhub/TipRanks Dec 17 listing means the date is not settled to the day — re-verify against paychex.com IR before holding through, and do not treat either date as confirmed.
+
+### 2. The bar
+
+Quarter being reported: Q2 FY2027 (quarter ending Nov 2026).
+
+| Source (as of 2026-11-18/19) | Consensus EPS | Consensus revenue |
+| --- | --- | --- |
+| Zacks (detailed estimates, crawled 2026-11-19) | \$1.30 (+3.2% y/y) | \$1.64B |
+| Fundspec (2026-11-18) | \$1.28 | \$1.6B |
+| Finnhub (Q2 FY2027 estimated) | \$1.302 | \$1.655B |
+| MarketBeat (2026-11-19) | ~\$1.31–1.32 (analyst range) | \$1.6B |
+| Nasdaq analyst feed via HoldingsHub (fetched 2026-11-19) | \$1.30 (range \$1.27–1.37, 6 estimates) | not stated |
+
+Take the bar as **EPS ~\$1.28–1.31, revenue ~\$1.64–1.66B**. Prior-year Q2 FY2026 EPS was \$1.26, so the bar is only ~+2–4% EPS growth — a low bar in absolute terms, but Q2 is guided to be the soft quarter (see §5). No whisper number found. Estimate revisions in the last 30 days: **not found** as a directional trend; analyst actions after Sep 23 were mixed (several holds and price-target cuts, one J.P. Morgan upgrade from Underweight to Neutral, per Tickeron, as noted yesterday). Zacks Earnings ESP is +0.77% — essentially no ESP edge.
+
+### 3. The last four prints
+
+| Print | EPS reported vs consensus | Revenue vs consensus | Guide | Next-session reaction |
+| --- | --- | --- | --- | --- |
+| Q1 FY27, 2026-09-23 | Adj. \$1.34 vs \$1.32 (+1.5%); GAAP \$1.21, +14% y/y | \$1.63B vs \$1.63B, essentially in line; +5.9% y/y | Total FY27 rev growth reaffirmed 5–6%; PEO/Insurance raised to 7–8%; Q2 rev guided ~4% | **−8.8%** (ChartRow: "▼ 8.8%"; Clearank: "fell 8.77% in the first session"; Finnhub candles: Sep 22 close ~\$116.14 week-end, Sep 23 close \$104.49) |
+| Q4 FY26, 2026-06-24 | \$1.32 vs \$1.31 (+0.8%) | \$1.61B, +12% y/y (Paycor-inflated) | Initial FY27 guide set (rev +5–6%, adj. EPS +7–9%) | **+1.7%** (ChartRow) |
+| Q3 FY26, 2026-03-25 | \$1.71 vs \$1.68 (+1.8%) | \$1.81B, +20% y/y (Paycor) | Reaffirmed | **+3.0%** (ChartRow) |
+| Q2 FY26, 2025-12-19 | \$1.26 vs \$1.24 (+1.6%) | \$1.56B, +18% y/y (Paycor) | Reaffirmed | **+1.7%** (ChartRow) |
+
+Screen `reaction_last4` is "−9%, −2%, +3%, +2%" (most recent first) — close to the independently sourced −8.8% / +1.7% / +3.0% / +1.7%, with the second print differing (−2% screen vs +1.7% ChartRow; the discrepancy is likely a timing/measurement difference — the Sep print is the one that matters and it is confirmed bad). Pattern: **beats 7 of last 8 quarters, yet 4 of those beats were followed by a down first session** (Clearank) — and the most recent beat produced the worst reaction in the set. This is the textbook "beat and dump" name: the market sells the guide/mix, not the headline.
+
+### 4. Revenue and margin trend
+
+| Quarter | Revenue | y/y growth | Operating margin |
+| --- | --- | --- | --- |
+| Q2 FY26 (Dec 2025) | \$1.56B | +18% (Paycor, closed Apr 2025) | not cited |
+| Q3 FY26 (Mar 2026) | \$1.81B | +20% (Paycor) | not cited |
+| Q4 FY26 (Jun 2026) | \$1.61B | +12% (Paycor) | not cited |
+| Q1 FY27 (Sep 23, 2026) | \$1.63B | **+5.9%** | **38.0%**, up from 35.2% a year ago; operating income \$619.2M, +14%; adj. operating margin 42.0% vs 40.7% |
+
+Top line is **decelerating hard into the print**: +20% → +12% → +5.9%, and the Paycor tailwind is now in the base (FY27 is the first clean comparison year). The deceleration is mechanical (lapping an acquisition), not necessarily demand collapse — but the market is judging the clean number now. Segment split in Q1 FY27: Management Solutions \$1.2B, **+4%** (below the 5–6% full-year target — the disappointment that sank the stock); PEO and Insurance \$367.6M, **+12%**. Margin is the offset: Q1 operating income +14% on +6% revenue shows operating leverage from lapping Paycor costs.
+
+### 5. THE GUIDE
+
+(a) **Does it guide?** Yes — unusually granular. Full-year total revenue growth, Management Solutions growth, PEO and Insurance growth, adjusted operating margin (~44%), adjusted diluted EPS growth, interest on funds held for clients, **and** a next-quarter revenue guide (Q2 ~4%) with a next-quarter adjusted operating margin (~40%). This is the most guide-dense name in the batch — and therefore the most guide-sensitive.
+
+(b) **Consensus for the NEXT quarter and full year.** Next quarter Q3 FY27 (Feb 2027): Zacks consensus EPS **\$1.87**, revenue **\$1.91B** (6 estimates; most-recent consensus \$1.84) — that is the number a Q3 guide will be judged against. Note the seasonality: Q3 is the seasonally strongest quarter (Q3 FY26 EPS was \$1.71), so \$1.87 implies +9.4% y/y growth per Zacks. Full-year FY27: Zacks consensus EPS **\$5.96**, revenue **\$6.86B** (7 estimates; most-recent consensus \$5.94); MarketBeat analyst range \$5.85–5.96, average \$5.91. Company guide: adj. EPS growth 7–9% off FY26 adj. EPS \$5.51, i.e. ~\$5.90–6.01 — the Street's \$5.91–5.96 sits inside the guide. Q2 guide (given Sep 23): revenue growth ~**4%**, adj. operating margin ~**40%** — that 4% is the number the Dec 18 print will be judged against first. Next year FY28: Zacks EPS \$6.33, revenue \$7.24B.
+
+(c) **Does the run-rate support the forward number?** **Barely, and only via mix.** Q1 total growth 5.9% sits inside the 5–6% full-year range, but the composition is wrong: the big segment (Management Solutions, ~75% of revenue) grew 4%, below target, while the small PEO segment grew 12%. Q2 is guided to ~4% total growth — a further deceleration — explicitly because Q2 FY26 contained one-time revenue synergies and portfolio gains. The full-year 5–6% therefore requires a **second-half re-acceleration** that the business has not shown in the last two clean quarters. The Q3 consensus (\$1.87 EPS / \$1.91B revenue) is the arithmetic of that re-acceleration: Q3 FY26 revenue was \$1.81B, so \$1.91B is only +5.5% — achievable on revenue, but the EPS bar (+9.4%) needs the margin leverage to hold. The margin side supports the EPS guide better: Q1 operating income +14% on +6% revenue.
+
+(d) **Guide history, last 8 quarters.** Documented events only: Q4 FY26 (Jun 2026) — initial FY27 guide set; Q1 FY27 (Sep 23, 2026) — **total revenue and adj. EPS reaffirmed; PEO/Insurance raised 6–7% → 7–8%; interest on funds raised \$195–205M → \$200–210M**. So the last print was a *partial raise, headline reaffirm* — and the stock fell 8.8%. Earlier FY26 guide history: **not found** in retrieved sources. The lesson of Sep 23 stands on its own: reaffirming the full-year guide after a soft core quarter is punished.
+
+(e) **Has the guide already been raised between quarters?** No — no pre-announcement, conference remark or analyst-day raise since Sep 23 was found. The two small raises (PEO, interest on funds) were delivered *at* the Sep 23 print and are already in the price.
+
+**What else changed this quarter — peer read (ADP, fresh and supportive on the surface).** **ADP reported Q1 FY2027 on Oct 28, 2026: revenue \$5.49B, +6% y/y; adjusted diluted EPS \$2.82, +13%; Employer Services revenue \$3.69B, +6%; PEO Services \$1.81B, +7%; U.S. pays per control +2%; and it RAISED FY27 guidance — revenue to ~6% (from 5–6%), adjusted EPS to +10–12% (from 9–11%), client-funds interest to \$1.59–1.61B.** ADP's October National Employment Report showed private-sector employment +86,000 jobs in October (ADP, Nov 4). That is a mildly supportive peer read for Paychex's volume: the HCM market is growing ~6% and employment is not contracting. But it cuts both ways: ADP raised its guide on the same 6% growth Paychex was punished for reaffirming on — the difference is ADP's core grew 6% while Paychex's core (Management Solutions) grew 4%. The peer print validates demand; it does not validate Paychex's mix. Also: **WISE Hire**, an AI-native agentic recruiting product, launched Sep 23, 2026 alongside the print — management framed it as an AI deployment story; no revenue attached yet, treat as narrative only. Macro: management's FY27 outlook assumes "stable demand and flat employment levels" — any softening in SMB employment hits Management Solutions directly. Health-care renewal uncertainty was flagged on the Sep 23 call. Dividend payable Nov 25, 2026 (MarketBeat).
+
+### 6. How much is priced in
+
+- Price \$111.40 (screen, 2026-11-19 close, −2.0% on the day — Tradestie notes the stock fell 2.0% on Nov 19 in line with the broad market, SPY −1.96%); Finnhub snapshot 2026-11-20 09:30 UTC shows pre-market ~\$112.59 open. **1-month −1.08%** (Finnhub), 5 sessions −3.44%, 6 months +17.36%, YTD −0.7%, 1 year +2.71%. Screen ret_21d +0.0%. The Sep recovery has stalled: from ~\$98.50 on Sep 30 (post-earnings low) to \$111.40 is still +13% off the trough, but the stock is fading again into the print.
+- Vs 52-week high \$127.98 (Sep 1, 2026): **−13.0% below the high**; vs 52-week low \$85.45 (Apr 10, 2026): +30% off the low. YTD only −0.7% — the stock has gone nowhere in 2026 despite the recovery.
+- Forward P/E 17.4 (screen) vs trailing 22.5 (Finnhub). 3–5 year forward P/E range: **not found** — directionally, 17.4x forward is the cheapest in this batch and low for PAYX's own history of ~20–25x forward in 2023–2025 (directional, not a sourced range). Short interest 19.9M shares at Oct 30 settlement, 6.6 days to cover — elevated, worth noting. Options flow on Nov 19 was heavily put-skewed (Tradestie: 92% of volume in puts, P/C 2.82, chain average IV 41.1%) — that is one day's flow, not a verdict, but it is bearish positioning into the print.
+- Options-implied move for the Dec 18 print: **not found as an earnings-specific straddle.** IntraAlpha lists an "implied move ±\$3.41" (~3.1% on \$111.40) with no expiry attribution — it is not labelled as the Dec 18 earnings straddle and must not be used as one. Screen realised proxy `reaction_avg_abs_move` 4.13%. The Sep print moved −8.8%, more than double the average — realised volatility around PAYX prints is fat-tailed to the downside.
+- **Crowded?** No — the opposite. The Sep selloff washed out weak holders; the stock is 13% below its high, cheap on forward earnings, and expectations are low. But "not crowded" is not the same as "cheap for a reason that has cleared": the reason (decelerating core growth) is still the story of the coming print.
+
+### 7. Moat / AI-irreplaceability — score 6/10
+
+Payroll/HCM for SMBs is sticky (switching payroll providers mid-year is painful, tax filings and benefits administration create lock-in) and Paychex has 50+ years of brand and a large SMB base. But the moat is thinner than CTAS's: payroll is increasingly software, not trucks; AI-native entrants (Rippling, Gusto, Deel) and ADP compete directly on the same workflow, and WISE Hire is Paychex's own admission that agentic AI is now part of the product — the disruptor's tool is also the incumbent's defence. ADP's Oct 28 call is a reminder of the AI race: ADP Assist added 100,000 clients since fiscal year-end and its AI-infused platform ("The Zone") now covers 60% of the service population, with service contacts per client down 7% y/y. PEO (co-employment) is stickier than pure software payroll. **If it gaps down 15% and I hold 18 months: a survivable hold, not an opportunity to celebrate** — the dividend and the PEO growth support it, but a structural share loss to AI-native HCM would make the recovery slow.
+
+### 8. Risks specific to THIS print
+
+- **The Q2 guide is already soft (~4% revenue growth)** — a miss against a low bar is a demand signal, not a comp excuse, and the market will read it that way.
+- **Management Solutions mix:** if the core segment prints below 4% again, the Sep 23 thesis (core weakness) is confirmed and the stock re-tests the Sep 30 low (~\$98.50).
+- **Flat employment assumption:** any SMB hiring softness in Nov data hits the quarter's volume; ADP's +86k October print is supportive but is a different (larger-employer) mix.
+- **One-time base effects:** Q2 FY26 had revenue synergies and portfolio gains — management has pre-flagged this, but the magnitude of the lap is the swing factor.
+- **Date uncertainty:** Finnhub/TipRanks say Dec 17, the majority say Dec 18 — a hold-through plan built on the wrong day is a plan built on nothing.
+- **Receivables flag** — see appendix.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 6/10** — 7-of-8 beat record, but the bar is low and the beats are small (+0.8% to +1.8% recently); a beat is likely, a *meaningful* beat is not.
+- **Guide-risk: 8/10 (HIGH IS BAD)** — the full-year guide requires H2 re-acceleration the run-rate does not support; Q2's own ~4% guide is soft; and the last reaffirm cost −8.8%.
+- **Priced-in: 4/10 (HIGH IS BAD)** — 13% below the high, cheapest forward multiple in the batch, low expectations; the *bad* news is largely in, which is why this scores low despite the guide risk.
+- **Verdict:** The cheapest name in the batch with the worst reaction record — a beat is probable and will probably not be enough.
+
+### 10. Plan A or Plan B?
+
+**Plan B (wait for the number).** For Plan A I would need: a confirmed Dec 18 (or Dec 17) BMO date, plus Management Solutions growth back at or above 5% in the print, plus the full-year guide reaffirmed with Q3 guided above 5% — i.e. the re-acceleration actually showing up. The Sep print proved the market will sell a beat that lacks exactly that, so there is no edge in holding through to find out.
+
+---
+
+## AZO — AutoZone, Inc. (NYSE: AZO)
+
+### 1. The date, confirmed
+
+**CONFIRMED — Tue 2026-12-08, before the open (BMO).** Company press release Nov 11, 2026 (GlobeNewswire, source: AutoZone, Inc.): "AutoZone, Inc. will release results for its first quarter ended Saturday, November 21, 2026, before market open on Tuesday, December 8, 2026" with a one-hour conference call at 10:00 a.m. ET the same day, webcast via autozone.com Investor Relations. This is the only confirmed date in the batch — the load-bearing fact is settled, re-verified today against the GlobeNewswire release. Note: MarketBeat and Trefis still label the date "Estimated" in their own tables (Trefis, Nov 12: "the company has not confirmed them" — written before or without the Nov 11 release in its sourcing); the company's own Nov 11 release overrides those aggregator labels. No move.
+
+### 2. The bar
+
+Quarter being reported: Q1 FY2027 (quarter ended Nov 21, 2026; a 12-week quarter).
+
+| Source (as of 2026-11-18/19) | Consensus EPS | Consensus revenue |
+| --- | --- | --- |
+| MarketBeat (2026-11-19) | \$35.41 | \$4.94B |
+| Fundspec (2026-11-19) | \$35.52 | \$4.9B |
+| Stocktwits / Gekko (2026-11-19/20) | \$35.40 | \$4.94B |
+| Zacks (crawled ~2026-11-11) | **\$36.06** (+16.2% y/y) | not stated |
+
+Take the bar as **EPS \$35.40–35.52, revenue \$4.94–4.95B**, with Zacks' \$36.06 as a higher outlier — a print of \$35.50 would be a beat on MarketBeat and a miss on Zacks, so the vendor matters, as with CTAS. Prior-year Q1 FY2026: EPS \$31.04, revenue \$4.63B — so the preferred bar implies ~+14% EPS growth on ~+7% revenue growth; the Zacks bar implies +16.2% EPS growth. No whisper number found. Estimate revisions in the last 30 days: one source (MastermindX, Nov 16) flags "Estimates being cut" for AZO — directionally negative, no magnitude given; Stifel initiated coverage at Hold with a \$3,450 target on Nov 17, 2026.
+
+### 3. The last four prints
+
+| Print | EPS reported vs consensus | Revenue vs consensus | Guide | Next-session reaction |
+| --- | --- | --- | --- | --- |
+| Q4 FY26, 2026-09-22 | \$56.05 vs \$54.10 (+3.6%, Zacks \$54.54) | \$6.59B vs \$6.69–6.70B, **miss −1.4%**; +5.6% y/y | No numeric FY27 guidance given | **−1.8%** on release day (StockInvest; Webull: "down another 1.8% to about \$2,843"); Gekko's move table shows +1.4% for the same print on a close-to-close definition — see note |
+| Q3 FY26, 2026-05-26 | \$38.07 vs \$36.15 (+5.3%) | \$4.84B vs \$4.86B, slight miss; +8.4% y/y | No numeric guidance | Screen-recorded −9% (see note) |
+| Q2 FY26, 2026-03-03 | \$27.63 vs \$27.41 (+0.8%) | \$4.27B vs \$4.31B, miss; +8.1% y/y | No numeric guidance | Screen-recorded −6% (see note) |
+| Q1 FY26, 2025-12-09 | \$31.04 vs \$32.33 (**miss −4.0%**) | \$4.63B vs ~\$4.65B (approx.) | No numeric guidance | Screen-recorded +3% (see note) |
+
+Note on reactions: the Sep 22, 2026 reaction is genuinely ambiguous across sources — StockInvest/Webull report −1.8% on the release day, Gekko (2026-11-20) reports +1.4% close-to-close for the same print, and the screen's `reaction_last4` (+3%, −9%, −6%, −7%, most recent first) implies −7% for it. The three series measure different windows (intraday/release-day vs close-to-close vs a different session definition) and cannot all be right as "the" reaction; what they agree on is that the Q4 print did not produce a clean up-day on an EPS beat. Treat the screen's −9% / −6% / −7% as indicative of a **persistently negative reaction record** rather than precise figures. Either way the pattern is damning: **3 of 4 EPS beats, yet the stock fell after the print in the screen's record every time except the one actual miss** (Q1 FY26, +3%). Revenue has missed consensus in all four of these prints — the market is selling the top line, not the EPS. Gekko's own tally (2026-11-20): beat EPS in 3 of last 8 reports, average absolute move ~±4%, up after 4 of 8.
+
+### 4. Revenue and margin trend
+
+| Quarter | Revenue | y/y growth | Domestic same-store sales | Gross margin / operating margin |
+| --- | --- | --- | --- | --- |
+| Q1 FY26 (Dec 2025) | \$4.63B | ~+5% | not cited here | not cited |
+| Q2 FY26 (Mar 2026) | \$4.27B | +8.1% | not cited here | gross 52.5%, op. 16.3% |
+| Q3 FY26 (May 2026) | \$4.84B | +8.4% | **+4.1%** (DIY +2.2%, commercial +10.4%) | gross 52.2%, op. 19.1% |
+| Q4 FY26 (Sep 22, 2026) | \$6.59B (16 wks) | +5.6% | **+1.6%** (total co. +1.5% const. currency); DIY **−0.6%** | gross **53.3% (+182bp)**, op. profit +10.1% to \$1.32B |
+
+Top line is **decelerating into the print on the metric that matters**: domestic comps fell from 4.1% (Q3) to 1.6% (Q4), and within Q4 the first 12 weeks averaged ~1.4% with only August at 2.1%. DIY comps were negative (−0.6%) in Q4 — the consumer the market watches is pulling back. The Q4 gross-margin gain is **low quality**: +145bp from a \$96M tariff refund and +105bp from a non-cash LIFO benefit — without the refund, Q4 EPS would have been ~\$51.50 (+6%) instead of \$56.05 (+15.1%). Operating expenses rose to 33.4% of sales from 32.4%. Full-year FY26: revenue \$20.34B (+7.4%), gross margin 52.3% (down from 52.6%), diluted EPS \$152.55 (+5.3%). Commercial is the bright spot: Q4 domestic commercial sales \$1.91B, +8.6%; full-year commercial +10.6%.
+
+### 5. THE GUIDE
+
+(a) **Does it guide?** **No — AutoZone gives no numeric guidance for the fiscal year or the quarter.** The Sep 22, 2026 release "gave no numeric guidance for fiscal 2027" (FrontierPicks, Nov 13). The guide is qualitative: the CEO has said sales should "speed up" — a verbal promise with no number attached. A non-guider cannot disappoint on guidance — but the market instead judges the print against the peer's numbers and the CEO's own "speed up" language, which is a vaguer and harsher bar.
+
+(b) **Consensus for the NEXT quarter and full year.** Next quarter Q2 FY27 (Mar 2027, per Trefis the next report after Dec 8 is Mar 1, 2027): consensus **not found**. Full-year FY27: Barchart (Oct 29) — analysts project FY27 EPS **\$170.30**, +11.6% vs \$152.55 in FY26; MarketBeat implies current-year EPS ~\$170.25 growing to \$193.40–193.51 the following year (+13.6%). Treat as approximate; a clean FY27 consensus EPS was **not found** as a single sourced figure. The forward bar that matters most is the comp: the Street will compare Q1 FY27 domestic comps against O'Reilly's 7.2% (see peer read below) and against AZO's own 1.6%.
+
+(c) **Does the run-rate support the forward number?** **No — not on comps, and management has now said so itself.** The Q1 bar implies ~+7% revenue growth, but Q4 comps were 1.6% and the revenue growth that did occur came from 175 net new stores in Q4 (97 US, 68 Mexico, 10 Brazil; 8,031 total). **New since yesterday's dossier: Trefis (Nov 12) reports management has guided Q1 FY27 same-store sales to be "relatively flat"** — flat to low single digits for FY27 as a whole, with average ticket up ~4–5% and fewer customer visits — and that management expects ~65 store openings in Q1 FY27 (vs 53 a year earlier) and ~400 for the year, with ~\$1.65B of FY27 capex. For Q1 to hit ~\$4.94B (+6.7% vs \$4.63B) on flat comps, store growth must carry essentially all of it — arithmetically possible (Q1 FY26 had 53 openings; the base is larger now), but it means the comp story does not improve. The EPS bar (+14%) is even harder: it laps a Q1 FY26 that had no tariff refund, but Q4's margin gain was itself refund-driven and will not repeat at the same scale — management has said additional tariff refunds applied for are for lesser amounts.
+
+(d) **Guide history, last 8 quarters.** Not applicable in the usual sense — **no numeric guide has been given to raise, reaffirm or cut** in any of the last four prints. The qualitative record: management has repeatedly pointed to commercial growth and store expansion while domestic DIY comps have stayed soft. The "guide" event to watch is the Q1 call's language on whether comps are in fact speeding up — against management's own fresh "relatively flat" framing for Q1, which lowers the bar for the call even as it confirms the deceleration.
+
+(e) **Has the guide already been raised between quarters?** No numeric guide exists to raise. No pre-announcement or analyst-day update was found. The only forward pull: O'Reilly's raise (below) has lifted the peer bar, not AZO's own.
+
+**What else changed this quarter — peer read (the best available):** **O'Reilly (ORLY) reported Q3 2026 on Oct 28, 2026: revenue \$5.12B (+9%, beat \$5.02B consensus), EPS \$0.97 vs \$0.93, comps +7.2% (professional +10%+), and RAISED full-year guidance — comps to 5.5–6.5% (from 4–6%), gross margin to 51.6–52.1%, EPS to \$3.25–3.35. Shares rose ~3.7%.** O'Reilly also disclosed a \$39M tariff-refund benefit — the same one-time tailwind AZO enjoyed, but O'Reilly's comp acceleration is real and AZO's is not. This peer print is the single most bearish input for AZO's Dec 8: it proves demand exists in the channel and AZO is losing share within it. Other changes: **CFO Jamere Jackson resigned Oct 20, 2026, effective Nov 25, 2026, to become CFO of FedEx** (8-K Oct 26; FedEx appointment effective Nov 30, 2026); Controller J. Scott Murphy is interim principal financial officer with **no permanent successor named** — the Dec 8 call will be led financially by an interim CFO. Inventory rose 10.1% to \$7.7B at FY26 year-end. Store count 8,031 (6,863 US, 1,001 Mexico, 167 Brazil). Buyback: \$1.6B remaining under authorisation at FY26 year-end; 579,000 shares bought back for \$2.0B in FY26. Annual meeting of stockholders Dec 16, 2026.
+
+### 6. How much is priced in
+
+- Price \$3,277.44 (screen, 2026-11-19 close); MarketBeat shows \$3,276.83 (−1.0%) on its 2026-11-20 page; Gekko (2026-11-20) shows the stock ~\$3,277 with 50-day average \$3,047.68 and 200-day average \$3,232.25 — **above its 200-day average**, having reclaimed it in the November rebound. **1-month +6.8%** (Finnhub, as of Nov 19) / screen ret_21d +3.8%; FrontierPicks (Nov 13, updated to Nov 19 close) notes the shares are up 10.8% since Aug 21 while the S\&P 500 is down 6.3% over the same sessions. 3-month roughly flat-to-down from ~\$3,100 in Aug after a deep slide from ~\$3,600 in Mar.
+- Vs 52-week high \$3,996.25 (Dec 1, 2025): **−17.9% below the high**; vs 52-week low \$2,730.65 (Oct 5, 2026): +20% off the low. YTD −2.4%, 1-year −13.1% to −14.4% (Gekko: 1-year return −14.4%) — the stock has already de-rated substantially.
+- Forward P/E 17.1 (screen) vs trailing 20.6–21.5 (Finnhub / Gekko). 3–5 year forward P/E range: **not found** — directionally, 17x forward is near the low end for AZO's recent history (it traded at 20x+ trailing through most of 2024–2025). Short interest 3.3% of shares, 3.1 days to cover (FINRA, Oct 30 settlement) — not crowded on the short side. Analyst consensus "Moderate Buy", mean target \$3,665.73 (MarketBeat, +11.9% upside) — the Street is still bullish on the name even as the comps disappoint.
+- Options-implied move for the Dec 8 print: **not found** — no earnings-specific straddle quote was located. Gekko's ±4% is the *realised* average move across reports, not an implied move. Screen realised proxy `reaction_avg_abs_move` 4.20%. Note the Dec 8 print is the **nearest-dated** of the three names (18 days out) and the only confirmed date — the market has had since Nov 11 to price it.
+- **Crowded?** No. The de-rating is done: −18% from the high, −14% over one year, cheap multiple, low short interest. What is priced in is a **recovery that has not yet shown up in comps** — the Nov rebound (+6.8% in a month, reclaiming the 200-day average) prices the *expectation* of the CEO's "speed up", while management's own fresh guidance is for Q1 comps "relatively flat". That is a different kind of crowded: long the recovery, short the evidence.
+
+### 7. Moat / AI-irreplaceability — score 8/10
+
+Auto parts retail is a logistics and availability moat: 8,031 stores, Mega Hubs (172 operational, target ~300, 40+ openings expected in FY27), same-day commercial delivery to repair shops, and a parts-catalogue depth that online-only sellers cannot match for a mechanic who needs the part now. DIY demand is non-discretionary (an aging US vehicle fleet, average age ~13 years) and not AI-replaceable — no software fixes a failed alternator. Threats are share-shift (O'Reilly's superior execution, Amazon for DIY) and, long-term, EVs needing fewer replacement parts — but the fleet turns over slowly. **If it gaps down 15% and I hold 18 months: opportunity** — the business is a cash machine (heavy buybacks; \$1.6B authorisation remaining), the multiple is already de-rated, and the gap would most likely be a comp disappointment, not a broken model. The 18-month risk is that O'Reilly keeps taking share while AZO's comps stay at 1–2%.
+
+### 8. Risks specific to THIS print
+
+- **The comp is the whole print.** Domestic comps at 1.6% vs O'Reilly at 7.2% — a Q1 comp below ~2% confirms share loss; above 3% is the only result that changes the story. Management's own "relatively flat" Q1 framing makes even a ~2% print a non-event.
+- **Margin give-back:** Q4 gross margin was flattered by a \$96M tariff refund (+145bp) and a LIFO benefit (+105bp); if Q1 gross margin reverts toward 52% without those, EPS misses even on decent sales.
+- **Interim CFO:** Jackson departs Nov 25, thirteen days before the print; Murphy (Controller) is interim with no permanent successor named — expect a cautious, low-information call.
+- **Inventory +10.1%** to \$7.7B against 5.6% sales growth — a possible overhang if demand stays soft.
+- **Estimate cuts:** flagged by one source in the last 30 days (no magnitude); Zacks' \$36.06 sits \$0.54 above the MarketBeat consensus, so a \$35.50 print reads differently by vendor.
+
+### 9. Scores and verdict
+
+- **Beat-likelihood: 5/10** — 3-of-4 EPS beats on the screen, but revenue has missed in all four prints and the EPS beats were flattered by one-time margin items; the comp bar is the binding constraint and the run-rate — now confirmed by management's own "relatively flat" Q1 framing — points the wrong way.
+- **Guide-risk: 6/10 (HIGH IS BAD)** — there is no numeric guide to miss, which caps the score, but the qualitative "speed up" promise plus O'Reilly's 7.2% comp create a shadow guide that is very hard to clear; a soft comp print will be read as a guide cut in all but name.
+- **Priced-in: 5/10 (HIGH IS BAD)** — the de-rating is real (−18% from the high, 17x forward), but the November rebound has already priced a recovery the comps have not delivered; the good news (a comp re-acceleration) is half in the price, the bad news (continued 1–2% comps) is not fully in.
+- **Verdict:** The best 18-month business in the batch attached to the worst near-term setup — a share-losing comp story with a peer that just proved the demand is there for someone else.
+
+### 10. Plan A or Plan B?
+
+**Plan B (wait for the number).** For Plan A I would need: a Q1 domestic comp above 3% (the only print that breaks the O'Reilly narrative) — which cannot be known before Dec 8 — or a price back toward the Oct 5 low (~\$2,730) that pays me for the risk. At \$3,277, up 6.8% in a month on no new evidence, there is no edge in holding through.
+
+---
+
+## Earnings-quality flags appendix
+
+- **PAYX — RECEIVABLES_OUTRUN (recv_rev_divergence 0.130): watch, do not dismiss — fresh 10-Q detail sharpens both sides.** From the Q1 FY2027 10-Q / earnings release (Sep 23, 2026, filed Sep 24): accounts receivable, net were **\$1,615.9M at Aug 31, 2026 vs \$1,507.6M at May 31, 2026 (+7.2% in one quarter)**; PEO unbilled receivables, net were \$680.2M vs \$664.2M; total AR + PEO unbilled = **\$2,296.1M, +16.6% y/y** (FinanceCharts, Nov 18). The cash-flow statement shows a **\$73.3M use of cash from accounts receivable and PEO unbilled receivables in Q1 FY27** (vs \$18.9M a year ago), and Q1 operating cash flow was **\$413.5M vs net income \$429.7M (CFO/NI 0.96)** — cash conversion dipped just below earnings in the quarter. **Benign explanation, now better evidenced:** the 10-Q breaks AR down as trade receivables only **\$289.6M** vs **purchased receivables \$1,369.1M** (gross \$1,658.7M, allowance \$42.8M) — the bulk of the balance is purchased receivables, a Paycor-era book that grows with the acquired enterprise/HCM portfolio, not with uncollected payroll billings; and the fast-growing PEO segment naturally carries more receivables per dollar of revenue. The allowance rose only modestly (\$40.4M → \$42.8M) with provision \$8.6M vs write-offs \$6.2M — no blow-out in credit losses. **Against benign:** the divergence is flagged on a TTM basis well after the Paycor close, the Q1 cash use from receivables quadrupled y/y, and it coincides with decelerating core (Management Solutions) growth — the combination is exactly the value-trap signature the flag is designed to catch. **Verdict: watch, do not dismiss — the purchased-receivables mix explains most of the level, but the Q1 cash drag and the TTM divergence mean the 10-Q receivables ageing and cash conversion (CFO vs net income) must be checked again at the Dec print before holding through; on its own it is not a reason to short, but it removes PAYX's "cheap and safe" defence.**
+- **CTAS — no flags** (accrual_ratio −0.036, CFO/NI 1.18 per screen): cash flow covers earnings comfortably; no quality objection. One line: cash conversion is clean.
+- **AZO — no flags** (accrual_ratio −0.033, CFO/NI 1.26 per screen): cash flow covers earnings comfortably; the quality issue at AZO is margin composition (one-time tariff refund), not accruals. One line: cash conversion is clean; watch the margin, not the receivables.
 
 ## Batch summary
 
-| Ticker | Date | Status | Consensus EPS / Rev | Implied vs hist. avg move | Beat / Guide-risk / Priced-in | Plan |
+| Ticker | Date | Status | Beat | Guide-risk | Priced-in | Plan |
+| --- | --- | --- | --- | --- | --- | --- |
+| CTAS | 2026-12-17 BMO | ESTIMATED | 7 | 7 | 7 | B |
+| PAYX | 2026-12-18 BMO | ESTIMATED | 6 | 8 | 4 | B |
+| AZO | 2026-12-08 BMO | CONFIRMED | 5 | 6 | 5 | B |
+
+All three are Plan B. The nearest-dated and only confirmed print (AZO, Dec 8) is also the one with the clearest negative peer read, and management has now framed its own Q1 comps as "relatively flat". No earnings-specific options-implied move was found for any of the three names — the screen's realised `reaction_avg_abs_move` (CTAS 4.70%, PAYX 4.13%, AZO 4.20%) is the only move proxy available, and in each case the most recent verified reaction (CTAS −3.4%, PAYX −8.8%, AZO −1.8% on the release day, with Gekko showing +1.4% close-to-close) was negative or ambiguous despite an EPS beat. New since yesterday: (1) CTAS — Semafor Nov 19 reports Chairman Farmer met Trump and Cintas expects an FTC lawsuit, vs Capitol Forum Nov 18 reporting cautious optimism on unconditional clearance; (2) PAYX — Finnhub lists the Q2 date as Dec 17, against the majority Dec 18, and ADP's Oct 28 raise gives a supportive-but-mixed peer read; (3) AZO — Trefis Nov 12 reports management guided Q1 comps "relatively flat", and the Nov 11 company release re-confirms Dec 8 BMO.
+
+## Sources and gaps
+
+Primary: AutoZone Q1 FY2027 date release, Nov 11, 2026 (GlobeNewswire); AutoZone CFO departure 8-K, Oct 26, 2026; FedEx CFO appointment release, Oct 26, 2026; Cintas Q4 FY2026 8-K, Jul 15, 2026, and Q1 FY2027 income statement / balance sheet (cintas.com); Paychex Q1 FY2027 earnings release and 10-Q, Sep 23–24, 2026 (investor.paychex.com); ADP Q1 FY2027 release, Oct 28, 2026. Consensus: Zacks detailed estimates (CTAS updated 2026-11-18; PAYX crawled 2026-11-19; AZO crawled ~2026-11-11), MarketBeat (all three, updated 2026-11-19), Fundspec (2026-11-18/19), Finnhub (prices and earnings calendar, 2026-11-19/20), Barchart (AZO, Oct 29). Reactions: Finnhub candles, ChartRow / Clearank, StockInvest / Webull, Gekko (2026-11-20). Peers: O'Reilly Q3 2026, Oct 28, 2026; ADP Q1 FY2027, Oct 28, 2026, and ADP National Employment Report, Nov 4, 2026. Deal: Semafor via TradingView, Nov 19, 2026 (Farmer–Trump meeting); Capitol Forum via TradingView, Nov 18, 2026 (cautious optimism); Seeking Alpha, Nov 13, 2026 (last-rites meeting); ArbLens Weekly \#25, Nov 1, 2026. AZO comp framing: Trefis, Nov 12, 2026; FrontierPicks, Nov 13, 2026.
+
+Not found (stated, not fabricated): a company confirmation of the CTAS Dec 17 or PAYX Dec 18 date; an earnings-specific options-implied move for any of the three names; a whisper number for any of the three; a 30-day estimate-revision trend for CTAS or PAYX; CTAS Q3 FY27 published consensus beyond Zacks (\$1.35 / \$3.04B); PAYX Q3 FY27 published consensus beyond Zacks (\$1.87 / \$1.91B); AZO Q2 FY27 published consensus; 3–5 year forward P/E ranges for all three; CTAS guide history before FY26 Q4 and PAYX guide history before FY26 Q4; next-session closes for CTAS Q4 FY26 / Q3 FY26 / Q2 FY26, PAYX Q4 FY26, and AZO Q3 FY26 / Q2 FY26 / Q1 FY26 (screen values used and labelled as such).
+
+
+## Cross-name summary
+
+| Ticker | Date / timing | Consensus EPS / revenue | Beat likelihood | Guide risk (bad=high) | Priced-in (bad=high) | Plan |
 |---|---|---|---|---|---|---|
-| A | Mon 23 Nov 2026 AMC | CONFIRMED (PR 29 Oct) | $1.72–1.73 / $1.99bn | ±9.7% vs 4.7% — **~2x larger** | 6 / 6 / 5 | B |
-| ADSK | Tue 24 Nov 2026 AMC | CONFIRMED (PR 2 Nov) | $3.07 / $2.13bn; whisper $3.16 | ±7.2% vs 4.9% — **larger** (other prints ±3.1–4.5%) | 7 / 6 / 4 | B (closest to A) |
-| VEEV | Thu 3 Dec 2026 AMC | CONFIRMED (PR 12 Nov) | $2.33–2.34 / ~$934m | ~8.1% proxy vs 9.1% — **slightly smaller** (weak evidence) | 8 / 5 / 7 | B |
+| A | 2026-11-23 AMC, CONFIRMED | \$1.72 / \$1.99B | 7 | 7 | 7 | B |
+| ADSK | 2026-11-24 AMC, CONFIRMED | \$3.07 / \$2.13B | 8 | 8 | 5 | B |
+| NTAP | 2026-12-01 AMC, CONFIRMED | \$2.60 / \$2.11B | 8 | 8 | 4 | B |
+| VEEV | 2026-12-03 AMC, CONFIRMED | \$2.33–2.34 / \$934m | 8 | 6 | 4 | A (conditional) |
+| AZO | 2026-12-08 BMO, CONFIRMED | \$35.41 / \$4.94B | 5 | 6 | 5 | B |
+| CTAS | 2026-12-17 BMO, ESTIMATED | \$1.36–1.37 / \$3.02–3.03B | 7 | 7 | 7 | B |
+| PAYX | 2026-12-18 BMO, ESTIMATED | \$1.30 / \$1.64B | 6 | 8 | 4 | B |
 
-**Cross-cutting:** All three dates are company-confirmed, AMC, and match the cached screen dates. All three have raised guidance at each of their last two prints. The differentiator is not the quarter — it is the guide and the multiple: A needs an FY27 guide, ADSK needs a whisper-clearing EPS and a billings re-acceleration, VEEV needs a third raise plus an AI-confident call. None of the three offers a hold-through case at current prices on the evidence above; ADSK is the least crowded, VEEV the most likely to beat, A the most binary.
-
-## Sources (selected, with dates)
-- Agilent PR "Agilent to Announce Fourth-Quarter Fiscal Year 2026 Financial Results on Nov. 23", 29 Oct 2026 (BusinessWire); Agilent Q3 FY26 8-K / press release, 26 Aug 2026; Agilent Q2 FY26 8-K, 27 May 2026; Agilent Q1 FY26 release, 25 Feb 2026; Agilent Q4 FY25 release, 24 Nov 2025; Agilent 10-Q for quarter ended 31 Jul 2026 (filed 1 Sep 2026) — AR $1,478m, inventory $1,117m, 9M OCF $1,064m.
-- Zacks, "Agilent Technologies' Q4 Earnings on Deck", 5 Nov 2026; Zacks, "Agilent Reports Next Week", 16 Nov 2026; MarketBeat A earnings pages, 16 Nov 2026; EarningsWatcher, "Most Anticipated Earnings Next Week (Nov 23–27)", updated 17 Nov 2026 (±9.7% for A); Finnhub A price data, close 17 Nov 2026 $172.22, 52-wk high $182.99 (28 Oct 2026).
-- Autodesk PR "Autodesk extends invitation to join financial results conference call", 2 Nov 2026; Autodesk Q2 FY27 results, 27 Aug 2026; Autodesk Q4 FY26 results, 26 Feb 2026; Autodesk Q1 FY27 recap (Aardvark Labs), 28 May 2026; Earnings Whispers ADSK, 16 Nov 2026 (whisper $3.16); Zacks ADSK, 17 Nov 2026; Gekko ADSK, 17 Nov 2026 (implied 7.2%); Finnhub ADSK price data, close 17 Nov 2026 $255.22.
-- Veeva PR "Veeva to Release Fiscal 2027 Third Quarter Results on December 3, 2026", 12 Nov 2026 (PRNewswire); Veeva Q2 FY27 results / StockStory deep dive, 26–27 Aug 2026; Veeva Q1 FY27 results, 3 Jun 2026 (Tapebrief; TS2.Tech, 4 Jun 2026); Zacks VEEV, 17 Nov 2026; OptionsAI VEEV earnings (avg realised move 8.88%, 26 Aug 2026 +15.2%); AISMarketCap VEEV pre-earnings setup, 9 Nov 2026; Finnhub VEEV price data, close 17 Nov 2026 $288.41, 52-wk high $325.99 (22 Oct 2026).
-- StockAnalysis quarterly financials for ADSK and VEEV; AltIndex earnings histories for A and VEEV; StockInvest earnings pages for ADSK and VEEV (accessed 18 Nov 2026).
-
-## Items NOT found (do not treat as zero)
-- Clean Q1 FY27 consensus EPS/revenue for A; clean Q4 FY27 consensus for ADSK and VEEV (only FY totals found); a clean 3–5-year forward-P/E history for any of the three; a clean earnings-expiry options straddle for VEEV; a YoY accounts-receivable comparison for ADSK; a full 8-quarter guide-raise/trim log for A and ADSK before FY26 (only FY26–FY27 verified).
-
+All five near-term dates are company-confirmed; only CTAS and PAYX remain estimated. The common thread is unchanged from yesterday: in every name consensus sits at the midpoint of management's own guide, so the *beat* is the expected outcome and the *guide* is the trade. NTAP is new to the field today and brings the largest surprise average (+10.1%) and the strongest revenue acceleration (+20.7pp), but also the guide story of the wave — FY27 consensus sits above its guide top, so a reaffirmation reads as a miss. VEEV remains the only conditional Plan A: the stock has sold off 18% in 21 days into the print and the options-implied move (7.5%) sits below its own average absolute move (9.1%).
 
 ---
 
-# Earnings research — Batch 2 — RUN_DATE 2026-11-18 (MODE earnings)
+## Verification corrections — applied 2026-11-20
 
-Tickers: AZO (Q1 FY2027, 2026-12-08) · CTAS (Q2 FY2027, 2026-12-17*) · PAYX (Q2 FY2027, 2026-12-18*).
-Prices as of close Mon 2026-11-17 (Finnhub): AZO $3,279.12 · CTAS $222.20 · PAYX $114.10.
-\* = ESTIMATED, not company-confirmed — see §1. All figures sourced below; where aggregators conflict I give the range and name the source. "Not found" means searched and not found, not zero.
+Phase 3.5 verification (`output/earnings/parts/2026-11-20/verification.md`) confirmed all three top-3 report dates, all three reporting-quarter consensus bars, both next-quarter bars for VEEV and NTAP, the last-quarter beats, and all three moat claims. Three corrections were required and are applied in the final writeups:
 
----
+1. **ADSK screen reaction series — material sign-flip error.** The screen's most recent ADSK entry (+6%) is the pre-print day's session move, not the post-print reaction. The verified post-print reaction to the Q2 FY2027 print is **−3.67%** (Finnhub candles, TipRanks, press). Corrected last four: **−3.7%, −4.0%, +5.3%, +2.4%** (average absolute move ~3.9%, not the screen's 4.9% average over eight). The dossier's own last-four table already had −3.67% right; the correction strengthens the "beats punished twice running" thesis. The screen file itself was NOT hand-edited — its ADSK reaction series (and the averages computed from it) is wrong at the source, in the `fetch.py` `_reaction_at` heuristic; flagging it for the upstream fix rather than patching generated data by hand.
+2. **ADSK Q4 FY2027 bar — published consensus exists.** The dossier's "no published consensus found" is wrong: Zacks publishes Q4 FY2027 at **EPS \$3.18 / revenue \$2.21B** (updated 2026-11-18). The final writeups use the published bar; the dossier's implied ~\$3.20 / ~\$2.21B was 2 cents high on EPS.
+3. **VEEV screen reaction series — minor.** The Q1 FY2027 entry (−2%) was pre-release drift; the next-session reaction was flat (**−0.07%**). Verified last-four average absolute move ~7.3%, not the screen's 9.13%. The dossier already used −0.07% in its own table.
 
-## 1. AZO — AutoZone, Inc.
-
-### 1. Date — CONFIRMED, BMO
-**Tue 2026-12-08, before market open (BMO), Q1 FY2027 (quarter ended Sat 2026-11-21).** Company press release 2026-11-11 (GlobeNewswire, via AutoZone IR): "will release results … before market open on Tuesday, December 8, 2026" with a 10:00 a.m. ET call the same day. Corroborated by MarketBeat, Finnhub and Zacks (Zacks now lists it as a confirmed BMO date, updated 2026-11-17). No date risk: this is the load-bearing fact and it is settled.
-
-### 2. The bar
-Consensus EPS **~$35.40–35.62**; consensus revenue **~$4.94–4.995B** (as of 2026-11-17/18). Sources disagree slightly: MarketBeat $35.41 / $4.94B; Finnhub $35.622 / $4.995B; TwelveData $35.39 / $4.95B; Zacks $36.06 / $4.95B (Zacks is the high outlier — its "most recent consensus" is $34.65, so treat $36.06 with care). Prior-year Q1 FY2026: EPS $31.04 on $4.63B — so the bar implies **+14% EPS, +~7% revenue** YoY. Whisper: not found as a published number. Revisions: TwelveData shows **10 analysts down in the last 30 days vs 1 up in the last 7 days** on the current quarter — a mild downward drift into the print, not a ramp. Barchart (2026-10-29) also cites $36.06. Stifel initiated coverage 2026-11-17: Hold, $3,450 target.
-
-### 3. Last four prints (EPS vs consensus / revenue vs consensus / guide / next-session reaction)
-Reaction %s differ by window (release-day close vs 48h). I give CoinCodex 48-hour (day-before → day-after) as primary and the screen's next-session figure in brackets.
-
-| Print | EPS | Revenue | Guide / call | Reaction |
-|---|---|---|---|---|
-| Q4 FY26, 2026-09-22 | $56.05 vs ~$54.08–54.10, **+3.6% beat** | $6.59B vs ~$6.70B, **~−1.6% miss** | No formal guide; FY27 domestic SSS flat to low-single-digit, ticket ~+4%; Q1 FY27 SSS "relatively flat"; gross margin flat to +25 bps FY27 | +1.4% 48h [screen +3%]; Fool noted stock finished up >3% on the day, other feeds −2.6% 1-day-after — noisy, call it ~flat-to-+3% |
-| Q3 FY26, 2026-05-26 | $38.07 vs $36.22, **+5.1% beat** | $4.84B vs ~$4.86B, **~−0.4% miss** | LIFO ~$30m Q4 headwind flagged; cautiously optimistic for Q4 | −11.1% 48h [screen −9%]; Fool: −9.6% intraday — a big down day on an EPS beat |
-| Q2 FY26, 2026-03-03 | $27.63 vs $27.15, **+1.8% beat** | $4.27B vs ~$4.31B, **~−0.9% miss** | LIFO ~$60m/qtr guided for H2; comps +3.3% vs ~5.6% expected | −4.3% 48h [screen −6%; Musaffa: −6.3% on the day] |
-| Q1 FY26, 2025-12-09 | $31.04 vs $32.75, **−5.2% miss** | $4.63B vs ~$4.64B, **~−0.2% miss** | $98m non-cash LIFO charge; ex-LIFO EPS would have been +8.9% | −9.2% 48h [screen −7%; release-day close −7.3%] |
-
-Pattern: **3 of 4 EPS beats, yet 3 of 4 prints sold off** — the market punishes revenue/comps misses and LIFO margin noise, not EPS. The only "good" reaction (+3%) came on the softest comp print of the four.
-
-### 4. Revenue and margin trend — decelerating into the print
-| Quarter | Revenue | YoY | Gross margin | Op (EBIT) margin |
-|---|---|---|---|---|
-| Q1 FY26 (ended 2025-11-22) | $4.63B | +8.2% | 51.0% (−203 bps, $98m LIFO) | 16.9% ($784m) |
-| Q2 FY26 (2026-02-14) | $4.27B | +8.1% | 52.5% (−137 bps, $59m LIFO) | 16.3% ($699m) |
-| Q3 FY26 (2026-05-09) | $4.84B | +8.4% | 52.2% (−57 bps, $20m LIFO) | 19.1% ($924m) |
-| Q4 FY26 (2026-08-29, 16 wks) | $6.59B | **+5.6%** | **53.3%** (+182 bps — $96m tariff refund = +145 bps, +105 bps LIFO) | 20.0% ($1,317m) |
-FY2026: $20.3B, +7.4%; EPS $152.55, +5.3%. Comps tell the story: total-company SSS +4.7% (Q1) → +3.3% (Q2) → +3.9% (Q3) → **+1.5% constant-currency (Q4)**; domestic SSS +4.8% → +3.4% → +4.1% → +1.6%; **DIY comps −0.6% in Q4** while commercial +8.6%. Management on the Q4 call (2026-09-22): transactions soft, DIY deferrals/trade-downs among the most financially challenged customers; ticket +~5% is doing all the work. **Top line is decelerating, and the Q4 EPS beat was quality-poor**: $4.43/share of the $56.05 came from the one-off tariff refund; ex-refund EPS ~$51.50 (+~6%, not +15%). Q1 FY27 guide is SSS "relatively flat".
-
-### 5. THE GUIDE
-(a) **AZO does not formally guide.** It gives no EPS or revenue guidance, ever — only directional operating commentary (SSS, ticket, gross margin, LIFO, store openings, SG&A per store) on the call. There is no company number to beat or miss; the "guide risk" is instead the qualitative SSS/ticket commentary and whatever the call implies for FY27.
-(b) Consensus for NEXT quarter (Q2 FY27, Feb 2027): EPS $32.32 (Zacks) / $31.75 (TwelveData), revenue ~$4.59–4.60B. Full-year FY27 consensus: EPS $170.30 (Zacks) / $169.37 (TwelveData), revenue $21.82–21.86B (+~7.5%); FY28 EPS $193.51, revenue $23.43B.
-(c) Does the run-rate support it? FY27 EPS $170.30 implies +11.6% on FY26's $152.55. Q1 bar (+14% EPS) is flattered by the weak Q1 FY26 base ($31.04, LIFO-depressed); the Q4 run-rate ex-tariff-refund was only ~+6% EPS growth. SSS guided flat-to-low-single-digit for FY27 with ~4% ticket growth implies revenue growth is mostly price + new stores (~65 stores in Q1, ~365/yr), not volume. The FY27 number needs margin recovery (gross margin flat to +25 bps guided) and buybacks (~3% share-count shrink/yr) to do heavy lifting — supportable, not comfortable.
-(d) Guide history (8 quarters): not applicable in the formal sense — no raises/reaffirms/trims to score. Directional history: Q1 FY26 call — no forward numbers; Q2 — LIFO headwinds flagged ($277m FY26 total vs $64m FY25); Q3 — LIFO ~$30m Q4 flagged, "cautiously optimistic"; Q4 — FY27 SSS flat to low-single-digit, gross margin flat to +25 bps. Tone has drifted more cautious each quarter as DIY weakened.
-(e) Has the guide been raised between quarters? No — there is no guide to raise; the FY27 directional framework was set on 2026-09-22 and has not changed since.
-
-### 6. How much is priced in
-Price $3,279.12 (2026-11-17). **1 month +5.08%** (Finnhub); **3 months +6.7%** (from $3,073.20 close 2026-08-18 — my calc from Finnhub daily candles); 6 months −2.57%; YTD −3.31%; 1 year −14.34%. The move is a **bounce off the 2026-10-05 52-week low of $2,730.65** (+20% from the low) after the September selloff — not a run into strength. Vs 52-week high $3,996.25 (2025-12-01): **−17.9%**. Forward P/E **~16.5–17.1x** (screen 17.1x; FinanceCharts fwd 16.50x, 2026-11-13) vs 3-yr avg fwd ~22.6x and 5-yr ~22x, and vs trailing P/E ~20.6–21.3x (10-yr avg 18.24x; Aug 2025 peak 28.22x). **AZO is de-rated to the low end of its own range** — the market has already priced a slowdown. Options-implied move for this print: **not found** (no published straddle/implied-move figure located for the Dec 2026 expiry in searches; TipRanks options pages list chains without a clean implied-move quote). Against reaction_avg_abs_move 4.2%: history says a ±4–9% swing is normal — the last four prints moved −9%, −6%, −7%, +3% next session. **Not crowded**: de-rated multiple, 18% below the high, fresh off a 52-week low, analyst consensus "Strong Buy" but with a Hold initiation from Stifel on 2026-11-17 — the setup is contrarian-value, not momentum-chasing. The risk is not crowding; it is that a flat SSS print confirms the DIY slowdown is structural.
-
-### 7. Moat / AI-irreplaceability — 8/10
-AutoZone's moat is physical, not digital: 8,031 stores (6,863 US, 1,001 Mexico, 167 Brazil as of 2026-08-29), same-day parts availability for a 12-year-old US vehicle fleet, a commercial (DIFM) delivery network doing $1.9B/qtr and growing 8–10%, and a negative-working-capital model (suppliers fund inventory). DIY customers cannot in-source parts distribution; professional shops need the part *now*, not tomorrow — Amazon-style delivery does not solve a car on a lift. AI-native competitors cannot route around a warehouse network and 8,000 storefronts; AI helps AZO (demand forecasting, assortment) more than it threatens it. EVs are the slow threat (fewer moving parts), but the fleet turns over over decades and AZO is gaining commercial share meanwhile. **If it gaps down 15% and I hold 18 months: opportunity, not disaster** — a de-rated, buyback-fuelled compounder at ~17x forward with a real store network; the disaster case would need comps to go durably negative, which the Q4 print has not yet shown.
-
-### 8. Risks specific to THIS print
-- **Flat SSS guided, DIY −0.6% in Q4**: if Q1 SSS prints negative, the "flat" guide is broken and the de-rating resumes.
-- **Tariff-refund comp**: Q4's $4.43/share one-off makes YoY EPS optics treacherous; any LIFO charge (~$40m guided for Q1) hits the same line again.
-- **Revenue has missed in all 4 last prints** (−0.2% to −1.6%) — the bar is set on revenue, not EPS, and the market has punished it every time.
-- **Commercial vs DIY split**: commercial +8.6% masks DIY weakness; if commercial decelerates too, there is no offset left.
-
-### 9. Scores
-- **Beat-likelihood: 6/10** — 3 of last 4 EPS beats, Q1 FY26 base was LIFO-depressed, consensus ~$35.40 is below Zacks' $36.06; but revenue has missed 4 straight and estimates drifted down (10 down / 1 up in 30 days).
-- **Guide-risk: 4/10** — there is no formal guide to miss; the risk is qualitative (flat SSS commentary turning negative), which is softer and slower-moving than a guidance cut. (Low score = low guide risk, by the stated scale.)
-- **Priced-in: 3/10** — de-rated to ~17x fwd vs ~22x history, 18% below the 52-week high, bouncing off the low; bad news is substantially in the price.
-- **Verdict:** A de-rated compounder with a softening DIY core and a history of selling off on revenue misses — the price says the market already knows, but the print has punished holders 3 of the last 4 times anyway.
-
-### 10. Plan A or Plan B?
-**Plan B.** Wait for the number: the last four prints rewarded holders once and the trigger (revenue/comps, not EPS) is the weakest part of the story. **A would require:** Q1 SSS at or above flat with DIY stabilising (not −0.6% again) *and* gross margin holding ex-LIFO — i.e. evidence the slowdown is cyclical, not structural. Absent that, there is no edge in holding through Dec 8.
-
----
-
-## 2. CTAS — Cintas Corporation
-
-### 1. Date — ESTIMATED (not company-confirmed), BMO expected
-**Thu 2026-12-17 (expected), before the open, Q2 FY2027 (quarter ended 2026-11-30).** Status: **ESTIMATED**. No Cintas press release or IR page announcing the Q2 FY2027 date was found as of 2026-11-18; the Q1 call (2026-09-23) said only that Q2 results would be issued "in December 2026". Every aggregator labels it estimated: MarketBeat "estimated for Thursday, December 17, 2026 … based on past reporting schedules"; Zacks "12/17/2026 — This is an estimated date"; TipRanks "Dec 17, 2026, TBA (Not Confirmed)". **Split in the data: Finnhub and FXEmpire say Dec 16** (Finnhub: Q2 FY2027 estimated 2026-12-16, EPS $1.393 / $3.089B; FXEmpire: Dec 16, $1.39 / $3.09B), while Zacks/MarketBeat/TipRanks/CoinCodex/TrendSpider say Dec 17. Prior-year pattern supports Dec 17: Q2 FY2026 was reported Thu 2025-12-18; Q2 FY2025 was in Dec 2024; the company has reported Q2 in the Dec 17–19 window. The screen's Dec 17 is the modal estimate, but **a one-day slip to Dec 16 is live risk** — confirm on the Cintas IR calendar before holding. BMO is the consistent pattern (all four last prints were before the open, 10:00 a.m. ET call).
-
-### 2. The bar
-Consensus EPS **$1.36–1.39**; consensus revenue **~$3.09B** (as of 2026-11-17). Zacks $1.36 (updated 2026-11-02); CoinCodex $1.37; FXEmpire $1.39 (17 analysts); Finnhub $1.393 / $3.089B. Prior-year Q2 FY2026: EPS $1.21 on $2.80B — the bar implies **+12–15% EPS, +~10% revenue** YoY. Whisper: not found as a published number. Revisions: no clean 30-day revision series found; the spread ($1.36–1.39) is tight and the Q1 print (Sep 23) was followed by a guidance raise, which usually anchors estimates up, not down.
-
-### 3. Last four prints
-| Print | EPS (adj. where noted) | Revenue | Guide | Reaction (48h CoinCodex; screen next-session in brackets) |
-|---|---|---|---|---|
-| Q1 FY27, 2026-09-23 | Adj $1.39 vs $1.35, **+3.0% beat** (GAAP $1.36) | $3.01B vs $2.98B, **+1.0% beat** (+10.9% YoY, organic 8.9%) | **Raised FY27**: rev $12.10–12.25B → $12.15–12.27B; adj EPS $5.36–5.50 → **$5.45–5.54** | −0.6% 48h [screen −3%; FXEmpire −3.4% close-to-close] — sold off *despite* a beat and a raise |
-| Q4 FY26, 2026-07-15 | Adj $1.29 vs $1.24, **+4.0% beat** (GAAP $1.26) | $2.91B vs $2.87B, **+1.4% beat** (+8.9% YoY, organic 8.4%) | **Initiated FY27**: rev $12.10–12.25B; adj EPS $5.36–5.50 | +11.9% 48h [screen +7%] — the big up print |
-| Q3 FY26, 2026-03-25 | $1.24 vs $1.24, **in line** | $2.84B vs ~$2.82B, **beat** (+8.9% YoY, organic 8.2%) | **Raised FY26**: rev → $11.21–11.24B; adj EPS → $4.86–4.90 | −5.2% 48h [screen −5%] — sold off on an in-line print + raise; buybacks were frozen in Q3 (UniFirst quiet period) |
-| Q2 FY26, 2025-12-18 | $1.21 vs $1.20, **+0.8% beat** | $2.80B vs $2.77B, **+1.1% beat** (+9.3% YoY, organic 8.6%) | **Raised FY26**: rev $11.06–11.18B → $11.15–11.22B; EPS $4.74–4.86 → **$4.81–4.88** | +0.1% 48h [screen +1%]; Fool: shares +4% intraday on the raise |
-
-Pattern: **4 of 4 beats-or-in-line, 3 of 4 guidance raises, yet reactions are ±5–12% with no reliable sign** — Q1 FY27 sold off on a beat+raise; Q4 FY26 ripped +12% on a beat+initiation. The market trades the *rate of change* in organic growth and the UniFirst overhang, not the beat.
-
-### 4. Revenue and margin trend — steady, slightly accelerating
-| Quarter | Revenue | YoY | Organic | Gross margin | Op margin |
-|---|---|---|---|---|---|
-| Q2 FY26 (2025-11-30) | $2.80B | +9.3% | 8.6% | 50.4% | 23.4% ($656m) |
-| Q3 FY26 (2026-02-28) | $2.84B | +8.9% | 8.2% | 51.0% (record) | 23.2% ($660m) |
-| Q4 FY26 (2026-05-31) | $2.91B | +8.9% | 8.4% | ~50.9% | 23.1% ($673m) |
-| Q1 FY27 (2026-08-31) | $3.01B | **+10.9%** | **8.9%** | **51.5%** (+120 bps) | **23.6%** ($712m) |
-FY2026: $11.26B, +8.9% (organic 8.3%); adj EPS $4.94, +12.3%. Trefis (2026-11-12): TTM operating margin 23.4% at 2026-08-31, "the highest at any quarter end in ten years". Q1 had one extra workday (66 vs 65), which flattered both revenue and margin — Q2 has the *same* workdays as last year and Q3 one fewer, so the workday tailwind reverses. **Top line is steady-to-accelerating on headline (+10.9%) but organic growth is flat at ~8–9%** — no acceleration in the underlying rate. First Aid & Safety is the fastest segment (~15% per Finsee Q3 review); Uniform Rental & Facility Services is ~77% of sales.
-
-### 5. THE GUIDE
-(a) **Yes — precise, annual, ranges.** Cintas guides full-fiscal-year total revenue and adjusted diluted EPS (plus net interest ~$103m, tax rate 20.4% for FY27), updated every quarter. No quarterly guide. Guidance excludes the UniFirst acquisition, future buybacks, and significant downturns.
-(b) Consensus NEXT quarter (Q3 FY27): EPS ~$1.55, revenue not cleanly found (Stocks.News analyst table: Q3 FY27 avg $1.55, Q4 FY27 $1.53 — aggregator, treat as indicative). Full-year FY27 consensus: EPS **$5.53** (MarketBeat; guide midpoint $5.495) rising to **$6.14** next year (+11.0%); revenue consensus ~$12.2B.
-(c) Run-rate support: FY27 guide is adj EPS $5.45–5.54 (+10.3–12.1% on FY26's $4.94). Q1 adj EPS $1.39 (+15.8%) is *ahead* of the guide's pace; Q2 bar $1.36–1.39 (+12–15% YoY) is also ahead of it. Revenue guide $12.15–12.27B (+7.9–8.9%) vs Q1 +10.9% headline / 8.9% organic — the guide is *below* the Q1 run-rate, i.e. it embeds deceleration in H2 (workday drag + tougher comps). **The forward number looks supportable — arguably conservative — provided organic growth holds ~8%.**
-(d) Guide history — raises at every print I could verify (4 of last 4):
-- Q2 FY26 (2025-12-18): **raised** FY26 rev → $11.15–11.22B, EPS → $4.81–4.88. Stock +4% intraday / +0.1% 48h.
-- Q3 FY26 (2026-03-25): **raised** FY26 rev → $11.21–11.24B, adj EPS → $4.86–4.90. Stock −5.2% 48h (UniFirst announcement same month + buyback freeze dominated).
-- Q4 FY26 (2026-07-15): **initiated FY27** rev $12.10–12.25B, adj EPS $5.36–5.50. Stock +11.9% 48h.
-- Q1 FY27 (2026-09-23): **raised** FY27 rev → $12.15–12.27B, adj EPS → $5.45–5.54. Stock −0.6% to −3.4%.
-- Earlier prints (Q1 FY26 Sep 2025, Q4 FY25 Jul 2025): guide actions not verified in this research — not found, not assumed.
-(e) **Yes — raised between quarters**: the FY27 guide was raised on 2026-09-23, just one quarter after initiation. The raise was small (+$50m low-end revenue, +$0.09 low-end EPS) — a "raise the floor" move, not a breakout.
-
-### 6. How much is priced in
-Price $222.20 (2026-11-17). **1 month +3.98%** (Finnhub); **3 months +11.4%** (from $199.45 close 2026-08-18 — my calc from Finnhub daily candles); 6 months +27.3%; YTD +18.2%; 1 year +20.8%. Vs 52-week high $233.46 (2026-11-05): **−4.8%** — sitting just under the high, after a **+39.7% run from the 2026-05-13 low of $161.16 to 2026-11-11** (Trefis). Forward P/E **36.1–36.4x** (screen 36.1x; FinanceCharts fwd 36.23x, 2026-11-13) vs 3-yr avg fwd 43.08x and 5-yr 42.09x — *below* its own recent average, but trailing P/E 43.6–44.6x vs 4-yr fiscal-year median 40.5x (range 34.9–51.5, TickerLandia) and PEG 3.55–3.61. So: **de-rated vs its own 3–5yr forward average, but absolutely expensive** — the market pays ~36x forward for 8–9% organic growth. Options-implied move: **not found** (no published implied-move figure located for the Dec 2026 expiry). Against reaction_avg_abs_move 4.7%: the last four prints moved −3%, +7%, −5%, +1% next session (screen) — a ±5% swing is normal, and the Q4 print showed ±12% is possible. **Crowded: yes, on price action if not on valuation** — +27% in 6 months, +11% in 3 months, 5% below the all-time high into a print whose main event (UniFirst/FTC) is binary and exogenous. The Q1 beat-and-raise still sold off; momentum, not fundamentals, is carrying the tape here.
-
-### 7. Moat / AI-irreplaceability — 8/10
-Route-based uniform rental + facility services is a density business: trucks, laundry plants, and route optimisation create local scale economies a new entrant cannot replicate cheaply, and switching costs are real (uniform programs are embedded in a customer's operations, safety/compliance, and brand). Retention is high (management cites it every quarter; Q1 FY27 called out record retention in PEO-adjacent commentary for PAYX, and Cintas' own retention language is consistently "high"). Customers cannot in-source this without building their own laundry/logistics network — uneconomic for all but the largest employers. AI threat: route optimisation and customer-service automation *help* Cintas (SAP/SmartTruck stack is already a margin driver); an AI-native competitor cannot wash and deliver uniforms. The durable threat is demand-side: fewer on-site workers / automation shrinking uniformed headcount over a decade, plus the UniFirst integration if it closes. **If it gaps down 15% and I hold 18 months: opportunity** — an 8–9% organic grower with record margins and a raise-every-quarter record at a price that would then be ~31x forward. The disaster case is a failed UniFirst deal *plus* an organic-growth break below ~7% — neither has happened yet.
-
-### 8. Risks specific to THIS print
-- **UniFirst/FTC dominates the print.** 2026-10-27 Semafor/Reuters: FTC staff indicated it will sue to block the ~$5.5B deal; FTC has **not voted, no suit filed** as of 2026-10-29/30 follow-ups (Capitol Forum/CTFN: staff still examining, no remedies offered, parties "working constructively", still expecting close by year-end). Timing agreement: **no close before 2026-12-11** unless FTC closes its investigation in writing. The print lands Dec 16/17 — days after the earliest close date. Any FTC headline in that window swamps the quarter. CTAS fell −4.6% on 2026-10-27 (5.26m shares) on the first report. If the deal is blocked, Cintas owes a **$350m reverse termination fee**; if it closes, integration of a tech-laggard rival is a multi-year drag.
-- **Workday reversal**: Q1 had +1 workday; Q2 is flat, Q3 −1. Organic growth optically decelerates even if the business does not.
-- **The bar is high on EPS growth (+12–15%)** against a guide that embeds H2 deceleration; a Q2 organic print below ~8% breaks the "steady 8s" narrative.
-- **Valuation**: 36x forward leaves no room for a guide trim — and Cintas has *never* trimmed in this window, so a first trim would be a regime break.
-
-### 9. Scores
-- **Beat-likelihood: 8/10** — 4 of 4 beats-or-in-line, guide raised last quarter, Q1 run-rate ahead of the FY guide; the $1.36–1.39 bar is well within the demonstrated run-rate.
-- **Guide-risk: 3/10** — the FY27 guide ($5.45–5.54) sits *below* the Q1/Q2 run-rate and management raises it every quarter; a trim would be a first in this window. (Low = supportable.)
-- **Priced-in: 7/10** — +27% in 6 months, 5% below the high, 36x forward; a beat-and-raise already sold off in September, so good news is largely in the price and the binary FTC headline is not.
-- **Verdict:** The best operating record in this batch — beat, raise, repeat — attached to the most crowded price and a binary antitrust headline landing the same week as the print.
-
-### 10. Plan A or Plan B?
-**Plan B.** Wait for the number — and for the FTC headline. **A would require:** the Dec 11 timing-agreement date passing with either FTC clearance or a negotiated settlement *and* the stock not running further into Dec 17. Holding through both a print and a merger decision in the same week, 5% below the high, is paying full price for two coin flips.
-
----
-
-## 3. PAYX — Paychex, Inc.
-
-### 1. Date — ESTIMATED (not company-confirmed), BMO expected
-**Fri 2026-12-18 (expected), before the open, Q2 FY2027 (quarter ended 2026-11-30).** Status: **ESTIMATED**. No Paychex press release or IR page announcing the Q2 FY2027 date was found as of 2026-11-18. MarketBeat: "estimated for Friday, December 18, 2026, based on past reporting schedules"; Zacks (updated 2026-11-04): "12/18/2026 — This is an estimated date"; CoinCodex: Dec 18, EPS $1.28. **Split in the data: TipRanks and Finnhub say Dec 17** (TipRanks: "estimated for December 17, 2026, TBA (Not Confirmed)"; Finnhub: Q2 FY2027 estimated 2026-12-17, EPS $1.302 / $1.655B), while Zacks/MarketBeat/CoinCodex/TrendSpider say Dec 18. Prior-year pattern supports Dec 18: Q2 FY2026 was Fri 2025-12-19; Q2 FY2025 was Thu 2024-12-19 — the company reports Q2 in the Dec 17–19 window, usually the Friday before Christmas week. The screen's Dec 18 is the modal estimate, but **a one-day slip to Dec 17 is live risk**. BMO is consistent (all four last prints before the open; Q1 FY27 call 9:30 a.m. ET).
-
-### 2. The bar
-Consensus EPS **$1.28–1.32**; consensus revenue **~$1.62–1.66B** (as of 2026-11-17). Zacks $1.30 (2026-11-04, ESP +0.77%); CoinCodex/Fundspec $1.28; Finnhub $1.302 / $1.655B; MarketBeat avg $1.32 (2 estimates, $1.31–1.32) with company revenue guidance $1.6B. Prior-year Q2 FY2026 adj EPS $1.26 on $1.56B — the bar implies **+~2–5% EPS, +~4–6% revenue** YoY. Note the bar is *low* because management already guided Q2 revenue growth of **~4%** on the Sep 23 call (against two prior-year one-offs — see §5). Whisper: not found as a published number. Revisions: no clean 30-day revision series found. At the Nov 17 J.P. Morgan Ultimate Services conference, management said Q1 was "ahead of internal and analyst expectations" and "at or above the high end of the full-year guidance range" — a soft pre-announcement that the bar may be stale-low.
-
-### 3. Last four prints
-| Print | Adj EPS vs consensus | Revenue vs consensus | Guide | Reaction (48h CoinCodex/InsiderPrint; screen next-session in brackets) |
-|---|---|---|---|---|
-| Q1 FY27, 2026-09-23 | $1.34 vs $1.32, **+1.5% beat** (GAAP $1.21) | $1.63B vs $1.63B, **in line** (+5.9% YoY) | Reaffirmed FY27 total rev +5–6%, adj EPS +7–9%; **raised PEO/Insurance to +7–8%** (from 6–7%); Q2 rev guided ~+4%, adj op margin ~40% | **−11.3% 48h** [screen −9%; Tikr: closed $104.49, −8.8% on the day] — the worst reaction in the batch, on a beat |
-| Q4 FY26, 2026-06-24 | $1.32 vs $1.31, **+0.8% beat** (GAAP $1.17) | $1.61B vs $1.60B, **+0.2% beat** (+12% YoY) | **Initiated FY27**: total rev +5–6%, Mgmt Solutions +5–6%, PEO +6–7%, adj EPS +7–9%, adj op margin ~44% | −1.3% 48h [screen −2%] |
-| Q3 FY26, 2026-03-25 | $1.71 vs $1.67, **+2.4% beat** | $1.81B vs ~$1.78B, **beat** (+20% YoY, Paycor-driven) | FY26 guidance affirmed except interest-on-funds raised to $200–210m; $1.0B buyback authorised | +3.3% 48h [screen +3%] |
-| Q2 FY26, 2025-12-19 | $1.26 vs $1.23, **+2.4% beat** | $1.56B vs $1.55B, **+0.6% beat** (+18% YoY, Paycor-driven) | **Raised FY26 adj EPS growth to +10–11%** (from 8–9%); total rev guided to low end of +16.5–18.5% | +0.6% 48h [screen +2%] |
-
-Pattern: **4 of 4 EPS beats, all small (+0.8% to +2.4%)** — Paychex beats by a penny or two, every time, and the stock's reaction is driven by the *segment mix*, not the beat. Q1 FY27 is the cautionary tale: a beat, margin expansion (+280 bps GAAP op margin to 38.0%), and a PEO raise — and the stock fell 9–11% because Management Solutions grew only **+4%** (vs 5–6% guide) as clients converted from payroll (ASO) to PEO, shifting revenue between segments ("left pocket, right pocket" per CFO Bob Schrader). The market read mix-shift as core softness.
-
-### 4. Revenue and margin trend — organic deceleration masked by Paycor, now clean
-| Quarter | Revenue | YoY | Op margin (GAAP / adj) |
-|---|---|---|---|
-| Q2 FY26 (2025-11-30) | $1.56B | +18% (Paycor +~17 pts in Mgmt Solutions) | 36.7% GAAP / ~41.6% adj ($649m adj op inc) |
-| Q3 FY26 (2026-02-28) | $1.81B | +20% (Paycor) | ~40% adj (per call summaries) |
-| Q4 FY26 (2026-05-31) | $1.61B | +12% (full qtr Paycor vs partial prior-yr) | 37.7% GAAP / 42.1% adj ($676m) |
-| Q1 FY27 (2026-08-31) | $1.63B | **+5.9%** (clean, Paycor lapped) | **38.0% GAAP / 42.0% adj** ($685m) |
-FY2026: $6.51B, +17% (Paycor acquired Apr 2025); adj EPS $5.51, +11%. The honest trend is the **organic** one: CFO Schrader (Q4 call) said organic growth "nearly doubled from about 3% a year earlier" and the Q4 exit rate "broadly aligns" with the FY27 guide. Q1 FY27 organic: Management Solutions **+4%** ($1.2B) — *below* the 5–6% guide — while PEO & Insurance **+12%** ($368m) on high-single-digit worksite-employee growth and record retention. **Top line is decelerating into the print by design**: Q2 is guided to ~+4% (with two prior-year one-offs in the comp; ex-those, ~6%, in line with Q1). Margins are the offset: adj operating margin 42.0% in Q1 (from 40.7%), expenses +1% YoY on +6% revenue — AI/productivity leverage is real (AI investment 5x FY26 level, 2,000+ AI agents/features, WISE Hire launched Sep 23).
-
-### 5. THE GUIDE
-(a) **Yes — granular, by segment.** Paychex guides FY total revenue growth, Management Solutions growth, PEO & Insurance Solutions growth, interest on funds held for clients, adjusted operating margin, tax rate, and adjusted diluted EPS growth — plus a *quarterly* revenue/margin steer (Q2: rev ~+4%, adj op margin ~40%). This is the most granular guide in the batch, which is why the market punishes segment misses so precisely.
-(b) Consensus NEXT quarter (Q3 FY27): not cleanly found — **not found** as a published consensus figure in this research. Full-year FY27 consensus: EPS **$5.91** (MarketBeat, 8 est., $5.85–5.96), rising to **$6.33** next year (+6.2%); revenue consensus ~$6.86B (+5.4% on FY26's $6.51B).
-(c) Run-rate support: company guide is adj EPS growth **+7–9%** off FY26 adj $5.51 → **$5.90–6.01**, i.e. consensus $5.91 sits at the *bottom* of the guide range. Q1 adj EPS $1.34 (+10% YoY) is ahead of that pace; Q2 bar $1.28–1.32 (+2–5%) is *below* it, but Q2 is the guided-soft quarter (~4% rev, ~40% margin vs 42% in Q1). H2 must then deliver ~6% revenue growth to hit the FY midpoint — management said at the Nov 17 JPM conference that H2 cross-selling and Paycor synergies support it. **The forward number looks supportable, but only if Management Solutions re-accelerates to 5–6%** — Q1's 4% is the single number that matters.
-(d) Guide history — reaffirm-and-nudge, not raise-the-floor:
-- Q2 FY26 (2025-12-19): **raised** FY26 adj EPS growth to +10–11% (from 8–9%); total revenue steered to the *low end* of +16.5–18.5%. Stock +0.6% 48h.
-- Q3 FY26 (2026-03-25): **reaffirmed** FY26; raised interest-on-funds to $200–210m; $1.0B buyback. Stock +3.3%.
-- Q4 FY26 (2026-06-24): **initiated FY27** (rev +5–6%, adj EPS +7–9%, adj op margin ~44%). Stock −1.3%.
-- Q1 FY27 (2026-09-23): **reaffirmed** FY27 totals; **raised PEO/Insurance to +7–8%** (from 6–7%) and funds interest to $200–210m; guided Q2 rev ~+4%. Stock **−11.3%** — the reaffirm was read as a disappointment because the mix shifted.
-- Earlier prints (Q1 FY26 Sep 2025, Q4 FY25 Jun 2025): guide actions not verified — not found, not assumed.
-(e) **Has the guide been raised between quarters?** Only at the segment level: PEO/Insurance raised Sep 23; the headline FY27 totals have been **reaffirmed, not raised**, since initiation on Jun 24. That is the weakest guide momentum in the batch.
-
-### 6. How much is priced in
-Price $114.10 (2026-11-17; **−3.12% on the day**). **1 month +2.21%** (Finnhub); **3 months −4.9%** (from $119.93 close 2026-08-18 — my calc from Finnhub daily candles); 6 months +20.75%; YTD +1.71%; 1 year +3.77%. The 3-month figure hides the round trip: the stock hit its **52-week high $127.98 on 2026-09-01**, then fell to ~$98.50 on 2026-09-30 after the Q1 print (−23% in a month), then recovered to $114. Vs the high: **−10.9%**. Forward P/E **~17.5–18.1x** (screen 17.8x; FinanceCharts fwd 17.54x, 2026-11-13; other feeds 18.1–19.4x depending on EPS definition) vs 3-yr avg fwd 25.25x and 5-yr 26.29x, and vs a 5-yr trailing P/E range of ~16–39x (median ~28x, De Belegger). **PAYX is de-rated to the low end of its own range** — the September 9–11% selloff did the pricing-in work. Analyst price target avg ~$113–115 (Hold consensus) — the Street expects nothing. Options-implied move: **not found** (no published implied-move figure located; the Dec 18 option chain on Optionistics shows IV 39.3% overall and a 115 call wall / 110 put wall per SquawkFlow 2026-11-17, but no clean earnings straddle quote). Against reaction_avg_abs_move 4.1%: the last four prints moved −9%, −2%, +3%, +2% next session (screen) — but the 48-hour moves were −11.3%, −1.3%, +3.3%, +0.6%, so a ±4% swing is the *minimum* expectation and −11% is in the recent distribution. **Crowded? No — the opposite**: the stock is 11% off its high a month after a −11% earnings day, the consensus rating is Hold, and the price target sits *at* the price. The risk is not crowding; it is that the market has decided the Q1 mix-shift story (Management Solutions ex-growth) is the real story, and it will need a clean Q2 segment split to change its mind.
-
-### 7. Moat / AI-irreplaceability — 7/10
-Paychex serves ~800k+ small/mid-sized US employers with payroll, HR, benefits and PEO — a switching-cost business (payroll is mission-critical, tax-compliance risk makes clients sticky, and PEO co-employment deepens the lock-in). Payroll is now <40% of revenue (vs 70–75% historically, per the Nov 17 JPM conference) as advisory/PEO/insurance grow — that diversification is the moat widening, not narrowing. Can customers in-source it? A 20-person firm cannot run its own payroll-tax, benefits and workers'-comp stack — the whole point of Paychex is that it is cheaper than in-house. Can AI route around it? This is the genuine question: AI-native HCM (Rippling, Deel, Gusto) and Paychex's own AI push (WISE engine, 600+ AI features at Q4, 2,000+ agents/features by Q1 FY27, 5x AI investment) mean the *interface* is being commoditised — but the regulated plumbing (tax filing, PEO co-employment, insurance) is not. Paychex is the incumbent using AI to defend, not the disruptor being displaced — yet. **If it gaps down 15% and I hold 18 months: opportunity with an asterisk** — a 4%+ dividend yield (per RockFlow; $1.19/qtr dividend paid in Q1 FY27), ~40% operating margins, and a de-rated multiple make it a holdable compounder; the asterisk is that a structural Management Solutions ex-growth print would re-rate it as a melting ice cube, and 18 months is long enough for that to show.
-
-### 8. Risks specific to THIS print
-- **The segment split is the whole print.** Management Solutions must print 5–6%; Q1 printed 4% and the stock lost 11%. A second consecutive sub-guide print confirms the mix-shift is cannibalisation, not accounting.
-- **Q2 is guided soft on purpose (~4% rev, ~40% margin)** — the market knows, but the two prior-year one-offs (acquisition revenue synergy + realised portfolio gains) make the optics worse than the underlying ~6% ex-items growth. Any miss *below* the soft guide is a double disappointment.
-- **Flat employment**: the FY27 guide assumes flat employment levels and stable demand; any macro softening hits worksite-employee growth (PEO's engine) directly.
-- **Cash flow**: Q1 operating cash flow fell 42.4% YoY to $413.5m (see addendum) while dividends paid were $424.1m — the dividend exceeded quarterly operating cash flow in Q1. Seasonal, but worth watching into Q2.
-
-### 9. Scores
-- **Beat-likelihood: 8/10** — 4 of 4 small beats, the bar is low (+2–5% EPS), management said at the Nov 17 JPM conference that Q1 was ahead of internal expectations; the penny-beat machine is reliable.
-- **Guide-risk: 6/10** — the FY27 totals are reaffirmed-not-raised and sit at consensus's bottom; the risk is not a cut but a *second* soft Management Solutions print forcing a segment guide trim, which is exactly what the market punished in September. (Higher = worse.)
-- **Priced-in: 4/10** — de-rated to ~18x fwd vs ~25–26x history, 11% off the high, Hold consensus with a target at the price; the September selloff already priced the bad mix story, so a clean segment split has room to re-rate.
-- **Verdict:** The most reliable beater in the batch, with the worst recent punishment for beating — a low bar and a de-rated price, but the market will judge the segment split, not the EPS penny.
-
-### 10. Plan A or Plan B?
-**Plan B, but the closest to A in the batch.** Wait for the number: the Q1 lesson is that a beat is not enough — only the Management Solutions growth rate matters, and it printed below guide last time. **A would require:** either (i) pre-print evidence that Management Solutions is back to 5–6% (not available — the JPM conference gave comfort on the *total*, not the segment), or (ii) acceptance that the 18x multiple + dividend already compensates for a second soft segment print. Neither is true today; check the Q2 segment split on Dec 18 and re-underwrite then.
-
----
-
-## Earnings-quality flag addendum — PAYX: RECEIVABLES_OUTRUN
-
-**Verdict: mostly benign business-model mix, amber — not a value-trap smoking gun, but the pace bears watching.**
-
-Facts (company 8-K/10-Q, 2026-09-23; FinanceCharts/YCharts): total accounts receivable (incl. PEO unbilled) **$2.296B at 2026-08-31, +16.63% YoY**, vs revenue **+5.9%** YoY in the same quarter. The build is persistent, not one quarter: $1.996B (+7.5%) at 2025-11-30 → $2.034B (+10.4%) at 2026-02-28 → $2.172B (+11.5%) at 2026-05-31 → $2.296B (+16.6%) at 2026-08-31. Split at Aug 31: accounts receivable, net **$1,615.9m** (from $1,507.6m at May 31) + PEO unbilled receivables, net **$680.2m** (from $664.2m).
-
-Benign explanation (strong): PEO is the growth engine (+12% in Q1) and **PEO unbilled receivables mechanically grow with worksite employees** — Paychex pays PEO wages/benefits before billing clients, so the receivable is a working-capital asset of a growing PEO book, not uncollected sales. Paycor (acquired Apr 2025) also added a receivables base that is still annualising in YoY compares. No single client is material to receivables (10-Q, Feb 2026).
-
-Watch items (why amber, not green): (1) Q1 FY27 **operating cash flow fell 42.4% YoY to $413.5m** (from $718.4m) while the receivables build consumed $73.3m of cash in the quarter (vs $18.9m a year earlier) — earnings are running ahead of cash conversion right now; (2) the **allowance for credit losses rose to $38.2m** (Feb 2026) from $23.8m a year earlier, with the 9-month provision at $29.1m vs $17.6m — small in absolute terms, but the direction is up; (3) the receivables growth rate (+16.6%) is *accelerating* while revenue growth (+5.9%) is decelerating — the gap is widening, not closing. If Q2 shows receivables growth still >2x revenue growth *and* operating cash flow down again, the benign story weakens materially. For this print, treat it as a **yellow flag to verify on the Q2 balance sheet, not a reason to disqualify** — the PEO mechanics explain most of it, but the cash-flow divergence is real.
-
----
-
-## Batch summary (for the consolidator)
-
-| Ticker | Date | Status | Bar (EPS / Rev) | Beat | Guide-risk | Priced-in | Plan |
-|---|---|---|---|---|---|---|---|
-| AZO | 2026-12-08 BMO | **CONFIRMED** (co. PR 2026-11-11) | ~$35.40 / ~$4.94B | 6 | 4 | 3 | **B** |
-| CTAS | 2026-12-17 BMO* | **ESTIMATED** (Dec 16 per Finnhub/FXEmpire) | $1.36–1.39 / ~$3.09B | 8 | 3 | 7 | **B** |
-| PAYX | 2026-12-18 BMO* | **ESTIMATED** (Dec 17 per TipRanks/Finnhub) | $1.28–1.32 / ~$1.62–1.66B | 8 | 6 | 4 | **B** (closest to A) |
-
-\* Both CTAS and PAYX dates must be re-confirmed against the company IR calendar before any hold decision — a one-day slip is live for both. Options-implied moves for all three: **not found** in public sources searched; do not use a fabricated straddle. Reaction history (screen next-session, most recent first): AZO +3%, −9%, −6%, −7%; CTAS −3%, +7%, −5%, +1%; PAYX −9%, −2%, +3%, +2%.
-
-## Sources (selected, all accessed 2026-11-18)
-- AZO date: GlobeNewswire/AutoZone PR 2026-11-11 ("before market open on Tuesday, December 8, 2026"); Zacks detailed estimates updated 2026-11-17 (BMO, confirmed).
-- AZO consensus: MarketBeat Q1 2027 ($35.41/$4.94B); Finnhub ($35.622/$4.995B); TwelveData ($35.39/$4.95B; revisions 10 down/30d); Zacks ($36.06/$4.95B; FY27 $170.30).
-- AZO prints: 8-K/press releases 2025-12-09 (Q1 FY26), 2026-03-03 (Q2), 2026-05-26 (Q3), 2026-09-22 (Q4); Motley Fool 2026-09-23 and 2026-05-26; CoinCodex earnings history (48h reactions); Trefis 2026-11-02 (Q1 FY27 SSS flat, FY27 SSS flat to low-single-digit, tariff refund $4.43/share).
-- AZO valuation/prices: Finnhub (close $3,279.12 2026-11-17; 1m +5.08%; 52-wk high $3,996.25, low $2,730.65; daily candles Aug–Nov 2026 for 3m calc); FinanceCharts (fwd PE 16.50x vs 3-yr 22.58x, 5-yr 22x).
-- CTAS prints/guide: Cintas press releases 2025-12-18 (Q2 FY26, raise), 2026-03-25 (Q3 FY26, raise), 2026-07-15 (Q4 FY26, FY27 initiation), 2026-09-23 (Q1 FY27, raise to $12.15–12.27B / $5.45–5.54); MarketBeat (date estimated Dec 17; FY27 consensus $5.53→$6.14); Zacks (Dec 17 estimated, $1.36); Finnhub/FXEmpire (Dec 16, $1.39/$3.09B).
-- CTAS UniFirst/FTC: Semafor via Reuters 2026-10-27 (FTC indicated intent to sue; not voted); ArbLens Weekly 2026-11-01; UniFirst 8-K 2026-10-21 (timing agreement, no close before Dec 11, 2026; $350m reverse fee; close expected by end-2026).
-- CTAS valuation/prices: Finnhub (close $222.20; 1m +3.98%, 6m +27.33%; 52-wk $161.16–$233.46; daily candles); FinanceCharts (fwd PE 36.23x vs 3-yr 43.08x); TickerLandia (trailing PE 44.2x vs 4-yr median 40.5x); Trefis 2026-11-12 (+39.7% May 13–Nov 11; TTM op margin 23.4%, 10-yr high).
-- PAYX prints/guide: Paychex 8-K/press releases 2025-12-19 (Q2 FY26), 2026-03-25 (Q3), 2026-06-24 (Q4 FY26, FY27 initiation), 2026-09-23 (Q1 FY27, reaffirm + PEO raise, Q2 rev ~+4%); Tikr 2026-09-24 (−8.8% day, Mgmt Solutions +4%); MarketBeat (Dec 18 estimated; FY27 consensus $5.91); Zacks (Dec 18 estimated, $1.30); TipRanks/Finnhub (Dec 17, $1.28/$1.302).
-- PAYX receivables: Paychex 8-K 2026-09-23 (AR $1,615.9m + PEO unbilled $680.2m at Aug 31; OCF $413.5m, −42.4% YoY; dividends $424.1m); FinanceCharts (AR $2.296B +16.63% YoY at Aug 31, 2026; $2.172B +11.54% May 31; $2.034B +10.37% Feb 28); 10-Q Feb 2026 (allowance $38.2m vs $23.8m).
-- PAYX valuation/prices/JPM: Finnhub (close $114.10; 1m +2.21%, 6m +20.75%; 52-wk $85.45–$127.98; daily candles); FinanceCharts (fwd PE 17.54x vs 3-yr 25.25x, 5-yr 26.29x); ad-hoc-news 2026-11-17 (JPM conference: Q1 ahead of expectations, payroll <40% of revenue, AI 5x investment).
+Additional nuance recorded: NTAP's Q1 FY2027 +2.55% close masks a ~−10% intraday open on 2026-09-03 — the market punished the print first, then bought it back the same day.

@@ -1,0 +1,40 @@
+> Run by: Muse Spark (muse-spark-1.3) — full panel
+
+# Ballot A — Mean-reversion / catalyst analyst — run 2026-11-20
+
+Lens: strength and timing of the rebound catalyst, and evidence the drop is temporary, above all. Judged on the consolidated dossier and the screen only; no fresh web research beyond sanity-checking dossier claims.
+
+## Single-pick ballot
+
+- **Top pick:** MU
+- **Runner-up:** LRCX
+- **Thesis (3-5 sentences):** MU is the fastest-dated snap-back in the field: it is down 43.1% from its 52-week high on a sector-wide political de-rating, yet it just reported a record quarter and guided Q1 FY27 to record revenue of USD 61.5bn plus or minus USD 1.5bn, non-GAAP EPS of USD 38.15 plus or minus USD 1.00, and gross margin of about 86.25%. The screen shows forward P/E of 3.3 and analyst upside of plus 126%, the deepest drawdown-plus-cheapest combination in the dossier, with net cash of USD 68.3bn behind it. Two dated triggers arrive within weeks — the buyback unlock on 9 Dec 2026 and Q1 FY27 earnings on 17 Dec 2026 — so a beat-and-raise re-anchors the peak-pricing fear almost immediately, rather than in a quarter or two. Nvidia's 17 Nov beat-and-raise, with Q4 guide of USD 130bn, already rebuts the demand-collapse story for the memory complex that MU supplies.
+- **Why the dip is temporary (not permanent):** The single most compelling evidence is that the fall followed a record quarter and a raised guide, not a miss: the 5 Nov sell-off was a sector-wide repricing on post-midterm data-centre restriction fears, with SOX down 12.25% that day, and MU fell 17.5% on 5 Nov alone despite no demand collapse in its own numbers. Demand is contracted, not hoped for — over 75% of 2027 output is already committed, backed by about USD 134bn in take-or-pay remaining performance obligations and USD 12.75bn of customer deposits received in FY2026. That is a price-and-sentiment drop, not a lost-customer or lost-moat drop.
+- **Moat / AI-irreplaceability:** Medium risk — and the weakest moat among my top 3. Memory is a commodity oligopoly: MU is number 3 in DRAM at about 24% share and number 3 in HBM at 18%, behind SK Hynix at 50% and Samsung at 33%, with Samsung gaining HBM share rapidly and CXMT ramping. AI cannot route around memory — every accelerator needs HBM, and HBM4 is sold out for 2026 — but AI does not protect MU from other memory makers, so pricing power comes from an industry-wide shortage, not a MU-specific moat. Dossier irreplaceability score: 6/10.
+- **Rebound catalyst & timing:** Buyback unlock on 9 Dec 2026 — the board raised the repurchase authorisation to USD 35.16bn on 8 Oct 2026, CHIPS Act restrictions lapse 9 Dec, and management intends to return 100% of excess cash over time, primarily via buybacks, after buying back only USD 650m in FY2026 because of the restriction. Then Q1 FY27 earnings on 17 Dec 2026, guided to the record figures above. Timing: December 2026, the nearest hard catalyst in the whole 15-name field.
+- **12-18 month return scenario:** Base case, roughly plus 40-60%: the December print confirms pricing has not peaked yet, the buyback flow starts, and the 3.3x forward multiple re-rates part-way toward a normal cyclical multiple while contracted 2027 demand holds. Bull case, roughly plus 100% or more, toward the screen's plus 126% analyst upside: HBM pricing holds through 2027, the take-or-pay book converts at high margins, and the market stops pricing MU as a peak-cycle trap. Both cases are rough, anchored to the dossier's screen upside, not to a new price target.
+- **Top risk (value-trap case):** The classic memory trap, stated plainly: peak earnings at peak margins — 86% gross margin is not a through-cycle number — with GF Securities forecasting NAND prices flat in Q1 2027 then down in each of the next three quarters, smartphone and PC shipments down double digits in 2027, and supply bit growth of 28% in 2027 and 30% in 2028. If data-centre build-outs genuinely slip and NAND prices fall three quarters in a row, FY2027-28 EPS could fall 50-80% as in 2018-19 and the 3.3x P/E becomes 15x overnight. The USD 134bn take-or-pay book mitigates but does not eliminate this, and MU's dossier verdict is explicitly mostly transitory with a real cyclical clock ticking — this is a cyclical trade, not a compounder, and it should be sized that way.
+- **Conviction (1-10):** 7
+
+## Ranked ballot
+
+1. MU — Dec buyback plus earnings snap-back
+2. LRCX — Record quarter, USD 25bn buyback floor
+3. AMAT — Cheapest equipment, record guide
+4. VRT — Orders doubled, minus 51% policy dip
+5. FIX — Backlog plus 90%, estimates rising
+6. GOOGL — Cloud doubling, 18x forward
+7. BKNG — 12x, USD 12.4bn buyback, AI fear unproven
+8. META — Ad engine plus 26%, Jan FCF test
+9. CAT — Backlog plus 96%, at 52-week low
+10. TPR — Coach plus 16%, guide raised
+
+### Top 3 — the single most compelling temporary-dip plus intact-moat (or rebound-catalyst) point
+
+**1. MU.** The temporary-dip proof is the combination of a record quarter and a contracted order book — over 75% of 2027 output committed with about USD 134bn take-or-pay — against a 43.1% drawdown driven by the 5 Nov political repricing, not a company miss. The moat is the weak link (number 3 in DRAM and HBM), but the catalyst is the strongest-timed in the field: buyback unlock 9 Dec and record-guided earnings 17 Dec 2026. Rough 12-18 month scenario: base roughly plus 40-60% on a partial multiple re-rate if December confirms pricing has not peaked; bull roughly plus 100% or more toward the screen's plus 126% analyst upside if HBM pricing holds through 2027.
+
+**2. LRCX.** The cleanest temporary-dip case in the dossier: it fell about 16% in the week ended 6 Nov, including minus 16.4% on 5 Nov, *after* reporting its best quarter on record on 21 Oct, with no company-specific operational setback — the constraint cited was Lam's own component supply, not weak orders. The moat is near-best in class at 9/10: number 1 in etch at about 45-50% share, with cryogenic etch described as the only proven high-volume path for HBM4 TSVs, and etch intensity rising with every node transition. Rough 12-18 month scenario: base roughly plus 40-60% as the USD 25bn buyback announced on the evening of 5 Nov and WFE above USD 200bn in 2027 (Bernstein: USD 217bn in 2027) flow through, with the 27 Jan 2027 print as the proof point; bull roughly plus 70-80%, toward the screen's plus 77.8% analyst upside, if the 2027 WFE step-up lands in full.
+
+**3. AMAT.** The temporary-dip proof is the most recent: Q4 FY2026 reported 12 Nov, *after* the worst of the sell-off, was a record — revenue USD 10.41bn, plus 53% year on year, non-GAAP EPS USD 4.16, plus 92% — yet the stock still fell 3.6-4% that day and about 6% on 13 Nov as firms cut price targets while keeping Buy-equivalent ratings. The moat is breadth at 8/10: number 2 overall equipment vendor, number 1 in deposition, with Q1 FY27 guided above consensus at USD 11.1bn revenue and USD 4.35 non-GAAP EPS. Rough 12-18 month scenario: base roughly plus 35-55% as the cheapest equipment multiple in the batch (forward P/E 13.8) re-rates on the record guide; bull roughly plus 60-70%, toward the screen's plus 65.8% analyst upside and Bernstein's USD 600 target, if 2027 is another record WFE year as management expects.
+
+Left out of my top 10: KLAC, INTU, HOOD, NEM, ADBE — KLAC has the widest moat (10/10) but the rebound is a slow margin grind into mid-to-late 2027 and it is the least cheap in the equipment batch; INTU is a tax-season verification trade with a company-admitted AI hit at Credit Karma and a guidance cut on 19 Nov; HOOD needs a crypto-volume turn with no dated catalyst until 10 Feb 2027; NEM is a gold-price and Fed call (rebound 5/10), not a company rebound; ADBE is the clearest suspected value trap in the field — historically cheap at about 9x forward versus a 23x five-year average, but the dossier verdict is that the AI-substitution repricing is mostly structural, not cyclical, with AI-first ARR only about 2.4% of total ARR.
