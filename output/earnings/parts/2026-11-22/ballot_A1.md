@@ -1,0 +1,38 @@
+> Run by: Muse Spark (muse-spark-1.3) — full panel
+
+# Ballot A1 — Earnings-momentum analyst (Agent A) — 2026-11-22
+
+## 1. Single-pick ballot
+
+- **Top pick:** VEEV
+- **Runner-up:** CTAS
+- **Thesis (3-5 sentences):** Veeva has the cleanest earnings-momentum record in the field: four straight prints beating on both EPS and revenue, with revenue growth accelerating to 17.6% and a fourth consecutive guide raise at the last print. The stock has been de-risked into the print, down 17.0% in a month and 12.0% in five sessions, so a beat-and-raise is not being chased from a high. The catch is that the bar is set at the very top of management's own guide, so this is a bet on a fifth consecutive raise, not on the Q3 beat alone. That is the highest-probability beat-and-raise setup here, but only if the guide clears — which is why the entry plan below is to wait for confirmation rather than hold through the print.
+- **Key evidence from the record:** 4/4 clean beats on both lines, revenue accelerating 16% → 16% → 16.3% → 17.6%, subscription growth 15–17%, Q1 FY27 billings up 18.4% year over year, and four guide raises in four prints (three raises plus one above-Street initial guide).
+- **Priced-in risk (THE TRAP):** Low. The stock is down 17.0% in one month, 12.0% in five sessions, 18.3% below its 52-week high and well below its 50-day average, with a forward P/E of 25.9x below its own 3–5 year range and a consensus target implying about 19% upside. The offsetting caution is that the slide may itself reflect the market already suspecting Q4 guide softness, and the options-implied move of 13.5% is much larger than the realised 9.1% average — so the market still expects a big move either way.
+- **The guide:** The next-quarter number the market is carrying is Q4 FY27 consensus EPS 2.31 on revenue of about 940M. The run-rate does not support it on arithmetic alone: the implied Q4 guide derived from management's own FY outlook is revenue about 938–943M and EPS about 2.28–2.29, so consensus EPS sits slightly above the implied guide. If management merely guides Q4 to the remainder of its already-raised FY outlook, the guide prints a touch below consensus — a "beat but guided soft" loss case, and the named loss case for this pick. The guide clears the bar only if management raises the FY outlook a fifth consecutive time.
+- **Plan B**, with one sentence of justification. Plan B (enter after the print on a confirmed beat-and-raise with a positive first session) is the right call because the Q3 beat is highly likely but the Q4 guide must beat a consensus that sits above the implied remainder of the current outlook, so holding through the print pays for a guide outcome that is not yet in hand.
+- **Fallback if the print disappoints:** Yes, I would hold it 12–18 months. Veeva is the system of record for life sciences with GxP validation lock-in, Vault CRM live at 200-plus customers with 14 of the top 20 committed, subscription growth of 15–17%, and about 7.1B in net cash — a gap on a soft guide is an opportunity, unless the gap is a Vault CRM migration failure, which would change the thesis.
+- **Event scenario:** beat-and-raise +10–16% / in-line (meet guide) −5–10% / miss −10–15%
+- **Top risk:** Management raises Q3 but guides Q4 only to the arithmetic remainder of the FY outlook, printing below the 2.31 consensus EPS — a beat that still sells off, exactly as Q3 FY26 (−9.8% on a beat-and-raise) and Q1 FY27 (flat on a beat-and-raise, then drifting −9% by mid-June) already showed.
+- **Conviction (1-10):** 7
+
+**Plain statement on actionability:** VEEV is a watchlist name, not an actionable-this-week trade — it reports Thu 2026-12-03 AMC, 11 days out. The actionable names this week are A (Mon 2026-11-23) and ADSK (Tue 2026-11-24); neither beats VEEV on this lens, so my single pick is the watchlist name and the trade is to wait for its print rather than force an actionable pick.
+
+## 2. Ranked ballot
+
+1. VEEV — Four clean beats, accelerating revenue
+2. CTAS — Accelerating revenue, four straight raises
+3. ADSK — Twelve straight beats, cheapest priced-in
+4. A — Big beats, but fourth raise expected
+5. PAYX — Small beats, reaffirmations punished
+6. AZO — Revenue missed four straight prints
+
+### Top 3 detail
+
+**1. VEEV.** The most compelling record in the field is 4/4 clean beats on both lines with revenue accelerating to 17.6% and Q1 billings up 18.4%, plus four consecutive guide raises. The reaction record warns that the market pays for the guide, not the beat: Q2 FY27 jumped 16.4% and Q4 FY26 about 11%, but Q3 FY26 fell 9.8% and Q1 FY27 was flat despite beats and raises. The guide risk is the whole trade — Q4 consensus EPS of 2.31 sits above the 2.28–2.29 implied by the current FY outlook, so only a fifth raise clears it, and the CFO's Investor Day "meet or exceed" reiteration caps upside surprise. Priced-in risk is low after a 17.0% one-month slide, though that slide may already price guide softness. Rough moves: beat-and-raise +10–16% / in-line −5–10% / miss −10–15%. **Plan B.**
+
+**2. CTAS.** The most compelling setup data point is accelerating revenue — Q1 FY27 up 10.9%, the first 3B-plus quarter, organic growth 8.2–8.4%, with gross margin at all-time highs (51.0%) and operating margin at 23.1%. The reaction record is a coin flip on raises: Q1 FY27 fell 3.4% on a beat-and-raise, Q4 FY26 rose 4.4% on a raise, with an average move of only +0.4% and 2.5% average absolute. The guide risk is high — consensus FY27 EPS of 5.54 sits exactly at the top of the raised guide range of 5.45–5.54, so the market needs a fifth consecutive raise and a mere reaffirmation reads as a miss. Priced-in risk is high: the stock is only 5.8% below its 52-week high after a 27.7% six-month run, at 35.7x forward earnings and sitting at the average analyst target, with the FTC-UniFirst outcome binary and unpriced. Rough moves: beat-and-raise +3–7% / in-line reaffirm −3–5% / FTC block headlines −10% or more regardless of the quarter. **Plan B.**
+
+**3. ADSK.** The most compelling record data point is 12/12 EPS beats and 12/12 revenue beats, with the last four EPS beats including Q2 FY27 at 3.30 versus 3.12 consensus. The reaction record is muted for that streak — researched moves of +2.3%, −2.4%, +9.4% and +4.0%, averaging about 4.5% absolute — and the momentum underneath is softening, with billings decelerating to +10% from +18% in Q1 and RPO up only 2% while headline revenue decelerates 19% → 18% → 16%. The guide risk is moderate: Q4 consensus EPS of 3.18 sits inside the implied FY guide range, but FY27 EPS consensus of 12.62 is already above management's guide top of 12.60, and the EPS and free-cash-flow raises keep shrinking as MaintainX dilutes earnings and cash. Priced-in risk is low on price — 23.6% below the 52-week high, down 17.4% year to date, 17.2x forward earnings with a consensus target implying 17–27% upside — but that cheapness reflects a real overhang in leverage, integration and billings deceleration. Rough moves: beat-and-raise +4–6% / in-line −3–4% / miss or soft guide −6–9%. **Plan B (closer call).**
+
+Left out of my top 3: A, PAYX and AZO. A has big beats but a Q1 FY26 miss breaks the streak, consensus EPS was revised down 0.8% in 30 days, and the market expects a fourth straight raise with the whisper above the guide top. PAYX beats are small (Q1 FY27 only +1.5%) and reaffirmations have been punished twice running, with an average next-session move of about 0.0%. AZO is last because revenue missed 4/4, comps decelerated to 1.5% with domestic DIY comps negative, revisions ran net negative (2 up, 10 down) and the stock fell on 3 of the last 4 prints.
