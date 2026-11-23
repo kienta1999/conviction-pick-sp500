@@ -1,0 +1,43 @@
+> Run by: Muse Spark 1.3 — full panel
+
+# Panelist C (quality / moat & irreplaceability) — Earnings 2026-11-23
+
+## 1. SINGLE-PICK BALLOT
+
+- Top pick: VEEV
+- Runner-up: CTAS
+- Thesis (3-5 sentences): Veeva is the hardest business in this field to kill: Vault and Vault CRM are the GxP-validated system of record for life-sciences operating workflows, with audit trails and compliance data models a generic CRM cannot replicate, and 14 of the top 20 biopharmas are already committed to Vault CRM. Revenue is accelerating (16.0% → 16.3% → 17.6% YoY) on a subscription base growing 16%, with a 45% non-GAAP operating margin and ~75% gross margin — the compounding machine is intact and the print is a check on it, not a one-quarter event. The November software selloff has de-risked the price (−18% in a month, −18.4% off the 52-week high) while the business itself kept raising guidance every quarter. This is the one name where a post-print dip on multiple fears would be a buying opportunity rather than a warning.
+- Key evidence from the record: the single most compelling data point is the combination of 8/8 EPS beats over eight quarters with revenue acceleration into the print (Q2 FY27 +17.6% YoY, subscription +16%) at a 45% non-GAAP operating margin and $7.2B net cash — a validated, recurring, high-margin franchise still speeding up.
+- Priced-in risk (THE TRAP): low. The stock fell 17.6% in a month and 11.7% in five sessions into the print on a sector-wide AI/software de-rating, not Veeva-specific news; the options-implied move of ±13.3% is only ~1.5× the name's 9.13% historical average absolute move — the smallest premium in the batch — and the dossier scores priced-in 3/10. The trap is not euphoria; it is that consensus sits on top of the guide, so a mere meet reads as a miss.
+- The guide: the next-quarter number the market is carrying is Q4 FY27 consensus EPS $2.35 on revenue ~$963M, against a full-year FY27 consensus of EPS $9.22 / revenue ~$3.685B. The run-rate does NOT fully support it without a raise: Q1 $2.24 + Q2 $2.35 + Q3 $2.34 (consensus) = $6.93 implies Q4 ≈ $2.28 at the current FY guide (~$9.21), about $0.07 below the $2.35 consensus, with a ~$22M revenue gap the same way. "Beat but guided soft" is the loss case here in its purest form — a Q3 beat with only a reiterated FY guide leaves the Q4 consensus unachievable, and the market has already sold Veeva on beats twice in the last four prints (−2% in Q1 FY27, −10% in Q3 FY26) when the guide disappointed.
+- Plan A or Plan B, with one sentence of justification: Plan B — the bar is the top of management's own guide, the Q4 consensus requires a raise that has not yet been delivered, and options still charge a 13.3% move, so wait for the confirmed beat-and-raise and buy the print, not the anticipation of it.
+- Fallback if the print disappoints: yes, I would happily hold it 12–18 months. A 15–16% grower at ~26× forward with $7.2B net cash, a $6B revenue run-rate ambition by 2030, and a validated GxP stack that no top-20 pharma can plausibly rebuild in-house is exactly the kind of business you want to be stuck holding; the only thing that would change that is evidence the Vault CRM migration itself is stalling, not a soft quarter.
+- Event scenario: beat-and-raise +10% to +15% (the Q2 FY27 beat-and-raise printed +15%); in-line / beat-with-reiterated-guide −5% to −10% (beats have fallen −2% and −10% on guide disappointment); miss or soft guide −10% to −15%.
+- Top risk: the FY27 guide is merely reiterated rather than raised, leaving the Q4 consensus ($2.35 EPS / ~$963M revenue) above the guide-implied run-rate — plus a sector-wide software multiple de-rating that punishes even a good print.
+- Conviction (1-10): 7
+
+## 2. RANKED BALLOT (whole field, quality/moat lens)
+
+1. VEEV — GxP-validated industry cloud, accelerating
+2. CTAS — Route density, contracted recurring revenue
+3. ADSK — File-format lock-in, de-rated to 17x
+4. A — Regulated QC labs, real switching costs
+5. AZO — Physical distribution, immediacy moat
+6. PAYX — Sticky SMB payroll, AI-native threat
+7. NTAP — Storage OS, commoditizing hardware market
+
+### Top 3 in detail
+
+**1. VEEV.** The most compelling record in the field: 8/8 EPS beats over eight quarters, revenue accelerating to +17.6% YoY with subscription +16%, a 45% non-GAAP operating margin, ~75% gross margin, 1,552 customers and $7.2B net cash. Reaction record is binary and guide-dependent — +15% on the Q2 FY27 beat-and-raise, but −2% and −10% on beats where the guide disappointed — so the print is won or lost on the FY27 raise, and the Q4 consensus ($2.35 EPS / ~$963M revenue) sits ~$0.07 / ~$22M above the guide-implied run-rate, making the raise mandatory. Priced-in risk is low (3/10): −18% in a month on a sector selloff, implied move only 1.5× the historical average. Rough moves: beat-and-raise +10% to +15%, in-line −5% to −10%, miss −10% to −15%. Plan B.
+
+**2. CTAS.** The best operator in the batch on quality: a route-based uniform rental and facility-services network serving 1M+ businesses, ~3× the #2 by market cap, contracted recurring revenue, record gross margin of 51.5% and record operating margin of 23.6%, with guidance raised at each of the last five prints and organic growth of ~9%. Reaction record is a coin flip despite the raises (−3%, +7%, −5%, +1% over the last four), including a −3% selloff on the Q1 FY27 beat-and-raise — the market is not paying for raises anymore. Guide risk is real: FY27 consensus EPS of $5.54 sits at the very top of the raised guide ($5.45–5.54), so anything short of another raise disappoints, and the FTC/UniFirst binary (deal cannot close before Dec 11, 2026; FTC signalled it may sue to block) can move the stock more than the quarter. Priced-in risk is high (7/10): +27% in six months, ~6% off all-time highs, 35.7× forward for a ~9% grower. Rough moves: beat-and-raise +3% to +7%, in-line −3% to −5%, miss or FTC headline −8% to −12%. Plan B.
+
+**3. ADSK.** The file-format moat is genuine — AutoCAD/Revit/Fusion are the workflows of record for architecture, engineering and construction, with DWG/Revit files, trained staff and liability sign-off making switching enormously costly — and the business prints a 92–93% gross margin with a 12/12 EPS-beat streak and revenue growing 15–16%. Reaction record is respectable (+6%, −4%, +5%, +2% last four; up 8 of the last 12 prints), but the Q1 FY27 beat still fell −2.4%, and the live moat question is the print's real test: billings (+10% in Q2) already lag revenue (+16%), and if AI agents do more design work, per-seat pricing breaks — a further billings deceleration would be read as the seat model breaking. Guide risk is moderate (6/10): the Q4 FY27 implied EPS of ~$3.16–3.24 requires a clean seasonal step-up, and the FY27 guide has already been raised once. Priced-in risk is low-moderate (4/10): −23.6% below the 52-week high, YTD −17.4%, de-rated to 17.2× forward, though options still charge ~±9% versus a 4.89% historical average. Rough moves: beat-and-raise with billings re-acceleration +5% to +9%, in-line +/−3%, billings miss −8% to −12%. Plan B.
+
+### Names left out of the top 3 and why
+
+A (4th): real switching costs in regulated pharma QC labs, but Thermo Fisher, Waters and Danaher are credible substitutes, growth is cyclical on China/biotech capex, and the stock is +48.7% in six months and 6% off highs with priced-in risk 7/10 — the moat is good, the entry is not. Note on timing: A reports TODAY, Mon 2026-11-23 AMC (call 1:30 p.m. PT), so a Plan A entry would have to be by today's close; I am not nominating A, and the crowded run into a first-FY27-guide print is part of why. AZO (5th): the largest US auto-parts retailer with a genuine immediacy/distribution moat (8,031 stores, Mega Hubs), but revenue has missed four straight quarters, DIY comps were −0.6% in Q4, and the CFO who framed the LIFO/tariff accounting resigned Oct 20 with no successor named — the moat is intact but the print tests a softening business, not a compounding one. PAYX (6th): sticky SMB payroll with high switching costs and a 40% operating margin, but AI-native rivals (Gusto, Rippling, Deel) attack the low end, client headcount shrinkage directly shrinks seats, and the market sells its beats (average reaction −1.38%). NTAP (7th): ONTAP has a real installed base, but storage is ultimately a competitive hardware/software market, the Q1 FY27 acceleration (+29.9% revenue) was partly pull-forward and a 53rd week, and FY27 consensus EPS of $10.05 sits above the top of management's own $10.03 guide — the weakest moat in the field facing the hardest guide test.
+
+### Left out of top N
+
+None — I ranked all 7 names in the field.
