@@ -1,0 +1,33 @@
+> Run by: Muse Spark 1.3 (muse-spark-1.3) — full panel
+
+# Ballot B1 — Panelist B (Setup / Positioning Skeptic) — RUN_DATE 2026-11-24
+
+## Single-pick ballot
+
+- **Top pick:** VEEV
+- **Runner-up:** PAYX
+- **Thesis (3-5 sentences):** Veeva is the only name in the field where the price has already done the punishing: −16.8% in 21 sessions and −17.6% below its 52-week high, after a May–October run from ~$158 to $323 that has now given back a chunk. The print itself is the strongest in the field on the record — revenue growth accelerating 16.0% → 16.0% → 16.3% → 17.6% YoY, EPS beats 8 of 8 quarters by +4.6–6.2%, and the FY27 guide raised twice (June and August). That combination is not in the price at $268.65: the options market charges ±13.0% against a 9.13% average realised move (1.4×), the smallest premium in the field, and under the Zacks sample the Q4 forward bar ($2.29) is essentially the guide-implied number ($2.28), so a mere reiteration nearly suffices. The trap here is the narrowest in the field — the danger is the bar sitting at the top of guide, not a price that has already run.
+- **Key evidence from the record:** Q2 FY27 beat EPS by +5.4–5.9% ($2.35 vs $2.22–2.23) on revenue +17.6% YoY, raised FY27 to revenue $3.682–3.687B / EPS ~$9.21, and the stock reacted +15% — the biggest single-print reward in the field, on a beat streak that has never missed in 8 quarters.
+- **Priced-in risk (THE TRAP):** Low. ret_21d −16.8%, −17.6% off the $325.99 high, implied move only 1.4× the name's own average absolute move, priced-in 3/10. The residual trap is not the price but the bar: consensus sits at the very top of Q3 guide on both lines ($2.33–2.34 / $934–935M), and the Finnhub consensus sample ($2.39 / $953.68M) sits above management's own guide — if the market is anchored on that sample, a beat of the Zacks bar still reads as a guide cut.
+- **The guide:** Next-quarter (Q4 FY27) consensus is EPS $2.29 / revenue $940.75M (Zacks); FY27 consensus EPS $9.22. The run-rate supports it: FY27 guide ~$9.21 minus the first three quarters ($2.24 + $2.35 + $2.34 consensus = $6.93) implies Q4 ≈ $2.28, so Zacks' $2.29 needs no raise — but Finnhub's $2.35 Q4 sample would require one. "Beat but guided soft" is the loss case: if Veeva beats Q3 and merely reiterates while the market is anchored on the higher Finnhub sample, or guides Q4 below $2.29, the Q3 FY26 pattern (−10% on a beat) repeats.
+- **Plan A or Plan B**, with one sentence of justification. **Plan B** — the implied ±13.0% still exceeds the name's 9.13% average move and the bar is the top of guide, so a new position should wait for the print; holding an existing position through it is the only defensible hold-through in the field.
+- **Fallback if the print disappoints:** Yes, hold it 12–18 months — a 15–16% grower at 26.19× forward with $7.2B net cash, a $6B-by-2030 revenue runway, and the deepest moat in the field (8/10) is exactly what you want to be stuck holding; a gap down on multiple fears is an opportunity, not a thesis break.
+- **Event scenario:** beat-and-raise +10% to +15% (Q2 did +15%); in-line / mere reiteration −2% to −10% (the last two beat-and-fall prints were −2% and −10%); miss −10% to −15%.
+- **Top risk:** Consensus is pinned to the top of guide and the vendor split (Zacks $2.29 vs Finnhub $2.35 for Q4) means a good print can still be framed as a guide disappointment; Salesforce reports Dec 2, the day before, and a weak CRM print could set a sour software tone into Veeva's print.
+- **Conviction (1-10):** 6
+
+## Ranked ballot
+
+1. VEEV — Selloff de-risked; beats still pay.
+2. PAYX — Cheapest straddle; beats get sold.
+3. ADSK — Best beater; rally ate the discount.
+4. AZO — Market sells its beats; rich straddle.
+5. CTAS — Priced for next raise; FTC coin-flip.
+
+**1. VEEV.** The setup is the cleanest in the field: −16.8% in 21 sessions has de-risked the price while the record — 8/8 beats, revenue accelerating to +17.6%, guide raised twice — is intact, and the reaction record still pays (last four +15%, −2%, +4%, −10%; beat-up rate 0.625, average move +4.3%). Guide risk is the lowest in the field under the Zacks sample (Q4 $2.29 ≈ guide-implied $2.28), though the Finnhub $2.35 sample is the trapdoor. Priced-in risk is low (implied ±13.0% vs 9.13% average, 1.4×); rough moves +10–15% / −2–10% / −10–15%. Plan B — hold if owned, do not initiate into the print.
+
+**2. PAYX.** The only name whose implied move (±3.5%) sits below its own average absolute move (4.13%), the bar is management's own soft ~4% growth guide, FY27 consensus $5.96 sits at the guide midpoint ($5.90–6.01) so no raise is required, and the stock is down −3.7% in 21 sessions at 17.61× forward with a verified ~4.2% dividend. The reaction record is what blocks it from the top: beat-up rate 0.571 but the average reaction is −1.38% — beats get sold — with last four −9%, −2%, +3%, +2%, including a −9% selloff on a Q1 beat. Priced-in risk is low, guide risk is low (4/10); rough moves +3–5% / −2–4% / −5–9%. Plan B, narrowly the closest to A in the field.
+
+**3. ADSK.** The most reliable beater in the field (12/12 EPS beats, 12/12 revenue beats; last four +6%, −4%, +5%, +2%; beat-up rate 0.625) — and the worst timing in the field. It reports TODAY, after rallying +4.4% on Nov 23 alone (ret_21d flipped from −4.1% to +1.2%), the implied move has widened to ±10.5% against a 4.89% realised average (2.1×), FY27 consensus $12.61–12.62 has crept above the guide top ($12.60), and Deutsche Bank has publicly previewed the raise, so the raise is expected rather than a surprise. Guide risk is the highest in the field (7/10): Q4 consensus $3.26 / $2.26B sits above guide-implied $3.16–3.24 / $2.185–2.235B on both lines. Priced-in risk is medium and rising; rough moves +5–9% / −3–6% / −8–12%. Plan B — the Plan A window has closed for a new entry.
+
+**Names deliberately left out of the top 3:** AZO and CTAS. AZO ranks 4th: its reaction record is the most hostile in the field (last four +3%, −9%, −6%, −7%; revenue missed 4 straight quarters; beat-up rate 0.333 on only 3 measured beats, not judgeable) and its ±8.7% implied move is 2.1× its 4.20% average, with an interim CFO delivering the Dec 8 print. CTAS ranks last (5th): the best business and the worst setup — ~4% off its all-time high after +29% in six months at 36.31× forward, price above the mean analyst target ($218.44 vs $223.68), FY27 consensus EPS $5.54 already at the top of the raised guide after five straight raises, a coin-flip reaction record (−3%, +7%, −5%, +1%), and an FTC binary on UniFirst with the Dec 11 earliest-close gate landing six days before the Dec 17 print — the quarter may be decided by a headline, not the number.
