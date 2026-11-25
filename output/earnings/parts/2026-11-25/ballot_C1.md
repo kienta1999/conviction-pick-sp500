@@ -1,0 +1,35 @@
+> Run by: Muse Spark 1.3 (muse-spark-1.3) — full panel
+
+# Ballot — Agent C (Quality / Moat & Irreplaceability) — RUN_DATE 2026-11-25
+
+## Single-pick ballot
+
+- **Top pick:** VEEV
+- **Runner-up:** CTAS
+- **Thesis (3-5 sentences):** Veeva is the one name in this field where the moat, the price, and the print all point the same way. Revenue is accelerating (16.0% → 16.3% → 17.6% YoY), it has beaten EPS 8 quarters running by 4.6–6.2% and raised its full-year guide at every print in FY27, and the stock has already corrected 15% in a month to ~26× forward with $7.09B of net cash on the balance sheet. That correction was a sector-wide software de-rating, not a Veeva-specific failure — the business did not deteriorate into the print. The market is pricing a ~12% options move on a name whose last four reactions averaged ±9%, and the forward bar barely requires a raise at all.
+- **Key evidence from the record:** Q2 FY27: EPS $2.35 vs $2.22–2.23 consensus (+5.4–5.9%), revenue $928M (+17.6% YoY, subscription +16%), FY27 guide raised to revenue $3.682–3.687B / EPS ~$9.21 — and the stock rose +15.2% the next session. Eight straight EPS beats, zero misses.
+- **Priced-in risk (THE TRAP):** Low. Down 15.3% in a month and 16.1% below its 52-week high ($325.99), forward P/E 26.19, implied move ±11.9% only ~1.3× its 9.13% average absolute move (down from ±13.0% yesterday), and FY27 EPS consensus has been flat at $9.22 for 60 days — no upward estimate drift raising the bar. The residual trap is not the price but the bar: consensus sits at the very top of management's Q3 guide on both lines, and Finnhub's higher sample ($2.39 / $953.68M, above guide top) means a meet can still read as a miss to part of the market.
+- **The guide:** Next quarter (Q4 FY27) the market carries Zacks consensus of $2.29 EPS / $940.75M revenue. The run-rate supports it: FY27 guide ~$9.21 minus 9-month actuals/consensus of $6.93 implies Q4 ≈ $2.28, and the revenue guide implies Q4 ~$936–941M — so a mere reiteration nearly suffices and a token raise closes it. "Beat but guided soft" is the loss case: if Veeva beats Q3 but leaves FY27 unraised (or subscription growth slips below 16%), the raise-every-quarter habit breaks and the market will read the beat as the last one, not the next one.
+- **Plan A or Plan B**, with one sentence of justification. Plan B — the cleanest setup in the field still fails the Plan A burden of proof, because the bar is the top of guide, Finnhub's sample sits above it, Salesforce prints the night before, and ADSK just proved last night that a beat-and-raise can fall 4–5% in this software tape.
+- **Fallback if the print disappoints:** Yes, hold it 12–18 months — happily. A 15–16% grower at ~26× forward with a net-cash balance sheet, 45% non-GAAP operating margins, ~75% gross margins, and a GxP-validated Vault stack that a top-20 pharma cannot plausibly in-source is exactly what you want to be stuck holding; a 15% gap down on multiple fears would be an opportunity, not a disaster.
+- **Event scenario:** beat-and-raise +8% to +12% (Q2 did +15.2% on the same shape); in-line / meet-with-no-raise −5% to −10% (a Q3 FY26 beat fell −10%); miss −12% to −18%.
+- **Top risk:** Consensus pinned to the top of guide plus the Finnhub vendor split — a print that merely meets the Zacks bar ($2.33–2.34 / $934–935M) can still read as a miss — compounded by a software multiple re-rating that punishes even clean prints, as ADSK demonstrated hours ago.
+- **Conviction (1-10):** 7
+
+## Ranked ballot
+
+1. VEEV — net-cash moat, corrected price, accelerating growth
+2. CTAS — best compounder, worst setup, FTC coin-flip
+3. AZO — cheap physical moat, levered, revenue misses
+4. ADSK — printed beat-and-fall, RPO stalling
+5. PAYX — sticky but AI-exposed, slowest growth
+
+### Top 3 detail
+
+**1. VEEV.** Most compelling record: 8/8 EPS beats (+4.6–6.2% each), revenue accelerating to +17.6% YoY, guide raised every quarter in FY27, and the stock has already given back 15% in a month to ~26× forward with $7.09B net cash. Reaction record is guide-dependent and honest (two up, one flat, one down on beats; Q2 +15.2%, Q3 FY26 −10%). Guide risk is low (3/10): Q4 consensus $2.29 / $940.75M is essentially the guide-implied number, so a reiteration nearly suffices. Priced-in risk is low (3/10) on the selloff, though consensus at the top of guide is the trap. Rough moves: beat-and-raise +8% to +12% / in-line −5% to −10% / miss −12% to −18%. Plan B.
+
+**2. CTAS.** Most compelling record: the best business in the batch — route-based uniform rental to 1M+ businesses, 8–9% organic growth, record gross margin 51.5% and operating margin 23.6%, guide raised at each of the last 5 prints, 8/8 EPS beats. Reaction record is a coin flip (−3%, +7%, −5%, +1% last four) — beating and raising has not reliably been rewarded, and the Q1 FY27 raise still sold off −3%. Guide risk is high (6/10): FY27 consensus EPS $5.54 sits at the very top of the raised guide, and Finnhub's Q2 sample ($1.393 / $3.089B) sits above the guide-implied run-rate, so a Zacks-beat can still read as a miss. Priced-in risk is the worst in the field (7/10): +30.6% in six months, ~3% off all-time highs at 36.3× forward, with the FTC/UniFirst binary (earliest close Dec 11, six days before the print) able to decide the week regardless of the quarter. Rough moves: beat-and-raise +3% to +6% / in-line −4% to −7% / miss or FTC suit −10% to −15%. Plan B.
+
+**3. AZO.** Most compelling record: the largest US auto-parts retailer (8,031 stores), hub-and-spoke distribution and commercial share gains that no online rival can replicate by shipping a part — a physical moat AI cannot route around — at 17.1× forward, ~16% off highs, with a buyback machine behind it. Reaction record is the field's worst pattern: revenue has missed 4 straight quarters and the last four reactions are +3%, −9%, −6%, −7% — the market sells exactly the EPS-beat/revenue-miss combination AZO keeps delivering. Guide risk is middling (5/10): there is no numeric guide to cut, but the FY27 qualitative steer is already soft (flat to low-single-digit comps) and the CFO departs today, leaving an interim CFO to deliver the numbers and defend the LIFO/tariff accounting. Priced-in risk is moderate (4/10): de-rated and estimates cut ~7% in 60 days, but the ±8.1% implied move is ~1.9× its 4.20% average and the stock just rallied 2.3% in a day. Rough moves: clean beat (EPS + revenue) +3% to +6% / EPS-beat-revenue-miss −5% to −9% / miss −8% to −12%. Plan B.
+
+Left out of my top 3: PAYX and ADSK. PAYX has the lowest irreplaceability in the field (6/10) — AI-native rivals (Gusto, Rippling, Deel) attack its SMB core on price and automation, ADP owns the enterprise, and AI-driven headcount cuts directly shrink its payroll seats — plus the worst reaction record (beats sold 3 of 4, average reaction negative). ADSK already printed: its beat-and-raise fell 3.5–5% after hours, the third straight beat-and-fall in FY27, and RPO growth of +3% for a third straight quarter with unbilled deferred revenue −4% is the one signal in this field that a moat's pricing model may actually be breaking.
